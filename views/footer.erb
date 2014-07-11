@@ -24,9 +24,9 @@
       <div class="col-xs-6 col-sm-3">
         <h4>Villes</h4>
         <ul class="list-unstyled">
-          <% CITIES.each do |city| %>
+          <% CITIES.each do |slug, city| %>
             <li>
-              <a href="/<%= city.slug %>"><%= city.name %></a>
+              <a href="/<%= slug %>"><%= city.name %></a>
             </li>
           <% end %>
         </ul>
@@ -34,9 +34,9 @@
       <div class="col-xs-6 col-sm-3">
         <h4>Programmes</h1>
         <ul class="list-unstyled">
-          <% PRODUCTS.each do |product| %>
+          <% PRODUCTS.each do |slug, product| %>
             <li>
-              <a href="/<%= product.slug %>"><%= product.name %></a>
+              <a href="/<%= slug %>"><%= product.name %></a>
             </li>
           <% end %>
         </ul>

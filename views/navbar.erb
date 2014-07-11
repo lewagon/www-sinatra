@@ -19,9 +19,9 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programmes <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <% PRODUCTS.each do |product| %>
+            <% PRODUCTS.each do |slug, product| %>
               <li>
-                <a href="/<%= product.slug %>"><%= product.name %></a>
+                <a href="/<%= slug %>"><%= product.name %></a>
               </li>
             <% end %>
           </ul>
@@ -29,9 +29,9 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Villes <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <% CITIES.each do |city| %>
+            <% CITIES.each do |slug, city| %>
               <li>
-                <a href="/<%= city.slug %>"><%= city.name %></a>
+                <a href="/<%= slug %>"><%= city.name %></a>
               </li>
             <% end %>
           </ul>

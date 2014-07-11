@@ -3,12 +3,17 @@ Bundler.require
 require 'sinatra/asset_pipeline'
 require 'sinatra/contrib/all'
 
-def load_data(name)
+def load_hash(name)
+  YAML::load_file(File.join(__dir__, "data/#{name}.yml")).inject({}){ |h,(k,v)| h[k] = OpenStruct.new(v); h }
+end
+
+def load_array(name)
   YAML::load_file(File.join(__dir__, "data/#{name}.yml")).map { |obj| OpenStruct.new(obj) }
 end
 
-CITIES = load_data(:cities)
-PRODUCTS = load_data(:products)
+CITIES = load_hash(:cities)
+PRODUCTS = load_hash(:products)
+SESSIONS = load_array(:sessions)
 
 class App < Sinatra::Base
   register Sinatra::AssetPipeline
@@ -22,13 +27,19 @@ class App < Sinatra::Base
     erb :index
   end
 
+  get '/postuler' do
+
+  end
+
+  get '/evenements' do
+    erb :evenements
+  end
+
   get '/*' do |path|
     path.downcase!
-    if CITIES.map(&:slug).include?(path)
-      @city = CITIES.first { |c| c.slug == path }
+    if @city = CITIES[path]
       erb :city
-    elsif PRODUCTS.map(&:slug).include?(path)
-      @product = PRODUCTS.first { |p| p.slug == path}
+    elsif @product = PRODUCTS[path]
       erb :product
     else
       [404, headers, ""]

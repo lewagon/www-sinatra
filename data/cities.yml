@@ -1,5 +1,5 @@
-- name: Paris
-  slug: paris
+paris:
+  name: Paris
 
-- name: Nancy
-  slug: nancy
+nancy:
+  name: Nancy
