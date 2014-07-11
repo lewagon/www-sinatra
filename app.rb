@@ -35,6 +35,25 @@ class App < Sinatra::Base
     erb :evenements
   end
 
+  get '/staff' do
+    erb :staff
+  end
+
+  get '/alumni' do
+    erb :alumni
+  end
+
+  get '/partenaires' do
+    erb :partenaires
+  end
+
+  get '/contact' do
+    erb :contact
+  end
+
+  # TODO: Mount /blog with jekyll
+  # http://derekeder.com/blog/hello-world-setting-up-a-jekyll-blog-in-sinatra
+
   get '/*' do |path|
     path.downcase!
     if @city = CITIES[path]
@@ -42,7 +61,7 @@ class App < Sinatra::Base
     elsif @product = PRODUCTS[path]
       erb :product
     else
-      [404, headers, ""]
+      raise Sinatra::NotFound.new
     end
   end
 end
