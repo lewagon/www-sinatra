@@ -1,0 +1,46 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-sm-3">
+        <h4>Le Wagon</h4>
+        <ul class="list-unstyled">
+          <li>Staff</li>
+          <li>Alumni</li>
+          <li>Événements</li>
+          <li>Partenaires</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+            <div class="col-xs-6 col-sm-3">
+        <h4>Suivez-nous</h4>
+        <ul class="list-unstyled">
+          <li><a href="https://twitter.com/lewagonparis">Twitter</a></li>
+          <li><a href="https://facebook.com/lewagonformation">Facebook</a></li>
+          <li><a href="https://github.com/lewagon">GitHub</a></li>
+          <li><a href="#">Newsletter</a></li>
+        </ul>
+      </div>
+      <div class="clearfix visible-xs-block"></div>
+      <div class="col-xs-6 col-sm-3">
+        <h4>Villes</h4>
+        <ul class="list-unstyled">
+          <% CITIES.each do |city| %>
+            <li>
+              <a href="/<%= city.slug %>"><%= city.name %></a>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-sm-3">
+        <h4>Programmes</h1>
+        <ul class="list-unstyled">
+          <% PRODUCTS.each do |product| %>
+            <li>
+              <a href="/<%= product.slug %>"><%= product.name %></a>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
