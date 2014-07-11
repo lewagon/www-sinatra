@@ -21,7 +21,7 @@
           <ul class="dropdown-menu" role="menu">
             <% PRODUCTS.each do |slug, product| %>
               <li>
-                <a href="/<%= slug %>"><%= product.name %></a>
+                <a href="/<%= slug %>"><%= product[:name] %></a>
               </li>
             <% end %>
           </ul>
@@ -31,7 +31,7 @@
           <ul class="dropdown-menu" role="menu">
             <% CITIES.each do |slug, city| %>
               <li>
-                <a href="/<%= slug %>"><%= city.name %></a>
+                <a href="/<%= slug %>"><%= city[:name] %></a>
               </li>
             <% end %>
           </ul>

@@ -17,13 +17,20 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     backports (3.6.0)
+    better_errors (1.1.0)
+      coderay (>= 1.0.0)
+      erubis (>= 2.6.6)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
     bootstrap-sass (3.2.0.0)
       sass (~> 3.2)
     builder (3.2.2)
+    coderay (1.1.0)
     coffee-script (2.3.0)
       coffee-script-source
       execjs
     coffee-script-source (1.7.1)
+    debug_inspector (0.0.2)
     erubis (2.7.0)
     execjs (2.2.1)
     hike (1.2.3)
@@ -92,6 +99,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  better_errors
+  binding_of_caller
   bootstrap-sass (~> 3.2.0)
   sass-rails (>= 3.2)
   sinatra

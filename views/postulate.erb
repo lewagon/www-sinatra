@@ -1,0 +1,26 @@
+<% content_for(:title) do %>
+  Le Wagon - Postuler
+<% end %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>Postuler</h1>
+      <% SESSIONS.each do |product_slug, sessions| %>
+        <h2><%= PRODUCTS[product_slug][:name] %></h2>
+        <% sessions.each do |session| %>
+          <ul>
+            <li>Ville : <%= CITIES[session[:city_slug].to_sym][:name] %></li>
+            <li>Départ : <%= session[:start_at] %></li>
+            <li>Départ : <%= session[:end_at] %></li>
+            <li>
+              <a href="/postuler/<%= product_slug %>/<%= session[:city_slug] %>">
+                Postuler
+              </a>
+            </li>
+          </ul>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>

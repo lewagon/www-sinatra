@@ -1,11 +1,11 @@
 <% content_for(:title) do %>
-  Le Wagon - <%= @city[:name] %>
+  Le Wagon - <%= @product[:name] %> - <%= @city[:name] %>
 <% end %>
 
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
-      <h1><%= @city[:name] %></h1>
+      <h1><%= @product[:name] %> - <%= @city[:name] %></h1>
     </div>
   </div>
 </div>

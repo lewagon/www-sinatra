@@ -1,2 +1,4 @@
-- product_slug:
-  city_slug:
+premiere:
+  - city_slug: paris
+    start_at: 2014-10-06
+    end_at: 2014-12-05
