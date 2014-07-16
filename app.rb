@@ -41,7 +41,11 @@ class App < Sinatra::Base
   end
 
   get '/premiere' do
-    erb :premiere
+    redirect to('/programme')
+  end
+
+  get '/programme' do
+    erb :programme
   end
 
   get '/partenaires' do
@@ -56,6 +60,10 @@ class App < Sinatra::Base
     erb :postulate
   end
 
+  get '/faq' do
+    erb :faq
+  end
+
   get '/postuler/*' do |product, city|
     @city = CITIES[city.to_sym]
     erb :postulate_city
@@ -68,6 +76,7 @@ class App < Sinatra::Base
     path = path.downcase.to_sym
     if @city = CITIES[path]
       erb :city
+    else
       raise Sinatra::NotFound.new
     end
   end
