@@ -11,7 +11,6 @@ def load(name)
 end
 
 CITIES = load(:cities)
-PRODUCTS = load(:products)
 SESSIONS = load(:sessions)
 
 class App < Sinatra::Base
@@ -26,10 +25,6 @@ class App < Sinatra::Base
 
   get '/' do
     erb :index
-  end
-
-  get '/evenements' do
-    erb :evenements
   end
 
   get '/staff' do

@@ -6,15 +6,14 @@
   <div class="row">
     <div class="col-xs-12">
       <h1>Postuler</h1>
-      <% SESSIONS.each do |product_slug, sessions| %>
-        <h2><%= PRODUCTS[product_slug][:name] %></h2>
+      <% SESSIONS.each do |city_slug, sessions| %>
         <% sessions.each do |session| %>
           <ul>
-            <li>Ville : <%= CITIES[session[:city_slug].to_sym][:name] %></li>
+            <li>Ville : <%= CITIES[city_slug.to_sym][:name] %></li>
             <li>Départ : <%= session[:start_at] %></li>
             <li>Départ : <%= session[:end_at] %></li>
             <li>
-              <a href="/postuler/<%= product_slug %>/<%= session[:city_slug] %>">
+              <a href="/postuler/<%= session[:city_slug] %>">
                 Postuler
               </a>
             </li>

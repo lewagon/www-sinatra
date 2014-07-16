@@ -6,7 +6,6 @@
         <ul class="list-unstyled">
           <li><a href="/staff">Staff</a></li>
           <li><a href="/alumni">Alumni</a></li>
-          <li><a href="/evenements">Événements</a></li>
           <li><a href="/partenaires">Partenaires</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
@@ -27,16 +26,6 @@
           <% CITIES.each do |slug, city| %>
             <li>
               <a href="/<%= slug %>"><%= city[:name] %></a>
-            </li>
-          <% end %>
-        </ul>
-      </div>
-      <div class="col-xs-6 col-sm-3">
-        <h4>Programmes</h1>
-        <ul class="list-unstyled">
-          <% PRODUCTS.each do |slug, product| %>
-            <li>
-              <a href="/<%= slug %>"><%= product[:name] %></a>
             </li>
           <% end %>
         </ul>
