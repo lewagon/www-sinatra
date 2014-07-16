@@ -40,6 +40,10 @@ class App < Sinatra::Base
     erb :alumni
   end
 
+  get '/premiere' do
+    erb :premiere
+  end
+
   get '/partenaires' do
     erb :partenaires
   end
@@ -52,16 +56,9 @@ class App < Sinatra::Base
     erb :postulate
   end
 
-  get '/postuler/*/*' do |product, city|
-    @product = PRODUCTS[product.to_sym]
+  get '/postuler/*' do |product, city|
     @city = CITIES[city.to_sym]
-    erb :postulate_product_city
-  end
-
-  get '/*/*' do |product, city|
-    @product = PRODUCTS[product.to_sym]
-    @city = CITIES[city.to_sym]
-    erb :product_city
+    erb :postulate_city
   end
 
   # TODO: Mount /blog with jekyll
@@ -71,9 +68,6 @@ class App < Sinatra::Base
     path = path.downcase.to_sym
     if @city = CITIES[path]
       erb :city
-    elsif @product = PRODUCTS[path]
-      erb :product
-    else
       raise Sinatra::NotFound.new
     end
   end
