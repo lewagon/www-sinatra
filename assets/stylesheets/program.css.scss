@@ -15,7 +15,7 @@
   }
   .filter{
     padding: 50px;
-    background-color: rgba(255, 167, 0, 0.8);/*rgba(0, 131, 245, 0.6);*/
+    background-color: rgba(255, 167, 0, 0.8); /*rgba(0, 131, 245, 0.6);*/
     height: 100%;
   }
 }
@@ -53,7 +53,7 @@
 }
 
 
-#daily-schedule{
+#daily-schedule {
   padding: 40px 0;
   h2{
     margin-bottom: 30px;
@@ -66,18 +66,12 @@
   }
 }
 
-#weekly-schedule{
-  padding: 40px 0;
+#weekly-schedule {
+  padding: 40px 0 70px 0;
   background-color: white;
 
   h2{
     margin-bottom: 30px;
-  }
-
-  td{
-    padding: 5px;
-    width: 10%;
-    text-align: center;
   }
 
   .number{
@@ -105,6 +99,10 @@
     margin-top: 12px;
     margin-right: 10px;
   }
+}
+
+#days{
+  text-align: center;
 }
 
 

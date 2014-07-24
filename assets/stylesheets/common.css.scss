@@ -2,9 +2,7 @@
 .grey {color: rgb(180, 180, 180);}
 .red {color: rgb(205, 64, 53);}
 .dark-blue {color: #113d59;}
-
 .vertical-spacer {height: 4.5em;}
-
 .center {text-align: center;}
 .justify {text-align: justify;}
 
@@ -64,5 +62,20 @@ body{
     margin-bottom: 6px;
     margin-left: 5px;
     margin-right: 5px;
+  }
+}
+
+.arrow-link{
+  text-decoration: none;
+  i {
+    -webkit-transition: all .3s ease;
+  }
+}
+
+.arrow-link:hover{
+  color: #428bca;
+  text-decoration: none;
+  i {
+    -webkit-transform: translateX(9px);
   }
 }
