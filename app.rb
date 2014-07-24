@@ -2,7 +2,8 @@ require 'bundler'
 Bundler.require
 
 require 'sinatra/asset_pipeline'
-require 'sinatra/contrib/all'
+require 'sinatra/content_for'
+
 require_relative 'lib/deep_symbolize'
 
 def load(name)

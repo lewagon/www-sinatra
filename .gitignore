@@ -1,7 +1,2 @@
 .sass-cache
 tmp
-public/assets/*.css
-public/assets/*.js
-public/assets/*.gz
-public/assets/*.png
-public/assets/*.jpg
