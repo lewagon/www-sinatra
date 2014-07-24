@@ -10,3 +10,5 @@ gem 'binding_of_caller', group: :development
 
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'sass-rails', '>= 3.2'
+
+gem 'puma'

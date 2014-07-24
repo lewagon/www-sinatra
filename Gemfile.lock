@@ -38,6 +38,8 @@ GEM
     json (1.8.1)
     minitest (5.4.0)
     multi_json (1.10.1)
+    puma (2.7.1)
+      rack (>= 1.1, < 2.0)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -102,6 +104,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bootstrap-sass (~> 3.2.0)
+  puma
   sass-rails (>= 3.2)
   sinatra
   sinatra-asset-pipeline
