@@ -3,7 +3,6 @@ Bundler.require
 
 require 'sinatra/asset_pipeline'
 require 'sinatra/content_for'
-require 'yaml'
 
 require_relative 'lib/deep_symbolize'
 
@@ -15,9 +14,6 @@ end
 
 CITIES = load(:cities)
 SESSIONS = load(:sessions)
-
-Post = Struct.new(:content, :metadata)
-JEKYLL_HEADER_PATTERN = /---(.*)---/m
 
 class App < Sinatra::Base
   register Sinatra::AssetPipeline
@@ -65,29 +61,10 @@ class App < Sinatra::Base
     erb :faq
   end
 
-  get '/blog' do
-    @posts = Dir["#{File.dirname(__FILE__)}/posts/*.md"].reverse.map do |file|
-      parse_post(file)
-    end
-    erb :blog
-  end
-
   CITIES.each do |slug, city|
     get "/#{slug}" do
       @city = city
       erb :city
     end
-  end
-
-  private
-
-  def parse_post(file)
-    renderer = Redcarpet::Render::HTML.new
-    markdown = Redcarpet::Markdown.new(renderer, extensions = {})
-
-    file_content = File.read(file)
-    yaml_content = JEKYLL_HEADER_PATTERN.match(file_content).captures[0]
-    markdown_content = markdown.render(file_content.gsub(JEKYLL_HEADER_PATTERN, ''))
-    Post.new(markdown_content, yaml_content ? YAML.load(yaml_content) : {})
   end
 end

@@ -1,0 +1,103 @@
+#strength{
+  text-align: center;
+}
+
+#alumni{
+
+  text-align: center;
+
+  .testimonial{
+    text-align: left;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px 20px 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  }
+
+  .testimonial::after {
+    background-color: #fff;
+    box-shadow: -1px 1px 1px 0 rgba(0, 0, 0, .2);
+    content: "\00a0";
+    display: block;
+    height: 20px;
+    left: 50%;
+    margin-left: -10px;
+    position: relative;
+    bottom: -10px;
+    width: 20px;
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+  }
+
+
+  .signature{
+    text-align: right;
+    font-weight: 700;
+    color: rgb(100,100,100);
+  }
+
+  .workfor > a > img {
+      height: 40px;
+  }
+}
+
+
+ #cursus{
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+ }
+
+#technos{
+  width: 100%;
+  td{
+    padding: 10px;
+  }
+  img {
+    text-align: center;
+    background-color: #113d59;
+    width: 100%;
+    padding: 10%;
+    -moz-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    -webkit-transition: background-color .3s ease;
+    border-radius: 50%;
+  }
+
+  img:hover{
+    background-color: rgb(205, 64, 53);
+  }
+}
+
+
+#core-skills{
+  padding: 20px 0 0 0;
+  font-weight: 300;
+  font-size: 15px;
+  list-style-type: none;
+  li{margin-bottom: 25px;}
+}
+
+#news{
+  padding-top: 50px;
+  background-color: white;
+  tr{
+    border-bottom: 1px dashed lightgrey;
+    td {padding: 20px 0;}
+  }
+  img{width: 100px;}
+  .desc{padding-left: 20px;}
+  #workshops{padding-left: 50px;}
+  #twitter{padding: 70px;}
+}
+
+#meetus{
+  min-height: 400px;
+  background-image: asset-url("team.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 1px solid grey;
+}

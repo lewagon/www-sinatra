@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'PillGothic';
+    /*src: asset-url('fonts/PillGothic300.eot');*/
+    src: asset-url('fonts/PillGothic300.eot?#iefix') format('embedded-opentype'),
+         asset-url('fonts/PillGothic300.woff') format('woff'),
+         asset-url('fonts/PillGothic300.ttf') format('truetype'),
+         asset-url('fonts/PillGothic300.svg#pill_gothic_300mgmedium') format('svg');
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: "PillGothic", Helvetica, sans-serif;
+  color: rgb(20, 20, 20);
+}
+
+h2 {
+  font-family: "PillGothic", monospace;
+  font-size: 35px;
+}
+
+h3, h4 {
+  font-family: "Bitter", monospace;
+}

@@ -1,0 +1,16 @@
+<% content_for(:title) do %>
+  Le Wagon - Blog
+<% end %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-1w">
+      <h1>Blog</h1>
+
+      <% @posts.each do |post| %>
+        <%= post.metadata %>
+        <%= post.content %>
+      <% end %>
+    </div>
+  </div>
+</div>
