@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'PillGothic';
-  src: url('fonts/PillGothic300.otf');
+  src: image-url('fonts/PillGothic300.otf');
 }
 
 body {
