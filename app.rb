@@ -70,12 +70,10 @@ class App < Sinatra::Base
   # TODO: Mount /blog with jekyll
   # http://derekeder.com/blog/hello-world-setting-up-a-jekyll-blog-in-sinatra
 
-  get '/*' do |path|
-    path = path.downcase.to_sym
-    if @city = CITIES[path]
+  CITIES.each do |slug, city|
+    get "/#{slug}" do
+      @city = city
       erb :city
-    else
-      raise Sinatra::NotFound.new
     end
   end
 end
