@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'PillGothic';
+  src: url('fonts/PillGothic300.otf');
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: "PillGothic", Helvetica, sans-serif;
+  color: rgb(20, 20, 20);
+}
+
+h2 {
+  font-family: "PillGothic", monospace;
+  font-size: 35px;
+}
+
+h3, h4 {
+  font-family: "Bitter", monospace;
+}
