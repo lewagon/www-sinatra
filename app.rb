@@ -18,8 +18,6 @@ class App < Sinatra::Base
   register Sinatra::AssetPipeline
   helpers Sinatra::ContentFor
 
-  set :public_folder, 'public'
-
   configure :development do
     require 'better_errors'
     register Sinatra::Reloader
