@@ -4,8 +4,20 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-xs-1w">
-      <h1>FAQ</h1>
+    <div class="col-sm-8 col-sm-offset-2">
+      <div class="faq">
+        <h1 class="text-center">FAQ</h1>
+
+        <% FAQS.each do |faq| %>
+          <article>
+            <h2><%= faq[:question] %></h2>
+            <p><%= faq[:answer] %></p>
+          </article>
+        <% end %>
+
+        Nous n'avons pas répondu à votre question ?
+        Une seule adresse : <a href="mailto:contact@lewagon.org">contact@lewagon.org</a>
+      </div>
     </div>
   </div>
 </div>
