@@ -24,7 +24,16 @@
           </div>
         </form>
         <div>
-          <div class="fb-like" data-href="https://www.facebook.com/lewagonformation" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+        <div class="fb-like" data-href="https://www.facebook.com/lewagonformation" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+        <script>
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&appId=170809313078160&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
           <a href="https://twitter.com/Lewagonparis" class="twitter-follow-button" data-show-count="true" data-lang="en" data-show-screen-name="false">Follow</a>
         </div>
       </div>
@@ -111,13 +120,15 @@
     <div class="col-xs-12 col-sm-6 col-md-3">
       <div class="testimonial">
         <p>
-          <strong class="grey">"</strong> Le Wagon a accéléré ma transition vers le métier qui me passionne vraiment. Sorti d'une école de commerce, je suis maintenant développeur junior chez weroom dans un cadre super stimulant où je continue a apprendre tous les jours. <strong class="grey">"</strong>
+          <strong class="grey">"</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi laboris nisi.<strong class="grey">"</strong>
         </p>
         <p class="signature">
           <span class="red">–</span> Vincent Simon
         </p>
         <div class="workfor">
-          <span class="grey">travaille pour</span> <a href="http://www.fifty-five.com/"><img src="<%= image_path 'logos/fifty-five.png' %>" alt="Kudoz" class="workfor"></a>
+          <span class="grey">travaille pour</span> <a href="http://www.fifty-five.com/"><img src="<%= image_path 'logos/fifty-five.png' %>" alt="Fifty-Five" class="workfor"></a>
         </div>
       </div>
       <img src="<%= image_path 'alumni/vincent.png' %>" alt="Vincent Simon" class="circle">
@@ -147,6 +158,14 @@
 
         <table>
           <tr>
+            <td><img src="<%= image_path 'logos/wde.png' %>" alt="web design"></td>
+            <td class="desc">
+              <p>Web-Design Express - <strong>7 Septembre</strong></p>
+              <p>12 jours pour apprendre à designer et créer son site web.</p>
+              <a href="#">+ de détails <i class="fa fa-angle-double-right"></i></a>
+            </td>
+          </tr>
+          <tr>
             <td><img src="<%= image_path 'logos/surfcamp.png' %>" alt="surf camp"></td>
             <td class="desc">
               <p>Surf Camp - <strong>7 Septembre</strong></p>
@@ -155,13 +174,6 @@
             </td>
           </tr>
           <tr>
-            <td><img src="<%= image_path 'logos/wde.png' %>" alt="web design"></td>
-            <td class="desc">
-              <p>Web-Design Express - <strong>7 Septembre</strong></p>
-              <p>12 jours pour apprendre à designer et créer son site web.</p>
-              <a href="#">+ de détails <i class="fa fa-angle-double-right"></i></a>
-            </td>
-          </tr>
             <td><img src="<%= image_path 'logos/cetetejecode.png' %>" alt="cet ete je code"></td>
             <td class="desc">
               <p>Cet été je code</p>

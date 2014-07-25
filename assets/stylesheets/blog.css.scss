@@ -21,3 +21,22 @@ img {
 .blog-aside {
   line-height: 200%;
 }
+
+
+.blog-input{
+  font-weight: 300;
+  background: rgb(200,200,200);
+  color: black;
+  border: 1px solid white;
+  border-radius: 2px;
+  height: 40px;
+  padding: 4px 10px;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.blog-input:active, .blog-input:focus{
+  background-color: white;
+  border: 1px solid black;
+}
