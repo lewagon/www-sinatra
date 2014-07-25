@@ -1,15 +1,14 @@
 ---
 layout: post
 title:  "10 questions for modern CEOs"
-date:   2013-05-30 
-categories: cours camping
+date:   2013-05-30
 ---
 
-![code au camping]({{ site.url }}/assets/test.jpg)
+![code au camping](/assets/blog/code_camping.jpg)
 
+Last May, Le wagon introduced CEOs from <a href="http://www.lecamping.org/">le camping</a>, Season4 to the basics of design, front-end & back-end development. The idea behing these courses was to give them a basic overview on the essentials: how a website works, responds to requests, treats and stores data, builds and stylizes responses.
 
-<br/>
-Last May, Le wagon introduced CEOs from <a href="http://www.lecamping.org/">le camping</a>, Season4 to the basics of design, front-end & back-end development. The idea behing these courses was to give them a basic overview on the essentials: how a website works, responds to requests, treats and stores data, builds and stylizes responses. 
+===
 
 The conclusion was what we had predicted. With enough will and analytical background, any beginner can learn to code. Additionally, any entrepreneur worth his salt should at least grasp some web concepts before taking the plunge. Here are a few questions an entrepreneur should ask himself, before starting the journey.
 
@@ -25,8 +24,5 @@ The conclusion was what we had predicted. With enough will and analytical backgr
 9. Can I quickly access social data using social APIs?
 10. Or automate the collection of social data relevant for my business decisions?
 
-
-These are the necessary questions for the CEO 2.0. 
-
-<h4 class="red bold">Are you on the right track?</h4>
+These are the necessary questions for the CEO 2.0. Are you on the right track?
 

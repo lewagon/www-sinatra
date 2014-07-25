@@ -1,0 +1,18 @@
+<% content_for(:title) do %>
+  Le Wagon - <%= @post.metadata[:title] %>
+<% end %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+      <h1><%= @post.metadata[:title] %></h1>
+
+      <article class="blog-post">
+        <%= @post.content %>
+      </article>
+    </div>
+    <div class="col-sm-4">
+      <%= erb :blog_aside %>
+    </div>
+  </div>
+</div>

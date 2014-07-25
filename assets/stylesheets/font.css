@@ -21,6 +21,6 @@ h2 {
   font-size: 35px;
 }
 
-h3, h4 {
-  font-family: "Bitter", monospace;
+h3, h4, h5, h6 {
+  font-family: "PillGothic", monospace;
 }
