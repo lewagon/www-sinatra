@@ -1,0 +1,33 @@
+<% content_for(:title) do %>
+  Le Wagon - Blog
+<% end %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+      <h1>Blog</h1>
+
+      <div class="all-posts">
+        <% @posts.each do |post| %>
+          <article class="blog-post">
+            <h2>
+              <a href="/blog/<%= post.slug %>">
+                <%= post.metadata[:title] %>
+              </a>
+            </h2>
+            <%= post.excerpt %>
+            <% if post.excerpt? %>
+              <a href="/blog/<%= post.slug %>">
+                Lire la suite
+                <i class="fa fa-angle-double-right"></i>
+              </a>
+            <% end %>
+          </article>
+        <% end %>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <%= erb :blog_aside %>
+    </div>
+  </div>
+</div>

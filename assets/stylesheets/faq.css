@@ -1,0 +1,8 @@
+.faq {
+  article {
+    background-color: white;
+    margin: 2em 0;
+    border: 1px solid #eee;
+    padding: 1em 2em;
+  }
+}

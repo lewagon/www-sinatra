@@ -12,5 +12,5 @@ paris:
     - chaire-escp
     - lebusinessplan
 
-bruxelles:
-  name: Bruxelles
+# bruxelles:
+#   name: Bruxelles

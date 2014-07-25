@@ -1,0 +1,56 @@
+@import 'font';
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+
+body {
+  font-size: 16px;
+  padding: 1em;
+}
+
+.wufoo li.focused {
+  background: none;
+}
+
+.wufoo input.text, .wufoo textarea.textarea {
+  background: none !important;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+  border-radius: 4px;
+  padding: 4px 6px;
+}
+
+.wufoo input.btTxt {
+  border: 1px solid #DD4B39;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 0;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 0 #FFFFFF;
+  vertical-align: middle;
+  background: none repeat scroll 0 0 #DD4B39;
+  color: #FFFFFF;
+  transition: all 0.1s linear 0s;
+}
+
+.wufoo input.btTxt:hover {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #DD4B39;
+  color: #DD4B39;
+  transition: all 0.1s linear 0s;
+}
+
+.wufoo .info h2 {
+  font-family: "PillGothic", Helvetica, sans-serif;
+  color: rgb(20, 20, 20);
+}
+
+.wufoo .info div,
+.wufoo label.desc, .wufoo legend.desc,
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label {
+  font-family: 'Open Sans', sans-serif !important;
+}

@@ -1,0 +1,23 @@
+img {
+  max-width: 100%;
+}
+
+.all-posts {
+  article {
+    margin-bottom: 3em;
+  }
+}
+
+.blog-post {
+  line-height: 180%;
+
+  h3, h4 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    line-height: 160%;
+  }
+}
+
+.blog-aside {
+  line-height: 200%;
+}
