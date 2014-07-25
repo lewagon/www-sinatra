@@ -4,7 +4,7 @@ title:  "Mack, teacher at the ouagon"
 date:   2013-09-18
 ---
 
-![Mack](/assets/blog/mack.png)
+![Mack](blog_image_path mack.png)
 
 Ancien élève du [Devbootcamp](http://www.devbootcamp.com/), Mack vit en France depuis 1 an. Après avoir travaillé chez  [Tigerlily](http://www.tigerlilyapps.com/fr/), il a décidé de se concentrer sur son service d'abonnement/partage autour du whiskey [Taster's Club](http://www.tastersclub.com/) et de rejoindre l'équipe du wagon pour enseigner **le code qui sert**. Il nous parle de son expérience à DBC et de son rôle au wagon, forgive the english !
 

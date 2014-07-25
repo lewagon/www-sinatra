@@ -4,7 +4,7 @@ title:  "Et si vous deveniez développeur chez Uber ?"
 date:   2013-09-18
 ---
 
-![Pierre Kosciusko-Morizet](/assets/blog/pierre-d.jpg)
+![Pierre Kosciusko-Morizet](blog_image_path pierre-d.jpg)
 
 #### Qui es-tu ?
 

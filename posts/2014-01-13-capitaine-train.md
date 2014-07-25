@@ -4,7 +4,7 @@ title:  "Le Wagon, Capitaine Train : codeurs du rail"
 date:   2014-01-13 19:46:01
 ---
 
-![Jean-Daniel Guyot](/assets/blog/jean-daniel-guyot.jpg)
+![Jean-Daniel Guyot](blog_image_path jean-daniel-guyot.jpg)
 
 #### Qui es-tu ?
 

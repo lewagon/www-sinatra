@@ -1,9 +1,13 @@
+require "sprockets-helpers"
 require_relative "./deep_symbolize"
 
 class Blog
   class Post
     JEKYLL_HEADER_PATTERN = /---(.*)---/m
     JEKYLL_EXCERPT_SEPARATOR = /===/
+    BLOG_IMAGE_PATH_PATTERN = /\(blog_image_path ([^\)]*)\)/
+
+    include Sprockets::Helpers
 
     def initialize(file)
       @file = file
@@ -41,7 +45,12 @@ class Blog
     end
 
     def article_content
-      @article_content ||= file_content.gsub(JEKYLL_HEADER_PATTERN, '')
+      @article_content ||= (
+        content = file_content.gsub(JEKYLL_HEADER_PATTERN, '')
+        content = content.gsub(BLOG_IMAGE_PATH_PATTERN) do
+          "(#{image_path "blog/#{$1}"})"
+        end
+      )
     end
 
     def markdown

@@ -4,7 +4,7 @@ title:  "ITW de Xavier d'Eqosphere, Prix « Eco-innovations » de la ville de Pa
 date:   2014-03-03
 ---
 
-![Xavier Corval](/assets/blog/xavier-corval.jpg)
+![Xavier Corval](blog_image_path xavier-corval.jpg)
 
 #### Xavier est-ce que tu peux nous parler de ton parcours ?
 

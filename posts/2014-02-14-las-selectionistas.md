@@ -5,7 +5,7 @@ date:   2014-02-14 09:46:01
 ---
 
 
-![Selectionistas](/assets/blog/selectionistas.jpg)
+![Selectionistas](blog_image_path selectionistas.jpg)
 
 #### Est-ce que tu peux nous parler de ton parcours?
 

@@ -7,7 +7,7 @@ date:   2014-04-30
 
 ##### Ecrit par Miruna (<a href="https://twitter.com/anamiruna" target="_blank"><span class="red bold">@anamiruna</span></a>)
 
-![Candies](/assets/blog/candies.png)
+![Candies](blog_image_path candies.png)
 
 Oyé oyé, aujourd'hui nous avons le plaisir d'annoncer les goodies que le Wagon et ses partenaires offrent à leurs alumnis.
 

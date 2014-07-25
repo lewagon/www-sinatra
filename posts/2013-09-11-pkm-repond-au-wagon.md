@@ -4,7 +4,7 @@ title:  "Pierre Kosciusko-Morizet répond au wagon"
 date:   2013-09-11
 ---
 
-![Pierre Kosciusko-Morizet](/assets/blog/pkm.jpg)
+![Pierre Kosciusko-Morizet](blog_image_path pkm.jpg)
 
 
 Pierre Kosciusko-Morizet est CEO de [PriceMinister](http://www.priceminister.com). Il s'est prêté au jeu d'une petite interview pour le Wagon...

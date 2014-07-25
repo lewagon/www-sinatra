@@ -4,7 +4,7 @@ title:  "LocalEyes, nos voisins du Camping"
 date:   2014-01-27 09:46:01
 ---
 
-![Olivier](/assets/blog/olivier-local-eyes.jpg)
+![Olivier](blog_image_path olivier-local-eyes.jpg)
 
 #### Qui es-tu ?
 

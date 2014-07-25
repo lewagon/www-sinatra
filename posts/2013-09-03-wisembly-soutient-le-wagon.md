@@ -4,7 +4,7 @@ title:  "Wisembly soutient le wagon"
 date:   2013-09-03
 ---
 
-![romain de wisembly](/assets/blog/romain_wisembly.jpg)
+![romain de wisembly](blog_image_path romain_wisembly.jpg)
 
 #### Qui est-tu ?
 

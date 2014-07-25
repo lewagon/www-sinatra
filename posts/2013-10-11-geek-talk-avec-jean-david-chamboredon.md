@@ -5,7 +5,7 @@ date:   2013-10-11
 categories: soutien
 ---
 
-![JD Chamboredon](/assets/blog/jdchamboredon.jpg)
+![JD Chamboredon](blog_image_path jdchamboredon.jpg)
 
 Jean-David Chamboredon, CEO d’ISAI et acteur emblématique du capital-risque auprès des startups en France, a accepté de répondre à nos questions.
 

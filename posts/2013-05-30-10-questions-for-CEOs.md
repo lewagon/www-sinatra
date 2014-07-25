@@ -4,7 +4,7 @@ title:  "10 questions for modern CEOs"
 date:   2013-05-30
 ---
 
-![code au camping](/assets/blog/code_camping.jpg)
+![code au camping](blog_image_path code_camping.jpg)
 
 Last May, Le wagon introduced CEOs from <a href="http://www.lecamping.org/">le camping</a>, Season4 to the basics of design, front-end & back-end development. The idea behing these courses was to give them a basic overview on the essentials: how a website works, responds to requests, treats and stores data, builds and stylizes responses.
 

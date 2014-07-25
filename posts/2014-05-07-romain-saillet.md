@@ -6,7 +6,7 @@ date:   2014-05-07
 
 ##### Ecrit par Miruna (<a href="https://twitter.com/anamiruna" target="_blank"><span class="red bold">@anamiruna</span></a>)
 
-![image](https://dl.dropboxusercontent.com/u/64779860/Le%20Wagon/medialab%20romain%20saillet%20II.jpg)
+![image](blog_image_path medialab-romain-saillet.jpg)
 
 Nous avons rencontré [Romain Saillet](https://twitter.com/RomainSaillet) fondateur de [MédiaLab Sessions](http://www.medialabsession.org/) et CEO de Story Tailor et on a discuté ensemble des nouveaux médias. Voici son interview.
 
