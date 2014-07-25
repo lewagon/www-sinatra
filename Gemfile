@@ -13,9 +13,9 @@ gem 'redcarpet'
 gem 'rack-cors', :require => 'rack/cors'
 
 group :development do
-  gem 'sinatra-reloader', require: true
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'rerun'
 end
 
 group :production do

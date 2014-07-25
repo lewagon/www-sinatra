@@ -3,19 +3,9 @@ Bundler.require
 
 require 'sinatra/asset_pipeline'
 require 'sinatra/content_for'
-require 'yaml'
 
-require_relative 'lib/deep_symbolize'
+require_relative 'lib/data'
 require_relative 'lib/blog'
-
-def load(name)
-  hash = YAML::load_file(File.join(__dir__, "data/#{name}.yml"))
-  hash.extend DeepSymbolizable
-  hash.deep_symbolize { |key| key }
-end
-
-CITIES = load(:cities)
-FAQS = load(:faqs)
 
 class App < Sinatra::Base
   set :assets_precompile, %w(app.js app.css wufoo.css *.png *.jpg *.svg *.otf *.eot *.ttf *.woff)
@@ -25,7 +15,6 @@ class App < Sinatra::Base
 
   configure :development do
     require 'better_errors'
-    register Sinatra::Reloader
     use BetterErrors::Middleware
   end
 

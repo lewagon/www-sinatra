@@ -10,7 +10,7 @@ $ git checkout master        # Go back to master branch
 $ git pull origin master     # Fetch latest version
 
 # Launch the server, then go to http://localhost:9292
-$ rackup   # You may do this in another tab.
+$ rerun rackup   # You may do this in another tab.
 
 # Then create a branch to work in (not your-new-feature!)
 $ git checkout -b your-new-feature  # Please choose a descriptive name
