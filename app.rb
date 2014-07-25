@@ -15,6 +15,7 @@ def load(name)
 end
 
 CITIES = load(:cities)
+FAQS = load(:faqs)
 
 class App < Sinatra::Base
   register Sinatra::AssetPipeline
