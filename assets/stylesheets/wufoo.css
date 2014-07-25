@@ -1,4 +1,11 @@
-@import 'fonts';
+@font-face {
+  font-family: 'PillGothic';
+    src: asset-url('fonts/PillGothic300.eot');
+    src: asset-url('fonts/PillGothic300.eot?#iefix') format('embedded-opentype'),
+         asset-url('fonts/PillGothic300.woff') format('woff'),
+         asset-url('fonts/PillGothic300.ttf') format('truetype'),
+         asset-url('fonts/PillGothic300.svg#pill_gothic_300mgmedium') format('svg');
+}
 
 body {
   font-size: 16px;
