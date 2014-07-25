@@ -2,24 +2,61 @@
   Le Wagon - Postuler
 <% end %>
 
+<div id="postulate-banner" class="sub-banner">
+  <div class="filter">
+    <div class="row">
+      <div class="col-xs-12 center">
+        <h1>Postulez au Wagon</h1>
+        <div class="vertical-spacer"></div>
+        <ul class="list-inline">
+          <li>html & css<img src="<%= image_path 'icons/html.png' %>" alt="html"></li>
+          <li>ruby & Rails<img src="<%= image_path 'icons/ruby.png' %>" alt="ruby"></li>
+          <li>javascript<img src="<%= image_path 'icons/js.png' %>" alt="js"></li>
+          <li>git & Github <img src="<%= image_path 'icons/git.png' %>" alt="git"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="goal">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+          Le Wagon est une formation exigente qui nécessite votre investissement à <strong>temps plein</strong> pendant <strong>9 semaines</strong>. Vous devez être à l'aise pour lire de l'<strong>anglais</strong>, langue technique de référence en programmation. Oh, et si vous ne l'avez pas encore fait, allez jusqu'au bout de <a href="http://www.codecademy.com/tracks/ruby" target="_blank"><strong>ce cours anglais</strong></a>.
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container">
   <div class="row">
-    <div class="col-xs-12">
-      <h1>Postuler</h1>
-      <% SESSIONS.each do |city_slug, sessions| %>
-        <% sessions.each do |session| %>
-          <ul>
-            <li>Ville : <%= CITIES[city_slug.to_sym][:name] %></li>
-            <li>Départ : <%= session[:start_at] %></li>
-            <li>Départ : <%= session[:end_at] %></li>
-            <li>
-              <a href="/postuler/<%= session[:city_slug] %>">
-                Postuler
-              </a>
-            </li>
-          </ul>
-        <% end %>
-      <% end %>
+    <div class="col-sm-8 col-sm-offset-2">
+        <div id="postuler">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="active">
+            <a href="#octobre-2014" data-toggle="tab" role="tab" data-wufoo-id="rlgnjjq0uvoqaa">
+              Paris - Octobre 2014
+            </a>
+          </li>
+          <li>
+            <a href="#janvier-2015" data-toggle="tab" role="tab" data-wufoo-id="s8e5iew1rkkqjo">
+              Paris - Janvier 2015
+            </a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane active" id="octobre-2014">
+            <div id="wufoo-rlgnjjq0uvoqaa"></div>
+          </div>
+          <div class="tab-pane" id="janvier-2015">
+            <div id="wufoo-s8e5iew1rkkqjo"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
