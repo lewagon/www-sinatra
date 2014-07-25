@@ -5,7 +5,7 @@
     name: Kudoz
     url: http://www.getkudoz.com
     image_name: kudoz-landing.png
-    teaser: "L'application iOS pour laisser les offres d'emploi venir à vous. Un vrai tinder de l'emploi."
+    teaser: "L'application iOS pour laisser les offres d'emploi venir à vous. Un tinder de l'emploi."
     description: "Développement de l'API back-end, de l'algorithme de filtrage lié à linkedin, et de l'interface-web côté RH."
   links:
     - url: http://github.com/olixier
