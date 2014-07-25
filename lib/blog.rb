@@ -69,6 +69,6 @@ class Blog
   private
 
   def files
-    Dir["#{File.dirname(__FILE__)}/../posts/*.md"]
+    Dir["#{File.dirname(__FILE__)}/../posts/*.md"].sort
   end
 end
