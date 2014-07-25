@@ -11,6 +11,11 @@ body{
   padding-top: 70px;
   background-color: rgb(240, 244, 245);
 }
+@media(max-width: $screen-sm-max) {
+  body{
+  padding-top: 50px;
+  }
+}
 
 .blue-btn{
   font-weight: 400;
@@ -78,5 +83,51 @@ body{
   text-decoration: none;
   i {
     -webkit-transform: translateX(9px);
+  }
+}
+
+.newsletter-form{
+  .blue-btn{
+    vertical-align: 0px;
+  }
+
+  .subscribe-input{
+    font-weight: 300;
+    background: rgb(200,200,200);
+    color: black;
+    border: 1px solid white;
+    border-radius: 2px;
+    height: 40px;
+    width: 250px;
+    padding: 4px 10px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+  }
+
+  .subscribe-input:active, .subscribe-input:focus{
+    background-color: white;
+    border: 1px solid black;
+  }
+}
+.link-list a {
+  text-align: center;
+  color: #CCCCCC;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 2px solid #CCCCCC;
+}
+.link-list a:hover {
+  color: #555;
+  border: 2px solid #555;
+}
+
+.apply{
+  padding: 60px 0;
+  .box{
+    padding: 20px;
   }
 }

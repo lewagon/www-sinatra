@@ -1,8 +1,16 @@
 paris:
   name: Paris
-
-nancy:
-  name: Nancy
+  partners:
+    - thefamily
+    - lecamping
+    - urbanlinker
+    - uber
+    - capitainetrain
+    - drivy
+    - wisembly
+    - fifty-five
+    - chaire-escp
+    - lebusinessplan
 
 bruxelles:
   name: Bruxelles
