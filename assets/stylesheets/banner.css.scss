@@ -57,29 +57,8 @@
   .fb-like{
     vertical-align: 6px;
   }
-  .blue-btn{
-    vertical-align: 0px;
-  }
 }
 
-#subscribe-input{
-  font-weight: 300;
-  background: rgb(200,200,200);
-  color: black;
-  border: 1px solid white;
-  border-radius: 2px;
-  height: 40px;
-  width: 250px;
-  padding: 4px 10px;
-  -webkit-transition: all .3s linear;
-  -moz-transition: all .3s linear;
-  transition: all .3s linear;
-}
-
-#subscribe-input:active, #subscribe-input:focus{
-  background-color: white;
-  border: 1px solid black;
-}
 
 #banner:-webkit-input-placeholder { /* WebKit browsers */
     color: rgb(150,150,150);

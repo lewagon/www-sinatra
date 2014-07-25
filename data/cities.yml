@@ -1,5 +1,16 @@
 paris:
   name: Paris
+  partners:
+    - thefamily
+    - lecamping
+    - urbanlinker
+    - uber
+    - capitainetrain
+    - drivy
+    - wisembly
+    - fifty-five
+    - chaire-escp
+    - lebusinessplan
 
-brussels:
-  name: Brussels
+# bruxelles:
+#   name: Bruxelles
