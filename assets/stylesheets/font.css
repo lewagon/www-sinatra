@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'PillGothic';
-    /*src: asset-url('fonts/PillGothic300.eot');*/
+    src: asset-url('fonts/PillGothic300.eot');
     src: asset-url('fonts/PillGothic300.eot?#iefix') format('embedded-opentype'),
          asset-url('fonts/PillGothic300.woff') format('woff'),
          asset-url('fonts/PillGothic300.ttf') format('truetype'),

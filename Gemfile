@@ -9,6 +9,9 @@ gem 'bootstrap-sass', '~> 3.2.0'
 
 gem 'redcarpet'
 
+# Serve fonts to other domains (Wufoo)
+gem 'rack-cors', :require => 'rack/cors'
+
 group :development do
   gem 'sinatra-reloader', require: true
   gem 'better_errors'

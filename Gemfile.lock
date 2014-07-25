@@ -22,6 +22,7 @@ GEM
     puma (2.7.1)
       rack (>= 1.1, < 2.0)
     rack (1.5.2)
+    rack-cors (0.2.9)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.2)
@@ -75,6 +76,7 @@ DEPENDENCIES
   binding_of_caller
   bootstrap-sass (~> 3.2.0)
   puma
+  rack-cors
   rails_12factor
   redcarpet
   sinatra

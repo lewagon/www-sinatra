@@ -18,6 +18,8 @@ CITIES = load(:cities)
 FAQS = load(:faqs)
 
 class App < Sinatra::Base
+  set :assets_precompile, %w(app.js app.css wufoo.css *.png *.jpg *.svg *.otf *.eot *.ttf *.woff)
+
   register Sinatra::AssetPipeline
   helpers Sinatra::ContentFor
 
