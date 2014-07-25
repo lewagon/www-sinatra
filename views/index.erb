@@ -24,7 +24,16 @@
           </div>
         </form>
         <div>
-          <div class="fb-like" data-href="https://www.facebook.com/lewagonformation" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+        <div class="fb-like" data-href="https://www.facebook.com/lewagonformation" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+        <script>
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&appId=170809313078160&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
           <a href="https://twitter.com/Lewagonparis" class="twitter-follow-button" data-show-count="true" data-lang="en" data-show-screen-name="false">Follow</a>
         </div>
       </div>
