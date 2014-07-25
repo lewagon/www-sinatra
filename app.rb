@@ -3,8 +3,10 @@ Bundler.require
 
 require 'sinatra/asset_pipeline'
 require 'sinatra/content_for'
+require 'yaml'
 
 require_relative 'lib/deep_symbolize'
+require_relative 'lib/blog'
 
 def load(name)
   hash = YAML::load_file(File.join(__dir__, "data/#{name}.yml"))
@@ -29,45 +31,30 @@ class App < Sinatra::Base
     erb :index
   end
 
-  get '/staff' do
-    erb :staff
-  end
-
-  get '/alumni' do
-    erb :alumni
-  end
-
   get '/premiere' do
     redirect to('/programme')
   end
 
-  get '/programme' do
-    erb :programme
-  end
-
-  get '/partenaires' do
-    erb :partenaires
-  end
-
-  get '/contact' do
-    erb :contact
+  %i(staff alumni programme partenaires contact faq).each do |slug|
+    get "/#{slug}" do
+      erb slug
+    end
   end
 
   get '/postuler' do
     erb :postulate
   end
 
-  get '/faq' do
-    erb :faq
+  get '/blog' do
+    @posts = Blog.new.all
+    erb :blog
   end
 
-  get '/postuler/*' do |product, city|
-    @city = CITIES[city.to_sym]
-    erb :postulate_city
+  get '/blog/*' do |slug|
+    @post = Blog.new.post(slug)
+    halt 404 unless @post
+    erb :post
   end
-
-  # TODO: Mount /blog with jekyll
-  # http://derekeder.com/blog/hello-world-setting-up-a-jekyll-blog-in-sinatra
 
   CITIES.each do |slug, city|
     get "/#{slug}" do
