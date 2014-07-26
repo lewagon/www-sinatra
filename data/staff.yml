@@ -1,0 +1,73 @@
+olivier:
+  image_name: olivier.png
+  description: "Développeur depuis ses 13 ans, passionné de photo et de moto, <strong>Olivier</strong> crée <a htref'http://www.sylights.com/'>Sylights</a> en 2010, une appli pour partager des schémas d'éclairage entre photographes, rien de moins !"
+  links:
+    - url: https://github.com/olance
+      icon: github-alt
+    - url: http://fr.linkedin.com/in/olivierlance
+      icon: linkedin
+    - url: https://twitter.com/olance
+      icon: twitter
+    - url: http://www.sylights.com
+      icon: link
+
+seb:
+  image_name: seb.png
+  description: "Baroudeur du code, <strong>Sébastien</strong> sévit maintenant en tant que <a href='http://sebastien.saunier.me/'>coach technique</a> pour startup. Il aura à coeur de transmettre la rigueur et les bonnes pratiques aux élèves du Wagon!"
+  links:
+    - url: https://github.com/ssaunier
+      icon: github-alt
+    - url: http://fr.linkedin.com/in/sebastiensaunier
+      icon: linkedin
+    - url: https://twitter.com/ssaunier
+      icon: twitter
+    - url: http://sebastien.sauneir.me
+      icon: link
+
+gab:
+  image_name: gab.png
+  description: "<strong>Gabriel</strong> fait du Ruby & Rails depuis 4 ans et aime comprendre ce qui se passe sous le capot ! Il a travaillé chez <a href='http://www.tigerlilyapps.com/'>Tigerlilyapps</a> et c'est tout simplement un monstre de pédagogie."
+  links:
+    - url: https://github.com/gabriel-dehan
+      icon: github-alt
+    - url: http://fr.linkedin.com/pub/gabriel-dehan/27/361/8a
+      icon: linkedin
+    - url: https://twitter.com/GabrielDehan
+      icon: twitter
+    - url: http://gabriel-dehan.github.io/
+      icon: link
+
+boris:
+  image_name: boris.png
+  description: "<strong>Boris</strong> a fui sa salle de marché pour se lancer dans le code corps et âme. Il comprend parfaitement les besoins des débutant et a codé avec Sébastien le <a href='http://lewagon.org'>site</a> et les plate-formes pédagogiques du Wagon."
+  links:
+  - url: https://github.com/Papillard/
+    icon: github-alt
+  - url: http://fr.linkedin.com/pub/boris-paillard/70/226/867
+    icon: linkedin
+
+
+cecile:
+  image_name: cecile.png
+  description: "Avec 5 ans d'expérience en e-commerce, <strong>Cécile</strong> aime partager sa passion pour Ruby on Rails. Lilloise de coeur et hyper-active, elle co-anime les rencontres Rails Mentors, Rails Girls et Ruby Burgers."
+  links:
+  - url: https://github.com/cveneziani
+    icon: github-alt
+  - url: https://twitter.com/cecilitse
+    icon: twitter
+  - url: http://cecilitse.org
+    icon: link
+
+
+simon:
+  image_name: simon.png
+  description: "Co-fondateur de <a href='http://tinci.fr'>Tinci</a>, très actif dans la communauté ruby parisienne (Paris.rb), auteur de plusieurs gems, <strong>Simon</strong> est passionné des bonnes pratiques, méthodologies et techniques d'amélioration continu."
+  links:
+  - url: https://github.com/simonc"
+    icon: github-alt
+  - url: https://twitter.com/happynoff
+    icon: twitter
+  - url: http://tinci.fr
+    icon: link
+
+

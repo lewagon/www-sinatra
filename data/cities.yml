@@ -11,6 +11,13 @@ paris:
     - fifty-five
     - chaire-escp
     - lebusinessplan
+  staff:  # cf data/staff.yml
+    - olivier
+    - seb
+    - gab
+    - boris
+    - cecile
+    - simon
 
 # bruxelles:
 #   name: Bruxelles

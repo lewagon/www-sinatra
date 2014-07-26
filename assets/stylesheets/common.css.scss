@@ -9,9 +9,9 @@ body{
   padding-top: 70px;
   background-color: rgb(240, 244, 245);
 }
-@media(max-width: $screen-sm-max) {
+@media(max-width: $screen-md-max) {
   body{
-  padding-top: 30px;
+    padding-top: 30px;
   }
 }
 

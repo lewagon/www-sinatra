@@ -11,3 +11,4 @@ end
 CITIES = load(:cities)
 FAQS = load(:faqs)
 ALUMNI = load(:alumni)
+STAFF = load(:staff)
