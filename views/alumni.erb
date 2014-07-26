@@ -8,47 +8,52 @@
 <div id="projects">
   <div class="container">
     <div class="row">
-      <% ALUMNI.each do |alumnus| %>
-      <div class="col-sm-6">
-        <div class="project">
-          <a href="<%= alumnus[:project][:url] %>">
-            <img src="<%= image_path "projects/#{alumnus[:project][:image_name]}" %>"
-                 alt="<%= alumnus[:project][:name] %>">
-          </a>
-          <br><br><br>
+      <h1 class="text-center">ALUMNI</h1>
+      <% ALUMNI.each_slice(2) do |slice| %>
+        <div class="clearfix hidden-xs-block"></div>
 
-          <div class="row">
-            <div class="col-xs-4">
-              <a href="<%= alumnus[:url] %>">
-                <img src="<%= image_path "alumni/#{alumnus[:image_name]}" %>"
-                     alt="<%= alumnus[:name] %>" class="img-circle">
+        <% slice.each do |alumnus| %>
+          <div class="col-sm-6">
+            <div class="project col-inner-sm-padded">
+              <a href="<%= alumnus[:project][:url] %>">
+                <img src="<%= image_path "projects/#{alumnus[:project][:image_name]}" %>"
+                     alt="<%= alumnus[:project][:name] %>">
               </a>
-              <br/>
-            </div>
-            <div class="col-xs-8">
-              <p class="text-justify">
-                <%= alumnus[:project][:teaser] %>
-              </p>
-              <p>
-                <strong>Projet final :</strong>
-                <%= alumnus[:project][:description] %>
-              </p>
-              <br/>
-              <% if alumnus[:links] %>
-              <ul class="list-inline link-list">
-                <% alumnus[:links].each do |link| %>
-                <li>
-                  <a href="<%= link[:url] %>">
-                    <i class="fa fa-<%= link[:icon] %>"></i>
+              <br><br><br>
+
+              <div class="row">
+                <div class="col-xs-4">
+                  <a href="<%= alumnus[:url] %>">
+                    <img src="<%= image_path "alumni/#{alumnus[:image_name]}" %>"
+                         alt="<%= alumnus[:name] %>" class="img-circle">
                   </a>
-                </li>
-                <% end %>
-              </ul>
-              <% end %>
+                  <br/>
+                </div>
+                <div class="col-xs-8">
+                  <p class="text-justify">
+                    <%= alumnus[:project][:teaser] %>
+                  </p>
+                  <p>
+                    <strong>Projet final :</strong>
+                    <%= alumnus[:project][:description] %>
+                  </p>
+                  <br/>
+                  <% if alumnus[:links] %>
+                  <ul class="list-inline link-list">
+                    <% alumnus[:links].each do |link| %>
+                    <li>
+                      <a href="<%= link[:url] %>">
+                        <i class="fa fa-<%= link[:icon] %>"></i>
+                      </a>
+                    </li>
+                    <% end %>
+                  </ul>
+                  <% end %>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+        <% end %>
       <% end %>
 
       <div class="col-sm-6 project" id="and-you">
