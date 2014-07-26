@@ -21,6 +21,20 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <meta property="og:title" content="<%= yield_content :title %>" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.lewagon.org/<%= request.path_info %>" />
+    <meta property="og:image" content="http://www.lewagon.org<%= image_path 'logo.png' %>" />
+    <meta property="og:description" content="<%= yield_content :description %>" />
+    <meta property="og:site_name" content="Le Wagon" />
+    <!-- <meta property="fb:admins" content="Facebook numeric ID" /> -->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Lewagonparis">
+    <meta name="twitter:title" content="<%= yield_content :title %>">
+    <meta name="twitter:description" content="<%= yield_content :description %>">
+    <meta name="twitter:creator" content="@Lewagonparis">
+    <meta name="twitter:image:src" content="http://www.lewagon.org<%= image_path 'logo.png' %>">
 
   </head>
   <body>
