@@ -19,7 +19,7 @@ class App < Sinatra::Base
   end
 
   configure :production do
-    require 'sinatra/cache'
+    require 'sinatra/cacher'
     register Sinatra::Cache
     set :cache_enabled, true
   end
