@@ -18,12 +18,6 @@ class App < Sinatra::Base
     use BetterErrors::Middleware
   end
 
-  configure :production do
-    require 'sinatra/cacher'
-    register Sinatra::Cache
-    set :cache_enabled, true
-  end
-
   get '/' do
     erb :index
   end
