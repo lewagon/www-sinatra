@@ -22,7 +22,11 @@ class App < Sinatra::Base
     erb :index
   end
 
-  %w(profs )
+  %w(profs presse partenaires).each do |slug|
+    get "/#{slug}" do
+      redirect to('/')
+    end
+  end
 
   get '/premiere' do
     redirect to('/programme')
