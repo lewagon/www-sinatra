@@ -22,6 +22,8 @@ class App < Sinatra::Base
     erb :index
   end
 
+  %w(profs )
+
   get '/premiere' do
     redirect to('/programme')
   end

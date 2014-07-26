@@ -12,6 +12,8 @@
   answer: "Oui. Le Wagon est organisme de formation agréé."
 - question: "Quand se déroule précisément la formation ?"
   answer: "Du lundi au vendredi, de 9h à 19h, soit 360 heures de cours sur les 9 semaines."
+- question: "Est-ce que je dois venir avec mon ordi ?"
+  answer: "Oui, tous les élèves doivent avoir un ordinateur portable. Nous utiliserons Mac OS X ou Linux, si vous n'avez que Windows, ne vous inquiétez pas, le premier jour est consacré à installer Linux sur vos machines (en complément de windows)."
 - question: "Combien coûte la formation ?"
   answer: >
     <strong>3.900 euros TTC</strong> si la formation est financée par vous.<br />
