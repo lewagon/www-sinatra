@@ -29,3 +29,14 @@
     text-shadow: 0 0 1px white;
   }
 }
+
+@media (max-width: $screen-sm) {
+  .sub-banner {
+    h1 {
+      font-size: 40px;
+    }
+    .vertical-spacer {
+      height: 1em;
+    }
+  }
+}

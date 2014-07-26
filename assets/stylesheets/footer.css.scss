@@ -16,9 +16,17 @@ footer {
     font-family: "Bitter", monospace;
   }
 
-  .social{
+  li a {
+    line-height: 180%;
+  }
+
+  .social {
     text-align: center;
     padding-top: 3em;
+
+    li a {
+      line-height: 140%;
+    }
 
     a {
       display: inline-block;

@@ -1,11 +1,4 @@
-#strength{
-  text-align: center;
-}
-
 #alumni{
-
-  text-align: center;
-
   .testimonial{
     text-align: left;
     background-color: #fff;
@@ -44,45 +37,31 @@
 }
 
 
- #cursus{
+#cursus{
   background-color: #fff;
-  padding: 30px;
   border-radius: 2px;
+  padding: 50px 0;
   box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
- }
-
-#technos{
-  width: 100%;
-  td{
-    padding: 10px;
-  }
-  img {
-    text-align: center;
-    background-color: #113d59;
-    width: 100%;
-    padding: 10%;
-    -moz-transition: background-color .3s ease;
-    transition: background-color .3s ease;
-    -webkit-transition: background-color .3s ease;
-    border-radius: 50%;
-  }
-
-  img:hover{
-    background-color: rgb(205, 64, 53);
-  }
 }
 
+.techno {
+  text-align: center;
+  background-color: #113d59;
+  width: 80%;
+  margin: 0 10% 20% 10%;
+  padding: 10%;
+  -moz-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+  -webkit-transition: background-color .3s ease;
+  border-radius: 50%;
+}
 
-#core-skills{
-  padding: 20px 0 0 0;
-  font-weight: 300;
-  font-size: 15px;
-  list-style-type: none;
-  li{margin-bottom: 25px;}
+.techno:hover {
+  background-color: rgb(205, 64, 53)
 }
 
 #news{
-  padding-top: 50px;
+  padding: 50px 0;
   background-color: white;
   tr{
     border-bottom: 1px dashed lightgrey;
@@ -90,8 +69,6 @@
   }
   img{width: 100px;}
   .desc{padding-left: 20px;}
-  #workshops{padding-left: 50px;}
-  #twitter{padding: 70px;}
 }
 
 #meetus{

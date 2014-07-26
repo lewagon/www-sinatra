@@ -45,17 +45,17 @@
 <div class="vertical-spacer"></div>
 
 
-<div class="container" id="strength">
+<div class="container text-center">
   <div class="row">
-    <div class="col-xs-4">
+    <div class="col-sm-4">
       <h2>1 - 2</h2>
-      <p>Années de gagnées pour acquérir une véritable autonomie technique</p>
+      <p>Années de <strong>gagnées</strong> pour acquérir une véritable autonomie technique</p>
     </div>
-    <div class="col-xs-4">
+    <div class="col-sm-4">
       <h2>100%</h2>
       <p>Des entrepreneurs formés au Wagon ont lancé leur produit à l'issue de la formation</p>
     </div>
-    <div class="col-xs-4">
+    <div class="col-sm-4">
       <h2>80</h2>
       <p>Alumni, entrepreneurs et développeurs professionnels ont déjà rejoint le Wagon</p>
     </div>
@@ -64,13 +64,17 @@
 
 <div class="vertical-spacer"></div>
 
-<div class="center">
-  <h2><a href="/programme" class="arrow-link">PROGRAMME EN DÉTAILS <i class="fa fa-angle-double-right"></i></a></h2>
+<div class="container text-center">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2><a href="/programme" class="arrow-link">PROGRAMME EN DÉTAILS <i class="fa fa-angle-double-right"></i></a></h2>
+    </div>
+  </div>
 </div>
 
 <div class="vertical-spacer"></div>
 
-<div class="container">
+<div class="container text-center">
   <div class="row" id="alumni">
     <div class="col-xs-12 col-sm-6 col-md-3">
       <div class="testimonial">
@@ -137,8 +141,10 @@
 
   <div class="vertical-spacer"></div>
 
-  <div class="center">
-    <h2><a href="/alumni" class="arrow-link">voir les projets <i class="fa fa-angle-double-right"></i></a></h2>
+  <div class="row">
+    <div class="col-xs-12">
+      <h2><a href="/alumni"   class="arrow-link">voir les projets <i class="fa fa-angle-double-right"></i></a></h2>
+    </div>
   </div>
 
 </div>
@@ -149,45 +155,49 @@
 <div id="news">
   <div class="container">
     <div class="row">
-      <div class="col-xs-6" id="workshops">
-        <h2>POWERED BY LE WAGON</h2>
-        <p>
-          Se former en douze samedis au web-design. Passer quinze jours dans une surfhouse avec des développeurs pro. Prendre des cours en ligne de front-end. Assister à nos masterclasses du Jeudi soir..
-        </p>
-        <p><strong>Pour plus d'infos sur nos évènements, c'est ici !</strong></p>
+      <div class="col-sm-6">
+        <div class="col-inner-sm-padded">
+          <h2>POWERED BY LE WAGON</h2>
+          <p>
+            Se former en douze samedis au web-design. Passer quinze jours dans une surfhouse avec des développeurs pro. Prendre des cours en ligne de front-end. Assister à nos masterclasses du Jeudi soir..
+          </p>
+          <p><strong>Pour plus d'infos sur nos évènements, c'est ici !</strong></p>
 
-        <table>
-          <tr>
-            <td><img src="<%= image_path 'logos/wde.png' %>" alt="web design"></td>
-            <td class="desc">
-              <p>Web-Design Express - <strong>7 Septembre</strong></p>
-              <p>12 jours pour apprendre à designer et créer son site web.</p>
-              <a href="#">+ de détails <i class="fa fa-angle-double-right"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="<%= image_path 'logos/surfcamp.png' %>" alt="surf camp"></td>
-            <td class="desc">
-              <p>Surf Camp - <strong>7 Septembre</strong></p>
-              <p>2 semaines de code et de surf avec des devs pro.</p>
-              <a href="#">+ de détails <i class="fa fa-angle-double-right"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="<%= image_path 'logos/cetetejecode.png' %>" alt="cet ete je code"></td>
-            <td class="desc">
-              <p>Cet été je code</p>
-              <p>Cours en-ligne de front-end</p>
-              <a href="#">+ de détails <i class="fa fa-angle-double-right"></i></a>
-            </td>
-          </tr>
-        </table>
+          <table>
+            <tr>
+              <td><img src="<%= image_path 'logos/wde.png' %>" alt="web design"></td>
+              <td class="desc">
+                <p>Web-Design Express - <strong>7 Septembre</strong></p>
+                <p>12 jours pour apprendre à designer et créer son site web.</p>
+                <a href="#">+ de détails <i class="fa fa-angle-double-right"></i></a>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="<%= image_path 'logos/surfcamp.png' %>" alt="surf camp"></td>
+              <td class="desc">
+                <p>Surf Camp - <strong>7 Septembre</strong></p>
+                <p>2 semaines de code et de surf avec des devs pro.</p>
+                <a href="#">+ de détails <i class="fa fa-angle-double-right"></i></a>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="<%= image_path 'logos/cetetejecode.png' %>" alt="cet ete je code"></td>
+              <td class="desc">
+                <p>Cet été je code</p>
+                <p>Cours en-ligne de front-end</p>
+                <a href="#">+ de détails <i class="fa fa-angle-double-right"></i></a>
+              </td>
+            </tr>
+          </table>
+        </div>
 
       </div>
 
-      <div class="col-xs-6" id="twitter">
-        <a class="twitter-timeline" href="https://twitter.com/Lewagonparis" data-widget-id="372292161472974848">Tweets de @Lewagonparis</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <div class="col-sm-6">
+        <div class="col-inner-sm-padded">
+          <a class="twitter-timeline" href="https://twitter.com/Lewagonparis" data-widget-id="372292161472974848">Tweets de @Lewagonparis</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
       </div>
     </div>
   </div>
@@ -198,60 +208,73 @@
 <div class="container">
   <div class="row" id="cursus">
 
-    <div class="col-xs-5">
-      <h2 class="star-title">
-        <span>
-          <img src="<%= image_path 'icons/star.svg' %>" alt="star" class="inline-img">
-          LE WAGON
-          <img src="<%= image_path 'icons/star.svg' %>" alt="star">
-        </span>
-      </h2>
+    <div class="col-sm-6">
+      <div class="col-inner-sm-padded">
+        <h2 class="star-title">
+          <span>
+            <img src="<%= image_path 'icons/star.svg' %>" alt="star" class="inline-img">
+            LE WAGON
+            <img src="<%= image_path 'icons/star.svg' %>" alt="star">
+          </span>
+        </h2>
 
-      <p class="justify">Portées par les évolutions technologiques, les entreprises du numérique innovent, inventant tous les jours de nouveaux produits. La formation a parfois un wagon de retard... Les jeunes diplômés, ayant pourtant une vraie soif d'apprendre, n'ont pas toujours le bagage technique suffisant pour intéresser des recruteurs ou se lancer sur des projets personnels.</p>
-      <p class="justify">A travers des formations complémentaires en programmation web, allant du cours d'initiation au programme immersif de 2 mois, le wagon veut permettre à ces jeunes talents de devenir des acteurs de l'innovation.</p>
+        <p class="text-justify">Portées par les évolutions technologiques, les entreprises du numérique innovent, inventant tous les jours de nouveaux produits. La formation a parfois un wagon de retard... Les jeunes diplômés, ayant pourtant une vraie soif d'apprendre, n'ont pas toujours le bagage technique suffisant pour intéresser des recruteurs ou se lancer sur des projets personnels.</p>
+        <p class="text-justify">A travers des formations complémentaires en programmation web, allant du cours d'initiation au programme immersif de 2 mois, le wagon veut permettre à ces jeunes talents de devenir des acteurs de l'innovation.</p>
+      </div>
     </div>
 
-    <div class="col-xs-6 col-xs-offset-1">
-      <h2 class="star-title">
-        <span>
-          <img src="<%= image_path 'icons/star.svg' %>" alt="star" class="inline-img">
-          NOUS ENSEIGNONS
-          <img src="<%= image_path 'icons/star.svg' %>" alt="star">
-        </span>
-      </h2>
+    <div class="col-sm-6">
+      <div class="col-inner-sm-padded">
+        <h2 class="star-title">
+          <span>
+            <img src="<%= image_path 'icons/star.svg' %>" alt="star" class="inline-img">
+            NOUS ENSEIGNONS
+            <img src="<%= image_path 'icons/star.svg' %>" alt="star">
+          </span>
+        </h2>
 
-      <div class="row">
-
-        <div class="col-xs-3 center">
-          <table id="technos">
-            <tr>
-              <td><img src="<%= image_path 'icons/html.png' %>" alt="html"></td></tr>
-            <tr><td><img src="<%= image_path 'icons/ruby.png' %>" alt="ruby"></td></tr>
-            <tr><td><img src="<%= image_path 'icons/js.png' %>" alt="js"></td></tr>
-            <tr><td><img src="<%= image_path 'icons/git.png' %>" alt="git"></td></tr>
-          </table>
+        <div class="row">
+          <div class="col-sm-3 hidden-xs text-center">
+            <img src="<%= image_path 'icons/html.png' %>" class="techno" alt="HTML5">
+          </div>
+          <div class="col-sm-9">
+            L'algorithmique dans le langage ruby & les techniques de growth hacking (<strong>scraping</strong>,
+            interrogation d'<strong>APIs</strong>). Nous appliquons de manière pragmatique
+            le code aux problèmes des entrepreneurs.
+          </div>
         </div>
 
-        <div class="col-xs-9">
-          <ul id="core-skills" class="justify">
-            <li>
-              L'algorithmique en ruby & les techniques de growth hacking (<strong>scraping</strong>, interrogation d'<strong>APIs</strong>)
-            </li>
-            <li>
-              Les concepts objet et les <i>design patterns</i> classiques (<strong>MVC</strong>, <strong>Page-Controller</strong>)</strong>, notions-clefs pour prendre facilement en main n'importe quel nouveau framework web.
-            </li>
-            <li>
-              La modélisation de <strong>bases SQL</strong>
-            </li>
-            <li>
-              L'intégration de librairies <strong>open-source</strong> (<i>fileupload</i>, géolocalisation, authentification, paiement, Oauth, etc.)
-            </li>
-            <li>
-              Les best practices de developpement web (<strong>collaboration sur Github</strong>, <strong>versionning</strong>, <strong>déploiement continu sur Heroku</strong>, gestion des photos sur <strong>Amazon S3</strong>, etc.)
-            </li>
-          </ul>
+        <div class="row">
+          <div class="col-sm-3 hidden-xs text-center">
+            <img src="<%= image_path 'icons/ruby.png' %>" class="techno" alt="Ruby on Rails">
+          </div>
+          <div class="col-sm-9">
+            Les concepts objet et les <i>design patterns</i> classiques
+            (<strong>MVC</strong>, <strong>Page-Controller</strong>)</strong>,
+            notions-clefs pour prendre en main n'importe quel nouveau framework web.
+            <strong>Ruby on Rails</strong> nous permet de prototyper très vite n'importe quelle idée.
+          </div>
         </div>
 
+        <div class="row">
+          <div class="col-sm-3 hidden-xs text-center">
+            <img src="<%= image_path 'icons/js.png' %>" class="techno" alt="JavaScript">
+          </div>
+          <div class="col-sm-9">
+            La modélisation de bases de données SQL, l'intégration de librairies <strong>open-source</strong> (<i>fileupload</i>, géolocalisation, authentification, paiement, Oauth, etc.)
+            et la programmation côté navigateur avec <strong>JavaScript</strong> et <strong>AJAX</strong>.
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3 hidden-xs text-center">
+            <img src="<%= image_path 'icons/git.png' %>" class="techno" alt="Git & GitHub">
+          </div>
+          <div class="col-sm-9">
+            Les <em>best practices</em> de developpement web (<strong>collaboration sur Github</strong>, <em>versionning</em> de code, <strong>déploiement continu sur Heroku</strong>, gestion des photos sur <strong>Amazon S3</strong>,
+            envoi de mail avec SMTP externe comme <strong>Mandrill</strong>, etc.)
+          </div>
+        </div>
       </div>
     </div>
   </div>

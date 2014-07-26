@@ -3,8 +3,6 @@
 .red {color: rgb(205, 64, 53);}
 .dark-blue {color: #113d59;}
 .vertical-spacer {height: 4.5em;}
-.center {text-align: center;}
-.justify {text-align: justify;}
 
 
 body{
@@ -13,7 +11,7 @@ body{
 }
 @media(max-width: $screen-sm-max) {
   body{
-  padding-top: 50px;
+  padding-top: 30px;
   }
 }
 
@@ -130,7 +128,6 @@ body{
 }
 
 .apply{
-  padding: 60px 0;
   .box{
     padding: 20px;
   }
