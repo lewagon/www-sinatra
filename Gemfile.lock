@@ -2,6 +2,8 @@ GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
   specs:
+    autoprefixer-rails (2.1.1.20140710)
+      execjs
     backports (3.6.0)
     better_errors (1.1.0)
       coderay (>= 1.0.0)
@@ -86,6 +88,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
   better_errors
   binding_of_caller
   bootstrap-sass (~> 3.2.0)
