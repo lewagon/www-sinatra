@@ -38,17 +38,13 @@ class App < Sinatra::Base
   end
 
   get '/premiere' do
-    redirect to('/programme')
+    redirect '/programme', 301
   end
 
-  %i(staff alumni programme partenaires contact faq).each do |slug|
+  %i(staff alumni programme partenaires contact faq postuler).each do |slug|
     get "/#{slug}" do
       erb slug
     end
-  end
-
-  get '/postuler' do
-    erb :postulate
   end
 
   get '/blog' do
