@@ -22,6 +22,8 @@ class App < Sinatra::Base
   set :sprockets, sprockets
   set :assets_precompile, %w(app.js app.css wufoo.css *.png *.jpg *.svg *.otf *.eot *.ttf *.woff)
   set :assets_prefix, assets_prefix
+  set :assets_css_compressor, :sass
+  set :assets_js_compressor, :uglifier
 
   register Sinatra::AssetPipeline
   helpers Sinatra::ContentFor

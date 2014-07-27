@@ -94,6 +94,9 @@ GEM
       tilt (~> 1.1)
     tilt (1.4.1)
     timers (1.1.0)
+    uglifier (2.5.1)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
 
 PLATFORMS
   ruby
@@ -115,3 +118,4 @@ DEPENDENCIES
   sinatra
   sinatra-asset-pipeline
   sinatra-contrib
+  uglifier
