@@ -2,9 +2,11 @@
   Le Wagon - FAQ
 <% end %>
 
+<div class="vertical-spacer"></div>
+
 <div class="container">
   <div class="row">
-    <div class="col-sm-8 col-sm-offset-2">
+    <div class="col-md-8 col-md-offset-2">
       <div class="faq">
         <h1 class="text-center">FAQ</h1>
 
@@ -23,3 +25,9 @@
 </div>
 
 <div class="vertical-spacer"></div>
+
+<div class="container text-center">
+  <%= erb :testimonials %>
+</div>
+
+<%= erb :apply, locals: { no_faq: true } %>

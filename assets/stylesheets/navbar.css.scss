@@ -49,14 +49,17 @@
     background-color: #ea4a3c;
   }
 
+  @media(max-width: $screen-md-max) {
+    li > a {
+      font-weight: 400;
+    }
+  }
+
   @media(max-width: $screen-xs-max) {
     #logo {
       height: 25px;
       margin-left: 8px;
       margin-top: 0px;
-    }
-    li > a {
-      font-weight: 400;
     }
     li.with-underline > a {
       padding-top: 0;

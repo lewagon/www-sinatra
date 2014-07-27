@@ -2,16 +2,18 @@
   Le Wagon - <%= @post.metadata[:title] %>
 <% end %>
 
+<div class="vertical-spacer"></div>
+
 <div class="container">
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-md-8">
       <h1><%= @post.metadata[:title] %></h1>
 
       <article class="blog-post">
         <%= @post.content %>
       </article>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
       <%= erb :blog_aside %>
     </div>
   </div>

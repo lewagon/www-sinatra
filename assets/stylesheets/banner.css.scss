@@ -15,7 +15,7 @@
 }
 
 #base-box {
-  padding-top: 70px;
+  padding-top: 120px;
   color: rgb(253,253,253);
 
   h1 {
@@ -24,6 +24,15 @@
     text-shadow: 1px 1px 1px grey;
   }
 
+}
+
+@media(max-width: $screen-md-max) {
+  #base-box {
+    padding-top: 40px;
+  }
+  #nl-box {
+    margin-top: 0px;
+  }
 }
 
 #play-button{
@@ -72,7 +81,7 @@
 
 
 /* media queries */
-@media(max-width: $screen-xs-max) {
+@media(max-width: $screen-md-max) {
   #banner-wrapper {
     padding-top: 50px;
     background-attachment: scroll;

@@ -6,7 +6,9 @@
   <div class="filter">
     <div class="row">
       <div class="col-xs-12 center">
+        <div class="vertical-spacer"></div>
         <h1>Devenez développeur web en 9 semaines</h1>
+        <div class="vertical-spacer"></div>
         <div class="vertical-spacer"></div>
         <ul class="list-inline">
           <li>html & css<img src="<%= image_path 'icons/html.png' %>" alt="html"></li>
@@ -94,23 +96,7 @@
   </div>
 </div>
 
-
-<div class="apply text-center" style="background-color: white;">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-sm-offset-3">
-        <div class="box center" style="background-color: white;">
-          <h3>Vous voulez embarquer ?</h3>
-          <a href="/postuler" class="btn btn-primary red-btn">
-            POSTULEZ MAINTENANT
-          </a>
-          <br/><br/>
-          <p>Vous voulez plus de détails ? Vous pouvez lire les <a href="/faq">FAQ</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<%= erb :apply %>
 
 <div id="daily-schedule" class="text-center">
   <div class="container">

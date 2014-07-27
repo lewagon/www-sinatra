@@ -5,10 +5,12 @@
   Sur le blog du wagon, on parle tech, code, et entreprenariat. Et aussi des merveilleuses aventures de nos super héros en devenir !
 <% end %>
 
+<div class="vertical-spacer"></div>
+
 <div class="container">
   <div class="row">
-    <div class="col-sm-8">
-      <h1>BLOG</h1>
+    <div class="col-md-8">
+      <h1 class="text-center">BLOG</h1>
 
       <div class="all-posts">
         <% @posts.each do |post| %>
@@ -29,7 +31,7 @@
         <% end %>
       </div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
       <%= erb :blog_aside %>
     </div>
   </div>

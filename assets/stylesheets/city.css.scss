@@ -19,8 +19,18 @@
     min-height: 400px;
   }
 }
+
+@media(max-width: $screen-md-max) {
+  #city-banner {
+    background-attachment: scroll;
+    background-position: center center;
+  }
+}
+
+
+
 .teachers{
-  padding: 100px 0;
+  padding: 2.5em 0;
   background-color: white;
   img{width: 100%;}
 
