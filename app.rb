@@ -37,12 +37,6 @@ class App < Sinatra::Base
     erb :index
   end
 
-  %w(profs presse partenaires).each do |slug|
-    get "/#{slug}" do
-      redirect to('/')
-    end
-  end
-
   get '/premiere' do
     redirect to('/programme')
   end
@@ -82,5 +76,9 @@ class App < Sinatra::Base
       @city = city
       erb :city
     end
+  end
+
+  not_found do
+    redirect "/"
   end
 end
