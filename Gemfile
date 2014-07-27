@@ -6,6 +6,8 @@ gem 'sinatra'
 gem 'sinatra-asset-pipeline'
 gem 'sinatra-contrib'
 
+gem 'autoprefixer-rails'
+
 group :assets do
   gem 'bootstrap-sass', '~> 3.2.0'
   gem 'rails-assets-jquery'

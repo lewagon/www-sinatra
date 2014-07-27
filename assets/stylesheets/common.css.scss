@@ -23,7 +23,7 @@ body{
   font-weight: 400;
   border-radius: 2px;
   border: 1px solid #0279c2;
-  -webkit-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
   line-height: 27px;
   background-color: rgb(0, 131, 245);
 }
@@ -40,7 +40,7 @@ body{
   line-height: 50px;
   border: 1px solid #DC143C;
   font-weight: 400;
-  -webkit-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
 }
 
 .red-btn:hover{
@@ -76,7 +76,7 @@ body{
 .arrow-link{
   text-decoration: none;
   i {
-    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
   }
 }
 
@@ -84,7 +84,7 @@ body{
   color: #428bca;
   text-decoration: none;
   i {
-    -webkit-transform: translateX(9px);
+    transform: translateX(9px);
   }
 }
 
@@ -102,8 +102,6 @@ body{
     height: 40px;
     width: 250px;
     padding: 4px 10px;
-    -webkit-transition: all .3s linear;
-    -moz-transition: all .3s linear;
     transition: all .3s linear;
   }
 
