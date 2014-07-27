@@ -6,5 +6,8 @@ use Rack::Cors do
   end
 end
 
+require 'rack/deflater'
+use Rack::Deflater
+
 require './app'
 run App
