@@ -96,30 +96,12 @@
   <div class="container">
     <div class="row">
       <h2>PARTENAIRES</h2>
-      <div class="col-xs-6 col-md-3 col-lg-2">
-        <img src="<%= image_path 'partners/thefamily.png'%>" alt="The Family">
-      </div>
-      <div class="col-xs-6 col-md-3 col-lg-2">
-        <img src="<%= image_path 'partners/lecamping.png'%>" alt="Le Camping">
-      </div>
-      <div class="col-xs-6 col-md-3 col-lg-2">
-        <img src="<%= image_path 'partners/urbanlinker.png'%>" alt="Urban Linker">
-      </div>
-      <div class="col-xs-6 col-md-3 col-lg-2">
-        <img src="<%= image_path 'partners/uber.png'%>" alt="UBER">
-      </div>
-      <div class="col-xs-6 col-md-3 col-lg-2">
-        <img src="<%= image_path 'partners/fifty-five.png'%>" alt="Fifty Five">
-      </div>
-      <div class="col-xs-6 col-md-3 col-lg-2">
-        <img src="<%= image_path 'partners/drivy.png'%>" alt="Drivy">
-      </div>
-      <div class="col-xs-6 col-md-3 col-lg-2">
-        <img src="<%= image_path 'partners/capitainetrain.png'%>" alt="Capitaine Train">
-      </div>
-      <div class="col-xs-6 col-md-3 col-lg-2">
-        <img src="<%= image_path 'partners/wisembly.png'%>" alt="Wisembly">
-      </div>
+      <% @city[:partners].each do |partner| %>
+        <div class="col-xs-6 col-md-3 col-lg-2">
+          <img src="<%= image_path "partners/#{partner}.png" %>" alt="<%= partner %>">
+        </div>
+      <% end %>
+
       <div class="col-xs-12 col-md-3 col-lg-2 text-justify">
         <p><strong>Vous voulez rejoindre cette liste ?</strong> Pour nous soutenir, recruter nos élèves ou former vos employés chez nous.</p>
         <p><a href="mailto:contact@lewagon.org">contact@lewagon.org</a></p>

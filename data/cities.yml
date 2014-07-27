@@ -5,12 +5,11 @@ paris:
     - lecamping
     - urbanlinker
     - uber
-    - capitainetrain
-    - drivy
-    - wisembly
     - fifty-five
-    - chaire-escp
-    - lebusinessplan
+    - drivy
+    - capitainetrain
+    - wisembly
+    - girlsintechparis
   staff:  # cf data/staff.yml
     - olivier
     - seb
