@@ -98,8 +98,13 @@
     <div class="row">
       <h2>PARTENAIRES</h2>
       <% @city[:partners].each do |partner| %>
-        <div class="col-xs-6 col-md-3 col-lg-2">
-          <img src="<%= image_path "partners/#{partner}.png" %>" alt="<%= partner %>">
+        <% partner = partner.to_sym %>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+          <a href="<%= PARTNERS[partner][:url] %>" target="_blank">
+            <img src="<%= image_path "partners/#{PARTNERS[partner][:image_name]}" %>"
+                 alt="<%= PARTNERS[partner][:name] %>"
+                 data-toggle="tooltip" title="<%= PARTNERS[partner][:name]%>" data-placement="bottom">
+          </a>
         </div>
       <% end %>
 

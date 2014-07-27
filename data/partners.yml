@@ -1,0 +1,44 @@
+thefamily:
+  name: The Family
+  image_name: thefamily.png
+  url: http://www.thefamily.co/
+
+lecamping:
+  name: Le Camping
+  image_name: lecamping.png
+  url: http://accelerate.numa.paris
+
+urbanlinker:
+  name: Urban Linker
+  image_name: urbanlinker.png
+  url: http://www.urbanlinker.com
+
+uber:
+  name: UBER
+  image_name: uber.png
+  url: https://www.uber.com
+
+fifty_five:
+  name: Fifty Five
+  image_name: fifty-five.png
+  url: http://www.fifty-five.com
+
+drivy:
+  name: Drivy
+  image_name: drivy.png
+  url: http://www.drivy.com
+
+capitainetrain:
+  name: Capitaine Train
+  image_name: capitainetrain.png
+  url: http://www.capitainetrain.com
+
+wisembly:
+  name: Wisembly
+  image_name: wisembly.png
+  url: http://www.wisembly.com
+
+girlsintechparis:
+  name: Girls in Tech - Paris
+  image_name: girlsintechparis.png
+  url: http://gitparis.com

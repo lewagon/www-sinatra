@@ -9,12 +9,12 @@ paris:
     zoom: 15
     latitude: 48.8529369
     longitude: 2.3641780
-  partners:
+  partners:  # From data/partners.yml
     - thefamily
     - lecamping
     - urbanlinker
     - uber
-    - fifty-five
+    - fifty_five
     - drivy
     - capitainetrain
     - wisembly
