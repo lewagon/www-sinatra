@@ -8,6 +8,7 @@ Open your terminal, and `cd` to the right directory. You will work in a branch, 
 # First get up to date
 $ git checkout master        # Go back to master branch
 $ git pull origin master     # Fetch latest version
+$ bundle install             # Maybe guys changed the Gemfile :)
 
 # Launch the server, then go to http://localhost:9292
 $ rerun rackup   # You may do this in another tab.

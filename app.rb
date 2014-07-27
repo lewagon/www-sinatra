@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'bundler'
 Bundler.require
 
@@ -9,6 +10,11 @@ require_relative 'lib/blog'
 
 class App < Sinatra::Base
   set :assets_precompile, %w(app.js app.css wufoo.css *.png *.jpg *.svg *.otf *.eot *.ttf *.woff)
+  set :assets_prefix, %w(assets vendor/assets) + (Bundler.definition.dependencies.map do |dep|
+    if dep.groups.include? :assets
+      [ [dep.to_spec.full_gem_path, 'vendor', 'assets'].join('/'), [dep.to_spec.full_gem_path, 'assets'].join('/') ]
+    end
+  end.compact.flatten).to_a
 
   register Sinatra::AssetPipeline
   helpers Sinatra::ContentFor

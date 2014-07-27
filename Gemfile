@@ -1,11 +1,16 @@
 source "https://rubygems.org"
+source 'https://rails-assets.org'
 ruby '2.1.2'
 
 gem 'sinatra'
 gem 'sinatra-asset-pipeline'
 gem 'sinatra-contrib'
 
-gem 'bootstrap-sass', '~> 3.2.0'
+group :assets do
+  gem 'bootstrap-sass', '~> 3.2.0'
+  gem 'rails-assets-jquery'
+  gem 'rails-assets-font-awesome'
+end
 
 gem 'redcarpet'
 

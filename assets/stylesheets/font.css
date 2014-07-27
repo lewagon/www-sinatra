@@ -7,6 +7,8 @@
          asset-url('fonts/PillGothic300.svg#pill_gothic_300mgmedium') format('svg');
 }
 
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700|Open+Sans:400,300,700);
+
 body {
   font-family: 'Open Sans', sans-serif;
 }

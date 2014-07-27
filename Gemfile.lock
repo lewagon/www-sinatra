@@ -1,5 +1,6 @@
 GEM
   remote: https://rubygems.org/
+  remote: https://rails-assets.org/
   specs:
     backports (3.6.0)
     better_errors (1.1.0)
@@ -34,6 +35,8 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rails-assets-font-awesome (4.1.0)
+    rails-assets-jquery (2.1.1)
     rails_12factor (0.0.2)
       rails_serve_static_assets
       rails_stdout_logging
@@ -88,6 +91,8 @@ DEPENDENCIES
   bootstrap-sass (~> 3.2.0)
   puma
   rack-cors
+  rails-assets-font-awesome
+  rails-assets-jquery
   rails_12factor
   redcarpet
   rerun
