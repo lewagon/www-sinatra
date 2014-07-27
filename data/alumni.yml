@@ -16,7 +16,7 @@
       icon: facebook
 
 
-- name: Fizzer Guys
+- name: Baptiste et Vincent
   image_name: fizzer-guys.png
   url: https://github.com/BaptisteHamain
   project:
@@ -27,6 +27,8 @@
     description: "Développement de l'appli web responsive fizzer."
   links:
   - url: https://github.com/BaptisteHamain
+    icon: github-alt
+  - url: https://github.com/vincentporquet
     icon: github-alt
   - url: https://fizzer.fr
     icon: link
