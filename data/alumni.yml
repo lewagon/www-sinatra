@@ -21,7 +21,7 @@
   url: https://github.com/BaptisteHamain
   project:
     name: Fizzer
-    url: https://www.fizzer.fr/
+    url: http://www.fizzer.fr/
     image_name: fizzer-landing.jpg
     teaser: "Un site web responsive pour envoyer vos cartes postales personnalisées en prenant des photos depuis votre mobile."
     description: "Développement de l'appli web responsive fizzer."
@@ -30,9 +30,9 @@
     icon: github-alt
   - url: https://github.com/vincentporquet
     icon: github-alt
-  - url: https://fizzer.fr
+  - url: http:/www.fizzer.fr
     icon: link
-  - url: https://www.facebook.com/fizzer
+  - url: https://www.facebook.com/fizzer.official
     icon: facebook
 
 
