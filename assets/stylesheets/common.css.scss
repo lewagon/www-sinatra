@@ -88,7 +88,10 @@ body{
   }
 }
 
-.newsletter-form{
+#newsletter-form{
+  margin-bottom: 1em;
+  transition: all .3s linear;
+
   .blue-btn{
     vertical-align: 0px;
   }
@@ -129,4 +132,10 @@ body{
   .box{
     padding: 20px;
   }
+}
+
+#newsletter-form-thank-you {
+  display: none;
+  margin-bottom: 1em;
+  transition: all .3s linear;
 }

@@ -29,6 +29,8 @@ class App < Sinatra::Base
   configure :development do
     require 'better_errors'
     use BetterErrors::Middleware
+    require 'dotenv'
+    Dotenv.load
   end
 
   get '/' do
@@ -64,6 +66,15 @@ class App < Sinatra::Base
     @post = Blog.new.post(slug)
     halt 404 unless @post
     erb :post
+  end
+
+  post '/subscribe' do
+    gb = Gibbon::API.new(ENV['MAILCHIMP_API_KEY'])
+    begin
+      result = gb.lists.subscribe({:id => ENV['MAILCHIMP_LIST_ID'], :email => {:email => params[:email]}, :double_optin => false})
+      json :result => result
+    rescue Gibbon::MailChimpError
+    end
   end
 
   CITIES.each do |slug, city|

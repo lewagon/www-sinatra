@@ -19,14 +19,9 @@
 
       <div id="nl-box">
         <p>Soyez informé des prochaines <strong>masterclasses</strong>, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.</p>
-        <form action="#" method="get" class="newsletter-form">
-          <div class="input">
-            <input type="email" placeholder='votre e-mail' class="subscribe-input">
-            <input type="submit" value="Suivez-nous" class="btn btn-primary blue-btn">
-            <p class="error-message"></p>
-          </div>
-        </form>
-        <div>
+        <%= erb :mailchimp_form %>
+      <div>
+
         <div class="fb-like" data-href="https://www.facebook.com/lewagonformation" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
         <script>
           (function(d, s, id) {

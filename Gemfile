@@ -15,6 +15,7 @@ group :assets do
 end
 
 gem 'redcarpet'
+gem 'gibbon'
 
 # Serve fonts to other domains (Wufoo)
 gem 'rack-cors', :require => 'rack/cors'
@@ -23,6 +24,7 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'rerun'
+  gem 'dotenv'
 end
 
 group :production do
