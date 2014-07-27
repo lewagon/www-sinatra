@@ -23,7 +23,7 @@
         // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
         var mapOptions = {
             // How zoomed in you want the map to start at (always required)
-            zoom: 15,
+            zoom: <%= zoom %>,
 
             disableDefaultUI: true,
             panControl: false,
@@ -36,7 +36,7 @@
 
 
             // The latitude and longitude to center the map (always required)
-            center: new google.maps.LatLng(48.8529369, 2.3641780),
+            center: new google.maps.LatLng(<%= latitude %>, <%= longitude %>),
 
             // How you would like to style the map.
             // This is where you would paste any style found on Snazzy Maps.

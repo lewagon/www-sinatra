@@ -5,7 +5,8 @@
   Le Wagon débarque à <%= @city[:name] %>. Vous voulez apprendre à coder ? Alors prenez 9 semaines de votre vie et changez-là pour toujours !
 <% end %>
 
-<div id="city-banner" class="text-center">
+<div id="city-banner" class="text-center"
+     style="background-image: url('<%= asset_path @city[:images][:banner] %>')">
   <div class="filter">
     <div class="row">
       <div class="col-xs-12 center">
@@ -78,13 +79,13 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <%= erb :map %>
+        <%= erb :map, locals: { latitude: @city[:geo][:latitude], longitude: @city[:geo][:longitude], zoom: @city[:geo][:zoom] } %>
       </div>
       <div class="col-sm-6">
         <h2>PARIS CAMP</h2>
-        <p style="font-weight:500;font-size: 20px;">25, rue du Petit Musc 75004 Paris</p>
+        <p style="font-weight:500;font-size: 20px;"><%= @city[:address] %></p>
         <br/>
-        <p style="font-weight:300;font-size: 17px;" class="text-justify">En plein coeur de Paris, à 100m de l'île Saint-Louis et de la place de la Bastille, notre coding space occupe 140m2 au second étage de <a href="http://www.thefamily.co/">thefamily</a>, l'occasion pour les élèves du Wagon de plonger dans l'écosystème tech et entrepreneurial.</p>
+        <p style="font-weight:300;font-size: 17px;" class="text-justify"><%= @city[:description] %></p>
       </div>
     </div>
   </div>
@@ -129,5 +130,5 @@
 </div>
 
 
-<div style="background-image: url('<%= image_path 'bg/local-paris.jpg'%>'); background-size: cover; height: 400px;">
+<div style="background-image: url('<%= image_path @city[:images][:bottom] %>'); background-size: cover; height: 400px;">
 </div>
