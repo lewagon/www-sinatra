@@ -1,13 +1,9 @@
 <aside class="blog-aside">
   <h2>SUIVEZ-NOUS</h2>
   <p>Soyez informé des prochaines <strong>masterclasses</strong>, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.</p>
-  <form action="#" method="get" class="newsletter-form">
-    <div class="input">
-      <input type="email" placeholder='votre e-mail' class="blog-input">
-      <input type="submit" value="Suivez-nous" class="btn btn-primary blue-btn">
-      <p class="error-message"></p>
-    </div>
-  </form>
+
+  <%= erb :mailchimp_form %>
+
   <br/>
 
   <a class="twitter-timeline" href="https://twitter.com/Lewagonparis" data-widget-id="372292161472974848">Tweets de @Lewagonparis</a>
