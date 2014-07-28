@@ -17,7 +17,7 @@
           <div class="col-sm-6">
             <div class="project col-inner-md-padded">
               <h2 class="text-center"><%= alumnus[:project][:name] %></h2>
-              <a href="<%= alumnus[:project][:url] %>">
+              <a href="<%= alumnus[:project][:url] %>" target="_blank">
                 <img src="<%= image_path "projects/#{alumnus[:project][:image_name]}" %>"
                      alt="<%= alumnus[:project][:name] %>">
               </a>
@@ -25,7 +25,7 @@
 
               <div class="row">
                 <div class="col-xs-4 text-center">
-                  <a href="<%= alumnus[:url] %>">
+                  <a href="<%= alumnus[:url] %>" target="_blank">
                     <img src="<%= image_path "alumni/#{alumnus[:image_name]}" %>"
                          alt="<%= alumnus[:name] %>" class="img-circle">
                   </a>
@@ -44,7 +44,7 @@
                   <ul class="list-inline link-list">
                     <% alumnus[:links].each do |link| %>
                     <li>
-                      <a href="<%= link[:url] %>">
+                      <a href="<%= link[:url] %>" target="_blank">
                         <i class="fa fa-<%= link[:icon] %>"></i>
                       </a>
                     </li>
