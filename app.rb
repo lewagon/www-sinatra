@@ -60,6 +60,12 @@ class App < Sinatra::Base
     erb :post
   end
 
+  get '/wufoo.css' do
+    content_type "text/css"
+    expires 3600, :public, :must_revalidate
+    sprockets['wufoo.css'].source
+  end
+
   post '/subscribe' do
     gb = Gibbon::API.new(ENV['MAILCHIMP_API_KEY'])
     begin
