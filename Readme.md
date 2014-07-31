@@ -8,12 +8,13 @@ Open your terminal, and `cd` to the right directory. You will work in a branch, 
 # First get up to date
 $ git checkout master        # Go back to master branch
 $ git pull origin master     # Fetch latest version
+$ git sweep                  # Get rid of merged branches
 $ bundle install             # Maybe guys changed the Gemfile :)
 
 # Launch the server, then go to http://localhost:9292
 $ rerun rackup   # You may do this in another tab.
 
-# Then create a branch to work in (not your-new-feature!)
+# Open another terminal, and create a branch to work in
 $ git checkout -b your-new-feature  # Please choose a descriptive name
 $ stt  # Open sublime text and work.
 $ open assets/images   # If you need to add images
