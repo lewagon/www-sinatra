@@ -6,6 +6,7 @@ paris:
   images:
     banner: bg/paris.jpg
     bottom: bg/local-paris.jpg
+  filter_color: "rgba(0, 131, 245, 0.6)"
   geo:
     zoom: 15
     latitude: 48.8529369
@@ -37,6 +38,7 @@ brussels:
   images:
     banner: bg/brussels.jpg
     bottom: bg/local-costation.jpg
+  filter_color: "rgba(70, 20, 140, 0.3)"
   geo:
     zoom: 15
     latitude: 50.8474460
@@ -45,7 +47,8 @@ brussels:
   staff:
     - martin
     - anne
-    - christophe
+    # - thibaut
+    # - christophe
   partners:
     - costation
     - pullreview

@@ -11,7 +11,7 @@
 
 <div id="city-banner" class="text-center"
      style="background-image: url('<%= asset_path @city[:images][:banner] %>')">
-  <div class="filter">
+  <div class="filter" style="background-color: <%= @city[:filter_color] %>">
     <div class="row">
       <div class="col-xs-12 center">
         <h1><%= @city[:name].upcase %></h1>
@@ -44,7 +44,7 @@
       <% @city[:staff].each_slice(3) do |slice| %>
 
         <% slice.map { |slug| STAFF[slug.to_sym] }.each do |teacher| %>
-          <div class="col-md-4 col-sm-6">
+          <div class="<%= @city[:staff].length == 2 ? 'col-sm-6' : 'col-md-4 col-sm-6' %>">
             <div class="row teacher">
               <div class="col-xs-4">
                 <img src="<%= image_path "teachers/#{teacher[:image_name]}" %>" class="img-circle">

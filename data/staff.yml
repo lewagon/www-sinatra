@@ -92,15 +92,24 @@ anne:
   - url: https://twitter.com/DianeLanterman
     icon: twitter
 
-christophe:
-  image_name: christophe.jpg
-  description: "<strong>Christophe</strong> works with Martin on <a href='https://www.pullreview.com'>PullReview</a>."
-  links:
-  - url: https://github.com/toch
-    icon: github-alt
-  - url: https://twitter.com/_toch
-    icon: twitter
-  - url: https://be.linkedin.com/in/christophephilemotte
-    icon: linkedin
-  - url: http://about.me/toch
-    icon: link
+# thibaut:
+#   image_name: thibaut.jpg
+#   description:"TODO"
+#   links:
+#   - url: https://be.linkedin.com/in/thibautclaes/en
+#     icon: linkedin
+#   - url: https://twitter.com/thibclaes
+#     icon: twitter
+
+# christophe:
+#   image_name: christophe.jpg
+#   description: "<strong>Christophe</strong> works with Martin on <a href='https://www.pullreview.com'>PullReview</a>."
+#   links:
+#   - url: https://github.com/toch
+#     icon: github-alt
+#   - url: https://twitter.com/_toch
+#     icon: twitter
+#   - url: https://be.linkedin.com/in/christophephilemotte
+#     icon: linkedin
+#   - url: http://about.me/toch
+#     icon: link
