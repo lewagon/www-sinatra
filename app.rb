@@ -30,12 +30,15 @@ class App < Sinatra::Base
   register Sinatra::AssetPipeline
   helpers Sinatra::ContentFor
 
+  configure do
+    I18n.load_path = Dir[File.join(settings.root, 'locales', '*.yml')]
+  end
+
   configure :development do
     require 'better_errors'
     use BetterErrors::Middleware
     require 'dotenv'
     Dotenv.load
-    I18n.load_path = Dir[File.join(settings.root, 'locales', '*.yml')]
     before do
       I18n.backend.reload!
     end
