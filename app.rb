@@ -6,6 +6,8 @@ require 'sinatra/asset_pipeline'
 require 'sinatra/content_for'
 require 'autoprefixer-rails'
 
+require 'i18n'
+
 require_relative 'lib/data'
 require_relative 'lib/blog'
 
@@ -33,6 +35,14 @@ class App < Sinatra::Base
     use BetterErrors::Middleware
     require 'dotenv'
     Dotenv.load
+    I18n.load_path = Dir[File.join(settings.root, 'locales', '*.yml')]
+    before do
+      I18n.backend.reload!
+    end
+  end
+
+  before do
+    I18n.locale = :fr  # Default
   end
 
   get '/' do
@@ -78,11 +88,18 @@ class App < Sinatra::Base
   CITIES.each do |slug, city|
     get "/#{slug}" do
       @city = city
+      I18n.locale = city[:locale].to_sym
       erb :city
     end
   end
 
   not_found do
     redirect "/"
+  end
+
+  helpers do
+    def t(*args)
+      I18n.t(*args)
+    end
   end
 end

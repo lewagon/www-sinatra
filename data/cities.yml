@@ -1,5 +1,6 @@
 paris:
   name: Paris
+  locale: fr
   address: "25, rue du Petit Musc 75004 Paris"
   description: "En plein coeur de Paris, à 100m de l'île Saint-Louis et de la place de la Bastille, notre coding space occupe 140m2 au second étage de <a href='http://www.thefamily.co/'>The Family</a>, l'occasion pour les élèves du Wagon de plonger dans l'écosystème tech et entrepreneurial."
   images:
@@ -27,5 +28,6 @@ paris:
     - cecile
     - simon
 
-# bruxelles:
-#   name: Bruxelles
+brussels:
+  name: Brussels
+  locale: en
