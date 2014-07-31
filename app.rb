@@ -79,7 +79,12 @@ class App < Sinatra::Base
   post '/subscribe' do
     gb = Gibbon::API.new(ENV['MAILCHIMP_API_KEY'])
     begin
-      result = gb.lists.subscribe({:id => ENV['MAILCHIMP_LIST_ID'], :email => {:email => params[:email]}, :double_optin => false})
+      result = gb.lists.subscribe({
+        :id => ENV['MAILCHIMP_LIST_ID'],
+        :email => {:email => params[:email]},
+        :merge_vars => params[:city] ? {:CITY => params[:city]} : {},
+        :double_optin => false
+        })
       json :result => result
     rescue Gibbon::MailChimpError
     end

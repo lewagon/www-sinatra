@@ -3,10 +3,10 @@
     <input type="email" placeholder='<%= t 'newsletter_email_placeholder' %>' name="email" class="subscribe-input">
     <input type="submit" value="<%= t 'newsletter_follow_us_button' %>" class="btn btn-primary blue-btn">
     <% if defined?(city) %>
-      <input type="hidden" value="<%= city.downcase.capitalize %>" name="CITY">
+      <input type="hidden" value="<%= city.downcase.capitalize %>" name="city">
     <% end %>
   </div>
 </form>
 <div id="newsletter-form-thank-you">
-  Merci, à très vite !
+  <%= t "newsletter_thank_you" %>
 </div>
