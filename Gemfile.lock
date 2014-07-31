@@ -33,6 +33,7 @@ GEM
     httparty (0.13.1)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
+    i18n (0.6.11)
     json (1.8.1)
     listen (2.7.9)
       celluloid (>= 0.15.2)
@@ -108,6 +109,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.2.0)
   dotenv
   gibbon
+  i18n
   puma
   rack-cors
   rails-assets-font-awesome

@@ -6,8 +6,8 @@
         <ul class="list-unstyled">
           <!-- <li><a href="/staff">Staff</a></li> -->
           <li><a href="/alumni">Alumni</a></li>
-          <li><a href="/programme">Programme</a></li>
-          <li><a href="/postuler">Postuler</a></li>
+          <li><a href="/programme"><%= t "program" %></a></li>
+          <li><a href="<%= apply_path %>"><%= t "apply" %></a></li>
           <li><a href="mailto:contact@lewagon.org">Contact</a></li>
         </ul>
       </div>
@@ -37,7 +37,7 @@
       </div>
       <div class="clearfix visible-xs-block"></div>
       <div class="col-xs-6 col-sm-3 col-sm-offset-1">
-        <h4>Villes</h4>
+        <h4><%= t "cities" %></h4>
         <ul class="list-unstyled">
           <% CITIES.each do |slug, city| %>
             <li>

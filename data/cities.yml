@@ -1,14 +1,17 @@
 paris:
   name: Paris
+  locale: fr
   address: "25, rue du Petit Musc 75004 Paris"
   description: "En plein coeur de Paris, à 100m de l'île Saint-Louis et de la place de la Bastille, notre coding space occupe 140m2 au second étage de <a href='http://www.thefamily.co/'>The Family</a>, l'occasion pour les élèves du Wagon de plonger dans l'écosystème tech et entrepreneurial."
   images:
     banner: bg/paris.jpg
     bottom: bg/local-paris.jpg
+  filter_color: "rgba(0, 131, 245, 0.6)"
   geo:
     zoom: 15
     latitude: 48.8529369
     longitude: 2.3641780
+  next_session_fragment: octobre-2014
   partners:  # From data/partners.yml
     - thefamily
     - lecamping
@@ -27,5 +30,26 @@ paris:
     - cecile
     - simon
 
-# bruxelles:
-#   name: Bruxelles
+brussels:
+  name: Brussels
+  locale: en
+  address: "Place Sainte-Gudule 5, 1000 Brussels"
+  description: "Located in the heart of Brussels, <a href='http://co-station.com/'>CO.STATION</a> is a post-accelerator, providing access to new markets and capital. CO.STATION supports High-tech startups that already have a scalable & revenue generating business model, with what they need to grow."
+  images:
+    banner: bg/brussels.jpg
+    bottom: bg/local-costation.jpg
+  filter_color: "rgba(70, 20, 140, 0.3)"
+  geo:
+    zoom: 15
+    latitude: 50.8474460
+    longitude: 4.3603740
+  next_session_fragment: brussels-october-2014
+  staff:
+    - martin
+    - anne
+    # - thibaut
+    # - christophe
+  partners:
+    - costation
+    - pullreview
+
