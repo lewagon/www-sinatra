@@ -2,3 +2,10 @@ fr:
   program: Programme
   cities: Villes
   apply: Postuler
+  apply_now: Postuler maintenant
+  partners: Partenaires
+  partner_join_html: '<strong>Vous voulez rejoindre cette liste ?</strong> Pour nous soutenir, recruter nos élèves ou former vos employés chez nous.'
+  get_onboard: Embarquez pour 9 semaines à %{city}
+  newsletter_city_teaser_html: 'Soyez informé des prochaines <strong>évènements</strong> à %{city}, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.'
+  newsletter_email_placeholder: votre e-mail
+  newsletter_follow_us_button: Suivez-nous !

@@ -2,3 +2,10 @@ en:
   program: Program
   cities: Cities
   apply: Apply
+  apply_now: Apply now
+  partners: Partners
+  partner_join_html: '<strong>Do you want your company on this list?</strong> To support us, hire one of our student or train your employees with Le Wagon,'
+  get_onboard: Get on board for 9 weeks in %{city}
+  newsletter_city_teaser_html: 'Follow our <strong>events</strong> in %{city}, get our <strong>videos</strong> & technical <strong>blogposts</strong> right in your inbox!'
+  newsletter_email_placeholder: your email
+  newsletter_follow_us_button: Follow us!

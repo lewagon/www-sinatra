@@ -1,7 +1,10 @@
 <form action="/subscribe" method="get" id="newsletter-form">
   <div class="input">
-    <input type="email" placeholder='votre e-mail' name="email" class="subscribe-input">
-    <input type="submit" value="Suivez-nous" class="btn btn-primary blue-btn">
+    <input type="email" placeholder='<%= t 'newsletter_email_placeholder' %>' name="email" class="subscribe-input">
+    <input type="submit" value="<%= t 'newsletter_follow_us_button' %>" class="btn btn-primary blue-btn">
+    <% if defined?(city) %>
+      <input type="hidden" value="<%= city.downcase.capitalize %>" name="CITY">
+    <% end %>
   </div>
 </form>
 <div id="newsletter-form-thank-you">

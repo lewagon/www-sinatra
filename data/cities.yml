@@ -31,3 +31,20 @@ paris:
 brussels:
   name: Brussels
   locale: en
+  address: "Place Sainte-Gudule 5, 1000 Brussels"
+  description: "Located in the heart of Brussels, <a href='http://co-station.com/'>CO.STATION</a> is a post-accelerator, providing access to new markets and capital. CO.STATION supports High-tech startups that already have a scalable & revenue generating business model, with what they need to grow."
+  images:
+    banner: bg/brussels.jpg
+    bottom: bg/local-costation.jpg
+  geo:
+    zoom: 15
+    latitude: 50.8474460
+    longitude: 4.3603740
+  staff:
+    - martin
+    - anne
+    - christophe
+  partners:
+    - costation
+    - pullreview
+
