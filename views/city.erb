@@ -125,7 +125,7 @@
       <div class="col-sm-6 col-sm-offset-3">
         <div class="box center">
           <h3><%= t "get_onboard", city: @city[:name] %></h3>
-          <a href="/postuler" class="btn btn-primary red-btn">
+          <a href="<%= apply_path %>" class="btn btn-primary red-btn">
             <%= t("apply_now").upcase %>
           </a>
           <% if I18n.locale == :fr %>

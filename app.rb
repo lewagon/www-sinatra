@@ -59,6 +59,11 @@ class App < Sinatra::Base
     end
   end
 
+  get "/apply" do
+    I18n.locale = :en
+    erb :postuler
+  end
+
   get '/blog' do
     @posts = Blog.new.all
     erb :blog
@@ -105,6 +110,11 @@ class App < Sinatra::Base
   helpers do
     def t(*args)
       I18n.t(*args)
+    end
+
+    def apply_path(options = {})
+      fragment = @city ? "##{@city[:next_session_fragment]}" : ""
+      (I18n.locale == :fr ? '/postuler' : '/apply') + fragment
     end
   end
 end

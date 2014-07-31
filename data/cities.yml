@@ -10,6 +10,7 @@ paris:
     zoom: 15
     latitude: 48.8529369
     longitude: 2.3641780
+  next_session_fragment: octobre-2014
   partners:  # From data/partners.yml
     - thefamily
     - lecamping
@@ -40,6 +41,7 @@ brussels:
     zoom: 15
     latitude: 50.8474460
     longitude: 4.3603740
+  next_session_fragment: brussels-october-2014
   staff:
     - martin
     - anne
