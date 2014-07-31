@@ -2,12 +2,16 @@
   Le Wagon - <%= @city[:name] %>
 <% end %>
 <% content_for(:description) do %>
-  Le Wagon débarque à <%= @city[:name] %>. Vous voulez apprendre à coder ? Alors prenez 9 semaines de votre vie et changez-là pour toujours !
+  <% if I18n.locale == :fr %>
+    Le Wagon débarque à <%= @city[:name] %>. Vous voulez apprendre à coder ? Alors prenez 9 semaines de votre vie et changez-là pour toujours !
+  <% else %>
+    Le Wagon is in <%= @city[:name] %>. Do you want to become a web programmer in 9 weeks? Get on board and change your life for ever!
+  <% end %>
 <% end %>
 
 <div id="city-banner" class="text-center"
      style="background-image: url('<%= asset_path @city[:images][:banner] %>')">
-  <div class="filter">
+  <div class="filter" style="background-color: <%= @city[:filter_color] %>">
     <div class="row">
       <div class="col-xs-12 center">
         <h1><%= @city[:name].upcase %></h1>
@@ -20,9 +24,11 @@
 <div class="vertical-spacer"></div>
 
 <div class="newsletter text-center">
-  <p>Soyez informé des prochaines <strong>évènements</strong> à <%= @city[:name]%>, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.</p>
+  <p>
+    <%= t "newsletter_city_teaser_html", city: @city[:name] %>
+  </p>
 
-  <%= erb :mailchimp_form %>
+  <%= erb :mailchimp_form, locals: { city: @city[:name] } %>
 
 </div>
 
@@ -38,7 +44,7 @@
       <% @city[:staff].each_slice(3) do |slice| %>
 
         <% slice.map { |slug| STAFF[slug.to_sym] }.each do |teacher| %>
-          <div class="col-md-4 col-sm-6">
+          <div class="<%= @city[:staff].length == 2 ? 'col-sm-6' : 'col-md-4 col-sm-6' %>">
             <div class="row teacher">
               <div class="col-xs-4">
                 <img src="<%= image_path "teachers/#{teacher[:image_name]}" %>" class="img-circle">
@@ -78,7 +84,7 @@
         <%= erb :map, locals: { latitude: @city[:geo][:latitude], longitude: @city[:geo][:longitude], zoom: @city[:geo][:zoom] } %>
       </div>
       <div class="col-sm-6">
-        <h2>PARIS CAMP</h2>
+        <h2><%= @city[:name].upcase %> CAMP</h2>
         <p style="font-weight:500;font-size: 20px;"><%= @city[:address] %></p>
         <br/>
         <p style="font-weight:300;font-size: 17px;" class="text-justify"><%= @city[:description] %></p>
@@ -92,7 +98,7 @@
 <div class="partners">
   <div class="container">
     <div class="row">
-      <h2>PARTENAIRES</h2>
+      <h2><%= t("partners").upcase %></h2>
       <% @city[:partners].each do |partner| %>
         <% partner = partner.to_sym %>
         <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
@@ -105,7 +111,7 @@
       <% end %>
 
       <div class="col-xs-12 col-md-3 col-lg-2 text-justify">
-        <p><strong>Vous voulez rejoindre cette liste ?</strong> Pour nous soutenir, recruter nos élèves ou former vos employés chez nous.</p>
+        <p><%= t "partner_join_html" %></p>
         <p><a href="mailto:contact@lewagon.org">contact@lewagon.org</a></p>
         <p></p>
       </div>
@@ -118,12 +124,15 @@
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3">
         <div class="box center">
-          <h3>Embarquez pour 9 semaines à <%= @city[:name]%></h3>
-          <a href="/postuler" class="btn btn-primary red-btn">
-            POSTULEZ MAINTENANT
+          <h3><%= t "get_onboard", city: @city[:name] %></h3>
+          <a href="<%= apply_path %>" class="btn btn-primary red-btn">
+            <%= t("apply_now").upcase %>
           </a>
-          <br/><br/>
-          <p>Vous voulez plus de détails ? Vous pouvez lire les <a href="/faq">FAQ</a></p>
+          <% if I18n.locale == :fr %>
+            <br/><br/>
+            <p>Vous voulez plus de détails ? Vous pouvez lire les <a href="/faq">FAQ</a></p>
+          <% end %>
+          <%# TODO: Add a link to FAQ in english once localized %>
         </div>
       </div>
     </div>

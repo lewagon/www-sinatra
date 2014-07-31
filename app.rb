@@ -6,6 +6,8 @@ require 'sinatra/asset_pipeline'
 require 'sinatra/content_for'
 require 'autoprefixer-rails'
 
+require 'i18n'
+
 require_relative 'lib/data'
 require_relative 'lib/blog'
 
@@ -28,11 +30,22 @@ class App < Sinatra::Base
   register Sinatra::AssetPipeline
   helpers Sinatra::ContentFor
 
+  configure do
+    I18n.load_path = Dir[File.join(settings.root, 'locales', '*.yml')]
+  end
+
   configure :development do
     require 'better_errors'
     use BetterErrors::Middleware
     require 'dotenv'
     Dotenv.load
+    before do
+      I18n.backend.reload!
+    end
+  end
+
+  before do
+    I18n.locale = :fr  # Default
   end
 
   get '/' do
@@ -47,6 +60,11 @@ class App < Sinatra::Base
     get "/#{slug}" do
       erb slug
     end
+  end
+
+  get "/apply" do
+    I18n.locale = :en
+    erb :postuler
   end
 
   get '/blog' do
@@ -69,7 +87,12 @@ class App < Sinatra::Base
   post '/subscribe' do
     gb = Gibbon::API.new(ENV['MAILCHIMP_API_KEY'])
     begin
-      result = gb.lists.subscribe({:id => ENV['MAILCHIMP_LIST_ID'], :email => {:email => params[:email]}, :double_optin => false})
+      result = gb.lists.subscribe({
+        :id => ENV['MAILCHIMP_LIST_ID'],
+        :email => {:email => params[:email]},
+        :merge_vars => params[:city] ? {:CITY => params[:city]} : {},
+        :double_optin => false
+        })
       json :result => result
     rescue Gibbon::MailChimpError
     end
@@ -78,11 +101,23 @@ class App < Sinatra::Base
   CITIES.each do |slug, city|
     get "/#{slug}" do
       @city = city
+      I18n.locale = city[:locale].to_sym
       erb :city
     end
   end
 
   not_found do
     redirect "/"
+  end
+
+  helpers do
+    def t(*args)
+      I18n.t(*args)
+    end
+
+    def apply_path(options = {})
+      fragment = @city ? "##{@city[:next_session_fragment]}" : ""
+      (I18n.locale == :fr ? '/postuler' : '/apply') + fragment
+    end
   end
 end

@@ -1,7 +1,3 @@
-img {
-  max-width: 100%;
-}
-
 .all-posts {
   article {
     margin-bottom: 3em;
@@ -15,6 +11,10 @@ img {
     margin-top: 1em;
     margin-bottom: 0.5em;
     line-height: 160%;
+  }
+
+  img {
+    max-width: 100%;
   }
 }
 

@@ -63,11 +63,53 @@ simon:
   image_name: simon.png
   description: "Co-fondateur de <a href='http://tinci.fr'>Tinci</a>, très actif dans la communauté ruby parisienne (Paris.rb), auteur de plusieurs gems, <strong>Simon</strong> est passionné des bonnes pratiques, méthodologies et techniques d'amélioration continu."
   links:
-  - url: https://github.com/simonc"
+  - url: https://github.com/simonc
     icon: github-alt
   - url: https://twitter.com/happynoff
     icon: twitter
   - url: http://tinci.fr
     icon: link
 
+martin:
+  image_name: martin.jpg
+  description: "After some years spent in teaching future programmers, <strong>Martin</strong> did work as a programmer, customer contact, team leader, architect and agile coach. He is now working on <a href='https://www.pullreview.com'>PullReview</a> aiming to help Ruby developers to improve their coding practices. He is also co-organizing the Brussels chapter of Rails Girls and a frequent speaker at <a href='http://www.meetup.com/parisrb/'>Paris.rb</a>."
+  links:
+  - url: https://github.com/vanakenm
+    icon: github-alt
+  - url: https://twitter.com/martinvanaken
+    icon: twitter
+  - url: https://www.linkedin.com/in/martinvanaken
+    icon: linkedin
+  - url: http://about.me/vanakenm
+    icon: link
 
+anne:
+  image_name: anne.jpg
+  description: "​​After almost 10 years as a knowledge and information manager, <strong>Anne</strong> went back to university to follow a master's degree in information and communication technologies. She now develops web applications as a freelancer, and is an active member of <a href='http://railsgirls.com/brussels'>Brussels Rails Girls</a>. she loves helping them to overcome the sometimes frustrating learning process and seeing the bright light in their eyes!"
+  links:
+  - url: https://github.com/OObatwomanOO
+    icon: github-alt
+  - url: https://twitter.com/DianeLanterman
+    icon: twitter
+
+# thibaut:
+#   image_name: thibaut.jpg
+#   description:"TODO"
+#   links:
+#   - url: https://be.linkedin.com/in/thibautclaes/en
+#     icon: linkedin
+#   - url: https://twitter.com/thibclaes
+#     icon: twitter
+
+# christophe:
+#   image_name: christophe.jpg
+#   description: "<strong>Christophe</strong> works with Martin on <a href='https://www.pullreview.com'>PullReview</a>."
+#   links:
+#   - url: https://github.com/toch
+#     icon: github-alt
+#   - url: https://twitter.com/_toch
+#     icon: twitter
+#   - url: https://be.linkedin.com/in/christophephilemotte
+#     icon: linkedin
+#   - url: http://about.me/toch
+#     icon: link

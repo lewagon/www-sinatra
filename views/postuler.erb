@@ -1,12 +1,12 @@
 <% content_for(:title) do %>
-  Le Wagon - Postuler
+  Le Wagon - <%= t "apply" %>
 <% end %>
 
 <div id="postulate-banner" class="sub-banner text-center">
   <div class="filter">
     <div class="row">
       <div class="col-xs-12 center">
-        <h1>Postulez au Wagon</h1>
+        <h1><%= t "apply_title" %></h1>
         <div class="vertical-spacer"></div>
         <ul class="list-inline">
           <li>html & css<img src="<%= image_path 'icons/html.png' %>" alt="html"></li>
@@ -23,7 +23,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-          Le Wagon est une formation <strong>exigente</strong> et personnalisée qui nécessite votre investissement à <strong>temps plein</strong> pendant <strong>9 semaines</strong>. Vous devez être à l'aise pour lire de l'<strong>anglais</strong>, langue technique de référence en programmation.
+        <%= t "apply_lead" %>
       </div>
     </div>
   </div>
@@ -41,6 +41,11 @@
             </a>
           </li>
           <li>
+            <a href="#brussels-october-2014" data-toggle="tab" role="tab" data-wufoo-id="xo5ubsj0tno6dh">
+              Brussels - October 2014
+            </a>
+          </li>
+          <li>
             <a href="#janvier-2015" data-toggle="tab" role="tab" data-wufoo-id="s8e5iew1rkkqjo">
               Paris - Janvier 2015
             </a>
@@ -51,6 +56,9 @@
         <div class="tab-content">
           <div class="tab-pane active" id="octobre-2014">
             <div id="wufoo-rlgnjjq0uvoqaa"></div>
+          </div>
+          <div class="tab-pane" id="brussels-october-2014">
+            <div id="wufoo-xo5ubsj0tno6dh"></div>
           </div>
           <div class="tab-pane" id="janvier-2015">
             <div id="wufoo-s8e5iew1rkkqjo"></div>
@@ -63,8 +71,10 @@
 
 <div class="vertical-spacer"></div>
 
-<div class="container">
-  <%= erb :testimonials %>
-</div>
+<% if I18n.locale == :fr %>
+  <div class="container">
+    <%= erb :testimonials %>
+  </div>
+<% end %>
 
 <div class="vertical-spacer"></div>
