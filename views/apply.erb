@@ -3,14 +3,14 @@
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="box center" style="background-color: white;">
-          <h3>Prèt à embarquer ?</h3>
+          <h3><%= t "ready_to_get_onboard" %></h3>
           <p>
-            <a href="/postuler" class="btn btn-primary red-btn">
-              POSTULEZ MAINTENANT
+            <a href="<%= apply_path %>" class="btn btn-primary red-btn">
+              <%= t("apply_now").upcase %>
             </a>
           </p>
           <% unless defined?(no_faq) && no_faq %>
-            <p>Encore des questions ? Vous pouvez lire les <a href="/faq">FAQ</a></p>
+            <p>Encore des questions ? Vous pouvez lire les <a href="<%= faq_path %>">FAQ</a></p>
           <% end %>
         </div>
       </div>
