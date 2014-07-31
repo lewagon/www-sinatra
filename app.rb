@@ -56,8 +56,19 @@ class App < Sinatra::Base
     redirect '/programme', 301
   end
 
-  %i(staff alumni programme partenaires contact faq postuler).each do |slug|
+  %i(programme postuler).each do |slug|
     get "/#{slug}" do
+      erb slug
+    end
+  end
+
+  %i(alumni faq).each do |slug|
+    get "/#{slug}" do
+      erb slug
+    end
+
+    get "/en/#{slug}" do
+      I18n.locale = :en
       erb slug
     end
   end
@@ -118,6 +129,10 @@ class App < Sinatra::Base
     def apply_path(options = {})
       fragment = @city ? "##{@city[:next_session_fragment]}" : ""
       (I18n.locale == :fr ? '/postuler' : '/apply') + fragment
+    end
+
+    def faq_path
+      I18n.locale == :fr ? '/faq' : "/#{I18n.locale}/faq"
     end
   end
 end

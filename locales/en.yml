@@ -3,6 +3,7 @@ en:
   cities: Cities
   apply: Apply
   apply_now: Apply now
+  ready_to_get_onboard: Ready to get on board?
   partners: Partners
   partner_join_html: '<strong>Do you want your company on this list?</strong> To support us, hire one of our student or train your employees with Le Wagon,'
   get_onboard: Get on board for 9 weeks in %{city}
@@ -12,3 +13,4 @@ en:
   newsletter_thank_you: Thanks, see you soon!
   apply_title: Apply at Le Wagon
   apply_lead: "Le Wagon is a <strong>challenging</strong> and individualized training which is like <strong>full-time</strong> job for <strong>9 weeks</strong>. Invest in your skills, it will <strong>change</strong> your future for ever!"
+  faq_footer: "We haven't answered your question? Please drop us a note at"

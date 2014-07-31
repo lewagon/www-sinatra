@@ -10,24 +10,36 @@
       <div class="faq">
         <h1 class="text-center">FAQ</h1>
 
-        <% FAQS.each do |faq| %>
+        <div class="text-right">
+          <% if I18n.locale == :fr %>
+            <a href="/en/faq">Read the FAQ in English</a>
+          <% else %>
+            <a href="/faq">Lisez la FAQ en français</a>
+          <% end %>
+        </div>
+
+        <% FAQS[I18n.locale].each do |faq| %>
           <article>
             <h2><%= faq[:question] %></h2>
             <p><%= faq[:answer] %></p>
           </article>
         <% end %>
 
-        Nous n'avons pas répondu à votre question ?
-        Une seule adresse : <a href="mailto:contact@lewagon.org">contact@lewagon.org</a>
+        <%= t "faq_footer" %>
+        <a href="mailto:contact@lewagon.org">contact@lewagon.org</a>
       </div>
     </div>
   </div>
 </div>
 
-<div class="vertical-spacer"></div>
+<% if I18n.locale == :fr %>
+  <div class="vertical-spacer"></div>
 
-<div class="container text-center">
-  <%= erb :testimonials %>
-</div>
+  <div class="container text-center">
+    <%= erb :testimonials %>
+  </div>
+<% end %>
+
+<div class="vertical-spacer"></div>
 
 <%= erb :apply, locals: { no_faq: true } %>
