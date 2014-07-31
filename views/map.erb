@@ -51,10 +51,8 @@
         var map = new google.maps.Map(mapElement, mapOptions);
 
         var myMarker = new google.maps.Marker({
-          // Coordonnées du cinéma
-          position: new google.maps.LatLng(48.8529369, 2.3641780),
-          map: map,
-          title: "Hossegor"
+          position: new google.maps.LatLng(<%= latitude %>, <%= longitude %>),
+          map: map
         });
     }
 </script>
