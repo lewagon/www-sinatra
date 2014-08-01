@@ -85,7 +85,7 @@ martin:
 
 anne:
   image_name: anne.jpg
-  description: "​​After almost 10 years as a knowledge and information manager, <strong>Anne</strong> went back to university to follow a master's degree in information and communication technologies. She now develops web applications as a freelancer, and is an active member of <a href='http://railsgirls.com/brussels'>Brussels Rails Girls</a>. she loves helping them to overcome the sometimes frustrating learning process and seeing the bright light in their eyes!"
+  description: "​​After almost 10 years as a knowledge and information manager, Anne went back to university to follow a degree in information and communication technologies. She now develops Web apps as a freelancer and is an active member of <a href='http://railsgirls.com/brussels'>Rails Girls Brussels</a>. She loves helping others to overcome the sometimes frustrating learning process and seeing the bright light in their eyes when the magic of coding gets unveiled!"
   links:
   - url: https://github.com/OObatwomanOO
     icon: github-alt
