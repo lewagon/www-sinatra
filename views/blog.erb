@@ -5,13 +5,28 @@
   Sur le blog du wagon, on parle tech, code, et entreprenariat. Et aussi des merveilleuses aventures de nos super héros en devenir !
 <% end %>
 
+<div id="blog-banner" class="sub-banner text-center">
+  <div class="filter">
+    <div class="row">
+      <div class="col-xs-12 center">
+        <h1>Blog</h1>
+        <div class="vertical-spacer"></div>
+        <ul class="list-inline">
+          <li>html & css<img src="<%= image_path 'icons/html.png' %>" alt="html"></li>
+          <li>ruby & Rails<img src="<%= image_path 'icons/ruby.png' %>" alt="ruby"></li>
+          <li>javascript<img src="<%= image_path 'icons/js.png' %>" alt="js"></li>
+          <li>git & Github <img src="<%= image_path 'icons/git.png' %>" alt="git"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="vertical-spacer"></div>
 
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <h1 class="text-center">BLOG</h1>
-
       <div class="all-posts">
         <% @posts.each do |post| %>
           <article class="blog-post">
