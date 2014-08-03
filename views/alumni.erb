@@ -5,11 +5,27 @@
   Découvrez les projets des précédentes promotions du Wagon. Plus de 80 entrepreneurs ont déjà acquis leurs super-pouvoirs, et vous ?
 <% end %>
 
+<div id="alumni-banner" class="sub-banner text-center">
+  <div class="filter">
+    <div class="row">
+      <div class="col-xs-12 center">
+        <h1>Les projets de nos élèves</h1>
+        <div class="vertical-spacer"></div>
+        <ul class="list-inline">
+          <li>html & css<img src="<%= image_path 'icons/html.png' %>" alt="html"></li>
+          <li>ruby & Rails<img src="<%= image_path 'icons/ruby.png' %>" alt="ruby"></li>
+          <li>javascript<img src="<%= image_path 'icons/js.png' %>" alt="js"></li>
+          <li>git & Github <img src="<%= image_path 'icons/git.png' %>" alt="git"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="projects">
   <div class="vertical-spacer"></div>
   <div class="container">
     <div class="row">
-      <h1 class="text-center">ALUMNI</h1>
       <% ALUMNI.each_slice(2) do |slice| %>
         <div class="clearfix hidden-xs-block"></div>
 
