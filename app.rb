@@ -159,6 +159,8 @@ class App < Sinatra::Base
     end
 
     def path(slug)
+      return slug if CITIES[slug.to_sym]
+
       page = PAGES[slug.to_sym]
       if page[:locale_path]
         page[:locale_path][I18n.locale]
@@ -169,7 +171,7 @@ class App < Sinatra::Base
     end
 
     # Dynamically rails-style helpers like faq_path, etc.
-    PAGES.each do |slug, _|
+    (PAGES.merge CITIES).each do |slug, _|
       method = :"#{slug}_path"
       unless self.respond_to? method
         define_method(method) do
