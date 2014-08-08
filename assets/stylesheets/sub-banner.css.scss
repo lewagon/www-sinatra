@@ -14,6 +14,31 @@
   }
 }
 
+#alumni-banner {
+  .filter{
+    padding: 50px;
+    background-color: rgba(209, 50, 36, 0.8);
+    height: 100%;
+  }
+}
+
+#program-banner {
+  .filter{
+    padding: 50px;
+    background-color: rgba(255, 167, 0, 0.8); /*rgba(0, 131, 245, 0.6);*/
+    height: 100%;
+  }
+}
+
+#blog-banner {
+  .filter{
+    padding: 50px;
+    background-color: rgba(25, 131, 218, 0.8); /*rgba(0, 131, 245, 0.6);*/
+    height: 100%;
+  }
+}
+
+
 .sub-banner {
   background-image: asset-url('bg/grid.jpg');
   background-repeat: repeat;
