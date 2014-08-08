@@ -1,8 +1,8 @@
 <% content_for(:title) do %>
-  Le Wagon - <%= t "learn_to_code" %>
+  Le Wagon - <%= t "home.title" %>
 <% end %>
 <% content_for(:description) do %>
-  Le Wagon, c'est une formation au développement web en 9 semaines spécialement conçue pour les débutants. Venez acquérir vos super-pouvoirs !
+  <%= t "home.description" %>
 <% end %>
 
 <div id="banner-wrapper">
@@ -10,7 +10,7 @@
   <div id="banner">
 
       <div id="base-box">
-        <h1><%= t("learn_to_code_upcase") %></h1>
+        <h1><%= t "home.banner" %></h1>
         <a href="http://fast.wistia.net/embed/iframe/9vb45twa62?videoWidth=710&amp;videoHeight=432&amp;controlsVisibleOnLoad=true&amp;autoPlay=true&amp;popover=true" class="wistia-popover[width=710,height=432,playerColor=#636155]">
           <div id="play-button"></div>
         </a>
@@ -18,7 +18,7 @@
       </div>
 
       <div id="nl-box">
-        <p>Soyez informé des prochaines <strong>masterclasses</strong>, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.</p>
+        <%= t "newsletter.teaser" %>
         <%= erb :mailchimp_form %>
       <div>
 
@@ -46,16 +46,16 @@
 <div class="container text-center">
   <div class="row">
     <div class="col-sm-4">
-      <h2>2 MOIS</h2>
-      <p>Pour devenir un vrai développeur</p>
+      <h2><%= t "home.two_months" %></h2>
+      <p><%= t "home.to_become_developper" %></p>
     </div>
     <div class="col-sm-4">
-      <h2>100%</h2>
-      <p>Des projets d'élèves concrétisés</p>
+      <h2><%= t "home.hundred_percent" %></h2>
+      <p><%= t "home.concrete_projects_built" %></p>
     </div>
     <div class="col-sm-4">
       <h2>1200</h2>
-      <p>Codeurs déjà formés au Wagon</p>
+      <p><%= t "home.coders_trained_at_lewagon" %></p>
     </div>
   </div>
 </div>
@@ -65,7 +65,7 @@
 <div class="container text-center">
   <div class="row">
     <div class="col-xs-12">
-      <h2><a href="/programme" class="arrow-link">PROGRAMME EN DÉTAILS <i class="fa fa-angle-double-right"></i></a></h2>
+      <h2><a href="/programme" class="arrow-link"><%= t "home.program_in_details_uppercase" %> <i class="fa fa-angle-double-right"></i></a></h2>
     </div>
   </div>
 </div>
@@ -79,7 +79,7 @@
 
   <div class="row">
     <div class="col-xs-12">
-      <h2><a href="/alumni"   class="arrow-link">voir les projets <i class="fa fa-angle-double-right"></i></a></h2>
+      <h2><a href="/alumni"   class="arrow-link"><%= t "home.see_the_projects" %> <i class="fa fa-angle-double-right"></i></a></h2>
     </div>
   </div>
 
@@ -95,10 +95,8 @@
         <div class="col-inner-md-padded">
           <h2>POWERED BY LE WAGON</h2>
           <p>
-            Se former en douze samedis au web-design. Passer quinze jours dans une surfhouse avec des développeurs pro. Prendre des cours en ligne de front-end. Assister à nos masterclasses du Jeudi soir..
+            <%= t "home.events_by_le_wagon" %>
           </p>
-          <p><strong>Pour plus d'infos sur nos évènements, c'est ici !</strong></p>
-
           <table>
             <tr>
               <td><img src="<%= image_path 'logos/wde.png' %>" alt="web design"></td>
@@ -131,7 +129,7 @@
 
       <div class="col-sm-6">
         <div class="col-inner-md-padded">
-          <a class="twitter-timeline" href="https://twitter.com/Lewagonparis" data-widget-id="372292161472974848">Tweets de @Lewagonparis</a>
+          <a class="twitter-timeline" href="https://twitter.com/Lewagonparis" data-widget-id="372292161472974848">Tweets of @Lewagonparis</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
       </div>
@@ -154,8 +152,8 @@
           </span>
         </h2>
 
-        <p class="text-justify">Portées par les évolutions technologiques, les entreprises du numérique innovent, inventant tous les jours de nouveaux produits. La formation a parfois un wagon de retard... Les jeunes diplômés, ayant pourtant une vraie soif d'apprendre, n'ont pas toujours le bagage technique suffisant pour intéresser des recruteurs ou se lancer sur des projets personnels.</p>
-        <p class="text-justify">A travers des formations complémentaires en programmation web, allant du cours d'initiation au programme immersif de 2 mois, le wagon veut permettre à ces jeunes talents de devenir des acteurs de l'innovation.</p>
+        <p class="text-justify"><%= t "home.who_we_are" %></p>
+        <p class="text-justify"><%= t "home.what_we_do" %></p>
       </div>
     </div>
 
@@ -164,7 +162,7 @@
         <h2 class="star-title">
           <span>
             <img src="<%= image_path 'icons/star.svg' %>" alt="star" class="inline-img">
-            NOUS ENSEIGNONS
+            <%= t "home.we_teach_upcase" %>
             <img src="<%= image_path 'icons/star.svg' %>" alt="star">
           </span>
         </h2>
@@ -174,9 +172,7 @@
             <img src="<%= image_path 'icons/html.png' %>" class="techno" alt="HTML5">
           </div>
           <div class="col-sm-9">
-            L'algorithmique dans le langage ruby & les techniques de growth hacking (<strong>scraping</strong>,
-            interrogation d'<strong>APIs</strong>). Nous appliquons de manière pragmatique
-            le code aux problèmes des entrepreneurs.
+            <%= t "home.ruby_hacking" %>
           </div>
         </div>
 
@@ -185,10 +181,7 @@
             <img src="<%= image_path 'icons/ruby.png' %>" class="techno" alt="Ruby on Rails">
           </div>
           <div class="col-sm-9">
-            Les concepts objet et les <i>design patterns</i> classiques
-            (<strong>MVC</strong>, <strong>Page-Controller</strong>)</strong>,
-            notions-clefs pour prendre en main n'importe quel nouveau framework web.
-            <strong>Ruby on Rails</strong> nous permet de prototyper très vite n'importe quelle idée.
+            <%= t "home.oop_and_rails" %>
           </div>
         </div>
 
@@ -197,8 +190,7 @@
             <img src="<%= image_path 'icons/js.png' %>" class="techno" alt="JavaScript">
           </div>
           <div class="col-sm-9">
-            La modélisation de bases de données SQL, l'intégration de librairies <strong>open-source</strong> (<i>fileupload</i>, géolocalisation, authentification, paiement, Oauth, etc.)
-            et la programmation côté navigateur avec <strong>JavaScript</strong> et <strong>AJAX</strong>.
+            <%= t "home.database_and_js" %>
           </div>
         </div>
 
@@ -207,8 +199,7 @@
             <img src="<%= image_path 'icons/git.png' %>" class="techno" alt="Git & GitHub">
           </div>
           <div class="col-sm-9">
-            Les <em>best practices</em> de developpement web (<strong>collaboration sur Github</strong>, <em>versionning</em> de code, <strong>déploiement continu sur Heroku</strong>, gestion des photos sur <strong>Amazon S3</strong>,
-            envoi de mail avec SMTP externe comme <strong>Mandrill</strong>, etc.)
+            <%= t "home.coding_best_practices" %>
           </div>
         </div>
       </div>

@@ -1,19 +1,137 @@
 fr:
-  learn_to_code_upcase: APPRENEZ À CODER
-  learn_to_code: Apprenez à coder
   swith_language_title: Langue
-  program: Programme
-  cities: Villes
-  apply: Postuler
+  menu:
+    program: Programme
+    cities: Villes
+    apply: Postuler
   apply_now: Postuler maintenant
-  ready_to_get_onboard: Prêt à embarquer ?
-  partners: Partenaires
-  partner_join_html: '<strong>Vous voulez rejoindre cette liste ?</strong> Pour nous soutenir, recruter nos élèves ou former vos employés chez nous.'
-  get_onboard: Embarquez pour 9 semaines à %{city}
-  newsletter_city_teaser_html: 'Soyez informé des prochaines <strong>évènements</strong> à %{city}, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.'
-  newsletter_email_placeholder: votre e-mail
-  newsletter_follow_us_button: Suivez-nous !
-  newsletter_thank_you: Merci, à très vite !
-  apply_title: Postulez au Wagon
-  apply_lead: "Le Wagon est une formation <strong>exigente</strong> et personnalisée qui nécessite votre investissement à <strong>temps plein</strong> pendant <strong>9 semaines</strong>. Vous devez être à l'aise pour lire de l'<strong>anglais</strong>, langue technique de référence en programmation."
-  faq_footer: "Nous n'avons pas répondu à votre question ? Une seule adresse :"
+  faq:
+    footer: "Nous n'avons pas répondu à votre question ? Une seule adresse :"
+  city:
+    partners: Partenaires
+    partner_join_html: |
+      <strong>Vous voulez rejoindre cette liste ?</strong> Pour nous soutenir,
+      recruter nos élèves ou former vos employés chez nous.
+    get_onboard: Embarquez pour 9 semaines à %{city}
+    ready_to_get_onboard: Prêt à embarquer ?
+  newsletter:
+    teaser: "<p>Soyez informé des prochaines <strong>masterclasses</strong>, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.</p>"
+    city_teaser_html: 'Soyez informé des prochaines <strong>évènements</strong> à %{city}, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.'
+    email_placeholder: votre e-mail
+    follow_us_button: Suivez-nous !
+    thank_you: Merci, à très vite !
+  testimonials:
+    works_at: travaille chez
+    founder_of: fondateur de
+    first: |
+      En sortant du Wagon, on a développé
+      l'appli Fizzer en dix jours. Le  Wagon nous a fait gagner deux ans
+      en nous plongeant dans une communauté d'entrepreneurs-développeurs ultra-compétents.
+      Merci !
+    second: |
+      Après deux ans chez Rocket-Internet,
+      j'ai intégré la promo 1 pour maîtriser la technique et développer
+      l'API de Kudoz. Aujourd'hui, je me concentre sur le développement.
+      On vient même d'embaucher un élève de la saison 2 !
+    third: |
+      Le Wagon a accéléré ma transition vers le métier qui me passionne vraiment.
+      Sorti d'une école de commerce, je suis maintenant développeur junior
+      chez weroom dans un cadre super stimulant où je continue
+      a apprendre tous les jours.
+    fourth: |
+      Le wagon à été pour moi le moyen de concrétiser mon projet,
+      trouver un associé et mettre enfin les mains dans les problématiques web !
+      C'est vraiment un réél plus pour mon <em>nouveau</em> travail de tous les jours.
+  home:
+    title: Apprenez à coder
+    description: "Le Wagon est une école de code pour entrepreneurs. Donnez vie à vos projets en 9 semaines avec ruby on Rails."
+    banner: APPRENEZ À CODER
+    two_months: 2 MOIS
+    to_become_developper: Pour devenir un vrai développeur
+    hundred_percent: 100%
+    concrete_projects_built: Des projets d'élèves concrétisés
+    coders_trained_at_lewagon: Codeurs formés au Wagon
+    program_in_details_uppercase: PROGRAMME EN DÉTAILS
+    see_the_projects: voir les projets
+    events_by_le_wagon: |
+      Se former en douze samedis au web-design. Passer quinze jours dans
+      une surfhouse avec des développeurs pro. Prendre des cours en ligne de front-end.
+      Assister à nos masterclasses du Jeudi soir.. <strong>Pour plus d'infos sur
+      nos évènements, c'est ici !</strong>
+    who_we_are: |
+      Portées par les évolutions technologiques, les entreprises du numérique innovent, inventant
+      tous les jours de nouveaux produits. La formation a parfois un wagon de retard...
+      Les jeunes diplômés, ayant pourtant une vraie soif d'apprendre, n'ont pas toujours le bagage
+      technique suffisant pour intéresser des recruteurs ou se lancer sur des projets personnels.
+    what_we_do: |
+      A travers des formations complémentaires en programmation web,
+      allant du cours d'initiation au programme immersif de 2 mois,
+      le wagon veut permettre à ces jeunes talents de devenir des acteurs de l'innovation.
+    we_teach_upcase: NOUS ENSEIGNONS
+    ruby_hacking: |
+      L'algorithmique dans le langage ruby & les techniques de growth hacking
+      (<strong>scraping</strong>, interrogation d'<strong>APIs</strong>). Nous appliquons
+      de manière pragmatique le code aux problèmes des entrepreneurs.
+    oop_and_rails: |
+      Les concepts objet et les <i>design patterns</i> classiques
+      (<strong>MVC</strong>, <strong>Page-Controller</strong>)</strong>, notions-clefs
+      pour prendre en main n'importe quel nouveau framework web. <strong>Ruby on Rails</strong>
+      nous permet de prototyper très vite n'importe quelle idée.
+    database_and_js: |
+      La modélisation de bases de données SQL, l'intégration de
+      librairies <strong>open-source</strong> (<i>fileupload</i>, géolocalisation,
+      authentification, paiement, Oauth, etc.) et la programmation côté navigateur avec
+      <strong>JavaScript</strong> et <strong>AJAX</strong>.
+    coding_best_practices: "Les <em>best practices</em> de developpement web (<strong>collaboration sur Github</strong>, <em>versionning</em> de code, <strong>déploiement continu sur Heroku</strong>, gestion des photos sur <strong>Amazon S3</strong>, envoi de mail avec SMTP externe comme <strong>Mandrill</strong>, etc.)"
+  apply:
+    title: Postulez au Wagon
+    description: Postulez au Wagon pour batir des projets incroyables en ruby on Rails et pour rejoindre une communauté hyperactive d'entrepreneurs et de développeurs.
+    lead: "Le Wagon est une formation <strong>exigente</strong> et personnalisée qui nécessite votre investissement à <strong>temps plein</strong> pendant <strong>9 semaines</strong>. Vous devez être à l'aise pour lire de l'<strong>anglais</strong>, langue technique de référence en programmation."
+  alumni:
+    title: Les projets de nos élèves
+    description: "Découvrez les projets des précédentes promotions du Wagon. Plus de 80 entrepreneurs ont déjà acquis leurs super-pouvoirs, et vous ?"
+    and_you: et vous
+    final_project: Projet final
+  program:
+    our_goal: NOTRE OBJECTIF
+    our_goal_detailed: |
+      Notre programme est conçu pour les débutants ou "faux débutants"
+      qui souhaitent acquérir une véritable autonomie technique mais surtout
+      un <strong>nouveau mindset</strong>. Penser comme un développeur,
+      voir les problématiques sous un nouvel angle et libérer sa créativité
+      grâce au code. Notre unique objectif est de vous faire atteindre
+      ce niveau et vous ouvrir un univers de possibilités :
+    be_a_great_entreprener: Devenir un entrepreneur d'exception, capable de coder son appli web & maitrisant les enjeux techniques.
+    find_a_job: Trouver un poste dans une entreprise du numérique avec ces nouvelles compétences-clef (en développement, product management, marketing, growth hacking..).
+    why: Why Le Wagon?
+    rationale: |
+      Everybody can learn to code using online tutorials.
+      Only it’s long and painful: you stumble and grope along,
+      you spend hours and hours with stack overflow when all you want to
+      do is code on your current projects. Our program will immediately sink
+      you into a super stimulant ecosystem where you’ll learn 10 times faster.
+      Moreover, you will will learn what can not be taught on line: a dev’s set-up,
+      web development best practice, software architecture  and data base modelling.
+      To sum up, you’ll learn to go from a concrete problem to a technical solution.
+    join_the_community: Join the community
+    le_wagon_community: |
+      At the end of our program you’ll know how to transform your ideas into products, you will have coded several web apps and you’ll have a  work portofolio on Github.
+      You’ll be part of a hypercative community: 80 alumnis, 8 teachers, 12 mentors, 7 start-ups created by alumnis, Masterclasses every Thursday with successful entrepreneurs and CEOs who will network with you, technical coaching for your projects post-program.
+      Developers, entrepreneurs, incubators or accelerators, you will join a passionate and helpful community who will bring you many opportunities.
+    the_spirit: The Spirit
+    le_wagon_spirit: |
+      All Le Wagon’s teachers are web entrepreneurs (Taster’s Clubn Sylights, Txto etc)
+      already having a “ground experience” of programing thus knowing the key-concepts
+      to emphasize during classes. Every participant is also coached by a mentor,
+      a professional developer who will follow your projects and make sure everything is up to date.
+      Ah, and also there’s Thursday Yoga with Claire. Just to loosen up :)
+
+
+
+
+
+
+
+
+
+

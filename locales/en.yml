@@ -1,19 +1,89 @@
 en:
-  learn_to_code_upcase: LEARN TO CODE
-  learn_to_code: Learn to code
   swith_language_title: Language
-  program: Program
-  cities: Cities
-  apply: Apply
+  menu:
+    program: Program
+    cities: Cities
+    apply: Apply
   apply_now: Apply now
-  ready_to_get_onboard: Ready to get on board?
-  partners: Partners
-  partner_join_html: '<strong>Do you want your company on this list?</strong> To support us, hire one of our student or train your employees with Le Wagon,'
-  get_onboard: Get on board for 9 weeks in %{city}
-  newsletter_city_teaser_html: 'Follow our <strong>events</strong> in %{city}, get our <strong>videos</strong> & technical <strong>blogposts</strong> right in your inbox!'
-  newsletter_email_placeholder: your email
-  newsletter_follow_us_button: Follow us!
-  newsletter_thank_you: Thanks, see you soon!
-  apply_title: Apply at Le Wagon
-  apply_lead: "Le Wagon is a <strong>challenging</strong> and individualized training which is <strong>full-time</strong> job of <strong>9 weeks</strong>. Invest in your skills, it will <strong>change</strong> your future for ever!"
-  faq_footer: "We haven't answered your question? Please drop us a note at"
+  faq:
+    footer: "Nous n'avons pas répondu à votre question ? Une seule adresse :"
+  city:
+    partners: Partners
+    partner_join_html: |
+      <strong>Do you want your company on this list?</strong>
+      To support us, hire one of our student or train your employees with Le Wagon.
+    get_onboard: Get on board for 9 weeks in %{city}
+    ready_to_get_onboard: Ready to get on board?
+  newsletter:
+    teaser: '<p>Get our latest <strong>videos</strong> & technical <strong>blogposts</strong> right in your inbox!</p>'
+    city_teaser_html: 'Follow our <strong>events</strong> in %{city}, get our <strong>videos</strong> & technical <strong>blogposts</strong> right in your inbox!'
+    email_placeholder: your email
+    follow_us_button: Follow us!
+    thank_you: Thanks, see you soon!
+  testimonials:
+    works_at: works at
+    founder_of: founder of
+    first: |
+      After finishing Le Wagon we developed the Fizzer app in 10 days.
+      We gained 2 years in the process thanks to Le Wagon who sank us
+      into a highly stimulant entrepreneur-developer environment. Thank you!
+    second: |
+      After 2 years at Rocket-Internet, I integrated Season 1
+      to master the back-end and develop Kudoz’s API.
+      Today, I focus on programming. We also just employed a Season 2 alumni!
+    third: |
+      Le Wagon accelerated my transition to the job I’m really passionate about.
+      Commerce school graduate I am currently junior dev at weroom in an ultra-stimulant
+      environment where I learn something every day
+    fourth: |
+      Le Wagon gave me the tools to make my project come true,
+      find an associate and start working on web issues! It’s a huge plus
+      for my day-to-day work
+  home:
+    title: Learn to code
+    description: "Le Wagon is a coding school for skilled people and entrepreneurs. We teach them to build cool stuff with ruby on Rails in 9 weeks."
+    banner: LEARN TO CODE
+    two_months: 2 MONTHS
+    to_become_developper: To become a real programmer
+    hundred_percent: 100%
+    concrete_projects_built: Student projects done
+    coders_trained_at_lewagon: Developers already trained by Le Wagon
+    program_in_details_uppercase: THE PROGRAM
+    see_the_projects: See all the projects
+    events_by_le_wagon: |
+      12 Saturdays-long training in web-design. Spend 15 days in a surf guest-house with full-stack
+      developers. Take online front-end courses. Attend our Thursday masterclasse..
+      <strong>More info on our events, this way!</strong>
+    who_we_are: |
+      Carried by technological evolutions, the digital companies are innovating
+      by creating new products everyday. Education however is slow on catching on..
+      Young graduates eager to learn new skills don’t always possess the technical background
+      to interest recruiters or start up their own projects.
+    what_we_do: |
+      Le Wagon aims to enable all young talents to become actors of innovation
+      through complementary training in programing, going from initiation courses to immersive 2 month-long program.
+    we_teach_upcase: WE TEACH
+    ruby_hacking: |
+      Ruby algorithmics & growth hacking techniques (scraping, APIs interrogation).
+      We pragmatically apply coding to entrepreneurs’ issues.
+    oop_and_rails: |
+      Object concepts and design patterns classics (MVC, Page-Controller),
+      key-notions to master every new web framework.
+      Ruby on Rails enables you to quickly prototype any idea.
+    database_and_js: |
+      SQL database modelisation, open-source libraries integration
+      (fileupload, geoloc, authentification, payment, Ouath, etc)
+      and web navigator programing with JavaScript, Ajax.
+    coding_best_practices: |
+      Best practices of web development (Github collaboration, code versioning,
+      continuous deployment on Heroku, photo management on Amazon S3,
+      email management with external SMTP like Mandrill, etc)
+  apply:
+    title: Apply now
+    description: Apply to Le Wagon and build amazing stuff with ruby on Rails in 9 weeks.
+    lead: "Le Wagon is a <strong>challenging</strong> program that requires<strong>full-time</strong> investment during <strong>9 semaines</strong>. You should be <strong>fluent in English</strong>, programmer's reference language."
+  alumni:
+    title: Our student projects
+    description: "Discover the projects of our alumni. More than 80 students have created awesome softwares thanks to Le Wagon. And you?"
+    and_you: and you
+    final_project: Final project
