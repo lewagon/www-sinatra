@@ -44,6 +44,8 @@ GEM
     puma (2.7.1)
       rack (>= 1.1, < 2.0)
     rack (1.5.2)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
     rack-cors (0.2.9)
     rack-protection (1.5.3)
       rack
@@ -111,6 +113,7 @@ DEPENDENCIES
   gibbon
   i18n
   puma
+  rack-contrib
   rack-cors
   rails-assets-font-awesome
   rails-assets-jquery
