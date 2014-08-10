@@ -24,7 +24,7 @@
           <ul class="dropdown-menu" role="menu">
             <% CITIES.each do |slug, city| %>
               <li>
-                <a href="/<%= slug %>"><%= city[:name] %></a>
+                <a href="<%= send(:"#{slug}_path") %>"><%= city[:name] %></a>
               </li>
             <% end %>
             <li>
