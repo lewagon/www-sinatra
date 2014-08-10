@@ -93,6 +93,9 @@ fr:
     and_you: et vous
     final_project: Projet final
   program:
+    title: Programme
+    description: 9 semaines pour apprendre ruby on Rails, HTML/CSS, Javascript, et les meilleures pratiques de développement web
+    teaser: Devenez développeur web en 9 semaines
     our_goal: NOTRE OBJECTIF
     our_goal_detailed: |
       Notre programme est conçu pour les débutants ou "faux débutants"
