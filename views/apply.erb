@@ -10,7 +10,7 @@
             </a>
           </p>
           <% unless defined?(no_faq) && no_faq %>
-            <p>Encore des questions ? Vous pouvez lire les <a href="<%= faq_path %>">FAQ</a></p>
+            <p><%= t("still_some_questions") %> <a href="<%= faq_path %>">FAQ</a></p>
           <% end %>
         </div>
       </div>

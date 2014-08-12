@@ -25,7 +25,7 @@
 
 <div class="newsletter text-center">
   <p>
-    <%= t "newsletter_city_teaser_html", city: @city[:name] %>
+    <%= t "newsletter.city_teaser_html", city: @city[:name] %>
   </p>
 
   <%= erb :mailchimp_form, locals: { city: @city[:name] } %>
@@ -111,7 +111,7 @@
       <% end %>
 
       <div class="col-xs-12 col-md-3 col-lg-2 text-justify">
-        <p><%= t "partner_join_html" %></p>
+        <p><%= t "city.partner_join_html" %></p>
         <p><a href="mailto:contact@lewagon.org">contact@lewagon.org</a></p>
         <p></p>
       </div>
@@ -124,13 +124,13 @@
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3">
         <div class="box center">
-          <h3><%= t "get_onboard", city: @city[:name] %></h3>
+          <h3><%= t "city.get_onboard", city: @city[:name] %></h3>
           <a href="<%= apply_path %>" class="btn btn-primary red-btn">
             <%= t("apply_now").upcase %>
           </a>
           <% if I18n.locale == :fr %>
             <br/><br/>
-            <p>Vous voulez plus de détails ? Vous pouvez lire les <a href="<%= faq_path %>">FAQ</a></p>
+            <p><%= t "still_some_questions"%> <a href="<%= faq_path %>">FAQ</a></p>
           <% end %>
           <%# TODO: Add a link to FAQ in english once localized %>
         </div>

@@ -92,14 +92,14 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
-        <h2>JOURNÉE-TYPE</h2>
+        <h2><%= t "program.typical_day_upcase" %></h2>
         <table>
           <tr>
             <td>
               <img src="<%= image_path 'icons/live-code.png' %>">
             </td>
             <td>
-              <p><strong>9h</strong> - introduction théorique & live-code des professeurs projeté sur grand écran.</p>
+              <p><strong>9h</strong> - <%= t "program.nine_o_clock" %></p>
             </td>
           </tr>
           <tr>
@@ -107,7 +107,7 @@
               <img src="<%= image_path 'icons/pair-programming.png' %>">
             </td>
             <td>
-              <p><strong>10h - 12h30</strong> - challenges en binôme ou par groupe sur la plateforme autocorrigée du Wagon, encadrés par les professeurs.</p>
+              <p><strong>10h - 12h30</strong> - <%= t "program.ten_o_clock" %></p>
             </td>
           </tr>
           <tr>
@@ -115,7 +115,7 @@
               <img src="<%= image_path 'icons/lunch.png' %>">
             </td>
             <td>
-              <p><strong>12h30 - 14h</strong> - déjeuner (avec <i>lightning talk</i> sur des sujets tech, e.g. hardware, dataviz, etc.).</p>
+              <p><strong>12h30 - 14h</strong> - <%= t "program.twelve_o_clock" %></p>
             </td>
           </tr>
           <tr>
@@ -123,7 +123,7 @@
               <img src="<%= image_path 'icons/pair-programming.png' %>">
             </td>
             <td>
-              <p><strong>14h - 17h30</strong> - poursuite des challenges avec ré-explication des notions-clefs.</p>
+              <p><strong>14h - 17h30</strong> - <%= t "program.two_o_clock" %></p>
             </td>
           </tr>
           <tr>
@@ -131,7 +131,7 @@
               <img src="<%= image_path 'icons/apero.png' %>">
             </td>
             <td>
-              <p><strong>19h</strong> - Selon la journée, séance de soutien, mentoring sur les projets, masterclasses (derniers invités: Romain Niccoli - CTO Criteo, Ludovic Le Moan - CEO Sigfox..), meetup, dîners, évènements divers & variés.</p>
+              <p><strong>19h</strong> - <%= t "program.seven_o_clock" %></p>
             </td>
           </tr>
         </table>
@@ -142,32 +142,32 @@
 
 <div id="weekly-schedule" class="text-center">
   <div class="container">
-    <h2>PAR SEMAINE</h2>
+    <h2><%= t "program.by_week_upcase" %></h2>
     <br/>
     <div class="row text-center">
       <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="number">1-2</div>
-        <p>Algorithmique en ruby</p>
+        <p><%= t "program.ruby_week" %></p>
       </div>
       <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="number">3</div>
-        <p>Programmation orientée-objet</p>
+        <p><%= t "program.oop_week" %></p>
       </div>
       <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="number">4</div>
-        <p>Base de données SQL et ORM</p>
+        <p><%= t "program.sql_week" %></p>
       </div>
       <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="number">5</div>
-        <p>Front-End (HTML/CSS/Javascript)</p>
+        <p><%= t "program.frontend_week" %></p>
       </div>
       <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="number">6-7</div>
-        <p>Rails</p>
+        <p><%= t "program.rails_week" %></p>
       </div>
       <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="number">8-9</div>
-        <p>Projets</p>
+        <p><%= t "program.projects_week" %></p>
       </div>
     </div>
     <div class="vertical-spacer"></div>
@@ -176,7 +176,7 @@
         <div id="last" class="number"><strong>1-9</strong></div>
       </div>
       <div class="col-sm-6">
-        <p class="text-justify"><strong>Best practices</strong> - Tout au long des 9 semaines, les élèves apprendront les best practices de développement web (techniques de versionning et de collaboration sur Github, déploiement continu et scaling d'une application web sur heroku, gestion des photos sur Amazon S3, etc.)</p>
+        <p class="text-justify"><strong>Best practices</strong> - <%= t "program.best_practices" %></p>
       </div>
     </div>
   </div>

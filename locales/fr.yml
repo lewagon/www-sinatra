@@ -1,5 +1,7 @@
 fr:
   swith_language_title: Langue
+  ready_to_get_onboard: Prêt à embarquer ?
+  still_some_questions: Encore des questions ? Vous pouvez lire les
   menu:
     program: Programme
     cities: Villes
@@ -13,12 +15,11 @@ fr:
       <strong>Vous voulez rejoindre cette liste ?</strong> Pour nous soutenir,
       recruter nos élèves ou former vos employés chez nous.
     get_onboard: Embarquez pour 9 semaines à %{city}
-    ready_to_get_onboard: Prêt à embarquer ?
   newsletter:
     teaser: "<p>Soyez informé des prochaines <strong>masterclasses</strong>, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.</p>"
     city_teaser_html: 'Soyez informé des prochaines <strong>évènements</strong> à %{city}, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.'
     email_placeholder: votre e-mail
-    follow_us_button: Suivez-nous !
+    follow_us_button: Suivez-nous
     thank_you: Merci, à très vite !
   testimonials:
     works_at: travaille chez
@@ -108,33 +109,62 @@ fr:
     find_a_job: Trouver un poste dans une entreprise du numérique avec ces nouvelles compétences-clef (en développement, product management, marketing, growth hacking..).
     why: Why Le Wagon?
     rationale: |
-      Everybody can learn to code using online tutorials.
-      Only it’s long and painful: you stumble and grope along,
-      you spend hours and hours with stack overflow when all you want to
-      do is code on your current projects. Our program will immediately sink
-      you into a super stimulant ecosystem where you’ll learn 10 times faster.
-      Moreover, you will will learn what can not be taught on line: a dev’s set-up,
-      web development best practice, software architecture  and data base modelling.
-      To sum up, you’ll learn to go from a concrete problem to a technical solution.
+      <p>N'importe qui peut apprendre à coder seul avec des
+      ressources en ligne. Seulement c'est long et pénible :
+      on tâtonne & on passe des heures devant Stack Overflow
+      alors qu'on a envie de se lancer sur des projets concrets.</p>
+      <p>Le programme vous plongera dans un ecosystème ultra-stimulant
+      ou vous apprendrez dix fois plus vite. <strong>Surtout, vous
+      apprendrez ce qui ne s'apprend pas en ligne</strong> : le set-up
+      d'un codeur, les bonnes pratiques de développement web, les
+      techniques de modélisation d'une architecture logicielle, d'une
+      base de données. Pour résumer, <strong>vous apprendrez à
+      passer d'un problème concret à une solution technique</strong>.</p>
     join_the_community: Join the community
     le_wagon_community: |
-      At the end of our program you’ll know how to transform your ideas into products, you will have coded several web apps and you’ll have a  work portofolio on Github.
-      You’ll be part of a hypercative community: 80 alumnis, 8 teachers, 12 mentors, 7 start-ups created by alumnis, Masterclasses every Thursday with successful entrepreneurs and CEOs who will network with you, technical coaching for your projects post-program.
-      Developers, entrepreneurs, incubators or accelerators, you will join a passionate and helpful community who will bring you many opportunities.
+      <p>A la fin de la formation, vous saurez transformer
+      vos idées en produits, vous aurez codé plusieurs applis
+      web et aurez un portfolio de votre travail sur Github.</p>
+      <p>Vous ferez surtout partie d'une communauté hyperactive :
+      80 alumni, 8 professeurs, 12 mentors, 7 startups d'anciens
+      déjà créées, des apero-talks tous les jeudi-soirs avec des intervenants
+      de haut-niveau, <strong>un suivi technique des projets
+      post-formation</strong>.</p><p>Développeur, entrepreneurs,
+      incubateurs, vous rejoindrez une communauté de passionnés
+      qui s'entraide et vous apportera de belles opportunités.</p>
+
+
     the_spirit: The Spirit
     le_wagon_spirit: |
-      All Le Wagon’s teachers are web entrepreneurs (Taster’s Clubn Sylights, Txto etc)
-      already having a “ground experience” of programing thus knowing the key-concepts
-      to emphasize during classes. Every participant is also coached by a mentor,
-      a professional developer who will follow your projects and make sure everything is up to date.
-      Ah, and also there’s Thursday Yoga with Claire. Just to loosen up :)
-
-
-
-
-
-
-
-
-
-
+      <p>Les professeurs du Wagon sont tous des entrepreneurs
+      web (Taster's club, Sylights, Txto), ayant une "expérience
+      terrain" du code, et sachant sur quelles notions il faut
+      mettre l'accent.</p>
+      <p>Chaque participant est également encadré par un mentor,
+      un développeur professionnel qui vous suit sur vos projets
+      personnel, et avec qui vous bâtissez une relation privilégiée.</p>
+      <p>Ah ! et on fait aussi du yoga le jeudi avec Claire.
+      Pour se vider la tête :)</p>
+    typical_day_upcase: JOURNÉE-TYPE
+    nine_o_clock: introduction théorique & live-code des professeurs projeté sur grand écran.
+    ten_o_clock: challenges en binôme ou par groupe sur la plateforme autocorrigée du Wagon, encadrés par les professeurs.
+    twelve_o_clock: déjeuner (avec <i>lightning talk</i> sur des sujets tech, e.g. hardware, dataviz, etc.).
+    two_o_clock: poursuite des challenges avec ré-explication des notions-clefs.
+    seven_o_clock: |
+      Selon la journée, séance de soutien, mentoring sur
+      les projets, masterclasses (derniers invités: Romain Niccoli - CTO Criteo,
+      Ludovic Le Moan - CEO Sigfox..), meetup, dîners,
+      évènements divers & variés.
+    by_week_upcase: PAR SEMAINE
+    ruby_week: Algorithmique en ruby
+    oop_week: Programmation orientée-objet
+    sql_week: Base de données SQL et ORM
+    frontend_week: Front-End (HTML/CSS/Javascript)
+    rails_week: Rails
+    projects_week: Projets
+    best_practices: |
+      Tout au long des 9 semaines, les élèves apprendront
+      les best practices de développement web (techniques de versionning
+      et de collaboration sur Github, déploiement continu et
+      scaling d'une application web sur heroku, gestion des
+      photos sur Amazon S3, etc.)
