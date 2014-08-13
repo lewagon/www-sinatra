@@ -15,8 +15,6 @@ fr:
         icon: link
       - url: https://www.facebook.com/getkudoz
         icon: facebook
-
-
   - name: Baptiste et Vincent
     image_name: fizzer-guys.png
     url: https://github.com/BaptisteHamain
@@ -35,8 +33,6 @@ fr:
       icon: link
     - url: https://www.facebook.com/fizzer.official
       icon: facebook
-
-
   - name: Edouard Polese
     image_name: edouard.png
     url: https://github.com/edouardpo
@@ -51,8 +47,6 @@ fr:
       icon: github-alt
     - url: http://www.vogmark.com
       icon: link
-
-
   - name: Olivier Godement
     image_name: olivier_god.png
     url: https://github.com/olivierrg
@@ -67,8 +61,6 @@ fr:
         icon: github-alt
       - url: https://github.com/olivierrg
         icon: link
-
-
   - name: Estelle Aubouin
     image_name: estelle.png
     url: https://github.com/Estelleabn
@@ -83,7 +75,6 @@ fr:
         icon: github-alt
       - url: http://www.lecolis.com
         icon: link
-
   - name: Benoit Chibrac
     image_name: benoit.png
     url: https://twitter.com/BenoitChibrac
@@ -96,7 +87,6 @@ fr:
     links:
       - url: https://twitter.com/BenoitChibrac
         icon: twitter
-
   - name: Melanie Navarro
     image_name: melanie.png
     url: https://github.com/melnav
@@ -113,7 +103,6 @@ fr:
         icon: facebook
       - url: http://www.mavillejetaide.org
         icon: link
-
   - name: Laurent Cuzin
     image_name: laurent.png
     url: https://github.com/laurenc
@@ -128,8 +117,6 @@ fr:
         icon: github-alt
       - url: http://bouquet.herokuapp.com
         icon: link
-
-
   - name: Emmanuel Louisy-Gabriel
     image_name: manu.png
     url: https://github.com/ManyBaby
@@ -154,8 +141,8 @@ en:
       name: Kudoz
       url: http://www.getkudoz.com
       image_name: kudoz-landing.jpg
-      teaser: "The iOS app who lets job offers come to you. Tinder of employment."
-      description: "Back-end API development, filtering algorithms for Linkedin, web interface for HR."
+      teaser: "The iOS app to let job offers come to you. Tinder for job search."
+      description: "Development of the back-end API, the recommendation engine based on Linkedin, and the web-application for HR."
     links:
       - url: http://github.com/olixier
         icon: github-alt
@@ -163,8 +150,6 @@ en:
         icon: link
       - url: https://www.facebook.com/getkudoz
         icon: facebook
-
-
   - name: Baptiste et Vincent
     image_name: fizzer-guys.png
     url: https://github.com/BaptisteHamain
@@ -172,8 +157,8 @@ en:
       name: Fizzer
       url: http://www.fizzer.fr/
       image_name: fizzer-landing.jpg
-      teaser: "Responsive website made for sending personalized postcards by taking pictures with your smartphone."
-      description: "Responsive web-app development"
+      teaser: "Responsive web-app to send printed postcards right from your smartphone."
+      description: "Development of the fully functional application (with payment, custom signatures, virtual or physical sending,..)"
     links:
     - url: https://github.com/BaptisteHamain
       icon: github-alt
@@ -183,8 +168,6 @@ en:
       icon: link
     - url: https://www.facebook.com/fizzer.official
       icon: facebook
-
-
   - name: Edouard Polese
     image_name: edouard.png
     url: https://github.com/edouardpo
@@ -192,15 +175,16 @@ en:
       name: Vogmark
       url: http://www.vogmark.com/
       image_name: vogmark-landing.jpg
-      teaser: "A web app that pings you when your favorite product’s price goes down."
-      description: "Vogmark web app development, bookmarklet for tracking a product from an external e-commerce site, scraping robot for being pingued when the price goes down."
+      teaser: "Ping yourself when the price of your favorite products drop."
+      description: |
+        Development of the web-application,
+        the bookmarklet for tracking a product from external page,
+        and the engine for scraping products' pages on a daily basis."
     links:
     - url: https://github.com/edouardpo
       icon: github-alt
     - url: http://www.vogmark.com
       icon: link
-
-
   - name: Olivier Godement
     image_name: olivier_god.png
     url: https://github.com/olivierrg
@@ -208,15 +192,15 @@ en:
       name: Capy
       url: http://capy.herokuapp.com
       image_name: capy-landing.jpg
-      teaser: "A SaaS app for easily generating a capitalization form, subscription bonuses & associates’ pact and export it on excel and word. Every lawyer’s dream!"
+      teaser: |
+        A SaaS app for building lawyer's documents: capitalization tables, share purchase warrants..
+        And export them to Excel and Word right in one click. Every lawyer’s dream!
       description: "Capy’s Ruby on Rails web app development, Heroku hosting."
     links:
       - url: https://github.com/olivierrg
         icon: github-alt
       - url: https://github.com/olivierrg
         icon: link
-
-
   - name: Estelle Aubouin
     image_name: estelle.png
     url: https://github.com/Estelleabn
@@ -224,14 +208,13 @@ en:
       name: Le Colis
       url: http://www.lecolis.com
       image_name: lecolis-landing.jpg
-      teaser: "A subscription web app to receive French cuisine packages abroad."
+      teaser: "Receive French food when you live abroad and you miss French gastronomy."
       description: "Development of the website"
     links:
       - url: https://github.com/Estelleabn
         icon: github-alt
       - url: http://www.lecolis.com
         icon: link
-
   - name: Benoit Chibrac
     image_name: benoit.png
     url: https://twitter.com/BenoitChibrac
@@ -239,12 +222,11 @@ en:
       name: Tint
       url: #
       image_name: tint-landing.jpg
-      teaser: "A SaaS app for the art market enabling its’ users to optimize their activities (orders, gallery presentation, etc..)"
-      description: Tint beta development. Mobile version coming soon!
+      teaser: "A SaaS app for the art market. For an easy management of your galleries, artists and orders"
+      description: Tint in beta development and the team wants it perfect.. Keep you posted soon!
     links:
       - url: https://twitter.com/BenoitChibrac
         icon: twitter
-
   - name: Melanie Navarro
     image_name: melanie.png
     url: https://github.com/melnav
@@ -252,8 +234,8 @@ en:
       name: Ma ville je t'aide
       url: http://www.mavillejetaide.org
       image_name: mavillejetaide-landing.jpg
-      teaser: A web app to discover local associations and volunteer in Paris.
-      description:  Development of Ruby on Rails web app "ma ville je t’aide".
+      teaser: Discover local associations and volunteer in Paris.
+      description:  Development of Ruby on Rails web-app "ma ville je t’aide".
     links:
       - url: https://github.com/melnav
         icon: github-alt
@@ -261,7 +243,6 @@ en:
         icon: facebook
       - url: http://www.mavillejetaide.org
         icon: link
-
   - name: Laurent Cuzin
     image_name: laurent.png
     url: https://github.com/laurenc
@@ -269,15 +250,13 @@ en:
       name: Bouquet
       url: http://bouquet.herokuapp.com
       image_name: bouquet-landing.jpg
-      teaser: A iOS app for flower bouquets delivery in less than 4 hours in Paris.
-      description: The back-end API and admin app development to manage orders and shipments, as well as the website.
+      teaser: A iOS app for sending a bouquet in less than 4 hours in Paris.
+      description: Developement of the back-end API and admin web-application for managing payment, orders, deliveries, etc.
     links:
       - url: https://github.com/laurenc
         icon: github-alt
       - url: http://bouquet.herokuapp.com
         icon: link
-
-
   - name: Emmanuel Louisy-Gabriel
     image_name: manu.png
     url: https://github.com/ManyBaby
@@ -285,8 +264,8 @@ en:
       name: We are the Diggers
       url: http://wearethediggers.herokuapp.com
       image_name: wearethediggers-landing.jpg
-      teaser: A web app to identify unknown Australian soldiers who fought in France during WWI. Part of a unique collection!
-      description: Web app and scraping robot development to collect military data from official Australian sites ( names, grades, regiment ID, etc)
+      teaser: Help us identify unknown Australian soldiers who fought in France during WWI. From of a unique collection of pictures!
+      description: Development of the web-application and of the scraping engine to collect military data from official Australian sites (names, grades, regiment ID, etc)
     links:
       - url: https://github.com/ManyBaby
         icon: github-alt
