@@ -98,7 +98,7 @@
 <div class="partners">
   <div class="container">
     <div class="row">
-      <h2><%= t("partners").upcase %></h2>
+      <h2><%= t("city.partners").upcase %></h2>
       <% @city[:partners].each do |partner| %>
         <% partner = partner.to_sym %>
         <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
@@ -128,11 +128,8 @@
           <a href="<%= apply_path %>" class="btn btn-primary red-btn">
             <%= t("apply_now").upcase %>
           </a>
-          <% if I18n.locale == :fr %>
-            <br/><br/>
-            <p><%= t "still_some_questions"%> <a href="<%= faq_path %>">FAQ</a></p>
-          <% end %>
-          <%# TODO: Add a link to FAQ in english once localized %>
+          <br/><br/>
+          <p><%= t "still_some_questions"%> <a href="<%= faq_path %>">FAQ</a></p>
         </div>
       </div>
     </div>

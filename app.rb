@@ -53,7 +53,7 @@ class App < Sinatra::Base
 
   DEFAULT_LOCALE = :fr
   LOCALES = %i(fr en)
-  AUTOMATIC_LOCALE_ROOT_REDIRECT = false   # TODO: enable this only when ALL pages are localized
+  AUTOMATIC_LOCALE_ROOT_REDIRECT = true   # TODO: enable this only when ALL pages are localized
 
   LOCALES.each do |locale|
     if locale == DEFAULT_LOCALE
@@ -114,6 +114,12 @@ class App < Sinatra::Base
   end
 
   get '/blog' do
+    @posts = Blog.new.all
+    erb :blog
+  end
+
+  # TODO - change the routing once blog is translated..
+  get '/en/blog' do
     @posts = Blog.new.all
     erb :blog
   end
