@@ -130,24 +130,30 @@ en:
       <p>Ah, and we do Yoga on Thursday's afternoon with Claire.
       Just to loosen up :)</p>
     typical_day_upcase: TYPICAL-DAY
-    nine_o_clock: theoretical inroduction and live-code projections where teachers explain concrete examples
-    ten_o_clock: group challenges on the auto-corrected Le Wagon’s platform, guided by teachers
-    twelve_o_clock:  lunch with lightning talk on tech topics like hardware, dataviz, etc
-    two_o_clock: challenges follow-through and re-explanation of the key-concepts
+    nine_o_clock: |
+      theoretical courses and live code on our giant screen to show students concrete
+      examples and explain core concepts
+    ten_o_clock: |
+      pair-programming challenges assisted by teachers, with automatic scoring and correction through our
+      automated platform
+    twelve_o_clock: |
+      lunch with lightning talk on tech topics (hardware, dataviz, etc)
+    two_o_clock: |
+      challenges follow-through and re-explanation of the key concepts
     seven_o_clock: |
-      coaching, mentoring on projects, masterclasses (our last speakers Romain Niccoli
+      coaching, mentoring on personal projects, masterclasses (our last speakers: Romain Niccoli
       CTO Criteo, Ludovic Le Moan CEO Sigfox, Renaud Visage CTO Eventbrite, etc),
-      meetups, diners, and other kind of events
+      meetups, dinners, and other cool stuff
     by_week_upcase: WEEK BY WEEK
-    ruby_week: ruby algorithm
-    oop_week: object-oriented programming
+    ruby_week: ruby programming
+    oop_week: object-oriented design
     sql_week: SQL database and ORM
     frontend_week: Front-End (HTML/CSS/Javascript)
     rails_week: Rails
     projects_week: Projects
     best_practices: |
-      All through the 9 weeks-long program , the students
-      will learn the best practice of web development
-      (versioning  and Github collaboration techniques,
-      continuous deployment and web app scaling on heroku,
-      Amazon S3 photo management etc)
+      All through the 9 weeks, students
+      will be taught programming and web-development best practices
+      (code versioning and collaboration techniques on Github,
+      continuous deployment and scaling on heroku, management of pictures with
+      Amazon S3, automatic mailing with external SMTP like Mandrill, and a lot more..)
