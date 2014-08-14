@@ -40,8 +40,22 @@
         <li class="with-underline">
           <a href="/blog">Blog</a>
         </li>
-        <li id="last-link" class="with-underline">
+        <li class="with-underline">
           <a href="<%= faq_path %>">FAQ</a>
+        </li>
+        <li class="dropdown with-underline" id="last-link">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-globe"></i>
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="<%= current_path(:en) %>">English</a>
+            </li>
+            <li>
+              <a href="<%= current_path(:fr) %>">Français</a>
+            </li>
+          </ul>
         </li>
         <li>
           <a href="<%= apply_path %>" class="btn btn-primary" id="nav-btn"><%= t "menu.apply" %></a>

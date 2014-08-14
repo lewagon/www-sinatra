@@ -27,6 +27,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'rerun'
   gem 'dotenv'
+  gem 'pry-byebug'
 end
 
 group :production do

@@ -26,12 +26,11 @@
         <h4><%= t "swith_language_title" %></h4>
         <ul class="list-unstyled">
           <li>
-            <a href="/">Français</a>
+            <a href="<%= current_path(:en) %>">English</a>
           </li>
           <li>
-            <a href="/en">English</a>
+            <a href="<%= current_path(:fr) %>">Français</a>
           </li>
-          <li></li>
         </ul>
       </div>
       <div class="col-sm-3">
