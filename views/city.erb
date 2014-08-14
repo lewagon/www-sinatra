@@ -51,7 +51,7 @@
               </div>
               <div class="col-xs-8">
                 <p class="text-justify">
-                  <%= teacher[:description] %>
+                  <%= teacher[:description][I18n.locale] %>
                 </p>
                 <% if teacher[:links] %>
                 <ul class="list-inline link-list">
@@ -87,7 +87,7 @@
         <h2><%= @city[:name].upcase %> CAMP</h2>
         <p style="font-weight:500;font-size: 20px;"><%= @city[:address] %></p>
         <br/>
-        <p style="font-weight:300;font-size: 17px;" class="text-justify"><%= @city[:description] %></p>
+        <p style="font-weight:300;font-size: 17px;" class="text-justify"><%= @city[:description][I18n.locale] %></p>
       </div>
     </div>
   </div>

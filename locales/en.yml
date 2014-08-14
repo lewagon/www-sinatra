@@ -82,7 +82,7 @@ en:
   apply:
     title: Apply now
     description: Apply to Le Wagon and build amazing products with ruby on Rails in 9 weeks.
-    lead: "Le Wagon is a <strong>challenging</strong> program that requires<strong>full-time</strong> investment during <strong>9 semaines</strong>. You should be <strong>fluent in English</strong>, programmer's reference language."
+    lead: "Le Wagon is a <strong>challenging</strong> program that requires <strong>full-time</strong> investment during <strong>9 weeks</strong>. You should be <strong>fluent in English</strong>, programmer's reference language."
   alumni:
     title: Our student projects
     description: "Discover the projects of our students. More than 80 students have created awesome softwares at Le Wagon. And you?"
