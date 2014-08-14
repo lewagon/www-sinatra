@@ -186,7 +186,7 @@ class App < Sinatra::Base
         if page[:locale_path]
           page[:locale_path][locale]
         else
-          base_path = locale == DEFAULT_LOCALE ? '' : locale
+          base_path = locale == DEFAULT_LOCALE ? '' : "/#{locale}"
           "#{base_path}#{page[:path]}"
         end
       end
@@ -199,7 +199,7 @@ class App < Sinatra::Base
             return page[:locale_path][locale]
           end
         else
-          if page[:path] == request.path
+          if /(\/[a-z]+)?#{page[:path]}/ =~ request.path
             return send :"#{slug}_path", locale: locale
           end
         end
