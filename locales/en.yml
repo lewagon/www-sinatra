@@ -31,7 +31,7 @@ en:
       inspiring entrepreneurs and developers. Thank you!
     second: |
       In under 2 months, I developed Kudoz API, a web-app for HRs, and a Linkedin recommendation engine.
-      We're growing fast and we've just hired a new developer from Le Wagon's alumni
+      We're growing fast and we've just hired a new developer from Le Wagon's last season
     third: |
     third: |
       Le Wagon helped me make a transition from business school student to software engineer.
@@ -57,19 +57,19 @@ en:
       <strong>To stay informed of our events, this way!</strong>
     who_we_are: |
       Driven by technological innovations, tech companies are inventing new products
-      and services every day. <strong>Education has a hard time climbing this step</strong>.
-      Young graduates, eager to learn these new skills, don't have the necessary background
-      to get recruiters' attention or launch their own project.
+      and services every day. <strong>Traditional schools have a hard time climbing this step</strong>.
+      Young graduates, eager to learn these new skills, don't have the necessary technical background
+      to get recruiters' attention or to launch their own project.
     what_we_do: |
-      Le Wagon wants to make these young <strong>talents</strong> become <strong>actors</strong> of the innovation process.
-      We invent hands-on program to teach them web development and get them <strong>job-ready</strong> with these new powers.
+      Le Wagon wants to make these young <strong>talents</strong> become <strong>actors</strong> of this "tech" innovation.
+      We design hands-on programs to teach them web development and get them <strong>job-ready</strong> with these new powers.
     we_teach_upcase: WE TEACH
     ruby_hacking: |
       Ruby programming & growth hacking techniques (<strong>scraping</strong>, <strong>APIs</strong> manipulation).
-      We focus on pragmatic coding to answer real-life issues.
+      We have a pragmatic approach of coding to answer real-life issues.
     oop_and_rails: |
       Object-oriented programming and typical design patterns (<strong>MVC</strong>, <strong>Page-Controller</strong>),
-      Key-notions to quickly grab any new framework.
+      the key notions to quickly grab a new framework.
       <strong>Ruby on Rails</strong> helps you build prototypes very quickly to test any idea.
     database_and_js: |
       SQL database modeling, integration of <strong>open-source</strong> libraries
@@ -97,9 +97,9 @@ en:
       Our program is designed for complete beginners or "half-beginners" who really want
       to dive into programming and, above all, change their <strong>mindset</strong>.
       Learn to think as a developer, consider issues with new insights, become more creative
-      thanks to this new technical powers. Our unique goal is to make you reach this level.
+      thanks to these new abilities. Our unique goal is to make you reach this level.
     be_a_great_entreprener: Become an outstanding entrepreneur who is able to code his own projects and to deeply understand technical issues.
-    find_a_job: Find a job in a tech company with these new skills (developer, product manager, growth hacker, etc)
+    find_a_job: Find a job in a tech company (as a developer, product manager, growth hacker, etc)
     why: WHY LE WAGON?
     rationale: |
       <p>Everybody can learn to code online.
@@ -108,40 +108,38 @@ en:
       <p>Our program will not only make you save 2 years, but
       will also <strong>teach you what you cannot learn online</strong>:
       how to start with a good set-up,
-      to design your software architecture, to model your data, to apply best practices in web-development.</p>
-      <p>To sum up,  <strong>you’ll learn to start from a
+      to design your software architecture, to model your data, to apply best practices in your day-to-day work.</p>
+      <p>To sum up,  <strong>you’ll learn how to start from a
       real-life problem and end with a technical solution</strong>.</p>
     join_the_community: JOIN THE COMMUNITY
     le_wagon_community: |
       <p>At the end of the program, you’ll know how to <strong>transform
-      ideas into products</strong>, and you will already have <strong>several web
-      apps in your Github portfolio</strong>.</p>
-      <p>You’ll also be part of a very active community: 100 former students,
+      ideas into products</strong>, and you will already have <strong>several projects in your Github portfolio</strong>.</p>
+      <p>You will also be part of a very active community: 100 former students,
       8 teachers, 15 coachs, 7 start-ups made in Le Wagon,
       world-class workshops every Thursday with inspiring entrepreneurs and CEOs,
-      personal coaching on your projects after the program.</p>
-      <p>Join a community of passionate professionals, ready to help and bring you new opportunities.</p>
+      personal coaching session on your personal projects after the end of the program.</p>
+      <p>Be prepared to join a community of passionate professionals, ready to help and to bring you new opportunities.</p>
     the_spirit: OUR SPIRIT
     le_wagon_spirit: |
       <p>On top of being experienced programmers, <strong>our teachers are also web entrepreneurs</strong> (Taster’s Club, Sylights, Txto, Le Wagon, Tinci, Pull Review).
-      They  have a “ground experience” of programing and they know which concept really matter.</p>
-      <p>Every student also has a personal coach, a professional
-      developer who will give you guidelines on your personal projects.</p>
+      They  have a “ground experience” of programing and they know which concepts really matter.</p>
+      <p>Every student is also followed by a personal coach, a professional
+      developer who will give him guidelines on his personal project.</p>
       <p>Ah, and we do Yoga on Thursday's afternoon with Claire.
       Just to loosen up :)</p>
     typical_day_upcase: TYPICAL-DAY
     nine_o_clock: |
-      theoretical courses and live code on our giant screen to show students concrete
-      examples and explain core concepts
+      Theoretical courses and live-code on real-life examples on our giant screen
     ten_o_clock: |
-      pair-programming challenges assisted by teachers, with automatic scoring and correction through our
+      Pair-programming challenges with automatic scoring & correction through our
       automated platform
     twelve_o_clock: |
-      lunch with lightning talk on tech topics (hardware, dataviz, etc)
+      Lunch with lightning talks on Tech topics (hardware, dataviz, etc)
     two_o_clock: |
-      challenges follow-through and re-explanation of the key concepts
+      Challenges follow-through and re-explanation of the core concepts
     seven_o_clock: |
-      coaching, mentoring on personal projects, masterclasses (our last speakers: Romain Niccoli
+      Coaching on personal projects, masterclasses (our last speakers: Romain Niccoli
       CTO Criteo, Ludovic Le Moan CEO Sigfox, Renaud Visage CTO Eventbrite, etc),
       meetups, dinners, and other cool stuff
     by_week_upcase: WEEK BY WEEK

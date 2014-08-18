@@ -7,7 +7,7 @@ olivier:
       en 2010, une appli pour partager des schémas d'éclairage entre photographes,
       rien de moins !
     en: |
-      Developer since he is 13 years old, passionate about pictures and motorbikes,
+      Developer since he is 13 years old, passionate about photography and motorbikes,
       <strong>Olivier</strong> created <a htref'http://www.sylights.com/'>Sylights</a>
       in 2010, a web editor for lighting diagrams.
   links:
@@ -19,7 +19,6 @@ olivier:
       icon: twitter
     - url: http://www.sylights.com
       icon: link
-
 seb:
   image_name: seb.png
   description:
@@ -30,7 +29,7 @@ seb:
     en: |
       After many years of programming, <strong>Sebastien</strong>
       is now helping startups as <a href='http://sebastien.saunier.me/'>a
-      technical coach</a>. He won't let you code unless you apply the best practices!
+      technical coach</a>. He won't let you code unless you apply the best practices.
   links:
     - url: https://github.com/ssaunier
       icon: github-alt
@@ -52,7 +51,7 @@ gab:
       <strong>Gabriel</strong> has been coding with Ruby & Rails for 4 years. He likes to
       understand what happens under the hood.
       He has worked at <a href='http://www.tigerlilyapps.com/'>Tigerlilyapps</a>.
-      He is a king in teaching code!
+      and he is a king in teaching techniques!
   links:
     - url: https://github.com/gabriel-dehan
       icon: github-alt

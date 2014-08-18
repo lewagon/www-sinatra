@@ -175,11 +175,11 @@ en:
       name: Vogmark
       url: http://www.vogmark.com/
       image_name: vogmark-landing.jpg
-      teaser: "Ping yourself when the price of your favorite products drop."
+      teaser: "Ping yourself when the prices of your favorite products drop."
       description: |
-        Development of the web-application,
-        the bookmarklet for tracking a product from external page,
-        and the engine for scraping products' pages on a daily basis."
+        Development of the web application,
+        of the bookmarklet to track products from external web pages,
+        and of the engine to automate the scraping on a daily basis."
     links:
     - url: https://github.com/edouardpo
       icon: github-alt
@@ -193,9 +193,9 @@ en:
       url: http://capy.herokuapp.com
       image_name: capy-landing.jpg
       teaser: |
-        A SaaS app for building lawyer's documents: capitalization tables, share purchase warrants..
+        A SaaS app for building legal & financial documents: capitalization tables, share purchase warrants, etc.
         And export them to Excel and Word right in one click. Every lawyer’s dream!
-      description: "Capy’s Ruby on Rails web app development, Heroku hosting."
+      description: "Development of the complete app"
     links:
       - url: https://github.com/olivierrg
         icon: github-alt
@@ -208,7 +208,7 @@ en:
       name: Le Colis
       url: http://www.lecolis.com
       image_name: lecolis-landing.jpg
-      teaser: "Receive French food when you live abroad and you miss French gastronomy."
+      teaser: "Receive French food boxes, when you live abroad and miss French cuisine."
       description: "Development of the website"
     links:
       - url: https://github.com/Estelleabn
@@ -223,7 +223,7 @@ en:
       url: #
       image_name: tint-landing.jpg
       teaser: "A SaaS app for the art market. For an easy management of your galleries, artists and orders"
-      description: Tint in beta development and the team wants it perfect.. Keep you posted soon!
+      description: Tint is in beta development and the team wants to keep it secret until it is perfect! Keep you posted soon.
     links:
       - url: https://twitter.com/BenoitChibrac
         icon: twitter
