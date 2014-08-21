@@ -1,6 +1,7 @@
 //= require jquery
 //= require bootstrap
 //= require "postuler"
+//= require "ga"
 
 $(function() {
   $("[data-toggle=tooltip]").tooltip();
