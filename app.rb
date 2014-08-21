@@ -54,7 +54,7 @@ class App < Sinatra::Base
 
   DEFAULT_LOCALE = :fr
   LOCALES = %i(fr en)
-  AUTOMATIC_LOCALE_ROOT_REDIRECT = true   # TODO: enable this only when ALL pages are localized
+  AUTOMATIC_LOCALE_ROOT_REDIRECT = true
 
   LOCALES.each do |locale|
     if locale == DEFAULT_LOCALE
