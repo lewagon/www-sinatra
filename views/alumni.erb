@@ -26,7 +26,7 @@
   <div class="vertical-spacer"></div>
   <div class="container">
     <div class="row">
-      <% ALUMNI[I18n.locale].each_slice(2) do |slice| %>
+      <% ALUMNI.each_slice(2) do |slice| %>
         <div class="clearfix hidden-xs-block"></div>
 
         <% slice.each do |alumnus| %>
@@ -49,11 +49,11 @@
                 </div>
                 <div class="col-xs-8">
                   <p class="text-justify">
-                    <%= alumnus[:project][:teaser] %>
+                    <%= alumnus[:project][:teaser][I18n.locale] %>
                   </p>
                   <p>
                     <strong><%= t "alumni.final_project"%> :</strong>
-                    <%= alumnus[:project][:description] %>
+                    <%= alumnus[:project][:description][I18n.locale] %>
                   </p>
                   <br/>
                   <% if alumnus[:links] %>
