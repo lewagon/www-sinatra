@@ -5,8 +5,12 @@
     name: Kudoz
     url: http://www.getkudoz.com
     image_name: kudoz-landing.jpg
-    teaser: "L'application iOS pour laisser les offres d'emploi venir à vous. Un tinder de l'emploi."
-    description: "Développement de l'API back-end, de l'algorithme de filtrage lié à linkedin, et de l'interface-web côté RH."
+    teaser:
+      fr: "L'application iOS pour laisser les offres d'emploi venir à vous. Un tinder de l'emploi."
+      en: "The iOS app to let job offers come to you. Tinder for job search."
+    description:
+      fr: "Développement de l'API back-end, de l'algorithme de filtrage lié à linkedin, et de l'interface-web côté RH."
+      en: "Development of the back-end API, the recommendation engine based on Linkedin, and the web-application for HR."
   links:
     - url: http://github.com/olixier
       icon: github-alt
@@ -15,7 +19,6 @@
     - url: https://www.facebook.com/getkudoz
       icon: facebook
 
-
 - name: Baptiste et Vincent
   image_name: fizzer-guys.png
   url: https://github.com/BaptisteHamain
@@ -23,18 +26,21 @@
     name: Fizzer
     url: http://www.fizzer.fr/
     image_name: fizzer-landing.jpg
-    teaser: "Un site web responsive pour envoyer vos cartes postales personnalisées en prenant des photos depuis votre mobile."
-    description: "Développement de l'appli web responsive fizzer."
+    teaser:
+      fr: "Un site web responsive pour envoyer vos cartes postales personnalisées en prenant des photos depuis votre mobile."
+      en: "Responsive web-app to send printed postcards right from your smartphone."
+    description:
+      fr: "Développement de l'appli web responsive fizzer."
+      en: "Development of the fully functional application (with payment, custom signatures, virtual or physical sending,..)"
   links:
-  - url: https://github.com/BaptisteHamain
-    icon: github-alt
-  - url: https://github.com/vincentporquet
-    icon: github-alt
-  - url: http://www.fizzer.fr
-    icon: link
-  - url: https://www.facebook.com/fizzer.official
-    icon: facebook
-
+    - url: https://github.com/BaptisteHamain
+      icon: github-alt
+    - url: https://github.com/vincentporquet
+      icon: github-alt
+    - url: http://www.fizzer.fr
+      icon: link
+    - url: https://www.facebook.com/fizzer.official
+      icon: facebook
 
 - name: Edouard Polese
   image_name: edouard.png
@@ -43,14 +49,20 @@
     name: Vogmark
     url: http://www.vogmark.com/
     image_name: vogmark-landing.jpg
-    teaser: "Une appli-web pour être alerté quand le prix d'un produit qui vous intéresse chute!"
-    description: "Développement de l'appli web Vogmark, du bookmarklet pour tracker vos produit depuis un site e-commerce externe, et du robot de scraping pour vous alerter quand le prix de votre produit chute!"
+    teaser:
+      fr: "Une appli-web pour être alerté quand le prix d'un produit qui vous intéresse chute!"
+      en: "Ping yourself when the prices of your favorite products drop."
+    description:
+      fr: "Développement de l'appli web Vogmark, du bookmarklet pour tracker vos produit depuis un site e-commerce externe, et du robot de scraping pour vous alerter quand le prix de votre produit chute!"
+      en: |
+        Development of the web application,
+        of the bookmarklet to track products from external web pages,
+        and of the engine to automate the scraping on a daily basis."
   links:
-  - url: https://github.com/edouardpo
-    icon: github-alt
-  - url: http://www.vogmark.com
-    icon: link
-
+    - url: https://github.com/edouardpo
+      icon: github-alt
+    - url: http://www.vogmark.com
+      icon: link
 
 - name: Olivier Godement
   image_name: olivier_god.png
@@ -59,14 +71,19 @@
     name: Capy
     url: http://capy.herokuapp.com
     image_name: capy-landing.jpg
-    teaser: "Une appli SaaS pour générez simplement un tableau de capitalisation, des bons de souscription & pactes d'associés et les exporter sous formats excel et word. Le rêve de tout avocat !"
-    description: "Développement de l'appli web Ruby on Rails Capy, hébergée sur Heroku"
+    teaser:
+      fr: "Une appli SaaS pour générez simplement un tableau de capitalisation, des bons de souscription & pactes d'associés et les exporter sous formats excel et word. Le rêve de tout avocat !"
+      en: |
+        A SaaS app for building legal & financial documents: capitalization tables, share purchase warrants, etc.
+        And export them to Excel and Word right in one click. Every lawyer’s dream!
+    description:
+      fr: "Développement de l'appli web Ruby on Rails Capy, hébergée sur Heroku"
+      en: "Development of the complete app"
   links:
     - url: https://github.com/olivierrg
       icon: github-alt
     - url: https://github.com/olivierrg
       icon: link
-
 
 - name: Estelle Aubouin
   image_name: estelle.png
@@ -75,8 +92,12 @@
     name: Le Colis
     url: http://www.lecolis.com
     image_name: lecolis-landing.jpg
-    teaser: "Une appli web pour recevoir des colis de cuisine française à l'étranger"
-    description: "Développement d'un site de vente en ligne pour intégrer de nouvelles fonctionnalités."
+    teaser:
+      fr: "Une appli web pour recevoir des colis de cuisine française à l'étranger"
+      en: "Receive French food boxes, when you live abroad and miss French cuisine."
+    description:
+      fr: "Développement d'un site de vente en ligne pour intégrer de nouvelles fonctionnalités."
+      en: "Development of the website"
   links:
     - url: https://github.com/Estelleabn
       icon: github-alt
@@ -90,8 +111,12 @@
     name: Tint
     url: #
     image_name: tint-landing.jpg
-    teaser: "Une appli SaaS pour le marché de l'art, permettant à ses acteurs d'optimiser leur activité (commandes, présentation des galleries,..)."
-    description: Développement de la beta de Tint. Version mobile finalisée coming soon !
+    teaser:
+      fr: "Une appli SaaS pour le marché de l'art, permettant à ses acteurs d'optimiser leur activité (commandes, présentation des galleries,..)."
+      en: "A SaaS app for the art market. For an easy management of your galleries, artists and orders"
+    description:
+      fr: Développement de la beta de Tint. Version mobile finalisée coming soon !
+      en: Tint is in beta development and the team wants to keep it secret until it is perfect! Keep you posted soon.
   links:
     - url: https://twitter.com/BenoitChibrac
       icon: twitter
@@ -103,8 +128,12 @@
     name: Ma ville je t'aide
     url: http://www.mavillejetaide.org
     image_name: mavillejetaide-landing.jpg
-    teaser: Une appli web pour découvir des associations et participer à des actions bénévoles à Paris.
-    description: Développement de l'appli web Ruby on Rails mavillejetaide.
+    teaser:
+      fr: Une appli web pour découvir des associations et participer à des actions bénévoles à Paris.
+      en: Discover local associations and volunteer in Paris.
+    description:
+      fr: Développement de l'appli web Ruby on Rails mavillejetaide.
+      en: Development of Ruby on Rails web-app "ma ville je t’aide".
   links:
     - url: https://github.com/melnav
       icon: github-alt
@@ -120,14 +149,17 @@
     name: Bouquet
     url: http://bouquet.herokuapp.com
     image_name: bouquet-landing.jpg
-    teaser: Une appli iOS pour livrer de beaux bouquets en moins de 4h à Paris.
-    description: Développement de l'API back-end et de l'appli "admin" pour gérer les commandes et les livraisons, ainsi que de la page de lancement.
+    teaser:
+      fr: Une appli iOS pour livrer de beaux bouquets en moins de 4h à Paris.
+      en: An iOS app for sending a bouquet in less than 4 hours in Paris.
+    description:
+      fr: Développement de l'API back-end et de l'appli "admin" pour gérer les commandes et les livraisons, ainsi que de la page de lancement.
+      en: Developement of the back-end API and admin web-application for managing payment, orders, deliveries, etc.
   links:
     - url: https://github.com/laurenc
       icon: github-alt
     - url: http://bouquet.herokuapp.com
       icon: link
-
 
 - name: Emmanuel Louisy-Gabriel
   image_name: manu.png
@@ -136,8 +168,12 @@
     name: We are the Diggers
     url: http://wearethediggers.herokuapp.com
     image_name: wearethediggers-landing.jpg
-    teaser: Une appli web pour identifier des soldats inconnus australiens ayant combattu en France en 14 - 18. A partir d'une collection unique !
-    description: Développement de l'application web et d'un robot de scraping pour récupérer des données militaires à partir des sites officiels australiens (noms, grades, identifiants des régiments & bataillons..)
+    teaser:
+      fr: Une appli web pour identifier des soldats inconnus australiens ayant combattu en France en 14 - 18. A partir d'une collection unique !
+      en: Help us identify unknown Australian soldiers who fought in France during WWI. From of a unique collection of pictures!
+    description:
+      fr: Développement de l'application web et d'un robot de scraping pour récupérer des données militaires à partir des sites officiels australiens (noms, grades, identifiants des régiments & bataillons..)
+      en: Development of the web-application and of the scraping engine to collect military data from official Australian sites (names, grades, regiment ID, etc)
   links:
     - url: https://github.com/ManyBaby
       icon: github-alt

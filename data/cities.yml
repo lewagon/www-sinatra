@@ -2,7 +2,12 @@ paris:
   name: Paris
   locale: fr
   address: "25, rue du Petit Musc 75004 Paris"
-  description: "En plein coeur de Paris, à 100m de l'île Saint-Louis et de la place de la Bastille, notre coding space occupe 140m2 au second étage de <a href='http://www.thefamily.co/'>The Family</a>, l'occasion pour les élèves du Wagon de plonger dans l'écosystème tech et entrepreneurial."
+  description:
+    fr: "En plein coeur de Paris, à 100m de l'île Saint-Louis et de la place de la Bastille, notre coding space occupe 140m2 au second étage de <a href='http://www.thefamily.co/'>The Family</a>, l'occasion pour les élèves du Wagon de plonger dans l'écosystème tech et entrepreneurial."
+    en: |
+      In the heart of Paris, 100 meters away from "Ile Saint-Louis" and "Place de la Bastille".
+      You will benefit from a 140m2 hacker space within the <a href='http://www.thefamily.co/'>The Family</a>, one of the coolest French accelerator.
+      Be prepared to dive in a world of tech and startups!
   images:
     banner: bg/paris.jpg
     bottom: bg/local-paris.jpg
@@ -34,7 +39,13 @@ brussels:
   name: Brussels
   locale: en
   address: "Place Sainte-Gudule 5, 1000 Brussels"
-  description: "All courses will be given in <strong>English</strong>, at <a href='http://co-station.com/'>CO.STATION</a>, in the heart of Brussels, only ​2 minutes' ​walk ​from Central Station. CO.STATION is a post-accelerator, providing access to new markets and capital. It supports High-tech startups that already have a scalable & revenue generating business model, with what they need to grow."
+  description:
+    en: "All courses will be given in <strong>English</strong>, at <a href='http://co-station.com/'>CO.STATION</a>, in the heart of Brussels, only ​2 minutes' ​walk ​from Central Station. CO.STATION is a post-accelerator, providing access to new markets and capital. It supports High-tech startups that already have a scalable & revenue generating business model, with what they need to grow."
+    fr: |
+      Tous les cours seront donnés en <strong>anglais</strong>,
+      à <a href='http://co-station.com/'>CO.STATION</a>, en plein coeur de Bruxelles à deux minutes de Central Station.
+      CO.STATION est un post-incubateur, qui facilite l'accès à de nouveaux marchés et de nouveaux capitaux,
+      pour les start-ups tech qui ont déjà scalé leur business model, et ont besoin de croissance.
   images:
     banner: bg/brussels.jpg
     bottom: bg/local-costation.jpg

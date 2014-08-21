@@ -1,15 +1,15 @@
 <% content_for(:title) do %>
-  Le Wagon - Alumni & Projets
+  Le Wagon - <%= t "alumni.title" %>
 <% end %>
 <% content_for(:description) do %>
-  Découvrez les projets des précédentes promotions du Wagon. Plus de 80 entrepreneurs ont déjà acquis leurs super-pouvoirs, et vous ?
+  <%= t "alumni.description" %>
 <% end %>
 
 <div id="alumni-banner" class="sub-banner text-center">
   <div class="filter">
     <div class="row">
       <div class="col-xs-12 center">
-        <h1>Les projets de nos élèves</h1>
+        <h1><%= t "alumni.title" %></h1>
         <div class="vertical-spacer"></div>
         <ul class="list-inline">
           <li>html & css<img src="<%= image_path 'icons/html.png' %>" alt="html"></li>
@@ -49,11 +49,11 @@
                 </div>
                 <div class="col-xs-8">
                   <p class="text-justify">
-                    <%= alumnus[:project][:teaser] %>
+                    <%= alumnus[:project][:teaser][I18n.locale] %>
                   </p>
                   <p>
-                    <strong>Projet final :</strong>
-                    <%= alumnus[:project][:description] %>
+                    <strong><%= t "alumni.final_project"%> :</strong>
+                    <%= alumnus[:project][:description][I18n.locale] %>
                   </p>
                   <br/>
                   <% if alumnus[:links] %>
@@ -75,10 +75,10 @@
       <% end %>
 
       <div class="col-sm-6 project" id="and-you">
-        <h2>Et vous</h2>
+        <h2><%= t "alumni.and_you" %></h2>
         <i class="fa fa-question"></i>
         <br/>
-        <a href="/postuler" class="btn btn-primary red-btn">
+        <a href="<%= apply_path %>" class="btn btn-primary red-btn">
           <span class="text-uppercase"><%= t "apply_now"%></span>
         </a>
 

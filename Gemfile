@@ -5,6 +5,7 @@ ruby '2.1.2'
 gem 'sinatra'
 gem 'sinatra-asset-pipeline'
 gem 'sinatra-contrib'
+gem 'rack-contrib'
 gem 'i18n'
 
 gem 'autoprefixer-rails'
@@ -26,6 +27,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'rerun'
   gem 'dotenv'
+  gem 'pry-byebug'
 end
 
 group :production do

@@ -1,16 +1,157 @@
 en:
-  program: Program
-  cities: Cities
-  apply: Apply
-  apply_now: Apply now
+  swith_language_title: Language
   ready_to_get_onboard: Ready to get on board?
-  partners: Partners
-  partner_join_html: '<strong>Do you want your company on this list?</strong> To support us, hire one of our student or train your employees with Le Wagon,'
-  get_onboard: Get on board for 9 weeks in %{city}
-  newsletter_city_teaser_html: 'Follow our <strong>events</strong> in %{city}, get our <strong>videos</strong> & technical <strong>blogposts</strong> right in your inbox!'
-  newsletter_email_placeholder: your email
-  newsletter_follow_us_button: Follow us!
-  newsletter_thank_you: Thanks, see you soon!
-  apply_title: Apply at Le Wagon
-  apply_lead: "Le Wagon is a <strong>challenging</strong> and individualized training which is <strong>full-time</strong> job of <strong>9 weeks</strong>. Invest in your skills, it will <strong>change</strong> your future for ever!"
-  faq_footer: "We haven't answered your question? Please drop us a note at"
+  still_some_questions: You still have some questions? You can read the
+  menu:
+    program: Program
+    cities: Cities
+    apply: Apply
+  apply_now: Apply now
+  faq:
+    footer: "We haven't answered your questions yet? Contact us:"
+  city:
+    partners: Partners
+    partner_join_html: |
+      <strong>You want to be part of this list?</strong>
+      Meet & recruit our students, train your employees to coding best-practices,
+      sponsor Le Wagon and help people learn to code
+    get_onboard: Get on board for 9 weeks in %{city}
+  newsletter:
+    teaser: "<p>Get our latest <strong>videos</strong> & technical <strong>blogposts</strong> right in your inbox!</p>"
+    city_teaser_html: 'Stay informed of our coming <strong>events</strong> in %{city}, get our <strong>videos</strong> & technical <strong>blogposts</strong> right in your inbox!'
+    email_placeholder: your e-mail
+    follow_us_button: Follow us
+    thank_you: Thanks, see you soon!
+  testimonials:
+    works_at: works at
+    founder_of: founder of
+    first: |
+      At Le Wagon, we built the Fizzer app in only 10 days.
+      The program is incredibly dense but also makes you meet skilled and
+      inspiring entrepreneurs and developers. Thank you!
+    second: |
+      In under 2 months, I developed Kudoz API, a web-app for HRs, and a Linkedin recommendation engine.
+      We're growing fast and we've just hired a new developer from Le Wagon's last season
+    third: |
+    third: |
+      Le Wagon helped me make a transition from business school student to software engineer.
+      I am now developer at Weroom, working with amazing folks, and I keep learning every day.
+    fourth: |
+      Le Wagon gave me the tools & knowledge to make my project come true,
+      find an associate and start working on web issues. It’s now a huge advantage
+      for my day-to-day work.
+  home:
+    title: Learn to code
+    description: "Le Wagon is a coding school for skilled people and entrepreneurs. We teach them to build cool stuff with ruby on Rails in 9 weeks."
+    banner: LEARN TO CODE
+    two_months: 2 MONTHS
+    to_become_developper: To become a software engineer
+    hundred_percent: 100%
+    concrete_projects_built: Student projects completed
+    coders_trained_at_lewagon: Developers already trained at Le Wagon
+    program_in_details_uppercase: THE PROGRAM
+    see_the_projects: See all student projects
+    events_by_le_wagon: |
+      12 day-long training in web-design. Surf & Code 2-week program to work on real projects with professional
+      developers in an outstanding environment. Online front-end courses. Entrepreneur’s masterclasses every Thursday evening.
+      <strong>To stay informed of our events, this way!</strong>
+    who_we_are: |
+      Driven by technological innovations, tech companies are inventing new products
+      and services every day. <strong>Traditional schools have a hard time climbing this step</strong>.
+      Young graduates, eager to learn these new skills, don't have the necessary technical background
+      to get recruiters' attention or to launch their own project.
+    what_we_do: |
+      Le Wagon wants to make these young <strong>talents</strong> become <strong>actors</strong> of this "tech" innovation.
+      We design hands-on programs to teach them web development and get them <strong>job-ready</strong> with these new powers.
+    we_teach_upcase: WE TEACH
+    ruby_hacking: |
+      Ruby programming & growth hacking techniques (<strong>scraping</strong>, <strong>APIs</strong> manipulation).
+      We have a pragmatic approach of coding to answer real-life issues.
+    oop_and_rails: |
+      Object-oriented programming and typical design patterns (<strong>MVC</strong>, <strong>Page-Controller</strong>),
+      the key notions to quickly grab a new framework.
+      <strong>Ruby on Rails</strong> helps you build prototypes very quickly to test any idea.
+    database_and_js: |
+      SQL database modeling, integration of <strong>open-source</strong> libraries
+      (fileupload, geolocation, Oauth authentication, payment, etc)
+      and client-side programming with <strong>JavaScript</strong> and <strong>Ajax</strong>.
+    coding_best_practices: |
+      Best practices of web development (<strong>Github workflow</strong>, code versioning,
+      <strong>continuous deployment on Heroku</strong>, pictures management on <strong>Amazon S3</strong>,
+      automatic mailing with external SMTP like <strong>Mandrill</strong>, etc)
+  apply:
+    title: Apply now
+    description: Apply to Le Wagon and build amazing products with ruby on Rails in 9 weeks.
+    lead: "Le Wagon is a <strong>challenging</strong> program that requires <strong>full-time</strong> investment during <strong>9 weeks</strong>. You should be <strong>fluent in English</strong>, programmer's reference language."
+  alumni:
+    title: Our student projects
+    description: "Discover the projects of our students. More than 80 students have created awesome softwares at Le Wagon. And you?"
+    and_you: what about you
+    final_project: Final project
+  program:
+    title: Program
+    description: 9 weeks to learn ruby on Rails, HTML/CSS, Javascript, and web-development best practices
+    teaser: Become a web-developer in 9 weeks
+    our_goal: OUR GOAL
+    our_goal_detailed: |
+      Our program is designed for complete beginners or "half-beginners" who really want
+      to dive into programming and, above all, change their <strong>mindset</strong>.
+      Learn to think as a developer, consider issues with new insights, become more creative
+      thanks to these new abilities. Our unique goal is to make you reach this level.
+    be_a_great_entreprener: Become an outstanding entrepreneur who is able to code his own projects and to deeply understand technical issues.
+    find_a_job: Find a job in a tech company (as a developer, product manager, growth hacker, etc)
+    why: WHY LE WAGON?
+    rationale: |
+      <p>Everybody can learn to code online.
+      However, it can be long and painful. You spend hours on stack overflow
+      while you have a thousand projects in mind.</p>
+      <p>Our program will not only make you save 2 years, but
+      will also <strong>teach you what you cannot learn online</strong>:
+      how to start with a good set-up,
+      to design your software architecture, to model your data, to apply best practices in your day-to-day work.</p>
+      <p>To sum up,  <strong>you’ll learn how to start from a
+      real-life problem and end with a technical solution</strong>.</p>
+    join_the_community: JOIN THE COMMUNITY
+    le_wagon_community: |
+      <p>At the end of the program, you’ll know how to <strong>transform
+      ideas into products</strong>, and you will already have <strong>several projects in your Github portfolio</strong>.</p>
+      <p>You will also be part of a very active community: 100 former students,
+      8 teachers, 15 coachs, 7 start-ups made in Le Wagon,
+      world-class workshops every Thursday with inspiring entrepreneurs and CEOs,
+      personal coaching session on your personal projects after the end of the program.</p>
+      <p>Be prepared to join a community of passionate professionals, ready to help and to bring you new opportunities.</p>
+    the_spirit: OUR SPIRIT
+    le_wagon_spirit: |
+      <p>On top of being experienced programmers, <strong>our teachers are also web entrepreneurs</strong> (Taster’s Club, Sylights, Txto, Le Wagon, Tinci, Pull Review).
+      They  have a “ground experience” of programing and they know which concepts really matter.</p>
+      <p>Every student is also followed by a personal coach, a professional
+      developer who will give him guidelines on his personal project.</p>
+      <p>Ah, and we do Yoga on Thursday's afternoon with Claire.
+      Just to loosen up :)</p>
+    typical_day_upcase: TYPICAL-DAY
+    nine_o_clock: |
+      Theoretical courses and live-code on real-life examples on our giant screen
+    ten_o_clock: |
+      Pair-programming challenges with automatic scoring & correction through our
+      automated platform
+    twelve_o_clock: |
+      Lunch with lightning talks on Tech topics (hardware, dataviz, etc)
+    two_o_clock: |
+      Challenges follow-through and re-explanation of the core concepts
+    seven_o_clock: |
+      Coaching on personal projects, masterclasses (our last speakers: Romain Niccoli
+      CTO Criteo, Ludovic Le Moan CEO Sigfox, Renaud Visage CTO Eventbrite, etc),
+      meetups, dinners, and other cool stuff
+    by_week_upcase: WEEK BY WEEK
+    ruby_week: ruby programming
+    oop_week: object-oriented design
+    sql_week: SQL database and ORM
+    frontend_week: Front-End (HTML/CSS/Javascript)
+    rails_week: Rails
+    projects_week: Projects
+    best_practices: |
+      All through the 9 weeks, students
+      will be taught programming and web-development best practices
+      (code versioning and collaboration techniques on Github,
+      continuous deployment and scaling on heroku, management of pictures with
+      Amazon S3, automatic mailing with external SMTP like Mandrill, and a lot more..)

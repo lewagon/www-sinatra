@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">
+      <a class="navbar-brand" href="/<%= I18n.locale %>">
         <img src="<%= image_path 'logo.png' %>" id="logo">
       </a>
     </div>
@@ -17,14 +17,14 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown with-underline">
-          <a href="/programme" class="dropdown-toggle"><%= t "program" %></a>
+          <a href="<%= program_path %>" class="dropdown-toggle"><%= t "menu.program" %></a>
         </li>
         <li class="dropdown with-underline">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= t "cities" %> <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= t "menu.cities" %> <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <% CITIES.each do |slug, city| %>
               <li>
-                <a href="/<%= slug %>"><%= city[:name] %></a>
+                <a href="<%= send(:"#{slug}_path") %>"><%= city[:name] %></a>
               </li>
             <% end %>
             <li>
@@ -35,16 +35,33 @@
           </ul>
         </li>
         <li class="with-underline">
-          <a href="/alumni">Alumni</a>
+          <a href="<%= alumni_path %>">Alumni</a>
         </li>
+        <!-- TODO change it once blog translated -->
+        <% if I18n.locale ==  DEFAULT_LOCALE %>
+          <li class="with-underline">
+            <a href="/blog">Blog</a>
+          </li>
+        <% end %>
         <li class="with-underline">
-          <a href="/blog">Blog</a>
-        </li>
-        <li id="last-link" class="with-underline">
           <a href="<%= faq_path %>">FAQ</a>
         </li>
+        <li class="dropdown with-underline" id="last-link">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-globe"></i>
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="<%= current_path(:en) %>">English</a>
+            </li>
+            <li>
+              <a href="<%= current_path(:fr) %>">Français</a>
+            </li>
+          </ul>
+        </li>
         <li>
-          <a href="<%= apply_path %>" class="btn btn-primary" id="nav-btn"><%= t "apply" %></a>
+          <a href="<%= apply_path %>" class="btn btn-primary" id="nav-btn"><%= t "menu.apply" %></a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->

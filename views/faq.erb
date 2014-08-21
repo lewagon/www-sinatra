@@ -10,14 +10,6 @@
       <div class="faq">
         <h1 class="text-center">FAQ</h1>
 
-        <div class="text-right">
-          <% if I18n.locale == :fr %>
-            <a href="/en/faq">Read the FAQ in English</a>
-          <% else %>
-            <a href="/faq">Lisez la FAQ en français</a>
-          <% end %>
-        </div>
-
         <% FAQS[I18n.locale].each do |faq| %>
           <article>
             <h2><%= faq[:question] %></h2>
@@ -25,7 +17,7 @@
           </article>
         <% end %>
 
-        <%= t "faq_footer" %>
+        <%= t "faq.footer" %>
         <a href="mailto:contact@lewagon.org">contact@lewagon.org</a>
       </div>
     </div>

@@ -1,6 +1,15 @@
 olivier:
   image_name: olivier.png
-  description: "Développeur depuis ses 13 ans, passionné de photo et de moto, <strong>Olivier</strong> crée <a htref'http://www.sylights.com/'>Sylights</a> en 2010, une appli pour partager des schémas d'éclairage entre photographes, rien de moins !"
+  description:
+    fr: |
+      Développeur depuis ses 13 ans, passionné de photo et de moto,
+      <strong>Olivier</strong> crée <a htref'http://www.sylights.com/'>Sylights</a>
+      en 2010, une appli pour partager des schémas d'éclairage entre photographes,
+      rien de moins !
+    en: |
+      Developer since he is 13 years old, passionate about photography and motorbikes,
+      <strong>Olivier</strong> created <a htref'http://www.sylights.com/'>Sylights</a>
+      in 2010, a web editor for lighting diagrams.
   links:
     - url: https://github.com/olance
       icon: github-alt
@@ -10,10 +19,17 @@ olivier:
       icon: twitter
     - url: http://www.sylights.com
       icon: link
-
 seb:
   image_name: seb.png
-  description: "Baroudeur du code, <strong>Sébastien</strong> sévit maintenant en tant que <a href='http://sebastien.saunier.me/'>coach technique</a> pour startup. Il aura à coeur de transmettre la rigueur et les bonnes pratiques aux élèves du Wagon!"
+  description:
+    fr: |
+      Baroudeur du code, Sébastien sévit maintenant en tant
+      que coach technique pour startup. Il aura à coeur de transmettre
+      la rigueur et les bonnes pratiques aux élèves du Wagon!
+    en: |
+      After many years of programming, <strong>Sebastien</strong>
+      is now helping startups as <a href='http://sebastien.saunier.me/'>a
+      technical coach</a>. He won't let you code unless you apply the best practices.
   links:
     - url: https://github.com/ssaunier
       icon: github-alt
@@ -23,10 +39,19 @@ seb:
       icon: twitter
     - url: http://sebastien.sauneir.me
       icon: link
-
 gab:
   image_name: gab.png
-  description: "<strong>Gabriel</strong> fait du Ruby & Rails depuis 4 ans et aime comprendre ce qui se passe sous le capot ! Il a travaillé chez <a href='http://www.tigerlilyapps.com/'>Tigerlilyapps</a> et c'est tout simplement un monstre de pédagogie."
+  description:
+    fr: |
+      <strong>Gabriel</strong> fait du Ruby & Rails depuis 4 ans
+      et aime comprendre ce qui se passe sous le capot !
+      Il a travaillé chez <a href='http://www.tigerlilyapps.com/'>Tigerlilyapps</a>
+      et c'est tout simplement un monstre de pédagogie.
+    en: |
+      <strong>Gabriel</strong> has been coding with Ruby & Rails for 4 years. He likes to
+      understand what happens under the hood.
+      He has worked at <a href='http://www.tigerlilyapps.com/'>Tigerlilyapps</a>.
+      and he is a king in teaching techniques!
   links:
     - url: https://github.com/gabriel-dehan
       icon: github-alt
@@ -36,20 +61,38 @@ gab:
       icon: twitter
     - url: http://gabriel-dehan.github.io/
       icon: link
-
 boris:
   image_name: boris.png
-  description: "<strong>Boris</strong> a fui sa salle de marché pour se lancer dans le code corps et âme. Il comprend parfaitement les besoins des débutant et a codé avec Sébastien le <a href='http://lewagon.org'>site</a> et les plate-formes pédagogiques du Wagon."
+  description:
+    fr: |
+      <strong>Boris</strong> a fui sa salle de marché pour se
+      lancer dans le code corps et âme. Il comprend parfaitement
+      les besoins des débutant et a codé avec Sébastien le
+      <a href='http://lewagon.org'>site</a> et les plate-formes
+      pédagogiques du Wagon.
+    en: |
+      <strong>Boris</strong> got bored from financial markets
+      and took the plunge in web-development. He perfectly understands
+      what beginners need. He founded Le Wagon, and built its <a href='http://lewagon.org'>site</a>
+      and pedagogical platforms.
   links:
   - url: https://github.com/Papillard/
     icon: github-alt
   - url: http://fr.linkedin.com/pub/boris-paillard/70/226/867
     icon: linkedin
-
-
 cecile:
   image_name: cecile.png
-  description: "Avec 5 ans d'expérience en e-commerce, <strong>Cécile</strong> aime partager sa passion pour Ruby on Rails. Lilloise de coeur et hyper-active, elle co-anime les rencontres Rails Mentors, Rails Girls et Ruby Burgers."
+  description:
+    fr: |
+      Avec 5 ans d'expérience en e-commerce, <strong>Cécile</strong>
+      aime partager sa passion pour Ruby on Rails. Lilloise de coeur
+      et hyper-active, elle co-anime les rencontres Rails Mentors,
+      Rails Girls et Ruby Burgers.
+    en: |
+      After 5 years working on e-commerce apps, cecile
+      now likes sharing her passion for ruby and Rails. Coming from Lille,
+      she is an active member of the local ruby & Rails community (co-organizing Rails Girls & Ruby
+      burgers events)
   links:
   - url: https://github.com/cveneziani
     icon: github-alt
@@ -57,11 +100,18 @@ cecile:
     icon: twitter
   - url: http://cecilitse.org
     icon: link
-
-
 simon:
   image_name: simon.png
-  description: "Co-fondateur de <a href='http://tinci.fr'>Tinci</a>, très actif dans la communauté ruby parisienne (Paris.rb), auteur de plusieurs gems, <strong>Simon</strong> est passionné des bonnes pratiques, méthodologies et techniques d'amélioration continu."
+  description:
+    fr: |
+      Co-fondateur de <a href='http://tinci.fr'>Tinci</a>, très actif
+      dans la communauté ruby parisienne (Paris.rb), auteur de plusieurs gems,
+      <strong>Simon</strong> est passionné des bonnes pratiques,
+      méthodologies et techniques d'amélioration continue.
+    en: |
+      Simon co-founded <a href='http://tinci.fr'>Tinci</a>, and is a very active
+      member of <a href="http://www.rubyparis.org/" target="_blank">Paris.rb</a>. He has built several popular gems and is passionate
+      aboute good practices and continuous improvement.
   links:
   - url: https://github.com/simonc
     icon: github-alt
@@ -69,10 +119,24 @@ simon:
     icon: twitter
   - url: http://tinci.fr
     icon: link
-
 martin:
   image_name: martin.jpg
-  description: "After some years spent in teaching future programmers, <strong>Martin</strong> did work as a programmer, customer contact, team leader, architect and agile coach. He is now working on <a href='https://www.pullreview.com'>PullReview</a> aiming to help Ruby developers to improve their coding practices. He is also co-organizing the Brussels chapter of Rails Girls and a frequent speaker at <a href='http://www.meetup.com/parisrb/'>Paris.rb</a>."
+  description:
+    fr: |
+      Après quelques années à former des développeurs,
+      <strong>Martin</strong> a été tour à tour software engineer, customer contact,
+      chef d'équipe, et coach agile. Il a créé <a href='https://www.pullreview.com'>PullReview</a>
+      une solution SaaS pour faire des <i>code reviews</i> automatique de code ruby.
+      Il co-organise également Rails Girls à Bruxelles et est un speaker habituel
+      du <a href='http://www.meetup.com/parisrb/'>Paris.rb</a>.
+    en: |
+      After some years spent in teaching future programmers,
+      <strong>Martin</strong> did work as a programmer,
+      customer contact, team leader, architect and agile coach.
+      He is now working on <a href='https://www.pullreview.com'>PullReview</a>
+      aiming to help Ruby developers to improve their coding practices.
+      He is also co-organizing the Brussels chapter of Rails Girls and
+      a frequent speaker at <a href='http://www.meetup.com/parisrb/'>Paris.rb</a>.
   links:
   - url: https://github.com/vanakenm
     icon: github-alt
@@ -85,7 +149,23 @@ martin:
 
 anne:
   image_name: anne.jpg
-  description: "​​After almost 10 years as a knowledge and information manager, <strong>Anne</strong> went back to university to follow a degree in information and communication technologies. She now develops Web apps as a freelancer and is an active member of <a href='http://railsgirls.com/brussels'>Rails Girls Brussels</a>. She loves helping others to overcome the sometimes frustrating learning process and seeing the bright light in their eyes when the magic of coding gets unveiled!"
+  description:
+    en: |
+      ​After almost 10 years as a knowledge and information
+      manager, <strong>Anne</strong> went back to university to
+      follow a degree in information and communication technologies.
+      She now develops Web apps as a freelancer and is an active member
+      of <a href='http://railsgirls.com/brussels'>Rails Girls Brussels</a>.
+      She loves helping others to overcome the sometimes frustrating
+      learning process and seeing the bright light in their eyes when the
+      magic of coding gets unveiled!
+    fr: |
+      Après 10 ans comme "knowledge and information manager", <strong>Anne</strong>
+      est retourné à l'université pour un master en Technologies de l'information.
+      Elle développe maintenant des appli web en freelance et
+      participe activement aux <a href='http://railsgirls.com/brussels'>Rails Girls Brussels</a>.
+      Elle aime aider les gens à surmonter les difficultés du code et voir "la petite lumière" dans leurs
+      yeux lorsqu'ils comprennent un nouveau concept en programmation.
   links:
   - url: https://github.com/OObatwomanOO
     icon: github-alt

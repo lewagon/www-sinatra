@@ -42,43 +42,97 @@ class App < Sinatra::Base
     before do
       I18n.backend.reload!
     end
+    require "pry-byebug"
+  end
+
+  PAGES = {
+    apply: { view: :postuler, locale_path: { en: '/apply', fr: '/postuler' }},
+    program: { view: :programme, locale_path: { en: '/program', fr: '/programme' }},
+    alumni: { view: :alumni, path: '/alumni' },
+    faq: { view: :faq, path: '/faq' }
+  }
+
+  DEFAULT_LOCALE = :fr
+  LOCALES = %i(fr en)
+  AUTOMATIC_LOCALE_ROOT_REDIRECT = true   # TODO: enable this only when ALL pages are localized
+
+  LOCALES.each do |locale|
+    if locale == DEFAULT_LOCALE
+      get '/' do
+        if AUTOMATIC_LOCALE_ROOT_REDIRECT
+          if I18n.locale != DEFAULT_LOCALE  # I18n.locale detected by Rack::Locale
+            redirect "/#{I18n.locale}", 302
+          else
+            erb :index
+          end
+        else
+          erb :index
+        end
+      end
+    else
+      get "/#{locale}" do
+        I18n.locale = locale
+        erb :index
+      end
+    end
+  end
+
+  PAGES.each do |key, info|
+    if info[:locale_path]
+      info[:locale_path].each do |locale, path|
+        get path do
+          I18n.locale = locale
+          erb info[:view]
+        end
+      end
+    else
+      LOCALES.each do |locale|
+        base_path = locale == DEFAULT_LOCALE ? '' : "/#{locale}"
+        get "#{base_path}#{info[:path]}" do
+          I18n.locale = locale
+          erb info[:view]
+        end
+      end
+    end
+  end
+
+  CITIES.each do |slug, city|
+    city_locale = city[:locale].to_sym
+
+    get "/#{slug}" do
+      @city = city
+      I18n.locale = city_locale
+      erb :city
+    end
+
+    LOCALES.each do |locale|
+      if locale != city_locale
+        get "/#{locale}/#{slug}" do
+          @city = city
+          I18n.locale = locale
+          erb :city
+        end
+      end
+    end
   end
 
   before do
-    I18n.locale = :fr  # Default
-  end
-
-  get '/' do
-    erb :index
+    unless LOCALES.include?(I18n.locale)  # Detected by Rack::Locale
+      I18n.locale = DEFAULT_LOCALE
+    end
   end
 
   get '/premiere' do
     redirect '/programme', 301
   end
 
-  %i(programme postuler).each do |slug|
-    get "/#{slug}" do
-      erb slug
-    end
-  end
-
-  %i(alumni faq).each do |slug|
-    get "/#{slug}" do
-      erb slug
-    end
-
-    get "/en/#{slug}" do
-      I18n.locale = :en
-      erb slug
-    end
-  end
-
-  get "/apply" do
-    I18n.locale = :en
-    erb :postuler
-  end
-
   get '/blog' do
+    @posts = Blog.new.all
+    erb :blog
+  end
+
+  # TODO - change the routing once blog is translated..
+  get '/en/blog' do
     @posts = Blog.new.all
     erb :blog
   end
@@ -109,14 +163,6 @@ class App < Sinatra::Base
     end
   end
 
-  CITIES.each do |slug, city|
-    get "/#{slug}" do
-      @city = city
-      I18n.locale = city[:locale].to_sym
-      erb :city
-    end
-  end
-
   not_found do
     redirect "/"
   end
@@ -131,8 +177,49 @@ class App < Sinatra::Base
       (I18n.locale == :fr ? '/postuler' : '/apply') + fragment
     end
 
-    def faq_path
-      I18n.locale == :fr ? '/faq' : "/#{I18n.locale}/faq"
+    def path(slug, options = {})
+      locale = (options[:locale] || I18n.locale).to_sym
+      if city = CITIES[slug.to_sym]
+        city[:locale].to_sym == locale ? "/#{slug}" : "/#{locale}/#{slug}"
+      else
+        page = PAGES[slug.to_sym]
+        if page[:locale_path]
+          page[:locale_path][locale]
+        else
+          base_path = locale == DEFAULT_LOCALE ? '' : "/#{locale}"
+          "#{base_path}#{page[:path]}"
+        end
+      end
+    end
+
+    def current_path(locale)
+      PAGES.each do |slug, page|
+        if page[:locale_path]
+          if page[:locale_path][I18n.locale] == request.path
+            return page[:locale_path][locale]
+          end
+        else
+          if /(\/[a-z]+)?#{page[:path]}/ =~ request.path
+            return send :"#{slug}_path", locale: locale
+          end
+        end
+      end
+      CITIES.each do |slug, city|
+        if /(\/[a-z]+)?\/#{slug}/ =~ request.path
+          return send :"#{slug}_path", locale: locale
+        end
+      end
+      locale == DEFAULT_LOCALE ? "/" : "/#{locale}"
+    end
+
+    # Dynamically rails-style helpers like faq_path, etc.
+    (PAGES.merge CITIES).each do |slug, _|
+      method = :"#{slug}_path"
+      unless self.respond_to? method
+        define_method(method) do |*args|
+          path(slug, *args)
+        end
+      end
     end
   end
 end
