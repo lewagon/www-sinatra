@@ -5,7 +5,7 @@
       <input type="hidden" value="<%= city.downcase.capitalize %>" name="city">
       <input type="submit" value="<%= t 'newsletter.follow_us_button' %>" class="btn btn-primary blue-btn" id="<%= city.capitalize%>Newsletter">
     <% else %>
-      <input type="submit" value="<%= t 'newsletter.follow_us_button' %>" class="btn btn-primary blue-btn" id="<%= request.path[-1..1].capitalize %>Newsletter">
+      <input type="submit" value="<%= t 'newsletter.follow_us_button' %>" class="btn btn-primary blue-btn" id="<%= request.path[1..-1].capitalize %>Newsletter">
     <% end %>
   </div>
 </form>
