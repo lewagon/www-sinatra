@@ -21,19 +21,27 @@ fr:
       <strong>7.200 euros TTC</strong> si la formation est financée par un organisme tiers.
 
 en:
-  - question: "How can I subscribe to Le Wagon?"
-    answer: "Once you’ve sent us your application via our web site, we will get in touch with you in order to ask a few questions about your expectations and motivations, have you pass a quick test and schedule an interview with you face to face. You’ll know very quickly after the interview if you’re taken in or not"
-  - question: "I’m really a beginner how do I know Le Wagon is made for me?"
-    answer: "We need our students to have 3 essential qualities: be motivated (very motivated), be curious, be communicative. If you’re a total beginner we’ll ask you to validate a few tutorials before prior to the program. Without it you won’t be able to begin the program."
-  - question: "How long will it take me to prepare for the program?"
-    answer: "The online preparatory tutorials take up to 10h/week during a month."
-  - question: "What will I be able to do at the end of 9 weeks?"
-    answer: "You’ll have a Ruby on Rails junior-developer level. This means you’ll be able to quickly prototype your ideas by creating a web site on your own. You’ll know for instance how to allow your users to sign up to your site ( simple, email or Facebook/Twitter) add back-office administration, take payment in, automatically send emails, and a lot more. You’ll know how to quickly plug in production and you will have learnt the programing best practices used by top level startups. You’ll then be facing a choice: continue your entrepreneurial project or become a junior level developer in a startup or company."
+  - question: "What's the application process to Le Wagon?"
+    answer: "Once you’ve submitted the application form on our website, you will receive a mail with few additional questions about your expectations and technical skills. From this point, we will schedule an interview after which we will tell you very quickly if you get on board."
+  - question: "I’m really a beginner, is it the right program for me?"
+    answer: "We expect 3 things from our students: be motivated (very motivated), be curious, be social. If you’re a complete beginner, we’ll ask you to validate a few tutorials before you get in."
+  - question: "How long does preparatory work take?"
+    answer: "It will take your around ~10h/week during a month."
+  - question: "What will I be able to build at the end of 9 weeks?"
+    answer: "You’ll have a Ruby on Rails junior developer level. This means you’ll be able to quickly prototype your ideas by creating a web application on your own. For instance, you will know how to include authentification to your site (simple signin/signup, or Facebook/Twitter connect), add an admin back-office, include payment features, automate emails sending, and much more. You’ll also know how to quickly deploy in production and you will have learnt the programming best practices used by top-level startups. You’ll then be facing a choice: continue your entrepreneurial project or become a junior developer in a startup or a bigger tech company."
   - question: "Will I learn to create mobile apps?"
-    answer: "Yes and no. Let’s be clear, you’ll not learn iOS, Android or Windows Phone development. We thinkl it’s too difficile to acquire in 9 weeks. We’ll prefer teaching you the basics of web programming because the web is the open platform that you need to know and start with. And thanks to Responsive Web Design that we’ll talk about, you’ll be able to create an app that will display nicely on mobile. You’ll also learn to create  APIs that you’ll use for your mobile app. In this case, a freelance mobile dev will very easily be able to code your iOS or Android app starting from the web site and API you’ve created."
+    answer: |
+      Yes and no. Let’s be clear, you’ll not learn iOS, Android or Windows Phone development.
+      We really think these skills cannot be taught (honestly) in 9 weeks.
+      We prefer teaching you the basics of programming and web development for many reasons.
+      First, these are the core skills of a software engineer, even if you want to dive into mobile development later on.
+      Second, the web is THE open platform you need to understand.
+      Thanks to Responsive Web Design (which is part of the program), you’ll be able to create apps that will display nicely on mobile devices.
+      You’ll also learn to create APIs that will be used by your mobile apps.
+      It will then be very easy for any mobile developper to code your iOS or Android interface starting from the API you’ve built.
   - question: "When do classes take place?"
-    answer: "Monday to Friday, 9am to 7pm, namely 360 course hours during 9 weeks."
+    answer: "Monday to Friday, 9am to 7pm, which makes 360 hours during 9 weeks."
   - question: "Should I bring my laptop?"
-    answer: "Yes each student must have a laptop. You’ll need Mac OS X or Linux, but if you only have Windows, no worries you’ll learn how to install Linux the first day."
+    answer: "Yes, each student must have a laptop. You’ll need Mac OS X or Linux, but if you only have Windows, no worries you’ll learn how to install Linux the first day."
   - question: "How much does the program cost?"
     answer: "€3.900."
