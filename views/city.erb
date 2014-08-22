@@ -1,5 +1,5 @@
 <% content_for(:title) do %>
-  Le Wagon - <%= @city[:name] %>
+  <%= t "city.title"%> <%= @city[:name] %>
 <% end %>
 <% content_for(:description) do %>
   <% if I18n.locale == :fr %>

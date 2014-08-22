@@ -6,10 +6,12 @@ fr:
     program: Programme
     cities: Villes
     apply: Postuler
+    projects: Projets d'élèves
   apply_now: Postuler maintenant
   faq:
     footer: "Nous n'avons pas répondu à votre question ? Une seule adresse :"
   city:
+    title: Le Wagon - Bootcamp de ruby on rails à
     partners: Partenaires
     partner_join_html: |
       <strong>Vous voulez rejoindre cette liste ?</strong> Pour nous soutenir,
@@ -44,8 +46,10 @@ fr:
       trouver un associé et mettre enfin les mains dans les problématiques web !
       C'est vraiment un réél plus pour mon <em>nouveau</em> travail de tous les jours.
   home:
-    title: Apprenez à coder
-    description: "Le Wagon est une école de code pour entrepreneurs. Donnez vie à vos projets en 9 semaines avec ruby on Rails."
+    title: Le Wagon - Apprendre à coder - Bootcamp en ruby on rails, html, css et javascript
+    description: |
+      Le Wagon est la meilleure formation au développement web en France.
+      Allez voir par vous-même les projets codés par nos anciens élèves !
     banner: APPRENEZ À CODER
     two_months: 2 MOIS
     to_become_developper: Pour devenir un vrai développeur
@@ -85,16 +89,18 @@ fr:
       <strong>JavaScript</strong> et <strong>AJAX</strong>.
     coding_best_practices: "Les <em>best practices</em> de developpement web (<strong>collaboration sur Github</strong>, <em>versionning</em> de code, <strong>déploiement continu sur Heroku</strong>, gestion des photos sur <strong>Amazon S3</strong>, envoi de mail avec SMTP externe comme <strong>Mandrill</strong>, etc.)"
   apply:
-    title: Postulez au Wagon
-    description: Postulez au Wagon pour batir des projets incroyables en ruby on Rails et pour rejoindre une communauté hyperactive d'entrepreneurs et de développeurs.
+    title: Candidature - S'inscrire au Wagon pour 9 semaines de ruby on rails
+    banner: Postulez au Wagon
+    description: Postulez au Wagon pour batir des applis innovantes avec ruby on Rails et rejoindre une communauté hyperactive d'entrepreneurs et de développeurs.
     lead: "Le Wagon est une formation <strong>exigente</strong> et personnalisée qui nécessite votre investissement à <strong>temps plein</strong> pendant <strong>9 semaines</strong>. Vous devez être à l'aise pour lire de l'<strong>anglais</strong>, langue technique de référence en programmation."
   alumni:
-    title: Les projets de nos élèves
+    title: Les projets de nos élèves - Startups et applis web made in Le Wagon
+    banner: Les projets de nos élèves
     description: "Découvrez les projets des précédentes promotions du Wagon. Plus de 80 entrepreneurs ont déjà acquis leurs super-pouvoirs, et vous ?"
     and_you: et vous
     final_project: Projet final
   program:
-    title: Programme
+    title: Le programme - 2 mois intensifs pour apprendre ruby on rails
     description: 9 semaines pour apprendre ruby on Rails, HTML/CSS, Javascript, et les meilleures pratiques de développement web
     teaser: Devenez développeur web en 9 semaines
     our_goal: NOTRE OBJECTIF
@@ -132,8 +138,6 @@ fr:
       post-formation</strong>.</p><p>Développeur, entrepreneurs,
       incubateurs, vous rejoindrez une communauté de passionnés
       qui s'entraide et vous apportera de belles opportunités.</p>
-
-
     the_spirit: The Spirit
     le_wagon_spirit: |
       <p>Les professeurs du Wagon sont tous des entrepreneurs
