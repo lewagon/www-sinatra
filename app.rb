@@ -10,6 +10,7 @@ require 'i18n'
 
 require_relative 'lib/data'
 require_relative 'lib/blog'
+require_relative 'lib/trello'
 
 class App < Sinatra::Base
   sprockets = Sprockets::Environment.new
