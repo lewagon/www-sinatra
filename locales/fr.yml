@@ -1,4 +1,23 @@
 fr:
+  date:
+    formats:
+      default: "%d/%m/%Y"
+      short: "%e %b"
+      long: "%e %B %Y"
+    month_names:
+      - ~
+      - janvier
+      - février
+      - mars
+      - avril
+      - mai
+      - juin
+      - juillet
+      - août
+      - septembre
+      - octobre
+      - novembre
+      - décembre
   swith_language_title: Langue
   ready_to_get_onboard: Prêt à embarquer ?
   still_some_questions: Encore des questions ? Vous pouvez lire les

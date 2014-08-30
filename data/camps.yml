@@ -1,0 +1,27 @@
+test:
+  city: paris
+  start_date: 2000-01-01
+  end_date: 2000-03-01
+  trello:
+    inbox_list_id: 54024112c975d17cd1180489
+
+octobre-2014:
+  city: paris
+  start_date: 2014-10-06
+  end_date: 2014-12-05
+  trello:
+    inbox_list_id: 5362245b3229b2d035ef8b23
+
+janvier-2015:
+  city: paris
+  start_date: 2015-01-05
+  end_date: 2014-04-06
+  trello:
+    inbox_list_id: 53679db185dd566f6035c173
+
+brussels-october-2014:
+  city: brussels
+  start_date: 2014-10-14
+  end_date: 2014-12-12
+  trello:
+    inbox_list_id: 53d51481d54bd8086f8784ad

@@ -10,7 +10,9 @@ require 'i18n'
 
 require_relative 'lib/data'
 require_relative 'lib/blog'
-require_relative 'lib/trello'
+
+require_relative "use_cases/push_student_application_to_trello"
+require_relative "use_cases/subscribe_to_newsletter"
 
 class App < Sinatra::Base
   sprockets = Sprockets::Environment.new
@@ -48,6 +50,7 @@ class App < Sinatra::Base
 
   PAGES = {
     apply: { view: :postuler, locale_path: { en: '/apply', fr: '/postuler' }},
+    thanks: { view: :thanks, locale_path: { en: '/thanks', fr: '/merci' }},
     program: { view: :programme, locale_path: { en: '/program', fr: '/programme' }},
     alumni: { view: :alumni, path: '/alumni' },
     faq: { view: :faq, path: '/faq' }
@@ -151,17 +154,22 @@ class App < Sinatra::Base
   end
 
   post '/subscribe' do
-    gb = Gibbon::API.new(ENV['MAILCHIMP_API_KEY'])
     begin
-      result = gb.lists.subscribe({
-        :id => ENV['MAILCHIMP_LIST_ID'],
-        :email => {:email => params[:email]},
-        :merge_vars => params[:city] ? {:CITY => params[:city]} : {},
-        :double_optin => false
-        })
+      result = UseCases::SubscribeToNewsletter.new.run(params)
       json :result => result
     rescue Gibbon::MailChimpError
     end
+  end
+
+  post '/apply' do
+    camp = CAMPS[params[:camp].to_sym]
+    params[:city] = camp[:city]  # For the newsletter
+    UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id]).run(params)
+    begin
+      UseCases::SubscribeToNewsletter.new.run(params)
+    rescue Gibbon::MailChimpError
+    end
+    redirect thanks_path
   end
 
   not_found do
@@ -171,6 +179,10 @@ class App < Sinatra::Base
   helpers do
     def t(*args)
       I18n.t(*args)
+    end
+
+    def l(*args)
+      I18n.l(*args)
     end
 
     def apply_path(options = {})

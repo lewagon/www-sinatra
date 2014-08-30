@@ -1,4 +1,23 @@
 en:
+  date:
+    formats:
+      default: "%Y-%m-%d"
+      long: "%B %d, %Y"
+      short: "%b %d"
+    month_names:
+      -
+      - January
+      - February
+      - March
+      - April
+      - May
+      - June
+      - July
+      - August
+      - September
+      - October
+      - November
+      - December
   swith_language_title: Language
   ready_to_get_onboard: Ready to get on board?
   still_some_questions: You still have some questions? You can read the

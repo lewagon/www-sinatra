@@ -32,45 +32,27 @@
   </div>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-        <div id="postuler">
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist">
-          <li class="active">
-            <a href="#octobre-2014" data-toggle="tab" role="tab" data-wufoo-id="rlgnjjq0uvoqaa">
-              Paris - Octobre 2014
-            </a>
-          </li>
-          <li>
-            <a href="#brussels-october-2014" data-toggle="tab" role="tab" data-wufoo-id="xo5ubsj0tno6dh">
-              Brussels - October 2014
-            </a>
-          </li>
-          <li>
-            <a href="#janvier-2015" data-toggle="tab" role="tab" data-wufoo-id="s8e5iew1rkkqjo">
-              Paris - Janvier 2015
-            </a>
-          </li>
-        </ul>
+<form action="/apply" method="POST">
 
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <div class="tab-pane active" id="octobre-2014">
-            <div id="wufoo-rlgnjjq0uvoqaa"></div>
-          </div>
-          <div class="tab-pane" id="brussels-october-2014">
-            <div id="wufoo-xo5ubsj0tno6dh"></div>
-          </div>
-          <div class="tab-pane" id="janvier-2015">
-            <div id="wufoo-s8e5iew1rkkqjo"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <input type="text" name="first_name" placeholder="John">
+  <input type="text" name="last_name" placeholder="Doe">
+  <input type="text" name="age" placeholder="42">
+  <input type="email" name="email" placeholder="john@doe.org">
+
+  <div class="input-group">
+    <select name="camp">
+      <% CAMPS.each do |slug, camp| %>
+        <option value="<%= slug %>">
+          <%= camp[:city].capitalize %>, du <%= l camp[:start_date], format: :long %> au <%= l camp[:end_date], format: :long %>
+        </option>
+      <% end %>
+    </select>
   </div>
-</div>
+
+  <textarea name="motivation" rows="8"></textarea>
+
+  <button class="btn btn-primary">POSTULER</button>
+</form>
 
 <div class="vertical-spacer"></div>
 
