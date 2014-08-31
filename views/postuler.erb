@@ -32,27 +32,69 @@
   </div>
 </div>
 
-<form action="/apply" method="POST">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+      <form action="/apply" method="post" role="form">
 
-  <input type="text" name="first_name" placeholder="John">
-  <input type="text" name="last_name" placeholder="Doe">
-  <input type="text" name="age" placeholder="42">
-  <input type="email" name="email" placeholder="john@doe.org">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="first_name"><%= t "apply.form.first_name" %></label>
+              <input class="form-control" type="text" name="first_name" id="first_name" placeholder="John" required>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="last_name"><%= t "apply.form.last_name" %></label>
+              <input class="form-control" type="text" name="last_name" id="last_name" placeholder="Doe" required>
+            </div>
+          </div>
+        </div>
 
-  <div class="input-group">
-    <select name="camp">
-      <% CAMPS.each do |slug, camp| %>
-        <option value="<%= slug %>">
-          <%= camp[:city].capitalize %>, du <%= l camp[:start_date], format: :long %> au <%= l camp[:end_date], format: :long %>
-        </option>
-      <% end %>
-    </select>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="email"><%= t "apply.form.email" %></label>
+              <input class="form-control" type="email" name="email" id="email" placeholder="john@doe.org" required>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="age"><%= t "apply.form.age" %></label>
+              <input class="form-control" type="text" name="age" id="age" placeholder="42" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label><%= t "apply.form.choose_camp" %></label>
+          <% CAMPS.each do |slug, camp| %>
+            <div class="radio">
+              <label>
+                <input type="radio" name="camp" value="<%= slug %>" required>
+                <strong><%= camp[:city].capitalize %></strong>,
+                <small>
+                  <%= t "apply.form.choose_camp_radio_label_html",
+                        start_date: l(camp[:start_date], format: :long),
+                        end_date: l(camp[:end_date], format: :long) %>
+                </small>
+              </label>
+            </div>
+          <% end %>
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="motivation"><%= t "apply.form.motivation" %></label>
+          <textarea class="form-control" name="motivation" id="motivation" rows="4" required></textarea>
+        </div>
+
+        <button class="btn btn-primary red-btn" style="width: 100%"><%= t "apply.form.apply_button" %></button>
+      </form>
+    </div>
   </div>
-
-  <textarea name="motivation" rows="8"></textarea>
-
-  <button class="btn btn-primary">POSTULER</button>
-</form>
+</div>
 
 <div class="vertical-spacer"></div>
 

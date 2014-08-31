@@ -106,7 +106,16 @@ fr:
   apply:
     title: Postulez au Wagon
     description: Postulez au Wagon pour batir des projets incroyables en ruby on Rails et pour rejoindre une communauté hyperactive d'entrepreneurs et de développeurs.
-    lead: "Le Wagon est une formation <strong>exigeante</strong> et personnalisée qui nécessite votre investissement à <strong>temps plein</strong> pendant <strong>9 semaines</strong>. Vous devez être à l'aise pour lire de l'<strong>anglais</strong>, langue technique de référence en programmation."
+    lead: "Le Wagon est une formation <strong>exigeante</strong> et personnalisée qui nécessite votre investissement à <strong>temps plein</strong> pendant <strong>9 semaines</strong>. Vous devez être à l'aise pour lire de l'<strong>anglais</strong>, langue technique de référence en programmation. Remplissez le formulaire ci-dessous pour postuler."
+    form:
+      first_name: Prénom
+      last_name: Nom
+      email: Email
+      age: Age
+      choose_camp: À quelle session souhaitez-vous participer ?
+      choose_camp_radio_label_html: embarquement le <strong>%{start_date}</strong>, terminus le %{end_date}
+      motivation: Pourquoi voulez-vous faire Le Wagon ?
+      apply_button: POSTULER
   alumni:
     title: Les projets de nos élèves
     description: "Découvrez les projets des précédentes promotions du Wagon. Plus de 80 entrepreneurs ont déjà acquis leurs super-pouvoirs, et vous ?"
