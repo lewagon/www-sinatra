@@ -18,7 +18,7 @@ end
 
 gem 'redcarpet'
 gem 'gibbon'
-gem 'ruby-trello'
+gem 'ruby-trello', github: 'jeremytregunna/ruby-trello'
 
 # Serve fonts to other domains (Wufoo)
 gem 'rack-cors', :require => 'rack/cors'

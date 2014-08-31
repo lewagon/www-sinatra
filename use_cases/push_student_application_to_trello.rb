@@ -25,6 +25,10 @@ module UseCases
   EOF
 
       card.save
+      checklist_json = JSON.parse(card.create_new_checklist("Paiement"))
+      checklist = ::Trello::Checklist.find(checklist_json["id"])
+      checklist.add_item("Acompte")
+      checklist.add_item("Solde")
     end
   end
 end
