@@ -111,11 +111,15 @@ fr:
       first_name: Prénom
       last_name: Nom
       email: Email
+      phone: Téléphone
       age: Age
       choose_camp: À quelle session souhaitez-vous participer ?
       choose_camp_radio_label_html: embarquement le <strong>%{start_date}</strong>, terminus le %{end_date}
       motivation: Pourquoi voulez-vous faire Le Wagon ?
       apply_button: POSTULER
+  thanks:
+    title: Merci !
+    content_html: 'Nous vous recontacterons rapidement par mail pour prévoir un rendez-vous. En attendant, <a href="http://twitter.com/Lewagonparis">suivez-nous sur Twitter !</a>'
   alumni:
     title: Les projets de nos élèves
     description: "Découvrez les projets des précédentes promotions du Wagon. Plus de 80 entrepreneurs ont déjà acquis leurs super-pouvoirs, et vous ?"

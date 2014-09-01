@@ -81,6 +81,14 @@ class App < Sinatra::Base
     end
   end
 
+  PAGES[:thanks][:locale_path].each do |locale, path|
+    get path do
+      I18n.locale = locale
+      @camp = CAMPS[params[:camp].to_sym]
+      erb :thanks
+    end
+  end
+
   PAGES.each do |key, info|
     if info[:locale_path]
       info[:locale_path].each do |locale, path|
@@ -169,7 +177,7 @@ class App < Sinatra::Base
       UseCases::SubscribeToNewsletter.new.run(params)
     rescue Gibbon::MailChimpError
     end
-    redirect thanks_path
+    redirect thanks_path + "?camp=#{params[:camp]}"
   end
 
   not_found do

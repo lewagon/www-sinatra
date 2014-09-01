@@ -1,1 +1,35 @@
-THANKS!
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3 center">
+      <div class="vertical-spacer"></div>
+      <div class="vertical-spacer"></div>
+      <h1><%= t "thanks.title" %></h1>
+      <p>
+        <%= t "thanks.content_html" %>
+      </p>
+      <div class="vertical-spacer"></div>
+      <div class="vertical-spacer"></div>
+    </div>
+  </div>
+</div>
+
+<% if @camp[:facebook_tracking_id] %>
+
+<!-- Facebook Conversion Code  -->
+<script>(function() {
+var _fbq = window._fbq || (window._fbq = []);
+if (!_fbq.loaded) {
+var fbds = document.createElement('script');
+fbds.async = true;
+fbds.src = '//connect.facebook.net/en_US/fbds.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(fbds, s);
+_fbq.loaded = true;
+}
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '<%= @camp[:facebook_tracking_id] %>', {'value':'0.01','currency':'EUR'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=<%= @camp[:facebook_tracking_id] %>&amp;cd[value]=0.01&amp;cd[currency]=EUR&amp;noscript=1" /></noscript>
+
+<% end %>

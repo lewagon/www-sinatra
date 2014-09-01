@@ -17,7 +17,7 @@ module UseCases
       card.list_id = @trello_inbox_list_id
       card.desc = <<-EOF
 ## Infos
-#{params[:first_name]} #{params[:last_name]} | #{params[:age]} | #{params[:email]}
+#{params[:first_name]} #{params[:last_name]} | #{params[:age]} | #{params[:email]} | #{params[:phone]}
 
 ## Motivation
 

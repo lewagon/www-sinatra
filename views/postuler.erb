@@ -52,11 +52,16 @@
           </div>
         </div>
 
+        <div class="form-group">
+          <label for="email"><%= t "apply.form.email" %></label>
+          <input class="form-control" type="email" name="email" id="email" placeholder="john@doe.org" required>
+        </div>
+
         <div class="row">
           <div class="col-sm-6">
             <div class="form-group">
-              <label for="email"><%= t "apply.form.email" %></label>
-              <input class="form-control" type="email" name="email" id="email" placeholder="john@doe.org" required>
+              <label for="email"><%= t "apply.form.phone" %></label>
+              <input class="form-control" type="tel" name="phone" id="phone" placeholder="+33123456789" required>
             </div>
           </div>
           <div class="col-sm-6">
