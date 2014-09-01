@@ -1,4 +1,23 @@
 en:
+  date:
+    formats:
+      default: "%Y-%m-%d"
+      long: "%B %d, %Y"
+      short: "%b %d"
+    month_names:
+      -
+      - January
+      - February
+      - March
+      - April
+      - May
+      - June
+      - July
+      - August
+      - September
+      - October
+      - November
+      - December
   swith_language_title: Language
   ready_to_get_onboard: Ready to get on board?
   still_some_questions: You still have some questions? You can read the
@@ -82,7 +101,20 @@ en:
   apply:
     title: Apply now
     description: Apply to Le Wagon and build amazing products with ruby on Rails in 9 weeks.
-    lead: "Le Wagon is a <strong>challenging</strong> program that requires <strong>full-time</strong> investment during <strong>9 weeks</strong>. You should be <strong>fluent in English</strong>, programmer's reference language."
+    lead: "Le Wagon is a <strong>challenging</strong> program that requires <strong>full-time</strong> investment during <strong>9 weeks</strong>. You should be <strong>fluent in English</strong>, programmer's reference language. Fill the form below to apply."
+    form:
+      first_name: Firstname
+      last_name: Lastname
+      email: Email
+      phone: Mobile phone
+      age: Age
+      choose_camp: Which bootcamp do you want to attend?
+      choose_camp_radio_label_html: boarding on <strong>%{start_date}</strong>, terminus on %{end_date}
+      motivation: Why do you want to join Le Wagon?
+      apply_button: APPLY
+  thanks:
+    title: Thanks!
+    content_html: "We'll contact you shortly by email to plan an interview. In the meantime, <a href='http://twitter.com/Lewagonbrussels'>follow us on Twitter</a>"
   alumni:
     title: Our student projects
     description: "Discover the projects of our students. More than 80 students have created awesome softwares at Le Wagon. And you?"
