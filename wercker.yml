@@ -34,7 +34,6 @@ build:
             team: teamwagon
             token: $SLACK_API_TOKEN
             channel: general
-
 deploy:
     steps:
         - heroku-deploy:
