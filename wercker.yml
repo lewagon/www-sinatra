@@ -32,9 +32,8 @@ build:
     after-steps:
         - wantedly/pretty-slack-notify:
             team: teamwagon
-            token: "xoxp-2501752151-2537972817-2605606042-9046ea"
+            token: $SLACK_API_TOKEN
             channel: general
-            username: wercker
 
 deploy:
     steps:
