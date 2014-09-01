@@ -117,6 +117,7 @@ fr:
       choose_camp_radio_label_html: embarquement le <strong>%{start_date}</strong>, terminus le %{end_date}
       motivation: Pourquoi voulez-vous faire Le Wagon ?
       apply_button: POSTULER
+      price_html: "Prix : <strong>%{price}</strong> € TTC. Nous vous recontacterons rapidement par email !"
   thanks:
     title: Merci !
     content_html: 'Nous vous recontacterons rapidement par mail pour prévoir un rendez-vous. En attendant, <a href="http://twitter.com/Lewagonparis">suivez-nous sur Twitter !</a>'
