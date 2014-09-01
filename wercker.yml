@@ -34,7 +34,7 @@ build:
             team: teamwagon
             token: $SLACK_API_TOKEN
             channel: general
-            username: cibot
+            username: wercker
 
 deploy:
     steps:
