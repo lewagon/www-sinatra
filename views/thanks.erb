@@ -33,3 +33,8 @@ window._fbq.push(['track', '<%= @camp[:facebook_tracking_id] %>', {'value':'0.01
 <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=<%= @camp[:facebook_tracking_id] %>&amp;cd[value]=0.01&amp;cd[currency]=EUR&amp;noscript=1" /></noscript>
 
 <% end %>
+
+<!-- Mailchimp Goal tracking -->
+<script type="text/javascript"
+  $mcGoal.processEvent('UserAppliedEvent');
+></script>
