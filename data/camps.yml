@@ -7,8 +7,8 @@ test:
 
 octobre-2014:
   city: paris
-  start_date: 2014-10-06
-  end_date: 2014-12-05
+  start_date: 2014-10-20
+  end_date: 2014-12-19
   trello:
     inbox_list_id: 5362245b3229b2d035ef8b23
 
