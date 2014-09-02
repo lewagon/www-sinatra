@@ -23,6 +23,8 @@ gem 'ruby-trello', github: 'jeremytregunna/ruby-trello'
 # Serve fonts to other domains (Wufoo)
 gem 'rack-cors', :require => 'rack/cors'
 
+gem 'appsignal'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'

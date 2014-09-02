@@ -23,6 +23,9 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     addressable (2.3.6)
+    appsignal (0.10.3)
+      rack
+      thread_safe
     autoprefixer-rails (2.1.1.20140710)
       execjs
     backports (3.6.0)
@@ -152,6 +155,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  appsignal
   autoprefixer-rails
   better_errors
   binding_of_caller
