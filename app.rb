@@ -175,7 +175,8 @@ class App < Sinatra::Base
     UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id]).run(params)
     begin
       UseCases::SubscribeToNewsletter.new.run(params)
-    rescue Gibbon::MailChimpError
+    rescue Gibbon::MailChimpError => e
+      puts e
     end
     redirect thanks_path + "?camp=#{params[:camp]}"
   end

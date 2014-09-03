@@ -10,7 +10,11 @@ module UseCases
       @gb.lists.subscribe({
         :id => @list_id,
         :email => { :email => params[:email] },
-        :merge_vars => params[:city] ? {:CITY => params[:city]} : {},
+        :merge_vars => {
+          :CITY => params[:city],
+          :FNAME => params[:first_name],
+          :LNAME => params[:last_name]
+        },
         :double_optin => false
       })
     end
