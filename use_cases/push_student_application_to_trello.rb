@@ -17,7 +17,12 @@ module UseCases
       card.list_id = @trello_inbox_list_id
       card.desc = <<-EOF
 ## Infos
+
 #{params[:first_name]} #{params[:last_name]} | #{params[:age]} | #{params[:email]} | #{params[:phone]}
+
+## Facture
+
+[](http://)
 
 ## Motivation
 
@@ -25,6 +30,12 @@ module UseCases
   EOF
 
       card.save
+
+      checklist_json = JSON.parse(card.create_new_checklist("Formalités"))
+      checklist = ::Trello::Checklist.find(checklist_json["id"])
+      checklist.add_item("Email embarquement envoyé")
+      checklist.add_item("Contrat signé reçu")
+
       checklist_json = JSON.parse(card.create_new_checklist("Paiement"))
       checklist = ::Trello::Checklist.find(checklist_json["id"])
       checklist.add_item("Acompte")
