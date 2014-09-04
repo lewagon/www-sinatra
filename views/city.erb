@@ -30,6 +30,36 @@
 
   <%= erb :mailchimp_form, locals: { city: @city[:name] } %>
 
+  <% if @meetup %>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <p>
+            TODO LOCALIZE
+            Rejoignez le meetup <strong><a href="<%= @meetup[:link] %></%>" target="_blank"><%= @meetup[:name] %></a></strong>
+            et ses <%= @meetup[:members] %> <%= @meetup[:who] %> !
+          </p>
+        </div>
+      </div>
+      <% if @meetup_events %>
+        <div class="row">
+          <div class="col-xs-12">
+            <p>Prochains événements :</p>
+            <ul>
+              <% @meetup_events.each do |meetup_event| %>
+                <li>
+                  <a href="<%= meetup_event[:link] %>" target="_blank">
+                    <%= meetup_event[:name] %>
+                  </a>, le <%= l Time.at(meetup_event[:time] / 1000).to_datetime, format: :long %>
+                </li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+
 </div>
 
 <div class="vertical-spacer"></div>
@@ -74,8 +104,6 @@
     </div>
   </div>
 </div>
-
-
 
 <div class="local">
   <div class="container">

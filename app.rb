@@ -48,6 +48,14 @@ class App < Sinatra::Base
     require "pry-byebug"
   end
 
+  configure do
+    require 'action_controller'
+    require 'meetup_client'
+    MeetupClient.configure do |config|
+      config.api_key = ENV['MEETUP_API_KEY']
+    end
+  end
+
   PAGES = {
     apply: { view: :postuler, locale_path: { en: '/apply', fr: '/postuler' }},
     thanks: { view: :thanks, locale_path: { en: '/thanks', fr: '/merci' }},
@@ -113,6 +121,7 @@ class App < Sinatra::Base
 
     get "/#{slug}" do
       @city = city
+      find_meetup
       I18n.locale = city_locale
       erb :city
     end
@@ -121,6 +130,7 @@ class App < Sinatra::Base
       if locale != city_locale
         get "/#{locale}/#{slug}" do
           @city = city
+          find_meetup
           I18n.locale = locale
           erb :city
         end
@@ -241,6 +251,22 @@ class App < Sinatra::Base
         define_method(method) do |*args|
           path(slug, *args)
         end
+      end
+    end
+  end
+
+  private
+
+  def find_meetup
+    if @city[:meetup_id]
+      api = MeetupApi.new
+      @meetup = api.groups(group_id: @city[:meetup_id])["results"].first
+      @meetup.extend DeepSymbolizable
+      @meetup = @meetup.deep_symbolize { |key| key }
+      @meetup_events = api.events(group_id: @city[:meetup_id])["results"]
+      @meetup_events = @meetup_events.map do |event|
+        event.extend DeepSymbolizable
+        event.deep_symbolize { |key| key }
       end
     end
   end

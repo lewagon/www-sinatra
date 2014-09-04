@@ -14,6 +14,7 @@
 #        2) myhash.extend DeepSymbolizable
 
 module DeepSymbolizable
+
   def deep_symbolize(&block)
     method = self.class.to_s.downcase.to_sym
     syms = DeepSymbolizable::Symbolizers

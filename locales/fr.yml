@@ -18,6 +18,13 @@ fr:
       - octobre
       - novembre
       - décembre
+  time:
+    am: 'am'
+    formats:
+      default: "%d %B %Y %H h %M min %S s"
+      long: "%d %B %Hh%M"
+      short: "%d %b %H h %M"
+    pm: 'pm'
   swith_language_title: Langue
   ready_to_get_onboard: Prêt à embarquer ?
   still_some_questions: Encore des questions ? Vous pouvez lire les

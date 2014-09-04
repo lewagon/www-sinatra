@@ -34,6 +34,7 @@ paris:
     - boris
     - cecile
     - simon
+  meetup_id: 16766372
 
 brussels:
   name: Brussels
@@ -63,4 +64,5 @@ brussels:
   partners:
     - costation
     - pullreview
+  meetup_id: 16630202
 
