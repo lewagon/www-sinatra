@@ -84,7 +84,7 @@ class App < Sinatra::Base
   PAGES[:thanks][:locale_path].each do |locale, path|
     get path do
       I18n.locale = locale
-      @camp = CAMPS[params[:camp].to_sym]
+      @camp = params[:camp] ? CAMPS[params[:camp].to_sym] : nil
       erb :thanks
     end
   end

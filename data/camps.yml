@@ -18,7 +18,9 @@ brussels-october-2014:
   end_date: 2014-12-12
   trello:
     inbox_list_id: 53d51481d54bd8086f8784ad
-  facebook_tracking_id: 6016507068529
+  facebook_tracking_ids:
+    - 6016507068529
+    - 6016638335929
 
 janvier-2015:
   city: paris
