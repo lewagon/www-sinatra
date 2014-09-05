@@ -58,20 +58,11 @@ class App < Sinatra::Base
 
   DEFAULT_LOCALE = :fr
   LOCALES = %i(fr en)
-  AUTOMATIC_LOCALE_ROOT_REDIRECT = true
 
   LOCALES.each do |locale|
     if locale == DEFAULT_LOCALE
       get '/' do
-        if AUTOMATIC_LOCALE_ROOT_REDIRECT
-          if I18n.locale != DEFAULT_LOCALE  # I18n.locale detected by Rack::Locale
-            redirect "/#{I18n.locale}", 302
-          else
-            erb :index
-          end
-        else
-          erb :index
-        end
+        erb :index
       end
     else
       get "/#{locale}" do
