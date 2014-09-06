@@ -26,7 +26,6 @@ paris:
     - drivy
     - capitainetrain
     - wisembly
-    - girlsintechparis
   staff:  # cf data/staff.yml
     - olivier
     - seb
@@ -63,4 +62,6 @@ brussels:
   partners:
     - costation
     - pullreview
+  subventions:
+    - impulse
 
