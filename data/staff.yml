@@ -125,9 +125,9 @@ martin:
     fr: |
       Après quelques années à former des développeurs,
       <strong>Martin</strong> a été tour à tour software engineer, customer contact,
-      chef d'équipe, et coach agile. Il a créé <a href='https://www.pullreview.com'>PullReview</a>
-      une solution SaaS pour faire des <i>code reviews</i> automatique de code ruby.
-      Il co-organise également Rails Girls à Bruxelles et est un speaker habituel
+      chef d'équipe, et coach agile. Il a créé <a href='https://www.pullreview.com'>PullReview</a>,
+      une solution SaaS pour faire des <i>code reviews</i> automatiques de code Ruby.
+      Il co-anime également Rails Girls Brussels et est un speaker habituel
       du <a href='http://www.meetup.com/parisrb/'>Paris.rb</a>.
     en: |
       After some years spent in teaching future programmers,
@@ -146,7 +146,6 @@ martin:
     icon: linkedin
   - url: http://about.me/vanakenm
     icon: link
-
 anne:
   image_name: anne.jpg
   description:
@@ -154,18 +153,18 @@ anne:
       ​After almost 10 years as a knowledge and information
       manager, <strong>Anne</strong> went back to university to
       follow a degree in information and communication technologies.
-      She now develops Web apps as a freelancer and is an active member
+      She now develops web apps as a freelancer and is an active member
       of <a href='http://railsgirls.com/brussels'>Rails Girls Brussels</a>.
       She loves helping others to overcome the sometimes frustrating
       learning process and seeing the bright light in their eyes when the
       magic of coding gets unveiled!
     fr: |
-      Après 10 ans comme "knowledge and information manager", <strong>Anne</strong>
-      est retourné à l'université pour un master en Technologies de l'information.
-      Elle développe maintenant des appli web en freelance et
-      participe activement aux <a href='http://railsgirls.com/brussels'>Rails Girls Brussels</a>.
-      Elle aime aider les gens à surmonter les difficultés du code et voir "la petite lumière" dans leurs
-      yeux lorsqu'ils comprennent un nouveau concept en programmation.
+      Knowledge & information manager pendant près de 10 ans, <strong>Anne</strong>
+      est retournée à l'université pour suivre un master en TIC.
+      Elle développe désormais des sites & applis web en tant que freelance et
+      co-organise les sessions <a href='http://railsgirls.com/brussels'>Rails Girls Brussels</a>.
+      Elle aime aider les nouveaux venus à surmonter leur première appréhension
+      et voir l'étincelle briller dans leurs yeux quand la magie du code se dévoile!
   links:
   - url: https://github.com/OObatwomanOO
     icon: github-alt
