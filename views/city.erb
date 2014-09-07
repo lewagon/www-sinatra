@@ -90,20 +90,19 @@
         <p style="font-weight:300;font-size: 17px;" class="text-justify"><%= @city[:description][I18n.locale] %></p>
         <br/>
       </div>
-      <% if @city[:name]=="Brussels"%>
-        <% @city[:subventions].each do |subvention| %>
-          <% subvention = subvention.to_sym %>
+      <% if @city[:subventions] %>
+        <% @city[:subventions].map { |s| SUBVENTIONS[s.to_sym] }.each do |subvention| %>
           <div class="col-sm-6">
             <div class="col-xs-6">
-              <a href="<%= SUBVENTIONS[subvention][:url] %>" target="_blank">
-                <img src="<%= image_path "subventions/#{SUBVENTIONS[subvention][:image_name]}" %>"
-                     alt="<%= SUBVENTIONS[subvention][:name] %>"
-                     data-toggle="tooltip" title="<%= SUBVENTIONS[subvention][:name]%>" data-placement="bottom">
+              <a href="<%= subvention[:url] %>" target="_blank">
+                <img src="<%= image_path "subventions/#{subvention[:image_name]}" %>"
+                     alt="<%= subvention[:name] %>"
+                     data-toggle="tooltip" title="<%= subvention[:name]%>" data-placement="bottom">
               </a>
             </div>
             <div class="col-xs-6" style="padding: 0px;">
               <p style="font-weight:300;font-size: 17px;" class="text-justify">
-                <%= SUBVENTIONS[subvention][:description][I18n.locale] %>
+                <%= subvention[:description][I18n.locale] %>
               </p>
             </div>
           </div>
