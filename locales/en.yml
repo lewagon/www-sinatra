@@ -33,7 +33,7 @@ en:
     partner_join_html: |
       <strong>You want to be part of this list?</strong>
       Meet & recruit our students, train your employees to coding best-practices,
-      sponsor Le Wagon and help people learn to code
+      sponsor Le Wagon and help people learn to code? Contact us!
     get_onboard: Get on board for 9 weeks in %{city}
   newsletter:
     teaser: "<p>Get our latest <strong>videos</strong> & technical <strong>blogposts</strong> right in your inbox!</p>"

@@ -31,12 +31,12 @@ fr:
   city:
     partners: Partenaires
     partner_join_html: |
-      <strong>Vous voulez rejoindre cette liste ?</strong> Pour nous soutenir,
-      recruter nos élèves ou former vos employés chez nous.
+      <br /><strong>Vous avez envie de rejoindre cette liste?</strong><br />Pour nous soutenir,
+      recruter nos élèves ou encore former vos employés chez nous? Contactez-nous!
     get_onboard: Embarquez pour 9 semaines à %{city}
   newsletter:
     teaser: "<p>Soyez informé des prochaines <strong>masterclasses</strong>, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.</p>"
-    city_teaser_html: 'Soyez informé des prochaines <strong>évènements</strong> à %{city}, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.'
+    city_teaser_html: 'Soyez informé de nos prochains <strong>événements</strong> à %{city}, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.'
     email_placeholder: votre e-mail
     follow_us_button: Suivez-nous
     thank_you: Merci, à très vite !
