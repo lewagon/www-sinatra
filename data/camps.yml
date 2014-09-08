@@ -11,6 +11,7 @@ octobre-2014:
   end_date: 2014-12-19
   trello:
     inbox_list_id: 5362245b3229b2d035ef8b23
+  last_seats: true
 
 janvier-2015:
   city: paris
