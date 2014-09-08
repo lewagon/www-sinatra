@@ -1,0 +1,13 @@
+impulse:
+  name: Impulse
+  image_name: impulse.png
+  url: 'http://www.ecosubsibru.be/index.cfm?fuseaction=aides.aides_one&aide_id=118&language=FR'
+  description:
+    fr: |
+      Sous certaines conditions, la Région de Bruxelles-Capitale,
+      via <a href='http://www.ecosubsibru.be/index.cfm?fuseaction=aides.aides_one&aide_id=118&language=FR' target="_blank">Impulse</a>,
+      peut prendre en charge jusqu'à <strong>50%</strong> du prix de la formation.<br />Renseignez-vous !
+    en: |
+      Under certain conditions, the Brussels Region,
+      via <a href='http://www.ecosubsibru.be/index.cfm?fuseaction=aides.aides_one&aide_id=118&language=FR' target="_blank">Impulse</a>,
+      can support up to <strong>50%</strong> of the training cost. Don't miss this opportunity !

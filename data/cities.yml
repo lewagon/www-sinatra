@@ -27,6 +27,7 @@ paris:
     - capitainetrain
     - wisembly
     - girlsintechparis
+  subventions: # From data/subventions.yml
   staff:  # cf data/staff.yml
     - olivier
     - seb
@@ -63,4 +64,6 @@ brussels:
   partners:
     - costation
     - pullreview
+  subventions: # From data/subventions.yml
+    - impulse
 
