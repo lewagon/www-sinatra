@@ -11,11 +11,11 @@ The little tribe is doing well. Already checking the swell between two lines of 
 
 ![Nice set-up at the Surf Guest House](blog_image_path surfcamp-first-week-coding.jpg)
 
-To be honnest, the daily routine at the surf guest house tends to be appreciated by everyone. How could it be different? The food of the Czech chef is amazing, the skate mini-ramp never stays alone very long and the whole staff takes care of us all as we were part of the family.
+To be honest, the daily routine at the surf guest house tends to be appreciated by everyone. How could it be different? The food of the Czech chef is amazing, the skate mini-ramp never stays alone very long and the whole staff takes care of us all as we were part of the family.
 
 "This is a brillant idea as it solves the main issue of every single surfcamp : you must code if the swell doesn't show up." - Pierre-Olivier G. Participant @ Le Wagon Surfcamp
 
-Even mother nature has been soft with us since the beggining. A swell of 1-2 feet has been pushing for the main part of the week and the whole bunch of our brave devs got their hands full excuting worldclass wipeouts and paddling in vain against the stream. 
+Even mother nature has been soft with us since the beggining. A swell of 1-2 feet has been pushing for the main part of the week and the whole bunch of our brave devs got their hands full executing worldclass wipeouts and paddling in vain against the stream. 
 
 ![Welcome at our second office](blog_image_path surfcamp-first-week-sunny-place.jpg)
 
