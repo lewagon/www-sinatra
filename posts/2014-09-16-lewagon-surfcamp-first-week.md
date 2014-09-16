@@ -27,7 +27,7 @@ Even mother nature has been soft with us since the beggining. A swell of 1-2 fee
 
 The daily warm-up on the sand (yep, we're speaking of this weird moment when you're moving up and down as a surf instructor is telling you that all of this is perfectly normal) starts to pay and quikly all of them get up on their boards and start to shred. It won't take long before the words take-off, bottom-turn and carve become as friendly as the most twisted rails function you could imagine.
 
-Wondering what next? The forcasts look good for the rest of the second week with 6 more days full of waves and intense coding sessions. Stay tuned for more details in a couple of days.
+Wondering what's next? The forcasts look good for the rest of the second week with 6 more days full of waves and intense coding sessions. Stay tuned for more details in a couple of days.
 
 ![Another point of vue](blog_image_path surfcamp-first-week-second-office.jpg)
 
