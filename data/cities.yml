@@ -43,18 +43,11 @@ brussels:
   description:
     en: |
       Our courses, in Brussels, are given in <strong>English</strong>,
-      at <a href='http://co-station.com/'>CO.STATION</a>, in the heart of the city,
-      only ​2 minutes' ​walk ​from Central Station. CO.STATION is a post-accelerator,
-      providing access to new markets and capital. It supports High-tech startups
-      that already have a scalable & revenue generating business model,
-      with what they need to grow.
+      in the heart of the city, only ​2 minutes' ​walk ​from Central Station.
     fr: |
       Nos cours, à Bruxelles, sont donnés en <strong>anglais</strong>,
-      à la <a href='http://co-station.com/'>CO.STATION</a>, au coeur de la ville,
-      à deux minutes à pied de la Gare Centrale. CO.STATION est un post-incubateur
-      qui facilite l'accès à de nouveaux marchés et capitaux
-      à des start-ups tech dont le business model leur permet déjà de générer
-      du profit mais qui ont besoin de booster leur croissance.
+      au coeur de la ville,
+      à deux minutes à pied de la Gare Centrale.
   images:
     banner: bg/brussels.jpg
     bottom: bg/local-costation.jpg
@@ -70,7 +63,6 @@ brussels:
     # - thibaut
     # - christophe
   partners:
-    - costation
     - pullreview
   subventions: # From data/subventions.yml
     - impulse
