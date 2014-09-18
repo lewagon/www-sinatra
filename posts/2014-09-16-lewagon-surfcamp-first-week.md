@@ -3,7 +3,7 @@ layout: post
 title:  "Le Wagon Surfcamp | first week"
 ---
 
-<em>Coding, surfing, indian summer... For about a week, the 20 participants of Le Wagon Surfcamp are experiencing the Californian way of life hidden in the middle of wood near Soustons, France.</em>
+<em>Coding, surfing, indian summer... For about a week, the 20 participants of Le Wagon Surfcamp are experiencing the Californian way of life, hidden in the middle of the wood near Soustons, France.</em>
 
 ![Welcome to paradise](blog_image_path surfcamp-first-week-paradise.jpg)
 
