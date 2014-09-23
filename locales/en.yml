@@ -101,7 +101,7 @@ en:
       <strong>continuous deployment on Heroku</strong>, pictures management on <strong>Amazon S3</strong>,
       automatic mailing with external SMTP like <strong>Mandrill</strong>, etc)
   apply:
-    title: Apply to Le Wagon for 9 weeks of ruby on rails
+    title: Apply to Le Wagon for 9 weeks of Ruby on Rails
     banner: Apply to Le Wagon
     description: Apply to Le Wagon and build amazing products with ruby on Rails in 9 weeks.
     lead: "Le Wagon is a <strong>challenging</strong> program that requires <strong>full-time</strong> investment during <strong>9 weeks</strong>. You should be <strong>fluent in English</strong>, programmer's reference language. Fill the form below to apply."
@@ -127,7 +127,7 @@ en:
     and_you: what about you
     final_project: Final project
   program:
-    title: Program - 9 weeks to learn ruby on rails
+    title: Program - 9 weeks to learn Ruby on Rails
     description: 9 weeks to learn ruby on Rails, HTML/CSS, Javascript, and web-development best practices
     teaser: Become a web-developer in 9 weeks
     our_goal: OUR GOAL
