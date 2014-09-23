@@ -25,10 +25,12 @@ en:
     program: Program
     cities: Cities
     apply: Apply
+    projects: Student projects
   apply_now: Apply now
   faq:
     footer: "We haven't answered your questions yet? Contact us:"
   city:
+    title: Le Wagon - Coding Bootcamp in
     partners: Partners
     partner_join_html: |
       <strong>You want to be part of this list?</strong>
@@ -60,8 +62,8 @@ en:
       find an associate and start working on web issues. It’s now a huge advantage
       for my day-to-day work.
   home:
-    title: Learn to code
-    description: "Le Wagon is a coding school for skilled people and entrepreneurs. We teach them to build cool stuff with ruby on Rails in 9 weeks."
+    title: Le Wagon - The French innovative coding school
+    description: "Le Wagon is the best French coding school for entrepreneurs. Checkout by yourself the projects of our students. You will be impressed."
     banner: LEARN TO CODE
     two_months: 2 MONTHS
     to_become_developper: To become a software engineer
@@ -99,7 +101,8 @@ en:
       <strong>continuous deployment on Heroku</strong>, pictures management on <strong>Amazon S3</strong>,
       automatic mailing with external SMTP like <strong>Mandrill</strong>, etc)
   apply:
-    title: Apply now
+    title: Apply to Le Wagon for 9 weeks of Ruby on Rails
+    banner: Apply to Le Wagon
     description: Apply to Le Wagon and build amazing products with ruby on Rails in 9 weeks.
     lead: "Le Wagon is a <strong>challenging</strong> program that requires <strong>full-time</strong> investment during <strong>9 weeks</strong>. You should be <strong>fluent in English</strong>, programmer's reference language. Fill the form below to apply."
     form:
@@ -118,12 +121,13 @@ en:
     title: Thanks!
     content_html: "We'll contact you shortly by email to plan an interview. In the meantime, <a href='http://twitter.com/Lewagonbrussels'>follow us on Twitter</a>"
   alumni:
-    title: Our student projects
+    title: Our student projects - Startups and web apps made in Le Wagon
+    banner: Our student projects
     description: "Discover the projects of our students. More than 80 students have created awesome softwares at Le Wagon. And you?"
     and_you: what about you
     final_project: Final project
   program:
-    title: Program
+    title: Program - 9 weeks to learn Ruby on Rails
     description: 9 weeks to learn ruby on Rails, HTML/CSS, Javascript, and web-development best practices
     teaser: Become a web-developer in 9 weeks
     our_goal: OUR GOAL
