@@ -1,4 +1,23 @@
 fr:
+  date:
+    formats:
+      default: "%d/%m/%Y"
+      short: "%e %B"
+      long: "%e %B %Y"
+    month_names:
+      - ~
+      - janvier
+      - février
+      - mars
+      - avril
+      - mai
+      - juin
+      - juillet
+      - août
+      - septembre
+      - octobre
+      - novembre
+      - décembre
   swith_language_title: Langue
   ready_to_get_onboard: Prêt à embarquer ?
   still_some_questions: Encore des questions ? Vous pouvez lire les
@@ -14,12 +33,12 @@ fr:
     title: Le Wagon - Bootcamp de ruby on rails à
     partners: Partenaires
     partner_join_html: |
-      <strong>Vous voulez rejoindre cette liste ?</strong> Pour nous soutenir,
-      recruter nos élèves ou former vos employés chez nous.
+      <br /><strong>Vous avez envie de rejoindre cette liste?</strong><br />Pour nous soutenir,
+      recruter nos élèves ou encore former vos employés chez nous? Contactez-nous!
     get_onboard: Embarquez pour 9 semaines à %{city}
   newsletter:
     teaser: "<p>Soyez informé des prochaines <strong>masterclasses</strong>, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.</p>"
-    city_teaser_html: 'Soyez informé des prochaines <strong>évènements</strong> à %{city}, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.'
+    city_teaser_html: 'Soyez informé de nos prochains <strong>événements</strong> à %{city}, recevez nos <strong>vidéos</strong> & <strong>blogposts</strong> techniques.'
     email_placeholder: votre e-mail
     follow_us_button: Suivez-nous
     thank_you: Merci, à très vite !
@@ -93,6 +112,21 @@ fr:
     banner: Postulez au Wagon
     description: Postulez au Wagon pour batir des applis innovantes avec ruby on Rails et rejoindre une communauté hyperactive d'entrepreneurs et de développeurs.
     lead: "Le Wagon est une formation <strong>exigente</strong> et personnalisée qui nécessite votre investissement à <strong>temps plein</strong> pendant <strong>9 semaines</strong>. Vous devez être à l'aise pour lire de l'<strong>anglais</strong>, langue technique de référence en programmation."
+    form:
+      first_name: Prénom
+      last_name: Nom
+      email: Email
+      phone: Téléphone
+      age: Age
+      choose_camp: À quelle session souhaitez-vous participer ?
+      choose_camp_radio_label_html: embarquement le <strong>%{start_date}</strong>, terminus le %{end_date}
+      motivation: Pourquoi voulez-vous faire Le Wagon ?
+      last_seats: Dernières places !
+      apply_button: POSTULER
+      price_html: "Prix : <strong>%{price}</strong> € TTC. Nous vous recontacterons rapidement par email !"
+  thanks:
+    title: Merci !
+    content_html: 'Nous vous recontacterons rapidement par mail pour prévoir un rendez-vous. En attendant, <a href="http://twitter.com/Lewagonparis">suivez-nous sur Twitter !</a>'
   alumni:
     title: Les projets de nos élèves - Startups et applis web made in Le Wagon
     banner: Les projets de nos élèves

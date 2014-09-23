@@ -13,3 +13,7 @@ FAQS = load(:faqs)
 ALUMNI = load(:alumni)
 STAFF = load(:staff)
 PARTNERS = load(:partners)
+SUBVENTIONS = load(:subventions)
+CAMPS = load(:camps)
+
+CAMPS.delete(:test) if ENV['RACK_ENV'] == 'production'

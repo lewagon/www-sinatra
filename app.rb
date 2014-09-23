@@ -11,6 +11,9 @@ require 'i18n'
 require_relative 'lib/data'
 require_relative 'lib/blog'
 
+require_relative "use_cases/push_student_application_to_trello"
+require_relative "use_cases/subscribe_to_newsletter"
+
 class App < Sinatra::Base
   sprockets = Sprockets::Environment.new
   AutoprefixerRails.install(sprockets)
@@ -47,6 +50,7 @@ class App < Sinatra::Base
 
   PAGES = {
     apply: { view: :postuler, locale_path: { en: '/apply', fr: '/postuler' }},
+    thanks: { view: :thanks, locale_path: { en: '/thanks', fr: '/merci' }},
     program: { view: :programme, locale_path: { en: '/program', fr: '/programme' }},
     alumni: { view: :alumni, path: '/alumni' },
     faq: { view: :faq, path: '/faq' }
@@ -54,26 +58,25 @@ class App < Sinatra::Base
 
   DEFAULT_LOCALE = :fr
   LOCALES = %i(fr en)
-  AUTOMATIC_LOCALE_ROOT_REDIRECT = true
 
   LOCALES.each do |locale|
     if locale == DEFAULT_LOCALE
       get '/' do
-        if AUTOMATIC_LOCALE_ROOT_REDIRECT
-          if I18n.locale != DEFAULT_LOCALE  # I18n.locale detected by Rack::Locale
-            redirect "/#{I18n.locale}", 302
-          else
-            erb :index
-          end
-        else
-          erb :index
-        end
+        erb :index
       end
     else
       get "/#{locale}" do
         I18n.locale = locale
         erb :index
       end
+    end
+  end
+
+  PAGES[:thanks][:locale_path].each do |locale, path|
+    get path do
+      I18n.locale = locale
+      @camp = params[:camp] ? CAMPS[params[:camp].to_sym] : nil
+      erb :thanks
     end
   end
 
@@ -150,17 +153,23 @@ class App < Sinatra::Base
   end
 
   post '/subscribe' do
-    gb = Gibbon::API.new(ENV['MAILCHIMP_API_KEY'])
     begin
-      result = gb.lists.subscribe({
-        :id => ENV['MAILCHIMP_LIST_ID'],
-        :email => {:email => params[:email]},
-        :merge_vars => params[:city] ? {:CITY => params[:city]} : {},
-        :double_optin => false
-        })
+      result = UseCases::SubscribeToNewsletter.new.run(params)
       json :result => result
     rescue Gibbon::MailChimpError
     end
+  end
+
+  post '/apply' do
+    camp = CAMPS[params[:camp].to_sym]
+    params[:city] = camp[:city]  # For the newsletter
+    UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id]).run(params)
+    begin
+      UseCases::SubscribeToNewsletter.new.run(params)
+    rescue Gibbon::MailChimpError => e
+      puts e
+    end
+    redirect thanks_path + "?camp=#{params[:camp]}"
   end
 
   not_found do
@@ -170,6 +179,10 @@ class App < Sinatra::Base
   helpers do
     def t(*args)
       I18n.t(*args)
+    end
+
+    def l(*args)
+      I18n.l(*args)
     end
 
     def apply_path(options = {})

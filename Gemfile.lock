@@ -1,7 +1,31 @@
+GIT
+  remote: git://github.com/jeremytregunna/ruby-trello.git
+  revision: 77832758b08bea551c5279ab8e61987b705c33c6
+  specs:
+    ruby-trello (1.1.1)
+      activemodel (>= 3.2.0)
+      addressable (~> 2.3)
+      json
+      oauth (~> 0.4.5)
+      rest-client (~> 1.6.7)
+
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
   specs:
+    activemodel (4.1.5)
+      activesupport (= 4.1.5)
+      builder (~> 3.1)
+    activesupport (4.1.5)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    addressable (2.3.6)
+    appsignal (0.10.3)
+      rack
+      thread_safe
     autoprefixer-rails (2.1.1.20140710)
       execjs
     backports (3.6.0)
@@ -12,6 +36,7 @@ GEM
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.2.0.0)
       sass (~> 3.2)
+    builder (3.2.2)
     byebug (2.7.0)
       columnize (~> 0.3)
       debugger-linecache (~> 1.2)
@@ -45,8 +70,11 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     method_source (0.8.2)
+    mime-types (1.25.1)
+    minitest (5.4.1)
     multi_json (1.10.1)
     multi_xml (0.5.5)
+    oauth (0.4.7)
     pry (0.10.0)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -75,9 +103,14 @@ GEM
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
+    rdoc (4.1.1)
+      json (~> 1.4)
     redcarpet (3.1.2)
     rerun (0.10.0)
       listen (~> 2.7, >= 2.7.3)
+    rest-client (1.6.8)
+      mime-types (~> 1.16)
+      rdoc (>= 2.4.2)
     sass (3.3.9)
     sinatra (1.4.5)
       rack (~> 1.4)
@@ -109,8 +142,11 @@ GEM
     sprockets-sass (1.2.0)
       sprockets (~> 2.0)
       tilt (~> 1.1)
+    thread_safe (0.3.4)
     tilt (1.4.1)
     timers (1.1.0)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
     uglifier (2.5.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
@@ -119,6 +155,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  appsignal
   autoprefixer-rails
   better_errors
   binding_of_caller
@@ -135,6 +172,7 @@ DEPENDENCIES
   rails_12factor
   redcarpet
   rerun
+  ruby-trello!
   sinatra
   sinatra-asset-pipeline
   sinatra-contrib

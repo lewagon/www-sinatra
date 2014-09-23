@@ -19,8 +19,8 @@
 
     <meta property="og:title" content="<%= yield_content :title %>" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://www.lewagon.org/<%= request.path_info %>" />
-    <meta property="og:image" content="http://www.lewagon.org<%= image_path 'logo.png' %>" />
+    <meta property="og:url" content="http://www.lewagon.org<%= request.path_info %>" />
+    <meta property="og:image" content="http://www.lewagon.org<%= image_path 'social/facebook_card.jpg' %>" />
     <meta property="og:description" content="<%= yield_content :description %>" />
     <meta property="og:site_name" content="Le Wagon" />
     <!-- <meta property="fb:admins" content="Facebook numeric ID" /> -->
@@ -30,7 +30,7 @@
     <meta name="twitter:title" content="<%= yield_content :title %>">
     <meta name="twitter:description" content="<%= yield_content :description %>">
     <meta name="twitter:creator" content="@Lewagonparis">
-    <meta name="twitter:image:src" content="http://www.lewagon.org<%= image_path 'logo.png' %>">
+    <meta name="twitter:image:src" content="http://www.lewagon.org<%= image_path 'social/facebook_card.jpg' %>">
 
   </head>
   <body>
@@ -52,6 +52,18 @@
     ga('send', 'pageview');
     </script>
     <!-- End Google Analytics -->
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      var $mcGoal = {'settings':{'uuid':'1a8343824ef6660eaf45a4ab9','dc':'us7'}};
+      (function() {
+         var sp = document.createElement('script'); sp.type = 'text/javascript'; sp.async = true; sp.defer = true;
+        sp.src = ('https:' == document.location.protocol ? 'https://s3.amazonaws.com/downloads.mailchimp.com' : 'http://downloads.mailchimp.com') + '/js/goal.min.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sp, s);
+      })();
+    </script>
+    <!-- Mailchimp Tracking -->
+
 
     <script src="<%= javascript_path "app" %>"></script>
 

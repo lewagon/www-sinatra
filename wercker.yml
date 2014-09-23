@@ -29,6 +29,11 @@ build:
         #    name: rspec
         #    code: bundle exec rspec
 
+    after-steps:
+        - wantedly/pretty-slack-notify:
+            team: teamwagon
+            token: $SLACK_API_TOKEN
+            channel: general
 deploy:
     steps:
         - heroku-deploy:

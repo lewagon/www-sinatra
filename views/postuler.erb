@@ -34,40 +34,79 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-        <div id="postuler">
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist">
-          <li class="active">
-            <a href="#octobre-2014" data-toggle="tab" role="tab" data-wufoo-id="rlgnjjq0uvoqaa">
-              Paris - Octobre 2014
-            </a>
-          </li>
-          <li>
-            <a href="#brussels-october-2014" data-toggle="tab" role="tab" data-wufoo-id="xo5ubsj0tno6dh">
-              Brussels - October 2014
-            </a>
-          </li>
-          <li>
-            <a href="#janvier-2015" data-toggle="tab" role="tab" data-wufoo-id="s8e5iew1rkkqjo">
-              Paris - Janvier 2015
-            </a>
-          </li>
-        </ul>
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+      <form action="/apply" method="post" role="form">
 
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <div class="tab-pane active" id="octobre-2014">
-            <div id="wufoo-rlgnjjq0uvoqaa"></div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="first_name"><%= t "apply.form.first_name" %></label>
+              <input class="form-control" type="text" name="first_name" id="first_name" placeholder="John" required>
+            </div>
           </div>
-          <div class="tab-pane" id="brussels-october-2014">
-            <div id="wufoo-xo5ubsj0tno6dh"></div>
-          </div>
-          <div class="tab-pane" id="janvier-2015">
-            <div id="wufoo-s8e5iew1rkkqjo"></div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="last_name"><%= t "apply.form.last_name" %></label>
+              <input class="form-control" type="text" name="last_name" id="last_name" placeholder="Doe" required>
+            </div>
           </div>
         </div>
-      </div>
+
+        <div class="form-group">
+          <label for="email"><%= t "apply.form.email" %></label>
+          <input class="form-control" type="email" name="email" id="email" placeholder="john@doe.org" required>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="email"><%= t "apply.form.phone" %></label>
+              <input class="form-control" type="tel" name="phone" id="phone" placeholder="+33123456789" required>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="age"><%= t "apply.form.age" %></label>
+              <input class="form-control" type="text" name="age" id="age" placeholder="42" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label><%= t "apply.form.choose_camp" %></label>
+          <% CAMPS.each do |slug, camp| %>
+            <div class="radio">
+              <label>
+                <input type="radio" name="camp" value="<%= slug %>" required>
+                <strong><%= camp[:city].capitalize %></strong>,
+                <small>
+                  <% format = camp[:start_date].year == Time.now.year ? :short : :long %>
+                  <%= t "apply.form.choose_camp_radio_label_html",
+                        start_date: l(camp[:start_date], format: format),
+                        end_date: l(camp[:end_date], format: format) %>
+                  <% if camp[:last_seats] %>
+                    <span class="label label-danger"><%= t "apply.form.last_seats" %></span>
+                  <% end %>
+                </small>
+              </label>
+            </div>
+          <% end %>
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="motivation"><%= t "apply.form.motivation" %></label>
+          <textarea class="form-control" name="motivation" id="motivation" rows="4" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <span class="help-block">
+            <%= t "apply.form.price_html", price: 3900 %>
+          </span>
+        </div>
+
+        <button class="btn btn-primary red-btn" style="width: 100%"><%= t "apply.form.apply_button" %></button>
+      </form>
     </div>
   </div>
 </div>
