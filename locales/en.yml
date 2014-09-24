@@ -18,9 +18,22 @@ en:
       - October
       - November
       - December
+  time:
+    am: am
+    formats:
+      default: '%a, %d %b %Y %H:%M:%S %z'
+      long: '%B %d, %Y %H:%M'
+      short: '%d %b %H:%M'
+    pm: pm
   swith_language_title: Language
   ready_to_get_onboard: Ready to get on board?
   still_some_questions: You still have some questions? You can read the
+  stay_in_touch: STAY IN TOUCH
+  by_email: BY EMAIL
+  for_real: LET'S MEET!
+  join_our_meetup: Join our meetup
+  and_its: and its
+  apprentices: apprentices
   menu:
     program: Program
     cities: Cities
