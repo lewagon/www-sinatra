@@ -57,7 +57,7 @@
         <div class="col-xs-12 col-md-6 meetup">
           <h2 style="font-size: 23px; font-weight: 300px;"><%= t("for_real")%></h2>
           <p>
-            <%= t("join_our_meetup")%> <strong><a href="<%= @meetup[:link] %></%>" target="_blank"><%= @meetup[:name] %></a></strong>
+            <%= t("join_our_meetup")%> <strong><a href="<%= @meetup[:link] %>" target="_blank"><%= @meetup[:name] %></a></strong>
            <%= t("and_its")%> <strong><%= @meetup[:members] %> <%= t("apprentices")%></strong>
           </p>
           <hr>
@@ -69,7 +69,7 @@
               </div>
             </div>
             <div class="col-xs-10">
-              <a href="<%= meetup_event[:link] %>" target="_blank">
+              <a href="<%= meetup_event[:event_url] %>" target="_blank">
                 <%= meetup_event[:name] %>
               </a>
               <p style="color: grey; font-weight: 300px; font-size: 14px;"><%= l Time.at(meetup_event[:time] / 1000).to_datetime, format: :long %></p>
