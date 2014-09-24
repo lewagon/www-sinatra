@@ -50,3 +50,67 @@
   background-color: white;
   text-align: center;
 }
+
+
+.meet-us {
+  background-color: rgb(240, 240, 240);
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: 20px;
+}
+
+.date{
+  border: 2px solid black;
+  border-top: 10px solid black;
+  width: 40px;
+  padding: 5px 10px;
+  font-size: 19px;
+}
+
+.meetup{
+  border-left: 1px dashed lightgrey;
+  padding-left: 44px;
+}
+
+
+@media (max-width: 992px){
+  .meetup{
+    border-left: none;
+    padding-left: 15px;
+  }
+}
+
+.red-label{
+  margin-top: -45px;
+  background: #E1342F;
+  color: white;
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1px;
+}
+
+.events{
+  background: white;
+}
+
+.red-label h2 {
+  font-size: 20px;
+  line-height: 4px;
+}
+.red-label h2:after{
+  background-color: #E1342F;
+  content: "\00a0";
+  display: block;
+  height: 20px;
+  left: 50%;
+  margin-left: -10px;
+  position: relative;
+  bottom: -10px;
+  width: 20px;
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+  z-index: 1000;
+}

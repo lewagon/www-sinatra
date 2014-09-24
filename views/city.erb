@@ -21,18 +21,69 @@
   </div>
 </div>
 
-<div class="vertical-spacer"></div>
 
-<div class="newsletter text-center">
-  <p>
-    <%= t "newsletter.city_teaser_html", city: @city[:name] %>
-  </p>
 
-  <%= erb :mailchimp_form, locals: { city: @city[:name] } %>
+<% if @meetup %>
+<div class="meet-us">
+  <div class="container">
+    <div class="col-xs-12">
+      <div class="red-label text-center">
+        <h2><%= t("stay_in_touch")%></h2>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <div class="newsletter text-left">
+            <h2 style="font-size: 23px; font-weight: 300px;"><%= t("by_email")%></h2>
+            <p>
+              <%= t "newsletter.city_teaser_html", city: @city[:name] %>
+            </p>
 
+            <%= erb :mailchimp_form, locals: { city: @city[:name] } %>
+            <div>
+              <div class="fb-like" data-href="<%= @city[:twitter]%>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+              <script>
+                (function(d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) return;
+                  js = d.createElement(s); js.id = id;
+                  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&appId=170809313078160&version=v2.0";
+                  fjs.parentNode.insertBefore(js, fjs);
+                  }(document, 'script', 'facebook-jssdk'));
+              </script>
+              <a href="<%= @city[:twitter]%>" class="twitter-follow-button" data-show-count="true" data-lang="en" data-show-screen-name="false">Follow</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 meetup">
+          <h2 style="font-size: 23px; font-weight: 300px;"><%= t("for_real")%></h2>
+          <p>
+            <%= t("join_our_meetup")%> <strong><a href="<%= @meetup[:link] %></%>" target="_blank"><%= @meetup[:name] %></a></strong>
+           <%= t("and_its")%> <strong><%= @meetup[:members] %> <%= t("apprentices")%></strong>
+          </p>
+          <hr>
+          <% @meetup_events.take(2).each do |meetup_event| %>
+          <div class="row">
+            <div class="col-xs-2 text-center">
+              <div class="date pill pull-right">
+                <%= Time.at(meetup_event[:time] / 1000).to_datetime.day %>
+              </div>
+            </div>
+            <div class="col-xs-10">
+              <a href="<%= meetup_event[:link] %>" target="_blank">
+                <%= meetup_event[:name] %>
+              </a>
+              <p style="color: grey; font-weight: 300px; font-size: 14px;"><%= l Time.at(meetup_event[:time] / 1000).to_datetime, format: :long %></p>
+            </p>
+            </div>
+          </div>
+          <br>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-<div class="vertical-spacer"></div>
+<% end %>
 
 <div class="teachers text-center">
   <div class="container">
@@ -74,8 +125,6 @@
     </div>
   </div>
 </div>
-
-
 
 <div class="local">
   <div class="container">

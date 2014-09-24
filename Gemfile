@@ -24,6 +24,8 @@ gem 'ruby-trello', github: 'jeremytregunna/ruby-trello'
 gem 'rack-cors', :require => 'rack/cors'
 
 gem 'appsignal'
+gem 'actionpack'
+gem 'meetup_client'
 
 group :development do
   gem 'better_errors'

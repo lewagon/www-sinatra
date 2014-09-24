@@ -35,6 +35,9 @@ paris:
     - boris
     - cecile
     - simon
+  meetup_id: 16766372
+  facebook: https://www.facebook.com/lewagonformation
+  twitter: https://twitter.com/Lewagonparis
 
 brussels:
   name: Brussels
@@ -66,4 +69,7 @@ brussels:
     - pullreview
   subventions: # From data/subventions.yml
     - impulse
+  meetup_id: 16630202
+  facebook: https://www.facebook.com/lewagonformation
+  twitter: https://twitter.com/LewagonBrussels
 
