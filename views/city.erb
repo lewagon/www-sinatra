@@ -72,7 +72,7 @@
               <a href="<%= meetup_event[:event_url] %>" target="_blank">
                 <%= meetup_event[:name] %>
               </a>
-              <p style="color: grey; font-weight: 300px; font-size: 14px;"><%= l Time.at(meetup_event[:time] / 1000).to_datetime, format: :long %></p>
+              <p style="color: grey; font-weight: 300px; font-size: 14px;"><%= l Time.at((meetup_event[:time] + meetup_event[:utc_offset]) / 1000).to_datetime.utc, format: :long %></p>
             </p>
             </div>
           </div>
