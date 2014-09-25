@@ -1,3 +1,28 @@
+- name: Thomas et Olivier
+  image_name: trackguru_team.jpeg
+  url: https://github.com/tchret
+  project:
+    name: TrackGuru
+    url: http://www.trackguru.co/
+    image_name: trackguru-landing.png
+    teaser:
+      fr: TrackGuru est une plateforme web permettant aux passionnés de techno et de house de partager et découvrir les meilleurs sons du moment
+      en: Share and discover the best techno and house tracks on TrackGuru, the social platform for music enthusiasts.
+    description:
+      fr: Design et développement de l'appli web TrackGuru, avec un search basé sur Soundcloud et Youtube, un système d'upvotes et de notifications.
+      en: Development of trackguru web-app with Soundcloud and Youtube track search, upvote and notification features.
+  links:
+    - url: https://github.com/tchret
+      icon: github-alt
+    - url: https://github.com/OlivierBrunet
+      icon: github-alt
+    - url: http://www.trackguru.co/
+      icon: link
+    - url: https://www.facebook.com/trackguruapp
+      icon: facebook
+    - url: https://twitter.com/trackguruapp
+      icon: twitter
+
 - name: Olivier Xu
   image_name: olivier.png
   url: https://github.com/olixier
@@ -181,3 +206,4 @@
       icon: facebook
     - url: http://wearethediggers.herokuapp.com
       icon: link
+
