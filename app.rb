@@ -254,7 +254,7 @@ class App < Sinatra::Base
       @meetup = api.groups(group_id: @city[:meetup_id])["results"].first
       @meetup.extend DeepSymbolizable
       @meetup = @meetup.deep_symbolize { |key| key }
-      @meetup_events = api.events(group_id: @city[:meetup_id])["results"]
+      @meetup_events = api.events(group_id: @city[:meetup_id])["results"].select { |m| m["status"] == "upcoming" }
       @meetup_events = @meetup_events.map do |event|
         event.extend DeepSymbolizable
         event.deep_symbolize { |key| key }
