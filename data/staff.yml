@@ -37,7 +37,7 @@ seb:
       icon: linkedin
     - url: https://twitter.com/ssaunier
       icon: twitter
-    - url: http://sebastien.sauneir.me
+    - url: http://sebastien.saunier.me
       icon: link
 gab:
   image_name: gab.png
