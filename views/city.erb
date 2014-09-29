@@ -101,9 +101,10 @@
                 <img src="<%= image_path "teachers/#{teacher[:image_name]}" %>" class="img-circle">
               </div>
               <div class="col-xs-8">
-                <p class="text-justify">
-                  <%= teacher[:description][I18n.locale] %>
-                </p>
+                <div class="text-justify">
+                  <% puts teacher[:description][I18n.locale] %>
+                  <%= markdown teacher[:description][I18n.locale] %>
+                </div>
                 <% if teacher[:links] %>
                 <ul class="list-inline link-list">
                   <% teacher[:links].each do |link| %>
