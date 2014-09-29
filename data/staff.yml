@@ -29,7 +29,7 @@ seb:
     en: |
       After many years of programming, **Sebastien**
       is now helping startups as [a
-      technical coach](http://sebastien.saunier.me). 
+      technical coach](http://sebastien.saunier.me).
       He won't let you code unless you apply the best practices.
   links:
     - url: https://github.com/ssaunier
@@ -169,22 +169,20 @@ anne:
   links:
     - url: https://github.com/OObatwomanOO
       icon: github-alt
-    - url: https://twitter.com/DianeLanterman 
+    - url: https://twitter.com/DianeLanterman
       icon: twitter
 augustin:
   image_name: augustin.jpg
   description:
     en: |
-      ​After 2 years of consulting, <strong>Augustin</strong> updated his coding skills by himself to move to
-      entrepreneurship. He is now working as the CTO of <a href="https://copass.org" target="_blank">Copass</a>, 
-      diving constantly deeper into Ruby, Rails and Javascript.
-      He believes in the motto <i>"Be a programmer or be programmed"</i> and actively supports Open Source.
+      ​After 2 years of consulting, **Augustin** updated his coding skills by himself to move to
+      entrepreneurship. He is now working as the CTO of <a href="https://copass.org" target="_blank">Copass</a>.
+      He believes in the motto *"Be a programmer or be programmed"* and actively supports Open Source.
     fr: |
-      Après 2 années à faire du conseil, <strong>Augustin</strong> a repris l'éditeur de texte pour rejoindre 
-      le monde fascinant de l'entrepreneuriat. Il travaille désormais en tant que CTO de 
-      <a href="https://copass.org" target="_blank">Copass</a>, plongeant toujours plus profondément dans les entrailles
-      de Ruby, Rails et Javascript.
-      Sa devise est <i>"Soit un programmeur ou soit programmé"</i> et il soutient activement la philosophie Open Source.
+      Après 2 années à faire du conseil, **Augustin** a repris l'éditeur de texte pour rejoindre
+      le monde fascinant de l'entrepreneuriat. Il travaille désormais en tant que CTO de
+      <a href="https://copass.org" target="_blank">Copass</a>.
+      Sa devise est *"Soit un programmeur ou soit programmé"* et il soutient activement la philosophie Open Source.
   links:
     - url: http://augustin-riedinger.fr
       icon: link

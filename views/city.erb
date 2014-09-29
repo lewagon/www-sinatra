@@ -98,7 +98,7 @@
           <div class="<%= @city[:staff].length == 2 ? 'col-sm-6' : 'col-md-4 col-sm-6' %>">
             <div class="row teacher">
               <div class="col-xs-4">
-                <img src="<%= image_path "teachers/#{teacher[:image_name]}" %>" class="img-circle">
+                <img src="<%= image_path "teachers/#{teacher[:image_name]}" %>" class="img-rounded">
               </div>
               <div class="col-xs-8">
                 <div class="text-justify">
@@ -120,7 +120,7 @@
           </div>
         <% end %>
 
-        <div class="clearfix visible-md-block"></div>
+        <div class="clearfix visible-md-block visible-lg-block"></div>
       <% end %>
 
     </div>
