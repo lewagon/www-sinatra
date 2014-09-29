@@ -29,13 +29,11 @@ paris:
     - girlsintechparis
   subventions: # From data/subventions.yml
   staff:  # cf data/staff.yml
-    - olivier
     - seb
-    - gab
     - boris
-    - cecile
-    - simon
+    - gab
     - augustin
+    - cecile
   meetup_id: 16766372
   facebook: https://www.facebook.com/lewagonformation
   twitter: https://twitter.com/Lewagonparis
