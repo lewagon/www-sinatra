@@ -246,6 +246,15 @@ class App < Sinatra::Base
     end
   end
 
+  alias_method :md, :markdown
+  def markdown(content)
+    @markdown ||= (
+      renderer = Redcarpet::Render::HTML.new
+      Redcarpet::Markdown.new(renderer, extensions = {})
+    )
+    @markdown.render(content)
+  end
+
   private
 
   def find_meetup
@@ -260,7 +269,7 @@ class App < Sinatra::Base
           event.extend DeepSymbolizable
           event.deep_symbolize { |key| key }
         end
-      rescue 
+      rescue
         puts "No Meetup Found"
       end
     end
