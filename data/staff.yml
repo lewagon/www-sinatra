@@ -77,10 +77,10 @@ boris:
       what beginners need. He founded Le Wagon, and built its [site](http://lewagon.org)
       and pedagogical platforms.
   links:
-  - url: https://github.com/Papillard/
-    icon: github-alt
-  - url: http://fr.linkedin.com/pub/boris-paillard/70/226/867
-    icon: linkedin
+    - url: https://github.com/Papillard/
+      icon: github-alt
+    - url: http://fr.linkedin.com/pub/boris-paillard/70/226/867
+      icon: linkedin
 cecile:
   image_name: cecile.png
   description:
@@ -95,12 +95,12 @@ cecile:
       she is an active member of the local ruby & Rails community (co-organizing Rails Girls & Ruby
       burgers events)
   links:
-  - url: https://github.com/cveneziani
-    icon: github-alt
-  - url: https://twitter.com/cecilitse
-    icon: twitter
-  - url: http://cecilitse.org
-    icon: link
+    - url: https://github.com/cveneziani
+      icon: github-alt
+    - url: https://twitter.com/cecilitse
+      icon: twitter
+    - url: http://cecilitse.org
+      icon: link
 simon:
   image_name: simon.png
   description:
@@ -114,12 +114,12 @@ simon:
       member of [Paris.rb](http://www.rubyparis.org). He has built several popular gems and is passionate
       aboute good practices and continuous improvement.
   links:
-  - url: https://github.com/simonc
-    icon: github-alt
-  - url: https://twitter.com/happynoff
-    icon: twitter
-  - url: http://tinci.fr
-    icon: link
+    - url: https://github.com/simonc
+      icon: github-alt
+    - url: https://twitter.com/happynoff
+      icon: twitter
+    - url: http://tinci.fr
+      icon: link
 martin:
   image_name: martin.jpg
   description:
@@ -139,14 +139,14 @@ martin:
       He is also co-organizing the Brussels chapter of Rails Girls and
       a frequent speaker at [Paris.rb](http://www.meetup.com/parisrb/).
   links:
-  - url: https://github.com/vanakenm
-    icon: github-alt
-  - url: https://twitter.com/martinvanaken
-    icon: twitter
-  - url: https://www.linkedin.com/in/martinvanaken
-    icon: linkedin
-  - url: http://about.me/vanakenm
-    icon: link
+    - url: https://github.com/vanakenm
+      icon: github-alt
+    - url: https://twitter.com/martinvanaken
+      icon: twitter
+    - url: https://www.linkedin.com/in/martinvanaken
+      icon: linkedin
+    - url: http://about.me/vanakenm
+      icon: link
 anne:
   image_name: anne.jpg
   description:
@@ -167,10 +167,33 @@ anne:
       Elle aime aider les nouveaux venus à surmonter leur première appréhension
       et voir l'étincelle briller dans leurs yeux quand la magie du code se dévoile!
   links:
-  - url: https://github.com/OObatwomanOO
-    icon: github-alt
-  - url: https://twitter.com/DianeLanterman
-    icon: twitter
+    - url: https://github.com/OObatwomanOO
+      icon: github-alt
+    - url: https://twitter.com/DianeLanterman 
+      icon: twitter
+augustin:
+  image_name: augustin.jpg
+  description:
+    en: |
+      ​After 2 years of consulting, <strong>Augustin</strong> updated his coding skills by himself to move to
+      entrepreneurship. He is now working as the CTO of <a href="https://copass.org" target="_blank">Copass</a>, 
+      diving constantly deeper into Ruby, Rails and Javascript.
+      He believes in the motto <i>"Be a programmer or be programmed"</i> and actively supports Open Source.
+    fr: |
+      Après 2 années à faire du conseil, <strong>Augustin</strong> a repris l'éditeur de texte pour rejoindre 
+      le monde fascinant de l'entrepreneuriat. Il travaille désormais en tant que CTO de 
+      <a href="https://copass.org" target="_blank">Copass</a>, plongeant toujours plus profondément dans les entrailles
+      de Ruby, Rails et Javascript.
+      Sa devise est <i>"Soit un programmeur ou soit programmé"</i> et il soutient activement la philosophie Open Source.
+  links:
+    - url: http://augustin-riedinger.fr
+      icon: link
+    - url: https://github.com/aug-riedinger
+      icon: github-alt
+    - url: https://twitter.com/Aug_Riedinger
+      icon: twitter
+    - url: http://fr.linkedin.com/in/augustinriedinger
+      icon: linkedin
 
 # thibaut:
 #   image_name: thibaut.jpg
