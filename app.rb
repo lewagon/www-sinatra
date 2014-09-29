@@ -250,14 +250,18 @@ class App < Sinatra::Base
 
   def find_meetup
     if @city[:meetup_id]
-      api = MeetupApi.new
-      @meetup = api.groups(group_id: @city[:meetup_id])["results"].first
-      @meetup.extend DeepSymbolizable
-      @meetup = @meetup.deep_symbolize { |key| key }
-      @meetup_events = api.events(group_id: @city[:meetup_id])["results"].select { |m| m["status"] == "upcoming" }
-      @meetup_events = @meetup_events.map do |event|
-        event.extend DeepSymbolizable
-        event.deep_symbolize { |key| key }
+      begin
+        api = MeetupApi.new
+        @meetup = api.groups(group_id: @city[:meetup_id])["results"].first
+        @meetup.extend DeepSymbolizable
+        @meetup = @meetup.deep_symbolize { |key| key }
+        @meetup_events = api.events(group_id: @city[:meetup_id])["results"].select { |m| m["status"] == "upcoming" }
+        @meetup_events = @meetup_events.map do |event|
+          event.extend DeepSymbolizable
+          event.deep_symbolize { |key| key }
+        end
+      rescue 
+        puts "No Meetup Found"
       end
     end
   end
