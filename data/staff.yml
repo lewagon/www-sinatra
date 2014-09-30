@@ -192,7 +192,24 @@ augustin:
       icon: twitter
     - url: http://fr.linkedin.com/in/augustinriedinger
       icon: linkedin
-
+alex:
+  image_name: alex.jpg
+  description:
+    en: |
+      **Alex** deeply believes in the magic of **code**. After having created several projects, 
+      he now wishes to share his knowledge to help people to fulfill their dreams.
+    fr: |
+      **Alex** croit fortement dans la magie du **code**. Après avoir mis en place plusieurs projets, 
+      il souhaite désormais partager ses connaissances pour permettre à tous de réaliser leurs rêves.
+  links:
+    - url: https://github.com/agerlic
+      icon: github-alt
+    - url: http://linkedin.com/in/agerlic
+      icon: linkedin
+    - url: https://twitter.com/agerlic
+      icon: twitter
+    - url: https://medium.com/@agerlic
+      icon: link
 # thibaut:
 #   image_name: thibaut.jpg
 #   description:"TODO"
