@@ -23,13 +23,13 @@ On the other hand, life kept the same pace at the camp. We were trying to focus 
 
 ![Welcome to paradise](blog_image_path surfcamp-deuxieme-semaine-14.jpg)
 
-Well decided to push our limit further, we managed to dive deep into the local establishment having some drinks at La Centrale, Hossegor. The folks were kind and the mid 90’s songs enhanced everybody. At the end nobody get hurts (which could have happened regarding some weird dancing move performed at the occasion).
+Well decided to push our limit further, we managed to dive deep into the local establishment having some drinks at La Centrale, Hossegor. The folks were kind and the mid 90’s songs enhanced everybody. At the end nobody got hurt (which could have happened regarding some weird dancing move performed at the occasion).
 
 ![Welcome to paradise](blog_image_path surfcamp-deuxieme-semaine-5.jpg)
 
 ![Welcome to paradise](blog_image_path surfcamp-deuxieme-semaine-6.jpg)
 
-Surf, code, party and good friends. The alchemy is fine enough to announce we will do it again next year! Wax up your board guys! Do not hesitate to have a look at the tumblr we created for the occasion : surfcodecamp.tumblr.com
+Surf, code, party and good friends. The alchemy is fine enough to announce we will do it again next year! Wax up your board guys! Do not hesitate to have a look at the tumblr we created for the occasion : [Tumblr Surfcamp](http://www.surfcodecamp.tumblr.com)
 
 Huge thanks to Jerome, Valentin, Rody, David, Yoann, Antoine, Amir, Jean-Elie, Martin, Pierre, Maxime, Pierre-Olivier, Cowichan, Michael and Gilles for their trust.
 
