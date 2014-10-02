@@ -3,7 +3,7 @@ layout: post
 title: Le Wagon Surfcamp | Last week
 ---
 
-Everything must eventually come to an end. But some ends come quickly than others. If you catch up with one participant of our fist surfcamp, we’re pretty sure they will endorse this claim. Last week they were struggling with the waves. Today, the situation is the opposite. The waves were not plenty enough to feed our 20 hungry surfers devs.
+Everything must eventually come to an end. But some ends come more quickly than others. If you catch up with one participant of our fist surfcamp, we’re pretty sure they will endorse this claim. Last week they were struggling with the waves. Today, the situation is the opposite. The waves were not plenty enough to feed our 20 hungry surfers devs.
 
 ![Welcome to paradise](blog_image_path surfcamp-deuxieme-semaine-12.jpg)
 
@@ -31,7 +31,7 @@ Well decided to push our limit further, we managed to dive deep into the local e
 
 Surf, code, party and good friends. The alchemy is fine enough to announce we will do it again next year! Wax up your board guys! Do not hesitate to have a look at the tumblr we created for the occasion : [Tumblr Surfcamp](http://www.surfcodecamp.tumblr.com)
 
-Huge thanks to Jerome, Valentin, Rody, David, Yoann, Antoine, Amir, Jean-Elie, Martin, Pierre, Maxime, Pierre-Olivier, Cowichan, Michael and Gilles for their trust.
+Huge thanks to [Jerome](https://twitter.com/Borenstejn), [Valentin](https://twitter.com/squirelo), [Rody](https://twitter.com/rthauvin), David, [Yoann](https://twitter.com/yoann_saunier), Antoine, [Amir](http://fr.linkedin.com/pub/amir-toly/88/4b7/349), [Jean-Elie](https://twitter.com/jeclic), [Martin](https://twitter.com/martinmignot), [Pierre](https://twitter.com/pierremgr), [Maxime](https://twitter.com/MaximeArnstamm), Pierre-Olivier, [Cowichan](https://www.linkedin.com/pub/cowichan-fournier/93/708/815), [Michael](https://www.linkedin.com/pub/michael-billy/29/b4a/191) and [Gilles](https://twitter.com/GillesM) for their trust.
 
 Rip it up!
 
