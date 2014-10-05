@@ -5,13 +5,13 @@ test:
   trello:
     inbox_list_id: 54024112c975d17cd1180489
 
-octobre-2014:
-  city: paris
-  start_date: 2014-10-06
-  end_date: 2014-12-05
-  trello:
-    inbox_list_id: 5362245b3229b2d035ef8b23
-  last_seats: true
+# octobre-2014:
+#   city: paris
+#   start_date: 2014-10-06
+#   end_date: 2014-12-05
+#   trello:
+#     inbox_list_id: 5362245b3229b2d035ef8b23
+#   last_seats: true
 
 janvier-2015:
   city: paris
