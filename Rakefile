@@ -47,6 +47,7 @@ namespace :trello do
 
     puts "TODO, manually:"
     puts "- Go to #{board.url} and set visibility to 'Organization' instead of 'Private'"
+    puts "- Invite to the Trello board Romain and others"
     puts "- Add the camp to data/camps.yml (inbox_list_id: #{inbox_list.id})"
     puts "- Add zap 'Envoi RDV' (INBOX -> RDV non pris)"
     puts "- Add zap 'Email emarquement' (-> GO)"
