@@ -50,6 +50,7 @@ namespace :trello do
     puts "- Add the camp to data/camps.yml (inbox_list_id: #{inbox_list.id})"
     puts "- Add zap 'Envoi RDV' (INBOX -> RDV non pris)"
     puts "- Add zap 'Email emarquement' (-> GO)"
+    puts "- Go to https://teamwagon.slack.com/services and add Trello/Slack integration"
   end
 
   task :emails do
