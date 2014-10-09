@@ -29,3 +29,25 @@ brussels-janvier-2014:
   facebook_tracking_ids:
     - 6016507068529
     - 6016638335929
+
+paris-fevrier-2015:
+  city: paris
+  start_date: 2015-02-02
+  end_date: 2015-04-04
+  trello:
+    inbox_list_id: 54367c2481220dc57e3c698b
+
+paris-mars-2015:
+  city: paris
+  start_date: 2015-03-09
+  end_date: 2015-05-08
+  trello:
+    inbox_list_id: 54367e024309d39b50e17738
+
+paris-avril-2015:
+  city: paris
+  start_date: 2015-04-06
+  end_date: 2015-06-05
+  trello:
+    inbox_list_id: 54367fcfe0dfe26d509ec183
+

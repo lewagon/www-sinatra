@@ -20,7 +20,9 @@ class App < Sinatra::Base
 
   assets_prefix = %w(assets vendor/assets) + (Bundler.definition.dependencies.map do |dep|
     if dep.groups.include? :assets
-      [ [dep.to_spec.full_gem_path, 'vendor', 'assets'].join('/'), [dep.to_spec.full_gem_path, 'assets'].join('/') ]
+      [ [dep.to_spec.full_gem_path, 'vendor', 'assets'].join('/'),
+        [dep.to_spec.full_gem_path, 'assets'].join('/'),
+        [dep.to_spec.full_gem_path, 'app', 'assets'].join('/') ]
     end
   end.compact.flatten).to_a
 
