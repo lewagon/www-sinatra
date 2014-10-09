@@ -5,7 +5,7 @@ title: Anne Buffetaud, Co-Fondatrice @Hopways, revient sur son expérience au Wa
 
 ![Anne Buffetaud, Co-Fondatrice d'Hopways et alumni du Wagon](blog_image_path lewagon-anne-buffetaud-hopways.jpg)
 
-<em>C'est désormais acté, régulièrement, nous vous proposerons un retour d'expérience de la part de nos alumnis au travers du spectre de leurs envies, leurs attentes, leurs projets et leurs actions une fois la formation terminée. Cette semaine c'est au tour d'<strong>Anne Buffetaud</strong>, co-fondatrice de [Hopways](https://www.hopways.com/) et alumni du programme Première classe saison 3.</em>
+<em>C'est désormais acté, régulièrement, nous vous proposerons un retour d'expérience de la part de nos alumnis au travers du spectre de leurs envies, leurs attentes, leurs projets et leurs actions une fois la formation terminée. Cette semaine c'est au tour d'<strong>Anne Buffetaud</strong>, co-fondatrice de [Hopways](https://www.hopways.com/) et alumni du programme fullstack saison 3.</em>
 
 <h3>Bonjour Anne, peux-tu nous expliquer ton parcours et ton projet ?</h3>
 
@@ -23,18 +23,17 @@ A chaque fois les rélations furent bonnes mais des facteurs extérieurs sont ve
 
 Oui ! Mais c'est un cheminement qui m'a fait réaliser la nécéssité de comprendre, puis d’apprendre le code afin de diminuer notre vulnérabilité en introduisant de nouvelles compétences au sein de notre trio. Avec du recul nous avons compris qu'il nous manquait ce minimum vital. Il se trouve que nous avons entendu parlé du Wagon à ce moment là. L’envie était là, l’offre présente, c’est pourquoi j’ai intégré Le Wagon avec beaucoup de motivation !
 
-Mon objectif était avant tout d'obtenir de nouveaux outils afin de mieux mesurer nos projets et de prototyper de nouvelles foncitionnalités rapidement. Ce en quoi la formation Première Classe a parfaitement remplie son rôle.
+Mon objectif était avant tout d'obtenir de nouveaux outils afin de mieux mesurer nos projets et de prototyper de nouvelles foncitionnalités rapidement. Ce en quoi la formation fullstack du Wagon  a parfaitement rempli son rôle.
 
-Aujourd’hui je sais qu’il y’a des choses que je peux faire, d’autres que je ne sais pas faire. Mais quand je me lance j’ai désormais la certitude d’y arriver. J’ai appris plus que ce que j’imaginais et ce que j’attendais. Cela m’a donné envie de continuer à travailler en harmony avec les developpeurs en étant capable d’évaluer et de déterminer nos besoins. J’ai le sentiment que nous avons gagné en autonomie et que nous sommes en mesure de choisir et de ne pas demander n’importe quoi.
+Aujourd’hui je sais qu’il y’a des choses que je peux faire, d’autres que je ne sais pas faire. Mais quand je me lance j’ai désormais la certitude d’y arriver. J’ai appris plus que ce que j’imaginais et ce que j’attendais. Cela m’a donné envie de continuer à travailler en harmonie avec les developpeurs en étant capable d’évaluer et de déterminer nos besoins. J’ai le sentiment que nous avons gagné en autonomie et que nous sommes en mesure de choisir et de ne pas demander n’importe quoi.
 
 <h3>Une dernière petite chose à ajouter ?</h3>
 
 La formation du Wagon s’adresse aux personnes ayant un profil d’entrepreneur afin de cerner les enjeux mais aussi de donner le goût de “se mettre au code”. L’ambiance est très bonne, avec des profils très différents qui ne sont pas là par hasard. Cette alchimie fonctionne et facilite très rapidement les échanges. Lancez-vous !
 
 <h3>Les liens utiles:</h3>
-<ul>
-  <li>[www.hopways.com](https://www.hopways.com/)</li>
-  <li>[www.facebook.com/hopways](https://www.facebook.com/hopways)</li>
-  <li>[@Hopways](https://twitter.com/Hopways_France)</li>
-</ul>
+
+- [www.hopways.com](https://www.hopways.com/)
+- [www.facebook.com/hopways](https://www.facebook.com/hopways)
+- [@Hopways](https://twitter.com/Hopways_France)
 
