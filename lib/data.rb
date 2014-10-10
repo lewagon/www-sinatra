@@ -15,5 +15,6 @@ STAFF = load(:staff)
 PARTNERS = load(:partners)
 SUBVENTIONS = load(:subventions)
 CAMPS = load(:camps)
+AUTHORS = load(:authors)
 
 CAMPS.delete(:test) if ENV['RACK_ENV'] == 'production'

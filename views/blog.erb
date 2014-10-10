@@ -38,7 +38,7 @@
               </a>
             </h2>
             <p>
-              Écrit par <a href="https://twitter.com/<%= post.metadata[:twitter] %>" target="_blank"><%= post.metadata[:author] %></a>
+              Écrit par <a href="https://twitter.com/<%= @author[:twitter] %>" target="_blank"><%= @author[:name] %></a>
             </p>
             <%= post.excerpt %>
             <% if post.excerpt? %>
