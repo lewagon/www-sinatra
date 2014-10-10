@@ -1,40 +1,58 @@
-.all-posts {
-  article {
-    margin-bottom: 3em;
-  }
-}
+body.blog { background-color: #fff; }
 
-.blog-post {
-  line-height: 180%;
+.blog {
 
-  h3, h4 {
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    line-height: 160%;
+  .all-posts {
+
+    article {
+      margin-bottom: 3em;
+    }
   }
 
-  img {
-    max-width: 100%;
+  .blog-post {
+
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: rgba(2, 23, 37, 0.7);
+
+    line-height: 180%;
+    margin-bottom: 100px;
+
+    h3, h4 {
+      line-height: 100%;
+      font-size: 30px;
+    }
+
+    p {
+      color: #444;
+      line-height: 1.6;
+      margin: 2em 0;
+    }
+
+    img {
+      max-width: 1020px;
+    }
   }
-}
 
-.blog-aside {
-  line-height: 200%;
-}
+  .blog-aside {
+    line-height: 200%;
+  }
 
 
-.blog-input{
-  font-weight: 300;
-  background: rgb(200,200,200);
-  color: black;
-  border: 1px solid white;
-  border-radius: 2px;
-  height: 40px;
-  padding: 4px 10px;
-  transition: all .3s linear;
-}
+  .blog-input{
+    font-weight: 300;
+    background: rgb(200,200,200);
+    color: black;
+    border: 1px solid white;
+    border-radius: 2px;
+    height: 40px;
+    padding: 4px 10px;
+    transition: all .3s linear;
+  }
 
-.blog-input:active, .blog-input:focus{
-  background-color: white;
-  border: 1px solid black;
+  .blog-input:active, .blog-input:focus{
+    background-color: white;
+    border: 1px solid black;
+  }
 }

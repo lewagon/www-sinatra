@@ -142,17 +142,20 @@ class App < Sinatra::Base
   end
 
   get '/blog' do
+    @body_class = "blog"
     @posts = Blog.new.all
     erb :blog
   end
 
   # TODO - change the routing once blog is translated..
   get '/en/blog' do
+    @body_class = "blog"
     @posts = Blog.new.all
     erb :blog
   end
 
   get '/blog/*' do |slug|
+    @body_class = "blog"
     @post = Blog.new.post(slug)
     halt 404 unless @post
     erb :post
