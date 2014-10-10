@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Anne Buffetaud, Co-Fondatrice @Hopways, revient sur son expérience au Wagon
+author: Cédric
+twitter: cedricmenteau
 ---
 
 ![Anne Buffetaud, Co-Fondatrice d'Hopways et alumni du Wagon](blog_image_path lewagon-anne-buffetaud-hopways.jpg)

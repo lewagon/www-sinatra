@@ -37,6 +37,9 @@
                 <%= post.metadata[:title] %>
               </a>
             </h2>
+            <p>
+              Écrit par <a href="https://twitter.com/<%= post.metadata[:twitter] %>" target="_blank"><%= post.metadata[:author] %></a>
+            </p>
             <%= post.excerpt %>
             <% if post.excerpt? %>
               <a href="/blog/<%= post.slug %>">
