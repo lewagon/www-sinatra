@@ -73,3 +73,43 @@ brussels:
   facebook: https://www.facebook.com/lewagonformation
   twitter: https://twitter.com/LewagonBrussels
 
+nancy:
+  name: Nancy
+  locale: fr
+  address: "2 Rue Jacques Villermaux, 54000 Nancy"
+  description:
+    en: |
+      Courses will take place at "La Source", close to Nancy city center.
+      This place is dedicated to digital activites and belongs to the
+      Technopôle Renaissance, an excellence center inside Nancy. This area
+      of the city is changing and drive more and more digital creators
+      (universities, startups, institutions, ...).
+    fr: |
+      Les sessions de formation auront lieu à « La Source », en marge et à
+      quelques minutes à pied du centre-ville de Nancy. Ce tiers-lieu dédié
+      au numérique prend place au sein du Technopôle Renaissance, pôle
+      d’excellence de l’agglomération nancéienne. Ce quartier de la ville est
+      en pleine mutation et accueille de plus en plus d’acteurs du numérique
+      (université, startups, institutions, etc).
+  images:
+    banner: bg/nancy.jpg
+    bottom: bg/local-nancy.jpg
+  filter_color: "rgba(0, 0, 0, 0.2)"
+  geo:
+    zoom: 15
+    latitude: 48.692406
+    longitude: 6.200443
+  next_session_fragment: nancy-january-2015
+  staff:
+    - frantz
+    - jeanchristophe
+    - archibald
+  partners:
+    - meshwork
+    - konnectr
+    - bigint
+    - poudriere
+  subventions: # From data/subventions.yml
+  #meetup_id: 16630202
+  facebook: https://www.facebook.com/lewagonformation
+  twitter: https://twitter.com/LeWagonNancy

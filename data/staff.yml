@@ -231,3 +231,67 @@ alex:
 #     icon: linkedin
 #   - url: http://about.me/toch
 #     icon: link
+
+frantz:
+  image_name: frantz.jpg
+  description:
+    fr: |
+       <strong>Fräntz</strong> est passionné par la créativité et l’innovation, surtout quand cela touche au numérique.
+       Entrepreneur et dévelopeur, c’est un expert du web et du développement d'applications mobiles,
+       ainsi que de l'exploration de données (data mining). Il est aussi speaker lors d’événements tech
+       et intervenant dans des grandes écoles. Son projet actuel : <strong>KonnectR</strong>.
+    en: |
+      <strong>Fräntz</strong> defined himself through two words innovation and creativity. Entrepreneur and developer,
+      he is an expert in web and mobile applications development, he also practices data science. He is regularly a
+      speaker at tech events and in graduate schools. His current project: <strong>KonnectR</strong>.
+  links:
+    - url: https://github.com/frantzmiccoli
+      icon: github-alt
+    - url: https://www.linkedin.com/in/frantzmiccoli
+      icon: linkedin
+    - url: https://twitter.com/FrantzMiccoli
+      icon: twitter
+    - url: https://frantzmiccoli.com/
+      icon: link
+    - url: https://konnectr.com/
+      icon: link
+
+jeanchristophe:
+  image_name: jean-christophe.jpeg
+  description:
+    fr: |
+       Après 3 ans dédiés à la formation en tant que directeur pédagogique d’une école d’ingénieurs informatiques,
+       <strong>Jean-Christophe</strong> a concentré ses efforts sur le développement de sa propre startup :
+       <strong>Bigint</strong>. Spécialisée dans la création d'applications internet riches et les projets IT
+       d'envergure, elle mène en parallèle des travaux de R&D.
+    en: |
+      After 3 years as the pedagogic head of a software engineering school, <strong>Jean-Christophe</strong> has focused
+      on his own startup: <strong>Bigint</strong>. Specialised in rich internet application and high stake IT projects,
+      the company has also its own R&D activities.
+  links:
+    - url: http://www.linkedin.com/pub/jc-baudier/39/93a/88a
+      icon: linkedin
+    - url: https://twitter.com/jcbaudier
+      icon: twitter
+    - url: http://bigint.fr/
+      icon: link
+
+archibald:
+  image_name: archibald.jpg
+  description:
+    fr: |
+       Depuis toujours, l'informatique et les nouvelles technologies sont l'essence de la motivation
+       d’<strong>Archibald</strong>. Fort de plus de 10 ans d'expérience dans le web et ses technologies dérivées,
+       il a co-fondé Bigint avec Jean-Christophe. Curieux par nature, il s’intéresse aussi de près à la robotique
+       et l'électronique.
+    en: |
+      Computer science and new technologies have always been the core of <strong>Archibald</strong>'s motivation. With
+      more than 10 years of experience in web and related technologies he has cofounded Bigint with Jean-Christophe.
+      Curious by its very nature, he is also interested in robotics and electronics.
+  links:
+    - url: https://www.linkedin.com/profile/view?id=53734034
+      icon: linkedin
+    - url: https://twitter.com/ArchibaldPicq
+      icon: twitter
+    - url: http://bigint.fr/
+      icon: link
