@@ -109,7 +109,11 @@ nancy:
     - konnectr
     - bigint
     - poudriere
+    - grandnancy
   subventions: # From data/subventions.yml
   #meetup_id: 16630202
   facebook: https://www.facebook.com/lewagonformation
   twitter: https://twitter.com/LeWagonNancy
+  credits:
+    - link: https://www.flickr.com/photos/alexprevot/7502834418/
+      label: Alexandre Prévot

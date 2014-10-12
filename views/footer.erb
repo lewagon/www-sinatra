@@ -32,6 +32,19 @@
             <a href="<%= current_path(:fr) %>">Français</a>
           </li>
         </ul>
+
+        <% if @city[:credits] %>
+            <br/>
+            <h4><%= t "credits" %></h4>
+            <ul class="list-unstyled">
+              <% @city[:credits].each do |credit| %>
+                  <li>
+                    <a target="_blank" href="<%= credit[:link] %>"><%= credit[:label] %></a>
+                  </li>
+              <% end %>
+            </ul>
+        <% end %>
+
       </div>
       <div class="col-sm-3">
         <ul class="list-inline social text-center">

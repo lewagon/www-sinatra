@@ -63,6 +63,11 @@ konnectr:
   image_name: konnectr.png
   url: https://konnectr.co/
 
+grandnancy:
+  name: Communaunté Urbaine du Grand Nancy
+  image_name: grandnancy.png
+  url: https://konnectr.co/
+
 poudriere:
   name: La Poudrière
   image_name: poudriere.png
