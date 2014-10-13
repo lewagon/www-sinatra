@@ -81,15 +81,9 @@ class App < Sinatra::Base
   LOCALES = %i(fr en)
 
   LOCALES.each do |locale|
-    if locale == DEFAULT_LOCALE
-      get '/' do
-        erb :index
-      end
-    else
-      get "/#{locale}" do
-        I18n.locale = locale
-        erb :index
-      end
+    get "/#{locale == DEFAULT_LOCALE ? "" : locale}" do
+      I18n.locale = locale
+      erb :index
     end
   end
 
