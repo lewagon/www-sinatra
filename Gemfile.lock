@@ -32,9 +32,6 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     addressable (2.3.6)
-    appsignal (0.10.6)
-      rack
-      thread_safe
     autoprefixer-rails (3.1.1.20141001)
       execjs
     backports (3.6.3)
@@ -46,6 +43,9 @@ GEM
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.2.0.2)
       sass (~> 3.2)
+    bugsnag (2.5.0)
+      httparty (>= 0.6, < 1.0)
+      multi_json (~> 1.0)
     builder (3.2.2)
     byebug (3.5.1)
       columnize (~> 0.8)
@@ -168,11 +168,11 @@ PLATFORMS
 
 DEPENDENCIES
   actionpack
-  appsignal
   autoprefixer-rails
   better_errors
   binding_of_caller
   bootstrap-sass (~> 3.2.0)
+  bugsnag
   dotenv
   gibbon
   i18n

@@ -1,0 +1,121 @@
+# Logfile created on 2014-10-13 22:32:47 +0200 by logger.rb/44203
+I, [2014-10-13T22:32:47.402247 #92859]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:32:47.404421 #92859]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:32:47.411576 #92859]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:32:55.445037 #92926]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:32:55.446208 #92926]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:32:55.449778 #92926]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:33:10.598931 #93046]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:33:10.599659 #93046]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:33:10.603065 #93046]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:33:50.014538 #93205]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:33:50.015199 #93205]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:33:50.018542 #93205]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:34:29.025643 #93475]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:34:29.026321 #93475]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:34:29.029585 #93475]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:36:44.385639 #93803]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:36:44.386330 #93803]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:36:44.389830 #93803]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:37:13.828407 #93909]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:37:13.829242 #93909]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:37:13.833090 #93909]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:37:52.897505 #94068]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:37:52.898226 #94068]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:37:52.901716 #94068]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:39:33.054756 #94365]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:39:33.054968 #94365]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:39:33.058304 #94365]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:42:02.073235 #94565]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:42:02.073482 #94565]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:42:02.076814 #94565]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:43:53.526839 #95208]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:43:53.527028 #95208]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:43:53.530314 #95208]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:50:43.252980 #95408]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:50:43.253199 #95408]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:50:43.256603 #95408]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:57:53.682083 #95948]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:57:53.682272 #95948]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:57:53.685575 #95948]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:59:00.828145 #96171]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:59:00.828335 #96171]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:59:00.831603 #96171]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:59:20.277089 #96297]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:59:20.277376 #96297]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:59:20.281429 #96297]  INFO -- : Started Appsignal agent
+I, [2014-10-13T22:59:43.206590 #96427]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T22:59:43.206806 #96427]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T22:59:43.210170 #96427]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:00:25.115699 #96558]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:00:25.115916 #96558]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:00:25.119534 #96558]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:01:07.477944 #96713]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:01:07.478142 #96713]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:01:07.481543 #96713]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:01:28.508562 #96839]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:01:28.508800 #96839]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:01:28.512592 #96839]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:02:25.700551 #96968]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:02:25.700751 #96968]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:02:25.704116 #96968]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:03:05.157352 #97091]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:03:05.157556 #97091]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:03:05.160899 #97091]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:03:32.705321 #97215]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:03:32.705518 #97215]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:03:32.708900 #97215]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:04:00.077108 #97349]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:04:00.077298 #97349]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:04:00.080634 #97349]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:04:26.405633 #97485]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:04:26.405825 #97485]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:04:26.409176 #97485]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:04:48.798514 #97606]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:04:48.798726 #97606]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:04:48.802110 #97606]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:05:19.130571 #97762]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:05:19.130762 #97762]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:05:19.134174 #97762]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:05:43.615698 #97887]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:05:43.615897 #97887]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:05:43.620715 #97887]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:06:20.224433 #98053]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:06:20.224618 #98053]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:06:20.228044 #98053]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:06:47.948273 #98202]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:06:47.948460 #98202]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:06:47.951937 #98202]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:08:05.862051 #98351]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:08:05.862237 #98351]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:08:05.865554 #98351]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:08:26.337746 #98483]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:08:26.337948 #98483]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:08:26.345557 #98483]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:10:23.274429 #98832]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:10:23.274614 #98832]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:10:23.277965 #98832]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:12:14.950690 #99428]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:12:14.951072 #99428]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:12:14.955922 #99428]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:18:48.604511 #901]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:18:48.604742 #901]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:18:48.608086 #901]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:19:12.960363 #1069]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:19:12.960560 #1069]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:19:12.963795 #1069]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:20:01.295934 #1222]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:20:01.296149 #1222]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:20:01.299434 #1222]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:21:54.511505 #1694]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:21:54.511701 #1694]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:21:54.515044 #1694]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:22:42.917364 #1850]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:22:42.917657 #1850]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:22:42.924377 #1850]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:23:23.713497 #2014]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:23:23.713691 #2014]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:23:23.716986 #2014]  INFO -- : Started Appsignal agent
+I, [2014-10-13T23:23:41.220937 #2139]  INFO -- : Loading Sinatra (1.4.5) integration
+I, [2014-10-13T23:23:41.221125 #2139]  INFO -- : Starting AppSignal 0.10.6 on 2.1.2/x86_64-darwin13.0
+I, [2014-10-13T23:23:41.224365 #2139]  INFO -- : Started Appsignal agent

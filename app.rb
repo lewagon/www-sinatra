@@ -32,6 +32,17 @@ class App < Sinatra::Base
   set :assets_css_compressor, :sass
   set :assets_js_compressor, :uglifier
 
+  if ENV['BUGSNAG_API_KEY']
+    Bugsnag.configure do |config|
+      config.api_key = ENV['BUGSNAG_API_KEY']
+    end
+    use Bugsnag::Rack
+    error 500 do
+    Bugsnag.auto_notify($!)
+      erb :"errors/500"
+    end
+  end
+
   register Sinatra::AssetPipeline
   helpers Sinatra::ContentFor
 
@@ -72,6 +83,7 @@ class App < Sinatra::Base
   LOCALES.each do |locale|
     if locale == DEFAULT_LOCALE
       get '/' do
+        fail ArgumentError, 'merde'
         erb :index
       end
     else
