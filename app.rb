@@ -83,7 +83,6 @@ class App < Sinatra::Base
   LOCALES.each do |locale|
     if locale == DEFAULT_LOCALE
       get '/' do
-        fail ArgumentError, 'merde'
         erb :index
       end
     else
