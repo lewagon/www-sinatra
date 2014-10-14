@@ -25,6 +25,7 @@ en:
       long: '%B %d, %Y %H:%M'
       short: '%d %b %H:%M'
     pm: pm
+  credits: Credits
   swith_language_title: Language
   ready_to_get_onboard: Ready to get on board?
   still_some_questions: You still have some questions? You can read the

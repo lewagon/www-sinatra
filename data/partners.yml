@@ -47,3 +47,28 @@ pullreview:
   name: Pull Review
   image_name: pullreview.png
   url: https://www.pullreview.com
+
+meshwork:
+  name: MeshWork
+  image_name: meshwork.png
+  url: http://www.meshwork.fr/
+
+bigint:
+  name: Bigint
+  image_name: bigint.png
+  url: http://bigint.fr/
+
+konnectr:
+  name: KonnectR
+  image_name: konnectr.png
+  url: https://konnectr.co/
+
+grandnancy:
+  name: Communaunté Urbaine du Grand Nancy
+  image_name: grandnancy.png
+  url: https://konnectr.co/
+
+poudriere:
+  name: La Poudrière
+  image_name: poudriere.png
+  url: http://www.poudriere.org/

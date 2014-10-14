@@ -25,6 +25,7 @@ fr:
       long: "%d %B %Hh%M"
       short: "%d %b %H h %M"
     pm: 'pm'
+  credits: Crédits
   swith_language_title: Langue
   ready_to_get_onboard: Prêt à embarquer ?
   still_some_questions: Encore des questions ? Vous pouvez lire les
