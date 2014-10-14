@@ -111,7 +111,7 @@ nancy:
     - poudriere
     - grandnancy
   subventions: # From data/subventions.yml
-  #meetup_id: 16630202
+  meetup_id: 17614082
   facebook: https://www.facebook.com/lewagonformation
   twitter: https://twitter.com/LeWagonNancy
   credits:
