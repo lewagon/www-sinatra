@@ -30,6 +30,13 @@ brussels-janvier-2014:
     - 6016507068529
     - 6016638335929
 
+nancy-janvier-2015:
+  city: nancy
+  start_date: 2015-01-19
+  end_date: 2015-03-20
+  trello:
+    inbox_list_id: 543d16ea477565861722db44
+
 paris-fevrier-2015:
   city: paris
   start_date: 2015-02-02
