@@ -196,10 +196,10 @@ alex:
   image_name: alex.jpg
   description:
     en: |
-      **Alex** deeply believes in the magic of **code**. After having created several projects, 
+      **Alex** deeply believes in the magic of **code**. After having created several projects,
       he now wishes to share his knowledge to help people to fulfill their dreams.
     fr: |
-      **Alex** croit fortement dans la magie du **code**. Après avoir mis en place plusieurs projets, 
+      **Alex** croit fortement dans la magie du **code**. Après avoir mis en place plusieurs projets,
       il souhaite désormais partager ses connaissances pour permettre à tous de réaliser leurs rêves.
   links:
     - url: https://github.com/agerlic
@@ -257,7 +257,7 @@ frantz:
       icon: link
 
 jeanchristophe:
-  image_name: jean-christophe.jpeg
+  image_name: jean-christophe.jpg
   description:
     fr: |
        Après 3 ans dédiés à la formation en tant que directeur pédagogique d’une école d’ingénieurs informatiques,
