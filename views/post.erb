@@ -8,7 +8,7 @@
   <div class="row">
     <div class="col-md-8">
       <h1><%= @post.metadata[:title] %></h1>
-      <p>Écrit par <a href="https://twitter.com/<%= @author[:twitter] %>" target="_blank"><%= @author[:name] %></a></p>
+      <p>Écrit par <a href="https://twitter.com/<%= AUTHORS[post.metadata[:author].to_sym][:twitter] %>" target="_blank"><%= AUTHORS[post.metadata[:author].to_sym][:name] %></a></p>
       <article class="blog-post">
         <%= @post.content %>
       </article>
