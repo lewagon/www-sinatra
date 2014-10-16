@@ -4,3 +4,4 @@ public/assets
 .bundle
 .env
 students.csv
+.DS_Store
