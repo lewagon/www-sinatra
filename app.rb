@@ -7,6 +7,7 @@ require 'sinatra/content_for'
 require 'autoprefixer-rails'
 
 require 'i18n'
+require 'builder'
 
 require_relative 'lib/data'
 require_relative 'lib/blog'
@@ -155,6 +156,11 @@ class App < Sinatra::Base
   get '/en/blog' do
     @posts = Blog.new.all
     erb :blog
+  end
+
+  get '/blog/rss.xml' do
+    @posts = Blog.new.all
+    builder :blog_rss
   end
 
   get '/blog/*' do |slug|
