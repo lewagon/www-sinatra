@@ -10,7 +10,7 @@ author: cedric
 
 ### Comment as-tu atterri au Wagon ?
 
-A l'origine j’ai fais deux ans d’études en webmarketing. Rapidement, je me suis rendu compte qu’en plus de vouloir vendre un produit, je souhaitais surtout en créer un. J'avais plein d'idée et le fait de ne pas savoir coder représentait un obstacle de taille. Naturellement je me suis éloigné de l'école et j'ai exploré le milieu startup parisien. Rapidement je suis tombé sur *The Family* avant de me rediriger sur le site **du Wagon**.
+A l'origine j’ai fais deux ans d’études en webmarketing. Rapidement, je me suis rendu compte qu’en plus de vouloir vendre un produit, je souhaitais surtout en créer un. J'avais plein d'idée et le fait de ne pas savoir coder représentait un obstacle de taille. Naturellement je me suis éloigné de l'école et j'ai exploré le milieu startup parisien. Rapidement je suis tombé sur [The Family](http://www.thefamily.co/) avant de me rediriger sur le site du [Wagon](http://www.lewagon.org/).
 
 Sans trop savoir sur quoi je m’embarquais, j’ai postulé directement et je me suis retrouvé quelques jours après à parler avec Romain, l'un des deux fondateurs du Wagon avec qui le feeling est super bien passé. Malgré quelqu'uns de mes amis qui m'ont regardé un peu bizarement sans oublié de ponctuer nos discussions de “Mais mec, tu ne fais plus d’étude ?!”, je me suis donné cette chance et j’ai foncé.
 
