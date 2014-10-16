@@ -55,7 +55,7 @@
     }
   }
 
-  @media(max-width: $screen-xs-max) {
+  @media(max-width: $grid-float-breakpoint-max) {
     #logo {
       height: 25px;
       margin-left: 8px;
