@@ -8,7 +8,7 @@ author: cedric
 
 *Parmi les alumni du Wagon se cachent certains individus aux initiatives sonores sympathiques. C'est le cas de **[Thomas Chrétien](https://twitter.com/tchret)** et **[Olivier Brunet](https://twitter.com/olbrun)**, tous deux associés autour d'un projet commun : [Trackguru](http://www.trackguru.co/). Les deux garçons ont pour ambition de prendre soin des esgourdes de tous les amateurs de son techno & house avec un outil de curation communautaire plutôt bien ficelé. Présentation de l'application et retour sur leur expérience au Wagon avec Thomas.*
 
-### Comment as-tu attéri au Wagon ?
+### Comment as-tu atterri au Wagon ?
 
 A l'origine j’ai fais deux ans d’études en webmarketing. Rapidement, je me suis rendu compte qu’en plus de vouloir vendre un produit, je souhaitais surtout en créer un. J'avais plein d'idée et le fait de ne pas savoir coder représentait un obstacle de taille. Naturellement je me suis éloigné de l'école et j'ai exploré le milieu startup parisien. Rapidement je suis tombé sur *The Family* avant de me rediriger sur le site **du Wagon**.
 
@@ -43,6 +43,7 @@ L'aspect qui me semble le plus important à souligner, c’est qu’en plus de t
 La formation fullstack te donne des outils pour être hyper productif, les bonnes méthodes de travail et toutes les clefs en main pour devenir un dev junior. C’est d’ailleurs comme ça que je me considère désormais, un dev fullstack junior. Très junior c'est certain, mais je suis désormais *teacher assistant* quelques jours par semaine au Wagon histoire de partager ce que j'ai appris et de continuer à progresser. Au plaisir de vous y croiser !
 
 ### Infos pratiques
+
 - Site : [Trackguru](http://www.trackguru.co/)
 - Facebook : [www.facebook.com/trackguru](https://www.facebook.com/trackguruapp)
 - Twitter : [@trackguruapp](https://twitter.com/trackguruapp)
