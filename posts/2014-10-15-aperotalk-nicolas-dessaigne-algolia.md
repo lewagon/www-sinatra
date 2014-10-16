@@ -9,7 +9,7 @@ title: Retour sur la masterclass AperoTalk avec Nicolas Dessaigne, CEO Algolia
 
 ### Algolia, présentation du service
 
-> Nous sommes partis d'un constat simple : beaucoup de questions traitant d'un sujet identique restent sans réponses sur stackoverflow.
+> Nous sommes partis d'un constat simple : beaucoup de questions traitant d'un sujet identique restent sans réponses sur Stack Overflow.
 
 La team a alors décidé de **construire un outil de Search-As-A-Service** et **de cibler les développeurs** afin de leur permettre simplement et rapidement de mettre en valeur leurs bases de données déjà existantes.
 
