@@ -7,6 +7,7 @@ gem 'sinatra-asset-pipeline'
 gem 'sinatra-contrib'
 gem 'rack-contrib'
 gem 'i18n'
+gem 'builder'
 
 gem 'autoprefixer-rails'
 
