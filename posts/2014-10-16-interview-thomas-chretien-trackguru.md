@@ -12,19 +12,19 @@ author: cedric
 
 A l'origine j’ai fais deux ans d’études en webmarketing. Rapidement, je me suis rendu compte qu’en plus de vouloir vendre un produit, je souhaitais surtout en créer un. J'avais plein d'idée et le fait de ne pas savoir coder représentait un obstacle de taille. Naturellement je me suis éloigné de l'école et j'ai exploré le milieu startup parisien. Rapidement je suis tombé sur [The Family](http://www.thefamily.co/) avant de me rediriger sur le site du [Wagon](http://www.lewagon.org/).
 
-Sans trop savoir sur quoi je m’embarquais, j’ai postulé directement et je me suis retrouvé quelques jours après à parler avec Romain, l'un des deux fondateurs du Wagon avec qui le feeling est super bien passé. Malgré quelqu'uns de mes amis qui m'ont regardé un peu bizarement sans oublié de ponctuer nos discussions de “Mais mec, tu ne fais plus d’étude ?!”, je me suis donné cette chance et j’ai foncé.
+Sans trop savoir sur quoi je m’embarquais, j’ai postulé directement et je me suis retrouvé quelques jours après à parler avec [Romain](https://twitter.com/romainpaillard), l'un des deux fondateurs du Wagon avec qui le feeling est super bien passé. Malgré quelques uns de mes amis qui m'ont regardé un peu bizarrement sans oublier de ponctuer nos discussions de “Mais mec, tu ne fais plus d’étude ?!”, je me suis donné cette chance et j’ai foncé.
 
 ### Tu peux nous en dire plus sur Trackguru ?
 
-Trackguru permet aux utilisateurs de poster des sons techno / house / deep house [...] en provenance de Youtube et Soundcloud et également de voter pour les autres tracks partagées par la communauté. Chaque morceau est ensuite trié quotidiennement en fonction du nombre de suffrage obtenus.
+Trackguru permet aux utilisateurs de poster des sons techno / house / deep house [...] en provenance de Youtube et Soundcloud et de voter pour les autres tracks partagées par la communauté. Chaque morceau est ensuite trié quotidiennement en fonction du nombre de suffrages obtenus.
 
-Quand nous avons commencé à plancher sur le sujet avec Olivier, nous savions que l'enjeu principal se situait au niveau du prototype avec une bonne gestion de la gestion des tracks. Pour faire simple, les tracks sont regroupées par jour de publication et le classement se fait par un tri de la liste obtenue en fonction du nombre de votes.
+Quand nous avons commencé à plancher sur le sujet avec Olivier, nous savions que l'enjeu principal se situait au niveau du prototype avec une bonne gestion des tracks. Pour faire simple, les tracks sont regroupées par jour de publication et le classement se fait par un tri de la liste obtenue en fonction du nombre de votes.
 
 ![Screen de Trackguru](blog_image_path screen-trackguru.jpg)
 
 ### Des envies de lever des fonds ? D'ajouts de nouvelles features ?
 
-Notre objectif principal est avant tout de réunir et fédérer une communauté pointue et d'améliorer sans cesse leur expérience utilisateur en apporter de nouvelles fonctionnalités sur la plateforme. Actuellement dans le pipe nous planchons sur la mise en place des profils "Guru" ainsi qu'une nouvelle interface orientée *player* afin de suivre les feedback de nos utilisateurs. Au passage, je tiens à préciser que nous ne travaillons exclusivement qu'aux feedback (via Olark). Cela nous permet de résoudre pas mal de bug très rapidement.
+Notre objectif principal est avant tout de réunir et fédérer une communauté pointue et d'améliorer sans cesse leur expérience utilisateur en apportant de nouvelles fonctionnalités sur la plateforme. Actuellement dans le pipe nous avançons sur la mise en place des profils "Guru" ainsi qu'une nouvelle interface orientée *player* afin de suivre les feedbacks de nos utilisateurs. Nous ne travaillons exclusivement qu'en suivant leurs recommandations et nombreux retours (via Olark). Cela nous permet de résoudre pas mal de bugs très rapidement.
 
 Pour répondre à la première question, le service est encore très jeune. Avant de nous lancer dans une levée de fonds, nous préférons d'abord travailler notre acquisition et établir un *business model* centré sur l'utilisateur.
 
