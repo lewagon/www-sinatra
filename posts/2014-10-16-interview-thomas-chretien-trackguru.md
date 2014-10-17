@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Trackguru, l'application des almuni Thomas Chrétien et Olivier Brunet dédiée au son techno
+title: Trackguru, l'application des alumni Thomas Chrétien et Olivier Brunet dédiée au son techno
 author: cedric
 ---
 
