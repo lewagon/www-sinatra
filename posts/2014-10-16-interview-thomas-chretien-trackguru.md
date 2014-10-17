@@ -36,9 +36,9 @@ Travailler à deux s'avère toujours complexe mais cela permet de se sortir la t
 
 Complétement. Je prêche cette formation partout ! Nous gardons une relation très forte avec toute l'équipe du Wagon. Les profs n'hésitent pas à garder un oeil sur notre code, voir même à nous aider. Ça a été le cas au moment où nous étions en train de travailler sur un search intégré afin de parser les résultats de YouTube et SoundCloud en fonction de la requête user. Le code était assez velu et [Seb](https://twitter.com/ssaunier), le CTO du Wagon, n'a pas hésité à développer cette feature avec nous.
 
-L'aspect qui me semble le plus important à souligner, c’est qu’en plus de t’apprendre à coder, on t’enseigne un véritable *mindset* en plus d'être introduit dans un écosystème de personnalités ultra compétentes en terme de produit, de dev et d’exécution.
+L'aspect qui me semble le plus important à souligner, c’est qu’en plus de t’apprendre à coder, on t’enseigne un véritable *mindset* en plus d'être introduit dans un écosystème de personnalités ultra compétentes en terme de produit, de dev et d’exécution. La formation fullstack te donne des outils pour être hyper productif, les bonnes méthodes de travail et toutes les clefs en main pour devenir dev junior. 
 
-La formation fullstack te donne des outils pour être hyper productif, les bonnes méthodes de travail et toutes les clefs en main pour devenir un dev junior. C’est d’ailleurs comme ça que je me considère désormais, un dev fullstack junior. Très junior c'est certain, mais je suis désormais *teacher assistant* quelques jours par semaine au Wagon histoire de partager ce que j'ai appris et de continuer à progresser. Au plaisir de vous y croiser !
+A la fin de la formation, j'avais envie de partager tout ce que j'ai appris et de continuer à progresser. Du coup, je suis désormais *teacher assistant* quelques jours par semaine au Wagon. Au plaisir de vous y croiser !
 
 ### Infos pratiques
 
