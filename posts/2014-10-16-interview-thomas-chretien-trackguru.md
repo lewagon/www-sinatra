@@ -16,21 +16,19 @@ Sans trop savoir sur quoi je m’embarquais, j’ai postulé directement et je m
 
 ### Tu peux nous en dire plus sur Trackguru ?
 
-Trackguru permet aux utilisateurs de poster des sons techno / house / deep house [...] en provenance de Youtube et Soundcloud et de voter pour les autres tracks partagées par la communauté. Chaque morceau est ensuite trié quotidiennement en fonction du nombre de suffrages obtenus.
-
-Quand nous avons commencé à plancher sur le sujet avec Olivier, nous savions que l'enjeu principal se situait au niveau du prototype avec une bonne gestion des tracks. Pour faire simple, les tracks sont regroupées par jour de publication et le classement se fait par un tri de la liste obtenue en fonction du nombre de votes.
+Trackguru permet aux utilisateurs de poster des sons techno / house / deep house [...] en provenance de Youtube ou Soundcloud et de voter pour les autres tracks partagées par la communauté. Quand nous avons commencé à plancher sur le sujet avec Olivier, nous savions que l'enjeu principal se situait au niveau du prototype avec une bonne gestion des tracks. Pour faire simple, les tracks sont regroupées par jour de publication et le classement se fait par un tri de la liste obtenue en fonction du nombre de votes.
 
 ![Screen de Trackguru](blog_image_path screen-trackguru.jpg)
 
 ### Des envies de lever des fonds ? D'ajouts de nouvelles features ?
 
-Notre objectif principal est avant tout de réunir et fédérer une communauté pointue et d'améliorer sans cesse leur expérience utilisateur en apportant de nouvelles fonctionnalités sur la plateforme. Actuellement dans le pipe nous avançons sur la mise en place des profils "Guru" ainsi qu'une nouvelle interface orientée *player* afin de suivre les feedbacks de nos utilisateurs. Nous ne travaillons exclusivement qu'en suivant leurs recommandations et nombreux retours (via Olark). Cela nous permet de résoudre pas mal de bugs très rapidement.
+Notre objectif principal est avant tout de réunir et fédérer une communauté pointue et d'améliorer sans cesse leur expérience utilisateur en apportant de nouvelles fonctionnalités sur la plateforme. Actuellement dans le pipe nous avançons sur la mise en place des profils "Guru" ainsi qu'une nouvelle interface orientée *player* afin de suivre les feedbacks de nos utilisateurs. Nous travaillons beaucoup en suivant leurs recommandations et nombreux retours (via Olark). Cela nous permet de résoudre pas mal de bugs très rapidement.
 
 Pour répondre à la première question, le service est encore très jeune. Avant de nous lancer dans une levée de fonds, nous préférons d'abord travailler notre acquisition et établir un *business model* centré sur l'utilisateur.
 
 ### Un mot sur ton associé et votre process d'exécution ?
 
-Oui avec plaisir. Olivier sort de l'[ESCA](http://www.esca.ma/) et s'occupe désormais de la partie Market du projet. Pendant un cours de lean startup au Wagon, un des intervenants nous a conseillé de nous lancer à deux. Je savais que nous avions déjà pas mal d'atomes crochus ne serait-ce que par nos univers musicaux respectifs. L'association s'est faite naturellement à partir de là.
+Oui avec plaisir. Olivier sort de l'[ESSCA](http://www.essca.fr/) et s'occupe désormais de la partie Market du projet. Pendant un cours de lean startup au Wagon, un des intervenants nous a conseillé de nous lancer à deux. Je savais que nous avions déjà pas mal d'atomes crochus ne serait-ce que par nos univers musicaux respectifs. L'association s'est faite naturellement à partir de là.
 
 Travailler à deux s'avère toujours complexe mais cela permet de se sortir la tête du guidon quand l'autre se rend compte que l'on a complétement dérivé de l’idée de base. La dimension de binôme prend tout son sens à ce moment là, lorsque suite à cette remarque, on en revient au plan initial pour ne pas se perdre et continuer d'avancer dans la bonne direction.
 
