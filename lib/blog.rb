@@ -46,6 +46,10 @@ class Blog
       metadata[:title]
     end
 
+    def thumbnail
+      metadata[:thumbnail]
+    end
+
     private
 
     def file_content

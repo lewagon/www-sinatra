@@ -37,6 +37,9 @@
                 <%= post.metadata[:title] %>
               </a>
             </h2>
+            <% if post.metadata[:thumbnail] %>
+              <a href="/blog/<%= post.slug %>"><img src="<%= blog_image_path post.metadata[:thumbnail] %>" alt=""></a>
+            <% end %>
             <% if post.metadata[:author] %>
             <p>
               Écrit par <a href="https://twitter.com/<%= AUTHORS[post.metadata[:author].to_sym][:twitter] %>" target="_blank"><%= AUTHORS[post.metadata[:author].to_sym][:name] %></a>
@@ -44,7 +47,7 @@
             <% end %>
             <%= post.excerpt %>
             <% if post.excerpt? %>
-              <a href="/blog/<%= post.slug %>">
+              <a href="/blog/xpost.slug %>">
                 Lire la suite
                 <i class="fa fa-angle-double-right"></i>
               </a>
