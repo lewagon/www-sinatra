@@ -6,7 +6,7 @@ author: cedric
 
 ![Olark Chat box](blog_image_path olark-wagon.jpg)
 
-Excellent service très simple à intaller, **Olark** vous permet d’avoir accès en temps réel au *feedback* de vos visiteurs et/ou utilisateurs via un simple petit module de *chat* présent sur toutes les pages de votre plateforme. Si vous êtes absent ? Pas de soucis, vos interlocuteurs ont la possibilité de vous laisser un message. Une fois en place et customisé aux couleurs de votre service, cet outil deviendra certainement un incontournable dans la gestion de votre relation client.
+Excellent service très simple à intaller, **Olark** vous permet d’avoir accès en temps réel au *feedbacks* de vos visiteurs et/ou utilisateurs via un simple petit module de *chat* présent sur toutes les pages de votre plateforme. Si vous êtes absent ? Pas de soucis, vos interlocuteurs ont la possibilité de vous laisser un message. Une fois en place et customisé aux couleurs de votre service, cet outil deviendra certainement un incontournable dans la gestion de votre relation client.
 
 ### Convention over configuration : un setup en 3 étapes
 
