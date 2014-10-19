@@ -1,13 +1,16 @@
 ---
 layout: post
 title:  "Le Wagon Surfcamp | first week"
+author: cedric
+thumbnail: lewagon-surfcamp-first-week.jpg
+description: "Coding, surfing, indian summer... For about a week, the 20 participants of Le Wagon Surfcamp are experiencing the Californian way of life, hidden in the middle of the wood near Soustons, France."
 ---
 
 <em>Coding, surfing, indian summer... For about a week, the 20 participants of Le Wagon Surfcamp are experiencing the Californian way of life, hidden in the middle of the wood near Soustons, France.</em>
 
 ![Welcome to paradise](blog_image_path surfcamp-first-week-paradise.jpg)
 
-The little tribe is doing well. Already checking the swell between two lines of code, they all catched up the surfing vibes and won't return to their civil life undammaged. Yep. Who never dreamed of masterizing the arcanes of Ruby and Rails in a warm day, enjoying the shadow of the nearest tree, sipping on a coldie and waiting for the low tide? Sounds good hum? 
+The little tribe is doing well. Already checking the swell between two lines of code, they all catched up the surfing vibes and won't return to their civil life undammaged. Yep. Who never dreamed of masterizing the arcanes of Ruby and Rails in a warm day, enjoying the shadow of the nearest tree, sipping on a coldie and waiting for the low tide? Sounds good hum?
 
 ![Nice set-up at the Surf Guest House](blog_image_path surfcamp-first-week-coding.jpg)
 
@@ -15,7 +18,7 @@ To be honest, the daily routine at the surf guest house tends to be appreciated 
 
 "This is a brillant idea as it solves the main issue of every single surfcamp : you must code if the swell doesn't show up." - Pierre-Olivier G. Participant @ Le Wagon Surfcamp
 
-Even mother nature has been soft with us since the beggining. A swell of 1-2 feet has been pushing for the main part of the week and the whole bunch of our brave devs got their hands full executing worldclass wipeouts and paddling in vain against the stream. 
+Even mother nature has been soft with us since the beggining. A swell of 1-2 feet has been pushing for the main part of the week and the whole bunch of our brave devs got their hands full executing worldclass wipeouts and paddling in vain against the stream.
 
 ![Welcome at our second office](blog_image_path surfcamp-first-week-sunny-place.jpg)
 

@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Goodies For (Non)Noobies"
-date:   2014-04-30
+author: miruna
+thumbnail: goodies-for-non-noobies.jpg
+description: "Oyé oyé, aujourd'hui nous avons le plaisir d'annoncer les goodies que le Wagon et ses partenaires offrent à leurs alumnis. Ne pas s'y méprendre. Pas de mugs ni de clés USB... Simplement des supers plans gratuits auprès de différentes start-ups françaises et internationales sur des produits adaptés aux besoins du développeur-entrepreneur éclairé."
 ---
-
-
-##### Ecrit par Miruna (<a href="https://twitter.com/anamiruna" target="_blank"><span class="red bold">@anamiruna</span></a>)
 
 ![Candies](blog_image_path candies.png)
 
@@ -16,8 +15,6 @@ Ne pas s'y méprendre. Pas de mugs ni de clés USB... Simplement des supers plan
 Nous remercions nos partenaires (ci-dessous) qui ont eu la gentillesse de collaborer avec nous pour rendre cette offre possible.
 
 **Keep posted**, de nouvelles suprises sont dans le pipe du Wagon - notamment coté collaboration, on n'en dit pas plus :)
-
-===
 
 And now ladies and gentlemen, la liste des partenaires.
 
