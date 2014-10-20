@@ -7,7 +7,24 @@
          asset-url('fonts/PillGothic300.svg#pill_gothic_300mgmedium') format('svg');
 }
 
-@import url(http://fonts.googleapis.com/css?family=Bitter:400,700|Open+Sans:400,300,700);
+@font-face {
+  font-family: "MuseoSlabThin";
+  src: asset-url('fonts/MuseoSlabThin.eot');
+  src: asset-url('fonts/MuseoSlabThin.eot?#iefix') format('embedded-opentype'),
+       asset-url('fonts/MuseoSlabThin.woff') format('woff'),
+       asset-url('fonts/MuseoSlabThin.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: "BrandonMedium";
+  src: asset-url('fonts/BrandonMedium.eot');
+  src: asset-url('fonts/BrandonMedium.eot?#iefix') format('embedded-opentype'),
+       asset-url('fonts/BrandonMedium.woff') format('woff'),
+       asset-url('fonts/BrandonMedium.ttf') format('truetype'),
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -31,4 +48,12 @@ h3, h4, h5, h6 {
 
 .pill{
   font-family: "PillGothic", monospace;
+}
+
+.museo{
+  font-family: 'MuseoSlabThin', serif;
+}
+
+.brandon-medium{
+  font-family: 'BrandonMedium', serif;
 }

@@ -89,8 +89,8 @@ fr:
     hundred_percent: 100%
     concrete_projects_built: Des projets d'élèves concrétisés
     coders_trained_at_lewagon: Codeurs formés au Wagon
-    program_in_details_uppercase: PROGRAMME EN DÉTAILS
-    see_the_projects: voir les projets
+    program_in_details_uppercase: Programme en détails
+    see_the_projects: Voir les projets
     events_by_le_wagon: |
       Se former en douze samedis au web-design. Passer quinze jours dans
       une surfhouse avec des développeurs pro. Prendre des cours en ligne de front-end.
@@ -161,7 +161,7 @@ fr:
       ce niveau et vous ouvrir un univers de possibilités :
     be_a_great_entreprener: Devenir un entrepreneur d'exception, capable de coder son appli web & maitrisant les enjeux techniques.
     find_a_job: Trouver un poste dans une entreprise du numérique avec ces nouvelles compétences-clef (en développement, product management, marketing, growth hacking..).
-    why: Why Le Wagon?
+    why: WHY LE WAGON?
     rationale: |
       <p>N'importe qui peut apprendre à coder seul avec des
       ressources en ligne. Seulement c'est long et pénible :
@@ -174,7 +174,7 @@ fr:
       techniques de modélisation d'une architecture logicielle, d'une
       base de données. Pour résumer, <strong>vous apprendrez à
       passer d'un problème concret à une solution technique</strong>.</p>
-    join_the_community: Join the community
+    join_the_community: JOIN THE COMMUNITY
     le_wagon_community: |
       <p>A la fin de la formation, vous saurez transformer
       vos idées en produits, vous aurez codé plusieurs applis
@@ -186,7 +186,7 @@ fr:
       post-formation</strong>.</p><p>Développeur, entrepreneurs,
       incubateurs, vous rejoindrez une communauté de passionnés
       qui s'entraide et vous apportera de belles opportunités.</p>
-    the_spirit: The Spirit
+    the_spirit: THE SPIRIT
     le_wagon_spirit: |
       <p>Les professeurs du Wagon sont tous des entrepreneurs
       web (Taster's club, Sylights, Txto), ayant une "expérience

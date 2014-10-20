@@ -85,50 +85,121 @@
 
 <div id="news">
   <div class="container">
+    <div class="vertical-spacer"></div>
     <div class="row">
-      <div class="col-sm-6">
-        <div class="col-inner-md-padded">
-          <h2>POWERED BY LE WAGON</h2>
-          <p>
-            <%= t "home.events_by_le_wagon" %>
-          </p>
-          <table>
+      <div class="col-xs-6 col-xs-offset-3 text-center">
+        <img src="<%= image_path 'icons/tapas.png' %>" alt="tapas" width="200px">
+        <br><br>
+        <p class="text-justify">Our tapas are technical apetizers of <strong>1-week</strong> to boost your skills in specific fields (<strong>webdesign</strong>, <strong>data analysis & visualisation</strong>, <strong>UX</strong>, <strong>iOS</strong>). Some of these programs may have technical pre-requisites.</p>
+      </div>
+    </div>
+
+    <div class="vertical-spacer"></div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+        <div class="panel panel-default panel-booster">
+          <!-- Default panel contents -->
+          <div class="panel-heading">
+            <h3 class="brandon-medium">FRONT-END & DESIGN</h3>
+          </div>
+
+          <!-- Table -->
+          <table class="table">
             <tr>
-              <td><img src="<%= image_path 'logos/wde.png' %>" alt="web design"></td>
-              <td class="desc">
-                <p>Web-Design Express - <strong>8-19 Septembre</strong></p>
-                <p>12 jours pour apprendre à designer et créer son site web.</p>
-                <a href="http://www.web-design-express.org">+ de détails <i class="fa fa-angle-double-right"></i></a>
-              </td>
+              <ul>
+                <li>Web-design basics</li>
+                <li>HTML, CSS, JS & Bootstrap</li>
+                <li>Integrating web-services</li>
+              </ul>
             </tr>
             <tr>
-              <td><img src="<%= image_path 'logos/surfcamp.png' %>" alt="surf camp"></td>
-              <td class="desc">
-                <p>Code & Surf Camp - <strong>8-21 Septembre</strong></p>
-                <p>2 semaines de code et de surf avec des devs pro.</p>
-                <a href="http://surfcamp.lewagon.org">+ de détails <i class="fa fa-angle-double-right"></i></a>
-              </td>
+              <p class="darkgrey" style="margin-top:-10px;margin-bottom:30px"><strong>beginners</strong></p>
             </tr>
             <tr>
-              <td><img src="<%= image_path 'logos/cetetejecode.png' %>" alt="cet ete je code"></td>
-              <td class="desc">
-                <p>Cet été je code</p>
-                <p>Cours en-ligne de front-end</p>
-                <a href="http://www.cetetejecode.fr">+ de détails <i class="fa fa-angle-double-right"></i></a>
-              </td>
+              <a href="#" class="btn btn-default yellow">more details</a>
             </tr>
           </table>
         </div>
-
       </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+        <div class="panel panel-default panel-booster">
+          <!-- Default panel contents -->
+          <div class="panel-heading">
+            <h3 class="brandon-medium">DATA VIZUALISATION</h3>
+          </div>
 
-      <div class="col-sm-6">
-        <div class="col-inner-md-padded">
-          <a class="twitter-timeline" href="https://twitter.com/Lewagonparis" data-widget-id="372292161472974848">Tweets of @Lewagonparis</a>
+          <!-- Table -->
+          <table class="table">
+            <tr>
+              <ul>
+                <li>Get data (API, scraping)</li>
+                <li>Dataviz best practices</li>
+                <li>D3.js library</li>
+              </ul>
+            </tr>
+            <tr>
+              <p class="darkgrey" style="margin-top:-10px;margin-bottom:30px"><strong>background in Javascript</strong></p>
+            </tr>
+            <tr>
+              <a href="#" class="btn btn-default white">I am interested</a>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+        <div class="panel panel-default panel-booster">
+          <!-- Default panel contents -->
+          <div class="panel-heading">
+            <h3 class="brandon-medium">iOS</h3>
+          </div>
+
+          <!-- Table -->
+          <table class="table">
+            <tr>
+              <ul>
+                <li>Guidelines in mobile design</li>
+                <li>Swift programming</li>
+                <li>Realisation of an realife-app</li>
+              </ul>
+            </tr>
+            <tr>
+              <p class="darkgrey" style="margin-top:-10px;margin-bottom:30px"><strong>background in CS</strong></p>
+            </tr>
+            <tr>
+              <a href="#" class="btn btn-default white">I am interested</a>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+        <div class="panel panel-default panel-booster">
+          <!-- Default panel contents -->
+          <div class="panel-heading">
+            <h3 class="brandon-medium">UX & PRODUCT</h3>
+          </div>
+
+          <!-- Table -->
+          <table class="table">
+            <tr>
+              <ul>
+                <li>Spec-ing your product</li>
+                <li>UX best practices</li>
+                <li>Mockup tools</li>
+              </ul>
+            </tr>
+             <tr>
+              <p class="darkgrey" style="margin-top:-10px;margin-bottom:30px"><strong>beginners</strong></p>
+            </tr>
+            <tr>
+              <a href="#" class="btn btn-default white">I am interested</a>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
   </div>
+  <div class="vertical-spacer"></div>
+
 </div>
 
 <div class="vertical-spacer"></div>
@@ -141,7 +212,7 @@
         <h2 class="star-title">
           <span>
             <img src="<%= image_path 'icons/star.svg' %>" alt="star" class="inline-img">
-            LE WAGON
+            <span>LE WAGON</span>
             <img src="<%= image_path 'icons/star.svg' %>" alt="star">
           </span>
         </h2>
