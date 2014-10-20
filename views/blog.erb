@@ -43,7 +43,9 @@
             </p>
             <% end %>
             <% if post.metadata[:thumbnail] %>
-              <a href="/blog/<%= post.slug %>"><img src="/assets/blog/<%= post.metadata[:thumbnail] %>" alt=""></a>
+              <a href="/blog/<%= post.slug %>">
+                <img src="<%= asset_path "blog/#{post.metadata[:thumbnail]}" %>">
+              </a>
             <% end %>
             <% if post.metadata[:description] %>
               <p><%= post.metadata[:description] %></p>
