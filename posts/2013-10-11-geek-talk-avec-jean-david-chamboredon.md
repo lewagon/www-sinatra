@@ -1,15 +1,14 @@
 ---
 layout: post
 title:  "Geek talk avec Jean-David Chamboredon"
-date:   2013-10-11
-categories: soutien
+author:
+thumbnail: interview-jean-david-chamboredon.jpg
+description: "Jean-David Chamboredon, CEO d’ISAI et acteur emblématique du capital-risque auprès des startups en France, a accepté de répondre à nos questions."
 ---
 
 ![JD Chamboredon](blog_image_path jdchamboredon.jpg)
 
 Jean-David Chamboredon, CEO d’ISAI et acteur emblématique du capital-risque auprès des startups en France, a accepté de répondre à nos questions.
-
-===
 
 #### Pensez-vous qu'un jeune CEO doit de nos jours avoir des connaissances en développement web pour se lancer ? si oui pour quelles raisons ?
 

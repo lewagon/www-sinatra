@@ -2,6 +2,9 @@
 layout: post
 title:  "Les selectionnistas"
 date:   2014-02-14 09:46:01
+author:
+thumbnail: tatiana-lara-las-selectionistas.jpg
+description: "74% des lectrices de presse féminine* (*enquête opinionway) éprouvent des difficultés à retrouver un produit qu’elles ont vu dans la presse ! Quand on lit un support papier, les seules solutions pour se souvenir d’une information qui nous intéresse, c’est soit de déchirer un bout de page, soit de prendre une photo en espérant quelle ne se perde pas dans le flux de photos ! Nous voulions rendre ce service aux lectrices de presse féminine et en même temps, aider les marques à améliorer la conversion d’une lectrice en acheteuse."
 ---
 
 
@@ -10,8 +13,6 @@ date:   2014-02-14 09:46:01
 #### Est-ce que tu peux nous parler de ton parcours?
 
 Tatiana Jama : J’ai une formation d’avocat, j’étais spécialisée en contentieux pénal des affaires et j’ai rencontré mon associé, Lara Rouyres en école de commerce à HEC. J’ai exercé jusqu’en 2009, date à laquelle j’ai quitté cette belle profession pour en embrasser une nouvelle, celle d’entrepreneur. En 2010, j’ai co-fondé Dealissime.com avec Lara, qui était un site de vente de prestations de services orienté haut de gamme et féminin. Le site s’est très bien développé et en 2011, nous avons revendu Dealissime au groupe Livingsocial/Amazon.
-
-===
 
 #### L’univers de la tech est un milieu qui est majoritairement
 masculin, est-ce que tu peux nous parler de ton expérience en tant que femme dans le milieu tech?

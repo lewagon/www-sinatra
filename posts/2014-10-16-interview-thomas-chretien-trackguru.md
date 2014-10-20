@@ -2,6 +2,8 @@
 layout: post
 title: Trackguru, l'application des alumni Thomas Chrétien et Olivier Brunet dédiée au son techno
 author: cedric
+thumbnail: thomas-chretien-trackguru.jpg
+description: "Parmi les alumni du Wagon se cachent certains individus aux initiatives sonores sympathiques. C'est le cas de Thomas Chrétien et Olivier Brunet, tous deux associés autour d'un projet commun : Trackguru. Les deux garçons ont pour ambition de prendre soin des esgourdes de tous les amateurs de son techno & house avec un outil de curation communautaire plutôt bien ficelé. Présentation de l'application et retour sur leur expérience au Wagon avec Thomas."
 ---
 
 ![Thomas Chrétien, Co-fondateur de Trackguru](blog_image_path thomas-chretien-trackguru.jpg)
@@ -36,7 +38,7 @@ Travailler à deux s'avère toujours complexe mais cela permet de se sortir la t
 
 Complétement. Je prêche cette formation partout ! Nous gardons une relation très forte avec toute l'équipe du Wagon. Les profs n'hésitent pas à garder un oeil sur notre code, voir même à nous aider. Ça a été le cas au moment où nous étions en train de travailler sur un search intégré afin de parser les résultats de YouTube et SoundCloud en fonction de la requête user. Le code était assez velu et [Seb](https://twitter.com/ssaunier), le CTO du Wagon, n'a pas hésité à développer cette feature avec nous.
 
-L'aspect qui me semble le plus important à souligner, c’est qu’en plus de t’apprendre à coder, on t’enseigne un véritable *mindset* en plus d'être introduit dans un écosystème de personnalités ultra compétentes en terme de produit, de dev et d’exécution. La formation fullstack te donne des outils pour être hyper productif, les bonnes méthodes de travail et toutes les clefs en main pour devenir dev junior. 
+L'aspect qui me semble le plus important à souligner, c’est qu’en plus de t’apprendre à coder, on t’enseigne un véritable *mindset* en plus d'être introduit dans un écosystème de personnalités ultra compétentes en terme de produit, de dev et d’exécution. La formation fullstack te donne des outils pour être hyper productif, les bonnes méthodes de travail et toutes les clefs en main pour devenir dev junior.
 
 A la fin de la formation, j'avais envie de partager tout ce que j'ai appris et de continuer à progresser. Du coup, je suis désormais *teacher assistant* quelques jours par semaine au Wagon. Au plaisir de vous y croiser !
 
