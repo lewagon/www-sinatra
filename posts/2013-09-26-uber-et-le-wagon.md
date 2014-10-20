@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Et si vous deveniez développeur chez Uber ?"
-date:   2013-09-18
+author:
+thumbnail: devenir-developpeur-uber.jpg
+description: "Nous recherchons avant tout des candidats sensibles aux problématiques d'ergonomie, créatifs, et capables de placer l'expérience utilisateur au coeur de leurs réflexions. Mais également de bons ingénieurs, malins et débrouillards, sachant exploiter des données de manière intelligente grâce à un bon bagage en développement web et à une curiosité pour les technologies les plus novatrices."
 ---
 
 ![Pierre Kosciusko-Morizet](blog_image_path pierre-d.jpg)
@@ -9,8 +11,6 @@ date:   2013-09-18
 #### Qui es-tu ?
 
 Je suis Pierre-Dimitri, en charge des activités françaises et nord européennes de Uber. Uber est née à San Francisco en 2009, et permet de commander un chauffeur privé via une application mobile dans près de 18 pays. Uber a conclu récemment une levée de fonds de 258m$ auprès de Google Ventures et TPG, qui permettra à la société d'accélérer son déploiement et de renforcer les positions existantes.
-
-===
 
 
 #### Quels profils recherchez-vous chez Uber ?
