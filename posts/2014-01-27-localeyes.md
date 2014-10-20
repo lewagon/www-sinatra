@@ -3,7 +3,7 @@ layout: post
 title:  "LocalEyes, nos voisins du Camping"
 author:
 thumbnail: olivier-localeyes.jpg
-description: "livier, 32 ans, ancien Banquier (non-coupable) et co-fondateur de LocalEyes. Mon histoire est assez traditionnelle – une école de commerce, 9 ans dans des grosses banques, dont six à l’étranger et beaucoup avec le sentiment que ça manquait « d’épices » et que je devais créer quelque chose. J’ai découvert Quora et Tech Crunch en Mai 2012, quitté mon travail en Septembre"
+description: "Olivier, 32 ans, ancien Banquier (non-coupable) et co-fondateur de LocalEyes. Mon histoire est assez traditionnelle – une école de commerce, 9 ans dans des grosses banques, dont six à l’étranger et beaucoup avec le sentiment que ça manquait « d’épices » et que je devais créer quelque chose. J’ai découvert Quora et Tech Crunch en Mai 2012, quitté mon travail en Septembre"
 ---
 
 ![Olivier](blog_image_path olivier-local-eyes.jpg)
