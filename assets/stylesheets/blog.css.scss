@@ -5,11 +5,37 @@ body.blog { background-color: #fff; }
   .all-posts {
 
     article {
-      margin-bottom: 3em;
+      margin-bottom: 1em;
     }
   }
 
-  .blog-post {
+  .sub-banner {
+    position: relative;
+    background-image: none;
+    box-shadow: none;
+
+    h1 { font-size: 42px; }
+    a { color: #333; }
+  }
+
+  .sub-banner:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: rgba(25, 131, 218, 0.8);
+    border-width: 30px;
+    margin-left: -30px;
+    z-index: 10;
+  }
+
+  .blog-post,
+  .blog-share {
 
     font-size: 1.25em;
     font-family: 'Open Sans', sans-serif;
@@ -17,7 +43,7 @@ body.blog { background-color: #fff; }
     color: rgba(2, 23, 37, 0.7);
 
     line-height: 180%;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 
     h3, h4 {
       line-height: 100%;
@@ -31,14 +57,70 @@ body.blog { background-color: #fff; }
     }
 
     img {
-      max-width: 1020px;
+      width: 125%;
+      margin-left: -98px;
+    }
+
+    blockquote {
+      font-family: 'PT Serif', serif;
+      width: 125%;
+      padding: 0;
+      margin-left: -98px;
+      text-align: center;
+      font-size: 23px;
+      border-left: none;
     }
   }
+
+  .blog-share {
+    position: relative;
+    background-color: #f2f2f2;
+    margin-bottom: 0;
+    padding: 30px 0;
+
+    p {
+      margin: 1em 0;
+    }
+
+    .share-buttons {
+      margin-top: -15px;
+
+      .fb-like {
+      vertical-align: 13px;
+      }
+    }
+  }
+
+  .blog-share:after {
+    top: 0%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: #fff;
+    border-width: 30px;
+    margin-left: -30px;
+  }
+
+  #newsletter-form .subscribe-input {
+    background-color: #fff;
+    width: 270px;
+    line-height: 37px;
+  }
+
+  #newsletter-form .blue-btn {
+    vertical-align: 2px;
+    width: 140px;
+  }
+
 
   .blog-aside {
     line-height: 200%;
   }
-
 
   .blog-input{
     font-weight: 300;
