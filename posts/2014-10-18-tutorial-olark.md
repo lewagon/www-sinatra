@@ -2,6 +2,8 @@
 layout: post
 title: "Olark, le live-chat is back"
 author: cedric
+thumbnail: thumbnail-olark.jpg
+description: "Excellent service très simple à installer, **Olark** vous permet d’avoir accès en temps réel aux *feedbacks* de vos visiteurs et/ou utilisateurs via un simple petit module de *chat* présent sur toutes les pages de votre plateforme. Si vous êtes absent ? Pas de soucis, vos interlocuteurs ont la possibilité de vous laisser un message. Une fois en place et customisé aux couleurs de votre service, cet outil deviendra certainement un incontournable dans la gestion de votre relation client."
 ---
 
 ![Olark Chat box](blog_image_path olark-wagon.jpg)
