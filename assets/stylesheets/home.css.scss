@@ -81,6 +81,7 @@
   border-radius: 0px;
   border: 1px solid rgb(240, 240, 240);
   padding-bottom: 10px;
+  position: relative;
 
   .panel-heading{
     border-radius: 0;
@@ -132,10 +133,44 @@
   .darkgrey{
     color: rgb(200, 200, 200);
   }
+  .round-icon{
+    margin: 30px auto;
+    width: 120px;
+    font-size: 15px;
+    height: 120px;
+    padding-top: 38px;
+    color: white;
+    background: rgb(204, 204, 204);
+    border-radius: 50%;
+    border: 2px solid rgb(204, 204, 204);
+  }
 }
 
 .panel-booster:hover{
+  .round-icon{
+    transition: all 0.3s ease;
+  }
+  .yellow1{
+    background: #FDB631;
+    border: 2px solid orange;
+  }
+  .yellow2{
+    background: #FE9332;
+    transition: all 0.3s ease;
+    border: 2px solid orange;
+  }
+  .yellow3{
+    background: #FB7434;
+    transition: all 0.3s ease;
+    border: 2px solid orange;
+  }
+  .yellow4{
+    background: #DE615E;
+    transition: all 0.3s ease;
+    border: 2px solid orange;
+  }
   margin-top: -4px;
-  box-shadow: 0 1px 8px #f3f3f3;
+  box-shadow: 0 1px 6px lightgrey;
   transition: all 0.3s ease;
 }
+
