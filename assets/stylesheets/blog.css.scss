@@ -15,7 +15,7 @@ body.blog { background-color: #fff; }
     box-shadow: none;
 
     h1 { font-size: 42px; }
-    a { color: #333; }
+    a { color: #fff; }
   }
 
   .sub-banner:after {
@@ -57,15 +57,13 @@ body.blog { background-color: #fff; }
     }
 
     img {
-      width: 125%;
-      margin-left: -98px;
-    }
+      width: 100%;
+     }
 
     blockquote {
       font-family: 'PT Serif', serif;
-      width: 125%;
+      width: 100%;
       padding: 0;
-      margin-left: -98px;
       text-align: center;
       font-size: 23px;
       border-left: none;
@@ -117,24 +115,31 @@ body.blog { background-color: #fff; }
     width: 140px;
   }
 
-
-  .blog-aside {
-    line-height: 200%;
+  @media(max-width: $screen-xs-max) {
+    #newsletter-form .blue-btn {
+      margin-top: 20px;
+    }
   }
 
-  .blog-input{
-    font-weight: 300;
-    background: rgb(200,200,200);
-    color: black;
-    border: 1px solid white;
-    border-radius: 2px;
-    height: 40px;
-    padding: 4px 10px;
-    transition: all .3s linear;
+  .blog-comment {
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 0;
+    padding: 30px 15px;
   }
 
-  .blog-input:active, .blog-input:focus{
-    background-color: white;
-    border: 1px solid black;
+  .blog-comment:after {
+    top: 0%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: #f2f2f2;
+    border-width: 30px;
+    margin-left: -30px;
   }
 }
