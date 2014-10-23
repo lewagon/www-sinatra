@@ -25,7 +25,7 @@ Cela fait huit semaines que nous avancons sur le développement du service. Je d
 
 Nous commenceons à fédérer des propriétaires en contactant les clubs de passionnés à Paris, à Lyon et dans le sud de la France. Plus de 600 000 voitures de collection existent en France et notre objectif à terme est d’avoir une offre sur tout le territoire en réunissant entre 2 000 et 3 000 références avant d’exporter le modèle en Europe.
 
-![Homepage Roadstr](blog_image_path homepage-roadstr.jpg)
+![Team Roadstr](blog_image_path roadstr-team.jpg)
 
 
 ###Comment se passe la relation entre le locataire et le propriétaire d'un véhicules de collection ?
@@ -38,6 +38,7 @@ Un autre point important sur lequel nous avons travaillé : l’assurance. En ef
 
 Jusqu'à maintenant, les propriétaires perçoivent très rapidement l’intérêt de notre service. En tant que passionnés, ils apprécient particulièrement l'idée d'avoir eux-même accès à de nouveaux véhicules à conduire très prochainement.
 
+![Homepage Roadstr](blog_image_path homepage-roadstr.jpg)
 
 ###Comment perçois-tu l'apport du Wagon dans ton parcours entrepreneurial ?
 
