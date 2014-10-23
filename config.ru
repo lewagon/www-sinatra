@@ -1,4 +1,7 @@
 require 'rack/cors'
+
+Encoding.default_external = "utf-8"
+
 use Rack::Cors do
   allow do
     origins '*'

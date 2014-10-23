@@ -17,6 +17,10 @@ class Blog
       @slug ||= (Pathname.new(@file).basename.to_s[/\d{4}-\d{2}-\d{2}-(.*)\.md/, 1])
     end
 
+    def date
+      @date = (Pathname.new(@file).basename.to_s[/(\d{4}-\d{2}-\d{2})-.*\.md/, 1])
+    end
+
     def excerpt
       @excerpt ||= markdown.render(article_content.split(JEKYLL_EXCERPT_SEPARATOR).first)
     end
@@ -36,6 +40,14 @@ class Blog
         metadata.extend DeepSymbolizable
         metadata.deep_symbolize { |key| key }
       )
+    end
+
+    def title
+      metadata[:title]
+    end
+
+    def thumbnail
+      metadata[:thumbnail]
     end
 
     private

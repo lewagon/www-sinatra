@@ -7,6 +7,7 @@ require 'sinatra/content_for'
 require 'autoprefixer-rails'
 
 require 'i18n'
+require 'builder'
 
 require_relative 'lib/data'
 require_relative 'lib/blog'
@@ -31,6 +32,17 @@ class App < Sinatra::Base
   set :assets_prefix, assets_prefix
   set :assets_css_compressor, :sass
   set :assets_js_compressor, :uglifier
+
+  if ENV['BUGSNAG_API_KEY']
+    Bugsnag.configure do |config|
+      config.api_key = ENV['BUGSNAG_API_KEY']
+    end
+    use Bugsnag::Rack
+    error 500 do
+    Bugsnag.auto_notify($!)
+      erb :"errors/500"
+    end
+  end
 
   register Sinatra::AssetPipeline
   helpers Sinatra::ContentFor
@@ -70,15 +82,9 @@ class App < Sinatra::Base
   LOCALES = %i(fr en)
 
   LOCALES.each do |locale|
-    if locale == DEFAULT_LOCALE
-      get '/' do
-        erb :index
-      end
-    else
-      get "/#{locale}" do
-        I18n.locale = locale
-        erb :index
-      end
+    get "/#{locale == DEFAULT_LOCALE ? "" : locale}" do
+      I18n.locale = locale
+      erb :index
     end
   end
 
@@ -152,6 +158,11 @@ class App < Sinatra::Base
     @body_class = "blog"
     @posts = Blog.new.all
     erb :blog
+  end
+
+  get '/blog/rss.xml' do
+    @posts = Blog.new.all
+    builder :blog_rss
   end
 
   get '/blog/*' do |slug|

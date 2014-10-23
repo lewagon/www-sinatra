@@ -7,6 +7,7 @@ gem 'sinatra-asset-pipeline'
 gem 'sinatra-contrib'
 gem 'rack-contrib'
 gem 'i18n'
+gem 'builder'
 
 gem 'autoprefixer-rails'
 
@@ -23,7 +24,7 @@ gem 'ruby-trello', github: 'jeremytregunna/ruby-trello'
 # Serve fonts to other domains (Wufoo)
 gem 'rack-cors', :require => 'rack/cors'
 
-gem 'appsignal'
+gem 'bugsnag'
 gem 'actionpack'
 gem 'meetup_client'
 

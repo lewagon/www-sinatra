@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Wisembly soutient le wagon"
-date:   2013-09-03
+author:
+thumbnail: wisembly-soutient-lewagon.jpg
+description: "Je suis co-fondateur de Wisembly. Wisembly est une solution collaborative pour les réunions d'entreprise. Notre logicel en SaaS permet de préparer, d'animer et d'assurer le suivi de réunions (séminaires, conférences, conf-call, formation...). Wisembly a été fondée en 2010. Nous avons aujourd'hui près de 300 clients et 17 employés."
 ---
 
 ![romain de wisembly](blog_image_path romain_wisembly.jpg)
@@ -10,8 +12,6 @@ date:   2013-09-03
 
 Je suis co-fondateur de [Wisembly](http://wisembly.com/fr/). Wisembly est une solution collaborative pour les réunions d'entreprise. Notre logicel en SaaS permet de préparer, d'animer et d'assurer le suivi de réunions (séminaires, conférences, conf-call, formation...).
 Wisembly a été fondée en 2010. Nous avons aujourd'hui près de 300 clients et 17 employés.
-
-===
 
 #### Quels profils recherchez-vous chez Wisembly ?
 

@@ -13,6 +13,8 @@
   </div>
 </div>
 
+<% content_for(:js) do %>
+
 <% if @camp && @camp[:facebook_tracking_ids] %>
 
   <script>
@@ -42,6 +44,13 @@
 <% end %>
 
 <!-- Mailchimp Goal tracking -->
-<script type="text/javascript"
+<script type="text/javascript">
   $mcGoal.processEvent('UserAppliedEvent');
-></script>
+</script>
+
+<!-- Mixpanel tracking -->
+<script>
+  mixpanel.track("Application", { camp: "<%= params[:camp] %>" });
+</script>
+
+<% end %>
