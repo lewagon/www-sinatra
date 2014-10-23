@@ -2,21 +2,49 @@
   Le Wagon - <%= @post.metadata[:title] %>
 <% end %>
 
+<div id="blog-banner" class="sub-banner text-center">
+  <div class="filter">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 center">
+        <h1><%= @post.metadata[:title] %></h1>
+        <p>Écrit par <a href="https://twitter.com/<%= @post.metadata[:twitter] %>" target="_blank"><%= @post.metadata[:author] %></a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="vertical-spacer"></div>
 
 <div class="container">
   <div class="row">
-    <div class="col-md-8">
-      <h1><%= @post.metadata[:title] %></h1>
-      <% if @post.metadata[:author] %>
-      <p>Écrit par <a href="https://twitter.com/<%= AUTHORS[@post.metadata[:author].to_sym][:twitter] %>" target="_blank"><%= AUTHORS[@post.metadata[:author].to_sym][:name] %></a></p>
-      <% end %>
+    <div class="col-md-8 col-md-offset-2">
       <article class="blog-post">
         <%= @post.content %>
       </article>
     </div>
-    <div class="col-md-4">
-      <%= erb :blog_aside %>
+  </div>
+</div>
+
+<div class="blog-share">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <p>Un petit partage ?</p>
+      <div class="share-buttons">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="Lewagonparis">Tweet</a>
+        <div class="fb-like" data-href="http://www.lewagon.org<%= request.path_info %>" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+      </div>
+      <p>Tenez-moi au courant de vos prochains tutos & blogposts techniques !</p>
+      <%= erb :mailchimp_form %>
     </div>
   </div>
 </div>
+
+
+<div class="blog-comment">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <%= erb :disqus %>
+    </div>
+  </div>
+</div>
+

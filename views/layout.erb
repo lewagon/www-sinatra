@@ -11,6 +11,7 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/blog/rss.xml" />
 
     <link rel="stylesheet" href="<%= stylesheet_path "app" %>">
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:700italic' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -35,8 +36,27 @@
     <meta name="twitter:image:src" content="http://www.lewagon.org<%= image_path 'social/facebook_card.jpg' %>">
 
   </head>
-  <body>
+  <body class="<%= @body_class %>">
+      <!-- Facebook SDK -->
+      <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '737501859652485',
+          xfbml      : true,
+          version    : 'v2.1'
+        });
+      };
 
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Website Content -->
     <%= erb :navbar %>
 
     <%= yield %>

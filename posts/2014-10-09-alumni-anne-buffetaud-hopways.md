@@ -6,9 +6,11 @@ thumbnail: lewagon-anne-buffetaud-hopways.jpg
 description: "C'est désormais acté, régulièrement, nous vous proposerons un retour d'expérience de la part de nos alumnis au travers du spectre de leurs envies, leurs attentes, leurs projets et leurs actions une fois la formation terminée. Cette semaine c'est au tour d'Anne Buffetaud, co-fondatrice de Hopways et alumni du programme fullstack saison 3."
 ---
 
+<em>C'est désormais acté, régulièrement, nous vous proposerons un retour d'expérience de la part de nos alumnis au travers du spectre de leurs envies, leurs attentes, leurs projets et leurs actions une fois la formation terminée. Cette semaine c'est au tour d'<strong>Anne Buffetaud</strong>, co-fondatrice de [Hopways](https://www.hopways.com/) et alumni du programme fullstack saison 3.</em>
+
 ![Anne Buffetaud, Co-Fondatrice d'Hopways et alumni du Wagon](blog_image_path lewagon-anne-buffetaud-hopways.jpg)
 
-<em>C'est désormais acté, régulièrement, nous vous proposerons un retour d'expérience de la part de nos alumnis au travers du spectre de leurs envies, leurs attentes, leurs projets et leurs actions une fois la formation terminée. Cette semaine c'est au tour d'<strong>Anne Buffetaud</strong>, co-fondatrice de [Hopways](https://www.hopways.com/) et alumni du programme fullstack saison 3.</em>
+> " C'est un cheminement qui m'a fait réaliser la nécéssité de comprendre, puis d’apprendre le code afin de diminuer notre vulnérabilité en introduisant de nouvelles compétences au sein de notre trio. "
 
 <h3>Bonjour Anne, peux-tu nous expliquer ton parcours et ton projet ?</h3>
 
