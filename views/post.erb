@@ -8,7 +8,7 @@
 
 <% content_for(:image_url) do %>
   <%= asset_path "blog/#{@post.metadata[:thumbnail]}" if @post.metadata[:thumbnail] %>
-<%- end %>
+<% end %>
 
 <div id="blog-banner" class="sub-banner text-center">
   <div class="filter">
