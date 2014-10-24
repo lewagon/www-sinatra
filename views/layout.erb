@@ -23,7 +23,7 @@
     <meta property="og:title" content="<%= yield_content :title %>" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="http://www.lewagon.org<%= request.path_info %>" />
-    <meta property="og:image" content="http://www.lewagon.org<%= image_path 'social/facebook_card.jpg' %>" />
+    <meta property="og:image" content="<%= image_url_with_fallback(yield_content :image_url) %>" />
     <meta property="og:description" content="<%= yield_content :description %>" />
     <meta property="og:site_name" content="Le Wagon" />
     <!-- <meta property="fb:admins" content="Facebook numeric ID" /> -->
@@ -33,7 +33,7 @@
     <meta name="twitter:title" content="<%= yield_content :title %>">
     <meta name="twitter:description" content="<%= yield_content :description %>">
     <meta name="twitter:creator" content="@Lewagonparis">
-    <meta name="twitter:image:src" content="http://www.lewagon.org<%= image_path 'social/facebook_card.jpg' %>">
+    <meta name="twitter:image:src" content="<%= image_url_with_fallback(yield_content :image_url) %>">
 
   </head>
   <body class="<%= @body_class %>">

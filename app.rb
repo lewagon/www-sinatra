@@ -260,6 +260,14 @@ class App < Sinatra::Base
         end
       end
     end
+
+    def image_url_with_fallback(image_url)
+      if image_url.strip.empty?
+        "http://www.lewagon.org#{image_path 'social/facebook_card.jpg'}"
+      else
+        "http://www.lewagon.org#{image_url.strip}"
+      end
+    end
   end
 
   alias_method :md, :markdown

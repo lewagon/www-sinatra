@@ -2,6 +2,14 @@
   Le Wagon - <%= @post.metadata[:title] %>
 <% end %>
 
+<% content_for(:description) do %>
+  <%= @post.metadata[:description] %>
+<% end %>
+
+<% content_for(:image_url) do %>
+  <%= asset_path "blog/#{@post.metadata[:thumbnail]}" if @post.metadata[:thumbnail] %>
+<%- end %>
+
 <div id="blog-banner" class="sub-banner text-center">
   <div class="filter">
     <div class="row">
