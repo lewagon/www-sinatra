@@ -117,3 +117,30 @@ nancy:
   credits:
     - link: https://www.flickr.com/photos/alexprevot/7502834418/
       label: Alexandre Prévot
+
+beirut:
+  name: Beirut
+  locale: en
+  address: "Beirut, Lebanon"
+  description:
+    en: |
+      Courses will take place at 
+    fr: |
+      Les sessions de formation auront lieu à
+  images:
+    banner: bg/beirut.jpg
+    bottom: bg/local-beirut.jpg
+  filter_color: "rgba(0, 0, 0, 0.2)"
+  geo:
+    zoom: 15
+    latitude: 33.8869
+    longitude: 35.5131
+  next_session_fragment: beirut-january-2015
+  staff:
+    - costa
+  partners:
+    - altcity
+  subventions: # From data/subventions.yml
+  meetup_id: 0000000
+  facebook: https://www.facebook.com/lewagonbeirut
+  twitter: https://twitter.com/LeWagonBeirut

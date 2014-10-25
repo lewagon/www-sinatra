@@ -295,3 +295,16 @@ archibald:
       icon: twitter
     - url: http://bigint.fr/
       icon: link
+
+costa:
+  image_name: costa.jpg
+  description:
+    fr: |
+      To be filled
+    en: |
+      To be filled
+  links:
+    - url: http://bit.ly/cn-linkedin
+      icon: linkedin
+    - url: http://bit.ly/cn-twitter
+      icon: twitter
