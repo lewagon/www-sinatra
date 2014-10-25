@@ -9,8 +9,8 @@ Open your terminal, and `cd` to the right directory. You will work in a branch, 
 # First get up to date
 $ git checkout master        # Go back to master branch
 $ git pull origin master     # Fetch latest version
-$ git sweep                  # Get rid of merged branches
-$ bundle install             # Maybe guys changed the Gemfile :)
+$ git sweep                  # Get rid of merged branches (Download)[http://lab.arc90.com/2012/04/03/git-sweep/]
+$ bundle install             # Maybe the guys changed the Gemfile :)
 
 # Launch the server, then go to http://localhost:9292
 $ rerun rackup   # You may do this in another tab.
