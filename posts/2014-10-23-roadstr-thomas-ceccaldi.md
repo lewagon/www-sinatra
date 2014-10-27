@@ -21,7 +21,7 @@ Roadstr est identique à un service du type Airbnb. La particularité vient des 
 
 ###Quel est l'état d'avancement du projet ?
 
-Cela fait huit semaines que nous avancons sur le développement du service. Je dis nous, car [Jérome Borenstejn](https://twitter.com/Borenstejn), un autre ancien du Wagon m'a rejoint dans l'aventure. De son côté il avance sur la partie back-end alors que je me concentre sur le front et l’UI. À une semaine du lancement, **prévu pour le 31 octobre**, le service est presque prêt et nous mettons l'accent sur le recrutement de propriétaires afin de proposer un maximum de véhicules aux utilisateurs.
+Cela fait huit semaines que nous avancons sur le développement du service. Je dis nous, car [Jérome Borenstejn](https://twitter.com/Borenstejn), un autre ancien du Wagon m'a rejoint dans l'aventure. De son côté il avance sur la partie back-end alors que je me concentre sur le front et l’UI. À une semaine du lancement de la bêta, prévu pour le 31 octobre, le service est presque prêt et nous mettons l'accent sur le recrutement de propriétaires afin de proposer un maximum de véhicules aux utilisateurs.
 
 Nous commenceons à fédérer des propriétaires en contactant les clubs de passionnés à Paris, à Lyon et dans le sud de la France. Plus de 600 000 voitures de collection existent en France et notre objectif à terme est d’avoir une offre sur tout le territoire en réunissant entre 2 000 et 3 000 références avant d’exporter le modèle en Europe.
 
