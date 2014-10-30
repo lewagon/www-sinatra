@@ -2,6 +2,17 @@ body.blog { background-color: #fff; }
 
 .blog {
 
+  .index {
+    float: left;
+    height: 600px;
+
+    h2 { font-size: 30px; }
+    p { margin: 0.5em 0; }
+    img { width: 100%; }
+
+
+  }
+
   .all-posts {
 
     article {
@@ -68,6 +79,7 @@ body.blog { background-color: #fff; }
       font-size: 23px;
       border-left: none;
     }
+
   }
 
   .blog-share {

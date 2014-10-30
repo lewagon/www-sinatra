@@ -28,38 +28,58 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-12">
       <div class="all-posts">
+
+
         <% @posts.each do |post| %>
-          <article class="blog-post">
-            <h2>
-              <a href="/blog/<%= post.slug %>">
-                <%= post.metadata[:title] %>
-              </a>
-            </h2>
-            <% if post.metadata[:author] %>
-            <p>
-              Écrit par <a href="https://twitter.com/<%= AUTHORS[post.metadata[:author].to_sym][:twitter] %>" target="_blank"><%= AUTHORS[post.metadata[:author].to_sym][:name] %></a>
-            </p>
-            <% end %>
-            <% if post.metadata[:thumbnail] %>
-              <a href="/blog/<%= post.slug %>">
-                <img src="<%= asset_path "blog/#{post.metadata[:thumbnail]}" %>">
-              </a>
-            <% end %>
-            <% if post.metadata[:description] %>
-              <p><%= post.metadata[:description] %></p>
-              <a href="/blog/<%= post.slug %>">
-                Lire la suite
-                <i class="fa fa-angle-double-right"></i>
-              </a>
-            <% end %>
-          </article>
+
+
+          <div class="col-md-4 index">
+            <article>
+              <h2>
+                <a href="/blog/<%= post.slug %>">
+                  <%= post.metadata[:title] %>
+                </a>
+              </h2>
+              <% if post.metadata[:author] %>
+              <p>
+                Écrit par <a href="https://twitter.com/<%= AUTHORS[post.metadata[:author].to_sym][:twitter] %>" target="_blank"><%= AUTHORS[post.metadata[:author].to_sym][:name] %></a>
+              </p>
+              <% end %>
+              <% if post.metadata[:description] %>
+                <p><%= post.metadata[:description] %>
+                <a href="/blog/<%= post.slug %>">
+                  Lire la suite
+                  <i class="fa fa-angle-double-right"></i>
+                </a>
+                </p>
+              <% end %>
+              <% if post.metadata[:thumbnail] %>
+                <a href="/blog/<%= post.slug %>">
+                  <img src="<%= asset_path "blog/#{post.metadata[:thumbnail]}" %>">
+                </a>
+              <% end %>
+
+            </article>
+          </div>
+
         <% end %>
       </div>
     </div>
-    <div class="col-md-4">
-      <%= erb :blog_aside %>
+  </div>
+</div>
+
+<div class="blog-share">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <p>Un petit partage ?</p>
+      <div class="share-buttons">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="Lewagonparis">Tweet</a>
+        <div class="fb-like" data-href="http://www.lewagon.org<%= request.path_info %>" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+      </div>
+      <p>Tenez-moi au courant de vos prochaines publications !</p>
+      <%= erb :mailchimp_form %>
     </div>
   </div>
 </div>
