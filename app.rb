@@ -81,6 +81,13 @@ class App < Sinatra::Base
   DEFAULT_LOCALE = :fr
   LOCALES = %i(fr en)
 
+  # First implementation with hard-coded URL
+  # Need dynamic route to handle different 1-week camps
+  get "/program/web-design" do
+    @city = CITIES[:paris]
+    erb :workshop
+  end
+
   LOCALES.each do |locale|
     get "/#{locale == DEFAULT_LOCALE ? "" : locale}" do
       I18n.locale = locale

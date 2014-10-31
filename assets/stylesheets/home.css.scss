@@ -36,7 +36,6 @@
   }
 }
 
-
 #cursus{
   background-color: #fff;
   border-radius: 2px;
@@ -58,14 +57,9 @@
   background-color: rgb(205, 64, 53)
 }
 
-#news{
+#boosters{
   padding: 50px 0;
   background-color: white;
-  tr{
-    border-bottom: 1px dashed lightgrey;
-    td {padding: 20px 0;}
-  }
-  .desc{padding-left: 20px;}
 }
 
 #meetus{
@@ -81,18 +75,13 @@
   border-radius: 0px;
   border: 1px solid rgb(240, 240, 240);
   padding-bottom: 10px;
+  margin-bottom: 20px;
   position: relative;
 
-  .panel-heading{
-    border-radius: 0;
-    margin-bottom: 40px;
-    color: white;
-    background: rgb(85, 82, 106);
-    border: none;
-    h3{
-      font-size: 17px;
-      font-weight: 100;
-    }
+  p{
+    margin-top:-10px;
+    margin-bottom:30px;
+    color: rgb(200, 200, 200);
   }
 
   .btn-default {
@@ -101,23 +90,18 @@
     color: white;
     width: 90%;
     padding: 10px 0;
+    &.white{
+      background: #white;
+      border: 1px solid #999999;
+      color: #999999;
+    }
+    &.white:hover{
+      background: white;
+      border: 1px solid black;
+      color: black;
+    }
   }
-  .yellow{
-    background: #FEB732;
-  }
-  .white{
-    background: #white;
-    border: 1px solid #999999;
-    color: #999999;
-  }
-  .white:hover{
-    background: white;
-    border: 1px solid black;
-    color: black;
-  }
-  .yellow:hover{
-    background: orange;
-  }
+
   ul
   {
     text-align: left;
@@ -127,12 +111,14 @@
     line-height: 27px;
     color: #666666;
   }
-  .details{
-    margin-bottom: 30px;
+
+  .yellow{
+    background: #FEB732;
   }
-  .darkgrey{
-    color: rgb(200, 200, 200);
+  .yellow:hover{
+    background: orange;
   }
+
   .round-icon{
     margin: 30px auto;
     width: 120px;

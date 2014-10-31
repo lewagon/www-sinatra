@@ -87,6 +87,15 @@ body{
   }
 }
 
+.white-bordered{
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 2px;
+  padding: 10px 0 6px 0;
+}
+
+
+
 #newsletter-form{
   margin-bottom: 1em;
   transition: all .3s linear;
