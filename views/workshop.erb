@@ -1,0 +1,231 @@
+<% content_for(:title) do %>
+  Le Wagon - 1 week camp in web-design
+<% end %>
+<% content_for(:description) do %>
+  Learn all the fundamentals of web-design in an intensive one-week program. HTML, CSS, Bootstrap, Sketch.. Grab all the tips & tools to be proficient in web-design.
+<% end %>
+
+<div id="program-banner" class="sub-banner text-center">
+  <div class="filter">
+    <div class="row">
+      <div class="col-xs-12 center">
+        <h1>WEB-DESIGNER</h1>
+        <p style="font-weight:100; line-height:120px; font-size:25px; text-shadow: 1px 1px 1px orange;">Become an autonomous webdesigner in <strong>one week</strong>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="vertical-spacer"></div>
+
+<div id="skills">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <h2>Ce que vous apprendrez</h2>
+      </div>
+    </div>
+
+    <div class="vertical-spacer"></div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="skill">
+          <h3 class="text-center"><span class="number">1</span> DESIGN</h3>
+          <p>Définir votre charte de polices et de couleurs avec <strong><a href="https://color.adobe.com/fr/">kuler</a></strong>, <strong><a href="https://www.google.com/fonts">google fonts</a></strong>, <strong><a href="http://fontface.ninja/" target="_blank">fontface ninja</a></strong> et bien d'autres outils. Dénicher des polices plus avancées.</p>
+          <br>
+          <p>Réaliser vos propres icônes et logos avec <strong><a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a></strong>.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="skill">
+          <h3 class="text-center"><span class="number">2</span> UI</h3>
+          <p>Forger votre culture en UI (User-Interface) pour donner sens à votre contenu en intégrant les bons <a href="http://patterntap.com" target="_blank"><i>patterns</i></a> (<i>modal</i>, <i>drop-down</i>, <i>tabs</i>, <i>panels</i> de pricing..).</p>
+          <br>
+          <p>Pour chaque cas d'usage, connaître le meilleur pattern d'UI. Éprouvé, reconnu, permettant de déclencher le <i>call-to-action</i></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="vertical-spacer"></div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="skill">
+          <h3 class="text-center"><span class="number">3</span> FRONT DEVELOPMENT</h3>
+          <p>Maîtrisez HTML / CSS pour savoit passer du <i>print</i> au <i>web</i>.</p>
+          <br>
+          <p>Vous approprier <strong><a href="http://getbootstrap.com" target="_blank">Bootstrap</a></strong>, lirairie CSS de prototypage par excellence et savoir personnaliser les styles de Bootstrap pour mettre votre cachet sur votre site.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="skill">
+          <h3 class="text-center"><span class="number">4</span> PROTOTYPING SKILLS</h3>
+          <p>Intégrer des APIs et services web pour rendre votre site intéractif, suivre son audience et y adosser des "mini-backends" (newlsetter, système de commentaire, formulaire de contact, Google Analytics, Google Maps, et bien d'autres services plus sympas les uns que les autres..)</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="vertical-spacer"></div>
+
+<div class="teachers text-center">
+  <div class="container">
+    <h2>TEACHERS</h2>
+    <br/><br/>
+
+    <div class="row">
+
+      <% @city[:web_design].each_slice(3) do |slice| %>
+
+        <% slice.map { |slug| STAFF[slug.to_sym] }.each do |teacher| %>
+          <div class="<%= @city[:staff].length == 2 ? 'col-sm-6' : 'col-md-4 col-sm-6' %>">
+            <div class="row teacher">
+              <div class="col-xs-4">
+                <img src="<%= image_path "teachers/#{teacher[:image_name]}" %>" class="img-rounded">
+              </div>
+              <div class="col-xs-8">
+                <div class="text-justify">
+                  <% puts teacher[:description][I18n.locale] %>
+                  <%= markdown teacher[:description][I18n.locale] %>
+                </div>
+                <% if teacher[:links] %>
+                <ul class="list-inline link-list">
+                  <% teacher[:links].each do |link| %>
+                  <li>
+                    <a href="<%= link[:url] %>">
+                      <i class="fa fa-<%= link[:icon] %>"></i>
+                    </a>
+                  </li>
+                  <% end %>
+                <% end %>
+              </div>
+            </div>
+          </div>
+        <% end %>
+
+        <div class="clearfix visible-md-block visible-lg-block"></div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+
+<div class="local">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <%= erb :map, locals: { latitude: @city[:geo][:latitude], longitude: @city[:geo][:longitude], zoom: @city[:geo][:zoom] } %>
+      </div>
+      <div class="col-sm-6">
+        <h2>LOCATION</h2>
+        <p style="font-weight:500;font-size: 20px;"><%= @city[:address] %></p>
+        <br/>
+        <p style="font-weight:300;font-size: 17px;" class="text-justify"><%= @city[:description][I18n.locale] %></p>
+        <br/>
+      </div>
+      <% if @city[:subventions] %>
+        <% @city[:subventions].map { |s| SUBVENTIONS[s.to_sym] }.each do |subvention| %>
+          <div class="col-sm-6">
+            <div class="col-xs-6">
+              <a href="<%= subvention[:url] %>" target="_blank">
+                <img src="<%= image_path "subventions/#{subvention[:image_name]}" %>"
+                     alt="<%= subvention[:name] %>"
+                     data-toggle="tooltip" title="<%= subvention[:name]%>" data-placement="bottom">
+              </a>
+            </div>
+            <div class="col-xs-6" style="padding: 0px;">
+              <p style="font-weight:300;font-size: 17px;" class="text-justify">
+                <%= subvention[:description][I18n.locale] %>
+              </p>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div id="schedule" class="text-center">
+  <div class="container">
+    <div class="col-xs-8 col-xs-offset-2 ">
+
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <div class="vertical-spacer"></div>
+          <h2>PAR JOURNÉE</h2>
+        </div>
+      </div>
+
+      <div class="vertical-spacer"></div>
+
+      <div class="row day">
+        <div class="col-xs-3 pull-left">
+          <h3 class="white-bordered">MONDAY</h3>
+        </div>
+        <div class="col-xs-9 text-left">
+          <ul>
+            <li>UI and UX basics</li>
+            <li>Picking fonts and color schemes</li>
+            <li>Designing our own logos & icons with Sketch</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row day">
+        <div class="col-xs-3 pull-left">
+          <h3 class="white-bordered">TUESDAY</h3>
+        </div>
+        <div class="col-xs-9 text-left">
+          <ul>
+            <li>Working with Sublime & Chrome</li>
+            <li>HTML & CSS fundamentals</li>
+            <li>Mastering markup</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row day">
+        <div class="col-xs-3 pull-left">
+          <h3 class="white-bordered">WEDNESDAY</h3>
+        </div>
+        <div class="col-xs-9 text-left">
+          <ul>
+            <li>Bootstrap grid & components</li>
+            <li>Building your mockup with Bootstrap</li>
+            <li>The art of choosing the right UI pattern in Bootstrap</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row day">
+        <div class="col-xs-3 pull-left">
+          <h3 class="white-bordered">THURSDAY</h3>
+        </div>
+        <div class="col-xs-9 text-left">
+          <ul>
+            <li>Fine-tuning Bootstrap to apply our own style</li>
+            <li>Making your site awesome with "design killer touch"</li>
+            <li>Contenu / structure du site avec HTML5</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row day-last">
+        <div class="col-xs-3 pull-left">
+          <h3 class="white-bordered">FRIDAY</h3>
+        </div>
+        <div class="col-xs-9 text-left">
+          <ul>
+            <li>Follow your metrics with Google analytics</li>
+            <li>Focus on web-forms</li>
+            <li>Integrating external services (Mailchimp, Formkeep, Facebook/Twitter, Gmaps..)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="background-image: url('<%= image_path @city[:images][:bottom] %>'); background-size: cover; height: 400px;">
+</div>
+
