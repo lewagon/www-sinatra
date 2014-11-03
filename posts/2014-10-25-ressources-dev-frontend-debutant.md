@@ -3,10 +3,10 @@ layout: post
 title: "La boîte à outils du dev front débutant"
 author: cedric
 thumbnail: thumbnail-ressources-dev-debutant.jpg
-description: "Suite à la vidéo - The Rocket Landing - voici un listing sans prétention de plus d'une vingtaine d'outils et ressources (frameworks, extensions, banques d'images, bibliothèques de polices...) faciles à prendre en main afin d'optimiser le design de vos récentes créations."
+description: "Suite à la vidéo - The Rocket Landing - voici un listing de plus d'une vingtaine d'outils et ressources (frameworks, extensions, banques d'images, bibliothèques de polices...) faciles à prendre en main afin d'optimiser le design de vos récentes créations."
 ---
 
-*Suite à la vidéo - [The Rocket Landing](http://www.lewagon.org/blog/the-one-hour-landing-page) - voici un listing sans prétention de plus d'une vingtaine d'outils et ressources (frameworks, extensions, banques d'images, bibliothèques de polices...) faciles à prendre en main afin d'optimiser le design de vos récentes créations.*
+*Suite à la vidéo - [The Rocket Landing](http://www.lewagon.org/blog/the-one-hour-landing-page) - voici un listing de plus d'une vingtaine d'outils et ressources (frameworks, extensions, banques d'images, bibliothèques de polices...) faciles à prendre en main afin d'optimiser le design de vos récentes créations.*
 
 ![Frameworks Bootstrap et Zurb](blog_image_path ressources-frameworks.jpg)
 
