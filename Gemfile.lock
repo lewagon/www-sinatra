@@ -75,6 +75,9 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (0.6.11)
     json (1.8.1)
+    kaminari (0.16.1)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
     listen (2.7.11)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
@@ -177,6 +180,7 @@ DEPENDENCIES
   dotenv
   gibbon
   i18n
+  kaminari
   meetup_client
   pry-byebug
   puma

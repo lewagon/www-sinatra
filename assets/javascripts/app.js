@@ -2,6 +2,7 @@
 //= require bootstrap
 //= require "postuler"
 //= require "ga"
+//= require "jquery.infinitescroll.js"
 
 $(function() {
   $("[data-toggle=tooltip]").tooltip();
@@ -12,4 +13,7 @@ $(function() {
       $('#newsletter-form-thank-you').show();
     });
   });
+
+
 })
+

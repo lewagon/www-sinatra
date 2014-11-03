@@ -10,6 +10,7 @@ gem 'i18n'
 gem 'builder'
 
 gem 'autoprefixer-rails'
+gem 'kaminari', :require => 'kaminari/sinatra'
 
 group :assets do
   gem 'bootstrap-sass', '~> 3.2.0'

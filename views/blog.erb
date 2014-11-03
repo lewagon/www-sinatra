@@ -31,10 +31,8 @@
     <div class="col-md-12">
       <div class="all-posts">
 
-
+      <div id="post">
         <% @posts.each do |post| %>
-
-
           <div class="col-md-4 index">
             <article>
               <h2>
@@ -60,11 +58,10 @@
                   <img src="<%= asset_path "blog/#{post.metadata[:thumbnail]}" %>">
                 </a>
               <% end %>
-
             </article>
           </div>
-
         <% end %>
+      </div>
       </div>
     </div>
   </div>

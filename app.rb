@@ -8,6 +8,8 @@ require 'autoprefixer-rails'
 
 require 'i18n'
 require 'builder'
+require 'kaminari'
+require 'kaminari/models/array_extension'
 
 require_relative 'lib/data'
 require_relative 'lib/blog'
@@ -148,15 +150,13 @@ class App < Sinatra::Base
   end
 
   get '/blog' do
-    @body_class = "blog"
-    @posts = Blog.new.all
+    fetch_posts
     erb :blog
   end
 
   # TODO - change the routing once blog is translated..
   get '/en/blog' do
-    @body_class = "blog"
-    @posts = Blog.new.all
+    fetch_posts
     erb :blog
   end
 
@@ -297,5 +297,10 @@ class App < Sinatra::Base
         puts "No Meetup Found"
       end
     end
+  end
+
+  def fetch_posts
+    @body_class = "blog"
+    @posts = Kaminari.paginate_array(Blog.new.all).page(params[:page] || 1).per(9)
   end
 end
