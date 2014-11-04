@@ -202,9 +202,9 @@ class App < Sinatra::Base
     redirect thanks_path + "?camp=#{params[:camp]}"
   end
 
-  # not_found do
-  #   redirect "/"
-  # end
+  not_found do
+    redirect "/"
+  end
 
   helpers do
     def t(*args)
