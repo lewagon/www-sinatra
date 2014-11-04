@@ -148,15 +148,19 @@ class App < Sinatra::Base
   end
 
   get '/blog' do
-    @body_class = "blog"
-    @posts = Blog.new.all
+    I18n.locale = :fr
+    fetch_posts
     erb :blog
+  end
+
+  get '/blog.js' do
+    fetch_posts
+    erb :posts, layout: false
   end
 
   # TODO - change the routing once blog is translated..
   get '/en/blog' do
-    @body_class = "blog"
-    @posts = Blog.new.all
+    fetch_posts
     erb :blog
   end
 
@@ -303,5 +307,12 @@ class App < Sinatra::Base
         puts "No Meetup Found"
       end
     end
+  end
+
+  def fetch_posts
+    @body_class = "blog"
+    params[:page] = params[:page].nil? ? 1 : params[:page].to_i
+    first = (params[:page] - 1) * 9
+    @posts = Blog.new.all[first...(first + 9)]
   end
 end

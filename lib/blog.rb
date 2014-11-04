@@ -18,7 +18,7 @@ class Blog
     end
 
     def date
-      @date = (Pathname.new(@file).basename.to_s[/(\d{4}-\d{2}-\d{2})-.*\.md/, 1])
+      @date ||= Date.parse(Pathname.new(@file).basename.to_s[/(\d{4}-\d{2}-\d{2})-.*\.md/, 1])
     end
 
     def excerpt

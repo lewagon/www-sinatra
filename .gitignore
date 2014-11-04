@@ -5,3 +5,4 @@ public/assets
 .env
 students.csv
 .DS_Store
+*.log
