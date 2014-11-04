@@ -17,15 +17,7 @@
       </div>
       <a href="/blog/<%= post.slug %>" class="link-post"><i class="fa fa-search"></i>  <%= t "blog.read_article" %></a>
       <div class="infos">
-        <% if post.metadata[:author] %>
-          <p>
-            <%= t "blog.written",
-              href: "https://twitter.com/#{AUTHORS[post.metadata[:author].to_sym][:twitter]}",
-              author: AUTHORS[post.metadata[:author].to_sym][:name],
-              date: l(post.date, format: :short)
-            %>
-          </p>
-        <% end %>
+        <%= erb :written_by, locals: { post: post, date_format: :short } %>
       </div>
     </article>
   </div>
