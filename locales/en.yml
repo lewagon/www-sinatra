@@ -116,7 +116,7 @@ en:
       automatic mailing with external SMTP like <strong>Mandrill</strong>, etc)
   blog:
     read_article: Read the article
-    written: "Written by <a href='%{href}''>%{author}</a> on %{date}"
+    written: "Written by <a href='%{href}'>%{author}</a> on %{date}"
   apply:
     title: Apply to Le Wagon for 9 weeks of Ruby on Rails
     banner: Apply to Le Wagon
