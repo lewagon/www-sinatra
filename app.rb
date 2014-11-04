@@ -148,6 +148,7 @@ class App < Sinatra::Base
   end
 
   get '/blog' do
+    I18n.locale = :fr
     fetch_posts
     erb :blog
   end

@@ -114,6 +114,9 @@ en:
       Best practices of web development (<strong>Github workflow</strong>, code versioning,
       <strong>continuous deployment on Heroku</strong>, pictures management on <strong>Amazon S3</strong>,
       automatic mailing with external SMTP like <strong>Mandrill</strong>, etc)
+  blog:
+    read_article: Read the article
+    written: "Written by <a href='%{href}''>%{author}</a> on %{date}"
   apply:
     title: Apply to Le Wagon for 9 weeks of Ruby on Rails
     banner: Apply to Le Wagon

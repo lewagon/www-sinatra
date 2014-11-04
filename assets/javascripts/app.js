@@ -3,6 +3,7 @@
 //= require "postuler"
 //= require "ga"
 //= require "jquery.infinitescroll.js"
+//= require "isotope.pkgd.min.js"
 
 $(function() {
   $("[data-toggle=tooltip]").tooltip();
@@ -18,6 +19,16 @@ $(function() {
     navSelector: "nav.pagination",
     nextSelector: "nav.pagination a[rel=next]",
     itemSelector: ".js-post"
+  }, function(newElements) {
+    $(".all-posts").isotope( 'appended', $( newElements ) );
+  });
+
+  $(".all-posts").isotope({
+    // options for masonry layout mode
+    itemSelector : '.js-post',
+    masonry: {
+      columnWidth: ".col-lg-4"
+    }
   });
 
 })

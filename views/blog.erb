@@ -31,10 +31,10 @@
     <div class="col-md-12">
       <div class="all-posts">
         <%= erb :posts %>
-        <nav class="pagination">
-          <a href="<%= request.path_info %>.js?page=<%= params[:page] %>" rel="next">Next</a>
-        </nav>
       </div>
+      <nav class="pagination">
+        <a href="<%= request.path_info %>.js?page=<%= params[:page] %>" rel="next">Next</a>
+      </nav>
     </div>
   </div>
 </div>
