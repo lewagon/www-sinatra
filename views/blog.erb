@@ -30,38 +30,10 @@
   <div class="row">
     <div class="col-md-12">
       <div class="all-posts">
-
-      <div id="post">
-        <% @posts.each do |post| %>
-          <div class="col-md-4 index">
-            <article>
-              <h2>
-                <a href="/blog/<%= post.slug %>">
-                  <%= post.metadata[:title] %>
-                </a>
-              </h2>
-              <% if post.metadata[:author] %>
-              <p>
-                Écrit par <a href="https://twitter.com/<%= AUTHORS[post.metadata[:author].to_sym][:twitter] %>" target="_blank"><%= AUTHORS[post.metadata[:author].to_sym][:name] %></a>
-              </p>
-              <% end %>
-              <% if post.metadata[:description] %>
-                <p><%= post.metadata[:description] %>
-                <a href="/blog/<%= post.slug %>">
-                  Lire la suite
-                  <i class="fa fa-angle-double-right"></i>
-                </a>
-                </p>
-              <% end %>
-              <% if post.metadata[:thumbnail] %>
-                <a href="/blog/<%= post.slug %>">
-                  <img src="<%= asset_path "blog/#{post.metadata[:thumbnail]}" %>">
-                </a>
-              <% end %>
-            </article>
-          </div>
-        <% end %>
-      </div>
+        <%= erb :posts %>
+        <nav class="pagination">
+          <a href="<%= request.path_info %>.js?page=<%= params[:page] %>" rel="next">Next</a>
+        </nav>
       </div>
     </div>
   </div>

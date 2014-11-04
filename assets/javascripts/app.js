@@ -14,6 +14,11 @@ $(function() {
     });
   });
 
+  $(".all-posts").infinitescroll({
+    navSelector: "nav.pagination",
+    nextSelector: "nav.pagination a[rel=next]",
+    itemSelector: ".js-post"
+  });
 
 })
 

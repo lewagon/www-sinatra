@@ -8,8 +8,6 @@ require 'autoprefixer-rails'
 
 require 'i18n'
 require 'builder'
-require 'kaminari'
-require 'kaminari/models/array_extension'
 
 require_relative 'lib/data'
 require_relative 'lib/blog'
@@ -154,6 +152,11 @@ class App < Sinatra::Base
     erb :blog
   end
 
+  get '/blog.js' do
+    fetch_posts
+    erb :posts, layout: false
+  end
+
   # TODO - change the routing once blog is translated..
   get '/en/blog' do
     fetch_posts
@@ -198,9 +201,9 @@ class App < Sinatra::Base
     redirect thanks_path + "?camp=#{params[:camp]}"
   end
 
-  not_found do
-    redirect "/"
-  end
+  # not_found do
+  #   redirect "/"
+  # end
 
   helpers do
     def t(*args)
@@ -301,6 +304,8 @@ class App < Sinatra::Base
 
   def fetch_posts
     @body_class = "blog"
-    @posts = Kaminari.paginate_array(Blog.new.all).page(params[:page] || 1).per(9)
+    params[:page] = params[:page].nil? ? 1 : params[:page].to_i
+    first = (params[:page] - 1) * 9
+    @posts = Blog.new.all[first...(first + 9)]
   end
 end
