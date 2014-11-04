@@ -104,6 +104,7 @@ GEM
     rack-test (0.6.2)
       rack (>= 1.0)
     rails-assets-font-awesome (4.2.0)
+    rails-assets-infinite-scroll (2.0.2)
     rails-assets-jquery (2.1.1)
     rails_12factor (0.0.2)
       rails_serve_static_assets
@@ -183,6 +184,7 @@ DEPENDENCIES
   rack-contrib
   rack-cors
   rails-assets-font-awesome
+  rails-assets-infinite-scroll
   rails-assets-jquery
   rails_12factor
   redcarpet

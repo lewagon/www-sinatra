@@ -1,4 +1,4 @@
-<% @posts.each_with_index do |post, index| %>
+<% !@posts.blank? && @posts.each_with_index do |post, index| %>
   <div class="col-lg-4 col-sm-6 js-post">
     <article class="postcard">
       <% if post.metadata[:thumbnail] %>
@@ -29,10 +29,4 @@
       </div>
     </article>
   </div>
-  <%# if (index + 1) % 3 == 0 %>
-    <!-- <div class="clearfix visible-lg-block"></div> -->
-  <%# end %>
-  <%# if (index + 1) % 2 == 0 %>
-    <!-- <div class="clearfix visible-sm-block visible-md-block"></div> -->
-  <%# end %>
 <% end %>

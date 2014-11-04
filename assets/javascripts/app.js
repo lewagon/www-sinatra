@@ -1,8 +1,8 @@
 //= require jquery
 //= require bootstrap
-//= require "postuler"
-//= require "ga"
-//= require "jquery.infinitescroll.js"
+//= require postuler
+//= require ga
+//= require infinite-scroll
 //= require "isotope.pkgd.min.js"
 
 $(function() {
