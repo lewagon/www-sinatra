@@ -294,6 +294,7 @@ class App < Sinatra::Base
           event.deep_symbolize { |key| key }
         end
       rescue
+        @meetup_events = []
         puts "No Meetup Found"
       end
     end
