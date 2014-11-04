@@ -187,15 +187,20 @@ class App < Sinatra::Base
   end
 
   post '/apply' do
-    camp = CAMPS[params[:camp].to_sym]
-    params[:city] = camp[:city]  # For the newsletter
-    UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id]).run(params)
-    begin
-      UseCases::SubscribeToNewsletter.new.run(params)
-    rescue Gibbon::MailChimpError => e
-      puts e
+    if params[:camp].blank? || params[:email].blank?
+      @error = true
+      erb :postuler
+    else
+      camp = CAMPS[params[:camp].to_sym]
+      params[:city] = camp[:city]  # For the newsletter
+      UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id]).run(params)
+      begin
+        UseCases::SubscribeToNewsletter.new.run(params)
+      rescue Gibbon::MailChimpError => e
+        puts e
+      end
+      redirect thanks_path + "?camp=#{params[:camp]}"
     end
-    redirect thanks_path + "?camp=#{params[:camp]}"
   end
 
   not_found do
