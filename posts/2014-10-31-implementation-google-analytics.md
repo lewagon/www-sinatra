@@ -8,7 +8,7 @@ description: "Aujourd’hui, les analytics sont au coeur de toutes les discussio
 
 *Aujourd’hui, les analytics sont au coeur de toutes les discussions et de toutes les strategies. Avec [Google Analytics](http://www.google.com/analytics/), vous avez accès à un outil de mesure gratuit, fiable et performant. Dans cette vidéo, [Bertrand Girard](https://twitter.com/bertrandgirard), Conversion Specialist, vous donne toutes les clés et best practices pour l'implémenter sur votre site.*
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/0aaKXA6zxnY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/0aaKXA6zxnY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ###Les objectifs:
 

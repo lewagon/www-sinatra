@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mack, fondateur du Taster's Club et teacher at the ouagon"
-author:
+author: miruna
 thumbnail: mack-tastersclub.jpg
 description: "Ancien élève du Devbootcamp, Mack vit en France depuis 1 an. Après avoir travaillé chez Tigerlily, il a décidé de se concentrer sur son service d'abonnement/partage autour du whiskey Taster's Club et de rejoindre l'équipe du wagon pour enseigner le code qui sert. Il nous parle de son expérience à DBC et de son rôle au wagon, forgive the english !"
 ---
