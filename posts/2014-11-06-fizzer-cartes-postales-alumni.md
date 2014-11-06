@@ -20,7 +20,7 @@ Nous avons décidé de nous lancer sans savoir coder ni l’un ni l’autre. La 
 
 Lors des deux dernières semaines consacrées aux projets personnels, nous avons développé une première version fonctionnelle de notre MVP (Minimum Valuable Product) que Thibault à retravaillé par la suite. La webapp est sortie le 10 juillet et dès le 12 juillet nous sommes partis à la rencontre des utilisateurs et des vacanciers, ce qui s’est traduit par un tour de France des plages depuis la Normandie jusqu’à Saint-Tropez de 45 jours avec plus de 30 villes visitées.
 
-<iframe src="//player.vimeo.com/video/99325418" width="750" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//player.vimeo.com/video/110073124" width="750" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ###Fizzer maillot jaune.
 
@@ -34,7 +34,7 @@ Le milestone des **10.000 cartes postales envoyées** à été franchi récemmen
 
 Côté features, nous travaillons à l'implémentation de codes promotionnels pour nos partenaires. La gestion du carnet d’adresse vient tout juste d'être lancée et bénéficie déjà d’excellents retours utilisateurs. Aujourd'hui, très peu de gens notent les adresses postales de leurs contacts sur leur smartphone. Du coup, cela faisait sens d’intégrer un carnet de contact particulier au sein de l’application.
 
-Nous testons également de nouvelles choses avec les professionnels du tourisme et de l’événementiel qui souhaitent offrir l'accès à notre service à leurs visiteurs. Par exemple, nous serons présent sur le festival [Big Bang](http://bigbang-theory.com/) ce week-end (Paris) avec plus de 8000 personnes attendues. L'organisation à décidé d’offrir une carte postale à toutes les personnes présentes. Nous avançons actuellement sur la fonctionnalité qui nous permettra de projeter en live sur un écran toutes les cartes envoyées lors de l’événement. Ce système sera également installé dans les bars de La Folie Douce sur les pistes cet hiver.
+Nous testons également de nouvelles choses avec les professionnels du tourisme et de l’événementiel qui souhaitent offrir l'accès à notre service à leurs visiteurs. Par exemple, nous serons présent sur le festival [Big Bang](http://bigbang-theory.com/) ce week-end (Paris) avec plus de 8000 personnes attendues. L'organisation a décidé d’offrir une carte postale à toutes les personnes présentes. Nous avançons actuellement sur la fonctionnalité qui nous permettra de projeter en live sur un écran toutes les cartes envoyées lors de l’événement. Ce système sera également installé dans les bars de La Folie Douce sur les pistes cet hiver.
 
 ###Un dernier mot ?
 
