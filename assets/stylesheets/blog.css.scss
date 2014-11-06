@@ -1,4 +1,4 @@
-body.blog { background-color: #f8f8f8; }
+body.blog { background-color: #fff; }
 
 .blog {
 
@@ -50,8 +50,6 @@ body.blog { background-color: #f8f8f8; }
        }
     }
 
-
-
     .infos {
       position: absolute;
       bottom: 0;
@@ -72,6 +70,21 @@ body.blog { background-color: #f8f8f8; }
       margin-bottom: 1em;
     }
   }
+
+.video-wrapper {
+        position: relative;
+        padding-bottom: 52.25%; /* 16:9 */
+        padding-top: 25px;
+        height: 0;
+      }
+
+      .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
 
   .sub-banner {
     position: relative;

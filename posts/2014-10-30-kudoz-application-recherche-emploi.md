@@ -21,7 +21,7 @@ Ces chiffres nous rendent optimistes et prouvent que les utilisateurs font un us
 
 Du côté de l’agenda, nous avons prévu d’être un peu plus agressifs commercialement parlant sur les 3 prochains mois et un premier tour de table est prévu pour début 2015. Nous avons encore beaucoup d’hypothèses à résoudre avant de nous projeter à l’étranger, mais sans jouer les kamikazes, un horizon crédible pour étendre Kudoz en Europe se situe aux alentours de la rentrée prochaine.
 
-<iframe src="//player.vimeo.com/video/101933154" width="750" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="video-wrapper"><iframe src="//player.vimeo.com/video/101933154" width="750" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 
 ###As-tu toujours les mains dans le code ?

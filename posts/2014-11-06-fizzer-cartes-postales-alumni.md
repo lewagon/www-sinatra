@@ -20,7 +20,7 @@ Nous avons décidé de nous lancer sans savoir coder ni l’un ni l’autre. La 
 
 Lors des deux dernières semaines consacrées aux projets personnels, nous avons développé une première version fonctionnelle de notre MVP (Minimum Valuable Product) que Thibault à retravaillé par la suite. La webapp est sortie le 10 juillet et dès le 12 juillet nous sommes partis à la rencontre des utilisateurs et des vacanciers, ce qui s’est traduit par un tour de France des plages depuis la Normandie jusqu’à Saint-Tropez de 45 jours avec plus de 30 villes visitées.
 
-<iframe src="//player.vimeo.com/video/110073124" width="750" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="video-wrapper"><iframe class="video" src="//player.vimeo.com/video/110073124" width="750" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 ###Fizzer maillot jaune.
 
