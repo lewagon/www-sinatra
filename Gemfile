@@ -18,6 +18,7 @@ group :assets do
   gem 'rails-assets-infinite-scroll'
 end
 
+gem 'pygmentize'
 gem 'redcarpet'
 gem 'gibbon'
 gem 'ruby-trello', github: 'jeremytregunna/ruby-trello'
