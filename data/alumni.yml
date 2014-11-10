@@ -6,7 +6,7 @@
     url: http://www.roadstr.fr
     image_name: roadstr-landing.jpg
     teaser:
-      fr: Roadstr est une plateforme web pour louer une voiture de vintage entre particuliers. Partez en week-end au volant d'une ancienne !
+      fr: Roadstr est la plateforme de location de voitures vintages entre particuliers. Partez en week-end au volant d'une ancienne !
       en: Roadstr is the AirBnB of vintage cars.
     description:
       fr: Beta de l'application Rails de Roadstr, avec gestion de paiement type marketplace basé sur MangoPay
