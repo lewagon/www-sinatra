@@ -1,16 +1,18 @@
 <% content_for(:title) do %>
-  Le Wagon - 1 week camp in web-design
+  <%= @booster[:page_title] %>
 <% end %>
 <% content_for(:description) do %>
-  Learn all the fundamentals of web-design in an intensive one-week program. HTML, CSS, Bootstrap, Sketch.. Grab all the tips & tools to be proficient in web-design.
+  <%= @booster[:page_description] %>
 <% end %>
 
 <div id="program-banner" class="sub-banner text-center">
   <div class="filter">
     <div class="row">
       <div class="col-xs-12 center">
-        <h1>WEB-DESIGNER</h1>
-        <p style="font-weight:100; line-height:120px; font-size:25px; text-shadow: 1px 1px 1px orange;">Become an autonomous webdesigner in <strong>one week</strong>.</p>
+        <h1><%= @booster[:name].upcase %></h1>
+        <p style="font-weight:100; line-height:120px; font-size:25px; text-shadow: 1px 1px 1px orange;">
+          <%= @booster[:pitch] %>
+        </p>
       </div>
     </div>
   </div>
@@ -79,17 +81,16 @@
 
     <div class="row">
 
-      <% @city[:web_design].each_slice(3) do |slice| %>
+      <% @booster[:staff] && @booster[:staff].each_slice(3) do |slice| %>
 
         <% slice.map { |slug| STAFF[slug.to_sym] }.each do |teacher| %>
-          <div class="<%= @city[:staff].length == 2 ? 'col-sm-6' : 'col-md-4 col-sm-6' %>">
+          <div class="<%= slice.length == 2 ? 'col-sm-6' : 'col-md-4 col-sm-6' %>">
             <div class="row teacher">
               <div class="col-xs-4">
                 <img src="<%= image_path "teachers/#{teacher[:image_name]}" %>" class="img-rounded">
               </div>
               <div class="col-xs-8">
                 <div class="text-justify">
-                  <% puts teacher[:description][I18n.locale] %>
                   <%= markdown teacher[:description][I18n.locale] %>
                 </div>
                 <% if teacher[:links] %>

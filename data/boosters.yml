@@ -1,0 +1,19 @@
+front_end_developer:
+  slug: front-end-developer
+  name: Front-End Developer
+  pitch: Become an autonomous webdesigner in <strong>one week</strong>.
+  page_title: Le Wagon - 1 week camp in web-design
+  page_description: Learn all the fundamentals of web-design in an intensive one-week program. HTML, CSS, Bootstrap, Sketch.. Grab all the tips & tools to be proficient in web-design.
+  staff:
+    - boris
+    - seb
+  city: paris
+
+ios_developer:
+  slug: ios-developer
+  name: iOS Developer
+  pitch: TODO
+  page_title: TODO
+  page_description: TODO
+  staff:
+  city: paris

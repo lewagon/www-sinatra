@@ -21,21 +21,14 @@
           <ul class="dropdown-menu" role="menu">
             <li class="list-divider">9-WEEKS CAMP</li>
             <li>
-              <a href="<%= program_path %>">Full-Stack bootcamp</a>
+              <a href="<%= program_path %>">Full-Stack Bootcamp</a>
             </li>
             <li class="list-divider">1-WEEK CAMPS</li>
-            <li>
-              <a href="/program/web-design">web-designer</a><!-- first hard-coded implementation -->
-            </li>
-            <li>
-              <a href="#">data geek</a>
-            </li>
-            <li>
-              <a href="#">iOS man</a>
-            </li>
-            <li>
-              <a href="#">product guru</a>
-            </li>
+            <% BOOSTERS.each do |_, booster| %>
+              <li>
+                <a href="/programme/<%= booster[:slug] %>"><%= booster[:name] %></a>
+              </li>
+            <% end %>
           </ul>
         </li>
         <li class="dropdown with-underline">

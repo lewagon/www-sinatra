@@ -144,6 +144,15 @@ class App < Sinatra::Base
     end
   end
 
+  BOOSTERS.each do |_, booster|
+    get "/programme/#{booster[:slug]}" do
+      @booster = booster
+      @city = CITIES[booster[:city].to_sym]
+      I18n.locale = :fr
+      erb :booster
+    end
+  end
+
   before do
     unless LOCALES.include?(I18n.locale)  # Detected by Rack::Locale
       I18n.locale = DEFAULT_LOCALE

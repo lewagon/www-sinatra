@@ -16,5 +16,6 @@ PARTNERS = load(:partners)
 SUBVENTIONS = load(:subventions)
 CAMPS = load(:camps)
 AUTHORS = load(:authors)
+BOOSTERS = load(:boosters)
 
 CAMPS.delete(:test) if ENV['RACK_ENV'] == 'production'
