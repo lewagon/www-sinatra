@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Google Place Autocomplete
-thumbnail:
+thumbnail: thumbnail-google-autocomplete.jpg
 author: cedric
 description:
 ---
 
-*Ce tuto à pour objectif de vous guider pas à pas dans l'installation d'un Google Place Autocomplete dans vos formulaire de livraison. Ces quelques lignes de code faciliteront grandement l'éxpérience de vos utilisateurs tout en prenant soin de parser chacun des élements afin de l'insérer dans votre base de donnée.*
+*Ce tuto à pour objectif de vous guider pas à pas dans l'installation d'un Google Place Autocomplete dans vos formulaire d'adresse. Ces quelques lignes de code faciliteront grandement l'éxpérience de vos utilisateurs tout en prenant soin de parser chacun des élements afin de l'insérer dans votre base de donnée.*
 
 ![Tutorial, Google Place Autocomplete](blog_image_path tuto-google-place-autocomplete.jpg)
 
@@ -96,13 +96,86 @@ Enfin, appellez l'API de Google Maps dans votre ficher HTML en insérant votre c
   </script>
 ```
 
-### Plongeons dans le code !
+### Mais que se passe t-il dans le code ?
 
 
-The code you see is not dependent on jQuery, also the initializeAutocomplete method has to be called when google is ready, not just when the DOM is ready.
+```js
+function initializeAutocomplete(id) {
+    var element = document.getElementById(id);
+    var autocomplete = new google.maps.places.Autocomplete(element, { types: ['geocode'] });
+    google.maps.event.addListener(autocomplete, 'place_changed', onPlaceChanged);
+  }
+```
 
-Then :
-id=“user_input_autocomplete_address"
-parcing de la string >> champs de la bbd
-consol log
-Id Input = retour google
+Dans votre fichier HTML, l'input Address doit absolument avoir pour ID ```user_input_autocomplete_address"``` afin d'initialiser la fonction javascript.
+
+```html
+ <input id="user_input_autocomplete_address" name="user_input_autocomplete_address" placeholder="Start typing your address...">
+ ```
+
+```js
+var element = document.getElementById(id);
+```
+
+Cela va permettre à Google de vous retourner un hash contenant les élements d'une adresse (rue, code postale...)
+
+```js
+var autocomplete = new google.maps.places.Autocomplete(element, { types: ['geocode'] });
+```
+
+Quelque soit les données que vous tapez à la volée.
+
+```js
+google.maps.event.addListener(autocomplete, 'place_changed', onPlaceChanged);
+```
+
+Le deuxième block permet ensuite, d'envoyer chacun des morceaux de l'adresse ```place.address_components``` dans un array ```[i]```, lui même contenant un array ```[j]``` précisant le type de l'objet ```component.types``` avec pour clé ```long.name```.
+
+Exemple :
+
+```html
+Adresse_component {
+  25[street_number],
+  rue du petit musc[route],
+  Île de France[admnistrative_area_level_1],
+  ...
+}
+```
+
+```js
+for (var i in place.address_components) {
+      var component = place.address_components[i];
+      for (var j in component.types) {  // Some types are ["country", "political"]
+        var type_element = document.getElementById(component.types[j]);
+        if (type_element) {
+          type_element.value = component.long_name;
+        }
+      }
+    }
+```
+
+**Important** Comme le montre la capture d'écran ci-dessous, il est impératif de respecter la dénomination des inputs de votre formulaire ```HTML``` selon le système clés/valeurs établi par l'API de Google Map.
+
+Ex : La région doit avoir pour id ```administrative_area_level_1```
+
+```html
+<input id="administrative_area_level_1" name="administrative_area_level_1" disabled="true">
+```
+
+![Tutorial, Google Place Objects](blog_image_path tuto-google-place-autocomplete-objects.jpg)
+
+Enfin, ce code est indépendant de jQuery. Il vous faudra donc appeler la méthode ```initializeAutocomplete``` suite au chargement du DOM.
+
+```js
+google.maps.event.addDomListener(window, 'load', function() {
+    initializeAutocomplete('user_input_autocomplete_address');
+  });
+```
+
+### Liens utiles
+
+- [Repository Github du Wagon](https://github.com/lewagon/google-place-autocomplete)
+- [Démo](http://lewagon.github.io/google-place-autocomplete/)
+- [Google Autocomplete documentation](https://developers.google.com/maps/documentation/javascript/places-autocomplete)
+
+
