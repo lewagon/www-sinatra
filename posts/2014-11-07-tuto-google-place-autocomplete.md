@@ -18,15 +18,6 @@ Le champ dans lequel l'utilisateur tape son adresse retourne une liste d'adresse
 
 [Voir la démo](http://lewagon.github.io/google-place-autocomplete/)
 
-#### Autocomplete.js
-
-Créez un nouveau fichier `autocomplete.js` et insérez le code JS disponible [ici](https://github.com/lewagon/google-place-autocomplete/blob/gh-pages/autocomplete.js) avant de l'appeller dans votre fichier `HTML`.
-
-```html
-  <!-- Custom JS code to bind to Autocomplete API -->
-  <script type="text/javascript" src="autocomplete.js"></script>
-```
-
 ### API Key Google Map
 
 Dernière étape du setup, récupérer une clé API de Google Map afin d'obtenir un pool de 25.000 requêtes API gratuites par jour. Pour cela, rendez-vous sur [Google API Console](https://code.google.com/apis/console) et activez Google Maps JavaScript API v3.
@@ -43,8 +34,13 @@ Enfin, appellez l'API de Google Maps dans votre ficher HTML en insérant votre c
 ```html
 <!-- Include Google Maps JS API -->
 <script type="text/javascript"
-  src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=PUT_YOUR_OWN_KEY_HERE">
+  src="https://maps.googleapis.com/maps/api/js?libraries=places&key=PUT_YOUR_OWN_KEY_HERE">
 </script>
+
+<!-- Custom JS code to bind to Autocomplete API -->
+<!-- find it here: https://github.com/lewagon/google-place-autocomplete/blob/gh-pages/autocomplete.js -->
+<!-- We'll detail this file in the article -->
+<script type="text/javascript" src="autocomplete.js"></script>
 ```
 
 ### Le formulaire HTML
@@ -70,15 +66,15 @@ Pour notre exemple nous utiliserons un formulaire composé de 5 champs. Le premi
 
 ```js
 function initializeAutocomplete(id) {
-    var element = document.getElementById(id);
-    var autocomplete = new google.maps.places.Autocomplete(element, { types: ['geocode'] });
-    google.maps.event.addListener(autocomplete, 'place_changed', onPlaceChanged);
-  }
+  var element = document.getElementById(id);
+  var autocomplete = new google.maps.places.Autocomplete(element, { types: ['geocode'] });
+  google.maps.event.addListener(autocomplete, 'place_changed', onPlaceChanged);
+}
 ```
 
 ```html
- <input id="user_input_autocomplete_address" placeholder="Start typing your address...">
- ```
+<input id="user_input_autocomplete_address" placeholder="Start typing your address...">
+```
 
 La méthode ```initializeAutocomplete``` prend l'id de l'input sur lequel se greffer (soit dans notre cas ```user_input_autocomplete_address```), crée un autocomplete, et écoute l'événement ```place_changed```. Lorsque cet évènement a lieu (c'est-à dire lorsque l'utilisateur choisit une adresse), alors la fonction de callback ```onPlaceChanged``` est appelée. C'est dans cette dernière que nous allons récupérer les informations détaillées de l'adresse choisie
 
@@ -106,10 +102,10 @@ function onPlaceChanged() {
 
 ```json
 {
-  address_components: [
-    { long_name: "25", types: [ "street_number" ] },
-    { long_name: "Petit Musc St", types: [ "route" ] },
-    { long_name: "Paris", types: [ "locality", "political" ] }
+  "address_components": [
+    { "long_name": "25",            "types": [ "street_number" ] },
+    { "long_name": "Petit Musc St", "types": [ "route" ] },
+    { "long_name": "Paris",         "types": [ "locality", "political" ] }
     // [...]
   ]
 }
@@ -118,51 +114,25 @@ function onPlaceChanged() {
 **Important** Comme le montre l'extrait du JSON ci-dessous retourné par l'API de Google Maps sur la console, il est impératif de respecter la dénomination des inputs de votre formulaire ```HTML``` selon un système clés/valeurs bien précis.
 
 ```html
-  address_components: Array[7]
-    0: Object
-      long_name: "25"
-      short_name: "25"
-      types: Array[1]
-        0: "street_number" <!-- Input numéro de la rue -->
-    1: Object
-      long_name: "Petit Musc St"
-      short_name: "Petit Musc St"
-      types: Array[1]
-        0: "route" <!-- Input nom de la rue -->
-    2: Object
-      long_name: "Paris"
-      short_name: "Paris"
-      types: Array[2]
-        0: "locality" <!-- Input nom de la ville -->
-        1: "political"
-    4: Object
-      long_name: "France"
-      short_name: "France"
-      types: Array[2]
-        0: "country" <!-- Input nom du pays -->
-        1: "political"
-    ...
+<form>
+  <input id="street_number" name="street_number" disabled>
+  <input id="route"         name="route"         disabled>
+  <input id="locality"      name="locality"      disabled>
+  <input id="country"       name="country"       disabled>
+</form>
 ```
 
-Ce qui se traduit dans votre fichier ```HTML``` par :
-
-```html
-  <form>
-    <input id="street_number" name="street_number" disabled="true">
-    <input id="route" name="route" disabled="true">
-    <input id="locality" name="locality" disabled="true">
-    <input id="country" name="country" disabled="true">
-  </form>
-```
+Dans la vie réelle, il suffira de passer ces `input` en `type="hidden"` pour qu'ils soient soumis à
+l'envoi du formulaire. Vous récupérerez ainsi l'adresse pré-découpée correctement.
 
 ### Exécuter le code
 
 Afin de démarrer le code il est nécessaire d'exécuter ```initializeAutocomplete``` lorsque Google est disponible et que la page est prête.
 
 ```js
-  google.maps.event.addDomListener(window, 'load', function() {
-    initializeAutocomplete('user_input_autocomplete_address');
-  });
+google.maps.event.addDomListener(window, 'load', function() {
+  initializeAutocomplete('user_input_autocomplete_address');
+});
 ```
 
 ### Pour aller plus loin
@@ -172,17 +142,17 @@ Il est possible de customiser votre Autocomplete et de restreindre les recherche
 Par exemple, grâce snippet ci-dessous, nous limitons les résultats aux business (``` types: ['establishment']```) situés sur Paris et Londres en déterminant leurs latitudes et longitudes respectives dans la variable ```defaultBounds```. Pour en savoir plus, rendez-vous [ici](https://developers.google.com/maps/documentation/javascript/places-autocomplete).
 
 ```js
-  var defaultBounds = new google.maps.LatLngBounds(
-    new google.maps.LatLng(48.856614, 2.3522219000000177),
-    new google.maps.LatLng(51.5073509, -0.12775829999998223));
+var defaultBounds = new google.maps.LatLngBounds(
+  new google.maps.LatLng(48.856614, 2.3522219000000177),
+  new google.maps.LatLng(51.5073509, -0.12775829999998223));
 
-  var input = document.getElementById('searchTextField');
-  var options = {
-    bounds: defaultBounds,
-    types: ['establishment']
-  };
+var input = document.getElementById('searchTextField');
+var options = {
+  bounds: defaultBounds,
+  types: ['establishment']
+};
 
-  autocomplete = new google.maps.places.Autocomplete(input, options);
+autocomplete = new google.maps.places.Autocomplete(input, options);
 ```
 
 N'hésitez pas à laisser vos propres trucs et astuces dans les commentaires de cet article !
