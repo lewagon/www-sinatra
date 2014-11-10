@@ -3,39 +3,20 @@ layout: post
 title: Google Place Autocomplete
 thumbnail: thumbnail-google-autocomplete.jpg
 author: cedric
-description:
+description: Apprenez rapidement à installer Google Place Autocomplete dans vos formulaires d'adresses et à comprendre son fonctionnement. Ces quelques lignes de code faciliteront grandement l'expérience de vos utilisateurs sur votre web service. A vous de jouer !
 ---
 
-*Ce tuto à pour objectif de vous guider pas à pas dans l'installation d'un Google Place Autocomplete dans vos formulaires d'adresses. Ces quelques lignes de code faciliteront grandement l'expérience de vos utilisateurs tout en prenant soin de parser chacun des éléments afin de l'insérer dans votre base de données.*
+*Apprenez rapidement à installer Google Place Autocomplete dans vos formulaires d'adresses et à comprendre son fonctionnement. Ces quelques lignes de code faciliteront grandement l'expérience de vos utilisateurs sur votre web service. A vous de jouer !*
 
 ![Tutorial, Google Place Autocomplete](blog_image_path tuto-google-place-autocomplete.gif)
 
-**disclaimer** Pour les codeurs / intégrateurs / dev de tous poils, jetez directement un oeil à la documentation de [Seb Saunier](https://twitter.com/ssaunier) sur [le repo Github du Wagon](https://github.com/lewagon/google-place-autocomplete). Pour les autres, nous détaillerons l'ensemble de la procédure et expliciterons dans les quelques lignes ci-dessous.
+**Disclaimer** Pour les codeurs / intégrateurs / dev de tous poils, jetez directement un oeil à la documentation de [@ssaunier](https://twitter.com/ssaunier) sur [le repo github](https://github.com/lewagon/google-place-autocomplete). Pour les autres, nous détaillerons l'ensemble de la procédure et expliciterons dans les quelques lignes ci-dessous.
 
 ### La logique
 
-Le champ dans lequel l'utilisateur tape son adresse renvoie les possibilités d'adresses connues/retourne une liste d'adresses possibles en fonction des quelques caractères déjà écrits. Lorsque l'adresse souhaitée est sélectionnée, les données la composant (rue, numéro de voie ...) sont parsées et injectées dans les champs de la base de données de votre service.
+Le champ dans lequel l'utilisateur tape son adresse retourne une liste d'adresses possibles en fonction des quelques caractères déjà écrits. Lorsque l'adresse souhaitée est sélectionnée, les données la composant (rue, numéro de voie ...) sont parsées et injectées dans les champs de la base de données de votre service.
 
 [Voir la démo](http://lewagon.github.io/google-place-autocomplete/)
-
-### Le formulaire HTML
-
-Pour notre exemple nous utiliserons un formulaire composé de 5 champs. Le premier, *Address*, sera accessible à l'utilisateur afin de lui permettre de saisir son adresse postale. Les 4 autres champs ; `street_number`, `route`, `locality` et `country` seront désactivés et ne serviront qu'à recueillir la donnée.
-
-```html
-<form>
-  <label>Address</label>
-  <input id="user_input_autocomplete_address" name="user_input_autocomplete_address" placeholder="Votre adresse...">
-  <label>street_number</label>
-  <input id="street_number" name="street_number" disabled="true">
-  <label>route</label>
-  <input id="route" name="route" disabled="true">
-  <label>locality</label>
-  <input id="locality" name="locality" disabled="true">
-  <label>country</label>
-  <input id="country" name="country" disabled="true">
-</form>
-```
 
 #### Autocomplete.js
 
@@ -60,14 +41,32 @@ Enfin, appellez l'API de Google Maps dans votre ficher HTML en insérant votre c
 
 
 ```html
-  <!-- Include Google Maps JS API -->
-  <script type="text/javascript"
-    src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyDiLbha2ADV-c4IjStjSFCj01FcwrOhteI">
-  </script>
+<!-- Include Google Maps JS API -->
+<script type="text/javascript"
+  src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=PUT_YOUR_OWN_KEY_HERE">
+</script>
+```
+
+### Le formulaire HTML
+
+Pour notre exemple nous utiliserons un formulaire composé de 5 champs. Le premier, *Address*, sera accessible à l'utilisateur afin de lui permettre de saisir son adresse postale. Les 4 autres champs ; `street_number`, `route`, `locality` et `country` seront désactivés et ne serviront qu'à recueillir la donnée.
+
+```html
+<form>
+  <label>Address</label>
+  <input id="user_input_autocomplete_address" placeholder="Votre adresse...">
+  <label>street_number</label>
+  <input id="street_number" name="street_number" disabled>
+  <label>route</label>
+  <input id="route" name="route" disabled>
+  <label>locality</label>
+  <input id="locality" name="locality" disabled>
+  <label>country</label>
+  <input id="country" name="country" disabled>
+</form>
 ```
 
 ### La recherche
-
 
 ```js
 function initializeAutocomplete(id) {
@@ -78,20 +77,26 @@ function initializeAutocomplete(id) {
 ```
 
 ```html
- <input id="user_input_autocomplete_address" name="user_input_autocomplete_address" placeholder="Start typing your address...">
+ <input id="user_input_autocomplete_address" placeholder="Start typing your address...">
  ```
 
-La méthode ```initializeAutocomplete``` prend l'id de l'input sur lequel se greffer (soit dans notre cas ```user_input_autocomplete_address```), crée un autocomplete, et ajoute un listener via le callback de l'événement ```place_changed``` permettant de capturer le lieu que l'utilisateur a choisi parmi ceux auto-suggérés.
+La méthode ```initializeAutocomplete``` prend l'id de l'input sur lequel se greffer (soit dans notre cas ```user_input_autocomplete_address```), crée un autocomplete, et écoute l'événement ```place_changed```. Lorsque cet évènement a lieu (c'est-à dire lorsque l'utilisateur choisit une adresse), alors la fonction de callback ```onPlaceChanged``` est appelée. C'est dans cette dernière que nous allons récupérer les informations détaillées de l'adresse choisie
 
 ### La récupération des données
 
 ```js
-for (var i in place.address_components) {
-  var component = place.address_components[i];
-  for (var j in component.types) {  // Some types are ["country", "political"]
-    var type_element = document.getElementById(component.types[j]);
-    if (type_element) {
-      type_element.value = component.long_name;
+function onPlaceChanged() {
+  var place = this.getPlace();
+
+  // console.log(place);  // Uncomment this line to view the full object returned by Google API.
+
+  for (var i in place.address_components) {
+    var component = place.address_components[i];
+    for (var j in component.types) {  // Some types are ["country", "political"]
+      var type_element = document.getElementById(component.types[j]);
+      if (type_element) {
+        type_element.value = component.long_name;
+      }
     }
   }
 }
@@ -99,12 +104,14 @@ for (var i in place.address_components) {
 
 À partir de ce point, les informations sont découpées et son dispatchées dans un tableau avec un système clés/valeurs.
 
-```html
-Adresse_component {
-  25[street_number],
-  rue du petit musc[route],
-  Île de France[admnistrative_area_level_1],
-  ...
+```json
+{
+  address_components: [
+    { long_name: "25", types: [ "street_number" ] },
+    { long_name: "Petit Musc St", types: [ "route" ] },
+    { long_name: "Paris", types: [ "locality", "political" ] }
+    // [...]
+  ]
 }
 ```
 
@@ -150,7 +157,7 @@ Ce qui se traduit dans votre fichier ```HTML``` par :
 
 ### Exécuter le code
 
-Afin de démarrer le code, et comme celui-ci n'a pas de dépendance à jQuery, il est nécessaire d'exécuter ```initializeAutocomplete``` lorsque Google est disponible et que la page est prête.
+Afin de démarrer le code il est nécessaire d'exécuter ```initializeAutocomplete``` lorsque Google est disponible et que la page est prête.
 
 ```js
   google.maps.event.addDomListener(window, 'load', function() {
@@ -182,7 +189,7 @@ N'hésitez pas à laisser vos propres trucs et astuces dans les commentaires de 
 
 ### Liens utiles
 
-- [Repository Github du Wagon](https://github.com/lewagon/google-place-autocomplete)
+- [lewagon/google-place-autocomplete sur GitHub](https://github.com/lewagon/google-place-autocomplete)
 - [Démo](http://lewagon.github.io/google-place-autocomplete/)
 - [Google Autocomplete documentation](https://developers.google.com/maps/documentation/javascript/places-autocomplete)
 
