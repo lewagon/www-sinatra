@@ -1,4 +1,27 @@
-- name: Thomas et Olivier
+- name: Thomas Ceccaldi et Jérôme Borenstejn
+  image_name: roadstr-team.jpg
+  url: http://www.roadstr.fr
+  project:
+    name: Roadstr
+    url: http://www.roadstr.fr
+    image_name: roadstr-landing.jpg
+    teaser:
+      fr: Roadstr est une plateforme web pour louer une voiture de vintage entre particuliers. Partez en week-end au volant d'une ancienne !
+      en: Roadstr is the AirBnB of vintage cars.
+    description:
+      fr: Beta de l'application Rails de Roadstr, avec gestion de paiement type marketplace basé sur MangoPay
+      en: Roadstr beta rails app, with a marketplace payment based on MangoPay
+  links:
+    - url: https://github.com/thomasceccaldi
+      icon: github-alt
+    - url: https://github.com/borenstejn
+      icon: github-alt
+    - url: http://www.roadstr.fr
+      icon: link
+    - url: https://twitter.com/roadstr_cars
+      icon: twitter
+
+- name: Thomas Chrétien et Olivier Brunet
   image_name: trackguru-team.jpg
   url: https://github.com/tchret
   project:
