@@ -28,7 +28,7 @@ class App < Sinatra::Base
   end.compact.flatten).to_a
 
   set :sprockets, sprockets
-  set :assets_precompile, %w(app.js app.css wufoo.css *.png *.jpg *.svg *.otf *.eot *.ttf *.woff)
+  set :assets_precompile, %w(app.js app.css wufoo.css *.gif *.png *.jpg *.svg *.otf *.eot *.ttf *.woff)
   set :assets_prefix, assets_prefix
   set :assets_css_compressor, :sass
   set :assets_js_compressor, :uglifier
