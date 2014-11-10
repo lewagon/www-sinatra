@@ -95,6 +95,7 @@ GEM
       pry (~> 0.10)
     puma (2.9.1)
       rack (>= 1.1, < 2.0)
+    pygmentize (0.0.3)
     rack (1.5.2)
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
@@ -181,6 +182,7 @@ DEPENDENCIES
   meetup_client
   pry-byebug
   puma
+  pygmentize
   rack-contrib
   rack-cors
   rails-assets-font-awesome
