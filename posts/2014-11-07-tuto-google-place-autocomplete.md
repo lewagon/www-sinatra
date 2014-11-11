@@ -111,7 +111,7 @@ function onPlaceChanged() {
 }
 ```
 
-**Important** Comme le montre l'extrait du JSON ci-dessous retourné par l'API de Google Maps sur la console, il est impératif de respecter la dénomination des inputs de votre formulaire ```HTML``` selon un système clés/valeurs bien précis.
+**Important** Comme le montre l'extrait du JSON ci-dessus retourné par l'API de Google Maps sur la console, il est impératif de respecter la dénomination des inputs de votre formulaire ```HTML``` selon un système clés/valeurs bien précis.
 
 ```html
 <form>
