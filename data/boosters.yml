@@ -1,6 +1,5 @@
-front_end_developer:
-  slug: front-end-developer
-  name: Front-End Developer
+- slug: front-end-developer
+  name: Front-End developer
   pitch: Become an autonomous webdesigner in <strong>one week</strong>.
   page_title: Le Wagon - 1 week camp in web-design
   page_description: Learn all the fundamentals of web-design in an intensive one-week program. HTML, CSS, Bootstrap, Sketch.. Grab all the tips & tools to be proficient in web-design.
@@ -8,12 +7,57 @@ front_end_developer:
     - boris
     - seb
   city: paris
+  card:
+    focus_one: Web-design basics
+    focus_two: HTML, CSS, JS & Bootstrap
+    focus_three: Integrating web-services
+    class: yellow1
+    btn_class: yellow
+    badge_name: "WEB <br> DESIGNER"
+    focus: true
+    places_left: 6
 
-ios_developer:
-  slug: ios-developer
-  name: iOS Developer
+- slug: ios-developer
+  name: iOS Man
   pitch: TODO
   page_title: TODO
   page_description: TODO
   staff:
   city: paris
+  card:
+    focus_one: Guidelines in mobile design
+    focus_two: Swift programming
+    focus_three: Realisation of an realife-app
+    class: yellow2
+    btn_class: yellow
+    badge_name: "iOS <br> MAN"
+
+- slug: data-geek
+  name: Data Geek
+  pitch: TODO
+  page_title: TODO
+  page_description: TODO
+  staff:
+  city: paris
+  card:
+    focus_one: Get data (API, scraping)
+    focus_two: Dataviz best practices
+    focus_three: D3.js library
+    class: yellow2
+    btn_class: white
+    badge_name: "DATA <br> GEEK"
+
+- slug: product-guru
+  name: Product guru
+  pitch: TODO
+  page_title: TODO
+  page_description: TODO
+  staff:
+  city: paris
+  card:
+    focus_one: Web-design basics
+    focus_two: HTML, CSS, JS & Bootstrap
+    focus_three: Integrating web-services
+    class: yellow1
+    btn_class: yellow
+    badge_name: "WEB <br> DESIGNER"

@@ -144,7 +144,7 @@ class App < Sinatra::Base
     end
   end
 
-  BOOSTERS.each do |_, booster|
+  BOOSTERS.each do |booster|
     get "/programme/#{booster[:slug]}" do
       @booster = booster
       @city = CITIES[booster[:city].to_sym]

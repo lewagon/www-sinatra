@@ -1,0 +1,22 @@
+<div class="col-xs-12 col-sm-6 col-md-3 text-center">
+  <div class="panel-booster">
+    <!-- 3D ribbon for 1st offer -->
+    <% if booster[:card][:focus] = "true" %>
+      <div class="ribbon ribbon-red" >
+        <div class="banner">
+            <div class="text"><%= booster[:card][:places_left] %></div>
+        </div>
+      </div>
+    <% end %>
+    <div class="round-icon <%= booster[:card][:class] %> brandon-medium">
+      <%= booster[:card][:badge_name] %>
+    </div>
+    <ul>
+      <li><%= booster[:card][:focus_one] %></li>
+      <li><%= booster[:card][:focus_two] %></li>
+      <li><%= booster[:card][:focus_three] %></li>
+    </ul>
+    <p><strong>beginners</strong></p>
+    <a href="/<%= booster[:slug] %>" class="btn btn-default <%= booster[:card][:btn_class] %>">more details</a>
+  </div>
+</div>
