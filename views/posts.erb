@@ -1,6 +1,6 @@
 <% !@posts.blank? && @posts.each_with_index do |post, index| %>
   <div class="col-lg-4 col-sm-6 js-post">
-    <article class="postcard">
+    <article class="postcard element" data-category="<% post.metadata[:label] %>">
       <% if post.metadata[:thumbnail] %>
         <a href="/blog/<%= post.slug %>" class="link-img" style="background-image: url('<%= asset_path "blog/#{post.metadata[:thumbnail]}" %>')">
         </a>

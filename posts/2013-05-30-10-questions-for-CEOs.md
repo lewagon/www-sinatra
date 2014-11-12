@@ -2,6 +2,7 @@
 layout: post
 title:  "10 questions for modern CEOs"
 author: miruna
+label: startup
 thumbnail: 10-questions-for-modern-ceos.jpg
 description: "Last May, Le wagon introduced CEOs from le camping, Season4 to the basics of design, front-end & back-end development. The idea behing these courses was to give them a basic overview on the essentials: how a website works, responds to requests, treats and stores data, builds and stylizes responses."
 ---
