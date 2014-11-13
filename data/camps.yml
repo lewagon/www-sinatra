@@ -16,7 +16,7 @@ test:
 paris-janvier-2015:
   city: paris
   start_date: 2015-01-05
-  end_date: 2014-03-06
+  end_date: 2015-03-06
   trello:
     inbox_list_id: 53679db185dd566f6035c173
 
