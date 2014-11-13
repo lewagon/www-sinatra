@@ -31,5 +31,10 @@ $(function() {
     }
   });
 
+  $('#blog-filters').on( 'click', 'a', function() {
+    var filterValue = $(this).data('filter');
+    $(".all-posts").isotope({ filter: filterValue });
+  });
+
 })
 

@@ -3,6 +3,7 @@ layout: post
 title: "1 million de matches pour Kudoz !"
 date: 01/11/2014
 author: cedric
+label: alumni
 thumbnail: thumbnail-kudoz-application-recherche-emploi.jpg
 description: "Olivier Xu est le co-fondateur de Kudoz, l’application de recherche d'emploi au swipe aguicheur, destinée aux cadres en quête de nouveaux horizons professionnels. Nous vous avions déjà présenté Kudoz en vidéo, nous vous proposons aujourd’hui de faire le point sur le parcours entrepreneurial de ce pionnier du Wagon."
 ---

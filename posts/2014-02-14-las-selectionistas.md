@@ -3,6 +3,7 @@ layout: post
 title:  "Les selectionnistas"
 date:   2014-02-14 09:46:01
 author: miruna
+label: startup
 thumbnail: tatiana-lara-las-selectionistas.jpg
 description: "74% des lectrices de presse féminine* (*enquête opinionway) éprouvent des difficultés à retrouver un produit qu’elles ont vu dans la presse ! Quand on lit un support papier, les seules solutions pour se souvenir d’une information qui nous intéresse, c’est soit de déchirer un bout de page, soit de prendre une photo en espérant quelle ne se perde pas dans le flux de photos ! Nous voulions rendre ce service aux lectrices de presse féminine et en même temps, aider les marques à améliorer la conversion d’une lectrice en acheteuse."
 ---

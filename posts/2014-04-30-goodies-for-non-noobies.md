@@ -2,6 +2,7 @@
 layout: post
 title:  "Goodies For (Non)Noobies"
 author: miruna
+label: alumni
 thumbnail: goodies-for-non-noobies.jpg
 description: "Oyé oyé, aujourd'hui nous avons le plaisir d'annoncer les goodies que le Wagon et ses partenaires offrent à leurs alumnis. Ne pas s'y méprendre. Pas de mugs ni de clés USB... Simplement des supers plans gratuits auprès de différentes start-ups françaises et internationales sur des produits adaptés aux besoins du développeur-entrepreneur éclairé."
 ---

@@ -2,6 +2,7 @@
 layout: post
 title:  "Pierre Kosciusko-Morizet répond au wagon"
 author: miruna
+label: startup
 thumbnail: pierre-kosciusko-morizet-ceo-priceminister.jpg
 description: "Pierre Kosciusko-Morizet est CEO de PriceMinister. Il s'est prêté au jeu d'une petite interview pour le Wagon..."
 ---

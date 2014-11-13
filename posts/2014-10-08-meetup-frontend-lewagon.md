@@ -2,6 +2,7 @@
 layout: post
 title: Front-end & Design pour débutants - Retour sur le premier Meetup du Wagon
 author: miruna
+label: meetup
 thumbnail: meetup-frontend-design.jpg
 description: "Mercredi dernier, Le Wagon a lancé sa série de meetup avec Front-end & Design pour débutants, un premier rendez-vous de 2h pour réaliser rapidement une landing page jolie et fonctionnelle. Une bien belle entrée en matière."
 ---

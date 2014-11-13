@@ -2,6 +2,7 @@
 layout: post
 title:  "Le Wagon Surfcamp | first week"
 author: cedric
+label: startup
 thumbnail: lewagon-surfcamp-first-week.jpg
 description: "Coding, surfing, indian summer... For about a week, the 20 participants of Le Wagon Surfcamp are experiencing the Californian way of life, hidden in the middle of the wood near Soustons, France."
 ---

@@ -2,6 +2,7 @@
 layout: post
 title:  "Wisembly soutient le wagon"
 author: miruna
+label: startup
 thumbnail: wisembly-soutient-lewagon.jpg
 description: "Je suis co-fondateur de Wisembly. Wisembly est une solution collaborative pour les réunions d'entreprise. Notre logicel en SaaS permet de préparer, d'animer et d'assurer le suivi de réunions (séminaires, conférences, conf-call, formation...). Wisembly a été fondée en 2010. Nous avons aujourd'hui près de 300 clients et 17 employés."
 ---

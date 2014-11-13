@@ -2,6 +2,7 @@
 layout: post
 title:  "Le Wagon, Capitaine Train : codeurs du rail"
 author: miruna
+label: startup
 thumbnail: capitaine-train-codeurs-rail.jpg
 description: "Jean-Daniel Guyot, CEO et co-fondateur de Capitaine Train. J'ai débuté ma carrière à la SNCF (hé oui, déjà !), où j'ai développé le premier logiciel Mac consacré aux horaires de train, puis après diverses expériences j'ai participé à la startup Wizzgo, pour finalement créer Capitaine Train en 2009 avec Valentin Surrel et Martin Ottenwaelter. Capitaine Train est une solution plus fiable, plus simple et plus économique et — disons le franchement — bien plus cool pour acheter ses billets de train en France, en Allemagne et en Europe."
 ---

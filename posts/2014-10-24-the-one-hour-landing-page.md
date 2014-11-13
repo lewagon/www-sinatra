@@ -2,6 +2,7 @@
 layout: post
 title: "Ce weekend on vous met au code !"
 author: boris
+label: tuto
 thumbnail: thumbnail-landing-page.jpg
 description: "Et si vous profitiez de votre weekend pour coder votre première page web ? On a décidé de vous offrir la bonne vidéo pour sauter le pas. En moins de 2 heures vous aurez attaqué HTML, CSS et Bootstrap."
 ---

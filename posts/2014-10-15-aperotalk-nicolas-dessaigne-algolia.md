@@ -2,6 +2,7 @@
 layout: post
 title: Retour sur la masterclass AperoTalk avec Nicolas Dessaigne, CEO Algolia
 author: cedric
+label: aperotalk
 thumbnail: nicolas-dessaigne-algolia.jpg
 description: "La semaine dernière nous avons eu le plaisir de recevoir Nicolas Dessaigne, co-fondateur et CEO Algolia, afin d'échanger sur son parcours ainsi que sur la création et le développement d’Algolia."
 ---

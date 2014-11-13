@@ -2,6 +2,7 @@
 layout: post
 title:  "Et si vous deveniez développeur chez Uber ?"
 author: miruna
+label: startup
 thumbnail: devenir-developpeur-uber.jpg
 description: "Nous recherchons avant tout des candidats sensibles aux problématiques d'ergonomie, créatifs, et capables de placer l'expérience utilisateur au coeur de leurs réflexions. Mais également de bons ingénieurs, malins et débrouillards, sachant exploiter des données de manière intelligente grâce à un bon bagage en développement web et à une curiosité pour les technologies les plus novatrices."
 ---
