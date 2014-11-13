@@ -1,5 +1,5 @@
 <% !@posts.blank? && @posts.each_with_index do |post, index| %>
-  <div class="col-lg-4 col-sm-6 js-post filter-<%= post.metadata[:label] %>">
+  <div class="col-lg-4 col-sm-6 js-post <%= post.metadata[:labels] ? post.metadata[:labels].map { |l| "filter-#{l}" }.join(' ') : nil %>">
     <article class="postcard element">
       <% if post.metadata[:thumbnail] %>
         <a href="/blog/<%= post.slug %>" class="link-img" style="background-image: url('<%= asset_path "blog/#{post.metadata[:thumbnail]}" %>')">

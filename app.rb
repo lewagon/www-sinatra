@@ -311,8 +311,8 @@ class App < Sinatra::Base
 
   def fetch_posts
     @body_class = "blog"
-    params[:page] = params[:page].nil? ? 1 : params[:page].to_i
-    first = (params[:page] - 1) * 9
-    @posts = Blog.new.all[first...(first + 9)]
+    # params[:page] = params[:page].nil? ? 1 : params[:page].to_i
+    # first = (params[:page] - 1) * 9
+    @posts = Blog.new.all#[first...(first + 9)]
   end
 end

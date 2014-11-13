@@ -2,6 +2,10 @@ body.blog { background-color: #fff; }
 
 .blog {
 
+  .pagination {
+    visibility: hidden;
+  }
+
   .sub-banner {
     .fa { padding: 0 10px; }
 
