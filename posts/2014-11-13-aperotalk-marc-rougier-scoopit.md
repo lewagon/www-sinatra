@@ -3,7 +3,7 @@ layout: post
 title: "AperoTalk avec Marc Rougier, CEO de Scoop.it"
 author: cedric
 thumbnail: thumbnail-aperotalk-marc-rougier.jpg
-description: Pour cette masterclass AperoTalk nous avons reçu Marc Rougier Fondateur et Président Scoop.it. L'occasion d'échanger sur son parcours d'entrepreneur récidiviste passionné jusqu'à la création de Scoop.it en 2011.
+description: Pour cette masterclass AperoTalk nous avons reçu Marc Rougier Fondateur et Président de Scoop.it. L'occasion d'échanger sur son parcours d'entrepreneur globetrotter récidiviste et passionné.
 ---
 
 *Pour cette masterclass AperoTalk nous avons reçu [Marc Rougier](https://twitter.com/marcfuseki) Fondateur et Président Scoop.it. L'occasion d'échanger sur son parcours d'entrepreneur récidiviste passionné jusqu'à la création de [Scoop.it](http://www.scoop.it/) en 2011.*
@@ -23,9 +23,9 @@ En 2000 il se lance sur le marché de la virtualisation et créé Meiosys qui se
 <blockquote class="twitter-tweet" lang="en"><p>&quot;L&#39;être humain est celui qui trie le web, non pas l&#39;algorithme&quot; <a href="https://twitter.com/MarcFuseki">@MarcFuseki</a> <a href="https://twitter.com/hashtag/AperoTalk?src=hash">#AperoTalk</a></p>&mdash; Le Wagon (@Lewagonparis) <a href="https://twitter.com/Lewagonparis/status/529693127280717824">November 4, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-En 2010, après un peu plus de 2 ans d'efforts, toute l'équipe décide de pivoter de manière radicale en se recentrant sur ses actifs : une équipe de dev de choc, une connaissance du web social et mobile ainsi qu'une grosse envie d'en découdre. Après avoir étudié les nouvelles tendances du web mobile, ils s’orientent vers la curation pour créer un outils permettant de trier l'information : **Scoop.it**
+En 2010, après un peu plus de 2 ans d'efforts, toute l'équipe décide de pivoter de manière radicale en se recentrant sur ses actifs : des développeurs de choc, une connaissance du web social et une grosse envie d'en découdre. Après avoir étudié les nouvelles tendances du web mobile, ils décident de s’attaquer à la curation et de créer un outils permettant d'agréger et d'organiser du contenu sous la forme d'un magazine digital : *Scoop.it*
 
-Passionné par l'entrepreneuriat sous toutes ses formes, aujourd'hui Marc Rougier a pour hobby d'échanger et discuter avec les porteurs de projet pour les aider à entreprendre. Pour en savoir plus, n’hésitez pas à consulter la vidéo ci-dessus.
+Passionné par l'entrepreneuriat sous toutes ses formes, Marc Rougier a pour hobby d'échanger et discuter avec les porteurs de projet pour les aider à entreprendre. Pour en savoir plus, n’hésitez pas à consulter la vidéo ci-dessus.
 
 ### A consulter
 
