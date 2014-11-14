@@ -6,7 +6,7 @@ thumbnail: thumbnail-aperotalk-marc-rougier.jpg
 description: Pour cette masterclass AperoTalk nous avons reçu Marc Rougier Fondateur et Président de Scoop.it. L'occasion d'échanger sur son parcours d'entrepreneur globetrotter récidiviste et passionné.
 ---
 
-*Pour cette masterclass AperoTalk nous avons reçu [Marc Rougier](https://twitter.com/marcfuseki) Fondateur et Président Scoop.it. L'occasion d'échanger sur son parcours d'entrepreneur récidiviste passionné jusqu'à la création de [Scoop.it](http://www.scoop.it/) en 2011.*
+*Pour cette masterclass AperoTalk nous avons reçu [Marc Rougier](https://twitter.com/marcfuseki) Fondateur et Président de [Scoop.it](http://www.scoop.it/). L'occasion d'échanger sur son parcours d'entrepreneur globetrotter récidiviste et passionné.*
 
 <iframe width="750" height="422" src="//www.youtube.com/embed/V7Z1Q7hy1v0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
