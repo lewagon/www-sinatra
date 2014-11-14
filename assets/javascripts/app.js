@@ -15,13 +15,16 @@ $(function() {
     });
   });
 
-  $(".all-posts").infinitescroll({
-    navSelector: "nav.pagination",
-    nextSelector: "nav.pagination a[rel=next]",
-    itemSelector: ".js-post"
-  }, function(newElements) {
-    $(".all-posts").isotope( 'appended', $( newElements ) );
-  });
+  // $(".all-posts").infinitescroll({
+  //   loading: {
+  //     finishedMsg: ''
+  //   },
+  //   navSelector: "nav.pagination",
+  //   nextSelector: "nav.pagination a[rel=next]",
+  //   itemSelector: ".js-post"
+  // }, function(newElements) {
+  //   $(".all-posts").isotope( 'appended', $( newElements ) );
+  // });
 
   $(".all-posts").isotope({
     // options for masonry layout mode
@@ -29,6 +32,11 @@ $(function() {
     masonry: {
       columnWidth: ".col-lg-4"
     }
+  });
+
+  $('#blog-filters').on( 'click', 'a', function() {
+    var filterValue = $(this).data('filter');
+    $(".all-posts").isotope({ filter: filterValue });
   });
 
 })

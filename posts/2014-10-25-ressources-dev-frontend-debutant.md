@@ -2,6 +2,8 @@
 layout: post
 title: "La boîte à outils du dev front débutant"
 author: cedric
+labels:
+  - tuto
 thumbnail: thumbnail-ressources-dev-debutant.jpg
 description: "Suite à la vidéo - The Rocket Landing - voici un listing de plus d'une vingtaine d'outils et ressources (frameworks, extensions, banques d'images, bibliothèques de polices...) faciles à prendre en main afin d'optimiser le design de vos récentes créations."
 ---

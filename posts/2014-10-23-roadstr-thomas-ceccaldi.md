@@ -2,6 +2,9 @@
 layout: post
 title: "Roadstr, location de voitures vintage entre particuliers"
 author: cedric
+labels:
+  - alumni
+  - startup
 thumbnail: thumbnail-roadstr-thomas-ceccaldi.jpg
 description: "Amateur de belles voitures depuis l’enfance, Thomas Ceccaldi lancera le 31 octobre prochain Roadstr, un service de location de voitures vintage entre particuliers. La promesse est belle pour tous les amoureux d’épopées en vieille cylindrée ainsi que pour tous les passionnés d’asphalte. Spotlight sur le parcours de cet ancien élève du Wagon et son projet."
 ---

@@ -2,6 +2,8 @@
 layout: post
 title:  "Romain Saillet et les nouveaux médias"
 author: miruna
+labels:
+  - startup
 thumbnail: romain-saillet-medialab-session.jpg
 description: "Nous avons rencontré Romain Saillet fondateur de MédiaLab Sessions et CEO de Story Tailor et on a discuté ensemble des nouveaux médias. Voici son interview."
 ---

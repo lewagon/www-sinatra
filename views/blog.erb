@@ -13,11 +13,15 @@
       <div class="col-xs-12 center">
         <h1>Blog</h1>
         <div class="vertical-spacer"></div>
-        <ul class="list-inline">
-          <li>html & css<img src="<%= image_path 'icons/html.png' %>" alt="html"></li>
-          <li>ruby & Rails<img src="<%= image_path 'icons/ruby.png' %>" alt="ruby"></li>
-          <li>javascript<img src="<%= image_path 'icons/js.png' %>" alt="js"></li>
-          <li>git & Github <img src="<%= image_path 'icons/git.png' %>" alt="git"></li>
+        <ul class="list-inline" id="blog-filters">
+          <li><i class="fa fa-newspaper-o"></i><a href="#" class="current" data-filter="*">Tous les articles</a></li>
+          <li><i class="fa fa-graduation-cap"></i><a href="#" class="current" data-filter=".filter-alumni">Alumni</a></li>
+          <li><i class="fa fa-code"></i><a href="#" class="current" data-filter=".filter-tuto">Tuto</a></li>
+          <li><i class="fa fa-flask"></i><a href="#" class="current" data-filter=".filter-startup">Startup</a></li>
+          <li><i class="fa fa-users"></i><a href="#" class="current" data-filter=".filter-meetup">Meetup</a></li>
+          <li><i class="fa fa-beer"></i><a href="#" class="current" data-filter=".filter-aperotalk">ApéroTalk</a></li>
+          <li><i class="fa fa-rebel"></i><a href="#" class="current" data-filter=".filter-misc">Misc</a></li>
+          <li><i class="fa fa-video-camera"></i><a href="#" class="current"data-filter=".filter-video">Vidéo</a></li>
         </ul>
       </div>
     </div>
