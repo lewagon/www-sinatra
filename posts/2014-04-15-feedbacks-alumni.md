@@ -2,7 +2,8 @@
 layout: post
 title:  "Les alumnis de la première saison reviennent sur leur expérience au Wagon"
 author: miruna
-label: alumni
+labels:
+  - alumni
 thumbnail: lewagon-feedbacks-alumni-first-season.jpg
 description: "Quatre élèves de la première promotion reviennent sur leur parcours au sein du Wagon, et l'avancement de leurs projets depuis la fin de la saison 1. Félix, Céline, Niels et Estelle nous ont fait le plaisir d'évoquer ce que le Wagon leur a apporté de concret et comment cette expérience a enrichi leur vie au quotidien."
 ---

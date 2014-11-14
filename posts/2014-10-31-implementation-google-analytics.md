@@ -3,6 +3,7 @@ layout: post
 title: "Introduction et implémentation de Google Analytics"
 author: sebastien
 labels:
+  - meetup
   - video
   - tuto
 thumbnail: thumbnail-implementation-google-analytics.jpg

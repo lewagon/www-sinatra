@@ -2,7 +2,9 @@
 layout: post
 title: Anne Buffetaud, Co-Fondatrice @Hopways, revient sur son expérience au Wagon
 author: cedric
-label: alumni
+labels:
+  - alumni
+  - startup
 thumbnail: lewagon-anne-buffetaud-hopways.jpg
 description: "C'est désormais acté, régulièrement, nous vous proposerons un retour d'expérience de la part de nos alumnis au travers du spectre de leurs envies, leurs attentes, leurs projets et leurs actions une fois la formation terminée. Cette semaine c'est au tour d'Anne Buffetaud, co-fondatrice de Hopways et alumni du programme fullstack saison 3."
 ---
