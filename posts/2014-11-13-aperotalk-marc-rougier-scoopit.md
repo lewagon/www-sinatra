@@ -2,6 +2,9 @@
 layout: post
 title: "AperoTalk avec Marc Rougier, CEO de Scoop.it"
 author: cedric
+labels:
+  - video
+  - meetup
 thumbnail: thumbnail-aperotalk-marc-rougier.jpg
 description: Pour cette masterclass AperoTalk nous avons reçu Marc Rougier Fondateur et Président de Scoop.it. L'occasion d'échanger sur son parcours d'entrepreneur globetrotter récidiviste et passionné.
 ---
