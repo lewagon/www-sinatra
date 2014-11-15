@@ -25,18 +25,18 @@
       <!--span to make panel clickable-->
       <a href="/programme/<%= booster[:slug] %>"><span class="click-panel"></span></a>
     <% else %>
-      <a data-target="#boosterModal" data-toggle="modal" class="btn btn-default white">
+      <a data-target="<%= "##{booster[:slug]}-modal" %>" data-toggle="modal" class="btn btn-default white">
         i'm interested
       </a>
       <!--span to make panel clickable-->
-      <a data-target="#boosterModal" data-toggle="modal"><span class="click-panel"></span></a>
+      <a data-target="<%= "##{booster[:slug]}-modal" %>" data-toggle="modal"><span class="click-panel"></span></a>
     <% end %>
   </div>
 </div>
 
 
 <!-- Booster Modal -->
-<div class="modal fade" id="boosterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="<%= "#{booster[:slug]}-modal" %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header text-center">
