@@ -1,5 +1,6 @@
 - slug: front-end-developer
   name: Front-End developer
+  launched: true
   pitch: Become an autonomous webdesigner in <strong>one week</strong>.
   page_title: Le Wagon - 1 week camp in web-design
   page_description: Learn all the fundamentals of web-design in an intensive one-week program. HTML, CSS, Bootstrap, Sketch.. Grab all the tips & tools to be proficient in web-design.
@@ -8,56 +9,239 @@
     - seb
   city: paris
   card:
+    badge_name: "WEB <br> DESIGNER"
     focus_one: Web-design basics
     focus_two: HTML, CSS, JS & Bootstrap
     focus_three: Integrating web-services
+    level: beginners
     class: yellow1
-    btn_class: yellow
-    badge_name: "WEB <br> DESIGNER"
     focus: true
-    places_left: 6
+    ribbon: 6 places left
+  description:
+    skills:
+      - name: DESIGN
+        details: |
+          <p>Définir votre charte de polices et de couleurs avec
+          <strong><a href="https://color.adobe.com/fr/">kuler</a></strong>,
+          <strong><a href="https://www.google.com/fonts">google fonts</a></strong>,
+          <strong><a href="http://fontface.ninja/" target="_blank">fontface ninja</a></strong>
+          et bien d'autres outils. Dénicher des polices plus avancées.</p>
+      - name: UI
+        details: |
+          <p>Forger votre culture en UI (User-Interface)
+          pour donner sens à votre contenu en intégrant les bons
+          <a href="http://patterntap.com" target="_blank"><i>patterns</i></a>
+          (<i>modal</i>, <i>drop-down</i>, <i>tabs</i>, <i>panels</i> de pricing..).
+          </p><br><p>Pour chaque cas d'usage, connaître le meilleur pattern d'UI. Éprouvé, reconnu, permettant de déclencher le <i>call-to-action</i></p>
+      - name: FRONT DEVELOPMENT
+        details: |
+          <p>Maîtrisez HTML / CSS pour savoit passer du <i>print</i>
+          au <i>web</i>.</p><br>
+          <p>Vous approprier <strong><a href="http://getbootstrap.com" target="_blank">Bootstrap</a></strong>,
+          lirairie CSS de prototypage par excellence et savoir personnaliser
+          les styles de Bootstrap pour mettre votre cachet sur votre site.</p>
+      - name: PROTOTYPING SKILLS
+        details: |
+          <p>Intégrer des APIs et services web pour rendre
+          votre site interactif, suivre son audience et y adosser
+          des "mini-backends" (newlsetter, système de commentaire, formulaire
+          de contact, Google Analytics, Google Maps, et bien d'autres
+          services plus sympas les uns que les autres..)</p>
+    schedule:
+      - name: Monday
+        program:
+          - UI and UX basics
+          - Picking fonts and color schemes
+          - Designing our own logos & icons with Sketch
+      - name: Tuesday
+        program:
+          - Working with Sublime & Chrome
+          - HTML & CSS fundamentals
+          - Mastering markup
+      - name: Wednesday
+        program:
+          - Bootstrap grid & components
+          - Building your mockup with Bootstrap
+          - The art of choosing the right UI pattern in Bootstrap
+      - name: Thursday
+        program:
+          - Fine-tuning Bootstrap to apply our own style
+          - Making your site awesome with "design killer touch"
+          - Designing our own logos & icons with Sketch
+      - name: Friday
+        program:
+          - Follow your metrics with Google analytics
+          - Focus on web-forms
+          - Integrating external services (Mailchimp, Formkeep, Facebook/Twitter, Gmaps..)
 
 - slug: ios-developer
   name: iOS Man
+  launched: false
   pitch: TODO
   page_title: TODO
   page_description: TODO
   staff:
   city: paris
   card:
-    focus_one: Guidelines in mobile design
-    focus_two: Swift programming
-    focus_three: Realisation of an realife-app
-    class: yellow2
-    btn_class: yellow
     badge_name: "iOS <br> MAN"
+    focus: false
+    focus_one: TODO
+    focus_two: TODO
+    focus_three: TODO
+    level: background in CS
+    class: yellow2
+    focus: false
+  description:
+    skills:
+      - name: TODO
+        details: |
+          TODO
+      - name: TODO
+        details: |
+          TODO
+      - name: TODO
+        details: |
+          TODO
+      - name: TODO
+        details: |
+          TODO
+    schedule:
+      - name: Monday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Tuesday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Wednesday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Thursday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Friday
+        program:
+          - TODO
+          - TODO
+          - TODO
 
 - slug: data-geek
   name: Data Geek
+  launched: false
   pitch: TODO
   page_title: TODO
   page_description: TODO
   staff:
   city: paris
   card:
-    focus_one: Get data (API, scraping)
-    focus_two: Dataviz best practices
-    focus_three: D3.js library
-    class: yellow2
-    btn_class: white
     badge_name: "DATA <br> GEEK"
+    focus_one: TODO
+    focus_two: TODO
+    focus_three: TODO
+    level: background in Javascript
+    class: yellow2
+    focus: false
+  description:
+    skills:
+      - name: TODO
+        details: |
+          TODO
+      - name: UI
+        details: |
+          TODO
+      - name: FRONT DEVELOPMENT
+        details: |
+          TODO
+      - name: PROTOTYPING SKILLS
+        details: |
+          TODO
+    schedule:
+      - name: Monday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Tuesday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Wednesday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Thursday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Friday
+        program:
+          - TODO
+          - TODO
+          - TODO
 
 - slug: product-guru
   name: Product guru
+  launched: false
   pitch: TODO
   page_title: TODO
   page_description: TODO
   staff:
   city: paris
   card:
-    focus_one: Web-design basics
-    focus_two: HTML, CSS, JS & Bootstrap
-    focus_three: Integrating web-services
+    badge_name: "PRODUCT <br> GURU"
+    focus_one: TODO
+    focus_two: TODO
+    focus_three: TODO
+    level: beginners
     class: yellow1
-    btn_class: yellow
-    badge_name: "WEB <br> DESIGNER"
+    focus: false
+  description:
+    skills:
+      - name: TODO
+        details: |
+          TODO
+      - name: TODO
+        details: |
+          TODO
+      - name: TODO
+        details: |
+          TODO
+      - name: TODO
+        details: |
+          TODO
+    schedule:
+      - name: Monday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Tuesday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Wednesday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Thursday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Friday
+        program:
+          - TODO
+          - TODO
+          - TODO

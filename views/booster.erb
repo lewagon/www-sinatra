@@ -31,43 +31,19 @@
 
     <div class="vertical-spacer"></div>
 
-    <div class="row">
-      <div class="col-xs-12 col-sm-6">
-        <div class="skill">
-          <h3 class="text-center"><span class="number">1</span> DESIGN</h3>
-          <p>Définir votre charte de polices et de couleurs avec <strong><a href="https://color.adobe.com/fr/">kuler</a></strong>, <strong><a href="https://www.google.com/fonts">google fonts</a></strong>, <strong><a href="http://fontface.ninja/" target="_blank">fontface ninja</a></strong> et bien d'autres outils. Dénicher des polices plus avancées.</p>
-          <br>
-          <p>Réaliser vos propres icônes et logos avec <strong><a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a></strong>.</p>
-        </div>
+    <% @booster[:description][:skills].each_slice(2) do |skills_pair| %>
+      <div class="row">
+        <% skills_pair.each do |skill| %>
+          <div class="col-xs-12 col-sm-6">
+            <div class="skill">
+              <h3 class="text-center"><span class="number">1</span> <%= skill[:name] %></h3>
+              <%= skill[:details] %>
+            </div>
+          </div>
+        <% end %>
       </div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="skill">
-          <h3 class="text-center"><span class="number">2</span> UI</h3>
-          <p>Forger votre culture en UI (User-Interface) pour donner sens à votre contenu en intégrant les bons <a href="http://patterntap.com" target="_blank"><i>patterns</i></a> (<i>modal</i>, <i>drop-down</i>, <i>tabs</i>, <i>panels</i> de pricing..).</p>
-          <br>
-          <p>Pour chaque cas d'usage, connaître le meilleur pattern d'UI. Éprouvé, reconnu, permettant de déclencher le <i>call-to-action</i></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="vertical-spacer"></div>
-
-    <div class="row">
-      <div class="col-xs-12 col-sm-6">
-        <div class="skill">
-          <h3 class="text-center"><span class="number">3</span> FRONT DEVELOPMENT</h3>
-          <p>Maîtrisez HTML / CSS pour savoit passer du <i>print</i> au <i>web</i>.</p>
-          <br>
-          <p>Vous approprier <strong><a href="http://getbootstrap.com" target="_blank">Bootstrap</a></strong>, lirairie CSS de prototypage par excellence et savoir personnaliser les styles de Bootstrap pour mettre votre cachet sur votre site.</p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="skill">
-          <h3 class="text-center"><span class="number">4</span> PROTOTYPING SKILLS</h3>
-          <p>Intégrer des APIs et services web pour rendre votre site intéractif, suivre son audience et y adosser des "mini-backends" (newlsetter, système de commentaire, formulaire de contact, Google Analytics, Google Maps, et bien d'autres services plus sympas les uns que les autres..)</p>
-        </div>
-      </div>
-    </div>
+      <div class="vertical-spacer"></div>
+    <% end %>
 
   </div>
 </div>
@@ -163,66 +139,22 @@
 
       <div class="vertical-spacer"></div>
 
+      <% @booster[:description][:schedule].each do |day| %>
+
       <div class="row day">
         <div class="col-xs-3 pull-left">
-          <h3 class="white-bordered">MONDAY</h3>
+          <h3 class="white-bordered"><%= day[:name] %></h3>
         </div>
         <div class="col-xs-9 text-left">
           <ul>
-            <li>UI and UX basics</li>
-            <li>Picking fonts and color schemes</li>
-            <li>Designing our own logos & icons with Sketch</li>
+            <% day[:program].each do |topic| %>
+              <li><%= topic%></li>
+            <% end %>
           </ul>
         </div>
       </div>
-      <div class="row day">
-        <div class="col-xs-3 pull-left">
-          <h3 class="white-bordered">TUESDAY</h3>
-        </div>
-        <div class="col-xs-9 text-left">
-          <ul>
-            <li>Working with Sublime & Chrome</li>
-            <li>HTML & CSS fundamentals</li>
-            <li>Mastering markup</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row day">
-        <div class="col-xs-3 pull-left">
-          <h3 class="white-bordered">WEDNESDAY</h3>
-        </div>
-        <div class="col-xs-9 text-left">
-          <ul>
-            <li>Bootstrap grid & components</li>
-            <li>Building your mockup with Bootstrap</li>
-            <li>The art of choosing the right UI pattern in Bootstrap</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row day">
-        <div class="col-xs-3 pull-left">
-          <h3 class="white-bordered">THURSDAY</h3>
-        </div>
-        <div class="col-xs-9 text-left">
-          <ul>
-            <li>Fine-tuning Bootstrap to apply our own style</li>
-            <li>Making your site awesome with "design killer touch"</li>
-            <li>Contenu / structure du site avec HTML5</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row day-last">
-        <div class="col-xs-3 pull-left">
-          <h3 class="white-bordered">FRIDAY</h3>
-        </div>
-        <div class="col-xs-9 text-left">
-          <ul>
-            <li>Follow your metrics with Google analytics</li>
-            <li>Focus on web-forms</li>
-            <li>Integrating external services (Mailchimp, Formkeep, Facebook/Twitter, Gmaps..)</li>
-          </ul>
-        </div>
-      </div>
+
+      <% end %>
     </div>
   </div>
 </div>
