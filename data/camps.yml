@@ -19,6 +19,7 @@ paris-janvier-2015:
   end_date: 2015-03-06
   trello:
     inbox_list_id: 53679db185dd566f6035c173
+  last_seats: true
 
 brussels-janvier-2015:
   city: brussels
@@ -29,6 +30,7 @@ brussels-janvier-2015:
   facebook_tracking_ids:
     - 6016507068529
     - 6016638335929
+  last_seats: true
 
 nancy-janvier-2015:
   city: nancy
