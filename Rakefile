@@ -14,6 +14,20 @@ def configure_trello
 end
 
 namespace :trello do
+  task :status do
+    configure_trello
+
+    Trello::Board.all.select { |b| b.organization_id == WAGON_TRELLO_ORG_ID } .each do |board|
+      next if board.lists.first.name != "INBOX"
+      next if board.name =~ /2014/
+      probabilities = { 'INBOX' => 0.1, 'FIRST CONTACT' => 0.2, 'INTERVIEW' => 0.5, 'CODECADEMY' => 0.6, 'OPCA' => 0.7, 'CONTRAT' => 0.8, 'ACOMPTE' => 0.9, 'GO' => 1 }
+      students = board.lists.reduce(0) do |sum, list|
+        sum + (probabilities[list.name] || 0) * list.cards.size
+      end
+      puts "# #{board.name}: #{students.round(1)} students"
+    end
+  end
+
   task :boards do
     configure_trello
 
