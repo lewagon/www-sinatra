@@ -27,6 +27,14 @@ module UseCases
 ## Motivation
 
 #{params[:motivation]}
+
+## Interview
+
+- **profil** :
+- **background** :
+- **attentes** :
+- **langue** :
+- **ordi** :
   EOF
 
       card.save
