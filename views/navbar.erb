@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/<%= I18n.locale %>">
-        <img src="<%= image_path 'logo.png' %>" id="logo">
+        <img src="<%= image_path 'logo.png' %>" id="logo" alt="Le Wagon">
       </a>
     </div>
 
@@ -39,6 +39,11 @@
                 <a href="<%= send(:"#{slug}_path") %>"><%= city[:name] %></a>
               </li>
             <% end %>
+            <li>
+              <a href="mailto:contact@lewagon.org">
+                <%= t "menu.bring_it" %>
+              </a>
+            </li>
           </ul>
         </li>
         <li class="with-underline">

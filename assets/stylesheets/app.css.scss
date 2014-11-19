@@ -4,6 +4,8 @@ $grid-float-breakpoint: 1000px;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+// Themes: https://github.com/vicentereig/sass-pygments-rails/tree/master/vendor/assets/stylesheets/pygments
+@import "pygments_default";
 
 // Our own CSS
 @import "common";

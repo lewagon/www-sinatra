@@ -28,7 +28,7 @@ class App < Sinatra::Base
   end.compact.flatten).to_a
 
   set :sprockets, sprockets
-  set :assets_precompile, %w(app.js app.css wufoo.css *.png *.jpg *.svg *.otf *.eot *.ttf *.woff)
+  set :assets_precompile, %w(app.js app.css wufoo.css *.gif *.png *.jpg *.svg *.otf *.eot *.ttf *.woff)
   set :assets_prefix, assets_prefix
   set :assets_css_compressor, :sass
   set :assets_js_compressor, :uglifier
@@ -91,6 +91,8 @@ class App < Sinatra::Base
   LOCALES.each do |locale|
     get "/#{locale == DEFAULT_LOCALE ? "" : locale}" do
       I18n.locale = locale
+      @city = CITIES[:paris]
+      find_meetup
       erb :index
     end
   end
@@ -164,13 +166,19 @@ class App < Sinatra::Base
   end
 
   get '/blog' do
-    @posts = Blog.new.all
+    I18n.locale = :fr
+    fetch_posts
     erb :blog
+  end
+
+  get '/blog.js' do
+    fetch_posts
+    erb :posts, layout: false
   end
 
   # TODO - change the routing once blog is translated..
   get '/en/blog' do
-    @posts = Blog.new.all
+    fetch_posts
     erb :blog
   end
 
@@ -180,6 +188,7 @@ class App < Sinatra::Base
   end
 
   get '/blog/*' do |slug|
+    @body_class = "blog"
     @post = Blog.new.post(slug)
     halt 404 unless @post
     erb :post
@@ -200,15 +209,20 @@ class App < Sinatra::Base
   end
 
   post '/apply' do
-    camp = CAMPS[params[:camp].to_sym]
-    params[:city] = camp[:city]  # For the newsletter
-    UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id]).run(params)
-    begin
-      UseCases::SubscribeToNewsletter.new.run(params)
-    rescue Gibbon::MailChimpError => e
-      puts e
+    if params[:camp].blank? || params[:email].blank?
+      @error = true
+      erb :postuler
+    else
+      camp = CAMPS[params[:camp].to_sym]
+      params[:city] = camp[:city]  # For the newsletter
+      UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id]).run(params)
+      begin
+        UseCases::SubscribeToNewsletter.new.run(params)
+      rescue Gibbon::MailChimpError => e
+        puts e
+      end
+      redirect thanks_path + "?camp=#{params[:camp]}"
     end
-    redirect thanks_path + "?camp=#{params[:camp]}"
   end
 
   not_found do
@@ -273,6 +287,14 @@ class App < Sinatra::Base
         end
       end
     end
+
+    def image_url_with_fallback(image_url)
+      if image_url.strip.empty?
+        "http://www.lewagon.org#{image_path 'social/facebook_card.jpg'}"
+      else
+        "http://www.lewagon.org#{image_url.strip}"
+      end
+    end
   end
 
   alias_method :md, :markdown
@@ -299,8 +321,16 @@ class App < Sinatra::Base
           event.deep_symbolize { |key| key }
         end
       rescue
+        @meetup_events = []
         puts "No Meetup Found"
       end
     end
+  end
+
+  def fetch_posts
+    @body_class = "blog"
+    # params[:page] = params[:page].nil? ? 1 : params[:page].to_i
+    # first = (params[:page] - 1) * 9
+    @posts = Blog.new.all#[first...(first + 9)]
   end
 end

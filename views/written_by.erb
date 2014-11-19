@@ -1,0 +1,14 @@
+<%# locals needed: `post` and `date_format` %>
+
+<% if post.metadata[:author] %>
+  <% author = AUTHORS[post.metadata[:author].to_sym] %>
+  <% if author %>
+    <p>
+      <%= t "blog.written",
+        href: "https://twitter.com/#{author[:twitter]}",
+        author: author[:name],
+        date: l(post.date, format: date_format )
+      %>
+    </p>
+  <% end %>
+<% end %>

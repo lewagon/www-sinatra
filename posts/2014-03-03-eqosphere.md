@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "ITW de Xavier d'Eqosphere, Prix « Eco-innovations » de la ville de Paris"
-author:
+author: miruna
+labels:
+  - startup
 thumbnail: xavier-aqosphere.jpg
 description: "D’abord Sciences Po. Spécialisé dans les liens entre technologies, communication et pouvoir. J’abandonne  ensuite un doctorat de sciences politiques pour travailler comme ingénieur commercial et directeur du développement dans une agence de conseil en stratégie web avant de m’investir dans des programmes de coopération et des alliances public-privé en tant qu’expert des TIC pour des villes latino-américaines et européennes. Mes missions consistaient alors à améliorer l’accès aux services publics et l’économie locale et à développer l’e-gouvernance. En juillet 2012 Je crée mon entreprise d’entreprenariat social après environ 18 mois d’études de terrain."
 ---
