@@ -159,6 +159,91 @@
   </div>
 </div>
 
+<div class="container booster-container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+      <h2>Postuler</h2>
+      <form action="/booster_apply" method="post" role="form">
+        <% if @error %>
+        <div class="alert alert-danger" role="alert">
+          <%= t 'apply.form.error' %>
+        </div>
+        <% end %>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="first_name"><%= t "apply.form.first_name" %></label>
+              <input class="form-control" type="text" name="first_name" id="first_name" placeholder="John" value="<%= params[:first_name] %>" required>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="last_name"><%= t "apply.form.last_name" %></label>
+              <input class="form-control" type="text" name="last_name" id="last_name" placeholder="Doe" value="<%= params[:last_name] %>" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email"><%= t "apply.form.email" %></label>
+          <input class="form-control" type="email" name="email" id="email" placeholder="john@doe.org" value="<%= params[:email] %>" required>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="email"><%= t "apply.form.phone" %></label>
+              <input class="form-control" type="tel" name="phone" id="phone" placeholder="+33123456789" value="<%= params[:phone] %>" required>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="age"><%= t "apply.form.age" %></label>
+              <input class="form-control" type="text" name="age" id="age" placeholder="42" value="<%= params[:age] %>"  required>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label><%= t "apply.form.choose_camp" %></label>
+          <% BOOSTER_CAMPS.each do |slug, booster_camp| %>
+            <div class="radio">
+              <label>
+                <input type="radio" name="camp" value="<%= slug %>" required>
+                <strong><%= camp[:city].capitalize %></strong>,
+                <small>
+                  <% format = camp[:start_date].year == Time.now.year ? :short : :long %>
+                  <%= t "apply.form.choose_camp_radio_label_html",
+                        start_date: l(camp[:start_date], format: format),
+                        end_date: l(camp[:end_date], format: format) %>
+                  <% if camp[:last_seats] %>
+                    <span class="label label-danger"><%= t "apply.form.last_seats" %></span>
+                  <% end %>
+                </small>
+              </label>
+            </div>
+          <% end %>
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="motivation"><%= t "apply.booster_form.motivation" %></label>
+          <textarea class="form-control" name="motivation" id="motivation" rows="4" required><%= params[:motivation] %></textarea>
+        </div>
+
+        <div class="form-group">
+          <span class="help-block">
+            <%= t "apply.form.price_html", price: 3900 %>
+          </span>
+        </div>
+
+        <button class="btn btn-primary red-btn" style="width: 100%"><%= t "apply.form.apply_button" %></button>
+      </form>
+    </div>
+  </div>
+</div>
+
 <div style="background-image: url('<%= image_path @city[:images][:bottom] %>'); background-size: cover; height: 400px;">
 </div>
 

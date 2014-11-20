@@ -24,9 +24,9 @@
               <a href="<%= program_path %>">Full-Stack Bootcamp</a>
             </li>
             <li class="list-divider">1-WEEK CAMPS</li>
-            <% BOOSTERS.each do |booster| %>
+            <% BOOSTERS.each do |slug, booster| %>
               <li>
-                <a href="/programme/<%= booster[:slug] %>"><%= booster[:name] %></a>
+                <a href="/programme/<%= slug %>"><%= booster[:name] %></a>
               </li>
             <% end %>
           </ul>

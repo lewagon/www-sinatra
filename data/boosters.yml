@@ -1,4 +1,4 @@
-- slug: front-end-developer
+front-end-developer:
   name: Front-End developer
   launched: true
   pitch: Become an autonomous webdesigner in <strong>one week</strong>.
@@ -8,6 +8,8 @@
     - boris
     - seb
   city: paris
+  trello:
+    lead_list_id: TODO
   card:
     badge_name: "WEB <br> DESIGNER"
     focus_one: Web-design basics
@@ -74,7 +76,7 @@
           - Focus on web-forms
           - Integrating external services (Mailchimp, Formkeep, Facebook/Twitter, Gmaps..)
 
-- slug: ios-developer
+ios-developer:
   name: iOS Man
   launched: false
   pitch: TODO
@@ -82,6 +84,8 @@
   page_description: TODO
   staff:
   city: paris
+  trello:
+    lead_list_id: TODO
   card:
     badge_name: "iOS <br> MAN"
     focus: false
@@ -132,7 +136,7 @@
           - TODO
           - TODO
 
-- slug: data-geek
+data-geek:
   name: Data Geek
   launched: false
   pitch: TODO
@@ -140,6 +144,8 @@
   page_description: TODO
   staff:
   city: paris
+  trello:
+    lead_list_id: TODO
   card:
     badge_name: "DATA <br> GEEK"
     focus_one: TODO
@@ -189,7 +195,7 @@
           - TODO
           - TODO
 
-- slug: product-guru
+product-guru:
   name: Product guru
   launched: false
   pitch: TODO
@@ -197,6 +203,8 @@
   page_description: TODO
   staff:
   city: paris
+  trello:
+    lead_list_id: TODO
   card:
     badge_name: "PRODUCT <br> GURU"
     focus_one: TODO

@@ -19,24 +19,24 @@
     <p><strong><%= booster[:card][:level] %></strong></p>
 
     <% if booster[:launched] %>
-      <a href="/programme/<%= booster[:slug] %>" class="btn btn-default yellow">
+      <a href="/programme/<%= slug %>" class="btn btn-default yellow">
         more details
       </a>
       <!--span to make panel clickable-->
-      <a href="/programme/<%= booster[:slug] %>"><span class="click-panel"></span></a>
+      <a href="/programme/<%= slug %>"><span class="click-panel"></span></a>
     <% else %>
-      <a data-target="<%= "##{booster[:slug]}-modal" %>" data-toggle="modal" class="btn btn-default white">
+      <a data-target="<%= "##{slug}-modal" %>" data-toggle="modal" class="btn btn-default white">
         i'm interested
       </a>
       <!--span to make panel clickable-->
-      <a data-target="<%= "##{booster[:slug]}-modal" %>" data-toggle="modal"><span class="click-panel"></span></a>
+      <a data-target="<%= "##{slug}-modal" %>" data-toggle="modal"><span class="click-panel"></span></a>
     <% end %>
   </div>
 </div>
 
 
 <!-- Booster Modal -->
-<div class="modal fade" id="<%= "#{booster[:slug]}-modal" %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="<%= "#{slug}-modal" %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header text-center">
