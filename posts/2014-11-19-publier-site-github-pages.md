@@ -1,36 +1,36 @@
 ---
 layout: post
-title: "Github pages et le repo magique"
+title: "Publiez votre premier site web en moins de 10 minutes"
 author: cedric
 labels:
   - tuto
 thumbnail:
-description: Vous souhaitez tester un idée ou mettre votre portfolio en ligne ? Alors ce tuto sur Github Pages est fait pour vous. En seulement quelques clics vous pourez héberger gratuitement votre site static et le partager au gré de vos envies.
+description: Vous souhaitez tester un idée ou mettre votre portfolio en ligne ? Alors ce tuto sur Github Pages est fait pour vous. En seulement quelques clics vous pourrez héberger gratuitement votre site static et le partager au gré de vos envies.
 ---
 
 Vous souhaitez tester un idée ou mettre votre portfolio en ligne ? Alors ce tuto sur Github Pages est fait pour vous. En seulement quelques clics vous pourez héberger gratuitement votre site static et le partager au gré de vos envies.
 
 ### Votre compte Github
 
-Si vous ne connaissez pas encore Github, le service de collaboration entre developpeurs, nous vous recommandons de suivre [le tuto vidéo sur Git et Github](http://www.lewagon.org/blog/meetup-git-github) de [@ssaunier](https://twitter.com/ssaunier).
+Si vous ne connaissez pas encore Github, le service de collaboration entre developpeurs, nous vous recommandons de suivre [le tuto vidéo sur Git et Github](http://www.lewagon.org/blog/meetup-git-github) de [@ssaunier](https://twitter.com/ssaunier) et de vous créer un compte sur [GitHub](https://github.com/) (obligatoire pour la suite).
 
-Commencez par vous créer un compte sur [GitHub](https://github.com/).
+![Inscription Github](blog_image_path tuto-gh-pages-1.jpg)
 
-### Le Setup : GitHub for mac
+### Le Setup : GitHub Mac/Windows
 
-Ensuite, au grand désespoir des fervents défenseurs du terminal (que nous sommes) téléchargez [GitHub Mac](https://mac.github.com/) ou [GitHub Windows](https://windows.github.com/).
+Téléchargez ensuite [GitHub Mac](https://mac.github.com/) ou [GitHub Windows](https://windows.github.com/) et configurez-là en suivant les 3 étapes :
 
-Une fois l'application installée, connectez-là à votre compte fraîchement utilisé via votre nouveau login et password.
-
-**Important** Pour la config Git, préciez absolument l'email que vous avez utilisé lors de la création de votre compte GitHub afin de permettre au service de bien votre travail à votre compte.
-
-L'application cherchera des projets existants sur votre machine et sauf volonté de votre part, vous pouvez passer cette étape.
+- Connectez l'application à votre compte Github fraîchement créé en précisant votre nouveau login et password.
+- Pour la config Git, préciez absolument l'email que vous avez utilisé lors de la création de votre compte GitHub afin de permettre au service de bien votre travail à votre compte.
+- L'application cherchera des projets existants sur votre machine. Vous pouvez passer cette étape si vous le souhaitez.
 
 ### Votre premier projet
 
-Créez un dossier sur votre machine ```votre-projet-github-pages``` (notez bien que la dénomination du dossier reste complétement libre) et faites le glisser sur la fenêtre de l'application GitHub.
+Créez un dossier sur votre machine ```github-pages-exemple``` (le nom reste à votre convenance) et glissez-le sur la fenêtre de l'application GitHub.
 
-Un popup d'avertissement vous informera que ce projet n'est pas un répository (un projet dans le jargon Github) connu de votre compte. Validez.
+![Lier votre projet et GitHub](blog_image_path tuto-gh-pages-2.jpg)
+
+Un popup d'avertissement vous informera que ce projet n'est pas encore un *repository* (comprenez *un projet* dans le jargon Github) connu de votre compte et vous demandera si vous souhaitez qu'il soit considéré en tant que tel. Cliquez sur *Créer et Ajouter*.
 
 **Important** Créez une nouvelle branche ```gh-pages``` sur votre projet en cliquant sur l'icone dédiée en haut à gauche.
 
@@ -66,8 +66,5 @@ Exemple : http://lewagon.github.io/votre-projet-github-pages
 Voilà désormais à la tête d'un site en ligne !
 
 A vous de l'améliorer et de rajouter de nouveau éléments. N'hésitez pas à consulter le tuto [The one hour landing page](http://www.lewagon.org/blog/the-one-hour-landing-page) afin d'attaquer HTML, CSS et Bootstrap en 2 heures de temps.
-
-
-### Customisez votre nom de domaine
 
 
