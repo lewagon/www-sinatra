@@ -84,6 +84,8 @@ class App < Sinatra::Base
   LOCALES.each do |locale|
     get "/#{locale == DEFAULT_LOCALE ? "" : locale}" do
       I18n.locale = locale
+      @city = CITIES[:paris]
+      find_meetup
       erb :index
     end
   end
