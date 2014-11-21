@@ -16,17 +16,19 @@ Dataviz, ou l'art de représenter des grandes quantités de données de manière
 
 Intervenant : [Martin Daniel](https://twitter.com/martindaniel4), fondateur de [Txto](https://www.txto.io) & Data Scientist
 
-### Objectifs:
-- Inititiation à d3.js
-- Réalisation de dataviz à partir de données réelles
+### Un peu d'histoire
+Librairie créée en 2011, issue du Stanford Visualisation Group. Mike Bostock principal développeur. D3.js succède à d’autres projets (Protovis)
+
+Data Driven Documents, Librairie JS permettant de visualiser des données en utilisant les standards Web (HTML, SVG, CSS etc..)
+ Pas de technologie propriétaire / tire partie des avancées des navigateurs  «Awaytothink»
 
 ### Lors de ce cours d'introduction, vous verrez :
 - Les concepts clés de d3
-- Des conseils pratiques
+- Des conseils pratiques pour la réalisation de dataviz à partir de données réelles
 - Les ressources pour aller plus loin et développer vos propres applications
 
-### Pré-requis:
-- Connaissances en HTML/CSS
+### Pré-requis & setup :
+- Connaissances en HTML/CSS ()
 - Chrome
 - Un éditeur de texte type [Sublime Text](http://www.sublimetext.com/)
 
