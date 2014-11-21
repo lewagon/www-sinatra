@@ -31,9 +31,8 @@ build:
 
     after-steps:
         - wantedly/pretty-slack-notify:
-            team: teamwagon
-            token: $SLACK_API_TOKEN
-            channel: general
+            webhook_url: $SLACK_WEBHOOK_URL
+
 deploy:
     steps:
         - heroku-deploy:

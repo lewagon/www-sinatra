@@ -7,13 +7,6 @@
          asset-url('fonts/PillGothic300.svg#pill_gothic_300mgmedium') format('svg');
 }
 
-@font-face {
-  font-family: "MuseoSlabThin";
-  src: asset-url('fonts/MuseoSlabThin.eot');
-  src: asset-url('fonts/MuseoSlabThin.eot?#iefix') format('embedded-opentype'),
-       asset-url('fonts/MuseoSlabThin.woff') format('woff'),
-       asset-url('fonts/MuseoSlabThin.ttf') format('truetype'),
-}
 
 @font-face {
   font-family: "BrandonMedium";
@@ -23,8 +16,7 @@
        asset-url('fonts/BrandonMedium.ttf') format('truetype'),
 }
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,300');
 
 body {
   font-family: 'Open Sans', sans-serif;
