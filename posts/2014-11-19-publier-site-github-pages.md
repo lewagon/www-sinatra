@@ -5,10 +5,10 @@ author: cedric
 labels:
   - tuto
 thumbnail: thumbnail-tuto-gh-pages.jpg
-description: Vous souhaitez tester un idée ou mettre votre portfolio en ligne ? Alors ce tuto sur Github Pages est fait pour vous. En seulement quelques clics vous pourrez héberger gratuitement votre premier site statique intégralement customsiable et le partager ensuite au gré de vos envies.
+description: Vous souhaitez tester une idée ou mettre votre portfolio en ligne ? Alors ce tuto sur Github Pages est fait pour vous. En seulement quelques clics vous pourrez héberger gratuitement votre premier site statique intégralement customisable et le partager ensuite au gré de vos envies.
 ---
 
-Vous souhaitez tester une idée ou mettre votre portfolio en ligne ? Alors ce tuto sur Github Pages est fait pour vous. En seulement quelques clics vous pourrez héberger gratuitement votre premier site statique intégralement customsiable et le partager ensuite au gré de vos envies.
+Vous souhaitez tester une idée ou mettre votre portfolio en ligne ? Alors ce tuto sur Github Pages est fait pour vous. En seulement quelques clics vous pourrez héberger gratuitement votre premier site statique intégralement customisable et le partager ensuite au gré de vos envies.
 
 ### Votre compte Github
 
@@ -62,7 +62,7 @@ Prenez une photographie de votre travail en nommant et en enregistrant votre pre
 
 ![Vos premiers commit](blog_image_path tuto-gh-pages-6.jpg)
 
-Pour le moment vos changements sont uniquement visibles en local. Afin de partager vos créations sur le web, cliquez sur le bouton **Synchorniser** en haut à droite. Une fenêtre apparaîtra afin de vous inviter à nommer votre projet. Par défault, celui-ci prend le nom du dossier. Cliquez ensuite sur *Push* pour envoyer et stocker vos fichiers en ligne sur GitHub.
+Pour le moment vos changements sont uniquement visibles en local. Afin de partager vos créations sur le web, cliquez sur le bouton **Synchroniser** en haut à droite. Une fenêtre apparaîtra afin de vous inviter à nommer votre projet. Par défault, celui-ci prend le nom du dossier. Cliquez ensuite sur *Push* pour envoyer et stocker vos fichiers en ligne sur GitHub.
 
 ![Pushe du votre site sur le web](blog_image_path tuto-gh-pages-7.jpg)
 
