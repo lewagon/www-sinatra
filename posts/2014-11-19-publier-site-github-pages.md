@@ -72,7 +72,7 @@ Pour visualiser votre site rendez-vous sur ```http://VOTRE_NOM_GITHUB.github.io/
 
 Vous voilà désormais à la tête d'un site en ligne !
 
-Pour donner un peu plus de cachet à tout cela et rajouter de nouveaux éléments. N'hésitez pas à consulter le tuto de Boris, CEO du Wagon, [The one hour landing page](http://www.lewagon.org/blog/the-one-hour-landing-page) afin d'attaquer HTML, CSS et Bootstrap en 2 heures de temps.
+Pour donner un peu plus de cachet à tout cela et rajouter de nouveaux éléments, n'hésitez pas à consulter le tuto de Boris, CEO du Wagon, [The one hour landing page](http://www.lewagon.org/blog/the-one-hour-landing-page) afin d'attaquer HTML, CSS et Bootstrap en 2 heures de temps.
 
 Partagez vos créations dans les commentaires ci-dessous ou via Twitter en mentionnant [@LeWagonParis](https://twitter.com/lewagonparis) !
 
