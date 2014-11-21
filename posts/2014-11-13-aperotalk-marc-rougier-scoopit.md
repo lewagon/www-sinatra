@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AperoTalk avec Marc Rougier, CEO de Scoop.it"
+title: "AperoTalk avec Marc Rougier, Fondateur et Président de Scoop.it"
 author: cedric
 labels:
   - video
