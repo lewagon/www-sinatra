@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Initiation à la Dataviz avec d3.js"
-author: sebastien
+author: cedric
 labels:
   - meetup
   - tuto
@@ -17,20 +17,22 @@ Dataviz, ou l'art de représenter des grandes quantités de données de manière
 Intervenant : [Martin Daniel](https://twitter.com/martindaniel4), fondateur de [Txto](https://www.txto.io) & Data Scientist
 
 ### Un peu d'histoire
-Librairie créée en 2011, issue du Stanford Visualisation Group. Mike Bostock principal développeur. D3.js succède à d’autres projets (Protovis)
 
-Data Driven Documents, Librairie JS permettant de visualiser des données en utilisant les standards Web (HTML, SVG, CSS etc..)
- Pas de technologie propriétaire / tire partie des avancées des navigateurs  «Awaytothink»
+Depuis [le mapping](http://fr.wikipedia.org/wiki/John_Snow) de la propagation de l'épidémie de choléra en 1854 par le Docteur John Snow (nous avons bien précisé le docteur, pas le fils d'Eddard Stark) le visage de la Dataviz à bien changé. (ex : [Le budget Obama sur le New York Times](http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html?_r=1&))... D3.js est une librairie javascript créée en 2011, issue du Stanford Visualisation Group et principalment développé par Mike Bostock. Elle permet de visualiser des données en utilisant les standards Web (HTML, SVG, CSS etc..) sans aucune technologie propriétaire afin de tirer partie des avancées graphiques offertes par les navigateurs.
 
-### Lors de ce cours d'introduction, vous verrez :
-- Les concepts clés de d3
-- Des conseils pratiques pour la réalisation de dataviz à partir de données réelles
-- Les ressources pour aller plus loin et développer vos propres applications
+Ce premier cours d'introduction, vous permettra d'aborder les concepts clés de d3.js, d'obtenir des conseils pratiques pour la réalisation de dataviz à partir de données réelles, et vous donnera quelques ressources pour aller plus loin et développer vos propres [applications](http://www.quora.com/What-companies-are-using-d3-js-in-production).
 
 ### Pré-requis & setup :
-- Connaissances en HTML/CSS ()
-- Chrome
+
+- Connaissances en HTML/CSS
+- Navigateur Chrome
 - Un éditeur de texte type [Sublime Text](http://www.sublimetext.com/)
+
+### Pour aller plus loin :
+
+- [d3js.org](http://d3js.org/)
+- [d3js Google Groups](https://groups.google.com/forum/#!forum/d3-js)
+- [d3js Stackoverflow](http://stackoverflow.com/questions/tagged/d3.js)
 
 ###Reminder
 
