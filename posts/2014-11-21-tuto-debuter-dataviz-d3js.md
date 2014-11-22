@@ -18,13 +18,13 @@ Intervenant : [Martin Daniel](https://twitter.com/martindaniel4), fondateur de [
 
 ### Un peu d'histoire
 
-Depuis [le mapping](http://fr.wikipedia.org/wiki/John_Snow) de la propagation de l'épidémie de choléra en 1854 par le Docteur John Snow (nous avons bien précisé le docteur, pas le fils d'Eddard Stark) le visage de la Dataviz à bien changé. (ex : [Le budget Obama sur le New York Times](http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html?_r=1&))... D3.js est une librairie javascript créée en 2011, issue du Stanford Visualisation Group et principalment développé par Mike Bostock. Elle permet de visualiser des données en utilisant les standards Web (HTML, SVG, CSS etc..) sans aucune technologie propriétaire afin de tirer partie des avancées graphiques offertes par les navigateurs.
+Depuis [le mapping](http://fr.wikipedia.org/wiki/John_Snow) de la propagation de l'épidémie de choléra en 1854 par le Docteur John Snow (nous avons bien précisé le docteur, pas le fils d'Eddard Stark) le visage de la Dataviz à bien changé. (ex : [Le budget Obama sur le New York Times](http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html?_r=1&))... D3.js est une librairie javascript créée en 2011, issue du Stanford Visualisation Group et principalment développée par Mike Bostock. Elle permet de visualiser des données en utilisant les standards Web (HTML, SVG, CSS etc..) sans aucune technologie propriétaire afin de tirer partie des avancées graphiques offertes par les navigateurs.
 
-Ce premier cours d'introduction, vous permettra d'aborder les concepts clés de d3.js, d'obtenir des conseils pratiques pour la réalisation de dataviz à partir de données réelles, et vous donnera quelques ressources pour aller plus loin et développer vos propres [applications](http://www.quora.com/What-companies-are-using-d3-js-in-production).
+Ce premier cours d'introduction vous permettra d'aborder les concepts clés de d3.js, d'obtenir des conseils pratiques pour la réalisation de dataviz à partir de données réelles, et vous donnera quelques ressources pour aller plus loin et développer vos propres [applications](http://www.quora.com/What-companies-are-using-d3-js-in-production).
 
 ### Pré-requis & setup :
 
-- Connaissances en HTML/CSS
+- Connaissances de base en HTML/CSS & Javascript
 - Navigateur Chrome
 - Un éditeur de texte type [Sublime Text](http://www.sublimetext.com/)
 
