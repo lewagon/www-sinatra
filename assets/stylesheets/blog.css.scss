@@ -66,6 +66,11 @@ body.blog { background-color: #fff; }
       border-radius: 5px 5px 0 0;
       display: block;
     }
+    @media(max-width: $screen-sm-max) {
+      .link-img {
+        height: 150px;
+      }
+    }
 
     .link-post {
       position: relative;

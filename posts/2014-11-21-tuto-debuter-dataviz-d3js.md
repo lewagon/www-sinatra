@@ -12,7 +12,7 @@ description: Dataviz, ou l'art de représenter des grandes quantités de donnée
 
 Dataviz, ou l'art de représenter des grandes quantités de données de manière innovante et interactive. Donner du sens à la donnée, voilà le but de cette nouvelle discipline ! Découvrez [d3.js](http://d3js.org/) une librairie javascript pour visualiser des données au sein d'interfaces web.
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/ZEtyr9C01cg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/ZEtyr9C01cg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 Intervenant : [Martin Daniel](https://twitter.com/martindaniel4), fondateur de [Txto](https://www.txto.io) & Data Scientist
 
