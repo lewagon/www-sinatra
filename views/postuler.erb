@@ -80,21 +80,40 @@
         <div class="form-group">
           <label><%= t "apply.form.choose_camp" %></label>
           <% CAMPS.each do |slug, camp| %>
-            <div class="radio">
-              <label>
-                <input type="radio" name="camp" value="<%= slug %>" required>
-                <strong><%= camp[:city].capitalize %></strong>,
-                <small>
-                  <% format = camp[:start_date].year == Time.now.year ? :short : :long %>
-                  <%= t "apply.form.choose_camp_radio_label_html",
-                        start_date: l(camp[:start_date], format: format),
-                        end_date: l(camp[:end_date], format: format) %>
-                  <% if camp[:last_seats] %>
-                    <span class="label label-danger"><%= t "apply.form.last_seats" %></span>
-                  <% end %>
-                </small>
-              </label>
-            </div>
+            <% if camp[:full] %>
+              <div class="radio disabled">
+                <label>
+                  <input type="radio" name="camp" disabled>
+                  <strike>
+                    <strong><%= camp[:city].capitalize %></strong>,
+                    <small>
+                      <% format = :short #camp[:start_date].year == Time.now.year ? :short : :long %>
+                      <%= t "apply.form.choose_camp_radio_label_html",
+                            start_date: l(camp[:start_date], format: format),
+                            end_date: l(camp[:end_date], format: format) %></small></strike>
+                  <small style="margin-left: 2px">
+                    <span class="label label-danger"><%= t "apply.form.booked" %></span>
+                  </small>
+
+                </label>
+              </div>
+            <% else %>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="camp" value="<%= slug %>" required>
+                  <strong><%= camp[:city].capitalize %></strong>,
+                  <small>
+                    <% format = :short #camp[:start_date].year == Time.now.year ? :short : :long %>
+                    <%= t "apply.form.choose_camp_radio_label_html",
+                          start_date: l(camp[:start_date], format: format),
+                          end_date: l(camp[:end_date], format: format) %>
+                    <% if camp[:last_seats] %>
+                      <span class="label label-warning"><%= t "apply.form.last_seats" %></span>
+                    <% end %>
+                  </small>
+                </label>
+              </div>
+            <% end %>
           <% end %>
           </label>
         </div>
