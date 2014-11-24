@@ -142,7 +142,8 @@ fr:
       choose_camp: À quelle session souhaitez-vous participer ?
       choose_camp_radio_label_html: embarquement le <strong>%{start_date}</strong>, terminus le %{end_date}
       motivation: Pourquoi voulez-vous faire Le Wagon ?
-      last_seats: Dernières places !
+      last_seats: Dernières places
+      booked: Complet
       apply_button: POSTULER
       price_html: "Prix : <strong>%{price}</strong> € TTC. Nous vous recontacterons rapidement par email !"
   thanks:

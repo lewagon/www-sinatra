@@ -207,7 +207,7 @@
 
         <div class="form-group">
           <label><%= t "apply.form.choose_camp" %></label>
-          <% BOOSTER_CAMPS.each do |slug, booster_camp| %>
+          <% BOOSTER_CAMPS.each do |slug, camp| %>
             <div class="radio">
               <label>
                 <input type="radio" name="camp" value="<%= slug %>" required>
@@ -243,6 +243,8 @@
     </div>
   </div>
 </div>
+
+<div class="vertical-spacer"></div>
 
 <div style="background-image: url('<%= image_path @city[:images][:bottom] %>'); background-size: cover; height: 400px;">
 </div>

@@ -150,7 +150,7 @@ class App < Sinatra::Base
   BOOSTERS.each do |slug, booster|
     get "/programme/#{slug}" do
       @booster = booster
-      @booster_camps = BOOSTER_CAMPS.select { |_, camp| camp.slug == slug }
+      @booster_camps = BOOSTER_CAMPS.select { |s, camp| s == slug }
       @city = CITIES[booster[:city].to_sym]
       I18n.locale = :fr
       erb :booster

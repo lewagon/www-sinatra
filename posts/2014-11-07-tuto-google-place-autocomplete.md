@@ -70,8 +70,10 @@ Pour notre exemple nous utiliserons un formulaire composé de 5 champs. Le premi
 ```js
 function initializeAutocomplete(id) {
   var element = document.getElementById(id);
-  var autocomplete = new google.maps.places.Autocomplete(element, { types: ['geocode'] });
-  google.maps.event.addListener(autocomplete, 'place_changed', onPlaceChanged);
+  if (element) {
+    var autocomplete = new google.maps.places.Autocomplete(element, { types: ['geocode'] });
+    google.maps.event.addListener(autocomplete, 'place_changed', onPlaceChanged);
+  }
 }
 ```
 
