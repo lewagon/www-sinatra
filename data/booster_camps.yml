@@ -1,16 +1,16 @@
-front-end-developer-paris-janvier-2015:
-  booster: front-end-developer
-  city: paris
-  start_date: 2015-01-19
-  end_date: 2015-01-23
-  trello:
-    inbox_list_id: TODO
+# front-end-developer-paris-janvier-2015:
+#   booster: front-end-developer
+#   city: paris
+#   start_date: 2015-01-19
+#   end_date: 2015-01-23
+#   trello:
+#     inbox_list_id: TODO
 
-ios-developer-paris-janvier-2015:
-  booster: ios-developer
-  city: paris
-  start_date: 2015-01-26
-  end_date: 2015-01-26
-  trello:
-    inbox_list_id: TODO
+# ios-developer-paris-janvier-2015:
+#   booster: ios-developer
+#   city: paris
+#   start_date: 2015-01-26
+#   end_date: 2015-01-26
+#   trello:
+#     inbox_list_id: TODO
 
