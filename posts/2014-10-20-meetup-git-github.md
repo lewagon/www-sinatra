@@ -2,15 +2,19 @@
 layout: post
 title: "#Tips Débuter avec Git et Github"
 author: sebastien
+labels:
+  - tuto
+  - video
+  - meetup
 thumbnail: thumbnail-debuter-git-github-video.jpg
 description: "Les curieux que vous êtes avez sûrement entendu parler de Github, un réseau social un peu différent de Facebook où ça parle de code. Github est basé sur git, un utilitaire développé par le créateur de Linux, et qui joue un rôle central dans tout projet de développement : celui de système de gestion des versions. Maîtriser git, c'est adopter une bonne pratique de développement qui changera à jamais votre vision de l'Informatique."
 ---
 
-<iframe width="750" height="422" src="//www.youtube.com/embed/V6Zo68uQPqE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-### 2h pour déployer votre premier site via git
-
 Les curieux que vous êtes avez sûrement entendu parler de [Github](https://github.com/), un réseau social un peu différent de Facebook où ça parle de code. Github est basé sur [git](http://git-scm.com/), un utilitaire développé par le créateur de Linux, et qui joue un rôle central dans tout projet de développement : celui de système de gestion des versions. **Maîtriser git, c'est adopter une bonne pratique de développement qui changera à jamais votre vision de l'Informatique**.
+
+<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/V6Zo68uQPqE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+
+### Déployez votre premier site via git
 
 En 2h, nous allons installer git, créer un premier dépôt, et nous initier à la manipulation de versions de fichiers. Nous verrons ensuite le système de branches et introduirons la notion de flux de travail. Une fois les bases acquises, nous créerons un compte Github, et commencerons à collaborer. Pour finir, nous utiliserons le service [Github Pages](https://pages.github.com/) pour déployer notre premier site Internet via git !
 

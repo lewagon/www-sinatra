@@ -16,9 +16,18 @@ test:
 paris-janvier-2015:
   city: paris
   start_date: 2015-01-05
-  end_date: 2014-03-06
+  end_date: 2015-03-06
   trello:
     inbox_list_id: 53679db185dd566f6035c173
+  last_seats: true
+  full: true
+
+paris-fevrier-2015:
+  city: paris
+  start_date: 2015-02-02
+  end_date: 2015-04-04
+  trello:
+    inbox_list_id: 54367c2481220dc57e3c698b
 
 brussels-janvier-2015:
   city: brussels
@@ -29,6 +38,7 @@ brussels-janvier-2015:
   facebook_tracking_ids:
     - 6016507068529
     - 6016638335929
+  last_seats: true
 
 nancy-janvier-2015:
   city: nancy
@@ -36,13 +46,6 @@ nancy-janvier-2015:
   end_date: 2015-03-20
   trello:
     inbox_list_id: 543d16ea477565861722db44
-
-paris-fevrier-2015:
-  city: paris
-  start_date: 2015-02-02
-  end_date: 2015-04-04
-  trello:
-    inbox_list_id: 54367c2481220dc57e3c698b
 
 paris-mars-2015:
   city: paris

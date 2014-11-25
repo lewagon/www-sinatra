@@ -1,0 +1,24 @@
+<% !@posts.blank? && @posts.each_with_index do |post, index| %>
+  <div class="col-lg-4 col-sm-6 js-post <%= post.metadata[:labels] ? post.metadata[:labels].map { |l| "filter-#{l}" }.join(' ') : nil %>">
+    <article class="postcard element">
+      <% if post.metadata[:thumbnail] %>
+        <a href="/blog/<%= post.slug %>" class="link-img" style="background-image: url('<%= asset_path "blog/#{post.metadata[:thumbnail]}" %>')">
+        </a>
+      <% end %>
+      <div class="content">
+        <h2>
+          <a href="/blog/<%= post.slug %>">
+            <%= post.metadata[:title] %>
+          </a>
+        </h2>
+        <% if post.metadata[:description] %>
+          <p class="description"><%= post.metadata[:description] %></p>
+        <% end %>
+      </div>
+      <a href="/blog/<%= post.slug %>" class="link-post"><i class="fa fa-search"></i>  <%= t "blog.read_article" %></a>
+      <div class="infos">
+        <%= erb :written_by, locals: { post: post, date_format: :short } %>
+      </div>
+    </article>
+  </div>
+<% end %>

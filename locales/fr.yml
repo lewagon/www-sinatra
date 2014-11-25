@@ -36,6 +36,7 @@ fr:
   and_its: et ses
   apprentices: apprentis
   menu:
+    bring_it: Monte un Wagon dans ta ville!
     program: Programme
     cities: Villes
     apply: Postuler
@@ -121,12 +122,16 @@ fr:
       authentification, paiement, Oauth, etc.) et la programmation côté navigateur avec
       <strong>JavaScript</strong> et <strong>AJAX</strong>.
     coding_best_practices: "Les <em>best practices</em> de developpement web (<strong>collaboration sur Github</strong>, <em>versionning</em> de code, <strong>déploiement continu sur Heroku</strong>, gestion des photos sur <strong>Amazon S3</strong>, envoi de mail avec SMTP externe comme <strong>Mandrill</strong>, etc.)"
+  blog:
+    read_article: Lire l'article
+    written: "Écrit par <a href='%{href}'>%{author}</a> le %{date}"
   apply:
     title: Candidature - S'inscrire au Wagon pour 9 semaines de Ruby on Rails
     banner: Postulez au Wagon
     description: Postulez au Wagon pour batir des applis innovantes avec ruby on Rails et rejoindre une communauté hyperactive d'entrepreneurs et de développeurs.
     lead: "Le Wagon est une formation <strong>exigeante</strong> et personnalisée qui nécessite votre investissement à <strong>temps plein</strong> pendant <strong>9 semaines</strong>. Vous devez être à l'aise pour lire de l'<strong>anglais</strong>, langue technique de référence en programmation."
     form:
+      error: Votre demande n'a pas été prise en compte. Merci de bien renseigner tous les champs.
       first_name: Prénom
       last_name: Nom
       email: Email
@@ -135,7 +140,8 @@ fr:
       choose_camp: À quelle session souhaitez-vous participer ?
       choose_camp_radio_label_html: embarquement le <strong>%{start_date}</strong>, terminus le %{end_date}
       motivation: Pourquoi voulez-vous faire Le Wagon ?
-      last_seats: Dernières places !
+      last_seats: Dernières places
+      booked: Complet
       apply_button: POSTULER
       price_html: "Prix : <strong>%{price}</strong> € TTC. Nous vous recontacterons rapidement par email !"
   thanks:

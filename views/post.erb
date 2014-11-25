@@ -15,7 +15,7 @@
     <div class="row">
       <div class="col-md-8 col-md-offset-2 center">
         <h1><%= @post.metadata[:title] %></h1>
-        <p>Écrit par <a href="https://twitter.com/<%= @post.metadata[:twitter] %>" target="_blank"><%= @post.metadata[:author] %></a></p>
+        <%= erb :written_by, locals: { post: @post, date_format: :long } %>
       </div>
     </div>
   </div>

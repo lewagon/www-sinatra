@@ -83,6 +83,7 @@
 
 <div class="vertical-spacer"></div>
 
+<% if @meetup %>
 <div id="news">
   <div class="container">
     <div class="row">
@@ -90,9 +91,11 @@
         <div class="col-inner-md-padded">
           <h2>POWERED BY LE WAGON</h2>
           <p>
-            <%= t "home.events_by_le_wagon" %>
+            <%= t("join_our_meetup")%> <strong><a href="<%= @meetup[:link] %>" target="_blank"><%= @meetup[:name] %></a></strong>
+           <%= t("and_its")%> <strong><%= @meetup[:members] %> <%= t("apprentices")%></strong>
           </p>
-          <table>
+          <hr>
+          <!-- <table>
             <tr>
               <td><img src="<%= image_path 'logos/wde.png' %>" alt="web design"></td>
               <td class="desc">
@@ -117,14 +120,31 @@
                 <a href="http://www.cetetejecode.fr">+ de détails <i class="fa fa-angle-double-right"></i></a>
               </td>
             </tr>
-          </table>
+          </table> -->
+          <% @meetup_events.take(4).each do |meetup_event| %>
+          <div class="row">
+            <div class="col-xs-2 text-center">
+              <div class="date pill pull-right">
+                <%= Time.at(meetup_event[:time] / 1000).to_datetime.day %>
+              </div>
+            </div>
+            <div class="col-xs-10">
+              <a href="<%= meetup_event[:event_url] %>" target="_blank">
+                <%= meetup_event[:name] %>
+              </a>
+              <p style="color: grey; font-weight: 300px; font-size: 14px;"><%= l Time.at((meetup_event[:time] + meetup_event[:utc_offset]) / 1000).to_datetime.utc, format: :long %></p>
+            </p>
+            </div>
+          </div>
+          <br>
+          <% end %>
         </div>
 
       </div>
 
       <div class="col-sm-6">
         <div class="col-inner-md-padded">
-          <a class="twitter-timeline" href="https://twitter.com/Lewagonparis" data-widget-id="372292161472974848">Tweets of @Lewagonparis</a>
+          <a class="twitter-timeline" href="https://twitter.com/Lewagonparis" data-widget-id="372292161472974848" height="400">Tweets of @Lewagonparis</a>
         </div>
       </div>
     </div>
@@ -132,6 +152,7 @@
 </div>
 
 <div class="vertical-spacer"></div>
+<% end %>
 
 <div class="container">
   <div class="row" id="cursus">

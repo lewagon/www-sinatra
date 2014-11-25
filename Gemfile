@@ -15,8 +15,10 @@ group :assets do
   gem 'bootstrap-sass', '~> 3.2.0'
   gem 'rails-assets-jquery'
   gem 'rails-assets-font-awesome'
+  gem 'rails-assets-infinite-scroll'
 end
 
+gem 'pygmentize'
 gem 'redcarpet'
 gem 'gibbon'
 gem 'ruby-trello', github: 'jeremytregunna/ruby-trello'

@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Geek talk avec Jean-David Chamboredon"
-author:
+author: miruna
+labels:
+  - startup
 thumbnail: interview-jean-david-chamboredon.jpg
 description: "Jean-David Chamboredon, CEO d’ISAI et acteur emblématique du capital-risque auprès des startups en France, a accepté de répondre à nos questions."
 ---

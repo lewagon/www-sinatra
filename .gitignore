@@ -12,3 +12,4 @@ students.csv
 # Here are some files you may want to ignore globally:
 
 .DS_Store
+*.log
