@@ -1,0 +1,72 @@
+- name: "Passe ton code d'abord !"
+  logo: logo-nouvelobs.jpg
+  url: https://twitter.com/Lewagonparis/status/535370339262672897
+  media: "Le Nouvel Observateur"
+  date: 2014-11-20
+
+- name: "Le Wagon démystifie l'apprentissage du code chez les entrepreneurs"
+  logo: logo-jdn.jpg
+  url: http://www.journaldunet.com/web-tech/start-up/le-wagon-apprentissage-code-entrepreneurs.shtml
+  media: "Le Journal du Net"
+  date: 2014-10-09
+
+- name: "France’s Startup Scene tackles the question “Can you teach someone to be an entrepreneur?”"
+  logo: logo-rudebaguette.jpg
+  url: http://www.rudebaguette.com/2014/02/06/frances-startup-scene-tackles-question-can-teach-someone-entrepreneur/
+  media: "Rude Baguette"
+  date: 2014-02-06
+
+- name: "Après 4 semaines, Le Wagon fait escale et publie un premier bilan à mi-parcours"
+  logo: logo-madyness.jpg
+  url: http://www.maddyness.com/startup/2014/02/03/startup-le-wagon-developpeur/
+  media: "Madyness"
+  date: 2014-02-03
+
+- name: "Code is all you need: learn this exciting language at Le Wagon"
+  logo: logo-amusement.jpg
+  url: http://www.amusement.net/2014/01/30/interview-code-is-all-you-need-learn-this-exciting-language-at-le-wagon-frances-first-dev-bootcamp-program/
+  media: "Amusement"
+  date: 2014-01-30
+
+- name: "Coder sur le web, une nouvelle affaire de femmes !"
+  logo: logo-businessfeminin.jpg
+  url: http://businessofeminin.com/coder-sur-le-web-une-nouvelle-affaire-de-femmes/
+  media: "Business au Féminin"
+  date: 2014-01-27
+
+- name: "Prenez Le Wagon en marche et devenez développeur en 9 semaines"
+  logo: logo-madyness.jpg
+  url: http://www.maddyness.com/startup/2014/01/20/startup-comment-devenir-developpeur-en-9-semaines/
+  media: "Madyness"
+  date: 2014-01-20
+
+- name: "Demain, savoir programmer sera aussi important que savoir lire et écrire."
+  logo: logo-startupeers.jpg
+  url: http://startupeers.co/demain-savoir-programmer-sera-aussi-important-que-savoir-lire-et-ecrire/
+  media: "Startupeers"
+  date: 2013-12-18
+
+- name: "Devons-nous tous apprendre à coder ?"
+  logo: logo-petitweb.jpg
+  url: http://www.petitweb.fr/actualites/devrions-nous-tous-apprendre-a-coder/
+  media: "Petit Web"
+  date: 2013-12-04
+
+- name: "Prenez Le Wagon en marche et apprenez enfin à coder !"
+  logo: logo-madyness.jpg
+  url: http://www.maddyness.com/outils/2013/10/08/le-wagon/
+  media: "Madyness"
+  date: 2013-10-08
+
+- name: "Interview de Boris Paillard, cofondateur du Wagon"
+  logo: logo-incwo.jpg
+  url: http://blog.incwo.com/articles/2013/07/16/interview-de-boris-paillard-cofondateur-du-wagon
+  media: "Blog INCWO"
+  date: 2013-07-16
+
+- name: "Boris nous présente Le Wagon, cours et bootcamp pour apprendre à coder !"
+  logo: logo-lebusinessplan.jpg
+  url: http://www.lebusinessplan.fr/le-wagon/
+  media: "Lebusinessplan.fr"
+  date: 2013-07-03
+

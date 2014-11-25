@@ -213,3 +213,5 @@ en:
       (code versioning and collaboration techniques on Github,
       continuous deployment and scaling on heroku, management of pictures with
       Amazon S3, automatic mailing with external SMTP like Mandrill, and a lot more..)
+  press:
+    title: Press
