@@ -149,8 +149,9 @@ class App < Sinatra::Base
 
   BOOSTERS.each do |slug, booster|
     get "/programme/#{slug}" do
+      @slug = slug
       @booster = booster
-      @booster_camps = BOOSTER_CAMPS.select { |s, camp| s == slug }
+      @booster_camps = BOOSTER_CAMPS.select { |_, camp| camp[:booster] == slug.to_s }
       @city = CITIES[booster[:city].to_sym]
       I18n.locale = :fr
       erb :booster
@@ -224,6 +225,18 @@ class App < Sinatra::Base
         puts e
       end
       redirect thanks_path + "?camp=#{params[:camp]}"
+    end
+  end
+
+  post '/booster_apply' do
+    if params[:booster_camp]
+      booster_camp = BOOSTER_CAMPS[params[:booster_camp].to_sym]
+      params[:city] = booster_camp[:city]
+
+    elsif params[:booster]
+
+    else
+      # TODO: error
     end
   end
 

@@ -205,27 +205,33 @@
           </div>
         </div>
 
-        <div class="form-group">
-          <label><%= t "apply.form.choose_camp" %></label>
-          <% BOOSTER_CAMPS.each do |slug, camp| %>
-            <div class="radio">
-              <label>
-                <input type="radio" name="camp" value="<%= slug %>" required>
-                <strong><%= camp[:city].capitalize %></strong>,
-                <small>
-                  <% format = camp[:start_date].year == Time.now.year ? :short : :long %>
-                  <%= t "apply.form.choose_camp_radio_label_html",
-                        start_date: l(camp[:start_date], format: format),
-                        end_date: l(camp[:end_date], format: format) %>
-                  <% if camp[:last_seats] %>
-                    <span class="label label-danger"><%= t "apply.form.last_seats" %></span>
-                  <% end %>
-                </small>
-              </label>
-            </div>
-          <% end %>
-          </label>
-        </div>
+        <% if @booster_camps.any? %>
+          <div class="form-group">
+            <label>
+              <%= t "apply.booster_form.choose_camp", count: @booster_camps.size %>
+            </label>
+            <% @booster_camps.each do |slug, camp| %>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="booster_camp" value="<%= slug %>" required <%= @booster_camps.size == 1 ? 'checked="checked"' : nil %>>
+                  <strong><%= camp[:city].capitalize %></strong>,
+                  <small>
+                    <% format = camp[:start_date].year == Time.now.year ? :short : :long %>
+                    <%= t "apply.form.choose_camp_radio_label_html",
+                          start_date: l(camp[:start_date], format: format),
+                          end_date: l(camp[:end_date], format: format) %>
+                    <% if camp[:last_seats] %>
+                      <span class="label label-danger"><%= t "apply.form.last_seats" %></span>
+                    <% end %>
+                  </small>
+                </label>
+              </div>
+            <% end %>
+            </label>
+          </div>
+        <% else %>
+          <input type="hidden" name="booster" value="<%= @slug %>">
+        <% end %>
 
         <div class="form-group">
           <label for="motivation"><%= t "apply.booster_form.motivation" %></label>
@@ -234,7 +240,11 @@
 
         <div class="form-group">
           <span class="help-block">
-            <%= t "apply.form.price_html", price: 3900 %>
+            <% if params[:price] %>
+              <%= t "apply.form.price_html", price: params[:price] %>
+            <% else %>
+              <%= t "apply.booster_form.no_price_html" %>
+            <% end %>
           </span>
         </div>
 

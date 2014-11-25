@@ -132,6 +132,10 @@ fr:
     lead: "Le Wagon est une formation <strong>exigeante</strong> et personnalisée qui nécessite votre investissement à <strong>temps plein</strong> pendant <strong>9 semaines</strong>. Vous devez être à l'aise pour lire de l'<strong>anglais</strong>, langue technique de référence en programmation."
     booster_form:
       motivation: Qu'attendez-vous de ce Booster?
+      choose_camp:
+        one: "Vous participerez à la session suivante :"
+        other: À quelle session souhaitez-vous participer ?
+      no_price_html: Dès qu'une session est programmée, nous vous contacterons par email.
     form:
       error: Votre demande n'a pas été prise en compte. Merci de bien renseigner tous les champs.
       first_name: Prénom

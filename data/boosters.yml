@@ -1,5 +1,6 @@
 front-end-developer:
   name: Front-End developer
+  price: 990
   launched: true
   pitch: Become an autonomous webdesigner in <strong>one week</strong>.
   page_title: Le Wagon - 1 week camp in web-design
@@ -78,6 +79,7 @@ front-end-developer:
 
 ios-developer:
   name: iOS Man
+  price: 1490
   launched: false
   pitch: TODO
   page_title: TODO

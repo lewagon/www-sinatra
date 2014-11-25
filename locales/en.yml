@@ -123,6 +123,12 @@ en:
     banner: Apply to Le Wagon
     description: Apply to Le Wagon and build amazing products with ruby on Rails in 9 weeks.
     lead: "Le Wagon is a <strong>challenging</strong> program that requires <strong>full-time</strong> investment during <strong>9 weeks</strong>. You should be <strong>fluent in English</strong>, programmer's reference language. Fill the form below to apply."
+    booster_form:
+      motivation: What do you expect from this booster?
+      choose_camp:
+        one: "You'll attend the following session :"
+        other: Which session do you want to attend?
+      no_price_html: We'll reach out to you as soon as a session is scheduled
     form:
       error: We could not take your registration into account. Please fill all fields.
       first_name: Firstname
