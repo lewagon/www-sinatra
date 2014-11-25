@@ -10,7 +10,7 @@ front-end-developer:
     - seb
   city: paris
   trello:
-    lead_list_id: TODO
+    lead_list_id: 543fc881b20374bdafcaf937
   card:
     badge_name: "WEB <br> DESIGNER"
     focus_one: Web-design basics
@@ -87,7 +87,7 @@ ios-developer:
   staff:
   city: paris
   trello:
-    lead_list_id: TODO
+    lead_list_id: 543fc8ba3bfc59d5c0b82c02
   card:
     badge_name: "iOS <br> MAN"
     focus: false
@@ -147,7 +147,7 @@ data-geek:
   staff:
   city: paris
   trello:
-    lead_list_id: TODO
+    lead_list_id: 543fc881b20374bdafcaf939
   card:
     badge_name: "DATA <br> GEEK"
     focus_one: TODO
@@ -206,7 +206,7 @@ product-guru:
   staff:
   city: paris
   trello:
-    lead_list_id: TODO
+    lead_list_id: 543fc881b20374bdafcaf938
   card:
     badge_name: "PRODUCT <br> GURU"
     focus_one: TODO

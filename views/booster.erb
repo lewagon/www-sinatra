@@ -162,7 +162,7 @@
 <div class="container booster-container">
   <div class="row">
     <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-      <h2>Postuler</h2>
+      <h2><%= t "apply.booster_form.title", count: @booster_camps.size %></h2>
       <form action="/booster_apply" method="post" role="form">
         <% if @error %>
         <div class="alert alert-danger" role="alert">
@@ -240,15 +240,17 @@
 
         <div class="form-group">
           <span class="help-block">
-            <% if params[:price] %>
-              <%= t "apply.form.price_html", price: params[:price] %>
+            <% if @booster[:price] %>
+              <%= t "apply.form.price_html", price: @booster[:price] %>
             <% else %>
               <%= t "apply.booster_form.no_price_html" %>
             <% end %>
           </span>
         </div>
 
-        <button class="btn btn-primary red-btn" style="width: 100%"><%= t "apply.form.apply_button" %></button>
+        <button class="btn btn-primary red-btn" style="width: 100%">
+          <%= t "apply.booster_form.apply_button", count: @booster_camps.size %>
+        </button>
       </form>
     </div>
   </div>

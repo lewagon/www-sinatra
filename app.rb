@@ -219,11 +219,7 @@ class App < Sinatra::Base
       camp = CAMPS[params[:camp].to_sym]
       params[:city] = camp[:city]  # For the newsletter
       UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id]).run(params)
-      begin
-        UseCases::SubscribeToNewsletter.new.run(params)
-      rescue Gibbon::MailChimpError => e
-        puts e
-      end
+      subscribe_candidate_to_newsletter
       redirect thanks_path + "?camp=#{params[:camp]}"
     end
   end
@@ -232,11 +228,17 @@ class App < Sinatra::Base
     if params[:booster_camp]
       booster_camp = BOOSTER_CAMPS[params[:booster_camp].to_sym]
       params[:city] = booster_camp[:city]
-
+      UseCases::PushStudentApplicationToTrello.new(booster_camp[:trello][:inbox_list_id]).run(params)
+      subscribe_candidate_to_newsletter
+      redirect thanks_path + "?camp=#{params[:camp]}"
     elsif params[:booster]
-
+      booster = BOOSTERS[params[:booster].to_sym]
+      UseCases::PushStudentApplicationToTrello.new(booster[:trello][:lead_list_id]).run(params)
+      subscribe_candidate_to_newsletter
+      redirect thanks_path + "?camp=#{params[:camp]}"
     else
-      # TODO: error
+      @error = true
+      erb :booster
     end
   end
 
@@ -347,5 +349,13 @@ class App < Sinatra::Base
     # params[:page] = params[:page].nil? ? 1 : params[:page].to_i
     # first = (params[:page] - 1) * 9
     @posts = Blog.new.all#[first...(first + 9)]
+  end
+
+  def subscribe_candidate_to_newsletter
+    begin
+      UseCases::SubscribeToNewsletter.new.run(params)
+    rescue Gibbon::MailChimpError => e
+      puts e
+    end
   end
 end
