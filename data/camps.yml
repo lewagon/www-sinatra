@@ -58,3 +58,9 @@ paris-avril-2015:
   trello:
     inbox_list_id: 54367fcfe0dfe26d509ec183
 
+beirut-january-2015:
+  city: beirut
+  start_date: 2015-01-05
+  end_date: 2015-03-06
+  trello:
+    inbox_list_id: 54367fcfe0dfe26d509ec183
