@@ -12,7 +12,7 @@ front-end-developer:
   trello:
     lead_list_id: 543fc881b20374bdafcaf937
   card:
-    badge_name: "WEB <br> DESIGNER"
+    badge_name: "FRONT-END <br> DEVELOPER"
     focus_one: Web-design basics
     focus_two: HTML, CSS, JS & Bootstrap
     focus_three: Integrating web-services
@@ -77,8 +77,69 @@ front-end-developer:
           - Focus on web-forms
           - Integrating external services (Mailchimp, Formkeep, Facebook/Twitter, Gmaps..)
 
+data-scientist-junior:
+  name: Data Scientist junior
+  price: 990
+  launched: true
+  pitch: Connectez, manipulez et explorez vos propres données en seulement <strong>une semaine</strong>.
+  page_title: Le Wagon - 1 week camp in data-science
+  page_description: Learn all the fundamentals of data-science in an intensive one-week program..
+  staff:
+    - martin
+  city: paris
+  trello:
+    lead_list_id:
+  card:
+    badge_name: "DATA <br> SCIENTIST"
+    focus_one: Récolter des données (API)
+    focus_two: Les manipuler avec Python
+    focus_three: Visualiser & analyser
+    level: Intermédiaire
+    class: yellow1
+    focus: false
+    ribbon: 6 places left
+  description:
+    skills:
+      - name: LOAD
+        details: |
+          <p>Découvrez
+          <strong><a href="http://pandas.pydata.org/">Pandas</a></strong>.
+          Chargez votre premier set de données, comprenez ce qu'est un dataframe, connectez vous à des APIs populaires et des plateformes Open Data</p>
+      - name: REFINE
+        details: |
+          <p>Réalisez vos premières requêtes SQL, devenez un maitre dans la sélection et la transformation des dataframes.</p>
+      - name: VISUALIZE & EXPLORE
+        details: |
+          <p>Domptez la librairie <strong><a href="http://ggplot.yhathq.com/" target="_blank">Ggplot</a></strong> pour réaliser de superbes graphes et explorer rapidement un dataset.</p>
+    schedule:
+      - name: Monday
+        program:
+          - Introduction aux outils et aux enjeux de la Data Science
+          - Installation du setup
+          - Premiers pas avec Python et Pandas
+      - name: Tuesday
+        program:
+          - Introduction aux dataframes
+          - Loader, sélectionner et voir ses données
+          - Se connecter aux principales APIs et plateformes Open Data
+      - name: Wednesday
+        program:
+          - Introduction à SQL
+          - Sélectionner, grouper, transformer
+          - Premiers opérateurs et calcul avec Pandas
+      - name: Thursday
+        program:
+          - Créez de superbes graphes avec ggplot
+          - 10 conseils pour explorer un dataset en un clin d'oeil
+          - Exportez vos données
+      - name: Friday
+        program:
+          - Cas 1 - Déterminer l'âge de votre base de données à partir des simples prénoms de vos utilisateurs
+          - Cas 2 - Prédire le revenu que vous allez faire le prochain mois
+          - Cas 3 - Déterminer les associations de produits les plus fortes à partir d'un historique d'achat
+
 ios-developer:
-  name: iOS Man
+  name: iOS developer
   price: 1490
   launched: false
   pitch: TODO
@@ -89,7 +150,7 @@ ios-developer:
   trello:
     lead_list_id: 543fc8ba3bfc59d5c0b82c02
   card:
-    badge_name: "iOS <br> MAN"
+    badge_name: "iOS <br> DEVELOPER"
     focus: false
     focus_one: TODO
     focus_two: TODO
@@ -137,68 +198,8 @@ ios-developer:
           - TODO
           - TODO
           - TODO
-
-data-geek:
-  name: Data Geek
-  launched: false
-  pitch: TODO
-  page_title: TODO
-  page_description: TODO
-  staff:
-  city: paris
-  trello:
-    lead_list_id: 543fc881b20374bdafcaf939
-  card:
-    badge_name: "DATA <br> GEEK"
-    focus_one: TODO
-    focus_two: TODO
-    focus_three: TODO
-    level: background in Javascript
-    class: yellow2
-    focus: false
-  description:
-    skills:
-      - name: TODO
-        details: |
-          TODO
-      - name: UI
-        details: |
-          TODO
-      - name: FRONT DEVELOPMENT
-        details: |
-          TODO
-      - name: PROTOTYPING SKILLS
-        details: |
-          TODO
-    schedule:
-      - name: Monday
-        program:
-          - TODO
-          - TODO
-          - TODO
-      - name: Tuesday
-        program:
-          - TODO
-          - TODO
-          - TODO
-      - name: Wednesday
-        program:
-          - TODO
-          - TODO
-          - TODO
-      - name: Thursday
-        program:
-          - TODO
-          - TODO
-          - TODO
-      - name: Friday
-        program:
-          - TODO
-          - TODO
-          - TODO
-
-product-guru:
-  name: Product guru
+product-manager:
+  name: Product manager
   launched: false
   pitch: TODO
   page_title: TODO
