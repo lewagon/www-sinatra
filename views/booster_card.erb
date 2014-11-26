@@ -34,29 +34,8 @@
   </div>
 </div>
 
+<%= erb :booster_modal, locals: { slug: slug, booster: booster } %>
 
-<!-- Booster Modal -->
-<div class="modal fade" id="<%= "#{slug}-modal" %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h3 class="modal-title" id="myModalLabel">
-          Pré-inscription "<%= booster[:name]%>"
-        </h3>
-      </div>
-      <div class="modal-body text-center" style="padding-top: 30px;padding-bottom: 50px;">
-        <!-- TODO: link the form to Trello -->
-        <p>Le programme est <strong>limité à 10 inscrits</strong>.</p>
-        <p>N'hésite pas à nous laisser ton mail si tu es intéressé !</p>
-        <br>
-        <form action="#" class="form-inline">
-          <input type="email" class="form-control" placeholder="john.doe@gmail.com">
-          <input type="submit" value="je suis intéressé" class="btn btn-primary">
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 
