@@ -148,9 +148,13 @@
 
       <div class="vertical-spacer"></div>
 
-      <% @booster[:description][:schedule].each do |day| %>
+      <% @booster[:description][:schedule].each_with_index do |day, index| %>
 
-      <div class="row day">
+      <% if index == @booster[:description][:schedule].size - 1 %>
+        <div class="row day-last">
+      <% else %>
+        <div class="row day">
+      <% end %>
         <div class="col-xs-3 pull-left">
           <h3 class="white-bordered"><%= day[:name] %></h3>
         </div>

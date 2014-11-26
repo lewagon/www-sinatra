@@ -2,7 +2,7 @@ front-end-developer:
   name: Front-End developer
   price: 990
   launched: true
-  pitch: Become an autonomous webdesigner in <strong>one week</strong>.
+  pitch: Apprenez à coder et designer votre site en seulemet <strong>une semaine</strong>
   page_title: Le Wagon - 1 week camp in web-design
   page_description: Learn all the fundamentals of web-design in an intensive one-week program. HTML, CSS, Bootstrap, Sketch.. Grab all the tips & tools to be proficient in web-design.
   staff:
@@ -13,13 +13,13 @@ front-end-developer:
     lead_list_id: 543fc881b20374bdafcaf937
   card:
     badge_name: "FRONT-END <br> DEVELOPER"
-    focus_one: Web-design basics
+    focus_one: UI & design web
     focus_two: HTML, CSS, JS & Bootstrap
-    focus_three: Integrating web-services
-    level: beginners
+    focus_three: Integration d'APIs (Wufoo, Mailchimp, Gmaps, Trello..)
+    level: débutants
     class: yellow1
     focus: true
-    ribbon: 6 places left
+    ribbon: plus que 6 places
   description:
     skills:
       - name: DESIGN
@@ -51,31 +51,31 @@ front-end-developer:
           de contact, Google Analytics, Google Maps, et bien d'autres
           services plus sympas les uns que les autres..)</p>
     schedule:
-      - name: Monday
+      - name: Lundi
         program:
-          - UI and UX basics
-          - Picking fonts and color schemes
-          - Designing our own logos & icons with Sketch
-      - name: Tuesday
+          - Base d'UI et d'ergonomie web
+          - Maquetter son site
+          - Choix des polices et des palettes
+      - name: Mardi
         program:
-          - Working with Sublime & Chrome
-          - HTML & CSS fundamentals
-          - Mastering markup
-      - name: Wednesday
+          - Travailler avec Sublime & Chrome
+          - Fondamentaux de HTML & CSS
+          - Maitriser son markup
+      - name: Mercredi
         program:
-          - Bootstrap grid & components
-          - Building your mockup with Bootstrap
-          - The art of choosing the right UI pattern in Bootstrap
-      - name: Thursday
+          - La grille et les composants Bootstrap
+          - Batir une maquette avec Bootstrap
+          - Choisir le bon pattern d'UI
+      - name: Jeudi
         program:
-          - Fine-tuning Bootstrap to apply our own style
-          - Making your site awesome with "design killer touch"
-          - Designing our own logos & icons with Sketch
-      - name: Friday
+          - Customiser Bootstrap avec SASS
+          - Peaufiner ses effets CSS et jQuery
+          - Designer ses logos et badges avec Sketch
+      - name: Vendredi
         program:
-          - Follow your metrics with Google analytics
-          - Focus on web-forms
-          - Integrating external services (Mailchimp, Formkeep, Facebook/Twitter, Gmaps..)
+          - Suivre ses métriques avec Google analytics
+          - Focus sur les formulaires HTML
+          - Brancher des APIs à son site (Mailchimp, Formkeep, Gmaps..)
 
 data-scientist-junior:
   name: Data Scientist junior
@@ -91,16 +91,16 @@ data-scientist-junior:
     lead_list_id:
   card:
     badge_name: "DATA <br> SCIENTIST"
-    focus_one: Récolter des données (API)
-    focus_two: Les manipuler avec Python
-    focus_three: Visualiser & analyser
+    focus_one: Récolter des données
+    focus_two: Les traiter avec Python Pandas
+    focus_three: Visualiser avec d3.js & tirer des enseignements
     level: Intermédiaire
-    class: yellow1
+    class: yellow2
     focus: false
     ribbon: 6 places left
   description:
     skills:
-      - name: LOAD
+      - name: <LOAD></LOAD>
         details: |
           <p>Découvrez
           <strong><a href="http://pandas.pydata.org/">Pandas</a></strong>.
@@ -137,7 +137,6 @@ data-scientist-junior:
           - Cas 1 - Déterminer l'âge de votre base de données à partir des simples prénoms de vos utilisateurs
           - Cas 2 - Prédire le revenu que vous allez faire le prochain mois
           - Cas 3 - Déterminer les associations de produits les plus fortes à partir d'un historique d'achat
-
 ios-developer:
   name: iOS developer
   price: 1490
@@ -152,11 +151,11 @@ ios-developer:
   card:
     badge_name: "iOS <br> DEVELOPER"
     focus: false
-    focus_one: TODO
-    focus_two: TODO
-    focus_three: TODO
-    level: background in CS
-    class: yellow2
+    focus_one: "UI & ergonomie mobile"
+    focus_two: Programmation Swift
+    focus_three: Backend (Parse), géoloc, push, appareil photo..
+    level: background en programmation
+    class: yellow3
     focus: false
   description:
     skills:
@@ -209,12 +208,12 @@ product-manager:
   trello:
     lead_list_id: 543fc881b20374bdafcaf938
   card:
-    badge_name: "PRODUCT <br> GURU"
-    focus_one: TODO
-    focus_two: TODO
-    focus_three: TODO
+    badge_name: "PRODUCT <br> MANAGER"
+    focus_one: MVP (outils & bonnes pratiques)
+    focus_two: Etablir ses métriques et KPIs
+    focus_three: Mesurer et pivoter
     level: beginners
-    class: yellow1
+    class: yellow4
     focus: false
   description:
     skills:
