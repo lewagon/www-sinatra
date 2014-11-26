@@ -200,7 +200,7 @@ alex:
       he now wishes to share his knowledge to help people having tools to build their dreams.
     fr: |
       **Alex** croit en la magie du **code**. Après avoir mis en place plusieurs projets,
-      il souhaite désormais partager ses connaissances pour permettre à tous d'avoir les outils pour 
+      il souhaite désormais partager ses connaissances pour permettre à tous d'avoir les outils pour
       réaliser leurs rêves.
   links:
     - url: https://github.com/agerlic
@@ -301,11 +301,13 @@ costa:
   image_name: costa.jpg
   description:
     fr: |
-      To be filled
+      Constantine is an experienced full-stack developer. He first tasted what big data was like at Sanger Institute, a genome research institute in Cambridge, UK from '08 - '10. He then lead development on the cloud solution for Papers app, Livfe, from '10 to '12. Constantine is now co-founder and CTO at Referd, the business tool for private referrals.
     en: |
-      To be filled
+      Constantine is an experienced full-stack developer. He first tasted what big data was like at Sanger Institute, a genome research institute in Cambridge, UK from '08 - '10. He then lead development on the cloud solution for Papers app, Livfe, from '10 to '12. Constantine is now co-founder and CTO at Referd, the business tool for private referrals.
   links:
     - url: http://bit.ly/cn-linkedin
       icon: linkedin
     - url: http://bit.ly/cn-twitter
       icon: twitter
+    - url: http://referd.net/team#cnicolaou
+      icon: link
