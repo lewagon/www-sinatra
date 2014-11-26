@@ -119,6 +119,7 @@ GEM
     rdoc (4.1.2)
       json (~> 1.4)
     redcarpet (3.1.2)
+    redis (3.1.0)
     rerun (0.10.0)
       listen (~> 2.7, >= 2.7.3)
     rest-client (1.6.8)
@@ -190,6 +191,7 @@ DEPENDENCIES
   rails-assets-jquery
   rails_12factor
   redcarpet
+  redis
   rerun
   ruby-trello!
   sinatra

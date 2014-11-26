@@ -8,6 +8,7 @@ gem 'sinatra-contrib'
 gem 'rack-contrib'
 gem 'i18n'
 gem 'builder'
+gem 'redis'
 
 gem 'autoprefixer-rails'
 
