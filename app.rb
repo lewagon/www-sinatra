@@ -11,6 +11,7 @@ require 'builder'
 
 require_relative 'lib/data'
 require_relative 'lib/blog'
+require_relative 'lib/cache'
 
 require_relative "use_cases/push_student_application_to_trello"
 require_relative "use_cases/subscribe_to_newsletter"
@@ -297,17 +298,22 @@ class App < Sinatra::Base
     if @city[:meetup_id]
       begin
         api = MeetupApi.new
-        @meetup = api.groups(group_id: @city[:meetup_id])["results"].first
-        @meetup.extend DeepSymbolizable
-        @meetup = @meetup.deep_symbolize { |key| key }
-        @meetup_events = api.events(group_id: @city[:meetup_id])["results"].select { |m| m["status"] == "upcoming" }
-        @meetup_events = @meetup_events.map do |event|
-          event.extend DeepSymbolizable
-          event.deep_symbolize { |key| key }
+        @meetup = $redis.cache("meetup:#{@city[:meetup_id]}", 300) do
+          meetup = api.groups(group_id: @city[:meetup_id])["results"].first
+          meetup.extend DeepSymbolizable
+          meetup.deep_symbolize { |key| key }
         end
-      rescue
+
+        @meetup_events = $redis.cache("meetups:#{@city[:meetup_id]}", 300) do
+          meetup_events = api.events(group_id: @city[:meetup_id])["results"].select { |m| m["status"] == "upcoming" }
+          meetup_events.map do |event|
+            event.extend DeepSymbolizable
+            event.deep_symbolize { |key| key }
+          end
+        end
+      rescue Exception => e
         @meetup_events = []
-        puts "No Meetup Found"
+        puts e
       end
     end
   end
