@@ -69,20 +69,16 @@ namespace :trello do
   end
 
   task :emails do
-    require 'csv'
-    CSV_FILE = 'students.csv'
-
     configure_trello
 
     Trello::Board.all.select { |b| b.organization_id == WAGON_TRELLO_ORG_ID } .each do |board|
       board.lists.each do |list|
         if list.name.match(/\AGO/)
-          puts "extracting #{list.cards.count} emails from list #{list.name}.."
-          CSV.open(CSV_FILE, 'a') do |csv|
-            list.cards.each do |card|
-              csv << [card.name, list.name]
-            end
+          puts "# #{board.name}"
+          list.cards.each do |card|
+            puts card.name
           end
+          puts ""
         end
       end
     end
