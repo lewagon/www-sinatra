@@ -16,13 +16,17 @@
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       <% ARTICLES.each_with_index do | article, index| %>
-        <div class="col-md-12 data-article">
+        <div class="row">
           <div class="col-md-2">
-              <a class="title" href="<%= article[:url]%>"><img class="logo" src="<%= image_path "medias/#{article[:logo]}" %>" alt="<%= article[:name] %>"></a>
+            <div class="logo">
+              <a href="<%= article[:url]%>"><img src="<%= image_path "medias/#{article[:logo]}" %>" alt="<%= article[:name] %>"></a>
+            </div>
           </div>
-          <div class="col-md-10 press-article">
-            <a class="title" href="<%= article[:url]%>"><%= article[:name]%></a></p>
-            <p class="published"><%= article[:date].strftime("%d %b %Y") %> - <%= article[:media] %></p>
+          <div class="col-md-10">
+            <div class="data">
+              <a class="title" href="<%= article[:url]%>"><%= article[:name]%></a></p>
+              <p class="published"><%= article[:date].strftime("%d %b %Y") %> - <%= article[:media] %></p>
+            </div>
           </div>
         </div>
       <% end %>

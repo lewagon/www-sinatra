@@ -31,28 +31,38 @@ body.press { background-color: #fff; }
     z-index: 10;
   }
 
-  .data-article {
-    margin: 10px 0;
+  .data {
+    margin-top: 20px;
   }
 
   .logo {
-    display: block;
-    margin: 0 auto 10px auto;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    border: 1px solid #ebebeb;
-    box-shadow: 0px 0px 10px #f4f4f4;
+    img {
+      display: block;
+      margin: 0 auto 0 auto;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 1px solid #ebebeb;
+      box-shadow: 0px 0px 10px #f4f4f4;
+    }
+    border-right: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: $screen-md) {
+    .logo {
+      border: none;
+    }
+    .data {
+      text-align: center;
+      margin-bottom: 20px;
+    }
   }
 
   .published {
     font-style: italic;
     font-size: 13px;
     color: #6E6E6E;
-  }
-
-  .press-article {
-    border-left: 1px solid #cdcdcd;
   }
 
   .title {
