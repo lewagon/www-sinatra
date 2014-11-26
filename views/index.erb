@@ -69,6 +69,29 @@
 
 <div class="vertical-spacer"></div>
 
+<div class="container text-center media">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="col-inner-md-padded">
+        <h2 class="star-title">
+          <span>
+            <img src="<%= image_path 'icons/star.svg' %>" alt="star" class="inline-img">
+            <%= t "home.media" %>
+            <img src="<%= image_path 'icons/star.svg' %>" alt="star" class="inline-img">
+          </span>
+        </h2>
+        <% MEDIAS.each_with_index do | media, index| %>
+        <div class="col-md-2 col-xs-4">
+          <a href="<%= media[:url]%>"><img class="logo" src="<%= image_path "medias/#{media[:logo]}" %>" alt="<%= media[:name] %>"></a>
+        </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="vertical-spacer"></div>
+
 <div class="container text-center">
   <%= erb :testimonials %>
 

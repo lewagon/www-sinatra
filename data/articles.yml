@@ -1,3 +1,9 @@
+- name: "Crunch moi grand fou !"
+  logo: logo-techcrunch.jpg
+  url: http://techcrunch.com/europe/
+  media: "Tech Crunch"
+  date: 2014-11-27
+
 - name: "Passe ton code d'abord !"
   logo: logo-nouvelobs.jpg
   url: https://twitter.com/Lewagonparis/status/535370339262672897

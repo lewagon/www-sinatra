@@ -17,5 +17,6 @@ SUBVENTIONS = load(:subventions)
 CAMPS = load(:camps)
 AUTHORS = load(:authors)
 ARTICLES = load(:articles)
+MEDIAS = load(:medias)
 
 CAMPS.delete(:test) if ENV['RACK_ENV'] == 'production'
