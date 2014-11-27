@@ -68,6 +68,24 @@
     <input type="hidden" name="booster" value="<%= @slug %>">
   <% end %>
 
+  <% if booster[:trello] && booster[:trello][:additional_questions] %>
+    <% booster[:trello][:additional_questions].each_with_index do |question, index| %>
+      <div class="form-group">
+        <label for="additional_question_<%= index %>"><%= question[:text] %></label>
+        <input type="hidden" name="additional_questions[<%= index %>][question]" value="<%= question[:text] %>">
+        <% if question[:choices] %>
+          <select class="form-control" name="additional_questions[<%= index %>][answer]" id="additional_question_<%= index %>">
+          <% question[:choices].each do |choice| %>
+            <option><%= choice %></option>
+          <% end %>
+          </select>
+        <% else %>
+          <textarea class="form-control" name="additional_questions[<%= index %>][answer]" id="additional_question_<%= index %>" rows="4" required></textarea>
+        <% end %>
+      </div>
+    <% end %>
+  <% end %>
+
   <div class="form-group">
     <label for="motivation"><%= t "apply.booster_form.motivation" %></label>
     <textarea class="form-control" name="motivation" id="motivation" rows="4" required><%= params[:motivation] %></textarea>

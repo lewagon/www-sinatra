@@ -88,7 +88,17 @@ data-scientist-junior:
     - martin
   city: paris
   trello:
-    lead_list_id:
+    lead_list_id: 543fc881b20374bdafcaf939
+    additional_questions:
+      - text: Quel est votre niveau en Python ?
+        choices:
+          - Débutant
+          - Intermédiaire
+          - Avancé
+      - text: Avez-vous déjà suivi une formation data ?
+        choices:
+          - Oui
+          - Non
   card:
     badge_name: "DATA <br> SCIENTIST"
     focus_one: Récolter des données
@@ -137,6 +147,7 @@ data-scientist-junior:
           - Cas 1 - Déterminer l'âge de votre base de données à partir des simples prénoms de vos utilisateurs
           - Cas 2 - Prédire le revenu que vous allez faire le prochain mois
           - Cas 3 - Déterminer les associations de produits les plus fortes à partir d'un historique d'achat
+
 ios-developer:
   name: iOS developer
   price: 1490

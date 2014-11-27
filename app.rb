@@ -227,6 +227,11 @@ class App < Sinatra::Base
   end
 
   post '/booster_apply' do
+    if params[:additional_questions]
+      questions = params[:additional_questions].values.map { |e| "- #{e[:question]} : #{e[:answer]}" }.join("\n")
+      params[:motivation] = [ questions, params[:motivation] ].join("\n\n")
+    end
+
     if params[:booster_camp]
       booster_camp = BOOSTER_CAMPS[params[:booster_camp].to_sym]
       params[:city] = booster_camp[:city]
