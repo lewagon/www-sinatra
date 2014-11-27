@@ -195,7 +195,7 @@
   url: https://github.com/laurenc
   project:
     name: Bouquet
-    url: http://bouquet.herokuapp.com
+    url: http://www.bouquetapp.com
     image_name: bouquet-landing.jpg
     teaser:
       fr: Une appli iOS pour livrer de beaux bouquets en moins de 4h à Paris.
@@ -206,7 +206,7 @@
   links:
     - url: https://github.com/laurenc
       icon: github-alt
-    - url: http://bouquet.herokuapp.com
+    - url: http://www.bouquetapp.com
       icon: link
 
 - name: Emmanuel Louisy-Gabriel
