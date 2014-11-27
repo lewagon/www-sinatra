@@ -1,6 +1,6 @@
 front-end-developer:
   name: Front-End developer
-  price: 990
+  price: 1290
   launched: true
   pitch: Apprenez à coder et designer votre site en seulemet <strong>une semaine</strong>
   page_title: Le Wagon - 1 week camp in web-design
@@ -13,54 +13,56 @@ front-end-developer:
     lead_list_id: 543fc881b20374bdafcaf937
   card:
     badge_name: "FRONT-END <br> DEVELOPER"
-    focus_one: UI & design web
-    focus_two: HTML, CSS, JS & Bootstrap
-    focus_three: Integration d'APIs (Wufoo, Mailchimp, Gmaps, Trello..)
+    focus_one: <strong>Ergonomie</strong>, <strong>UI</strong> & <strong>design</strong> web
+    focus_two: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JS</strong> & <strong>Bootstrap</strong>
+    focus_three: Integration d'<strong>APIs</strong> (Wufoo, Mailchimp, Gmaps, Trello..)
     level: débutants
     class: yellow1
     focus: true
     ribbon: plus que 6 places
   description:
     skills:
+      - name: UI
+        details: |
+          <p>Forger votre culture en <a href="https://goodui.org/" target="_blank">UI</a> (User-Interface) et en ergonomie web
+          pour donner sens à votre contenu en intégrant les bons
+          <a href="http://patterntap.com" target="_blank"><i>patterns</i></a>
+          (<i>modal</i>, <i>drop-down</i>, <i>tabs</i>, <i>panels</i> de pricing..).
+          </p><br><p>Pour chaque cas d'usage, connaître le meilleur pattern d'UI. Éprouvé, reconnu, permettant de déclencher le <i>call-to-action</i></p>
       - name: DESIGN
         details: |
           <p>Définir votre charte de polices et de couleurs avec
           <strong><a href="https://color.adobe.com/fr/">kuler</a></strong>,
           <strong><a href="https://www.google.com/fonts">google fonts</a></strong>,
           <strong><a href="http://fontface.ninja/" target="_blank">fontface ninja</a></strong>
-          et bien d'autres outils. Dénicher des polices plus avancées.</p>
-      - name: UI
-        details: |
-          <p>Forger votre culture en UI (User-Interface)
-          pour donner sens à votre contenu en intégrant les bons
-          <a href="http://patterntap.com" target="_blank"><i>patterns</i></a>
-          (<i>modal</i>, <i>drop-down</i>, <i>tabs</i>, <i>panels</i> de pricing..).
-          </p><br><p>Pour chaque cas d'usage, connaître le meilleur pattern d'UI. Éprouvé, reconnu, permettant de déclencher le <i>call-to-action</i></p>
+          et bien d'autres outils. Dénicher des polices plus avancées. Designer ses logos et ses badges avec <a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a></p>.
+          Faire de la veille sur <a href="http://oozled.com/" target="_blank">les dernières ressources</a> de design.
       - name: FRONT DEVELOPMENT
         details: |
-          <p>Maîtrisez HTML / CSS pour savoit passer du <i>print</i>
+          <p>Maîtrisez HTML / CSS pour savoir passer du <i>print</i>
           au <i>web</i>.</p><br>
           <p>Vous approprier <strong><a href="http://getbootstrap.com" target="_blank">Bootstrap</a></strong>,
           lirairie CSS de prototypage par excellence et savoir personnaliser
-          les styles de Bootstrap pour mettre votre cachet sur votre site.</p>
+          les styles de Bootstrap avec les <i>best practices</i> (i.e. avec <a href="http://sass-lang.com/">SASS</a>), pour mettre votre cachet sur votre site.</p>
+          <p>Avoir les bases en javascript et jQuery pour ajouter des animations efficaces à son site (changement de navbar au scroll, modal, arrière-plan dynamique, etc..)</p>
       - name: PROTOTYPING SKILLS
         details: |
           <p>Intégrer des APIs et services web pour rendre
           votre site interactif, suivre son audience et y adosser
-          des "mini-backends" (newlsetter, système de commentaire, formulaire
+          des "mini-backends" (newlsetter, système de commentaire ou de chat, formulaire
           de contact, Google Analytics, Google Maps, et bien d'autres
-          services plus sympas les uns que les autres..)</p>
+          services plus chouettes les uns que les autres..)</p>
     schedule:
       - name: Lundi
         program:
           - Base d'UI et d'ergonomie web
-          - Maquetter son site
-          - Choix des polices et des palettes
+          - Maquetter son site & designer ses logos et badges avec Sketch
+          - Choix des polices et des palettes chromatiques
       - name: Mardi
         program:
           - Travailler avec Sublime & Chrome
-          - Fondamentaux de HTML & CSS
-          - Maitriser son markup
+          - Fondamentaux de HTML, CSS & javascript
+          - Animations avec jQuery
       - name: Mercredi
         program:
           - La grille et les composants Bootstrap
@@ -93,7 +95,7 @@ data-scientist-junior:
       - text: Quel est votre niveau en Python ?
         choices:
           - Débutant
-          - Intermédiaire
+          - intermédiaire (codecademy en Python)
           - Avancé
       - text: Avez-vous déjà suivi une formation data ?
         choices:
@@ -101,9 +103,9 @@ data-scientist-junior:
           - Non
   card:
     badge_name: "DATA <br> SCIENTIST"
-    focus_one: Récolter des données
-    focus_two: Les traiter avec Python Pandas
-    focus_three: Visualiser avec d3.js & tirer des enseignements
+    focus_one: Récolter la donnée (<strong>API, scraping</strong>)
+    focus_two: Les traiter avec <strong>Python Pandas</strong>
+    focus_three: Visualiser avec <strong>d3.js</strong> & tirer des enseignements
     level: Intermédiaire
     class: yellow2
     focus: false
@@ -167,64 +169,6 @@ ios-developer:
     focus_three: Backend (Parse), géoloc, push, appareil photo..
     level: background en programmation
     class: yellow3
-    focus: false
-  description:
-    skills:
-      - name: TODO
-        details: |
-          TODO
-      - name: TODO
-        details: |
-          TODO
-      - name: TODO
-        details: |
-          TODO
-      - name: TODO
-        details: |
-          TODO
-    schedule:
-      - name: Monday
-        program:
-          - TODO
-          - TODO
-          - TODO
-      - name: Tuesday
-        program:
-          - TODO
-          - TODO
-          - TODO
-      - name: Wednesday
-        program:
-          - TODO
-          - TODO
-          - TODO
-      - name: Thursday
-        program:
-          - TODO
-          - TODO
-          - TODO
-      - name: Friday
-        program:
-          - TODO
-          - TODO
-          - TODO
-product-manager:
-  name: Product manager
-  launched: false
-  pitch: TODO
-  page_title: TODO
-  page_description: TODO
-  staff:
-  city: paris
-  trello:
-    lead_list_id: 543fc881b20374bdafcaf938
-  card:
-    badge_name: "PRODUCT <br> MANAGER"
-    focus_one: MVP (outils & bonnes pratiques)
-    focus_two: Etablir ses métriques et KPIs
-    focus_three: Mesurer et pivoter
-    level: beginners
-    class: yellow4
     focus: false
   description:
     skills:
