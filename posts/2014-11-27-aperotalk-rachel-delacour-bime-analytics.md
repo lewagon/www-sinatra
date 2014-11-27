@@ -1,20 +1,29 @@
 ---
 layout: post
-title: "AperoTalk avec Marc Rougier, Fondateur et Président de Scoop.it"
+title: "AperoTalk avec Rachel Delacour, Co-fondatrice de BIME Analytics"
 author: cedric
 labels:
   - video
   - aperotalk
-thumbnail: thumbnail-aperotalk-marc-rougier.jpg
-description: Pour cette masterclass AperoTalk nous avons reçu Marc Rougier Fondateur et Président de Scoop.it. L'occasion d'échanger sur son parcours d'entrepreneur globetrotter récidiviste et passionné.
+thumbnail: thumbnail-aperotalk-rachel-delacour-bime-analytics.jpg
+description: "Contrôleur de gestion dans une autre vie au sein de grands groupes entre Montpelier et Moscou et fervente utilisatrice de solution de Business Intelligence, Rachel Delacour est partie du constat suivant : les outils de business inteligence sont souvent réservés pour des sociétés de taille importante et très couteuses à mettre en place. Pour changer cela, elle a co-fondé BIME Analytics."
 ---
 
-Adepte du contrôle de gestion dans des grands groupes entre Montpelier et Moscou et fervente utilisatrice de solution de Business Intelligence, Rachel Delacour est partie du constat suivant : les outils de BI sont réservés à une élites, des sociétés de taille importante, sont très complexes et couteuses à mettre en place.
+Contrôleur de gestion dans une autre vie au sein de grands groupes entre Montpelier et Moscou et fervente utilisatrice de solution de Business Intelligence, Rachel Delacour est partie du constat suivant : les outils de *business inteligence* sont souvent réservés pour des sociétés de taille importante et très couteuses à mettre en place. Pour changer cela, elle a co-fondé [Bime Analytics](http://www.bimeanalytics.com/).
 
-Associé à un architecte décisionnel
+<iframe width="750" height="422" src="//www.youtube.com/embed/aF_TzzW1wEg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Toutes les entrepreises ont besoin de ces outils pour prendre des décisions
+### Synopsis
 
-lancé dans l'aventyre Bime Analytics une solution SASS de Business Intelligence B2B qui permet d'extraire et d'analuser toutes les datas d'une entreprises pour les agréger et les analyser sous forme de report dans un dashboard co
+Avec pour ambition d'apporter un service de business intelligence dans les mains du plus grand nombre, elle s'est associée en 2009 à un architecte décisionnel afin de créer BIME Analytics. En utilisant la force du cloud pour réduire les coûts d'accès et d'intégration de ce service, ils ont mit au point une solution SASS pour extraire et analyser en profondeur toutes les datas d'une entreprises sous forme de reports présentés dans un dashboard consultable depuis n'importe quel navigateur web.
 
-Des interfaces qui vont se plugger sur les différentes sources de données de l'entreprise afin d'en extraire des analyses
+Malgré les réticences des principaux acteurs et consommateurs Français sur ce marché, l'ouverture de sa plateforme aux Etats-Unis permettra à cette startup Monpeliéraine de se développer et de commencer à exercer ses premiers effets de levier avec des Business Angels en Californie. Graçe à un marketing et une excécution finement maîtrisés, BEAM est invité sur scène au [Google IO](https://www.google.com/events/io) et participera à de nombreux events [GIGAOM](https://events.gigaom.com/) afin de présenter sa techno avant d'installer ses pôles Sales & Marketing dans la [Silicon Prairie](http://siliconprairienews.com/) (Missouri) et de lever 4 millions de dollards.
+
+Après l'obtention très rapide d'une validation produit et technologique auprès de son marché et fidèle à son ambition de départ, BEAM travaille aujourd'hui avec plusieurs gouvernements anglo-saxons comme avec de jeunes startups. Pour en savoir plus, consultez la vidéo ci-dessus !
+
+### Liens utiles
+
+- [Beam Analytics](http://www.bimeanalytics.com/)
+- [@BIME_Rachel](https://twitter.com/bime_rachel)
+
+Ne ratez plus un seul de nos événements #Tech et rejoignez [la communauté Meetup du Wagon](http://www.meetup.com/Le-Wagon-Paris-Coding-Station/)
