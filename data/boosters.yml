@@ -78,7 +78,6 @@ front-end-developer:
           - Suivre ses métriques avec Google analytics
           - Focus sur les formulaires HTML
           - Brancher des APIs à son site (Mailchimp, Formkeep, Gmaps..)
-
 data-scientist-junior:
   name: Data Scientist junior
   price: 990
@@ -103,7 +102,7 @@ data-scientist-junior:
           - Non
   card:
     badge_name: "DATA <br> SCIENTIST"
-    focus_one: Récolter la donnée (<strong>API, scraping</strong>)
+    focus_one: Récolter ses données (<strong>API, scraping</strong>)
     focus_two: Les traiter avec <strong>Python Pandas</strong>
     focus_three: Visualiser avec <strong>d3.js</strong> & tirer des enseignements
     level: Intermédiaire
@@ -112,7 +111,7 @@ data-scientist-junior:
     ribbon: 6 places left
   description:
     skills:
-      - name: <LOAD></LOAD>
+      - name: LOAD
         details: |
           <p>Découvrez
           <strong><a href="http://pandas.pydata.org/">Pandas</a></strong>.
@@ -120,9 +119,11 @@ data-scientist-junior:
       - name: REFINE
         details: |
           <p>Réalisez vos premières requêtes SQL, devenez un maitre dans la sélection et la transformation des dataframes.</p>
-      - name: VISUALIZE & EXPLORE
+      - name: VISUALIZE
         details: |
           <p>Domptez la librairie <strong><a href="http://ggplot.yhathq.com/" target="_blank">Ggplot</a></strong> pour réaliser de superbes graphes et explorer rapidement un dataset.</p>
+      - name: EXPLORE
+        details:
     schedule:
       - name: Monday
         program:
@@ -164,10 +165,10 @@ ios-developer:
   card:
     badge_name: "iOS <br> DEVELOPER"
     focus: false
-    focus_one: "UI & ergonomie mobile"
-    focus_two: Programmation Swift
-    focus_three: Backend (Parse), géoloc, push, appareil photo..
-    level: background en programmation
+    focus_one: "<strong>UI</strong> & <strong>ergonomie</strong> mobile"
+    focus_two: Programmation <strong>Swift</strong>
+    focus_three: Gestion du backend, fonctionnalités mobiles (géoloc, push, photo..)
+    level: background en CS
     class: yellow3
     focus: false
   description:

@@ -92,6 +92,11 @@ fr:
     coders_trained_at_lewagon: Codeurs formés au Wagon
     program_in_details_uppercase: Programme fullstack en détails
     see_the_projects: Voir les projets
+    boosters_pitch: |
+      Les boosters sont des programmes d'accélération d'<strong>une semaine</strong>
+      sur des thématiques précises (<strong>webdesign</strong>,
+      <strong>data science</strong>, <strong>développement iOS</strong>). Certains d'entre
+      eux nécessitent des pré-requis techniques.
     events_by_le_wagon: |
       Se former en douze samedis au web-design. Passer quinze jours dans
       une surfhouse avec des développeurs pro. Prendre des cours en ligne de front-end.

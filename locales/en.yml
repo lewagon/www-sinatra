@@ -87,6 +87,12 @@ en:
     coders_trained_at_lewagon: Developers already trained at Le Wagon
     program_in_details_uppercase: THE FULLSTACK PROGRAM
     see_the_projects: See all student projects
+    boosters_pitch: |
+      Our workshops are technical boosters of <strong>1-week</strong>
+      to improve your skills in specific fields (<strong>webdesign</strong>,
+      <strong>data analysis & visualisation</strong>, <strong>UX</strong>,
+      <strong>iOS</strong>). Some of these programs may have technical
+      pre-requisites.
     events_by_le_wagon: |
       12 day-long training in web-design. Surf & Code 2-week program to work on real projects with professional
       developers in an outstanding environment. Online front-end courses. Entrepreneur’s masterclasses every Thursday evening.
