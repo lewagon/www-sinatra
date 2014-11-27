@@ -115,6 +115,7 @@ en:
       Best practices of web development (<strong>Github workflow</strong>, code versioning,
       <strong>continuous deployment on Heroku</strong>, pictures management on <strong>Amazon S3</strong>,
       automatic mailing with external SMTP like <strong>Mandrill</strong>, etc)
+    media: They talk about us
   blog:
     read_article: Read the article
     written: "Written by <a href='%{href}'>%{author}</a> on %{date}"
@@ -213,3 +214,5 @@ en:
       (code versioning and collaboration techniques on Github,
       continuous deployment and scaling on heroku, management of pictures with
       Amazon S3, automatic mailing with external SMTP like Mandrill, and a lot more..)
+  press:
+    title: Press

@@ -77,6 +77,7 @@ class App < Sinatra::Base
     thanks: { view: :thanks, locale_path: { en: '/thanks', fr: '/merci' }},
     program: { view: :programme, locale_path: { en: '/program', fr: '/programme' }},
     alumni: { view: :alumni, path: '/alumni' },
+    press: { view: :presse, locale_path: { en: '/press', fr: '/presse' }},
     faq: { view: :faq, path: '/faq' }
   }
 
@@ -89,6 +90,15 @@ class App < Sinatra::Base
       @city = CITIES[:paris]
       find_meetup
       erb :index
+    end
+  end
+
+  PAGES[:press][:locale_path].each do |locale, path|
+    get path do
+      I18n.locale = locale
+      @body_class = 'press'
+      @press = params[:press] ? PRESS[params[:press].to_sym] : nil
+      erb :press
     end
   end
 

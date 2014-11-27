@@ -1,0 +1,23 @@
+- name: "Tech Crunch"
+  logo: logo-techcrunch.jpg
+  url: http://techcrunch.com/2014/11/27/le-wagon-is-an-impressive-french-coding-bootcamp-for-entrepreneurs/
+
+- name: "Le Journal du net"
+  logo: logo-jdn.jpg
+  url: http://www.journaldunet.com/web-tech/start-up/le-wagon-apprentissage-code-entrepreneurs.shtml
+
+- name: "L'Obs"
+  logo: logo-nouvelobs.jpg
+  url: https://twitter.com/Lewagonparis/status/535370339262672897
+
+- name: "Rude Baguette"
+  logo: logo-rudebaguette.jpg
+  url: http://www.rudebaguette.com/2014/02/06/frances-startup-scene-tackles-question-can-teach-someone-entrepreneur/
+
+- name: "Madyness"
+  logo: logo-madyness.jpg
+  url: http://www.maddyness.com/startup/2014/02/03/startup-le-wagon-developpeur/
+
+- name: "Business au Féminin"
+  logo: logo-businessfeminin.jpg
+  url: http://businessofeminin.com/coder-sur-le-web-une-nouvelle-affaire-de-femmes/
