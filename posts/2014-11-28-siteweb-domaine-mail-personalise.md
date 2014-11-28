@@ -8,7 +8,7 @@ thumbnail: thumbnail-tuto-url-custom.jpg
 description: "Après avoir publié votre premier site web via GitHub Pages, nous vous proposons maintenant d'apprendre à personnaliser votre nom de domaine ainsi que votre adresse mail de contact."
 ---
 
-Après avoir publié votre premier site web via GitHub Pages il vous fait désormais personnaliser votre nom de domaine afin d'obtenir une url de la forme ```www.votreprojet.com```. Afin de mieux comprendre les différentes étapes, nous verrons comment fonctionne votre navigateur web avant de se diriger vers OVH pour l'achat de votre nom de domaine et enfin de configurer l'ensemble.
+Après avoir publié votre premier site web via GitHub Pages il vous faut désormais personnaliser votre nom de domaine afin d'obtenir une url de la forme ```www.votreprojet.com```. Afin de mieux comprendre les différentes étapes, nous verrons comment fonctionne votre navigateur web avant de se diriger vers OVH pour l'achat de votre nom de domaine et enfin de configurer l'ensemble.
 
 ### Comment fonctionne votre navigateur web ?
 
@@ -73,11 +73,11 @@ Dans le formulaire suivant :
 
 Dans un second temps, ouvrez Sublime Text ou n'importe quel autre éditeur de texte de votre choix et créez un dossier ```CNAME``` à la racine de votre projet puis écrivez le nom de domaine que vous avez choisi sur la première ligne.
 
-Sauvegardez puis retournez sur l'application GitHub for Mac. Le fichier CNAME devrait être visible dans la zone dédiée aux changements éffectués localement. Commitez puis synchronisez. Afin de vérifier que le fichier est bien été envoyé, n'hésitez pas à jeter un oeil sur votre *repository* en ligne.
+Sauvegardez puis retournez sur l'application GitHub for Mac. Le fichier CNAME devrait être visible dans la zone dédiée aux changements éffectués localement. Commitez puis synchronisez. Afin de vérifier que le fichier a bien été envoyé, n'hésitez pas à jeter un oeil sur votre *repository* en ligne.
 
 ![Configuration du CNAME](blog_image_path tuto-configuration-cname.jpg)
 
-Vous n'avez plus qu'à attendre que tous ces changements soient pris en compte. Rafraîchissez ensuite la page de votre navigateur pointant vers votre nouvelle url afin de vérifier que tout fonctionne ! Félicitations, votre site est hébergé et bénéficie désormais de son propore nom de domaine !
+Vous n'avez plus qu'à attendre que tous ces changements soient pris en compte. Rafraîchissez ensuite la page de votre navigateur pointant vers votre nouvelle url afin de vérifier que tout fonctionne ! Félicitation, votre site est hébergé et bénéficie désormais de son propore nom de domaine !
 
 ### Votre adresse contact@nomdedomaine.fr
 
@@ -91,7 +91,7 @@ Ajoutez une redirection et remplissez le formulaire en précisant dans le premie
 
 ![Configuration d'un mail perso - étape 2](blog_image_path tuto-mail-configuration-2.jpg)
 
-Attendez quelques minutes afin que ces derniers changements soient pris en compte et faite un teste en vous envoyant un mail à contact@votrenomdedomaine.fr - si vous avez respecté toutes les étapes ci-dessus alors vous devriez recevoir le message dans votre boîte mail en quelques secondes.
+Attendez quelques minutes afin que ces derniers changements soient pris en compte et faites un test en vous envoyant un mail à contact@votrenomdedomaine.fr - si vous avez respecté toutes les étapes ci-dessus alors vous devriez recevoir le message dans votre boîte mail en quelques secondes.
 
 Dans un prochain tuto, nous verrons comment intégrer très simplement un formulaire de contact sur votre site. Pour ceux qui souhaiteraient prendre un peu d'avance, n'hésitez pas à jeter un oeil sur [Form Keep](https://formkeep.com/) ou [Brace Form](http://forms.brace.io/?redirected=yes).
 
