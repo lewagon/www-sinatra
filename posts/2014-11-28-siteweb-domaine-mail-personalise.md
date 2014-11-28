@@ -52,18 +52,19 @@ Une fois le paiement terminé, attendez quelques minutes avant de recevoir votre
 
 En premier lieu, rendez-vous sur le [Manager OVH](https://www.ovh.com/manager/web/login/). Connectez-vous grace à votre identifiant et mot de passe.
 
-Cliquez ensuite sur votre nouveau **nom de domaine** dans la colonne de gauche, puis sur l'onglet **DNS Zone**. Dirigez-vous ensuite sur le bouton **Add an entry**.
+Cliquez ensuite sur votre nouveau **nom de domaine** dans la colonne de gauche, puis sur l'onglet **DNS Zone**.
 
 ![Configuration des DNS - étape 1](blog_image_path tuto-dns-1.jpg)
 
-Sélectionnez un type de champs de pointage ```CNAME```
+Dans la liste, cherchez l'entrée ```www.votreprojet.com.``` de type **CNAME** et cliquez sur l'icône afin de l'éditer.
 
 ![Configuration des DNS - étape 2](blog_image_path tuto-dns-2.jpg)
 
 Dans le formulaire suivant :
-- Remplissez le champs **Sub-domain** avec ```www```
-- Sélectionnez TTL par défaut
-- **Target** doit pointer vers l'adresse de votre repository Github : ```<votre_username_github>.github.io.```
+
+- Laissez le champs **Sub-domain** avec ```www```
+- Dans le menu déroulant, sélectionnez TTL par défaut
+- Changer le champs **Target** pour le faire pointer vers l'adresse de votre repository Github : ```<votre_username_github>.github.io.```
 
 **important*** Le ```.``` à la fin est fondamental. **Ne l'oubliez pas !**
 
@@ -100,5 +101,5 @@ Dans un prochain tuto, nous verrons comment intégrer très simplement un formul
 - [OVH](https://www.ovh.com/fr/index.xml)
 - [OVH Manager](https://www.ovh.com/manager/web/login/)
 
-NB : Le Wagon n'est en aucun cas affilié à OVH et des alternatives telles que [Gandi](http://www.gandi.net/) et [GoDaddy](https://fr.godaddy.com/) sont toutes aussi efficaces !
+NB : Le Wagon n'est en aucun cas affilié à OVH et une alternative telle que [Gandi](http://www.gandi.net/) est toute aussi efficace !
 
