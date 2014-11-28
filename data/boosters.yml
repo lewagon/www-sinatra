@@ -14,9 +14,9 @@ front-end-developer:
   card:
     badge_name: "FRONT-END <br> DEVELOPER"
     focus_one: <strong>Ergonomie</strong>, <strong>UI</strong> & <strong>design</strong> web
-    focus_two: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JS</strong> & <strong>Bootstrap</strong>
+    focus_two: <strong>HTML</strong>, <strong>CSS</strong>, <strong>jQuery</strong> & <strong>Bootstrap</strong>
     focus_three: Integration d'<strong>APIs</strong> (Wufoo, Mailchimp, Gmaps, Trello..)
-    level: débutants
+    level: débutant
     class: yellow1
     focus: true
     ribbon: plus que 6 places
@@ -105,7 +105,7 @@ data-scientist-junior:
     focus_one: Récolter ses données (<strong>API, scraping</strong>)
     focus_two: Les traiter avec <strong>Python Pandas</strong>
     focus_three: Visualiser avec <strong>d3.js</strong> & tirer des enseignements
-    level: Intermédiaire
+    level: intermédiaire
     class: yellow2
     focus: false
     ribbon: 6 places left
@@ -168,7 +168,7 @@ ios-developer:
     focus_one: "<strong>UI</strong> & <strong>ergonomie</strong> mobile"
     focus_two: Programmation <strong>Swift</strong>
     focus_three: Gestion du backend, fonctionnalités mobiles (géoloc, push, photo..)
-    level: background en CS
+    level: bases en programmation
     class: yellow3
     focus: false
   description:
