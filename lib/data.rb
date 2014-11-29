@@ -18,5 +18,7 @@ CAMPS = load(:camps)
 AUTHORS = load(:authors)
 BOOSTERS = load(:boosters)
 BOOSTER_CAMPS = load(:booster_camps) || {}
+ARTICLES = load(:articles)
+MEDIAS = load(:medias)
 
 CAMPS.delete(:test) if ENV['RACK_ENV'] == 'production'

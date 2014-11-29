@@ -1,0 +1,39 @@
+<div id="blog-banner" class="sub-banner text-center">
+  <div class="filter">
+    <div class="row">
+      <div class="col-xs-12 center">
+        <div class="vertical-spacer"></div>
+        <h1><%= t "press.title" %></h1>
+        <div class="vertical-spacer"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="vertical-spacer"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <% ARTICLES.each_with_index do | article, index| %>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="logo">
+              <a href="<%= article[:url]%>"><img src="<%= image_path "medias/#{article[:logo]}" %>" alt="<%= article[:name] %>"></a>
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="data">
+              <a class="title" href="<%= article[:url]%>"><%= article[:name]%></a></p>
+              <p class="published"><%= article[:date].strftime("%d %b %Y") %> - <%= article[:media] %></p>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div class="vertical-spacer"></div>
+
+<%= erb :share %>

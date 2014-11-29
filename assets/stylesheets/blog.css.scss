@@ -162,9 +162,7 @@ body.blog { background-color: #fff; }
     z-index: 10;
   }
 
-  .blog-post,
-  .blog-share {
-
+  .blog-post {
     font-size: 1.25em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -197,60 +195,6 @@ body.blog { background-color: #fff; }
       text-align: center;
       font-size: 23px;
       border-left: none;
-    }
-
-  }
-
-  .blog-share {
-    position: relative;
-    background-color: #f2f2f2;
-    margin-bottom: 0;
-    padding: 30px 0;
-
-    p {
-      margin: 1em 0;
-    }
-
-    .row { margin: 0 }
-
-    .share-buttons {
-      margin-top: -15px;
-
-      .fb-like {
-      vertical-align: 13px;
-      }
-    }
-  }
-
-  .blog-share:after {
-    top: 0%;
-    left: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(136, 183, 213, 0);
-    border-top-color: #fff;
-    border-width: 30px;
-    margin-left: -30px;
-  }
-
-  #newsletter-form .subscribe-input {
-    background-color: #fff;
-    width: 270px;
-    line-height: 37px;
-  }
-
-  #newsletter-form .blue-btn {
-    vertical-align: 2px;
-    width: 140px;
-  }
-
-  @media(max-width: $screen-xs-max) {
-    #newsletter-form .blue-btn {
-      margin-top: 20px;
     }
   }
 

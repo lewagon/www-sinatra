@@ -127,6 +127,7 @@ fr:
       authentification, paiement, Oauth, etc.) et la programmation côté navigateur avec
       <strong>JavaScript</strong> et <strong>AJAX</strong>.
     coding_best_practices: "Les <em>best practices</em> de developpement web (<strong>collaboration sur Github</strong>, <em>versionning</em> de code, <strong>déploiement continu sur Heroku</strong>, gestion des photos sur <strong>Amazon S3</strong>, envoi de mail avec SMTP externe comme <strong>Mandrill</strong>, etc.)"
+    media: Ils parlent du Wagon
   blog:
     read_article: Lire l'article
     written: "Écrit par <a href='%{href}'>%{author}</a> le %{date}"
@@ -245,3 +246,5 @@ fr:
       et de collaboration sur Github, déploiement continu et
       scaling d'une application web sur heroku, gestion des
       photos sur Amazon S3, etc.)
+  press:
+    title: Presse
