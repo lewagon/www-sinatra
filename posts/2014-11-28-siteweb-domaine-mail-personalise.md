@@ -8,7 +8,7 @@ thumbnail: thumbnail-tuto-url-custom.jpg
 description: "Après avoir publié votre premier site web via GitHub Pages, nous vous proposons maintenant d'apprendre à personnaliser votre nom de domaine ainsi que votre adresse mail de contact."
 ---
 
-Après avoir publié [votre premier site web via GitHub Pages](http://www.lewagon.org/blog/publier-site-github-pages) il vous faut désormais personnaliser votre nom de domaine afin d'obtenir une url de la forme ```www.votreprojet.com```. Afin de mieux comprendre les différentes étapes, nous verrons comment fonctionne votre navigateur web avant de se diriger vers OVH pour l'achat de votre nom de domaine et enfin de configurer l'ensemble.
+Après avoir publié [votre premier site web via GitHub Pages](http://www.lewagon.org/blog/publier-site-github-pages) il vous faut désormais personnaliser votre nom de domaine afin d'obtenir une url de la forme ```http://www.votreprojet.com```. Afin de mieux comprendre les différentes étapes, nous verrons comment fonctionne votre navigateur web avant de se diriger vers OVH pour l'achat de votre nom de domaine et enfin nous le configurerons pour GitHub Pages.
 
 ### Comment fonctionne votre navigateur web ?
 
@@ -16,9 +16,11 @@ DNS (*Domain Name System*), adresse IP, hébergement... Derrière ce vocabulaire
 
 ![How your web browser works](blog_image_path tuto-how-web-browser-works.jpg)
 
+Vous voyez que le DNS joue le rôle d'annuaire, en convertissant un nom de domaine (`www.google.com`) en une adresse IP (`23.45.67.89`). La raison de l'existence d'un tel système est que nous autres humains pouvons facilement retenir et lire un nom de domaine, alors que retenir des numéros (ceux d'une adresse IP) est plus fastidieux. D'ailleurs, lorsque nous utilisons nos téléphones portables, nous ne composons plus de numéro, mais nous cherchons la personne à appeler dans nos contacts (l'annuaire *local* du téléphone).
+
 ### Une nouvelle url ? Mais je possède déjà une url GitHub non ?
 
-Effectivement, une adresse IP est déjà ratachée à votre url GitHub. Une fois votre nouveau nom de domaine associé à l'adresse IP de votre site celui-ci agira comme un *alias* sur l'url GitHub Pages. Ainsi lorsque qu'un nagivateur soumettra la requête ```www.votreprojet.com```, le serveur DNS lui indiquera l'IP de ```VOTRE_NOM_GITHUB.github.io```.
+Effectivement, une adresse IP est déjà ratachée à votre url GitHub Pages. Elle prend la forme `http://VOTRE_NOM_GITHUB.github.io/votreprojet`. Une fois votre nouveau nom de domaine associé à l'adresse IP de votre site celui-ci agira comme un *alias* sur l'url fournie par GitHub Pages. Ainsi lorsque qu'un nagivateur soumettra la requête ```www.votreprojet.com```, le serveur DNS lui indiquera l'IP de ```VOTRE_NOM_GITHUB.github.io```.
 
 ### L'achat de votre nom de domaine
 
@@ -62,9 +64,9 @@ Dans la liste, cherchez l'entrée ```www.votreprojet.com.``` de type **CNAME** e
 
 Dans le formulaire suivant :
 
-- Laissez le champs **Sub-domain** avec ```www```
+- Laissez le champ **Sub-domain** avec ```www```
 - Dans le menu déroulant, sélectionnez TTL par défaut
-- Changer le champs **Target** pour le faire pointer vers l'adresse de votre repository Github : ```<votre_username_github>.github.io.```
+- Changez le champ **Target** pour le faire pointer vers l'adresse de votre repository Github : ```VOTRE_NOM_GITHUB.github.io.```
 
 **important*** Le ```.``` à la fin est fondamental. **Ne l'oubliez pas !**
 
@@ -72,13 +74,13 @@ Dans le formulaire suivant :
 
 ### Configurez votre nouveau nom de domaine sur votre site
 
-Dans un second temps, ouvrez Sublime Text ou n'importe quel autre éditeur de texte de votre choix et créez un fichier ```CNAME``` à la racine de votre projet écrivez le domain (par exemple, www.lagrosselicorne.com).
+Dans un second temps, ouvrez Sublime Text ou n'importe quel autre éditeur de texte de votre choix et créez un fichier ```CNAME``` à la racine de votre projet écrivez le domaine (`www.votreprojet.com`).
 
-Sauvegardez puis retournez sur l'application GitHub for Mac. Le fichier CNAME devrait être visible dans la zone dédiée aux changements éffectués localement. Commitez puis synchronisez. Afin de vérifier que le fichier a bien été envoyé, n'hésitez pas à jeter un oeil sur votre *repository* en ligne. La mise à jour s'éffectue généralement dans un délais de 1s à 10 minutes.
+Sauvegardez puis retournez sur l'application GitHub for Mac. Le fichier `CNAME` devrait être visible dans la zone dédiée aux changements éffectués localement. Commitez puis synchronisez. Afin de vérifier que le fichier a bien été envoyé, n'hésitez pas à jeter un oeil sur votre *repository* en ligne. La mise à jour s'éffectue généralement dans un délais de une seconde à dix minutes.
 
 ![Configuration du CNAME](blog_image_path tuto-configuration-cname.jpg)
 
-Vous n'avez plus qu'à attendre une bonne heure que tous ces changements soient pris en compte. Rafraîchissez ensuite la page de votre navigateur pointant vers votre nouvelle url afin de vérifier que tout fonctionne. Félicitation, votre site est hébergé et bénéficie désormais de son propore nom de domaine !
+Vous n'avez plus qu'à attendre une bonne heure que tous ces changements soient pris en compte. Rafraîchissez ensuite la page de votre navigateur pointant vers votre nouvelle url afin de vérifier que tout fonctionne. Félicitations, votre site est hébergé et bénéficie désormais de son propore nom de domaine !
 
 ### Votre adresse contact@nomdedomaine.fr
 
