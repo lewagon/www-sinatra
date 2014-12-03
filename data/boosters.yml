@@ -86,7 +86,7 @@ data-scientist-junior:
   page_title: Le Wagon - 1 week camp in data-science
   page_description: Learn all the fundamentals of data-science in an intensive one-week program..
   staff:
-    - martin
+    - martindaniel
   city: paris
   trello:
     lead_list_id: 543fc881b20374bdafcaf939
@@ -115,15 +115,19 @@ data-scientist-junior:
         details: |
           <p>Découvrez
           <strong><a href="http://pandas.pydata.org/">Pandas</a></strong>.
-          Chargez votre premier set de données, comprenez ce qu'est un dataframe, connectez vous à des APIs populaires et des plateformes Open Data</p>
+          Chargez votre premier set de données, comprenez ce qu'est un dataframe, connectez vous à des APIs populaires et des plateformes Open Data, ou
+          <i>scraper</i> des données depuis des pages HTML.</p>
       - name: REFINE
         details: |
           <p>Réalisez vos premières requêtes SQL, devenez un maitre dans la sélection et la transformation des dataframes.</p>
       - name: VISUALIZE
         details: |
-          <p>Domptez la librairie <strong><a href="http://ggplot.yhathq.com/" target="_blank">Ggplot</a></strong> pour réaliser de superbes graphes et explorer rapidement un dataset.</p>
+          <p>Domptez la librairie <strong><a href="http://ggplot.yhathq.com/" target="_blank">Ggplot</a></strong>
+          pour réaliser de superbes graphes et explorer rapidement un dataset.
+          Créer des dataviz interactives avec <a href="http://d3js.org/" target="_blank">d3.js</a></p>
       - name: EXPLORE
-        details:
+        details: |
+          <p>Tirer des enseignements "business" de vos analyses.</p>
     schedule:
       - name: Monday
         program:
