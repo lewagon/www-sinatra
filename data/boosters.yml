@@ -80,7 +80,7 @@ front-end-developer:
           - Brancher des APIs à son site (Mailchimp, Formkeep, Gmaps..)
 data-scientist-junior:
   name: Data Scientist junior
-  price: 990
+  price: 1290
   launched: true
   pitch: Connectez, manipulez et explorez vos propres données en seulement <strong>une semaine</strong>.
   page_title: Le Wagon - 1 week camp in data-science
