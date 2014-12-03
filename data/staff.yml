@@ -311,3 +311,14 @@ costa:
       icon: twitter
     - url: http://referd.net/team#cnicolaou
       icon: link
+
+antoine:
+  image_name: antoine.jpg
+  description:
+    fr: |
+      Antoine, ancien étudiant du Wagon Paris, passionné d’entrepreuneuriat et de business développement, a décidé de développer le wagon à Beirut pour la région du Moyen-Orient afin d’y aider l’écosystème des startups.
+    en: |
+      Antoine, a former student of Le Wagon Paris, enthusiastic about entrepreneurial and business development. He has decided to develop the Wagon in the Middle East region, starting from Beirut, to help the startup ecosystem.
+  links:
+    - url: http://fr.linkedin.com/pub/antoine-akel/a2/59a/34a/en
+      icon: linkedin
