@@ -58,6 +58,7 @@ en:
     email_placeholder: your e-mail
     follow_us_button: Follow us
     thank_you: Thanks, see you soon!
+    error: "There's been a glitch: ERROR_MESSAGE"
   testimonials:
     works_at: works at
     founder_of: founder of

@@ -186,11 +186,6 @@ class App < Sinatra::Base
     erb :blog
   end
 
-  get '/blog.js' do
-    fetch_posts
-    erb :posts, layout: false
-  end
-
   # TODO - change the routing once blog is translated..
   get '/en/blog' do
     fetch_posts
@@ -209,17 +204,16 @@ class App < Sinatra::Base
     erb :post
   end
 
-  get '/wufoo.css' do
-    content_type "text/css"
-    expires 3600, :public, :must_revalidate
-    sprockets['wufoo.css'].source
-  end
-
   post '/subscribe' do
     begin
       result = UseCases::SubscribeToNewsletter.new.run(params)
       json :result => result
-    rescue Gibbon::MailChimpError
+    rescue Gibbon::MailChimpError => e
+      if e.message =~ /is already subscribed to the list/
+        json :result => {}
+      else
+        json :error => e.message
+      end
     end
   end
 

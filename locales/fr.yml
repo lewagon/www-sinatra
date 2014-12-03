@@ -57,6 +57,7 @@ fr:
     email_placeholder: votre e-mail
     follow_us_button: Suivez-nous
     thank_you: Merci, à très vite !
+    error: 'Oups, il y a un problème : ERROR_MESSAGE'
   testimonials:
     works_at: travaille chez
     founder_of: fondateur de
