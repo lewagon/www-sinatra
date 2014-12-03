@@ -135,8 +135,14 @@ body{
   }
 }
 
-#newsletter-form-thank-you {
+#newsletter-form-thank-you, #newsletter-form-error {
   display: none;
   margin-bottom: 1em;
   transition: all .3s linear;
+}
+
+
+#newsletter-form-error {
+  color: red;
+  font-weight: bold;
 }
