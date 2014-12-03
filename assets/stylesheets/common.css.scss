@@ -101,7 +101,7 @@ body{
   transition: all .3s linear;
 
   .blue-btn{
-    vertical-align: 0px;
+    vertical-align: baseline;
   }
 
   .subscribe-input{
@@ -110,7 +110,7 @@ body{
     color: black;
     border: 1px solid white;
     border-radius: 2px;
-    line-height: 35px;
+    line-height: 37px;
     padding-left: 10px;
     width: 200px;
     transition: all .3s linear;

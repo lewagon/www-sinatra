@@ -54,6 +54,24 @@
     vertical-align: 11px;
     }
   }
+
+  #newsletter-form .subscribe-input {
+    background-color: #fff;
+    width: 270px;
+    line-height: 37px;
+  }
+
+  #newsletter-form .blue-btn {
+    width: 140px;
+    vertical-align: 2px;
+  }
+
+  @media(max-width: $screen-xs-max) {
+    #newsletter-form .blue-btn {
+      margin-top: 20px;
+    }
+  }
+
 }
 
 .blog-share:after {
@@ -71,19 +89,4 @@
   margin-left: -30px;
 }
 
-#newsletter-form .subscribe-input {
-  background-color: #fff;
-  width: 270px;
-  line-height: 37px;
-}
 
-#newsletter-form .blue-btn {
-  vertical-align: 2px;
-  width: 140px;
-}
-
-@media(max-width: $screen-xs-max) {
-  #newsletter-form .blue-btn {
-    margin-top: 20px;
-  }
-}
