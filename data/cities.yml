@@ -138,6 +138,7 @@ beirut:
   next_session_fragment: beirut-january-2015
   staff:
     - costa
+    - antoine
   partners:
     - altcity
   subventions: # From data/subventions.yml
