@@ -200,7 +200,7 @@ alex:
       he now wishes to share his knowledge to help people having tools to build their dreams.
     fr: |
       **Alex** croit en la magie du **code**. Après avoir mis en place plusieurs projets,
-      il souhaite désormais partager ses connaissances pour permettre à tous d'avoir les outils pour 
+      il souhaite désormais partager ses connaissances pour permettre à tous d'avoir les outils pour
       réaliser leurs rêves.
   links:
     - url: https://github.com/agerlic
@@ -296,3 +296,24 @@ archibald:
       icon: twitter
     - url: http://bigint.fr/
       icon: link
+martindaniel:
+  image_name: martin_daniel.jpg
+  description:
+    fr: |
+       Après 3 ans dédiés à la formation en tant que directeur pédagogique d’une école d’ingénieurs informatiques,
+       <strong>Jean-Christophe</strong> a concentré ses efforts sur le développement de sa propre startup :
+       <strong>Bigint</strong>. Spécialisée dans la création d'applications internet riches et les projets IT
+       d'envergure, elle mène en parallèle des travaux de R&D.
+    en: |
+      After 3 years as the pedagogic head of a software engineering school, <strong>Jean-Christophe</strong> has focused
+      on his own startup: <strong>Bigint</strong>. Specialised in rich internet application and high stake IT projects,
+      the company has also its own R&D activities.
+  links:
+    - url: https://www.linkedin.com/pub/martin-daniel/11/b73/5b2
+      icon: linkedin
+    - url: https://twitter.com/martindaniel4
+      icon: twitter
+    - url: https://www.tx.to/
+      icon: link
+    - url: https://github.com/martindaniel4
+      icon: github
