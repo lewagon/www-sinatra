@@ -106,76 +106,25 @@
 
 <div class="vertical-spacer"></div>
 
-<% if @meetup %>
-<div id="news">
+<div id="boosters">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
-        <div class="col-inner-md-padded">
-          <h2>POWERED BY LE WAGON</h2>
-          <p>
-            <%= t("join_our_meetup")%> <strong><a href="<%= @meetup[:link] %>" target="_blank"><%= @meetup[:name] %></a></strong>
-           <%= t("and_its")%> <strong><%= @meetup[:members] %> <%= t("apprentices")%></strong>
-          </p>
-          <hr>
-          <!-- <table>
-            <tr>
-              <td><img src="<%= image_path 'logos/wde.png' %>" alt="web design"></td>
-              <td class="desc">
-                <p>Web-Design Express - <strong>8-19 Septembre</strong></p>
-                <p>12 jours pour apprendre à designer et créer son site web.</p>
-                <a href="http://www.web-design-express.org">+ de détails <i class="fa fa-angle-double-right"></i></a>
-              </td>
-            </tr>
-            <tr>
-              <td><img src="<%= image_path 'logos/surfcamp.png' %>" alt="surf camp"></td>
-              <td class="desc">
-                <p>Code & Surf Camp - <strong>8-21 Septembre</strong></p>
-                <p>2 semaines de code et de surf avec des devs pro.</p>
-                <a href="http://surfcamp.lewagon.org">+ de détails <i class="fa fa-angle-double-right"></i></a>
-              </td>
-            </tr>
-            <tr>
-              <td><img src="<%= image_path 'logos/cetetejecode.png' %>" alt="cet ete je code"></td>
-              <td class="desc">
-                <p>Cet été je code</p>
-                <p>Cours en-ligne de front-end</p>
-                <a href="http://www.cetetejecode.fr">+ de détails <i class="fa fa-angle-double-right"></i></a>
-              </td>
-            </tr>
-          </table> -->
-          <% @meetup_events.take(4).each do |meetup_event| %>
-          <div class="row">
-            <div class="col-xs-2 text-center">
-              <div class="date pill pull-right">
-                <%= Time.at(meetup_event[:time] / 1000).to_datetime.day %>
-              </div>
-            </div>
-            <div class="col-xs-10">
-              <a href="<%= meetup_event[:event_url] %>" target="_blank">
-                <%= meetup_event[:name] %>
-              </a>
-              <p style="color: grey; font-weight: 300px; font-size: 14px;"><%= l Time.at((meetup_event[:time] + meetup_event[:utc_offset]) / 1000).to_datetime.utc, format: :long %></p>
-            </p>
-            </div>
-          </div>
-          <br>
-          <% end %>
-        </div>
-
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+        <h2>TECHNICAL KITS</h2>
+        <p class="pitch"><%= t "home.boosters_pitch" %></p>
+        <div class="vertical-spacer"></div>
       </div>
+    </div>
 
-      <div class="col-sm-6">
-        <div class="col-inner-md-padded">
-          <a class="twitter-timeline" href="https://twitter.com/Lewagonparis" data-widget-id="372292161472974848" height="400">Tweets of @Lewagonparis</a>
-        </div>
-      </div>
+    <div class="row">
+      <% BOOSTERS.each do |slug, booster| %>
+          <%= erb :booster_card, locals: { slug: slug, booster: booster } %>
+      <% end %>
     </div>
   </div>
 </div>
 
 <div class="vertical-spacer"></div>
-<% end %>
 
 <div class="container">
   <div class="row" id="cursus">
@@ -185,7 +134,7 @@
         <h2 class="star-title">
           <span>
             <img src="<%= image_path 'icons/star.svg' %>" alt="star" class="inline-img">
-            LE WAGON
+            <span>LE WAGON</span>
             <img src="<%= image_path 'icons/star.svg' %>" alt="star">
           </span>
         </h2>

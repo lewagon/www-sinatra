@@ -86,8 +86,14 @@ en:
     hundred_percent: 100%
     concrete_projects_built: Student projects completed
     coders_trained_at_lewagon: Developers already trained at Le Wagon
-    program_in_details_uppercase: THE PROGRAM
+    program_in_details_uppercase: THE FULLSTACK PROGRAM
     see_the_projects: See all student projects
+    boosters_pitch: |
+      Our kits are technical training of <strong>1-week</strong>
+      to improve your skills in specific fields (<strong>webdesign</strong>,
+      <strong>data analysis & visualisation</strong>, <strong>UX</strong>,
+      <strong>iOS</strong>). Some of these programs may have technical
+      pre-requisites.
     events_by_le_wagon: |
       12 day-long training in web-design. Surf & Code 2-week program to work on real projects with professional
       developers in an outstanding environment. Online front-end courses. Entrepreneur’s masterclasses every Thursday evening.
@@ -125,6 +131,12 @@ en:
     banner: Apply to Le Wagon
     description: Apply to Le Wagon and build amazing products with ruby on Rails in 9 weeks.
     lead: "Le Wagon is a <strong>challenging</strong> program that requires <strong>full-time</strong> investment during <strong>9 weeks</strong>. You should be <strong>fluent in English</strong>, programmer's reference language. Fill the form below to apply."
+    booster_form:
+      motivation: What do you expect from this booster?
+      choose_camp:
+        one: "You'll attend the following session :"
+        other: Which session do you want to attend?
+      no_price_html: We'll reach out to you as soon as a session is scheduled
     form:
       error: We could not take your registration into account. Please fill all fields.
       first_name: Firstname

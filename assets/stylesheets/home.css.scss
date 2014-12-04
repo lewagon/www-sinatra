@@ -25,7 +25,6 @@
     transform: rotate(315deg);
   }
 
-
   .signature{
     text-align: right;
     font-weight: 700;
@@ -37,6 +36,11 @@
   }
 }
 
+@media screen and (max-width: $screen-sm-min) {
+  img.circle {
+    width: 30%;
+  }
+}
 
 #cursus{
   background-color: #fff;
@@ -59,15 +63,13 @@
   background-color: rgb(205, 64, 53)
 }
 
-#news{
+#boosters{
   padding: 50px 0;
   background-color: white;
-  tr{
-    border-bottom: 1px dashed lightgrey;
-    td {padding: 20px 0;}
+  .pitch{
+    font-size: 18px;
+    font-weight: 300;
   }
-  img{width: 100px;}
-  .desc{padding-left: 20px;}
 }
 
 #meetus{
@@ -76,6 +78,122 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-top: 1px solid grey;
+}
+
+.panel-booster{
+  cursor: default;
+  border-radius: 0px;
+  border: 1px solid rgb(240, 240, 240);
+  padding-bottom: 10px;
+  margin: 20px;
+  position: relative;
+  min-height: 450px;
+
+  p{
+    margin-top:-10px;
+    margin-bottom:30px;
+    color: rgb(200, 200, 200);
+  }
+
+  .btn-default {
+    position: relative;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    width: 90%;
+    padding: 10px 0;
+    z-index: 2;
+    &.white{
+      background: #white;
+      border: 1px solid #999999;
+      color: #999999;
+    }
+    &.white:hover{
+      background: white;
+      border: 1px solid black;
+      color: black;
+    }
+  }
+
+  ul
+  {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+    list-style: none;
+    font-size: 15px;
+    margin: 40px auto;
+    line-height: 27px;
+    color: #666666;
+  }
+
+  .yellow{
+    background: #FEB732;
+  }
+  .yellow:hover{
+    background: orange;
+  }
+
+  .round-icon{
+    margin: 30px auto;
+    width: 120px;
+    font-size: 15px;
+    height: 120px;
+    padding-top: 38px;
+    color: white;
+    background: rgb(204, 204, 204);
+    border-radius: 50%;
+    border: 2px solid rgb(204, 204, 204);
+  }
+  .click-panel{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+  }
+}
+
+
+@media screen and (max-width: $screen-md-min) {
+  .panel-booster {
+    margin: 20px 50px;
+  }
+}
+
+@media screen and (max-width: $screen-sm-min) {
+  .panel-booster {
+    margin: 20px 0px;
+  }
+}
+
+.panel-booster:hover{
+  .round-icon{
+    transition: all 0.3s ease;
+  }
+  .yellow1{
+    background: #FDB631;
+    border: 2px solid orange;
+  }
+  .yellow2{
+    background: #FE9332;
+    transition: all 0.3s ease;
+    border: 2px solid #FB7434;
+  }
+  .yellow3{
+    background: #FB7434;
+    transition: all 0.3s ease;
+    border: 2px solid #DE615E;
+  }
+  .yellow4{
+    background: #DE615E;
+    transition: all 0.3s ease;
+    border: 2px solid #DC143C;
+  }
+  margin-top: -4px;
+  box-shadow: 0 1px 6px lightgrey;
+  transition: all 0.3s ease-in-out;
 }
 
 .media {

@@ -1,0 +1,83 @@
+.round-icon{
+  margin: 30px auto;
+  width: 120px;
+  font-size: 17px;
+  height: 120px;
+  color: white;
+  background: #cccccc;
+  border-radius: 50%;
+  border: 2px solid #cccccc;
+  padding-top: 32px;
+  text-align: center;
+}
+.yellow1{
+  background: #FDB631;
+  border: 2px solid orange;
+}
+.yellow2{
+  background: #FE9332;
+  transition: all 0.3s ease;
+  border: 2px solid #FB7434;
+}
+.yellow3{
+  background: #FB7434;
+  transition: all 0.3s ease;
+  border: 2px solid #DE615E;
+}
+.yellow4{
+  background: #DE615E;
+  transition: all 0.3s ease;
+  border: 2px solid #DC143C;
+}
+.corner{
+  position: relative;
+  margin: 0px -60px -75px auto;
+}
+
+.charter{
+  box-shadow: 0 1px 2px lightgrey;
+  background: #fdfdfd;
+  border: 1px solid rgb(240, 240, 240);
+  padding: 50px;
+}
+
+.skill{
+  background: white;
+  border: 1px solid #e6e6e6;
+  padding: 30px;
+  min-height: 400px;
+  text-align: justify;
+
+  h3{
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  .number{
+    background: #333333;
+    border-radius: 3px;
+    padding: 4px 5px 2px 5px;
+    display: inline-block;
+    width: 40px;
+    margin-right: 10px;
+    color: white;
+    vertical-align: 1px;
+    font-family: "BrandonMedium", no-serif;
+  }
+
+}
+
+#schedule{
+  background: rgba(25, 131, 218, 0.8);
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  .day{
+    border-bottom: 1px dashed white;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    &-last{
+      border-bottom: none;
+      padding-bottom: 80px;
+    }
+  }
+}

@@ -2,7 +2,7 @@
 .grey {color: rgb(180, 180, 180);}
 .red {color: rgb(205, 64, 53);}
 .dark-blue {color: #113d59;}
-.vertical-spacer {height: 2em;}
+.vertical-spacer {height: 3em;}
 
 body{
   padding-top: 70px;
@@ -87,12 +87,21 @@ body{
   }
 }
 
+.white-bordered{
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 2px;
+  padding: 10px 0 6px 0;
+}
+
+
+
 #newsletter-form{
   margin-bottom: 1em;
   transition: all .3s linear;
 
   .blue-btn{
-    vertical-align: 0px;
+    vertical-align: baseline;
   }
 
   .subscribe-input{
@@ -101,7 +110,7 @@ body{
     color: black;
     border: 1px solid white;
     border-radius: 2px;
-    line-height: 35px;
+    line-height: 37px;
     padding-left: 10px;
     width: 200px;
     transition: all .3s linear;

@@ -43,10 +43,20 @@
   #nav-btn:hover{
     background-color: #FF530D;
   }
+  .dropdown-menu{
+    padding: 0 0 5px 0;
+  }
 
   .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
     color: #fff;
     background-color: #ea4a3c;
+  }
+
+  .list-divider{
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: "PillGothic", "Open-Sans", sans-serif;
   }
 
   @media(max-width: $screen-md-max) {
