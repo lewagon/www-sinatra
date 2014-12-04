@@ -19,11 +19,11 @@
     <p><strong><%= booster[:card][:level] %></strong></p>
 
     <% if booster[:launched] %>
-      <a href="/programme/<%= slug %>" class="btn btn-default yellow">
+      <a href="/kit/<%= slug %>" class="btn btn-default yellow">
         plus de détails
       </a>
       <!--span to make panel clickable-->
-      <a href="/programme/<%= slug %>"><span class="click-panel"></span></a>
+      <a href="/kit/<%= slug %>"><span class="click-panel"></span></a>
     <% else %>
       <a data-target="<%= "##{slug}-modal" %>" data-toggle="modal" class="btn btn-default white">
         je suis intéressé

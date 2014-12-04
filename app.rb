@@ -160,7 +160,7 @@ class App < Sinatra::Base
   end
 
   BOOSTERS.each do |slug, booster|
-    get "/programme/#{slug}" do
+    get "/kit/#{slug}" do
       @slug = slug
       @booster = booster
       @booster_camps = BOOSTER_CAMPS.select { |_, camp| camp[:booster] == slug.to_s }
