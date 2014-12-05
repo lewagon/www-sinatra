@@ -296,7 +296,6 @@ archibald:
       icon: twitter
     - url: http://bigint.fr/
       icon: link
-
 costa:
   image_name: costa.jpg
   description:
@@ -311,7 +310,6 @@ costa:
       icon: twitter
     - url: http://referd.net/team#cnicolaou
       icon: link
-
 antoine:
   image_name: antoine.jpg
   description:
@@ -322,3 +320,24 @@ antoine:
   links:
     - url: http://fr.linkedin.com/pub/antoine-akel/a2/59a/34a/en
       icon: linkedin
+
+martindaniel:
+  image_name: martin_daniel.jpg
+  description:
+    fr: |
+       Après un passage chez Google et 4 ans chez <a href="http://www.fifty-five.com/" target="_blank">fifty-five</a> en tant que <i>Head of Data Science</i>,
+       Martin a décidé de se concentrer sur <a href="https://www.tx.to/" target="_blank">Txto</a> (sa startup de dataviz et d'impression de sms) et
+       de transmettre ses connaissances aux autres.
+    en: |
+      After a first experience at Google, Martin joined <a href="http://www.fifty-five.com/" target="_blank">fifty-five</a>, where he spent 4 years
+      as <i>Head of Data Science</i>. He is now 100% focused on the growth of his startup <a href="https://www.tx.to/" target="_blank">Txto</a>, a mobile-app for text message
+      visualisation and printing. He is an expert in dataviz and has a very pragmatic and business-oriented approach of data-science.
+  links:
+    - url: https://www.linkedin.com/pub/martin-daniel/11/b73/5b2
+      icon: linkedin
+    - url: https://twitter.com/martindaniel4
+      icon: twitter
+    - url: https://www.tx.to/
+      icon: link
+    - url: https://github.com/martindaniel4
+      icon: github

@@ -1,0 +1,217 @@
+front-end-developer:
+  name: Front-End developer
+  price: 1290
+  launched: true
+  pitch: Apprenez à coder et designer votre site en seulemet <strong>une semaine</strong>
+  page_title: Le Wagon - 1 week camp in web-design
+  page_description: Learn all the fundamentals of web-design in an intensive one-week program. HTML, CSS, Bootstrap, Sketch.. Grab all the tips & tools to be proficient in web-design.
+  staff:
+    - boris
+    - seb
+  city: paris
+  trello:
+    lead_list_id: 543fc881b20374bdafcaf937
+  card:
+    badge_name: "FRONT-END <br> DEVELOPER"
+    focus_one: <strong>Ergonomie</strong>, <strong>UI</strong> & <strong>design</strong> web
+    focus_two: <strong>HTML</strong>, <strong>CSS</strong>, <strong>jQuery</strong> & <strong>Bootstrap</strong>
+    focus_three: Integration d'<strong>APIs</strong> (Wufoo, Mailchimp, Gmaps, Trello..)
+    level: débutant
+    class: yellow1
+    focus: true
+    ribbon: plus que 6 places
+  description:
+    skills:
+      - name: UI
+        details: |
+          <p>Forger votre culture en <a href="https://goodui.org/" target="_blank">UI</a> (User-Interface) et en ergonomie web
+          pour donner sens à votre contenu en intégrant les bons
+          <a href="http://patterntap.com" target="_blank"><i>patterns</i></a>
+          (<i>modal</i>, <i>drop-down</i>, <i>tabs</i>, <i>panels</i> de pricing..).
+          </p><br><p>Pour chaque cas d'usage, connaître le meilleur pattern d'UI. Éprouvé, reconnu, permettant de déclencher le <i>call-to-action</i></p>
+      - name: DESIGN
+        details: |
+          <p>Définir votre charte de polices et de couleurs avec
+          <strong><a href="https://color.adobe.com/fr/">kuler</a></strong>,
+          <strong><a href="https://www.google.com/fonts">google fonts</a></strong>,
+          <strong><a href="http://fontface.ninja/" target="_blank">fontface ninja</a></strong>
+          et bien d'autres outils. Dénicher des polices plus avancées. Designer ses logos et ses badges avec <a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a></p>.
+          Faire de la veille sur <a href="http://oozled.com/" target="_blank">les dernières ressources</a> de design.
+      - name: FRONT DEVELOPMENT
+        details: |
+          <p>Maîtrisez HTML / CSS pour savoir passer du <i>print</i>
+          au <i>web</i>.</p><br>
+          <p>Vous approprier <strong><a href="http://getbootstrap.com" target="_blank">Bootstrap</a></strong>,
+          lirairie CSS de prototypage par excellence et savoir personnaliser
+          les styles de Bootstrap avec les <i>best practices</i> (i.e. avec <a href="http://sass-lang.com/">SASS</a>), pour mettre votre cachet sur votre site.</p>
+          <p>Avoir les bases en javascript et jQuery pour ajouter des animations efficaces à son site (changement de navbar au scroll, modal, arrière-plan dynamique, etc..)</p>
+      - name: PROTOTYPING SKILLS
+        details: |
+          <p>Intégrer des APIs et services web pour rendre
+          votre site interactif, suivre son audience et y adosser
+          des "mini-backends" (newlsetter, système de commentaire ou de chat, formulaire
+          de contact, Google Analytics, Google Maps, et bien d'autres
+          services plus chouettes les uns que les autres..)</p>
+    schedule:
+      - name: Lundi
+        program:
+          - Base d'UI et d'ergonomie web
+          - Maquetter son site & designer ses logos et badges avec Sketch
+          - Choix des polices et des palettes chromatiques
+      - name: Mardi
+        program:
+          - Travailler avec Sublime & Chrome
+          - Fondamentaux de HTML, CSS & javascript
+          - Animations avec jQuery
+      - name: Mercredi
+        program:
+          - La grille et les composants Bootstrap
+          - Batir une maquette avec Bootstrap
+          - Choisir le bon pattern d'UI
+      - name: Jeudi
+        program:
+          - Customiser Bootstrap avec SASS
+          - Peaufiner ses effets CSS et jQuery
+          - Designer ses logos et badges avec Sketch
+      - name: Vendredi
+        program:
+          - Suivre ses métriques avec Google analytics
+          - Focus sur les formulaires HTML
+          - Brancher des APIs à son site (Mailchimp, Formkeep, Gmaps..)
+data-scientist-junior:
+  name: Data Scientist junior
+  price: 1290
+  launched: true
+  pitch: Connectez, manipulez et explorez vos propres données en seulement <strong>une semaine</strong>.
+  page_title: Le Wagon - 1 week camp in data-science
+  page_description: Learn all the fundamentals of data-science in an intensive one-week program..
+  staff:
+    - martindaniel
+  city: paris
+  trello:
+    lead_list_id: 543fc881b20374bdafcaf939
+    additional_questions:
+      - text: Quel est votre niveau en Python ?
+        choices:
+          - Débutant
+          - intermédiaire (codecademy en Python)
+          - Avancé
+      - text: Avez-vous déjà suivi une formation data ?
+        choices:
+          - Oui
+          - Non
+  card:
+    badge_name: "DATA <br> SCIENTIST"
+    focus_one: Récolter ses données (<strong>API, scraping</strong>)
+    focus_two: Les traiter avec <strong>Python Pandas</strong>
+    focus_three: Visualiser avec <strong>d3.js</strong> & tirer des enseignements
+    level: intermédiaire
+    class: yellow2
+    focus: false
+    ribbon: 6 places left
+  description:
+    skills:
+      - name: LOAD
+        details: |
+          <p>Découvrez
+          <strong><a href="http://pandas.pydata.org/">Pandas</a></strong>.
+          Chargez votre premier set de données, comprenez ce qu'est un dataframe, connectez vous à des APIs populaires et des plateformes Open Data, ou
+          <i>scraper</i> des données depuis des pages HTML.</p>
+      - name: REFINE
+        details: |
+          <p>Réalisez vos premières requêtes SQL, devenez un maitre dans la sélection et la transformation des dataframes.</p>
+      - name: VISUALIZE
+        details: |
+          <p>Domptez la librairie <strong><a href="http://ggplot.yhathq.com/" target="_blank">Ggplot</a></strong>
+          pour réaliser de superbes graphes et explorer rapidement un dataset.
+          Créer des dataviz interactives avec <a href="http://d3js.org/" target="_blank">d3.js</a></p>
+      - name: EXPLORE
+        details: |
+          <p>Tirer des enseignements "business" de vos analyses.</p>
+    schedule:
+      - name: Monday
+        program:
+          - Introduction aux outils et aux enjeux de la Data Science
+          - Installation du setup
+          - Premiers pas avec Python et Pandas
+      - name: Tuesday
+        program:
+          - Introduction aux dataframes
+          - Loader, sélectionner et voir ses données
+          - Se connecter aux principales APIs et plateformes Open Data
+      - name: Wednesday
+        program:
+          - Introduction à SQL
+          - Sélectionner, grouper, transformer
+          - Premiers opérateurs et calcul avec Pandas
+      - name: Thursday
+        program:
+          - Créez de superbes graphes avec ggplot
+          - 10 conseils pour explorer un dataset en un clin d'oeil
+          - Exportez vos données
+      - name: Friday
+        program:
+          - Cas 1 - Déterminer l'âge de votre base de données à partir des simples prénoms de vos utilisateurs
+          - Cas 2 - Prédire le revenu que vous allez faire le prochain mois
+          - Cas 3 - Déterminer les associations de produits les plus fortes à partir d'un historique d'achat
+
+ios-developer:
+  name: iOS developer
+  price: 1490
+  launched: false
+  pitch: TODO
+  page_title: TODO
+  page_description: TODO
+  staff:
+  city: paris
+  trello:
+    lead_list_id: 543fc8ba3bfc59d5c0b82c02
+  card:
+    badge_name: "iOS <br> DEVELOPER"
+    focus: false
+    focus_one: "<strong>UI</strong> & <strong>ergonomie</strong> mobile"
+    focus_two: Programmation <strong>Swift</strong>
+    focus_three: Gestion du backend, fonctionnalités mobiles (géoloc, push, photo..)
+    level: bases en programmation
+    class: yellow3
+    focus: false
+  description:
+    skills:
+      - name: TODO
+        details: |
+          TODO
+      - name: TODO
+        details: |
+          TODO
+      - name: TODO
+        details: |
+          TODO
+      - name: TODO
+        details: |
+          TODO
+    schedule:
+      - name: Monday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Tuesday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Wednesday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Thursday
+        program:
+          - TODO
+          - TODO
+          - TODO
+      - name: Friday
+        program:
+          - TODO
+          - TODO
+          - TODO

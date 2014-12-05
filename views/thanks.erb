@@ -49,8 +49,16 @@
 </script>
 
 <!-- Mixpanel tracking -->
-<script>
-  mixpanel.track("Application", { camp: "<%= params[:camp] %>" });
-</script>
+<% if App.environment == :production %>
+  <script>
+    <% if params[:camp] %>
+      mixpanel.track("Application", { camp: "<%= params[:camp] %>" });
+    <% elsif params[:booster_camp] %>
+      mixpanel.track("Booster Application", { booster_camp: "<%= params[:booster_camp] %>" });
+    <% elsif params[:booster] %>
+      mixpanel.track("Booster Lead", { booster: "<%= params[:booster] %>" });
+    <% end %>
+  </script>
+<% end %>
 
 <% end %>

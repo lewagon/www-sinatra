@@ -1,0 +1,188 @@
+<% content_for(:title) do %>
+  <%= @booster[:page_title] %>
+<% end %>
+<% content_for(:description) do %>
+  <%= @booster[:page_description] %>
+<% end %>
+
+<div id="program-banner" class="sub-banner text-center">
+  <div class="filter">
+    <div class="row">
+      <div class="col-xs-12 center">
+        <h1><%= @booster[:name].upcase %></h1>
+        <p style="font-weight:100; line-height:120px; font-size:25px; text-shadow: 1px 1px 1px orange;">
+          <%= @booster[:pitch] %>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="vertical-spacer"></div>
+
+<div id="skills">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <h2>Ce que vous apprendrez</h2>
+      </div>
+    </div>
+
+    <div class="vertical-spacer"></div>
+
+    <% @booster[:description][:skills].each_slice(2) do |skills_pair| %>
+      <div class="row">
+        <% skills_pair.each do |skill| %>
+          <div class="col-xs-12 col-sm-6">
+            <div class="skill">
+              <h3 class="text-center"><span class="number"><%= @booster[:description][:skills].index(skill) + 1 %></span> <%= skill[:name] %></h3>
+              <%= skill[:details] %>
+            </div>
+          </div>
+        <% end %>
+      </div>
+      <div class="vertical-spacer"></div>
+    <% end %>
+
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <a data-target="<%= "##{@slug}-modal" %>" data-toggle="modal" class="btn red-btn btn-primary">
+          Devenez <%= @booster[:name] %>
+        </a>
+        <%= erb :booster_modal, locals: { slug: @slug, booster: @booster } %>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="vertical-spacer"></div>
+
+<div class="teachers text-center">
+  <div class="container">
+    <h2>TEACHERS</h2>
+    <br/><br/>
+
+    <div class="row">
+
+      <% @booster[:staff] && @booster[:staff].each_slice(3) do |slice| %>
+
+        <% slice.map { |slug| STAFF[slug.to_sym] }.each do |teacher| %>
+          <div class="<%= slice.length == 2 ? 'col-sm-6' : 'col-md-4 col-sm-6' %>">
+            <div class="row teacher">
+              <div class="col-xs-4">
+                <img src="<%= image_path "teachers/#{teacher[:image_name]}" %>" class="img-rounded">
+              </div>
+              <div class="col-xs-8">
+                <div class="text-justify">
+                  <%= markdown teacher[:description][I18n.locale] %>
+                </div>
+                <% if teacher[:links] %>
+                <ul class="list-inline link-list">
+                  <% teacher[:links].each do |link| %>
+                  <li>
+                    <a href="<%= link[:url] %>">
+                      <i class="fa fa-<%= link[:icon] %>"></i>
+                    </a>
+                  </li>
+                  <% end %>
+                <% end %>
+              </div>
+            </div>
+          </div>
+        <% end %>
+
+        <div class="clearfix visible-md-block visible-lg-block"></div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+
+<div class="local">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <%= erb :map, locals: { latitude: @city[:geo][:latitude], longitude: @city[:geo][:longitude], zoom: @city[:geo][:zoom] } %>
+      </div>
+      <div class="col-sm-6">
+        <h2>LOCATION</h2>
+        <p style="font-weight:500;font-size: 20px;"><%= @city[:address] %></p>
+        <br/>
+        <p style="font-weight:300;font-size: 17px;" class="text-justify"><%= @city[:description][I18n.locale] %></p>
+        <br/>
+      </div>
+      <% if @city[:subventions] %>
+        <% @city[:subventions].map { |s| SUBVENTIONS[s.to_sym] }.each do |subvention| %>
+          <div class="col-sm-6">
+            <div class="col-xs-6">
+              <a href="<%= subvention[:url] %>" target="_blank">
+                <img src="<%= image_path "subventions/#{subvention[:image_name]}" %>"
+                     alt="<%= subvention[:name] %>"
+                     data-toggle="tooltip" title="<%= subvention[:name]%>" data-placement="bottom">
+              </a>
+            </div>
+            <div class="col-xs-6" style="padding: 0px;">
+              <p style="font-weight:300;font-size: 17px;" class="text-justify">
+                <%= subvention[:description][I18n.locale] %>
+              </p>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div id="schedule" class="text-center">
+  <div class="container">
+    <div class="col-xs-8 col-xs-offset-2 ">
+
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <div class="vertical-spacer"></div>
+          <h2>PAR JOURNÉE</h2>
+        </div>
+      </div>
+
+      <div class="vertical-spacer"></div>
+
+      <% @booster[:description][:schedule].each_with_index do |day, index| %>
+
+      <% if index == @booster[:description][:schedule].size - 1 %>
+        <div class="row day-last">
+      <% else %>
+        <div class="row day">
+      <% end %>
+        <div class="col-xs-3 pull-left">
+          <h3 class="white-bordered"><%= day[:name] %></h3>
+        </div>
+        <div class="col-xs-9 text-left">
+          <ul>
+            <% day[:program].each do |topic| %>
+              <li><%= topic%></li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div class="container booster-container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+      <h2><%= t "apply.booster_form.title", count: @booster_camps.size %></h2>
+      <%= erb :booster_form, locals: { booster: @booster } %>
+    </div>
+  </div>
+</div>
+
+<div class="vertical-spacer"></div>
+
+<div style="background-image: url('<%= image_path @city[:images][:bottom] %>'); background-size: cover; height: 400px;">
+</div>
+

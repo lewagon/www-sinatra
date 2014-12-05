@@ -10,8 +10,14 @@ $(function() {
   $('#newsletter-form').submit(function(e) {
     e.preventDefault();
     $.post($(e.target).attr('action'), $(e.target).serialize(), function(data) {
-      $('#newsletter-form').hide();
-      $('#newsletter-form-thank-you').show();
+      if (data.error) {
+        var html = $('#newsletter-form-error').show().html();
+        console.log(html);
+        $('#newsletter-form-error').html(html.replace('ERROR_MESSAGE', data.error));
+      } else {
+        $('#newsletter-form').hide();
+        $('#newsletter-form-thank-you').show();
+      }
     });
   });
 

@@ -20,7 +20,7 @@ paris-janvier-2015:
   trello:
     inbox_list_id: 53679db185dd566f6035c173
   last_seats: true
-  full: true
+  # full: true
 
 paris-fevrier-2015:
   city: paris

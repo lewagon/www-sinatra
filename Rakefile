@@ -54,18 +54,18 @@ namespace :trello do
     end
     board.lists.map &:close!
 
-    ["RDV non pris", "RDV pris", "WAITING FOR GO", "GO", "LEAD FUTUR", "NO GO"].reverse.each do |list_name|
+    ["FIRST CONTACT", "INTERVIEW", "CODECADEMY", "OPCA", "CONTRAT", "ACOMPTE", "GO", "LEAD FUTUR", "NO GO"].reverse.each do |list_name|
       Trello::List.create(name: list_name, :board_id => board.id)
     end
     inbox_list = Trello::List.create(name: "INBOX", :board_id => board.id)
 
     puts "TODO, manually:"
-    puts "- Go to #{board.url} and set visibility to 'Organization' instead of 'Private'"
-    puts "- Invite to the Trello board Romain and others"
-    puts "- Add the camp to data/camps.yml (inbox_list_id: #{inbox_list.id})"
-    puts "- Add zap 'Envoi RDV' (INBOX -> RDV non pris)"
-    puts "- Add zap 'Email emarquement' (-> GO)"
-    puts "- Go to https://teamwagon.slack.com/services and add Trello/Slack integration"
+    puts "1. Go to #{board.url} and set visibility to 'Organization' instead of 'Private'"
+    puts "2. Invite to the Trello board Romain, Charlotte and others"
+    puts "3. Add the camp to data/camps.yml or data/boostrer_camps.yml (inbox_list_id: #{inbox_list.id})"
+    puts "4. Add zap 'Envoi RDV' (INBOX -> FIRST CONTACT)"
+    puts "5. Add zap 'Email CodeCademy' (FIRST CONTACT -> CODE CADEMY)"
+    puts "6. Go to https://teamwagon.slack.com/services and add Trello/Slack integration"
   end
 
   task :emails do

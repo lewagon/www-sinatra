@@ -84,6 +84,13 @@ class App < Sinatra::Base
   DEFAULT_LOCALE = :fr
   LOCALES = %i(fr en)
 
+  # First implementation with hard-coded URL
+  # Need dynamic route to handle different 1-week camps
+  get "/program/web-design" do
+    @city = CITIES[:paris]
+    erb :workshop
+  end
+
   LOCALES.each do |locale|
     get "/#{locale == DEFAULT_LOCALE ? "" : locale}" do
       I18n.locale = locale
@@ -151,6 +158,17 @@ class App < Sinatra::Base
     end
   end
 
+  BOOSTERS.each do |slug, booster|
+    get "/kit/#{slug}" do
+      @slug = slug
+      @booster = booster
+      @booster_camps = BOOSTER_CAMPS.select { |_, camp| camp[:booster] == slug.to_s }
+      @city = CITIES[booster[:city].to_sym]
+      I18n.locale = :fr
+      erb :booster
+    end
+  end
+
   before do
     unless LOCALES.include?(I18n.locale)  # Detected by Rack::Locale
       I18n.locale = DEFAULT_LOCALE
@@ -165,11 +183,6 @@ class App < Sinatra::Base
     I18n.locale = :fr
     fetch_posts
     erb :blog
-  end
-
-  get '/blog.js' do
-    fetch_posts
-    erb :posts, layout: false
   end
 
   # TODO - change the routing once blog is translated..
@@ -190,17 +203,16 @@ class App < Sinatra::Base
     erb :post
   end
 
-  get '/wufoo.css' do
-    content_type "text/css"
-    expires 3600, :public, :must_revalidate
-    sprockets['wufoo.css'].source
-  end
-
   post '/subscribe' do
     begin
       result = UseCases::SubscribeToNewsletter.new.run(params)
       json :result => result
-    rescue Gibbon::MailChimpError
+    rescue Gibbon::MailChimpError => e
+      if e.message =~ /is already subscribed to the list/
+        json :result => {}
+      else
+        json :error => e.message
+      end
     end
   end
 
@@ -212,12 +224,31 @@ class App < Sinatra::Base
       camp = CAMPS[params[:camp].to_sym]
       params[:city] = camp[:city]  # For the newsletter
       UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id]).run(params)
-      begin
-        UseCases::SubscribeToNewsletter.new.run(params)
-      rescue Gibbon::MailChimpError => e
-        puts e
-      end
+      subscribe_candidate_to_newsletter
       redirect thanks_path + "?camp=#{params[:camp]}"
+    end
+  end
+
+  post '/booster_apply' do
+    if params[:additional_questions]
+      questions = params[:additional_questions].values.map { |e| "- #{e[:question]} : #{e[:answer]}" }.join("\n")
+      params[:motivation] = [ questions, params[:motivation] ].join("\n\n")
+    end
+
+    if params[:booster_camp]
+      booster_camp = BOOSTER_CAMPS[params[:booster_camp].to_sym]
+      params[:city] = booster_camp[:city]
+      UseCases::PushStudentApplicationToTrello.new(booster_camp[:trello][:inbox_list_id]).run(params)
+      subscribe_candidate_to_newsletter
+      redirect thanks_path + "?camp=#{params[:camp]}"
+    elsif params[:booster]
+      booster = BOOSTERS[params[:booster].to_sym]
+      UseCases::PushStudentApplicationToTrello.new(booster[:trello][:lead_list_id]).run(params)
+      subscribe_candidate_to_newsletter
+      redirect thanks_path + "?camp=#{params[:camp]}"
+    else
+      @error = true
+      erb :booster
     end
   end
 
@@ -333,5 +364,13 @@ class App < Sinatra::Base
     # params[:page] = params[:page].nil? ? 1 : params[:page].to_i
     # first = (params[:page] - 1) * 9
     @posts = Blog.new.all#[first...(first + 9)]
+  end
+
+  def subscribe_candidate_to_newsletter
+    begin
+      UseCases::SubscribeToNewsletter.new.run(params)
+    rescue Gibbon::MailChimpError => e
+      puts e
+    end
   end
 end
