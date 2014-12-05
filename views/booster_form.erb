@@ -40,7 +40,7 @@
     </div>
   </div>
 
-  <% if @booster_camps.any? %>
+  <% if @booster_camps && @booster_camps.any? %>
     <div class="form-group">
       <label>
         <%= t "apply.booster_form.choose_camp", count: @booster_camps.size %>
@@ -102,6 +102,6 @@
   </div>
 
   <button class="btn btn-primary red-btn" style="width: 100%">
-    <%= t "apply.booster_form.apply_button", count: @booster_camps.size %>
+    <%= t "apply.booster_form.apply_button", count: @booster_camps ? @booster_camps.size : 0 %>
   </button>
 </form>

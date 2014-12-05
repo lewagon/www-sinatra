@@ -96,7 +96,6 @@ class App < Sinatra::Base
       I18n.locale = locale
       @city = CITIES[:paris]
       find_meetup
-      @booster_camps = BOOSTER_CAMPS.select { |_, camp| camp[:booster] == slug.to_s }
       erb :index
     end
   end

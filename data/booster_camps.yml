@@ -1,10 +1,10 @@
-# front-end-developer-paris-janvier-2015:
-#   booster: front-end-developer
-#   city: paris
-#   start_date: 2015-01-19
-#   end_date: 2015-01-23
-#   trello:
-#     inbox_list_id: TODO
+front-end-developer-paris-janvier-2015:
+  booster: front-end-developer
+  city: paris
+  start_date: 2015-01-26
+  end_date: 2015-01-30
+  trello:
+    inbox_list_id: 548174e8e14349133fdb6ed8
 
 # ios-developer-paris-janvier-2015:
 #   booster: ios-developer
@@ -14,10 +14,10 @@
 #   trello:
 #     inbox_list_id: TODO
 
-# data-scientist-junior-paris-janvier-2015:
-#   booster: data-scientist-junior
-#   city: paris
-#   start_date: 2015-02-16
-#   end_date: 2015-02-20
-#   trello:
-#     inbox_list_id: TODO
+data-scientist-junior-paris-fevrier-2015:
+  booster: data-scientist-junior
+  city: paris
+  start_date: 2015-02-16
+  end_date: 2015-02-20
+  trello:
+    inbox_list_id: 54807436d0eed34cc8a9c397
