@@ -72,3 +72,8 @@ poudriere:
   name: La Poudrière
   image_name: poudriere.png
   url: http://www.poudriere.org/
+
+altcity:
+  name: AltCity
+  image_name: altcity.jpg
+  url: http://www.altcity.me/
