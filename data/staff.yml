@@ -300,7 +300,8 @@ costa:
   image_name: costa.jpg
   description:
     fr: |
-      Constantine is an experienced full-stack developer. He first tasted what big data was like at Sanger Institute, a genome research institute in Cambridge, UK from '08 - '10. He then lead development on the cloud solution for Papers app, Livfe, from '10 to '12. Constantine is now co-founder and CTO at Referd, the business tool for private referrals.
+      Constantine est un développeur full-stack expérimenté. Il a découvert ce qu'était vraiment la big data au Sanger Institute, un centre de recherche en génétique à Cambridge, UK (de 2008 à 2010).
+      Il a ensuite été lead développeur de Papers app et Livfe de 2010 à 2012. Constantine est maintenant co-founder et CTO de <a href="http://referd.net/" target="_blank">Referd</a>, une solution business de "private referrals".
     en: |
       Constantine is an experienced full-stack developer. He first tasted what big data was like at Sanger Institute, a genome research institute in Cambridge, UK from '08 - '10. He then lead development on the cloud solution for Papers app, Livfe, from '10 to '12. Constantine is now co-founder and CTO at Referd, the business tool for private referrals.
   links:
