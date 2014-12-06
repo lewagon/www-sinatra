@@ -146,6 +146,7 @@ beirut:
   partners:
     - altcity
   subventions: # From data/subventions.yml
-  meetup_id: 0000000
+  meetup_id: 17182842
   facebook: https://www.facebook.com/lewagonbeirut
   twitter: https://twitter.com/LeWagonBeirut
+
