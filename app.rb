@@ -160,7 +160,7 @@ class App < Sinatra::Base
 
   BOOSTERS.each do |slug, booster|
     get "/kit/#{slug}" do
-      @slug = slug
+      @booster_slug = slug
       @booster = booster
       @booster_camps = BOOSTER_CAMPS.select { |_, camp| camp[:booster] == slug.to_s }
       @city = CITIES[booster[:city].to_sym]
@@ -240,12 +240,12 @@ class App < Sinatra::Base
       params[:city] = booster_camp[:city]
       UseCases::PushStudentApplicationToTrello.new(booster_camp[:trello][:inbox_list_id]).run(params)
       subscribe_candidate_to_newsletter
-      redirect thanks_path + "?camp=#{params[:camp]}"
+      redirect thanks_path + "?kit_camp=#{params[:booster_camp]}"
     elsif params[:booster]
       booster = BOOSTERS[params[:booster].to_sym]
       UseCases::PushStudentApplicationToTrello.new(booster[:trello][:lead_list_id]).run(params)
       subscribe_candidate_to_newsletter
-      redirect thanks_path + "?camp=#{params[:camp]}"
+      redirect thanks_path + "?kit_lead=#{params[:booster]}"
     else
       @error = true
       erb :booster

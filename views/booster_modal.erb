@@ -1,5 +1,5 @@
 <!-- Booster Modal -->
-<div class="modal fade" id="<%= "#{slug}-modal" %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="<%= "#{booster_slug}-modal" %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header text-center">
@@ -11,7 +11,7 @@
       </div>
       <div class="modal-body text-left" style="padding-top: 30px;padding-bottom: 50px;">
         <!-- TODO: link the form to Trello -->
-        <%= erb :booster_form, locals: { booster: booster } %>
+        <%= erb :booster_form, locals: { booster: booster, booster_slug: booster_slug } %>
       </div>
     </div>
   </div>

@@ -47,10 +47,10 @@
 
     <div class="row">
       <div class="col-xs-12 text-center">
-        <a data-target="<%= "##{@slug}-modal" %>" data-toggle="modal" class="btn red-btn btn-primary">
+        <a data-target="<%= "##{@booster_slug}-modal" %>" data-toggle="modal" class="btn red-btn btn-primary">
           Devenez <%= @booster[:name] %>
         </a>
-        <%= erb :booster_modal, locals: { slug: @slug, booster: @booster } %>
+        <%= erb :booster_modal, locals: { booster_slug: @booster_slug, booster: @booster } %>
       </div>
     </div>
 
@@ -176,7 +176,7 @@
   <div class="row">
     <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
       <h2><%= t "apply.booster_form.title", count: @booster_camps.size %></h2>
-      <%= erb :booster_form, locals: { booster: @booster } %>
+      <%= erb :booster_form, locals: { booster: @booster, booster_slug: @booster_slug } %>
     </div>
   </div>
 </div>

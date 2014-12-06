@@ -53,10 +53,10 @@
   <script>
     <% if params[:camp] %>
       mixpanel.track("Application", { camp: "<%= params[:camp] %>" });
-    <% elsif params[:booster_camp] %>
-      mixpanel.track("Booster Application", { booster_camp: "<%= params[:booster_camp] %>" });
-    <% elsif params[:booster] %>
-      mixpanel.track("Booster Lead", { booster: "<%= params[:booster] %>" });
+    <% elsif params[:kit_camp] %>
+      mixpanel.track("Kit Application", { kit_camp: "<%= params[:kit_camp] %>" });
+    <% elsif params[:kit_lead] %>
+      mixpanel.track("Kit Lead", { kit_lead: "<%= params[:kit_lead] %>" });
     <% end %>
   </script>
 <% end %>

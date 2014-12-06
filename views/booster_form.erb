@@ -65,7 +65,7 @@
       </label>
     </div>
   <% else %>
-    <input type="hidden" name="booster" value="<%= @slug %>">
+    <input type="hidden" name="booster" value="<%= booster_slug %>">
   <% end %>
 
   <% if booster[:trello] && booster[:trello][:additional_questions] %>
