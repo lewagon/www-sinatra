@@ -1,69 +1,38 @@
 ---
 layout: post
-title: "Le prototypage : de l'idée au premier service en ligne."
+title: "Le prototypage : de l'idée à votre premier MVP."
 author: cedric
 labels:
   - video
   - meetup
-thumbnail:
-description: ""
+thumbnail: thumbnail-meetup-mvp-prototypage.jpg
+description: "Dans cette introduction au prototypage, Benjamin Ewenczyk vous propose de commencer à poser les briques de votre service en seulement quelques heures afin de délivrer une première expérience à vos utilisateurs."
 ---
 
-<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/aF_TzzW1wEg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+Dans cette introduction au prototypage, [Benjamin Ewenczyk](https://twitter.com/BSE_tw) vous propose de commencer à poser les briques de votre service (*Minimun Vibal Product*) en seulement quelques heures afin de délivrer une première expérience à vos utilisateurs.
 
-Initiation au lean startup
+<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/6PjTA3zxF-c?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
-Prototypage = poser des briques d’un service en 2 ou 3h pour délivrer une première expérience à vos utilisateurs.
+### Une startup n’est pas une entreprise classique
 
-Une startup n’est pas une entreprise classique.
+Pour la grande majorité des entreprises, le lancement d'un produit est une prise de risque importante en terme de temps (étude de marché, business plan, cahier des charges...) et d'argent (conception, design...) avant même de s'être confronté à la réalité de marché.
 
-Old : Etude de marché, Business plan, Cahier des charges puis conception et design. = Grosse prise de risque sur des semaines et des mois.
+A l'inverse, une startup aura tendance à proposer un service au minimum viable à ses débuts avant de le faire évoluer via de multiples mises à jour basées sur les feedbacks des utilisateurs en gardant toujours à l'esprit que l’idée de base n’est pas nécessairement celle qui va fonctionner (*pivot*).
 
-Ou Lancement produit (app) et échec direct
+Pourtant, plus de 90% des startups échouent et ce pour de multiples raisons : manque de cash, de compétence, voir un trop long focus sur un produit sans intérêt...
 
-Ou évolution / itération du produit (maj basées sur les feedbacks des utilisateurs) => Coût énorme en temps, argent et motivation.
+### Le MVP : mode McGyver /on
 
-Plus de 90% des startups échouent.
-> Pas de cash
-> Co-Fondateur peu compétents
-> Produit sans intérêt
+En partant de ce postulat et malgré la meilleure conviction et détermination du monde, il doit être impératif de pouvoir tester son idée rapidement afin de s'assurer que cela vaille la peine d'y investir ses ressources.
 
-Incitation au pivot : L’idée sur laquelle vous travailler au début n’est pas nécessairement celle qui va fonctionner.
+C'est ici que la notion de *MVP* fait sens. Il s'agit de découper son idée en *actions utilisateur* via des outils déjà pré-éxistants ne nécessitant aucune compétence technique et à faible coût (téléphone, mail, [Landing page](http://www.lewagon.org/blog/the-one-hour-landing-page)...) afin de vous permettre d’apporter de la valeur à vos utilisateurs très rapidement.
 
-Gut feeling & conviction = Syndrome du chercheur d’or
-Dans quelle mesure est-il possible de construire rapidement quelque chose afin d’être certain que cela vaille la peine d’y investir tout son temps et son argent ?
+Gardez à l'esprit que l'important est de commencer à rendre son service au plus vite afin de réduire au maximum le temps entre l'idée et le produit afin de commencer à en retirer du feedback. A titre d'exemple, [My Little Paris](http://www.mylittleparis.com/) s'est lancé via une simple newsletter avant d'atteindre le succès qu'on lui connait.
 
-=> Méthode = Retour d’expérience
+Par ces retours d'éxpériences, l'analyse des métrics liées à votre activité et l’upgrade de votre produit, vous serez rapidement à même de discerner si il vous sera possible de capter de la valeur pour vous-même ou si il vous faut tout simplement changer d'idée.
 
-Idées => Volonté de construire un produit => Produit => Mesurer => Analyser ses métrics => Apprendre et en tirer un enseignement => Idées
+### Pour en savoir plus
 
-Répéter ce cercle de plus en plus vite.
+Rendez-vous sur le Mooc complet de [4 hour Startup](https://www.udemy.com/4hourstartup/) et bénéficiez d'une réduction de 40% en utilisant le code **LEWAGON**. Vous y trouverez entre autre la présentation d'un grand nombre d'outils puissants à travers afin de vous apprendre à les utiliser et les combiner pour que vous puissiez ensuite les réutiliser dans le cadre de vos projets.
 
-#1 Faire des hypothèses
-#2 Expériences
-#3 Récupérer du feedback
-
-Capacité à créer des choses très vite proche d’un V1.
-> Landing page pour annoncer le service et mesurer l’appétence
-> Important de commencer à rendre son service au plus vite (ex:newsletter My Little Paris) = Service/Valeur et non la tech pour la tech
-= Mode McGyver (téléphone, action physique…)
-
-MVP Minimun Vital Product = Plus petite solution qui vous permet d’apporter de la valeur à vos utilisateurs
-
-=> Intérêt de commencer à capter de la valeur pour vous-même
-=> Raccourcir la durée en l’idée et le produit
-
-Découper son idées en action (Action Utilisateur)
-Pour chacune des actions = trouver un outils sans coder
-Tester son service
-
-Action Utilisateur : Ce que peut faire de façon simple et clair un utilisateur sur le site
-
-1 - Idée
-2 - Trier ses actions
-3 - Trouver ses outils (coût d’achat faible + mensuel dérisoire)
-
-
-
-
-
+Ne ratez plus un seul de nos événements #Tech et rejoignez [la communauté Meetup du Wagon](http://www.meetup.com/Le-Wagon-Paris-Coding-Station/)
