@@ -2,7 +2,7 @@ front-end-developer:
   name: Front-End developer
   price: 1290
   launched: true
-  pitch: Apprenez à coder et designer votre site en seulemet <strong>une semaine</strong>
+  pitch: Apprenez à designer et coder votre site en <strong>une semaine</strong>
   page_title: Le Wagon - 1 week camp in web-design
   page_description: Learn all the fundamentals of web-design in an intensive one-week program. HTML, CSS, Bootstrap, Sketch.. Grab all the tips & tools to be proficient in web-design.
   staff:
@@ -24,34 +24,34 @@ front-end-developer:
     skills:
       - name: UI
         details: |
-          <p>Forger votre culture en <a href="https://goodui.org/" target="_blank">UI</a> (User-Interface) et en ergonomie web
+          <p>Forgez votre culture en <a href="https://goodui.org/" target="_blank">UI</a> (User-Interface) et en ergonomie web
           pour donner sens à votre contenu en intégrant les bons
           <a href="http://patterntap.com" target="_blank"><i>patterns</i></a>
           (<i>modal</i>, <i>drop-down</i>, <i>tabs</i>, <i>panels</i> de pricing..).
-          </p><br><p>Pour chaque cas d'usage, connaître le meilleur pattern d'UI. Éprouvé, reconnu, permettant de déclencher le <i>call-to-action</i></p>
+          </p><br><p>Pour chaque usage, apprenez à chercher le meilleur <i>pattern</i> d'UI. Éprouvé, reconnu, permettant de déclencher le <i>call-to-action</i></p>
       - name: DESIGN
         details: |
-          <p>Définir votre charte de polices et de couleurs avec
+          <p>Définissez votre charte de polices et de couleurs avec
           <strong><a href="https://color.adobe.com/fr/">kuler</a></strong>,
           <strong><a href="https://www.google.com/fonts">google fonts</a></strong>,
           <strong><a href="http://fontface.ninja/" target="_blank">fontface ninja</a></strong>
-          et bien d'autres outils. Dénicher des polices plus avancées. Designer ses logos et ses badges avec <a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a></p>.
-          Faire de la veille sur <a href="http://oozled.com/" target="_blank">les dernières ressources</a> de design.
+          et bien d'autres outils. Apprenez à dénichez des polices plus avancées. Designez vous-même vos logos et vos badges avec <a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a></p>.
+          Dévouvrez comment faire de la veille sur <a href="http://oozled.com/" target="_blank">les dernières ressources</a> de design pour utiliser toujours les meilleures librairies.
       - name: FRONT DEVELOPMENT
         details: |
-          <p>Maîtrisez HTML / CSS pour savoir passer du <i>print</i>
+          <p>Maîtrisez HTML / CSS / SASS pour savoir passer du <i>print</i>
           au <i>web</i>.</p><br>
-          <p>Vous approprier <strong><a href="http://getbootstrap.com" target="_blank">Bootstrap</a></strong>,
-          lirairie CSS de prototypage par excellence et savoir personnaliser
-          les styles de Bootstrap avec les <i>best practices</i> (i.e. avec <a href="http://sass-lang.com/">SASS</a>), pour mettre votre cachet sur votre site.</p>
-          <p>Avoir les bases en javascript et jQuery pour ajouter des animations efficaces à son site (changement de navbar au scroll, modal, arrière-plan dynamique, etc..)</p>
+          <p>Appropriez-vous <strong><a href="http://getbootstrap.com" target="_blank">Bootstrap</a></strong>,
+          lirairie CSS de prototypage par excellence et apprenez à personnaliser
+          les styles de Bootstrap avec les meilleures pratiques (i.e. en passant par des variables <a href="http://sass-lang.com/">SASS</a>), pour ajouter votre patte à votre site.</p>
+          <p>Ayez les bases en javascript et jQuery pour savoir intégrer des animations efficaces à votre site et dynamiser les inputs de vos formulaires HTML (effet de <a href="http://prinzhorn.github.io/skrollr/examples/classic.html" target="_blank">parallaxe</a>, <a href="http://getbootstrap.com/javascript/#modals-examples" target="_blank">modal</a>, <a href="http://brianreavis.github.io/selectize.js/">auto-complete de formulaire</a>, arrière-plan dynamique, etc..)</p>
       - name: PROTOTYPING SKILLS
         details: |
-          <p>Intégrer des APIs et services web pour rendre
-          votre site interactif, suivre son audience et y adosser
-          des "mini-backends" (newlsetter, système de commentaire ou de chat, formulaire
+          <p>Intégrez des APIs et services web pour rendre
+          votre site actionnable. Suivez son audience et branchez
+          des "mini-backends" à votre site (newlsetter, système de commentaire ou de chat, formulaire
           de contact, Google Analytics, Google Maps, et bien d'autres
-          services plus chouettes les uns que les autres..)</p>
+          services plus utiles les uns que les autres..)</p>
     schedule:
       - name: Lundi
         program:
