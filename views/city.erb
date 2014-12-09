@@ -13,7 +13,7 @@
      style="background-image: url('<%= asset_path @city[:images][:banner] %>')">
   <div class="filter" style="background-color: <%= @city[:filter_color] %>">
     <div class="row">
-      <div class="col-xs-12 center">
+      <div class="col-xs-12 text-center">
         <h1><%= @city[:name].upcase %></h1>
         <div class="vertical-spacer"></div>
       </div>
@@ -207,23 +207,51 @@
   </div>
 </div>
 
-<div class="apply text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-sm-offset-3">
-        <div class="box center">
-          <h3><%= t "city.get_onboard", city: @city[:name] %></h3>
-          <a href="<%= apply_path %>" class="btn btn-primary red-btn">
-            <%= t("apply_now").upcase %>
-          </a>
-          <br/><br/>
-          <p><%= t "still_some_questions"%> <a href="<%= faq_path %>">FAQ</a></p>
+
+<% if @city[:programs][:bootcamp] %>
+  <div class="apply text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <div class="box center">
+            <h3><%= t "city.get_onboard", city: @city[:name] %></h3>
+            <a href="<%= apply_path %>" class="btn btn-primary red-btn">
+              <%= t("apply_now").upcase %>
+            </a>
+            <br/><br/>
+            <p><%= t "still_some_questions"%> <a href="<%= faq_path %>">FAQ</a></p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+<% end %>
 
+
+<% if @city[:programs][:kits] %>
+
+  <div id="boosters">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+          <p style="font-size: 20px;"><i><%= t "dont_have_two_months" %></i></p>
+
+          <br><br>
+
+          <h2>..TECHNICAL KITS</h2>
+          <p class="pitch"><%= t "home.boosters_pitch" %></p>
+          <div class="vertical-spacer"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <% @city[:programs][:kits].each do |slug| %>
+          <%= erb :booster_card, locals: { slug: slug, booster: BOOSTERS[slug.to_sym], number: @city[:programs][:kits].count } %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+<% end %>
 
 <div style="background-image: url('<%= image_path @city[:images][:bottom] %>'); background-size: cover; height: 400px;">
 </div>
