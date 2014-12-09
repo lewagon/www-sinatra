@@ -33,10 +33,11 @@ fr:
   by_email: PAR EMAIL
   for_real: RENCONTRONS-NOUS !
   join_our_meetup: Rejoignez notre meetup
+  dont_have_two_months: Vous n'avez pas 9 semaines ou recherchez un programme plus spécifique. Le Wagon lance ses...
   and_its: et ses
   apprentices: apprentis
   menu:
-    bring_it: Monte un Wagon dans ta ville!
+    bring_it: Monte un bootcamp dans ta ville !
     program: Programme
     cities: Villes
     apply: Postuler

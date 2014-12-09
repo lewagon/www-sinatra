@@ -79,7 +79,7 @@
 
         <div class="form-group">
           <label><%= t "apply.form.choose_camp" %></label>
-          <% CAMPS.each do |slug, camp| %>
+          <% ACTIVE_CAMPS.each do |slug, camp| %>
             <% if camp[:full] %>
               <div class="radio disabled">
                 <label>
@@ -94,7 +94,6 @@
                   <small style="margin-left: 2px">
                     <span class="label label-danger"><%= t "apply.form.booked" %></span>
                   </small>
-
                 </label>
               </div>
             <% else %>
