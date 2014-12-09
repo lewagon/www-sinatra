@@ -99,7 +99,7 @@
             <% else %>
               <div class="radio">
                 <label>
-                  <input type="radio" name="camp" value="<%= slug %>" data-currency="<%= camp[:price] %>" data-price="<%= camp[:currency] %>" required>
+                  <input type="radio" name="camp" value="<%= slug %>" data-currency="<%= camp[:currency] %>" data-price="<%= camp[:price] %>" required>
                   <strong><%= camp[:city].capitalize %></strong>,
                   <small>
                     <% format = :short #camp[:start_date].year == Time.now.year ? :short : :long %>
@@ -124,7 +124,6 @@
 
         <div class="form-group">
           <span class="help-block">
-            <%= t "apply.form.price_html", price: 3900 %>
           </span>
         </div>
 
@@ -149,13 +148,10 @@
 
         var price = $(this).data("price");
         var ccy = $(this).data("currency");
-        console.log(price);
-        console.log(ccy);
-
-        var priceHTML = "<strong>" + price + "</strong>" + "ccy";
+        var priceHTML = "<%= t "apply.form.price_begin" %>" + "<strong>" + price + "</strong> " + ccy + "<%= t "apply.form.price_end" %>";
 
         $(".help-block").html(priceHTML);
-
+        $(".help-block").show();
       });
     });
   </script>

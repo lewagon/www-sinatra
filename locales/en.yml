@@ -151,7 +151,8 @@ en:
       apply_button: APPLY
       last_seats: Last seats!
       booked: Full
-      price_html: "Price: <strong>%{price}</strong>€. We'll reach out quickly to you by email."
+      price_begin: "Price : "
+      price_end:  ". We'll reach out quickly to you by email."
   thanks:
     title: Thanks!
     content_html: "We'll contact you shortly by email to plan an interview. In the meantime, <a href='http://twitter.com/Lewagonbrussels'>follow us on Twitter</a>"
