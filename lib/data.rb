@@ -22,3 +22,6 @@ ARTICLES = load(:articles)
 MEDIAS = load(:medias)
 
 CAMPS.delete(:test) if ENV['RACK_ENV'] == 'production'
+
+ACTIVE_CITIES = CITIES.select { |slug, city| city[:active] }
+ACTIVE_CAMPS = CAMPS.select {|slug, camp| ACTIVE_CITIES.keys.include? camp[:city].to_sym }
