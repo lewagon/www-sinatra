@@ -36,7 +36,7 @@
         <li class="dropdown with-underline">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= t "menu.cities" %> <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <% CITIES.each do |slug, city| %>
+            <% ACTIVE_CITIES.each do |slug, city| %>
               <li>
                 <a href="<%= send(:"#{slug}_path") %>"><%= city[:name] %></a>
               </li>

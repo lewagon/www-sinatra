@@ -1,4 +1,5 @@
 paris:
+  active: true
   name: Paris
   locale: fr
   address: "25, rue du Petit Musc 75004 Paris"
@@ -35,11 +36,18 @@ paris:
     - augustin
     - cecile
     - alex
+  programs:
+    bootcamp: true
+    kits:
+      - front-end-developer
+      - data-scientist-junior
+      - ios-developer
   meetup_id: 16766372
   facebook: https://www.facebook.com/lewagonformation
   twitter: https://twitter.com/Lewagonparis
 
 brussels:
+  active: true
   name: Brussels
   locale: en
   address: "Place Sainte-Gudule 5, 1000 Brussels"
@@ -65,6 +73,8 @@ brussels:
     - anne
     # - thibaut
     # - christophe
+  programs:
+    bootcamp: true
   partners:
     - pullreview
   subventions: # From data/subventions.yml
@@ -74,6 +84,7 @@ brussels:
   twitter: https://twitter.com/LewagonBrussels
 
 nancy:
+  active: false
   name: Nancy
   locale: fr
   address: "2 Rue Jacques Villermaux, 54000 Nancy"
@@ -110,6 +121,10 @@ nancy:
     - bigint
     - poudriere
     - grandnancy
+  programs:
+    bootcamp: false
+    kits:
+      - front-end-developer
   subventions: # From data/subventions.yml
   meetup_id: 17614082
   facebook: https://www.facebook.com/lewagonformation
@@ -119,6 +134,7 @@ nancy:
       label: Alexandre Prévot
 
 beirut:
+  active: true
   name: Beirut
   locale: en
   address: "Beirut, Lebanon"
@@ -145,6 +161,8 @@ beirut:
     - antoine
   partners:
     - altcity
+  programs:
+    bootcamp: true
   subventions: # From data/subventions.yml
   meetup_id: 17182842
   facebook: https://www.facebook.com/lewagonbeirut
