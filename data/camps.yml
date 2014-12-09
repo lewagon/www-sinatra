@@ -17,6 +17,8 @@ paris-janvier-2015:
   city: paris
   start_date: 2015-01-05
   end_date: 2015-03-06
+  price: 3900
+  currency: €
   trello:
     inbox_list_id: 53679db185dd566f6035c173
   last_seats: true
@@ -26,6 +28,8 @@ paris-fevrier-2015:
   city: paris
   start_date: 2015-02-02
   end_date: 2015-04-04
+  price: 3900
+  currency: euro
   trello:
     inbox_list_id: 54367c2481220dc57e3c698b
 
@@ -33,6 +37,8 @@ brussels-janvier-2015:
   city: brussels
   start_date: 2015-01-12
   end_date: 2015-03-13
+  price: 3900
+  currency: euro
   trello:
     inbox_list_id: 53d51481d54bd8086f8784ad
   facebook_tracking_ids:
@@ -40,17 +46,21 @@ brussels-janvier-2015:
     - 6016638335929
   last_seats: true
 
-nancy-janvier-2015:
-  city: nancy
-  start_date: 2015-01-19
-  end_date: 2015-03-20
-  trello:
-    inbox_list_id: 543d16ea477565861722db44
+# nancy-janvier-2015:
+#   city: nancy
+#   start_date: 2015-01-19
+#   end_date: 2015-03-20
+#   price: 3900
+#   currency: euro
+#   trello:
+#     inbox_list_id: 543d16ea477565861722db44
 
 paris-mars-2015:
   city: paris
   start_date: 2015-03-09
   end_date: 2015-05-08
+  price: 3900
+  currency: euro
   trello:
     inbox_list_id: 54367e024309d39b50e17738
 
@@ -58,6 +68,8 @@ paris-avril-2015:
   city: paris
   start_date: 2015-04-06
   end_date: 2015-06-05
+  price: 3900
+  currency: euro
   trello:
     inbox_list_id: 54367fcfe0dfe26d509ec183
 
@@ -65,5 +77,7 @@ beirut-february-2015:
   city: beirut
   start_date: 2015-02-16
   end_date: 2015-04-07
+  price: 3000
+  currency: dollar
   trello:
     inbox_list_id: 5483111b016614fe47750d4f

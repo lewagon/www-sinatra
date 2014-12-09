@@ -100,7 +100,7 @@
             <% else %>
               <div class="radio">
                 <label>
-                  <input type="radio" name="camp" value="<%= slug %>" required>
+                  <input type="radio" name="camp" value="<%= slug %>" data-currency="<%= camp[:price] %>" data-price="<%= camp[:currency] %>" required>
                   <strong><%= camp[:city].capitalize %></strong>,
                   <small>
                     <% format = :short #camp[:start_date].year == Time.now.year ? :short : :long %>
@@ -142,3 +142,23 @@
 </div>
 
 <div class="vertical-spacer"></div>
+
+<% content_for :js do %>
+  <script>
+    $(document).ready(function() {
+      $('input[type=radio][name=camp]').change(function() {
+
+        var price = $(this).data("price");
+        var ccy = $(this).data("currency");
+        console.log(price);
+        console.log(ccy);
+
+        var priceHTML = "<strong>" + price + "</strong>" + "ccy";
+
+        $(".help-block").html(priceHTML);
+
+      });
+    });
+  </script>
+<% end %>
+
