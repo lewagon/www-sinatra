@@ -5,10 +5,9 @@
         <h4>Le Wagon</h4>
         <ul class="list-unstyled">
           <!-- <li><a href="/staff">Staff</a></li> -->
-          <li><a href="<%= alumni_path %>">Alumni</a></li>
-          <li><a href="<%= program_path %>"><%= t "menu.program" %></a></li>
           <li><a href="<%= apply_path %>"><%= t "menu.apply" %></a></li>
           <li><a href="<%= press_path %>"><%= t "press.title" %></a></li>
+          <li><a href="<%= jobs_path %>">Jobs</a></li>
           <li><a href="mailto:contact@lewagon.org">Contact</a></li>
         </ul>
       </div>
@@ -20,7 +19,7 @@
               <a href="/<%= slug %>"><%= city[:name] %></a>
             </li>
           <% end %>
-          <li><a href="http://surfcamp.lewagon.org">Soustons</a></li>
+          <!-- <li><a href="http://surfcamp.lewagon.org">Soustons</a></li> -->
         </ul>
       </div>
       <div class="col-sm-3">

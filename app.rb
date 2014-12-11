@@ -78,7 +78,8 @@ class App < Sinatra::Base
     program: { view: :programme, locale_path: { en: '/program', fr: '/programme' }},
     alumni: { view: :alumni, path: '/alumni' },
     press: { view: :presse, locale_path: { en: '/press', fr: '/presse' }},
-    faq: { view: :faq, path: '/faq' }
+    faq: { view: :faq, path: '/faq' },
+    jobs: { view: :jobs, path: '/jobs' }
   }
 
   DEFAULT_LOCALE = :fr
