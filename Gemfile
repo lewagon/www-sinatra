@@ -16,7 +16,7 @@ group :assets do
   gem 'bootstrap-sass', '~> 3.2.0'
   gem 'rails-assets-jquery'
   gem 'rails-assets-font-awesome'
-  gem 'rails-assets-infinite-scroll'
+  # gem 'rails-assets-infinite-scroll'
 end
 
 gem 'pygmentize'

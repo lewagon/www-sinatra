@@ -166,6 +166,12 @@ ios-developer:
   city: paris
   trello:
     lead_list_id: 543fc8ba3bfc59d5c0b82c02
+    additional_questions:
+      - text: Un pré-requis pour ce programme est de connaître la programmation orientée objet. Est-ce le cas ?
+        choices:
+          - Oui
+          - Non
+      - text: Dans quel langage avez-vous déjà développé ?
   card:
     badge_name: "iOS <br> DEVELOPER"
     focus: false
