@@ -23,7 +23,7 @@ L’esthétique, la fluidité et la lecture de l’offre semblaient issues d’u
 Quoi qu'il en soit, nous avons rapidement lancé Bouquet sous forme de web service lorsque nous nous sommes rendu compte qu’il existe une réelle appétence pour ce type de produit.
 
 Une fois les premières hypothèses validées nous avons structuré l’équipe (composée aujourd’hui de 5 personnes) en nous entourant de talents qui nous ont permis de réaliser le produit et de lancer [l’application iOS]((https://itunes.apple.com/us/app/bouquet-livraison-de-fleurs/id878665429?ls=1&mt=8)
-) en octobre dernier. Nous visons l'expansion du service sur d'autres capitales Européennes en 2015.
+) en octobre dernier.
 
 ![Bouquet, envoyez des fleurs depuis votre mobile](blog_image_path bouquet-mobile.jpg)
 
@@ -33,7 +33,7 @@ Axé mobile-first, nous avons aujourd’hui un produit 100% connecté et automat
 
 Nous souhaitons simplement ré-enchanter la commande de fleurs au travers d’un service premium. Cela va du design soigné de l'application (Apple l'a positionné dans ses features sur l'Appstore en novembre), au soin des fleurs sélectionnées en passant par un packaging élégant composé d'une boîte, scéllée d'un ruban, dans laquelle sont livrés les bouquets.
 
-La garantie esthétique et l'expérience utilisateur priment à tous les niveaux afin de ne jamais faire de faute de goût. D'ailleurs à ce sujet nous travaillons toujours de façon ponctuelle avec [Etienne Achard](http://etienneachard.com/), un autre pionner du Wagon, sur le design !
+La garantie esthétique et l'expérience utilisateur priment à tous les niveaux afin de ne jamais faire de faute de goût. D'ailleurs à ce sujet je suis associé depuis le début de l’aventure avec [Etienne Achard](http://etienneachard.com/), web designer et également pionner du Wagon !
 
 ![3 bouquets au choix](blog_image_path bouquet-produits.jpg)
 
