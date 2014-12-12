@@ -33,7 +33,7 @@ Axé mobile-first, nous avons aujourd’hui un produit 100% connecté et automat
 
 Nous souhaitons simplement ré-enchanter la commande de fleurs au travers d’un service premium. Cela va du design soigné de l'application (Apple l'a positionné dans ses features sur l'Appstore en novembre), au soin des fleurs sélectionnées en passant par un packaging élégant composé d'une boîte, scéllée d'un ruban, dans laquelle sont livrés les bouquets.
 
-La garantie esthétique et l'expérience utilisateur priment à tous les niveaux afin de ne jamais faire de faute de goût. D'ailleurs à ce sujet je suis associé depuis le début de l’aventure avec [Etienne Achard](http://etienneachard.com/), web designer et également pionner du Wagon !
+La garantie esthétique et l'expérience utilisateur priment à tous les niveaux afin de ne jamais faire de faute de goût. D'ailleurs à ce sujet, je suis associé depuis le début de l’aventure avec [Etienne Achard](http://etienneachard.com/), web designer et également pionnier du Wagon !
 
 ![3 bouquets au choix](blog_image_path bouquet-produits.jpg)
 
