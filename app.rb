@@ -191,6 +191,7 @@ class App < Sinatra::Base
   end
 
   get '/blog/*' do |slug|
+    I18n.locale = :fr
     @body_class = "blog"
     @post = Blog.new.post(slug)
     halt 404 unless @post
