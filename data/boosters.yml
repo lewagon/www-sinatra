@@ -35,14 +35,14 @@ front-end-developer:
           <strong><a href="https://color.adobe.com/fr/">kuler</a></strong>,
           <strong><a href="https://www.google.com/fonts">google fonts</a></strong>,
           <strong><a href="http://fontface.ninja/" target="_blank">fontface ninja</a></strong>
-          et bien d'autres outils. Apprenez à dénichez des polices plus avancées. Designez vous-même vos logos et vos badges avec <a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a></p>.
-          Dévouvrez comment faire de la veille sur <a href="http://oozled.com/" target="_blank">les dernières ressources</a> de design pour utiliser toujours les meilleures librairies.
+          et bien d'autres outils. Apprenez à dénichez des polices plus avancées. Designez vous-même vos logos et vos badges avec <a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a>.</p>
+          Découvrez comment faire de la veille sur <a href="http://oozled.com/" target="_blank">les dernières ressources</a> de design pour utiliser toujours les meilleures librairies.
       - name: FRONT DEVELOPMENT
         details: |
           <p>Maîtrisez HTML / CSS / SASS pour savoir passer du <i>print</i>
           au <i>web</i>.</p><br>
           <p>Appropriez-vous <strong><a href="http://getbootstrap.com" target="_blank">Bootstrap</a></strong>,
-          lirairie CSS de prototypage par excellence et apprenez à personnaliser
+          librairie CSS de prototypage par excellence et apprenez à personnaliser
           les styles de Bootstrap avec les meilleures pratiques (i.e. en passant par des variables <a href="http://sass-lang.com/">SASS</a>), pour ajouter votre patte à votre site.</p>
           <p>Ayez les bases en javascript et jQuery pour savoir intégrer des animations efficaces à votre site et dynamiser les inputs de vos formulaires HTML (effet de <a href="http://prinzhorn.github.io/skrollr/examples/classic.html" target="_blank">parallaxe</a>, <a href="http://getbootstrap.com/javascript/#modals-examples" target="_blank">modal</a>, <a href="http://brianreavis.github.io/selectize.js/">auto-complete de formulaire</a>, arrière-plan dynamique, etc..)</p>
       - name: PROTOTYPING SKILLS
