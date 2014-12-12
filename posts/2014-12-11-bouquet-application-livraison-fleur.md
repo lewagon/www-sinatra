@@ -1,74 +1,55 @@
 ---
 layout: post
-title: "Bouquet, la startup ."
-thumbnail:
+title: "Bouquet, la petite attention fleurie en plus pour Noël"
+thumbnail: thumbnail-bouquet.jpg
 author: cedric
 labels:
   - alumni
   - startup
-description: ""
+description: Pionnier du Wagon, Laurent Cuzin évolue dans l’univers des startups depuis plus de 10 ans. En octobre dernier il lance Bouquet, une application pour envoyer facilement de jolies fleurs en moins de 4 heures sur Paris. Voilà de quoi donner des idées à certains à l’aube des fêtes de noël !
 ---
 
+Pionnier du Wagon, [Laurent Cuzin](https://twitter.com/laurentc) évolue dans l’univers des startups depuis plus de 10 ans. En octobre dernier il lance [Bouquet](https://www.bouquetapp.com/), une application pour envoyer facilement de jolies fleurs en moins de 4 heures sur Paris. Voilà de quoi donner des idées à certains à l’aube des fêtes de noël !
 
-Bouquet
 
-Laurent Cruzin
-Participé à l’élaboration de quelques startup
-10 ans dans le milieu des startups
-Eléboration de stratégie Marketing, de produit, suivi de développement dans divers startups dans deux qu’il a monté, Easy Welcome et plus récemment Bouquet.
+![Bouquet, l’app de livraison de fleurs indispensable](blog_image_path bouquet-intro.jpg)
 
-Premier job en agence
-Ensuite Statup : de 10 à 70
-Dynamique m’a plu et m’a donné envie de créer la mienne
+### L’origine du projet
 
-Pourquoi le code ?
-C’était quelque chose latent. Cela fait plusieurs année que je travaille dans le milieu et que je côtoie au quotidien des développeurs. Même si j’ai participation à l’élaboration de roadmap produit et que j’en connaissais le jargon, je ne le comprenais pas assez.
+Bouquet est né pendant le Wagon. Quelques jours seulement avant de commencer à travailler sur nos projets personnels en fin de formation j’ai eu besoin d’envoyer des fleurs. Je me suis rapidement rendu compte à quel point l’expérience était alors catastrophique.
 
-Manque et frustration de ne pas pouvoir appréhender le code.
+L’esthétique, la fluidité et la lecture de l’offre semblaient issues d’un autre âge et absolument rien n’était adapté au mobile. Sans parler du fait que ce que tu reçois chez toi ne correspond généralement pas à ce que tu as commandé. Tout ceci est très étonnant quand on sait qu'il s’agit pourtant d’un marché à hauteur de 720 millions d’euros en France.
 
-=> Pour comprendre la logique du code, améliorer la compréhension et mieux appréhender les développements.
-=> Plus travailler de façon autonome sur mon projet
+Quoi qu'il en soit, nous avons rapidement lancé Bouquet sous forme de web service lorsque nous nous sommes rendu compte qu’il existe une réelle appétence pour ce type de produit.
 
-Bouquet est né pendant le Wagon, pendant la période des projets personnels. Peut-avant j’ai eu besoin d’envoyer des fleurs et je me suis rendu compte à quel point l’expérience est catastrophique. L’esthétique, la fluidité, la lecture de l’offre, tout était très vieux, absolument pas adapté au mobile.
+Une fois les premières hypothèses validées nous avons structuré l’équipe (composée aujourd’hui de 5 personnes) en nous entourant de talents qui nous ont permis de réaliser le produit et de lancer [l’application iOS]((https://itunes.apple.com/us/app/bouquet-livraison-de-fleurs/id878665429?ls=1&mt=8)
+) en octobre dernier. Nous visons l'expansion du service sur d'autres capitales Européennes en 2015.
 
-Toutes ces raisons m’ont poussé à faire quelque chose sur ce projet. J’ai profité des 15 jours de projet personnel pour me lancer sur cette idée et développer la première structure du site de Bouquet.
+![Bouquet, envoyez des fleurs depuis votre mobile](blog_image_path bouquet-mobile.jpg)
 
-A la base c’était un site internent que nous n’avons jamais lancé et que nous avons ensuite transformé directement en web service. Le simple projet de fin d’étude s’est transformé en vrais projet quand on s’est rendu compte qu’il avait une réelle appétence et un attrait pour ce produit.
+### En quoi l’app Bouquet est-elle unique ?
 
-Une fois les premières hypothèses validées nous avons structuré l’équipe (composée aujourd’hui de 5 personnes) en nous entourant de talents qui nous ont permis de réaliser le produit et de lancer l’application mobile.
+Axé mobile-first, nous avons aujourd’hui un produit 100% connecté et automatisé. De la prise de commande jusqu’à la livraison, l’intégralité du service est scalable. En terme de produit nous avons choisi de proposer 3 bouquets. Le *On Air* change toutes les semaines et s'adapte aux événements du moment et nous nous engageons à livrer en moins de 4 heures dans tout Paris.
 
-Le service :
+Nous souhaitons simplement ré-enchanter la commande de fleurs au travers d’un service premium. Cela va du design soigné de l'application (Apple l'a positionné dans ses features sur l'Appstore en novembre), au soin des fleurs sélectionnées en passant par un packaging élégant composé d'une boîte, scéllée d'un ruban, dans laquelle sont livrés les bouquets.
 
-Axé mobile-first, nous avons aujourd’hui un produit 100% connecté et automatisé. De la prise de commande jusqu’à la livraison, l’intégralité du service est intégralement scalable. En terme de produit nous avons 3 bouquets dont un qui change toutes les semaines qu’il est possible de commander et de faire livrer en moins de 4 heures dans tout Paris et le 92. Très peu mais très beau.
+La garantie esthétique et l'expérience utilisateur priment à tous les niveaux afin de ne jamais faire de faute de goût. D'ailleurs à ce sujet nous travaillons toujours de façon ponctuelle avec [Etienne Achard](http://etienneachard.com/), un autre pionner du Wagon, sur le design !
 
-Positionnement moyen/haut de gamme
-Instant gratification
+![3 bouquets au choix](blog_image_path bouquet-produits.jpg)
 
-Notre valeur ajouté se base sur l’expérience utilisateur au travers de l’ergonomie, du design, de la lecteur d’offre. Nous faisons notre maximum pour ré-enchanter la commande de fleurs en livrant les bouquets dans des boites + ruban
+### Quelle est ta relation au code aujourd'hui ?
 
-Bien souvent lorsque tu commandes des fleurs, les sites sont affreux, les fleurs pas très belles et ce que tu reçois chez toi ne correspond pas à ce que tu as commandé. C’est très décevant. Il s’agit pourtant d’un marché à hauteur de 720 millions d’euros en France.
+Lorsque je me suis lancé dans la formation du Wagon j'avais identifié ce besoin latent de comprendre et de mieux appréhender le développement. Cela faisait plusieurs années que je travaillais dans le milieu et même si j’ai participé à l’élaboration de nombreuses roadmaps produit et que j’en maîtrisais le jargon, je n’en connaissais pas les implications techniques. Ce qui pouvait s’avérer très frustrant.
 
-=> Garantie esthétique sur les produits que l’on propose afin de ne pas faire d’erreur de goût.
+Mon passage au Wagon m'a permis de travailler de façon plus autonome sur mon projet. D'abord en me donnant les clées pour réaliser un prototype, et aujourd'hui en assurant le suivi de développement avec nos deux développeurs web et mobile d'une manière dont j'espère être la plus juste et efficace possible. Comme pour beaucoup de startups, chez Bouquet l'exécution est la clé, de la conception du bouquet aux prises de photos jusqu’à la moindre ligne de code, tout doit se faire sans faille !
 
-Lancement en octobre
-FEATURE DANS L’APP STORE en novembre
+### Une dernière chose à ajouter ?
 
-Objectif :
+Noël approche, offrez des fleurs ! Ca fait toujours plaisir !
 
-Ouverture du service dans d’autres capitales Européennes en 2015
-Diversifier l’offre premium
+### Les liens utiles :
 
-J’assure aujourd’hui les suivis des développements avec le développeurs web et le développeur mobile.
-
-Lorsque tu boostrapes, ce qui fait la différence c’est l’exécution. Tout doit se faire sans faille et de notre côté de la conception du bouquet aux prises de photo jusqu’à la commande.
-
-Un truc à ajouter ?
-
-Achetez des fleurs ! Ca fait toujours plaisir !
-
-Liens utiles :
-
-- Les applications [iPhone](https://itunes.apple.com/fr/app/kudoz-swipez-le-job-vos-reves./id897507108?mt=8) et [Androïd](https://play.google.com/store/apps/details?id=com.kudoz.kudoz)
-- Sur le web : [www.getkudoz.com](http://www.getkudoz.com/)
-- Facebook : [www.facebook.com/getkudoz](https://www.facebook.com/getkudoz)
-- Twitter : [www.twitter.com/getkudoz](https://twitter.com/GetKudoz)
+- [Téléchargez l’application sur l’Appstore](https://itunes.apple.com/us/app/bouquet-livraison-de-fleurs/id878665429?ls=1&mt=8)
+- Sur le web : [www.bouquetapp.com](https://www.bouquetapp.com/)
+- Facebook : [www.facebook.com/Bouquetapp](https://www.facebook.com/Bouquetapp)
+- Twitter : [www.twitter.com/bouquetapp](https://twitter.com/bouquetapp)
