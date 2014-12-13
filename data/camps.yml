@@ -22,12 +22,12 @@ paris-janvier-2015:
   last_seats: true
   # full: true
 
-paris-fevrier-2015:
-  city: paris
-  start_date: 2015-02-02
-  end_date: 2015-04-04
-  trello:
-    inbox_list_id: 54367c2481220dc57e3c698b
+# paris-fevrier-2015:
+#   city: paris
+#   start_date: 2015-02-02
+#   end_date: 2015-04-04
+#   trello:
+#     inbox_list_id: 54367c2481220dc57e3c698b
 
 brussels-janvier-2015:
   city: brussels
@@ -40,26 +40,12 @@ brussels-janvier-2015:
     - 6016638335929
   last_seats: true
 
-nancy-janvier-2015:
-  city: nancy
-  start_date: 2015-01-19
-  end_date: 2015-03-20
-  trello:
-    inbox_list_id: 543d16ea477565861722db44
-
-paris-mars-2015:
-  city: paris
-  start_date: 2015-03-09
-  end_date: 2015-05-08
-  trello:
-    inbox_list_id: 54367e024309d39b50e17738
-
-paris-avril-2015:
-  city: paris
-  start_date: 2015-04-06
-  end_date: 2015-06-05
-  trello:
-    inbox_list_id: 54367fcfe0dfe26d509ec183
+# nancy-janvier-2015:
+#   city: nancy
+#   start_date: 2015-01-19
+#   end_date: 2015-03-20
+#   trello:
+#     inbox_list_id: 543d16ea477565861722db44
 
 beirut-february-2015:
   city: beirut
@@ -67,3 +53,17 @@ beirut-february-2015:
   end_date: 2015-04-07
   trello:
     inbox_list_id: 5483111b016614fe47750d4f
+
+# paris-mars-2015:
+#   city: paris
+#   start_date: 2015-03-09
+#   end_date: 2015-05-08
+#   trello:
+#     inbox_list_id: 54367e024309d39b50e17738
+
+# paris-avril-2015:
+#   city: paris
+#   start_date: 2015-04-06
+#   end_date: 2015-06-05
+#   trello:
+#     inbox_list_id: 54367fcfe0dfe26d509ec183
