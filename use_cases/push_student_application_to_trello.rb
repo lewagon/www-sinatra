@@ -18,9 +18,9 @@ module UseCases
       card.desc = <<-EOF
 #{params[:first_name]} #{params[:last_name]} | #{params[:age]} | #{params[:email]} | #{params[:phone]}
 
-## Codecademy
+## [Codecademy]()
 
-## Contrat
+## [Contrat]()
 
 ## Facture
 
