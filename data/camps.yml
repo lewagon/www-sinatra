@@ -22,13 +22,6 @@ paris-janvier-2015:
   last_seats: true
   # full: true
 
-paris-fevrier-2015:
-  city: paris
-  start_date: 2015-02-02
-  end_date: 2015-04-04
-  trello:
-    inbox_list_id: 54367c2481220dc57e3c698b
-
 brussels-janvier-2015:
   city: brussels
   start_date: 2015-01-12
@@ -39,6 +32,13 @@ brussels-janvier-2015:
     - 6016507068529
     - 6016638335929
   last_seats: true
+
+paris-fevrier-2015:
+  city: paris
+  start_date: 2015-02-02
+  end_date: 2015-04-04
+  trello:
+    inbox_list_id: 54367c2481220dc57e3c698b
 
 # nancy-janvier-2015:
 #   city: nancy
