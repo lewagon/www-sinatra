@@ -15,7 +15,7 @@ Contrôleur de gestion dans une autre vie au sein de grands groupes entre Montpe
 
 ### Synopsis
 
-Avec pour ambition d'apporter un service de business intelligence au plus grand nombre, elle s'est associée en 2009 à un architecte décisionnel afin de créer BIME Analytics. En utilisant la force du cloud pour réduire les coûts d'accès et d'intégration de ce service, ils ont mis au point une solution SASS pour extraire et analyser en profondeur toutes les datas d'une entreprise sous forme de “reports” présentés dans un dashboard consultable depuis n'importe quel navigateur web.
+Avec pour ambition d'apporter un service de business intelligence au plus grand nombre, elle s'est associée en 2009 à un architecte décisionnel afin de créer BIME Analytics. En utilisant la force du cloud pour réduire les coûts d'accès et d'intégration de ce service, ils ont mis au point une solution SaaS pour extraire et analyser en profondeur toutes les datas d'une entreprise sous forme de “reports” présentés dans un dashboard consultable depuis n'importe quel navigateur web.
 
 Malgré les réticences des principaux acteurs et consommateurs français sur ce marché, l'ouverture de sa plateforme aux Etats-Unis permettra à cette startup Montpelliéraine de se développer et de commencer à exercer ses premiers effets de levier avec des Business Angels en Californie. Graçe à un marketing et une exécution finement maîtrisés, BIME est invité sur scène au [Google IO](https://www.google.com/events/io) et participera à de nombreux events [GIGAOM](https://events.gigaom.com/) afin de présenter sa techno avant d'installer ses pôles Sales & Marketing dans la [Silicon Prairie](http://siliconprairienews.com/) (Missouri) et de lever 4 M$.
 
