@@ -21,3 +21,11 @@ data-scientist-junior-paris-fevrier-2015:
   end_date: 2015-02-20
   trello:
     inbox_list_id: 5480743b13c912e996ccaf4b
+
+ios-developer-paris-janvier-2015:
+  booster: ios-developer
+  city: paris
+  start_date: 2015-01-26
+  end_date: 2015-01-30
+  trello:
+    inbox_list_id: TODO

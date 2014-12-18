@@ -154,15 +154,15 @@ data-scientist-junior:
           - Cas 1 - Déterminer l'âge de votre base de données à partir des simples prénoms de vos utilisateurs
           - Cas 2 - Prédire le revenu que vous allez faire le prochain mois
           - Cas 3 - Déterminer les associations de produits les plus fortes à partir d'un historique d'achat
-
 ios-developer:
   name: iOS developer
   price: 1490
-  launched: false
-  pitch: TODO
-  page_title: TODO
-  page_description: TODO
+  launched: true
+  pitch: Développez votre première application iOS en <strong>une semaine</strong>
+  page_title: Le Wagon - 1 week camp in iOS
+  page_description: Learn all the fundamentals of iOS development in an intensive one-week program.
   staff:
+    - jeanelie
   city: paris
   trello:
     lead_list_id: 543fc8ba3bfc59d5c0b82c02
@@ -174,50 +174,57 @@ ios-developer:
       - text: Dans quel langage avez-vous déjà développé ?
   card:
     badge_name: "iOS <br> DEVELOPER"
-    focus: false
+    focus: <strong>Ergonomie, UX / UI</strong> Mobile
     focus_one: "<strong>UI</strong> & <strong>ergonomie</strong> mobile"
     focus_two: Programmation <strong>Swift</strong>
-    focus_three: Gestion du backend, fonctionnalités mobiles (géoloc, push, photo..)
+    focus_three: Gestion du backend, fonctionnalités mobiles (géoloc, push…)
     level: bases en programmation
     class: yellow3
     focus: false
   description:
     skills:
-      - name: TODO
+      - name: Développement natif
         details: |
-          TODO
-      - name: TODO
+          <p>Apprenez <a href="http://www.apple.com/swift/">Swift</a>, le nouveau langage qui vous
+          permettra de créér des applis natives iOS ultra-performantes.</p>
+      - name: Ergonomie d'une application mobile
         details: |
-          TODO
-      - name: TODO
+          <p>Maitrisez les contraintes liées au développement mobile, organisez le contenu
+          et les interactions utilisateurs pour que votre application soit simple
+          à utiliser en toute circonstance.</p>
+      - name: Backend mobile et persistence des données
         details: |
-          TODO
-      - name: TODO
+          <p>Grâce à Parse.com, mettez en place rapidement un backend pour votre
+          appli mobile. Stockez les données de votre appli en local pour parer aux pertes de
+          connexion dues à l'utilisation mobile.</p>
+      - name: Fonctionnalités mobiles
         details: |
-          TODO
+          <p>Engagez vos utilisateurs grace aux push notifications, rendez votre appli
+          indispensable grâce à la géolocalisation.</p>
     schedule:
-      - name: Monday
+      - name: Lundi
         program:
-          - TODO
-          - TODO
-          - TODO
-      - name: Tuesday
+          - Ergonomie d'une app et prototypage avec <a href="http://www.bohemiancoding.com/sketch/">Sketch</a>
+          - Présentation de l'IDE Xcode
+          - Swift, utilisation du playground pour appréhender le langage
+      - name: Mardi
         program:
-          - TODO
-          - TODO
-          - TODO
-      - name: Wednesday
+          - Présentation d'<a href="https://developer.apple.com/xcode/interface-builder/">Interface Builder</a>
+          - Utilisation d'un <a href="https://developer.apple.com/library/ios/documentation/General/Conceptual/Devpedia-CocoaApp/Storyboard.html">Storyboard</a> pour naviguer entre les écrans de l'appli
+          - Utilisation des différents widgets (NavigationBar, TabBar, Button, Slider, AlertView etc…)
+          - Autolayout, une interface qui s'adapte aux différentes tailles d'écrans (iPhone 5 / 6 / 6+)
+      - name: Mercredi
         program:
-          - TODO
-          - TODO
-          - TODO
-      - name: Thursday
+          - <a href="www.cocoapods.org">Cocoapods</a>, utiliser des composants open source pour ne pas réinventer la roue
+          - Récupération / sauvegarde et mise en cache des données via le SDK <a href="http://www.parse.com">Parse.com</a>
+          - Affichage des données en mode liste, customisation des éléments de la liste
+      - name: Jeudi
         program:
-          - TODO
-          - TODO
-          - TODO
-      - name: Friday
+          - Ajout de la gestion de l'utilisateur via le SDK Parse et <a href="https://github.com/ParsePlatform/ParseUI-iOS">Parse UI</a>
+          - Géolocalisation de l'utilisateur
+          - Affichage de points d'intérêts sur une carte autour de l'utilisateur
+      - name: Vendredi
         program:
-          - TODO
-          - TODO
-          - TODO
+          - Facebook Connect
+          - Push notification
+          - iTunes Connect, comment déployer une application sur l'App Store ?

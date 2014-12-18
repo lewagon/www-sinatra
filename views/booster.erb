@@ -69,7 +69,13 @@
       <% @booster[:staff] && @booster[:staff].each_slice(3) do |slice| %>
 
         <% slice.map { |slug| STAFF[slug.to_sym] }.each do |teacher| %>
-          <div class="<%= slice.length == 2 ? 'col-sm-6' : 'col-md-4 col-sm-6' %>">
+          <% if slice.length == 1 %>
+            <div class="col-sm-6 col-sm-offset-3">
+          <% elsif slice.length == 2%>
+            <div class="col-sm-6">
+          <% else %>
+            <div class="col-sm-4">
+          <% end %>
             <div class="row teacher">
               <div class="col-xs-4">
                 <img src="<%= image_path "teachers/#{teacher[:image_name]}" %>" class="img-rounded">

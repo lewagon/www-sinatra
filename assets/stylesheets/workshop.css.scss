@@ -80,5 +80,11 @@
       border-bottom: none;
       padding-bottom: 80px;
     }
+    a{
+      color: yellow;
+      &:hover{
+        color: orange;
+      }
+    }
   }
 }
