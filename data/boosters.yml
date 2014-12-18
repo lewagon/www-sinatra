@@ -174,7 +174,7 @@ ios-developer:
       - text: Dans quel langage avez-vous déjà développé ?
   card:
     badge_name: "iOS <br> DEVELOPER"
-    focus: <strong>Ergonomie, UX / UI</strong> Mobile
+    focus: false
     focus_one: "<strong>UI</strong> & <strong>ergonomie</strong> mobile"
     focus_two: Programmation <strong>Swift</strong>
     focus_three: Gestion du backend, fonctionnalités mobiles (géoloc, push…)
