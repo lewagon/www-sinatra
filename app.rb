@@ -225,6 +225,7 @@ class App < Sinatra::Base
   end
 
   post '/booster_apply' do
+    I18n.locale = :fr
     if params[:additional_questions]
       questions = params[:additional_questions].values.map { |e| "- #{e[:question]} : #{e[:answer]}" }.join("\n")
       params[:motivation] = [ questions, params[:motivation] ].join("\n\n")
