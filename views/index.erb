@@ -81,7 +81,7 @@
           </span>
         </h2>
         <% MEDIAS.each_with_index do | media, index| %>
-        <div class="col-md-2 col-xs-4">
+        <div class="col-sm-2 col-xs-6">
           <a href="<%= media[:url]%>"><img class="logo" src="<%= image_path "medias/#{media[:logo]}" %>" alt="<%= media[:name] %>"></a>
         </div>
         <% end %>
