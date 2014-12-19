@@ -15,5 +15,8 @@ use Rack::Deflater
 require 'rack/contrib'
 use Rack::Locale
 
+require_relative 'lib/rack/block_referal_spam'
+use Rack::BlockReferalSpam
+
 require './app'
 run App
