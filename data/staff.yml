@@ -342,3 +342,25 @@ martindaniel:
       icon: link
     - url: https://github.com/martindaniel4
       icon: github
+jeanelie:
+  image_name: jeanelie.jpg
+  description:
+    fr: |
+      Jean-Élie aime concevoir et coder de belles applis iOS et Android qui vont changer la vie des gens.
+      Il est passionné par les projets qui mêlent créativité et challenges techniques. Les deux dernières années,
+      il a codé de belles applis natives iPhone, iPad et Android qui ont <i>scalé</i> pour des startups à forte croissance.
+      Il est actuellement <i>lead mobile software engineer</i> chez <a href="https://www.drivy.com/" target="_blank">Drivy</a>
+      Il aura à coeur de vous apprendre à batir la future <i>killer-app</i>.
+    en: |
+      Jean-Élie loves designing and building beautiful iOS and Android apps that can impact people's lives.
+      He's passionate about projects that combine creativity and technical challenges. For the past 2 years,
+      he has managed and developed several large scaled native iPhone, iPad and Android apps
+      for global companies in France. He's currently lead mobile software engineer at <a href="https://www.drivy.com/" target="_blank">Drivy</a>
+      He'll teach you how to build the next big thing !
+  links:
+    - url: https://github.com/jeanelie
+      icon: github-alt
+    - url: https://fr.linkedin.com/in/jeclic
+      icon: linkedin
+    - url: https://twitter.com/jeclic
+      icon: twitter
