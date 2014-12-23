@@ -6,13 +6,13 @@ labels:
   - meetup
   - tuto
   - video
-thumbnail:
-description: Gilles Manzato vous présente les bases de Javascript, jQuerry et le principe des requêtes AJAX dans ce tuto vidéo d'une heure. Des plus simples variables à la notion de callback, vous apprendrez quelques notions rapidement utilisables pour vos projets personnels du moment.
+thumbnail: thumbnail-meetup-javascript.jpg
+description: Gilles Manzato vous expose les bases de Javascript avant de vous présenter la librairie jQuery et le principe des requêtes AJAX dans un tutorial vidéo d'une heure. Des plus simples variables à la notion de callback, vous apprendrez quelques notions rapidement utilisables pour vos projets personnels du moment.
 ---
 
-Gilles Manzato vous présente les bases de Javascript, jQuerry et le principe des requêtes AJAX dans ce tuto vidéo d'une heure. Des plus simples variables à la notion de callback, vous apprendrez quelques notions rapidement utilisables pour vos projets personnels du moment.
+[Gilles Manzato](https://twitter.com/gillesm) vous expose les bases de Javascript avant de vous présenter la librairie jQuery et le principe des requêtes AJAX dans un tutorial vidéo d'une heure. Des plus simples variables à la notion de callback, vous apprendrez quelques notions rapidement utilisables pour vos projets personnels du moment.
 
-<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/ZEtyr9C01cg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/G8OsHFT99os?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ### Un peu d'histoire
 
@@ -23,6 +23,7 @@ La Javascript, à ne pas confondre avec Java, est un langugage web orienté obje
 Pour suivre ce tutorial vous aurez besoin du [navigateur Chrome](http://www.google.com/chrome/) installé afin d'utiliser la [console](https://developer.chrome.com/devtools/docs/console). Ouvrez également [jsFiddle](http://jsfiddle.net/) dans un onglet pour tester votre code rapidement.
 
 Pour ouvrir la *console*, utilisez les racourcis suivants :
+
 - Sur Windows : Ctrl + Maj + J
 - Sur Mac : Cmd + Opt + I
 
@@ -30,98 +31,108 @@ Pour ouvrir la *console*, utilisez les racourcis suivants :
 
 ### Les bases
 
+Ce résumé n'a pas pour objectif de retranscrire de manière exaustive toutes les notions évoquées dans la vidéo ci-dessus mais simplement de faciliter la mémorisation et/ou l'accès aux lignes de code utilisées pour les différents exercices.
 
-=> Variables
+**LES TYPES DE DONNÉES**
 
-var mavariable = 8;
-Attention, toujours terminer une ligne en la ponctuant d’un ;
-Pour la récupérer il suffit de la nommer afin de récupérer la donnée stockée
+Il existe 3 grands types de données :
 
-Si vous souhaitez changer la donnée associée à la variable, il suffit ensuite d’écrire mavariable = “hello”; sans le var
+- Les chiffres
+- Les strings : il s'agit de texte entre guillemets ```"Bonjour"```
+- Les booleans : true, false, 0 et 1. Ils sont utilisés pour valider ou invalider des conditions.
 
-Différents types de données : chiffres, string (texte entre guillemets) et boolean (binaire, true/false, 0/1)
+**LES OPÉRATEURS ARITHMÉTIQUES**
 
-> typeof(mavariable); retourne String
+- Addition et/ou concaténation : + (1)
+- Soustraction : -
+- Multiplication : *
+- Division : /
+- Modulo : % (2)
 
-Des opérateurs arithmétiques au différents types de variables possibles en passant par la concaténation.
+(1) *Exemple de concaténation : ```"Ceci est une string " + "n'est-ce pas ?"``` vous retournera ```"Ceci est une string n'est-ce pas ?"```*
+(2) *Le modulo vous donne le reste d'une division.*
 
-> Modulo (%) donne le reste ex = 9%2 = 1 pour l’interpréter = on peut placer 4*2 soit 8 dans 9 donc reste 1
+**Les variables**
 
-Les conditions if, else
+Pour stocker des informations dans une mavariable : ```var mavariable = 8;```
+Notez que ```mavariable``` peut être remplacé par n'importe quel chaîne de caractère selon votre convenance.
 
+Pour récupérer votre variable il suffit ensuite de la nommer dans la console afin de récupérer la donnée stockée.
+Ainsi ```mavariable``` vous retournera ```8```.
+
+Si vous souhaitez changer la donnée associée à ```mavariable```, il suffit d’écrire ```mavariable = “hello”;``` sans repréciser le ```var```.
+
+*Astuce* : Pour connaître le type d'une variable, rentrez dans votre console ```typeof(mavariable)```
+
+**IF, ELSE**
+
+Les conditions permettent simplement de retourner un résultat A ou B en fonction de la condition énnoncée. Dans l'exemple ci-dessous notre variable ```nombre``` est égale à ```10``` et sera donc supérieur à 5. Le code nous retournera donc ```plus grand que 5```. Notez que *if* n’est pas obligatoirement suivi d'un *else* et qu'il est possible de s’en servir seul afin de vérifier une condition qui nous revera donc un boolean *true* ou *false*.
+
+```js
 var nombre = 10;
 if(nombre >= 5){
-  console.log(‘plus grand que 5’)
+  console.log('plus grand que 5')
 }
 else {
-  console.log(‘plus petit que 5’)
+  console.log('plus petit que 5')
 }
+```
 
-nb : console.log permet de ne pas utiliser le popup alert() et d’afficher le résultats de vos actions dans la console.
+*Astuce :* ```console.log``` permet d’afficher le résultats de vos actions directement dans la console.
 
-=> If n’est pas obligatoirement suivi d’un else. Il est possible de s’en servir seul afin de vérifier une condition en renvoyant true ou false
+**LES FONCTIONS**
 
-if(3 < 5){console.log(“vrai”) }
+Une fonction est un morceau de code stocké dans une variable que l’on va pouvoir réutiliser plus tard afin afin de lui demander d’exécuter une action bien précise sur un *argument*.
 
-Les fonctions : Un bout de code que l’on va pouvoir réutiliser plus tard afin de lui demander d’exécuter certains actions.
-
+```js
 var mafonction = function(name){
-  return “Bonjour “ + name;
+  return "Bonjour " + name;
 }
+```
 
-En passant l’argument Gilles à ma fonction mafunction(“Gilles”) retournera la string "Bonjour Gilles’
+Ensuite, en passant l’argument ```Gilles``` à ```mafonction``` en suivant cette synthaxe ```mafunction(“Gilles”)``` la console vous retournera la string concaténée ```"Bonjour Gilles"```.
 
-Donc var mareponse = mafunction(“Gilles”);
-mareponse
-"Bonjour Gilles”
 
-———————————————
+### Le jQuery
 
-Le jQuery
+[jQuery](http://jquery.com/) est une bibliothèque JavaScript créée pour faciliter l'écriture de scripts afin d'animer les pages web. Le javascript utilise le DOM pour communiquer avec la page mais celui-ci n'est malheureusement pas standardisé entre les navigateurs. jQuery synthétise tous ces élement et propose une multitudes de fonctions qui s’appuient sur les sélecteurs CSS.
 
-Le javascript utilise le DOM pour communiquer avec la page. Mais le DOM n’est pas standardisé entre les navigateurs. jQuery synthétise tout cela et propose une multitudes de fonctions qui s’appuient sur les sélecteurs CSS.
+**Important :** Le ```$``` permet d’accéder directement à l’objet jQuery.
 
-Le $ permet d’accéder directement à l’objet jQuery
+**PREMIER EXEMPLE**
 
-<div id=“monid”>Hello world !</div>
+<iframe width="100%" height="150" src="http://jsfiddle.net/mecedric/jxfvcpx5/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-$(“#monid”).text(“Bonjour”);
+Dans cet exemple, le navigateur commence par lire et interpréter le code HTML avant de remplacer le contenu de la ```div``` à l'id ```#monid`` (sélecteur css) par ```Bonjour``` modifiant ainsi le texte initial.
 
-=> Phase en deux temps, le navigateur commence par lire l’html et à ensuite remplacé le contenu de la div par le code jQuery,
+**LES ANIMATIONS**
 
-Le javascript n’est pas utilisé pour faire un travail de mise en page. Il sert à faire des choses complexe et/ou impossible en css en terme d’événements et d’animations.
+En suivant la même logique que précédemment, il est très facile de créer des animations sur sa page web. L'exemple suivant vous montre comme afficher / effacer un texte d'un simple click grâce au [Toggle()](http://api.jquery.com/?s=toggle).
 
-<button class=“monbouton”>View spoiler</button>
+<iframe width="100%" height="150" src="http://jsfiddle.net/mecedric/9Lagh4ne/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-Le Javascript permet par exemple d’envoyer des informations à un serveur (envoi d’un formulaire par exemple) tout en restant sur la même page sans la recharger et de faire autre chose.
+L'idée est d'affecter un événement ```on click``` au bouton comprenant la class css```monbouton``` afin de déclancher le toggle sur la balise ```<p>``` avec la classe css ```spoiler```.
 
-Les animations
 
-<p class=“spoiler”>Text de trucs</p>
+C'est ici qu'intervient la notion de **Callback**. Il s'agit d'une fonction appelée lorsque l’utilisateur lance un événement (scrolling, click...)
 
-.spoiler { display : none; }
+Pour aller plus loin, sachez qu'il est possible d'enchaîner les actions les unes au autres. Avec le code ci-dessous, le spoiler apparaîtra au click et bénéficiera d'une animation d'entrée qui réduira son opacité de moitié (0.5) en 1000 millisecondes soit 1 seconde.
 
-$('.monbouton’).on(‘click’, function(){
-  $(‘.spoiler’).slideToggle();
+```js
+$(".monbouton").on("click", function(){
+  $(".spoiler").show().animate({opacity:0.5}, 1000);
 })
+```
 
-toggle = Afficher/Cacher
+### Les requêtes AJAX
 
-=> Attendre que l’utilisateur lance un événement pour lancer un callback = une fonction appelée lorsque l’utilisateur lance un événement (appuyer sur un bouton)
+L'AJAX vous donne la possibilité de faire des requêtes asynchrones vers des données externes (via un url pointant vers des données ouvertes d'une API) ou internes du site sans jamais recharger la page. La plus part du temps, les données arriveront sous forme de JSON : un objet Javascript facile à accéder sans aucun impact sur les performances.
 
-=> Possibilité de chainer les actions !
-$('.monbouton’).on(‘click’, function(){
-  $(‘.spoiler’).show().animate({opacity:0.5}, 1000);
-})
+**RECUPERER DES DONNÉES JSON**
 
-———————————————
+Pour l'exemple suivant nous effectuerons une requête auprès de l'API de Facebook afin de récupérer les données publiques de son célèbre fondateur : ```http://graph.facebook.com/4```
 
-AJAX
-
-La possibilité de faire des requêtes asynchrones vers des données externes ou internes du site sans jamais recharger la page. La plus part du temps, on va chercher des données stockées sous forme de JSON : un objet Javascript facile à accéder, qui ne prend pas de temps pour les applications et donc n’impact pas les performances.
-
-Exemple :
-
+```html
 {
    "4": {
       "id": "4",
@@ -134,63 +145,32 @@ Exemple :
       "username": "zuck"
    },
 }
+```
 
-<p></p>
-<button>Go get Zack</button>
+Via cette url, les informations ci-dessus vont être lues et parssées par notre code jQuery. Lorsque la requête est effectuée la fonction [.success(function(data){ ...})](http://api.jquery.com/ajaxSuccess/) se lance afin de lancer la concaténation du prénom et du nom de famille (en prenant soin de les séparer par un espace) et de la faire apparaître en ```HTML``` dans notre balise ```<p>```.
 
-$(‘button’).on(‘click’, function(){
-  $.getJSON('http://graph.facebook.com/4').success(function(data){
-  console.log(“AJAX Success”);
-  console.log(data.first_name)
-  $(“p”).text(data.first_name + “ “ data.last_name);
-  })
-})
+<iframe width="100%" height="150" src="http://jsfiddle.net/mecedric/u9bbhnjy/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-———————————————
+**RECUPERER DES DONNÉES JSON DE PLUSIEURS IDs**
 
-EACH - Il récupère chaque item d’un ensemble de données et applique une fonction a chacun d’entre eux.
+Il s'agit ici de suivre exactement le même procédé que celui énnoncé précédemment en prenant le soin d'y inclure deux petites nuances. L'url retournée par l'API de Facebook sera composé de plusieurs IDs : http://graph.facebook.com/**?ids=4,5,6**
 
-<p></p>
-<button>Go get Zack</button>
+Afin de parcourir l'ensemble des IDs retournés par l'API, il va falloir lancer la fonction [.each](http://api.jquery.com/each/) afin d'appliquer une fonction à chacun des éléments présent dans l'index du fichier JSON retourné : ```$.each(data, function(index, item){ ... }```
 
-$(‘button’).on(‘click’, function(){
-  $.getJSON('http://graph.facebook.com/?ids=4,5,6')
-  .success(function(data){
-    //console.log(“AJAX Success”);
-    //console.log(data.first_name)
-    $.each(data, function(index, item){
-      $(“p”).append(data.first_name + “ “ + data.last_name + “<br >")
-    });
-  })
-})
+Au sein de cette dernière fonction, la fonction [.append()](http://api.jquery.com/append/) va permettre d'ajouter du contenu à chacune des itérations entraînées par **.each**.
 
-A voir :
-Notion d’index
-Append
+<iframe width="100%" height="150" src="http://jsfiddle.net/mecedric/zohL7t78/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-Quand il boucle, il donne un index à chaque itération selon les IDs attribuées.
+**VALIDATION DE FORMULAIRE**
 
-———————————————
-Validation de formulaire
+Après avoir créé les bases d'un formulaire comprenant un input destiné à stocler une adresse mail et un button de validation, nous allons coder une fonction pour vous avertir si ou non le champs est bien rempli (à utiliser sur des champs obligatoires par exemple).
 
-<label>Adresse email :</label><input class=“email”></input>
-<button>Subscribe</button>
-<p class=“valide"></p>
+Grâce à un simple If, Else, nous allons écouter notre input afin de savoir si celui-ci est vide ```if($(".email").val() == "") { ... }``` ou plein ```else { ... }``` afin de faire apparaître un text ```vide``` ou ```valide```.
 
-$(‘button’).on(‘click’, function(){
-  if($(“.email”).val() == “”) {
-    $(“.valide”).text(“Vide”);
-    $(“.email”).css(“border”, 1px solid red”);
-  }
-  else {
-    $(“.valide”).text(“Valide”);
-  }
-})
+```$(".email").css("border", "1px solid red");``` permet d'injecter du css sur la class ```.email```de notre input afin de changer la bordure de couleur si le champ est resté vide.
 
-Input = élément spécial => utiliser la fonction val.
-Récupérer ET placer des informations.
-jQuerry permet de déterminer un comportement css
-———————————————
+<iframe width="100%" height="180" src="http://jsfiddle.net/mecedric/wo6e4dsb/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 
 ### Liens utiles
 
@@ -198,4 +178,7 @@ jQuerry permet de déterminer un comportement css
 - [API jQuery](http://www.api.jquerry.com)
 - [Codeacademy Javascript](http://www.codecademy.com/en/tracks/javascript)
 
+###Reminder
+
+Ne ratez plus un seul de nos événements Tech et rejoignez [la communauté Meetup du Wagon](http://www.meetup.com/Le-Wagon-Paris-Coding-Station/)
 
