@@ -1,22 +1,22 @@
 ---
 layout: post
-title: "Javascript pour les débutants"
+title: "JavaScript pour les débutants"
 author: cedric
 labels:
   - meetup
   - tuto
   - video
 thumbnail: thumbnail-meetup-javascript.jpg
-description: Gilles Manzato vous expose les bases de Javascript avant de vous présenter la librairie jQuery et le principe des requêtes AJAX dans un tutorial vidéo d'une heure. Des plus simples variables à la notion de callback, vous apprendrez quelques notions rapidement utilisables pour vos projets personnels du moment.
+description: Gilles Manzato vous expose les bases de JavaScript avant de vous présenter la librairie jQuery et le principe des requêtes AJAX dans un tutorial vidéo d'une heure. Des variables au callback, vous apprendrez quelques notions rapidement utilisables pour vos projets personnels du moment.
 ---
 
-[Gilles Manzato](https://twitter.com/gillesm) vous expose les bases de Javascript avant de vous présenter la librairie jQuery et le principe des requêtes AJAX dans un tutorial vidéo d'une heure. Des plus simples variables à la notion de callback, vous apprendrez quelques notions rapidement utilisables pour vos projets personnels du moment.
+[Gilles Manzato](https://twitter.com/gillesm) vous expose les bases de JavaScript avant de vous présenter la librairie jQuery et le principe des requêtes AJAX dans un tutorial vidéo d'une heure. Des variables au callback, vous apprendrez quelques notions rapidement utilisables pour vos projets personnels du moment.
 
 <div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/G8OsHFT99os?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ### Un peu d'histoire
 
-La Javascript, à ne pas confondre avec Java, est un langugage web orienté objet créé en 1985 utilisé à la fois pour créer des pages web interactives (il s'interface avec le HTML et le CSS) mais également du côté serveur. Il y'a encore 10 ans le Javascript était encore peu utilisé mais les récentes évolutions des navigateurs web ont boosté les performances de ce language avec un gain de performance de l'ordre de 1 à 1000 depuis IE6 a Chrome. L'arrivée du framework jQuerry, dont nous parlerons plus tard, a également favorisé son expansion.
+La JavaScript, à ne pas confondre avec Java, est un langugage web orienté objet créé en 1985 utilisé à la fois pour créer des pages web interactives (il s'interface avec le HTML et le CSS) mais également du côté serveur. Il y'a encore 10 ans le JavaScript était encore peu utilisé mais les récentes évolutions des navigateurs web ont boosté les performances de ce language avec un gain de performance de l'ordre de 1 à 1000 depuis IE6 a Chrome. L'arrivée du framework jQuery, dont nous parlerons plus tard, a également favorisé son expansion.
 
 ### Le Setup
 
@@ -25,7 +25,7 @@ Pour suivre ce tutorial vous aurez besoin du [navigateur Chrome](http://www.goog
 Pour ouvrir la *console*, utilisez les racourcis suivants :
 
 - Sur Windows : Ctrl + Maj + J
-- Sur Mac : Cmd + Opt + I
+- Sur Mac : ⌘ + ⌥ + I
 
 **Important :** Pour des raisons de sécurité la console JS est isolée et liée à la durée de vie de la page. Au cours des excercices ne rafraîchissez pas la page sous peine de tout devoir recommencer !
 
@@ -37,13 +37,13 @@ Ce résumé n'a pas pour objectif de retranscrire de manière exaustive toutes l
 
 Il existe 3 grands types de données :
 
-- Les chiffres
-- Les strings : il s'agit de texte entre guillemets ```"Bonjour"```
-- Les booleans : true, false, 0 et 1. Ils sont utilisés pour valider ou invalider des conditions.
+- Les nombres (*number*)
+- Les strings (*string*): se sont des chaînes entre guillemets du type ```"Bonjour"```
+- Les booléens (*boolean*) : true, false, 0 et 1. Ils sont utilisés pour valider ou invalider des conditions.
 
 **LES OPÉRATEURS ARITHMÉTIQUES**
 
-- Addition et/ou concaténation : + (1)
+- Addition et/ou concaténation de string : + (1)
 - Soustraction : -
 - Multiplication : *
 - Division : /
@@ -54,23 +54,23 @@ Il existe 3 grands types de données :
 
 **Les variables**
 
-Pour stocker des informations dans une mavariable : ```var mavariable = 8;```
-Notez que ```mavariable``` peut être remplacé par n'importe quel chaîne de caractère selon votre convenance.
+Pour stocker des informations dans une mavariable : ```var age = 8;```
+Notez que ```age``` peut être remplacé par n'importe quel chaîne de caractère selon votre convenance.
 
 Pour récupérer votre variable il suffit ensuite de la nommer dans la console afin de récupérer la donnée stockée.
-Ainsi ```mavariable``` vous retournera ```8```.
+Ainsi ```age``` vous retournera ```8```.
 
-Si vous souhaitez changer la donnée associée à ```mavariable```, il suffit d’écrire ```mavariable = “hello”;``` sans repréciser le ```var```.
+Si vous souhaitez changer la donnée associée à ```age```, il suffit d’écrire ```age = 15;``` sans repréciser le ```var```.
 
-*Astuce* : Pour connaître le type d'une variable, rentrez dans votre console ```typeof(mavariable)```
+*Astuce* : Pour connaître le type d'une variable, rentrez dans votre console ```typeof(votre_variable)```
 
 **IF, ELSE**
 
-Les conditions permettent simplement de retourner un résultat A ou B en fonction de la condition énnoncée. Dans l'exemple ci-dessous notre variable ```nombre``` est égale à ```10``` et sera donc supérieur à 5. Le code nous retournera donc ```plus grand que 5```. Notez que *if* n’est pas obligatoirement suivi d'un *else* et qu'il est possible de s’en servir seul afin de vérifier une condition qui nous revera donc un boolean *true* ou *false*.
+Les conditions permettent simplement de retourner un résultat A ou B en fonction de la condition énoncée. Dans l'exemple ci-dessous notre variable ```nombre``` est égale à ```10``` et sera donc supérieur à 5. Le code nous retournera donc ```plus grand que 5```. Notez que *if* n’est pas obligatoirement suivi d'un *else* et qu'il est possible de s’en servir seul afin de vérifier une condition qui nous revera donc un boolean *true* ou *false*.
 
 ```js
-var nombre = 10;
-if(nombre >= 5){
+var age = 10;
+if(age >= 5){
   console.log('plus grand que 5')
 }
 else {
@@ -85,17 +85,17 @@ else {
 Une fonction est un morceau de code stocké dans une variable que l’on va pouvoir réutiliser plus tard afin afin de lui demander d’exécuter une action bien précise sur un *argument*.
 
 ```js
-var mafonction = function(name){
+var greets = function(name){
   return "Bonjour " + name;
 }
 ```
 
-Ensuite, en passant l’argument ```Gilles``` à ```mafonction``` en suivant cette synthaxe ```mafunction(“Gilles”)``` la console vous retournera la string concaténée ```"Bonjour Gilles"```.
+Ensuite, en passant l’argument ```Gilles``` à ```greet``` en suivant cette synthaxe ```greets(“Gilles”)``` la console vous retournera la string concaténée ```"Bonjour Gilles"```.
 
 
 ### Le jQuery
 
-[jQuery](http://jquery.com/) est une bibliothèque JavaScript créée pour faciliter l'écriture de scripts afin d'animer les pages web. Le javascript utilise le DOM pour communiquer avec la page mais celui-ci n'est malheureusement pas standardisé entre les navigateurs. jQuery synthétise tous ces élement et propose une multitudes de fonctions qui s’appuient sur les sélecteurs CSS.
+[jQuery](http://jquery.com/) est une bibliothèque JavaScript créée pour faciliter l'écriture de scripts afin d'animer les pages web. Le JavaScript utilise le DOM (la représentation du navigateur de l'arbre HTML) pour communiquer avec la page mais celui-ci n'est malheureusement pas standardisé entre les navigateurs. jQuery synthétise tous ces élement et propose une multitudes de fonctions qui s’appuient sur les sélecteurs CSS.
 
 **Important :** Le ```$``` permet d’accéder directement à l’objet jQuery.
 
@@ -103,15 +103,15 @@ Ensuite, en passant l’argument ```Gilles``` à ```mafonction``` en suivant cet
 
 <iframe width="100%" height="150" src="http://jsfiddle.net/mecedric/jxfvcpx5/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-Dans cet exemple, le navigateur commence par lire et interpréter le code HTML avant de remplacer le contenu de la ```div``` à l'id ```#monid`` (sélecteur css) par ```Bonjour``` modifiant ainsi le texte initial.
+Dans cet exemple, le navigateur commence par lire et interpréter le code HTML avant de remplacer le contenu de la ```div``` à l'id ```#greets`` (sélecteur css) par ```Bonjour``` modifiant ainsi le texte initial.
 
 **LES ANIMATIONS**
 
-En suivant la même logique que précédemment, il est très facile de créer des animations sur sa page web. L'exemple suivant vous montre comme afficher / effacer un texte d'un simple click grâce au [Toggle()](http://api.jquery.com/?s=toggle).
+En suivant la même logique que précédemment, il est très facile de créer des animations sur sa page web. L'exemple suivant vous montre comme afficher / effacer un texte d'un simple click grâce au [toggle()](http://api.jquery.com/?s=toggle).
 
 <iframe width="100%" height="150" src="http://jsfiddle.net/mecedric/9Lagh4ne/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-L'idée est d'affecter un événement ```on click``` au bouton comprenant la class css```monbouton``` afin de déclancher le toggle sur la balise ```<p>``` avec la classe css ```spoiler```.
+L'idée est d'affecter un événement ```on click``` au bouton comprenant la class css ```active``` afin de déclancher le toggle sur la balise ```<p>``` avec la classe css ```spoiler```.
 
 
 C'est ici qu'intervient la notion de **Callback**. Il s'agit d'une fonction appelée lorsque l’utilisateur lance un événement (scrolling, click...)
@@ -119,14 +119,14 @@ C'est ici qu'intervient la notion de **Callback**. Il s'agit d'une fonction appe
 Pour aller plus loin, sachez qu'il est possible d'enchaîner les actions les unes au autres. Avec le code ci-dessous, le spoiler apparaîtra au click et bénéficiera d'une animation d'entrée qui réduira son opacité de moitié (0.5) en 1000 millisecondes soit 1 seconde.
 
 ```js
-$(".monbouton").on("click", function(){
+$(".active").on("click", function(){
   $(".spoiler").show().animate({opacity:0.5}, 1000);
 })
 ```
 
 ### Les requêtes AJAX
 
-L'AJAX vous donne la possibilité de faire des requêtes asynchrones vers des données externes (via un url pointant vers des données ouvertes d'une API) ou internes du site sans jamais recharger la page. La plus part du temps, les données arriveront sous forme de JSON : un objet Javascript facile à accéder sans aucun impact sur les performances.
+L'AJAX vous donne la possibilité de faire des requêtes asynchrones vers des données externes (via un url pointant vers des données ouvertes d'une API) ou internes du site sans jamais recharger la page. La plus part du temps, les données arriveront sous forme de JSON : un objet JavaScript facile à accéder sans aucun impact sur les performances.
 
 **RECUPERER DES DONNÉES JSON**
 
@@ -153,7 +153,7 @@ Via cette url, les informations ci-dessus vont être lues et parssées par notre
 
 **RECUPERER DES DONNÉES JSON DE PLUSIEURS IDs**
 
-Il s'agit ici de suivre exactement le même procédé que celui énnoncé précédemment en prenant le soin d'y inclure deux petites nuances. L'url retournée par l'API de Facebook sera composé de plusieurs IDs : http://graph.facebook.com/**?ids=4,5,6**
+Il s'agit ici de suivre exactement le même procédé que celui énoncé précédemment en prenant le soin d'y inclure deux petites nuances. L'url retournée par l'API de Facebook sera composé de plusieurs IDs : http://graph.facebook.com/**?ids=4,5,6**
 
 Afin de parcourir l'ensemble des IDs retournés par l'API, il va falloir lancer la fonction [.each](http://api.jquery.com/each/) afin d'appliquer une fonction à chacun des éléments présent dans l'index du fichier JSON retourné : ```$.each(data, function(index, item){ ... }```
 
@@ -163,18 +163,18 @@ Au sein de cette dernière fonction, la fonction [.append()](http://api.jquery.c
 
 **VALIDATION DE FORMULAIRE**
 
-Après avoir créé les bases d'un formulaire comprenant un input destiné à stocler une adresse mail et un button de validation, nous allons coder une fonction pour vous avertir si ou non le champs est bien rempli (à utiliser sur des champs obligatoires par exemple).
+Après avoir créé les bases d'un formulaire comprenant un input destiné à stocker une adresse mail et un boutton de validation, nous allons coder une fonction pour avertir si oui ou non le champs est bien rempli (à utiliser sur des champs obligatoires par exemple).
 
-Grâce à un simple If, Else, nous allons écouter notre input afin de savoir si celui-ci est vide ```if($(".email").val() == "") { ... }``` ou plein ```else { ... }``` afin de faire apparaître un text ```vide``` ou ```valide```.
+Grâce à un simple If, Else, nous allons écouter notre input pour savoir si celui-ci est vide ```if($(".email").val() == "") { ... }``` ou plein ```else { ... }``` afin de faire apparaître un text ```vide``` ou ```valide```.
 
-```$(".email").css("border", "1px solid red");``` permet d'injecter du css sur la class ```.email```de notre input afin de changer la bordure de couleur si le champ est resté vide.
+```$(".email").css("border", "1px solid red");``` permet d'injecter du css sur la classe ```.email```de notre input afin de changer la bordure de couleur si le champ est resté vide.
 
 <iframe width="100%" height="180" src="http://jsfiddle.net/mecedric/wo6e4dsb/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 
 ### Liens utiles
 
-- [Mozilla Javascript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Mozilla JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [API jQuery](http://www.api.jquerry.com)
 - [Codeacademy Javascript](http://www.codecademy.com/en/tracks/javascript)
 
