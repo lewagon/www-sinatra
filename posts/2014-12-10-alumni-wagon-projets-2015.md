@@ -5,16 +5,24 @@ author: cedric
 labels:
   - alumni
 thumbnail:
-description: "Ils étaient 20 à prendre place au sein de la quatrième promotion du Wagon. Au terme de 9 semaines passées au sein du Full-Stack Bootcamp du Wagon, les voilà aux commandes de leurs propores applications fraîchement codées et pushése sur la toile. Tour d'horizon de ces 13 premiers projets à suivre en 2015."
+description: "Ils étaient 20 à prendre place au sein de la quatrième promotion du Wagon. Au terme de 9 semaines passées au sein du Full-Stack Bootcamp du Wagon, les voilà aux commandes de leurs propores applications fraîchement codées et pushées sur la toile. Tour d'horizon de ces 11 premiers projets à suivre en 2015."
 ---
 
-Ils étaient 20 à prendre place au sein de la quatrième promotion du Wagon. Au terme de 9 semaines passées au sein du [Full-Stack Bootcamp du Wagon](http://www.lewagon.org/programme), les voilà aux commandes de leurs propores applications fraîchement codées et pushése sur la toile. Tour d'horizon de ces 13 premiers projets à suivre en 2015.
+Ils étaient 20 à prendre place au sein de la quatrième promotion du Wagon. Au terme de 9 semaines passées au sein du [Full-Stack Bootcamp du Wagon](http://www.lewagon.org/programme), les voilà aux commandes de leurs propores applications fraîchement codées et pushées sur la toile. Tour d'horizon de ces 11 premiers projets à suivre en 2015.
 
-Sommaire :
+###Index
 
 - Explorizers
 - Loudstory
 - Ma share école
+- Tinder Genius
+- WeQueue
+- Popn'Food
+- Remember
+- Carcar
+- Deuxio
+- Fluicity
+- Lawkillers
 
 ###[EXPLORAZIERS](http://philae.herokuapp.com/) - Choisissez l'aventure et sortez des sentiers battus
 
@@ -51,7 +59,9 @@ Veritable muse pour entrepreneur, **Loudstory** souhaite aider ces derniers à a
 - [www.facebook.com/loudstory](http://www.facebook.com/loudstory)
 - [www.twitter.com/loudstory](https://twitter.com/loudstory)
 
-###MA SHARE ECOLEz
+###[MA SHARE ECOLE](http://www.mashareecole.com/) - Nos enfants sont dans la même école, entrons en contact !
+
+![Nos enfants sont dans la même école, entrons en contact !](blog_image_path mashareecole.jpg)
 
 Anabelle Menar chef de projet. Envie de changer de boulot rapidement avec l'envie de créer sa propre boîte.
 Caroline Carrière, juriste fiscaliste, avec beaucoup d'expérience différentes et l'envie de créer. Frein de ne pas savoir coder. Envie de coder suite à un itw de Fizzer.
@@ -69,7 +79,9 @@ Ils déposent tous leurs enfants au même endroit et se croisent au moins deux f
 => Greffer les commercants du quartier
 => Parents qui peuvent présenter leur activité professionnelle
 
-###TINDER GENIUS
+###[TINDER GENIUS](http://www.tindergenius.com/) - Show your best side
+
+![Show your best side](blog_image_path tindergenius.jpg)
 
 Tous les deux encore étudiants, fort volonté de travail en équipe.
 
@@ -89,11 +101,15 @@ Plus on note de gens et plus on obtient nos réponses rapidement.
 L'app est complétement dégagé de Tinder et permet simplement de faire comparer vos photos par la communauté.
 
 
-###WEQUEUE
+###[WEQUEUE]() - L'info en temps réel sur toutes les files d'attente
+
+![L'info en temps réel sur toutes les files d'attente](blog_image_path wequeue.jpg)
 
 Emélie Couderat
 
-###Popn'food
+###[POPN'FOOD](http://popnfood.herokuapp.com/) - Cooking start with inspiration
+
+![Cooking start with inspiration](blog_image_path popnfood.jpg)
 
 Sébastien Le Moan, 34 ans, 15 ans d'expérience dans l'hotellerie de luxe entre Canne, Monaco et Londres. Manager d'un département room service. Envie d'autre chose. 2007-2010 = entreprise de livraison de petit déjeuners haut de gamme équivaleent au room service pour les locataires de villas / appartement de standing. Revente de l'entreprise au bout de 3 ans.
 
@@ -109,7 +125,9 @@ C'est la que Popn'food arrive. Proposer une intérface en effectuant de la curra
 
 => Nom de recette, temps de préparation, nombre de personnes, une photo, quelques ingrédients (filtres par goûts)
 
-#REMEMBER
+###[REMEMBER](http://remember-production.herokuapp.com/users/sign_in) - Memories back, with your friends
+
+![Memories back, with your friends](blog_image_path remember.jpg)
 
 Emilie Coudrat et Etienne, parcours similiaire dans le communication digitale ont tous les deux souhaité apprendre à créer de la valeur depuis leur ordinateurs, se lancer dans le prototypage d'appli web & de discuter avec des développeurs. Gagner en autonomie. Demystifier ce qui se passe dans le web et le code.
 
@@ -124,7 +142,7 @@ Plateforme relativement pricée centré sur un noyau dur d'amis proches. Re-cré
 Photos jamais obtenus, se balancer des casseroles communes entre potes...
 
 
-###AUTO-ECOLE
+###[CARCAR](http://carcar.herokuapp.com/) - Pour les jeunes conducteurs qui veulent se simplifier la vie
 
 Ted Mohammed :
 Fin d’étude en septembre 2013.
@@ -190,8 +208,9 @@ Via un recherche twitter sur le site - Lister les tweet + FB, Linkedin, Aboutme,
 > Pas de version dispo  car brique payante à installer
 > Chrome app = facilitateur
 
-FLUICITY
-Julie de Pimodan
+###[FLUICITY]() - Connecting citizen
+
+![Connecting citizen](blog_image_path fluicity.jpg)
 
 Journaliste. Missionné pour faire des reportages sur la situation économique d’un pays pour le revendre au New York Time, Daily Telegraphe… Ensuite entrepreneuse au Yemen avec un entrepreneur local. Puis embauché par la BBC à Dubaï + freelance pour Aljazhira. Et monter un magazine de pour les femmes arabes sur Aboudabi. Ensuite 4 ans chez Google : développer le business double clip sur les pays émergents basé sur Istanbul. 70 à la fin. Marre des process
 
