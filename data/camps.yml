@@ -32,6 +32,7 @@ brussels-janvier-2015:
     - 6016507068529
     - 6016638335929
   last_seats: true
+  full: true
 
 paris-fevrier-2015:
   city: paris
