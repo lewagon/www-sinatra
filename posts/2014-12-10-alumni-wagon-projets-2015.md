@@ -1,28 +1,14 @@
 ---
 layout: post
-title: "13 projets d'alumni à suivre en 2015 - Partie 1"
+title: "20 projets d'alumni à suivre en 2015 - Partie 1"
 author: cedric
 labels:
   - alumni
-thumbnail:
+thumbnail: wagon-11-projets-alumni.jpg
 description: "Ils étaient 20 à prendre place au sein de la quatrième promotion du Wagon. Au terme de 9 semaines passées au sein du Full-Stack Bootcamp du Wagon, les voilà aux commandes de leurs propores applications fraîchement codées et pushées sur la toile. Tour d'horizon de ces 11 premiers projets à suivre en 2015."
 ---
 
 Ils étaient 20 à prendre place au sein de la quatrième promotion du Wagon. Au terme de 9 semaines passées au sein du [Full-Stack Bootcamp du Wagon](http://www.lewagon.org/programme), les voilà aux commandes de leurs propores applications fraîchement codées et pushées sur la toile. Tour d'horizon de ces 11 premiers projets à suivre en 2015.
-
-###Index
-
-- Explorizers
-- Loudstory
-- Ma share école
-- Tinder Genius
-- WeQueue
-- Popn'Food
-- Remember
-- Carcar
-- Deuxio
-- Fluicity
-- Lawkillers
 
 ###[EXPLORAZIERS](http://philae.herokuapp.com/) - Choisissez l'aventure et sortez des sentiers battus
 
@@ -144,6 +130,8 @@ Photos jamais obtenus, se balancer des casseroles communes entre potes...
 
 ###[CARCAR](http://carcar.herokuapp.com/) - Pour les jeunes conducteurs qui veulent se simplifier la vie
 
+![Pour les jeunes conducteurs qui veulent se simplifier la vie](blog_image_path carcar.jpg)
+
 Ted Mohammed :
 Fin d’étude en septembre 2013.
 Travail en tant que chargé d’affaire pendant 6 mois.
@@ -176,7 +164,9 @@ A terme, avoir un carnet bord online des avancées de l’élève et améliorer 
 
 => Mettre les auto-écoles en concurrence : clarifier l’offre et favoriser les opérations commerciales
 
-###BRICE
+###[DEUXIO](http://deux.io/) - La solution SaaS pour augmenter votre acquisition
+
+![La solution SaaS pour augmenter votre acquisition](blog_image_path deuxio.jpg)
 
 Brice Morin
 A la base formation marketing.
@@ -243,7 +233,9 @@ Recherche de simplicité + multi-usage mais des outils réellement centrés sur 
 
 Volonté de comprendre sa techno + savoir briefer un dev.
 
-###LAWKILLERS
+###[LAWKILLERS]() - Incorporez votre startup en un click
+
+![Incorporez votre startup en un click](blog_image_path lawkillers.jpg)
 
 #1 François : Robotique / Technique / Marketing / Buis Dev et dénièrement Cloud Computing chez SFR.
 Background technique d’il y’a 15 ans : Proto rapide => Manque
