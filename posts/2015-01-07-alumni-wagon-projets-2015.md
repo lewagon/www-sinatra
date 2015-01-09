@@ -137,6 +137,6 @@ L’objectif est double : restaurer la confiance des citoyens envers leurs élus
 
 [François Fort](https://twitter.com/francoisfort) et [Florent Pignaud](https://twitter.com/florentpignaud) ont décidé de s’attaquer au problème de l’incorporation des startups. Après avoir eu recours à 5 avocats différents à Paris pour monter un projet à l’international, ils se sont rapidement rendu compte qu’aucun de leurs interlocuteurs n’avait le même discours.
 
-Du coût de la démarche aux compétence pas forcément disponible en interne en fonction du cabinet contacté, l’incorporation à l’international demande beaucoup de patience ainsi que des ressources généralement inaccessibles pour une jeune startup.
+Du coût de la démarche aux compétences pas forcément disponibles en interne en fonction du cabinet contacté, l’incorporation à l’international demande beaucoup de patience ainsi que des ressources généralement inaccessibles pour une jeune startup.
 
 Afin de limiter les risques et les conséquences en cas de conflit, les deux compères ont commencé à travailler sur une solution SaaS afin de proposer aux startups qui ne savent pas encore déterminer d’où viendra leur traction, un cadre juridique qui en un click génère une incorporation optimisée. Le tout sera basé sur les APIs de e-gouvernements et de quelques conseils d’experts tout en prenant en compte le niveau d’activité de l’entreprise (modification de la forme juridique, évolution du CA, incorporation nécessaire ou non à l’étranger…). Lancement de la prémière version prévue pour février 2015.
