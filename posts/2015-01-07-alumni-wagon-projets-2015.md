@@ -14,7 +14,7 @@ Ils étaient 20 à prendre place au sein de la quatrième promotion du Wagon. Au
 
 ![Choisissez l'aventure et sortez des sentiers battus](blog_image_path explorizers.jpg)
 
-[Julien Debray](https://github.com/juliendebray) et [Florian Joulie](https://github.com/florian-j) se sont rencontrés pendant leurs 5 années de conseil à Paris. L’un a toujours souhaité entreprendre, l’autre a déjà rempli son premier passeport et s’évertue à compléter le second.
+Julien Debray et Florian Joulie se sont rencontrés pendant leurs 5 années de conseil à Paris. L’un a toujours souhaité entreprendre, l’autre a déjà rempli son premier passeport et s’évertue à compléter le second.
 
 Bien voyager nécessite de nombreuses heures de préparation passées à fouiner dans l’indexe du moindre guide, explorer les multitudes de forums et scruter les nombreux sites d’agences de voyage. Process long et fastidieux si il en est, les deux amis ont décidé de créer un outil pour vous suggérer tout un panel d'activités sur la destination de votre choix afin d’être certain de ne rien manquer une fois sur place.
 
@@ -40,7 +40,7 @@ Veritable muse pour entrepreneur, **Loudstory** souhaite aider ces derniers à a
 
 ![Nos enfants sont dans la même école, entrons en contact !](blog_image_path mashareecole.jpg)
 
-[Annabel Menard](https://github.com/kjenway), chef de projet, [Candice Gasperini](https://twitter.com/candicesg), journaliste télé et [Caroline Carrière](http://fr.linkedin.com/pub/caroline-carriere/40/36/b1b), juriste fiscaliste. 3 personnalités et parcours différents pour ces 3 drôles de dames. Femmes actives et mères à plein temps, elles sont parties du constat qu’au milieu de la frénésie du quotidien il devient de plus en plus complexe de profiter de ses enfants. Alors si chaque minute compte, où commencer à gagner du temps ?
+Annabel Menard, chef de projet, [Candice Gasperini](https://twitter.com/candicesg), journaliste télé et Caroline Carrière, juriste fiscaliste. 3 personnalités et parcours différents pour ces 3 drôles de dames. Femmes actives et mères à plein temps, elles sont parties du constat qu’au milieu de la frénésie du quotidien il devient de plus en plus complexe de profiter de ses enfants. Alors si chaque minute compte, où commencer à gagner du temps ?
 
 Tous les parents se croisent au moins deux fois par jour sur le parvis de l’école. Pourquoi ne pas le transformer en lieu d’échanges ultra-rapides ? Ma share école à donc pour ambition  de constituer un réseau de parents dont les enfants vont dans la même école élémentaire afin de leur donner accès à des outils basée sur l'économie collaborative pour faciliter l'organisation du quotidien et favoriser l'échange de biens et de services à moindre coût.
 
@@ -50,7 +50,7 @@ Tous les parents se croisent au moins deux fois par jour sur le parvis de l’é
 
 ![Show your best side](blog_image_path tindergenius.jpg)
 
-[Adrien Montcoudiol](https://twitter.com/adrienm) et [Max Moock](https://github.com/MaxMck) sont tous les deux en année de césure. Passionnés par le milieu startup et les problématiques de Growth, les deux individus ont observé que les adeptes de Tinder demandent régulièrement à leurs proches de valider leurs photos de profil.
+[Adrien Montcoudiol](https://twitter.com/adrienm) et Max Moock sont tous les deux en année de césure. Passionnés par le milieu startup et les problématiques de Growth, les deux individus ont observé que les adeptes de Tinder demandent régulièrement à leurs proches de valider leurs photos de profil.
 
 Voyant un moyen sympathique d’entremêler le fun et l’A/B testing, ils se sont mis en tête de créer un service pour optimiser nos profils Tinder pour accroître son nombre de matches.
 
@@ -89,7 +89,7 @@ L’objectif ? Permettre à l’utilisateur d’être avant tout guidé par ses 
 
 ![Memories back, with your friends](blog_image_path remember.jpg)
 
-Après avoir passé quelques années à exercer ses talents dans l’univers de la communication digitale, [Etienne Mangino](https://github.com/EtienneMangino) a eu un jour l’envie de se plonger dans ses souvenirs d’étudiant. Conscient d’avoir oublié une bonne partie des événements prêtant à sourire de son quotidien d’alors il a décidé de créer Remember, une plateforme dédiée à l’aggrégation de souvenirs photographiques (de premier ordre ou non) autour d’un feed simple et épuré, enrichi par l’utilisateur et ses amis proches.
+Après avoir passé quelques années à exercer ses talents dans l’univers de la communication digitale, Etienne Mangino a eu un jour l’envie de se plonger dans ses souvenirs d’étudiant. Conscient d’avoir oublié une bonne partie des événements prêtant à sourire de son quotidien d’alors il a décidé de créer Remember, une plateforme dédiée à l’aggrégation de souvenirs photographiques (de premier ordre ou non) autour d’un feed simple et épuré, enrichi par l’utilisateur et ses amis proches.
 
 A vous de recréer la timeline de votre vie, et pourquoi pas de voir surgir quelques casseroles et autres moments savamment effacés de votre mémoire lorsqu’un ami bienveillant prendra le soin de vous tagger sur un cliché que vous croyiez bien enfoui quelque part !
 
@@ -100,7 +100,7 @@ A vous de recréer la timeline de votre vie, et pourquoi pas de voir surgir quel
 
 ![Pour les jeunes conducteurs qui veulent se simplifier la vie](blog_image_path carcar.jpg)
 
-Avec la double envie d’augmenter la transparence entre les prestations proposées par les auto-écoles et de simplifier la réservation d’heures de conduite [Ted Mohammed](https://github.com/MohamedTab) et [Martin Chenu](https://github.com/martinchenu) se sont lancés dans la création de Carcar.
+Avec la double envie d’augmenter la transparence entre les prestations proposées par les auto-écoles et de simplifier la réservation d’heures de conduite [Mohammed Tabib et Martin Chenu se sont lancés dans la création de Carcar.
 
 Leur idée commune est de mettre à niveau les Auto-Ecoles avec les nouveaux usages des éléves en proposant un desk permettant de réserver une heure de conduite en moins de 2 minutes depuis son ordinateur ou son mobile sans avoir à passer un coup de téléphone.
 
@@ -113,7 +113,7 @@ Véritable outil intermédiaire entre l’auto-école classique et l’auto-éco
 
 ![La solution SaaS pour augmenter votre acquisition](blog_image_path deuxio.jpg)
 
-[Brice Morin](https://twitter.com/deuxio) évolue dans le milieu du web depuis 2004. Après voir lancé une première startup basée sur la recommandation d’événements culturels il s’est ensuite dirigié vers le conseil en acquisition. Partant du principe qu’un pourcentage important de son travail est tout à fait automatisable, il travail à l’heure actuelle sur le développement d’un service SaaS composé d’outils de veille, d’optimisation SEO et d’aide au recrutement.
+[Brice Morin](https://twitter.com/deuxio) évolue dans le milieu du web depuis 2004. Après voir lancé une première startup basée sur la recommandation d’événements culturels il s’est ensuite dirigié vers le conseil en acquisition. Partant du principe qu’un pourcentage important de son travail est tout à fait automatisable, il travaille à l’heure actuelle sur le développement d’un service SaaS composé d’outils de veille, d’optimisation SEO et d’aide au recrutement.
 
 C’est d’ailleurs sur ce dernier point qu’il a commencé à avancer en mettant au point un service basé sur la curation de profils Twitter, qui automatiquement, ira chercher des informations complémentaires sur les web (lien Facebook, Linkedin, site personnel si non spécifié ect…) La première version de ce service devrait arriver d’ici peu. En attendant, n’hésitez pas à jeter un oeil sur son blog, une multitudes de bonnes pratiques pour accroître votre acquisition vous y attendent.
 
@@ -124,7 +124,7 @@ C’est d’ailleurs sur ce dernier point qu’il a commencé à avancer en mett
 
 ![Connecting citizen](blog_image_path fluicity.jpg)
 
-Journaliste économique avant d’être entrepreneuse au Yemen et enfin Googler à Istanbul, le parcours de [Julie De Pimodan](https://twitter.com/judepim) n’est pas banal. Aujourd’hui elle s’est lancée le défi de créer Fluicity, une plateforme clés en main et un service spécialisé permettant aux élus locaux d’engager facilement les citoyens dans la prise de décisions publiques.
+Journaliste économique avant d’être entrepreneuse au Yemen et enfin Googler à Istanbul, le parcours de [Julie De Pimodan](https://twitter.com/judepim) n’est pas banal. Aujourd’hui elle s’est lancé le défi de créer Fluicity, une plateforme clés en main et un service spécialisé permettant aux élus locaux d’engager facilement les citoyens dans la prise de décisions publiques.
 
 L’objectif est double : restaurer la confiance des citoyens envers leurs élus en augmentant la transparence du processus de consultation et de décision via une application mobile dédiée, et fournir une data qualifiée aux conseillers locaux via une interface claire, facilement administrable. Lancement prévu pour le premier trimestre 2015.
 
