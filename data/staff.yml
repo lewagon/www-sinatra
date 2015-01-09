@@ -364,3 +364,22 @@ jeanelie:
       icon: linkedin
     - url: https://twitter.com/jeclic
       icon: twitter
+thomas_chretien:
+  image_name: thomas.png
+  description:
+    fr: |
+      De la structure des layouts aux petits détails,
+      **Thomas** est un féru de front-end design, passion qu'il a découvert à la session d'été du Wagon,
+      où il a développé et designé <a href="http://trackguru.co" target='_blank'>TrackGuru</a> en tant qu'élève !
+    en: |
+      Good structures, little details.
+      **Thomas** is passionate about front-end design.
+  links:
+    - url: https://github.com/tchret
+      icon: github-alt
+    - url: http://fr.linkedin.com/in/tchret
+      icon: linkedin
+    - url: https://twitter.com/tchret
+      icon: twitter
+    - url: http://www.trackguru.co
+      icon: link
