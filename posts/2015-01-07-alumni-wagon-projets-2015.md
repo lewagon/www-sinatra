@@ -135,7 +135,7 @@ L’objectif est double : restaurer la confiance des citoyens envers leurs élus
 
 ![Incorporez votre startup en un click](blog_image_path lawkillers.jpg)
 
-[François Fort](https://twitter.com/francoisfort) et [Florent Pignaud](https://twitter.com/florentpignaud) ont décidé de s’attaquer au problème de l’incorporation des startups. Après avoir eu recours à 5 avocats différents sur Paris pour monter un projet à l’international, ils se sont rapidement rendu compte qu’aucun de leurs interlocuteurs n’avait le même discours.
+[François Fort](https://twitter.com/francoisfort) et [Florent Pignaud](https://twitter.com/florentpignaud) ont décidé de s’attaquer au problème de l’incorporation des startups. Après avoir eu recours à 5 avocats différents à Paris pour monter un projet à l’international, ils se sont rapidement rendu compte qu’aucun de leurs interlocuteurs n’avait le même discours.
 
 Du coût de la démarche aux compétence pas forcément disponible en interne en fonction du cabinet contacté, l’incorporation à l’international demande beaucoup de patience ainsi que des ressources généralement inaccessibles pour une jeune startup.
 
