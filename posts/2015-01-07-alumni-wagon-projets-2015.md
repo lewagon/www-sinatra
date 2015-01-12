@@ -10,7 +10,7 @@ description: "Ils étaient 20 à prendre place au sein de la quatrième promotio
 
 Ils étaient 20 à prendre place au sein de la quatrième promotion du Wagon. Au terme de 9 semaines passées au sein du [Full-Stack Bootcamp du Wagon](http://www.lewagon.org/programme), les voilà aux commandes de leurs propres applications fraîchement codées et pushées sur la toile. Tour d'horizon de ces 11 premiers projets à suivre en 2015.
 
-###[EXPLORAZIERS](http://www.explorizers.com/) - Choisissez l'aventure et sortez des sentiers battus
+###[EXPLORIZERS](http://www.explorizers.com/) - Choisissez l'aventure et sortez des sentiers battus
 
 ![Choisissez l'aventure et sortez des sentiers battus](blog_image_path explorizers.jpg)
 
@@ -18,7 +18,7 @@ Julien Debray et Florian Joulie se sont rencontrés pendant leurs 5 années de c
 
 Bien voyager nécessite de nombreuses heures de préparation passées à fouiner dans l’indexe du moindre guide, explorer les multitudes de forums et scruter les nombreux sites d’agences de voyage. Process long et fastidieux si il en est, les deux amis ont décidé de créer un outil pour vous suggérer tout un panel d'activités sur la destination de votre choix afin d’être certain de ne rien manquer une fois sur place.
 
-De l'immanquable aux pépites cachées hors des sentiers battus, [Explorizer](http://www.explorizers.com/) vous laisse créer très simplement votre itinéraire de voyage, étape par étape, et vous suggére à la volée les activités aux alentours. Afin d’assurer la pertinence et la qualité du service, la curation des points d’intérêt se fait par la communauté (du grand baroudeur à l'explorateur novice)  qui est invitée à ajouter ses propres marqueurs et à les partager.
+De l'immanquable aux pépites cachées hors des sentiers battus, [Explorizers](http://www.explorizers.com/) vous laisse créer très simplement votre itinéraire de voyage, étape par étape, et vous suggére à la volée les activités aux alentours. Afin d’assurer la pertinence et la qualité du service, la curation des points d’intérêt se fait par la communauté (du grand baroudeur à l'explorateur novice)  qui est invitée à ajouter ses propres marqueurs et à les partager.
 
 - [www.explorizers.com](http://www.explorizers.com/)
 
