@@ -17,14 +17,14 @@ Après avoir co-fondé Seesmic, [Johann Romefort](https://twitter.com/romefort) 
 ### Les concepts et points abordés en 45 minutes
 
 - Le concept de Lean Entreprise : définition, OODA Loop et son application au software
-- Explication du concept Big Data et ses enjeux actuels avec les nouvelles capacités d'analyses offertes le cloud
+- Explication du concept Big Data et ses enjeux actuels avec les nouvelles capacités d'analyses offertes par le cloud
 - Présentation des outils d'Amazone Web Services (EC2, Kinesis, EMR, Redshift, S3, Glacier...) et mise en perspective des interactions possibles entre eux
-- Les différentes d'architectures entre des services du type monolith reposant sur une unique base de données, et les microservices où chaque fonctionnalité du service est isolée et peut fonctionner indépendamment du reste
-- Quelques conseils de management afin de structurer et motiver au mieux son équipe de développeurs : Amazone's "two-pizza team", les points de friction et la mise en place du développement continue
+- Les différences d'architectures entre des services du type monolith reposant sur une unique base de données, et les microservices où chaque fonctionnalité du service est isolée et peut fonctionner indépendamment du reste
+- Quelques conseils de management afin de structurer et motiver au mieux son équipe de développeurs : Amazon's "two-pizza team", les points de friction et la mise en place du développement continue
 
 ### Liens utiles
 
-- [Amazone Web Services](http://aws.amazon.com/)
+- [Amazon Web Services](http://aws.amazon.com/)
 - [The Lean Startup](http://theleanstartup.com/)
 - [Rainbow](http://getrainbow.com/)
 
