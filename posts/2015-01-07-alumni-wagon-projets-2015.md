@@ -113,7 +113,7 @@ Véritable outil intermédiaire entre l’auto-école classique et l’auto-éco
 
 ![La solution SaaS pour augmenter votre acquisition](blog_image_path deuxio.jpg)
 
-[Brice Morin](https://twitter.com/deuxio) évolue dans le milieu du web depuis 2004. Après voir lancé une première startup basée sur la recommandation d’événements culturels il s’est ensuite dirigié vers le conseil en acquisition. Partant du principe qu’un pourcentage important de son travail est tout à fait automatisable, il travaille à l’heure actuelle sur le développement d’un service SaaS composé d’outils de veille, d’optimisation SEO et d’aide au recrutement.
+[Brice Maurin](https://twitter.com/deuxio) évolue dans le milieu du web depuis 2004. Après voir lancé une première startup basée sur la recommandation d’événements culturels il s’est ensuite dirigié vers le conseil en acquisition. Partant du principe qu’un pourcentage important de son travail est tout à fait automatisable, il travaille à l’heure actuelle sur le développement d’un service SaaS composé d’outils de veille, d’optimisation SEO et d’aide au recrutement.
 
 C’est d’ailleurs sur ce dernier point qu’il a commencé à avancer en mettant au point un service basé sur la curation de profils Twitter, qui automatiquement, ira chercher des informations complémentaires sur les web (lien Facebook, Linkedin, site personnel si non spécifié ect…) La première version de ce service devrait arriver d’ici peu. En attendant, n’hésitez pas à jeter un oeil sur son blog, une multitudes de bonnes pratiques pour accroître votre acquisition vous y attendent.
 
