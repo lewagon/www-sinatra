@@ -6,7 +6,7 @@ labels:
   - meetup
   - video
 thumbnail: thumbnail-meetup-big-data.jpg
-description: Johann Romefort nous a fait le plaisir d'animer un Meetup dans nos locaux afin de présenter les principes du Lean Enterprise, de sa relation étroite avec le big data.
+description: Johann Romefort nous a fait le plaisir d'animer un Meetup dans nos locaux afin de présenter les principes du Lean Enterprise et sa relation étroite avec le big data.
 ---
 
 Après avoir co-fondé Seesmic, [Johann Romefort](https://twitter.com/romefort) travaille actuellement à la création d'un app store dédié aux applications côté serveurs : [Rainbow](http://getrainbow.com/). Il nous a fait le plaisir d'animer un Meetup dans nos locaux afin de présenter les principes du Lean Enterprise et sa relation étroite avec le big data.
