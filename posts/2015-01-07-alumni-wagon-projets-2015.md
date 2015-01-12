@@ -40,7 +40,7 @@ Veritable muse pour entrepreneur, **Loudstory** souhaite aider ces derniers à a
 
 ![Nos enfants sont dans la même école, entrons en contact !](blog_image_path mashareecole.jpg)
 
-Annabel Menard, chef de projet, [Candice Gasperini](https://twitter.com/candicesg), journaliste télé et Caroline Carrière, juriste fiscaliste. 3 personnalités et parcours différents pour ces 3 drôles de dames. Femmes actives et mères à plein temps, elles sont parties du constat qu’au milieu de la frénésie du quotidien il devient de plus en plus complexe de profiter de ses enfants. Alors si chaque minute compte, où commencer à gagner du temps ?
+A l’origine du projet, Caroline Carrière s’est vue rejoindre par Annabel Menard et [Candice Gasperini](https://twitter.com/candicesg). 3 personnalités et parcours différents pour ces 3 drôles de dames. Femmes actives et mères à plein temps, elles sont parties du constat qu’au milieu de la frénésie du quotidien il devient de plus en plus complexe de profiter de ses enfants. Alors si chaque minute compte, où commencer à gagner du temps ?
 
 Tous les parents se croisent au moins deux fois par jour sur le parvis de l’école. Pourquoi ne pas le transformer en lieu d’échanges ultra-rapides ? Ma share école à donc pour ambition  de constituer un réseau de parents dont les enfants vont dans la même école élémentaire afin de leur donner accès à des outils basée sur l'économie collaborative pour faciliter l'organisation du quotidien et favoriser l'échange de biens et de services à moindre coût.
 
