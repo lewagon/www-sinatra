@@ -9,57 +9,61 @@ thumbnail:
 description: ""
 ---
 
-J’ai commencé par faire une licence d’économie / finance. Suite à ça j’ai passé les concours d’admission pour intégrer une école de commerce ESCP en Master 1 avec l’idée de monter une boîte ensuite. Cela s’est traduit par une année de césure durant laquelle je suis partie travailler pour l'association humanitaire [Enfants du Mekong](http://www.enfantsdumekong.com/). En rentrant j’ai continué mon M2 avec l’option entreprenariat toujours avec l’idée de monter une boîte, sachant que j’avais commencé à travailler sur un projet pendant mon année de césure avec deux amis en Asie.
+###Entrepreneur et maintenant développeur, peux-tu nous éclaircir sur ton parcours ?
 
-L’idée était de monter quelque chose d’équivalent à La Fourchette mais en Asie du Sud-Est. C’est un projet qui est d’ailleurs toujours en ligne : www.eatigo.com et je travaillais en parallèle sur Codaly, un projet d’application mobile dans le domaine du vin afin d’aider et d'accompagner les consommateurs de vin dans le choix d'une bouteille.
+J’ai commencé par faire une licence d’économie / finance avant de passer les concours d’admission pour intégrer ESCP avec pour ambition de créer ma boîte le plus tôt possible. Durant ma seconde année je suis partie travailler pour l'association humanitaire [Enfants du Mekong](http://www.enfantsdumekong.com/). En rentrant j’ai enchaîné sur une majeure entrepreneurial afin de péréniser un projet sur lequel je m’étais engagé avec deux amis lors de mon séjour en Asie.
 
-Rapidement je me suis rendu compte qu’il fallait séparer les projets afin d’augmenter notre crédibilité devant des investisseurs en ayant une équipe éclatée. Je suis rentré en France pour terminer l’application sur le vin et mon année au sein de la majeur entrepreneuriale. L’un des problème qui s’est rapidement posé était de trouver un CTO pour m’accompagner. Chose qui s’est révéler très difficile voir impossible. Jusqu’au moment où j’ai réalisé que je ne trouverai pas et que j’allais devoir prototyper quelque chose par moi-même. C’est là que j’ai trouvé Le Wagon.
+Ambitieux, nous avions l’idée de monter en simultaté un service équivalent à La Fourchette en Asie du Sud-Est, [Eatigo]http://www.eatigo.com), ainsi que Codaly, un projet d’application mobile pour aider et accompagner les consommateurs de vin dans le choix d'une bouteille.
 
-J’ai tout de même commencé par acheter deux ouvrages sur Ruby et à m’y coller tout seul comme un grand. Suite à ça j’ai décidé d’intégrer le Programme Full Stack du Wagon dans l’optique d’apprendre à coder. Au cours de la formation, plus j’avançais et plus je me rendais compte que c’était un sujet qui me passionne et sur lequel j’ai toujours envie de progresser.
+Rapidement je me suis rendu compte qu’il fallait séparer les projets afin d’augmenter notre crédibilité devant des investisseurs et trouver un CTO pour m’accompagner. Le dernier point s’est révélé très difficile voir impossible. C’est à ce moment que je me suis mis en tête de prototyper notre produit moi-même.
+
+Avant d’intégrer Le Wagon j’ai tout de même commencé par acheter deux ouvrages sur Ruby et à me plonger dedans tout seul comme un grand. Mais la courbe d’apprentissage est longue et j’ai donc décidé d’intégrer le programme [Fullstack](http://www.lewagon.org/programme) dans l’optique d’apprendre à coder. Au cours de la formation, j’ai réalisé que le code me passionne et qu’il me fallait continuer à progresser, à me challenger.
 
 Je suis sorti du Wagon avec l’envie d’être développeur.
 
-Suite à la formation du Wagon j’ai trouvé un CDD de 3 mois chez [WeRoom](https://www.weroom.com/en) qui a été une super expérience en me permettant de passer de la formation à du dev professionnalisant au sein d’une équipe. Suite à cela, au moment de me lancer en freelance, j’ai été contacté par [Finexkap](https://www.finexkap.com/) qui cherchais une développeur junior.
+###As-tu réussi à concrétiser cette ambition ?
 
-L’environnement qu’ils me proposaient correspondait réellement à ce que je cherchais eu niveau de la monté en compétence en étant entouré d’une équipe de développeurs confirmés avec une réelle vision technique derrière. Cela me permettra à terme d’être capable d’assumer la charge de CTO pour une startup de la première à la seconde levée de fonds. C’est à dire d’avoir toutes les connaissances génériques qui te permettent de mettre une place une architecture technique et d’avoir une vision sur comment scaler une application et pas seulement sur comment la prototyper.
+Oui ! Suite à la formation j’ai trouvé un CDD de 3 mois chez [WeRoom](https://www.weroom.com/en) en tant que dev Ruby on Rails junior. Ces premiers mois ont été une super expérience en me permettant de passer de la formation à du dev professionnalisant en travaillant sur la création de nouvelles features de l’application au sein d’une équipe. Suite à cela, je souhaitais embrasser une carrière de freelance. Entre temps [Finexkap](https://www.finexkap.com/) m’a contacté pour m’informer qu’ils cherchaient un développeur junior.
+
+L’environnement qu’ils me proposaient correspondait réellement à mes attentes en terme de monté en compétence au sein d’une équipe de développeurs confirmés afin d’acquérir les connaissances génériques qui me permetront de mettre en place une architecture technique, d'apprendre à scaler une application en plus de savoir la prototyper. Cela me permettra à terme d’être capable d'assurer la charge de CTO pour une startup et de les accompagner de la première à la seconde levée de fonds.
 
 ###Comment as-tu construit ton “portefeuille” de compétences ?
 
-C’est quelque chose qui se construit au fut et à mesure. Il y’a un moment où tu dois mettre les mains dedans. Les gars du Wagon m’ont beaucoup aidé en m’orientant principalement vers Ruby (Ruby on Rails) et JavaScript. Ces deux techno sont assez accessible au début et te permettent de voir très rapidement le résultat de ton travail, ce qui est tout simplement primordial lorsque tu débutes.
+C’est avant tout quelque chose qui se fait au fur et à mesure. Il y’a un moment où tu dois mettre les mains dedans. Les gars du Wagon m’ont beaucoup aidé en m’orientant principalement vers Ruby (Ruby on Rails) et JavaScript. Ces deux techno sont accessibles aux débutants et permettent de voir très rapidement le résultat du travail accompli.
 
-Derrière il y’a réellement la notion de prototype et d’ingénierie informatique ce qui m’a fait me rendre compte qu’il me fallait absolument continuer à creuser sur certains sujets. Je suis redescendue d’un niveau dans les couches d’abstraction de l’ordinateur en m’auto-formant en C, en étudiant le fonctionnement d’un terminal et d’un navigateur internet, comment marche une machine et ce qu’il se passe au niveau d’un processeur et de la mémoire. Je pense qu’il est nécessaire d’en passer par là afin d’obtenir une réelle compréhension des paradigmes et d’apprendre et de mieux comprendre ensuite les différents languages.
+Mais caché derrière tout cela se cache la notion d’ingénierie informatique. Je me suis rendu compte qu’il me fallait descendre d’un niveau dans les couches d’abstraction de l’ordinateur et de m’auto-former en C, édtudier le fonctionnement d’un terminal et d’un navigateur internet, apprendre comment marche une machine et ce qu’il se passe au niveau d’un processeur, dans  la mémoire... Je pense qu’il est nécessaire d’en passer par là afin d’obtenir une réelle compréhension des paradigmes et de mieux comprendre ensuite les différents languages.
 
 ###Combien de temps as-tu passé à cela ?
 
-C’est surtout de la formulation continue. Je n’ai pas consacré un temps précis à chacun des sujets évoqués précédemment mais je pense qu’il est important de commencer par y consacrer une petit période intensive au départ et ensuite de se mettre en veille afin d'y revenir régulièrement. C’est à mon sens nécessaire et indispensable si l’on veut continuer à être à jour et progresser étant donner les technos qui sortent tout le temps. C’est compliqué d’évaluer le nombre d’heures précis passé là dessus mais cela fait 8 à 9 mois que je dev sérieusement quasiment 6/7 à temps plein.
+Impossible d’évaluer le nombre d’heures précis passé là dessus mais cela fait 8 à 9 mois que je dev 6 jours sur 7 à temps plein. Il est important de commencer par consacrer une petite période intensive sur chaque sujet au départ avant de se mettre en veille afin de se replonger dedans régulièrement. Ce qui est indispensable vu le rythme intensif des mises à jour de toutes ces technos.
 
-Ma vision personnelle me fait dire que beaucoup de gens qui sortent d’écoles de dev sont des bullshitters et que seul le profil compte. D’une certaine manière il y’a les gens qui font ce job sans réellement se poser de questions et ensuite il y’a ceux qui cherchent à avoir une vraie vision, à optimiser les choses et à ce moment là c’est un boulot sans fin!
+D’une certaine manière il y’a les gens qui se lancent dans le développement sans réellement se poser de questions et ensuite il y’a ceux qui cherchent à avoir une vraie vision, à optimiser les choses et à ce moment là c’est un boulot sans fin ! Tout n’est question de profil et de patience.
 
 ###Comment considères-tu et utilises-tu la communauté et ses outils ?
 
-J’ai vraiment commencé avec CodeAcademy et TreeHouse en enchaînant avec CodeSchool. Bien entendu j’ai beaucoup utilisé StackOverflow qui est un très bon outils de départ. Aujourd’hui avec la montée en niveau, j’essaye un maximum d’aller dans le code source pour lire le code écrit par d’autres. Cela me permet d’avancer et de comprendre les choses plus en profondeur.
+Les 6-7 premiers mois, je me suis vraiment appuyé sur CodeAcademy et TreeHouse avant d’enchaîner avec CodeSchool tout en consultant StackOverflow régulièrement.
 
-Les 6-7 premiers mois, je me suis vraiment appuyé et beaucoup servie de ces ressources mais plus ça va et plus je m’en éloigne pour vraiment trouver mes réponses dans le code source d’autres développeurs qui ont écrit ce code Open Source.
+Aujourd’hui avec la montée en niveau, j’essaye un maximum de me plonger dans le code source afin de lire, comprendre et analyser les choses en profondeur.
 
-###As-tu un conseil à donner à quelqu’un qui souhaiterai se lancer ?
+L’une des autres ressources à ne pas négliger est le workflow en entreprise. Tout ce que j’écris est relu et validé par des gens plus compétents que moi. Nous avons également un système de pairing. Lorsqu’un nouveau développeur arrive il se retrouve en binôme avec un developpeur plus ancien. Il y’a toujours cette volonté de chercher la solution la plus élégante et la plus efficace possible. Ce n’est pas du mentoring direct mais tout le monde est très disponible pour répondre à des questions ou voir si il n’y a pas une meilleure manière de faire.
 
-Il y’a une phrase que j’avais trouvé très vraie de Jean-Baptise Kein de VideoLan lors d’un meetup du Wagon, qui disait : “Le code c’est un petit peu de bon sens et beaucoup de patience et de travail”. C’est à mon sens très vrai. Il est impossible de tout cerner dans l’instant. Le sujet est tellement vaste que de toute façon personne ne saura jamais tout. Il faut avant tout pratiquer, en faire, ne jamais s’arrêter et faire preuve de curiosité intellectuelle sans cesse.
+###As-tu un conseil à donner à quelqu’un qui souhaite se lancer ?
 
-Evitez de faire des choses trop complexe que vous ne comprenez pas. Même si au départ on est tous un peu obligé de le faire, il y’a toujours un chemin à trouver pour emboîter les briques logiques.
+Il y’a une phrase qui m’est restée en tête de Jean-Baptiste Kempf de Videolan lors d’un [meetup du Wagon](https://www.youtube.com/watch?v=ub1scSysja4) : “Le code c’est un petit peu de bon sens et beaucoup de patience et de travail”.
 
-###Te projettes-tu dans ton job actuel dans le long terme ?
+Ce qui à mon sens est très vrai. Il est impossible de tout cerner dans l’instant. Le sujet est tellement vaste que de toute façon personne ne saura jamais tout. Il faut avant tout pratiquer, en faire, ne jamais s’arrêter et faire preuve d’énormément de curiosité intellectuelle.
 
-Je n’ai pas réellement d’objectif de temps. C’est la première fois de ma vie que je m’épanouies dans un job. Je ne sais pas encore ce que me réserve l’avenir et je n’ai de toute façon aucune échéance à ce niveau là. Cela vient du fait que j’ai à mes côtés, une équipe super sympa et très compétence qui me permet d’évoluer rapidement et efficacement, d’apprendre de nouveaux languages…
+Evitez surtout de vous lancer sur des choses trop complexes que vous ne comprenez pas. Même si au départ nous sommes tous obligé de le faire, il y’a toujours un chemin pour emboîter des briques logique afin de ne pas vous rebuter ni de perdre votre temps.
 
-Le projet sur lequel je travaille est encore très jeune et me donner quelque part l’occasion de faire ce que j’aimerai faire en étant autonome tout en étant encadré par une équipe super compétente. C’est un bac à sable permettant dans lequel je m’éclate.
+###Comment envisages-tu ton avenir dans le dev ?
 
-Niveau workflow, tout ce que j’écris est relu et validé par des gens plus compétents que moi et nous avons un système de pairing. Lorsqu’un nouveau dev arrive il est mit en binôme avec un dev plus envier. Quoi qu’il arrive il y’a toujours la volonté de chercher la solution la plus élégante et la plus efficace. Ce n’est pas du mentoring direct mais tout le monde est très disponible pour répondre à des questions ou voir si il n’y a pas une meilleur manière de faire.
+C’est la première fois de ma vie que je m’épanouies dans un job. Je ne sais pas encore ce que me réserve l’avenir et je n’ai de toute façon aucune échéance à ce niveau là. Cela vient du fait que j’ai trouvé chez Finexkap une équipe très soudée et très compétente qui me permet d’évoluer rapidement et efficacement. Le projet sur lequel je travaille est encore très jeune, c’est une sorte de bac à sable permettant dans lequel je m’éclate.
 
 ###Un mot personnel sur Le Wagon ?
 
-C’est réellement le truc qui m’a permis de mettre le pieds à l’étrier. J’avais commencé à me lancer tout seul et je me suis ensuite réellement appuyé sur les profs pour passer les cap impossibles à franchir seul. A titre d’exemple, en s’auto-formant ou arrive très facilement à comprendre un minimum la logique d’algorythmie en Ruby en JavaScript mais derrière c’est pas évident de voir comment l’interfacer dans une application, sans parler de tous les problèmes de configuration que cela comporte… Il y’a vraiment eu un cap de passé avec cette formation.
+C’est réellement l’élément qui m’a permis de mettre le pieds à l’étrier et je me suis énormément appuyé sur les profs pour passer des barrages impossibles à franchir seul. A titre d’exemple, en étant autodidacte  vous arrivez très facilement à comprendre un minimum la logique algorithmique de Ruby et JavaScript. Mais derrière ce n’est pas évident de l’interfacer dans une application, sans parler de tous les problèmes de configuration que cela comporte… Il y’a vraiment eu un cap de passé avec cette formation.
 
-Tout le monde y vient avec des objectifs différents ce qui créé une certaine hétérogénéité dans le groupe dont il faut profiter sans oublier ses objectifs personnels. C’est d’ailleurs l’une des grandes qualité de cette formation, cela te permet d’atteindre tes objectifs perso tout en profitant de l’expérience des autres et de leurs états d’esprit.
+Tout le monde y vient avec des objectifs différents, ce qui créé une certaine hétérogénéité dans le groupe dont il faut profiter (sans oublier ses objectifs personnels). C’est d’ailleurs l’une des grandes qualité de cette formation : te permettre d’atteindre tes objectifs tout en profitant de l’expérience et l’état d’esprit des autres.
 
 ###Pour le trouver sur le net
 
