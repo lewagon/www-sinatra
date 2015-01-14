@@ -368,12 +368,12 @@ thomas_chretien:
   image_name: thomas.png
   description:
     fr: |
-      De la structure des layouts aux petites animations CSS,
+      Du simple layout aux petites animations CSS,
       **Thomas** est un féru de design et de dev front-end, une passion qu'il a découvert au batch #5
       du  Wagon l'été dernier en développant et designant <a href="http://trackguru.co" target='_blank'>TrackGuru</a> en tant qu'élève !
     en: |
       A design geek, Thomas has developed a passion for front end coding after being a student at Le Wagon’s #5 batch last summer.
-      He developed and desiged the TrackGuru web app as his entrepreneurial project at the boot camp.
+      He developed and designed the TrackGuru web app as his entrepreneurial project at the boot camp.
   links:
     - url: https://github.com/tchret
       icon: github-alt
