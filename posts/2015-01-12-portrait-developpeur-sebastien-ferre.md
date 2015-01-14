@@ -58,7 +58,7 @@ L’une des autres ressources à ne pas négliger est le workflow que tu acquiè
 
 ###As-tu un conseil à donner à quelqu’un qui souhaite se lancer ?
 
-Il y a une phrase qui m’est restée en tête de Jean-Baptiste Kempf de Videolan lors d’un [meetup du Wagon](https://www.youtube.com/watch?v=ub1scSysja4) : “Faire du bon code c'est avant tout beaucoup de temps, beaucoup de persévérance et un peu de logique”.
+Il y a une phrase qui m’est restée en tête de Jean-Baptiste Kempf de Videolan lors d’un [ApéroTalk du Wagon](https://www.youtube.com/watch?v=ub1scSysja4) : “Faire du bon code c'est avant tout beaucoup de temps, beaucoup de persévérance et un peu de logique”.
 
 Ce qui à mon sens est très vrai. Il est impossible de tout cerner dans l’instant. Le sujet est tellement vaste que de toute façon personne ne saura jamais tout. Il faut avant tout pratiquer, en faire, ne jamais s’arrêter, faire preuve d’énormément de curiosité intellectuelle et pourquoi pas vous lancer en vous inscrivant à un Bootcamp !
 
