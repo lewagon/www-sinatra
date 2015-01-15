@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Portrait d'un #développeur junior formé au Wagon"
+title: "Portrait d'un développeur junior formé au Wagon"
 date: 01/11/2014
 author: cedric
 labels:
