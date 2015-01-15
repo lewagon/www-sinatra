@@ -26,7 +26,7 @@ Follow [@lewagonparis](https://twitter.com/lewagonparis) et tweet ton projet d�
 
 Ce que vous apprendrez tout au long de ces 5 jours :
 
-- Développement natif en Swift, le nouveau langage que tout le monde souhaite connaitre pour créér des applis natives iOS ultra-performantes
+- Développement natif en Swift, le nouveau langage que tout le monde souhaite connaitre pour créér des applis natives iOS
 - Ergonomie d'une application mobile : maîtrisez les contraintes liées au développement mobile, organisez le contenu et les interactions utilisateurs pour que votre application soit simple à utiliser en toute circonstance
 - Backend mobile et persistence des données : grâce à Parse.com, mettez en place rapidement un backend pour votre appli mobile. Stockez les données de votre application en local pour parer aux pertes de connexion dues à l'utilisation mobile
 - Fonctionnalités mobiles : engagez vos utilisateurs grace aux push notifications, rendez votre appli indispensable grâce à la géolocalisation...
