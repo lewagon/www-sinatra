@@ -18,7 +18,7 @@ Techos de la première heure ? Développeur junior ? Tu connais les bases de la 
 
 Follow [@lewagonparis](https://twitter.com/lewagonparis) et tweet ton projet d’application en y joignant le hashtag **#iOShero**. L'auteur du tweet jugé le plus fun par le staff du Wagon remporte sa place pour les **5 jours de formation du Kit iOS Developer sur Paris à partir du 26 janvier** (Valeur initiale de la formation : 1290€).
 
-**Le concours prendra fin le vendredi 22 janvier à 16h00 !**
+**Le concours prendra fin le vendredi 23 janvier à 16h00 !**
 
 ![Concours de tweet pour remporter une place au Kit iOS Developer du Wagon](blog_image_path superman-wagon.jpg)
 
@@ -43,6 +43,6 @@ Ce que vous apprendrez tout au long de ces 5 jours :
 ###Disclaimer
 
 - Date de début : 15 janvier 2015 à 14h00
-- Date de fin : 22 janvier 2015 à 16h00
+- Date de fin : 23 janvier 2015 à 16h00
 - Conditions de victoire : L'auteur du tweet contenant le hashtag #iOShero jugé le plus fun par le staff du Wagon remporte sa place pour les **5 jours de formation du Kit iOS Developer sur Paris à partir du 26 janvier** (Valeur initiale de la formation : 1290€).
 - Le Wagon ne prend pas en charge les frais de déplacement et de logement occasionnés
