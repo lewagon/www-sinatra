@@ -4,13 +4,13 @@ title: "#iOShero Gagnez votre place pour le Kit iOS Developer !"
 author: cedric
 labels:
   - misc
-thumbnail: thumbnail-superman-wagon.jpg
+thumbnail: thumbnail-wonder-woman-wagon.jpg
 description: "Envie de vous lancer dans le développement mobile et de créer des applications incroyables ? Tentez votre chance: participez au concours de tweet #iOShero et remportez votre place au Kit iOS Developer du Wagon !"
 ---
 
 Envie de vous lancer dans le développement mobile et de créer des applications incroyables ? Tentez votre chance: participez au concours de tweet #iOShero et remportez votre place au  [Kit iOS Developer](http://www.lewagon.org/kit/ios-developer) du Wagon !
 
-![Concours de tweet pour remporter une place au Kit iOS Developer du Wagon](blog_image_path superman-wagon.jpg)
+![Concours de tweet pour remporter une place au Kit iOS Developer du Wagon](blog_image_path wonder-woman-wagon.jpg)
 
 ###Comment participer ?
 
@@ -20,7 +20,7 @@ Follow [@lewagonparis](https://twitter.com/lewagonparis) et tweet ton projet d�
 
 **Le concours prendra fin le vendredi 22 janvier à 16h00 !**
 
-![Concours de tweet pour remporter une place au Kit iOS Developer du Wagon](blog_image_path wonder-woman-wagon.jpg)
+![Concours de tweet pour remporter une place au Kit iOS Developer du Wagon](blog_image_path superman-wagon.jpg)
 
 ###Le Kit iOS Developer en détails
 
