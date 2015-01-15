@@ -105,5 +105,6 @@
     <%= yield_content :js %>
 
     <%= erb :olark unless App.development? %>
+    <%= erb :facebook_custom_audience_tracking unless App.development? %>
   </body>
 </html>
