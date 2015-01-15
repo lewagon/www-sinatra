@@ -16,7 +16,7 @@ Envie de vous lancer dans le développement mobile et de créer des applications
 
 Techos de la première heure ? Développeur junior ? Tu connais les bases de la programmation orientée objet et l'idée d'accroître tes super-pouvoirs de dev afin de lancer ton app iOS te titille depuis un bout de temps ? Pour arriver à tes fins et sauver le monde, il te suffit simplement de te délester d'un tweet !
 
-Follow [@lewagonparis](https://twitter.com/lewagonparis) et tweet ton projet d’application en y joignant le hashtag **#iOShero**. L'auteur du tweet jugé le plus partagé (RT) remporte sa place pour les **5 jours de formation du Kit iOS Developer sur Paris à partir du 26 janvier** (Valeur initiale de la formation : 1290€).
+Follow [@lewagonparis](https://twitter.com/lewagonparis) et tweet ton projet d’application en y joignant le hashtag **#iOShero**. L'auteur du tweet le plus partagé (RT) remporte sa place pour les **5 jours de formation du Kit iOS Developer sur Paris à partir du 26 janvier** (Valeur initiale de la formation : 1290€).
 
 **Le concours prendra fin le vendredi 23 janvier à 16h00 !**
 
