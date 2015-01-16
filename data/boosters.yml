@@ -172,6 +172,11 @@ ios-developer:
           - Oui
           - Non
       - text: Dans quel langage avez-vous déjà développé ?
+        multiline: false
+        required: true
+      - text: Code promo
+        multiline: false
+        required: false
   card:
     badge_name: "iOS <br> DEVELOPER"
     focus: false

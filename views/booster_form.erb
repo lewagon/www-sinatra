@@ -79,8 +79,10 @@
             <option><%= choice %></option>
           <% end %>
           </select>
+        <% elsif question[:multiline] %>
+          <textarea class="form-control" name="additional_questions[<%= index %>][answer]" id="additional_question_<%= index %>" rows="4" <%= question[:required] ? 'required' : nil %>></textarea>
         <% else %>
-          <textarea class="form-control" name="additional_questions[<%= index %>][answer]" id="additional_question_<%= index %>" rows="4" required></textarea>
+          <input type="text" class="form-control" name="additional_questions[<%= index %>][answer]" id="additional_question_<%= index %>" <%= question[:required] ? 'required' : nil %>>
         <% end %>
       </div>
     <% end %>
