@@ -62,9 +62,9 @@ paris-mars-2015:
   trello:
     inbox_list_id: 54367e024309d39b50e17738
 
-# paris-avril-2015:
-#   city: paris
-#   start_date: 2015-04-06
-#   end_date: 2015-06-05
-#   trello:
-#     inbox_list_id: 54367fcfe0dfe26d509ec183
+paris-mai-2015:
+  city: paris
+  start_date: 2015-05-11
+  end_date: 2015-07-10
+  trello:
+    inbox_list_id: 54367fcfe0dfe26d509ec183
