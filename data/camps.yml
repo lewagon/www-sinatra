@@ -13,26 +13,26 @@ test:
 #     inbox_list_id: 5362245b3229b2d035ef8b23
 #   last_seats: true
 
-paris-janvier-2015:
-  city: paris
-  start_date: 2015-01-05
-  end_date: 2015-03-06
-  trello:
-    inbox_list_id: 53679db185dd566f6035c173
-  last_seats: true
-  full: true
+# paris-janvier-2015:
+#   city: paris
+#   start_date: 2015-01-05
+#   end_date: 2015-03-06
+#   trello:
+#     inbox_list_id: 53679db185dd566f6035c173
+#   last_seats: true
+#   full: true
 
-brussels-janvier-2015:
-  city: brussels
-  start_date: 2015-01-12
-  end_date: 2015-03-13
-  trello:
-    inbox_list_id: 53d51481d54bd8086f8784ad
-  facebook_tracking_ids:
-    - 6016507068529
-    - 6016638335929
-  last_seats: true
-  full: true
+# brussels-janvier-2015:
+#   city: brussels
+#   start_date: 2015-01-12
+#   end_date: 2015-03-13
+#   trello:
+#     inbox_list_id: 53d51481d54bd8086f8784ad
+#   facebook_tracking_ids:
+#     - 6016507068529
+#     - 6016638335929
+#   last_seats: true
+#   full: true
 
 # paris-fevrier-2015:
 #   city: paris
@@ -61,6 +61,13 @@ paris-mars-2015:
   end_date: 2015-05-08
   trello:
     inbox_list_id: 54367e024309d39b50e17738
+
+brussels-may-2015:
+  city: brussels
+  start_date: 2015-05-04
+  end_date: 2015-07-03
+  trello:
+    inbox_list_id: 54b9118670053758d247480e
 
 paris-mai-2015:
   city: paris
