@@ -37,7 +37,7 @@ L’environnement qu’ils me proposaient correspondait réellement à mes atten
 
 ### Comment as-tu construit ton “portefeuille” de compétences ?
 
-C’est avant tout quelque chose qui se fait au fur et à mesure. Il y a un moment où tu dois mettre les mains dedans. Les gars du Wagon m’ont beaucoup aidé en m’orientant principalement vers Ruby (Ruby on Rails) et JavaScript. Ces deux techno sont accessibles aux débutants et permettent de voir très rapidement le résultat du travail accompli.
+C’est avant tout quelque chose qui se fait au fur et à mesure. Il y a un moment où tu dois mettre les mains dedans. Les gars du Wagon m’ont beaucoup aidé en m’orientant principalement vers Ruby (Ruby on Rails) et JavaScript. Ces deux technos sont accessibles aux débutants et permettent de voir très rapidement le résultat du travail accompli.
 
 Derrière tout cela se cache aussi la notion d’ingénierie informatique. Je me suis rendu compte qu’il me fallait descendre d’un niveau dans les couches d’abstraction de l’ordinateur et de m’auto-former en C, édtudier le fonctionnement d’un terminal et d’un navigateur internet, apprendre comment marche une machine et ce qu’il se passe au niveau d’un processeur, dans  la mémoire... Je pense qu’il est nécessaire de passer par là afin d’obtenir une réelle compréhension des paradigmes et de mieux comprendre ensuite les différents languages.
 
@@ -47,7 +47,7 @@ Impossible d’évaluer le nombre d’heures passées là dessus mais cela fait 
 
 D’une certaine manière il y a les gens qui se lancent dans le développement sans réellement se poser de questions et ensuite il y a ceux qui cherchent à avoir une vraie vision, à optimiser les choses et à ce moment là c’est un boulot sans fin ! Tout est question de profil et de patience.
 
-## #Comment considères-tu et utilises-tu la communauté et ses outils ?
+### Comment considères-tu et utilises-tu la communauté et ses outils ?
 
 Les 6-7 premiers mois, je me suis vraiment appuyé sur CodeAcademy et TreeHouse avant d’enchaîner avec CodeSchool tout en consultant StackOverflow régulièrement.
 

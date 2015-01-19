@@ -42,7 +42,7 @@ Veritable muse pour entrepreneur, **Loudstory** souhaite aider ces derniers à a
 
 A l’origine du projet, Caroline Carrière s’est vue rejoindre par Annabel Menard et [Candice Gasperini](https://twitter.com/candicesg). 3 personnalités et parcours différents pour ces 3 drôles de dames. Femmes actives et mères à plein temps, elles sont parties du constat qu’au milieu de la frénésie du quotidien il devient de plus en plus complexe de profiter de ses enfants. Alors si chaque minute compte, où commencer à gagner du temps ?
 
-Tous les parents se croisent au moins deux fois par jour sur le parvis de l’école. Pourquoi ne pas le transformer en lieu d’échanges ultra-rapides ? Ma share école à donc pour ambition  de constituer un réseau de parents dont les enfants vont dans la même école élémentaire afin de leur donner accès à des outils basée sur l'économie collaborative pour faciliter l'organisation du quotidien et favoriser l'échange de biens et de services à moindre coût.
+Tous les parents se croisent au moins deux fois par jour sur le parvis de l’école. Pourquoi ne pas le transformer en lieu d’échanges ultra-rapides ? Ma share école à donc pour ambition  de constituer un réseau de parents dont les enfants vont dans la même école élémentaire afin de leur donner accès à des outils basés sur l'économie collaborative pour faciliter l'organisation du quotidien et favoriser l'échange de biens et de services à moindre coût.
 
 - [www.mashareecole.com](http://www.mashareecole.com/)
 
@@ -100,11 +100,11 @@ A vous de recréer la timeline de votre vie, et pourquoi pas de voir surgir quel
 
 ![Pour les jeunes conducteurs qui veulent se simplifier la vie](blog_image_path carcar.jpg)
 
-Avec la double envie d’augmenter la transparence entre les prestations proposées par les auto-écoles et de simplifier la réservation d’heures de conduite [Mohammed Tabib et Martin Chenu se sont lancés dans la création de Carcar.
+Avec la double envie d’augmenter la transparence entre les prestations proposées par les auto-écoles et de simplifier la réservation d’heures de conduite. [Mohammed Tabib et Martin Chenu se sont lancés dans la création de Carcar.
 
 Leur idée commune est de mettre à niveau les Auto-Ecoles avec les nouveaux usages des éléves en proposant un desk permettant de réserver une heure de conduite en moins de 2 minutes depuis son ordinateur ou son mobile sans avoir à passer un coup de téléphone.
 
-Véritable outil intermédiaire entre l’auto-école classique et l’auto-école en ligne (avec les déboirs juridiques qu’on lui connaît), Carcar prend le parti d’aider les auto-écoles traditionnelles à faire face à la concurrence en ligne qui s’annonce, avec comme vision à long terme de mettre des outils flexibles et pratiques à la disposition des moniteurs indépendants pour d’augmenter la fréquence des heures de conduite disponibles dans les zones urbaines.
+Véritable outil intermédiaire entre l’auto-école classique et l’auto-école en ligne (avec les déboirs juridiques qu’on lui connaît), Carcar prend le parti d’aider les auto-écoles traditionnelles à faire face à la concurrence en ligne qui s’annonce, avec comme vision à long terme de mettre des outils flexibles et pratiques à la disposition des moniteurs indépendants pour augmenter la fréquence des heures de conduite disponibles dans les zones urbaines.
 
 - [www.carcar.herokuapp.com](http://carcar.herokuapp.com/)
 
@@ -115,7 +115,7 @@ Véritable outil intermédiaire entre l’auto-école classique et l’auto-éco
 
 [Brice Maurin](https://twitter.com/deuxio) évolue dans le milieu du web depuis 2004. Après voir lancé une première startup basée sur la recommandation d’événements culturels il s’est ensuite dirigié vers le conseil en acquisition. Partant du principe qu’un pourcentage important de son travail est tout à fait automatisable, il travaille à l’heure actuelle sur le développement d’un service SaaS composé d’outils de veille, d’optimisation SEO et d’aide au recrutement.
 
-C’est d’ailleurs sur ce dernier point qu’il a commencé à avancer en mettant au point un service basé sur la curation de profils Twitter, qui automatiquement, ira chercher des informations complémentaires sur les web (lien Facebook, Linkedin, site personnel si non spécifié ect…) La première version de ce service devrait arriver d’ici peu. En attendant, n’hésitez pas à jeter un oeil sur son blog, une multitudes de bonnes pratiques pour accroître votre acquisition vous y attendent.
+C’est d’ailleurs sur ce dernier point qu’il a commencé à avancer en mettant au point un service basé sur la curation de profils Twitter, qui automatiquement, ira chercher des informations complémentaires sur les web (lien Facebook, Linkedin, site personnel si non spécifié etc.) La première version de ce service devrait arriver d’ici peu. En attendant, n’hésitez pas à jeter un oeil sur son blog, une multitudes de bonnes pratiques pour accroître votre acquisition vous y attendent.
 
 - [www.deux.io/](http://deux.io/)
 
@@ -139,4 +139,4 @@ L’objectif est double : restaurer la confiance des citoyens envers leurs élus
 
 Du coût de la démarche aux compétences pas forcément disponibles en interne en fonction du cabinet contacté, l’incorporation à l’international demande beaucoup de patience ainsi que des ressources généralement inaccessibles pour une jeune startup.
 
-Afin de limiter les risques et les conséquences en cas de conflit, les deux compères ont commencé à travailler sur une solution SaaS afin de proposer aux startups qui ne savent pas encore déterminer d’où viendra leur traction, un cadre juridique qui en un click génère une incorporation optimisée. Le tout sera basé sur les APIs de e-gouvernements et de quelques conseils d’experts tout en prenant en compte le niveau d’activité de l’entreprise (modification de la forme juridique, évolution du CA, incorporation nécessaire ou non à l’étranger…). Lancement de la prémière version prévue pour février 2015.
+Afin de limiter les risques et les conséquences en cas de conflit, les deux compères ont commencé à travailler sur une solution SaaS afin de proposer aux startups qui ne savent pas encore déterminer d’où viendra leur traction, un cadre juridique qui en un click génère une incorporation optimisée. Le tout sera basé sur les APIs de e-gouvernements et de quelques conseils d’experts tout en prenant en compte le niveau d’activité de l’entreprise (modification de la forme juridique, évolution du CA, incorporation nécessaire ou non à l’étranger…). Lancement de la première version prévue pour février 2015.
