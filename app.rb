@@ -257,7 +257,7 @@ class App < Sinatra::Base
   end
 
   not_found do
-    redirect "/"
+    erb :not_found
   end
 
   helpers do
