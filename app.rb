@@ -179,6 +179,10 @@ class App < Sinatra::Base
     erb :blog
   end
 
+  get '/blog/' do
+    redirect '/blog'
+  end
+
   # TODO - change the routing once blog is translated..
   get '/en/blog' do
     fetch_posts
