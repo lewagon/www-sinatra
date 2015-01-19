@@ -44,5 +44,5 @@ Ce que vous apprendrez tout au long de ces 5 jours :
 
 - Date de début : 15 janvier 2015 à 14h00
 - Date de fin : 23 janvier 2015 à 16h00
-- Conditions de victoire : L'auteur du tweet contenant le hashtag #iOShero le plus partagé (RT) remporte sa place pour les **5 jours de formation du Kit iOS Developer sur Paris à partir du 26 janvier** (Valeur initiale de la formation : 1290€).
+- Conditions de victoire : L'auteur du tweet contenant le hashtag #iOShero le plus partagé (RT) remporte sa place pour les **5 jours de formation du Kit iOS Developer sur Paris à partir du 26 janvier** (Valeur initiale de la formation : 1490€).
 - Le Wagon ne prend pas en charge les frais de déplacement et de logement occasionnés
