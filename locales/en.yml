@@ -47,6 +47,7 @@ en:
     footer: "We haven't answered your questions yet? Contact us:"
   city:
     title: Le Wagon - Coding Bootcamp in
+    teachers: Teachers
     partners: Partners
     partner_join_html: |
       <strong>You want to be part of this list?</strong>

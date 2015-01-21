@@ -30,12 +30,10 @@ paris:
     - girlsintechparis
   subventions: # From data/subventions.yml
   staff:  # cf data/staff.yml
-    - seb
     - boris
-    - gab
-    - augustin
+    - seb
     - cecile
-    - alex
+    - gab
   programs:
     bootcamp: true
     kits:

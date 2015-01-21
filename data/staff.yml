@@ -23,7 +23,7 @@ seb:
   image_name: seb.png
   description:
     fr: |
-      Baroudeur du code, **Sébastien** sévit maintenant en tant
+      Baroudeur du code et **CTO** du Wagon, **Sébastien** sévit en tant
       que [coach technique](http://sebastien.saunier.me) pour startup. Il aura à coeur de transmettre
       la rigueur et les bonnes pratiques aux élèves du Wagon!
     en: |
@@ -67,9 +67,9 @@ boris:
   description:
     fr: |
       **Boris** a fui sa salle de marché pour se
-      lancer dans le code corps et âme. Il comprend parfaitement
+      lancer dans le code corps et âme. Maintenant **CEO** du Wagon, il comprend parfaitement
       les besoins des débutants et a codé avec Sébastien le
-      [site](http://lewagon.org) et les plate-formes
+      [site](http://www.lewagon.org) et les plate-formes
       pédagogiques du Wagon.
     en: |
       **Boris** got bored from financial markets
