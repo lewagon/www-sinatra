@@ -7,7 +7,7 @@ labels:
   - alumni
 pushed: true
 thumbnail: thumbnail-sebastien-ferre.jpg
-description: "Sebastien Férré est aujourd'hui développeur chez Finexkap après avoir intégré le programme fullstack du Wagon il y a moins d'un an. Retour sur le parcours et les aspirations futures de ce nouvel adepte du code."
+description: "Sebastien Ferré est aujourd'hui développeur chez Finexkap après avoir intégré le programme fullstack du Wagon il y a moins d'un an. Retour sur le parcours et les aspirations futures de ce nouvel adepte du code."
 ---
 
 [Sebastien Ferré](https://www.twitter.com/sbfrr) est aujourd'hui développeur chez Finexkap après avoir intégré le programme fullstack du Wagon il y a moins d'un an. Retour sur le parcours de ce nouvel adepte du code.
@@ -18,7 +18,7 @@ description: "Sebastien Férré est aujourd'hui développeur chez Finexkap aprè
 
 J’ai commencé par une licence d’économie / finance avant d’intégrer l’ESCP. J’avais pour ambition de créer ma boîte le plus tôt possible. Durant ma seconde année, je suis parti travailler pour l'association humanitaire [Enfants du Mekong](http://www.enfantsdumekong.com/). En rentrant, j’ai enchaîné sur une majeure entrepreneurial afin de mettre en place un projet sur lequel je m’étais engagé avec deux amis lors de mon séjour en Asie.
 
-Ambitieux, nous avions l’idée de monter deux projets: un service équivalent à La Fourchette en Asie du Sud-Est [Eatigo](http://www.eatigo.com), ainsi que Codaly, un projet d’application mobile pour aider et accompagner les consommateurs de vin dans le choix d'une bouteille.
+Ambitieux, nous avions l’idée de monter deux projets: un service équivalent à La Fourchette en Asie du Sud-Est [Eatigo](http://www.eatigo.com) et Codaly, un projet d’application mobile pour aider et accompagner les consommateurs de vin dans le choix d'une bouteille.
 
 Rapidement je me suis rendu compte qu’il fallait séparer les projets afin d’augmenter notre crédibilité devant des investisseurs et trouver un CTO pour nous accompagner. Le dernier point s’est révélé très difficile voir impossible. C’est à ce moment que je me suis mis en tête de prototyper notre produit moi-même.
 
@@ -28,7 +28,7 @@ Je suis sorti du Wagon avec l’envie d'être développeur senior.
 
 ### As-tu réussi à concrétiser cette ambition ?
 
-La formation m'a permis de mettre le pied à l’étrier. Je me suis énormément appuyé sur les profs pour passer des barrages impossibles à franchir tout seul. A titre d’exemple, en étant autodidacte  vous arrivez très facilement à comprendre un minimum la logique algorithmique de Ruby et de JavaScript. Mais derrière, ce n’est pas évident de l’interfacer dans une application, d'architecturer vos objets, sans parler de tous les problèmes de configuration que cela comporte… Il y’a vraiment eu un cap de passé avec cette formation.
+La formation m'a permis de mettre le pied à l’étrier. Je me suis énormément appuyé sur les profs pour passer des barrages impossibles à franchir tout seul. A titre d’exemple, en étant autodidacte  vous arrivez très facilement à comprendre un minimum la logique algorithmique de Ruby et de JavaScript. Mais derrière, ce n’est pas évident de l’interfacer dans une application, d'architecturer vos objets, sans parler de tous les problèmes de configuration que cela comporte… Il y a vraiment eu un cap de passé avec cette formation.
 
 Suite à ces 9 semaines au Wagon j’ai trouvé un CDD de 3 mois chez [WeRoom](https://www.weroom.com/en) en tant que dev Ruby on Rails junior. Ces premiers mois ont été une super expérience en me permettant de passer de la formation à du dev professionnalisant en travaillant sur la création de nouvelles features de l’application au sein d’une équipe. Suite à cela, je souhaitais embrasser une carrière de freelance, mais après quelques semaines seulement, [Finexkap](https://www.finexkap.com/) m’a contacté pour m’informer qu’ils cherchaient un développeur junior.
 
@@ -40,7 +40,7 @@ L’environnement qu’ils me proposaient correspondait réellement à mes atten
 
 C’est avant tout quelque chose qui se fait au fur et à mesure. Il y a un moment où tu dois mettre les mains dedans. Les gars du Wagon m’ont beaucoup aidé en m’orientant principalement vers Ruby (Ruby on Rails) et JavaScript. Ces deux technos sont accessibles aux débutants et permettent de voir très rapidement le résultat du travail accompli.
 
-Derrière tout cela se cache aussi la notion d’ingénierie informatique. Je me suis rendu compte qu’il me fallait descendre d’un niveau dans les couches d’abstraction de l’ordinateur et de m’auto-former en C, édtudier le fonctionnement d’un terminal et d’un navigateur internet, apprendre comment marche une machine et ce qu’il se passe au niveau d’un processeur, dans  la mémoire... Je pense qu’il est nécessaire de passer par là afin d’obtenir une réelle compréhension des paradigmes et de mieux comprendre ensuite les différents languages.
+Derrière tout cela se cache aussi la notion d’ingénierie informatique. Je me suis rendu compte qu’il me fallait descendre d’un niveau dans les couches d’abstraction de l’ordinateur et de m’auto-former en C, étudier le fonctionnement d’un terminal et d’un navigateur internet, apprendre comment marche une machine et ce qu’il se passe au niveau d’un processeur, dans  la mémoire... Je pense qu’il est nécessaire de passer par là afin d’obtenir une réelle compréhension des paradigmes et de mieux comprendre ensuite les différents languages.
 
 ### Combien de temps as-tu passé à cela ?
 
@@ -62,7 +62,7 @@ Il y a une phrase qui m’est restée en tête de Jean-Baptiste Kempf de Videola
 
 Ce qui à mon sens est très vrai. Il est impossible de tout cerner dans l’instant. Le sujet est tellement vaste que de toute façon personne ne saura jamais tout. Il faut avant tout pratiquer, en faire, ne jamais s’arrêter, faire preuve d’énormément de curiosité intellectuelle. Se lancer en s'inscrivant à un Bootcamp peut être un bon moyen pour plonger dans le code et vite casser les premières barrières !
 
-Evitez surtout de vous lancer sur des choses trop complexes que vous ne comprenez pas. Même si au départ nous sommes tous obligés de le faire, il y’a toujours un chemin pour emboîter des briques logiques.
+Evitez surtout de vous lancer sur des choses trop complexes que vous ne comprenez pas. Même si au départ nous sommes tous obligés de le faire, il y a toujours un chemin pour emboîter des briques logiques.
 
 ### Comment envisages-tu ton avenir dans le dev ?
 
