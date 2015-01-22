@@ -17,8 +17,8 @@ fr:
     answer: "Oui, tous les élèves doivent avoir un ordinateur portable. Nous utiliserons Mac OS X ou Linux, si vous n'avez que Windows, ne vous inquiétez pas, le premier jour est consacré à installer Linux sur vos machines (en complément de windows)."
   - question: "Combien coûte la formation ?"
     answer: >
-      <strong>3.900 euros TTC</strong> si la formation est financée par vous.<br />
-      <strong>7.200 euros TTC</strong> si la formation est financée par un organisme tiers.
+      <strong>3.900 euros TTC</strong>.<br />
+  # <strong>7.200 euros TTC</strong> si la formation est financée par un organisme tiers.
 
 en:
   - question: "What's the application process to Le Wagon?"
