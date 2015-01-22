@@ -21,7 +21,7 @@ Après le Wagon, j’ai eu envie de pivoter sur d’autres marchés là où mon 
 
 Je suis actuellement en formation intensive dans les bureaux de San Francisco avant de rentrer début février en France pour intégrer une équipe de 3 personnes en tant que responsable des relations avec les utilisateurs / développeurs.
 
-###Tu es actuellement au coeur de l'écosysteme californien, un petit feedback là dessus ?
+###Tu es actuellement au coeur de l'écosysteme californien, un petit feedback là-dessus ?
 
 Passer chez Stripe est quelque chose de très rafraîchissant. Généralement les startups ont tendance à vendre un prototype toujours en deçà de leur proposition de valeur initiale... Mais là, c'est tout l'inverse. Pour la première fois je travaille avec un produit déjà très bon et même meilleur que la concurrence.
 
@@ -31,7 +31,7 @@ L’état d’esprit à SF est quelque chose de fabuleux, un changement culturel
 
 ###En quoi ton passage au Wagon t’a t-il préparé dans tes missions quotidiennes ?
 
-Après la fin de la formation, j’ai passé un mois complet à coder chez Sparkup tout en gardant ma casquette de product manager. Les compétences acquises au Wagon m’ont ouvert la possibilité d’être beaucoup plus à même de challenger des développeurs avec qui nous travaillions et de remettre en cause certains choix techniques un peu datés. Cela nous a permis d’introduire énormément de bonnes pratiques dans les process de dev de notre boîte.
+Après la formation, j’ai passé un mois complet à coder chez Sparkup tout en gardant ma casquette de product manager. Les compétences acquises au Wagon m’ont ouvert la possibilité d’être beaucoup plus à même de challenger des développeurs avec qui nous travaillions et de remettre en cause certains choix techniques un peu datés. Cela nous a aussi permis d’introduire énormément de bonnes pratiques dans les process de dev de notre boîte.
 
 Aujourd’hui je ne suis plus développeur mais comme Stripe est une API, les devs représentent notre clientèle principale. Une clientèle très pointue qu’il serait impossible de conseiller sans avoir appris à coder. Sans mentionner le fait que l'API de Stripe est de plus en plus populaire, du coup de nombreux développeurs juniors cherchent à l’intégrer ainsi que des startups françaises, tous avec des questions sur des features très particulières.
 
