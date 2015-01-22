@@ -19,7 +19,7 @@ Julien Debray et Florian Joulie se sont rencontrés pendant leurs 5 années de c
 
 Bien voyager nécessite de nombreuses heures de préparation passées à fouiner dans l’indexe du moindre guide, explorer les multitudes de forums et scruter les nombreux sites d’agences de voyage. Process long et fastidieux si il en est, les deux amis ont décidé de créer un outil pour vous suggérer tout un panel d'activités sur la destination de votre choix afin d’être certain de ne rien manquer une fois sur place.
 
-De l'immanquable aux pépites cachées hors des sentiers battus, [Explorizers](http://www.explorizers.com/) vous laisse créer très simplement votre itinéraire de voyage, étape par étape, et vous suggére à la volée les activités aux alentours. Afin d’assurer la pertinence et la qualité du service, la curation des points d’intérêt se fait par la communauté (du grand baroudeur à l'explorateur novice)  qui est invitée à ajouter ses propres marqueurs et à les partager.
+De l'immanquable aux pépites cachées hors des sentiers battus, [Explorizers](http://www.explorizers.com/) vous laisse créer très simplement votre itinéraire de voyage, étape par étape, et vous suggère à la volée les activités aux alentours. Afin d’assurer la pertinence et la qualité du service, la curation des points d’intérêt se fait par la communauté (du grand baroudeur à l'explorateur novice)  qui est invitée à ajouter ses propres marqueurs et à les partager.
 
 - [www.explorizers.com](http://www.explorizers.com/)
 
@@ -43,7 +43,7 @@ Veritable muse pour entrepreneur, **Loudstory** souhaite aider ces derniers à a
 
 A l’origine du projet, Caroline Carrière s’est vue rejoindre par Annabel Menard et [Candice Gasperini](https://twitter.com/candicesg). 3 personnalités et parcours différents pour ces 3 drôles de dames. Femmes actives et mères à plein temps, elles sont parties du constat qu’au milieu de la frénésie du quotidien il devient de plus en plus complexe de profiter de ses enfants. Alors si chaque minute compte, où commencer à gagner du temps ?
 
-Tous les parents se croisent au moins deux fois par jour sur le parvis de l’école. Pourquoi ne pas le transformer en lieu d’échanges ultra-rapides ? Ma share école à donc pour ambition  de constituer un réseau de parents dont les enfants vont dans la même école élémentaire afin de leur donner accès à des outils basés sur l'économie collaborative pour faciliter l'organisation du quotidien et favoriser l'échange de biens et de services à moindre coût.
+Tous les parents se croisent au moins deux fois par jour sur le parvis de l’école. Pourquoi ne pas le transformer en lieu d’échanges ultra-rapides ? Ma share école à donc pour ambition  de constituer un réseau de parents dont les enfants vont dans la même école élémentaire afin de leur donner accès à des outils basés sur l'économie collaborative pour faciliter l'organisation du quotidien et favoriser l'échange de biens et de services à moindre coûts.
 
 - [www.mashareecole.com](http://www.mashareecole.com/)
 
