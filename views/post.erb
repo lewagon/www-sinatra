@@ -35,12 +35,28 @@
 
 <%= erb :share %>
 
-
-<div class="blog-comment">
+<div class="container">
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
-      <%= erb :disqus %>
+      <%= @pushed_posts.sample(2).each do |post| %>
+        <div class="col-md-6">
+          <article class="postcard element">
+            <% post.metadata[:thumbnail] %>
+            <a href="/blog/<%= post.slug %>" class="link-img" style="background-image: url('<%= asset_path "blog/#{post.metadata[:thumbnail]}" %>')"></a>
+            <a href="/blog/<%= post.slug %>"><%= post.metadata[:title] %></a>
+            <a href="/blog/<%= post.slug %>" class="link-post"><i class="fa fa-search"></i>  <%= t "blog.read_article" %></a>
+          </article>
+        </div>
+      <%= end %>
     </div>
   </div>
 </div>
+
+<!-- <div class="blog-comment">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <%# erb :disqus %>
+    </div>
+  </div>
+</div> -->
 
