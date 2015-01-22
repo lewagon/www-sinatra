@@ -3,6 +3,9 @@ unless ENV['RACK_ENV'] == 'production'
   Dotenv.load
 end
 
+require 'rspec/core/rake_task'
+RSpec::Core::RakeTask.new(:spec)
+
 require "trello"
 
 WAGON_TRELLO_ORG_ID = '53621ecf40984f5615bf702a'

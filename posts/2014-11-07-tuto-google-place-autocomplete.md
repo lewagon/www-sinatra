@@ -145,7 +145,7 @@ google.maps.event.addDomListener(window, 'load', function() {
 
 Il est possible de customiser votre Autocomplete et de restreindre les recherches à une zone géographie précise voir à un type exclusif de lieux (villes, business...).
 
-Par exemple, grâce snippet ci-dessous, nous limitons les résultats aux business (``` types: ['establishment']```) situés sur Paris et Londres en déterminant leurs latitudes et longitudes respectives dans la variable ```defaultBounds```. Pour en savoir plus, rendez-vous [ici](https://developers.google.com/maps/documentation/javascript/places-autocomplete).
+Par exemple, grâce snippet ci-dessous, nous limitons les résultats aux business (``` types: ['establishment']```) situés à Paris et Londres en déterminant leurs latitudes et longitudes respectives dans la variable ```defaultBounds```. Pour en savoir plus, rendez-vous [ici](https://developers.google.com/maps/documentation/javascript/places-autocomplete).
 
 ```js
 var defaultBounds = new google.maps.LatLngBounds(

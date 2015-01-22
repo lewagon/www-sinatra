@@ -7,7 +7,7 @@ labels:
   - alumni
 pushed: true
 thumbnail: thumbnail-sebastien-ferre.jpg
-description: "Sebastien Férré est aujourd'hui développeur chez Finexkap après avoir intégré le programme fullstack du Wagon il y'a moins d'un an. Retour sur le parcours et les aspirations futures de ce nouvel adepte du code."
+description: "Sebastien Férré est aujourd'hui développeur chez Finexkap après avoir intégré le programme fullstack du Wagon il y a moins d'un an. Retour sur le parcours et les aspirations futures de ce nouvel adepte du code."
 ---
 
 [Sebastien Ferré](https://www.twitter.com/sbfrr) est aujourd'hui développeur chez Finexkap après avoir intégré le programme fullstack du Wagon il y a moins d'un an. Retour sur le parcours de ce nouvel adepte du code.
