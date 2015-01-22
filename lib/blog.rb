@@ -50,6 +50,10 @@ class Blog
       metadata[:thumbnail]
     end
 
+    def pushed?
+      metadata[:pushed] || false
+    end
+
     private
 
     def file_content
@@ -89,6 +93,10 @@ class Blog
     files.reverse.map do |file|
       Post.new(file)
     end
+  end
+
+  def pushed_posts
+    all.select &:pushed?
   end
 
   def post(slug)
