@@ -21,6 +21,10 @@ build:
                 echo "from location $(which ruby)"
                 echo -p "gem list: $(gem list)"
         - script:
+            name: Specs
+            code: bundle exec rake spec
+
+        - script:
             name: assets compilation
             code: bundle exec rake assets:precompile
 

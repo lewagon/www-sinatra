@@ -16,7 +16,7 @@ description: Gilles Manzato vous expose les bases de JavaScript avant de vous pr
 
 ### Un peu d'histoire
 
-Le JavaScript, à ne pas confondre avec Java, est un langugage web créé en 1985 utilisé à la fois pour créer des pages web interactives (il s'interface avec le HTML et le CSS) mais également du côté serveur. Il y'a encore 10 ans le JavaScript était encore peu utilisé mais les récentes évolutions des navigateurs web ont boosté les performances de ce language avec un gain de performance de l'ordre de 1 à 1000 depuis IE6 a Chrome. L'arrivée du framework jQuery, dont nous parlerons plus tard, a également favorisé son expansion.
+Le JavaScript, à ne pas confondre avec Java, est un langugage web créé en 1985 utilisé à la fois pour créer des pages web interactives (il s'interface avec le HTML et le CSS) mais également du côté serveur. Il y a encore 10 ans le JavaScript était encore peu utilisé mais les récentes évolutions des navigateurs web ont boosté les performances de ce language avec un gain de performance de l'ordre de 1 à 1000 depuis IE6 a Chrome. L'arrivée du framework jQuery, dont nous parlerons plus tard, a également favorisé son expansion.
 
 ### Le Setup
 

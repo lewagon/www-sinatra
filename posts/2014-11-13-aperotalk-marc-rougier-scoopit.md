@@ -15,7 +15,7 @@ description: Pour cette masterclass AperoTalk nous avons reçu Marc Rougier Fond
 
 ### Présentation
 
-Après avoir commencé une thèse sur l'intelligence artificielle (I.A) à Montréal, Marc Rougier à contracté le virus de l'entrepreneuriat il y'a plus de 25 ans avant de partir travailler pour Thales et d'arpenter le monde.
+Après avoir commencé une thèse sur l'intelligence artificielle (I.A) à Montréal, Marc Rougier à contracté le virus de l'entrepreneuriat il y a plus de 25 ans avant de partir travailler pour Thales et d'arpenter le monde.
 
 <blockquote class="twitter-tweet" lang="en"><p>&quot;Il faut voyager pour être un bon entrepreneur&quot; <a href="https://twitter.com/MarcFuseki">@MarcFuseki</a> <a href="https://twitter.com/hashtag/AperoTalk?src=hash">#AperoTalk</a></p>&mdash; Le Wagon (@Lewagonparis) <a href="https://twitter.com/Lewagonparis/status/529696352360751104">November 4, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

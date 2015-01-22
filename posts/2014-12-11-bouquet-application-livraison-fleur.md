@@ -6,10 +6,10 @@ author: cedric
 labels:
   - alumni
   - startup
-description: Pionnier du Wagon, Laurent Cuzin évolue dans l’univers des startups depuis plus de 10 ans. En octobre dernier il lance Bouquet, une application pour envoyer facilement de jolies fleurs en moins de 4 heures sur Paris. Voilà de quoi donner des idées à certains à l’aube des fêtes de noël !
+description: Pionnier du Wagon, Laurent Cuzin évolue dans l’univers des startups depuis plus de 10 ans. En octobre dernier il lance Bouquet, une application pour envoyer facilement de jolies fleurs en moins de 4 heures à Paris. Voilà de quoi donner des idées à certains à l’aube des fêtes de noël !
 ---
 
-Pionnier du Wagon, [Laurent Cuzin](https://twitter.com/laurentc) évolue dans l’univers des startups depuis plus de 10 ans. En octobre dernier il lance [Bouquet](https://www.bouquetapp.com/), une application pour envoyer facilement de jolies fleurs en moins de 4 heures sur Paris. Voilà de quoi donner des idées à certains à l’aube des fêtes de noël !
+Pionnier du Wagon, [Laurent Cuzin](https://twitter.com/laurentc) évolue dans l’univers des startups depuis plus de 10 ans. En octobre dernier il lance [Bouquet](https://www.bouquetapp.com/), une application pour envoyer facilement de jolies fleurs en moins de 4 heures à Paris. Voilà de quoi donner des idées à certains à l’aube des fêtes de noël !
 
 
 ![Bouquet, l’app de livraison de fleurs indispensable](blog_image_path bouquet-intro.jpg)
