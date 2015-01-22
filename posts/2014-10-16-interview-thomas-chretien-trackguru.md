@@ -5,6 +5,7 @@ author: cedric
 labels:
   - alumni
   - startup
+pushed: true
 thumbnail: thomas-chretien-trackguru.jpg
 description: "Parmi les alumni du Wagon se cachent certains individus aux initiatives sonores sympathiques. C'est le cas de Thomas Chrétien et Olivier Brunet, tous deux associés autour d'un projet commun : Trackguru. Les deux garçons ont pour ambition de prendre soin des esgourdes de tous les amateurs de son techno & house avec un outil de curation communautaire plutôt bien ficelé. Présentation de l'application et retour sur leur expérience au Wagon avec Thomas."
 ---

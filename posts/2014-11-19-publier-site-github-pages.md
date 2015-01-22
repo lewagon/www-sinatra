@@ -4,6 +4,7 @@ title: "Publiez votre premier site web en moins de 10 minutes"
 author: cedric
 labels:
   - tuto
+pushed: true
 thumbnail: thumbnail-tuto-gh-pages.jpg
 description: Vous souhaitez tester une idée ou mettre votre portfolio en ligne ? Alors ce tuto sur Github Pages est fait pour vous. En seulement quelques clics vous pourrez héberger gratuitement votre premier site statique intégralement customisable et le partager ensuite au gré de vos envies.
 ---

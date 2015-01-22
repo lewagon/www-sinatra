@@ -198,6 +198,7 @@ class App < Sinatra::Base
     I18n.locale = :fr
     @body_class = "blog"
     @post = Blog.new.post(slug)
+    @pushed_posts = Blog.new.pushed_posts
     halt 404 unless @post
     erb :post
   end

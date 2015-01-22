@@ -6,6 +6,7 @@ labels:
   - meetup
   - tuto
   - video
+pushed: true
 thumbnail: thumbnail-meetup-javascript.jpg
 description: Gilles Manzato vous expose les bases de JavaScript avant de vous présenter la librairie jQuery et le principe des requêtes AJAX dans un tutorial vidéo d'une heure. Des variables au callback, vous apprendrez quelques notions rapidement utilisables pour vos projets personnels du moment.
 ---

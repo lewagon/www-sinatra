@@ -5,6 +5,7 @@ date: 01/11/2014
 author: cedric
 labels:
   - alumni
+pushed: true
 thumbnail: thumbnail-sebastien-ferre.jpg
 description: "Sebastien Férré est aujourd'hui développeur chez Finexkap après avoir intégré le programme fullstack du Wagon il y'a moins d'un an. Retour sur le parcours et les aspirations futures de ce nouvel adepte du code."
 ---
