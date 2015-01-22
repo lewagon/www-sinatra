@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/<%= I18n.locale %>">
+      <a class="navbar-brand" href="/<%= I18n.locale != :fr ? I18n.locale : nil %>">
         <img src="<%= image_path 'logo.png' %>" id="logo" alt="Le Wagon">
       </a>
     </div>
