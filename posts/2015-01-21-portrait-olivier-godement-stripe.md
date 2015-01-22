@@ -39,4 +39,4 @@ Si je dois résumer, je dirais que la formation au Wagon m'a notamment permis de
 
 ###Un petit mot sur le Wagon ?
 
-J’ai déjà conseillé le Wagon à de nombreux amis avec un profil business et à tous les gens qui veulent évoluer à des postes produits et qui auront besoin de parler avec des développeurs mais aussi de connaître les bonnes pratiques du développement web. Savoir coder et maîtriser le workflow des grands boîtes tech sont deux choses différentes, bien qu’étroitement liées.
+J’ai déjà conseillé le Wagon à de nombreux amis avec un profil business et à tous les gens qui veulent évoluer à des postes "produit" et qui auront besoin de parler avec des développeurs mais aussi de connaître les bonnes pratiques du développement web. Savoir coder et maîtriser le workflow des grands boîtes tech sont deux choses différentes, bien qu’étroitement liées.
