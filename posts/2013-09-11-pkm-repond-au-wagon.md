@@ -2,7 +2,6 @@
 layout: post
 title:  "Pierre Kosciusko-Morizet répond au wagon"
 author: miruna
-push: true
 labels:
   - startup
 thumbnail: pierre-kosciusko-morizet-ceo-priceminister.jpg
