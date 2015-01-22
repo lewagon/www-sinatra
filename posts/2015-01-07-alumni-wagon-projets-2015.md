@@ -4,6 +4,7 @@ title: "22 projets d'alumni à suivre en 2015 - Partie 1"
 author: cedric
 labels:
   - alumni
+pushed: true
 thumbnail: wagon-11-projets-alumni.jpg
 description: "Ils étaient 20 à prendre place au sein de la quatrième promotion du Wagon. Au terme de 9 semaines passées au sein du Full-Stack Bootcamp du Wagon, les voilà aux commandes de leurs propres applications fraîchement codées et pushées sur la toile. Tour d'horizon de ces 11 premiers projets à suivre en 2015."
 ---

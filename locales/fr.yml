@@ -134,6 +134,7 @@ fr:
   blog:
     read_article: Lire l'article
     written: "Écrit par <a href='%{href}'>%{author}</a> le %{date}"
+    moreposts: Continuez la visite !
   apply:
     title: Candidature - S'inscrire au Wagon pour 9 semaines de Ruby on Rails
     banner: Postulez au Wagon

@@ -6,6 +6,7 @@ labels:
   - meetup
   - tuto
   - video
+pushed: true
 thumbnail: thumbnail-initiation-dataviz-d3js.jpg
 description: Dataviz, ou l'art de représenter des grandes quantités de données de manière innovante et interactive. Donner du sens à la donnée, voilà le but de cette nouvelle discipline ! Découvrez d3.js une librairie javascript pour visualiser des données au sein d'interfaces web.
 ---

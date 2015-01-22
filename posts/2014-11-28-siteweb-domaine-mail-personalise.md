@@ -4,6 +4,7 @@ title: "Personnalisez l'url de votre site"
 author: cedric
 labels:
   - tuto
+pushed: true
 thumbnail: thumbnail-tuto-url-custom.jpg
 description: "Après avoir publié votre premier site web via GitHub Pages, nous vous proposons maintenant d'apprendre à personnaliser votre nom de domaine ainsi que votre adresse mail de contact."
 ---
