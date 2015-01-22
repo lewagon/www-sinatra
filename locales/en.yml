@@ -153,6 +153,7 @@ en:
       last_seats: Last seats!
       booked: Full
       price_html: "Price: <strong>%{price}</strong>€. We'll reach out quickly to you by email."
+      soon: coming soon
   thanks:
     title: Thanks!
     content_html: "We'll contact you shortly by email to plan an interview. In the meantime, <a href='http://twitter.com/Lewagonbrussels'>follow us on Twitter</a>"
