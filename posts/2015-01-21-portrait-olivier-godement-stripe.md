@@ -6,7 +6,7 @@ author: cedric
 labels:
   - alumni
 thumbnail: thumbnail-portrait-olivier-godement-stripe.jpg
-description: "Après avoir lancé Sparkup puis suivi le programme fullstack du Wagon, Olivier Godement à récemment rejoint les rangs de Stripe, la solution web et mobile de paiement à succès basée à San Francisco."
+description: "Après avoir lancé Sparkup puis suivi le programme fullstack du Wagon, Olivier Godement a récemment rejoint les rangs de Stripe, la solution web et mobile de paiement à succès basée à San Francisco."
 ---
 
 Après avoir lancé [Sparkup](http://www.sparkup.fr/) puis suivi le programme fullstack du Wagon, [Olivier Godement](https://twitter.com/oliviergodement) a récemment rejoint les rangs de [Stripe](https://stripe.com/), la solution web et mobile de paiement à succès basée à San Francisco.
