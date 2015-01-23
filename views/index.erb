@@ -198,8 +198,31 @@
 
 <div class="vertical-spacer"></div>
 
-<div class="vertical-spacer"></div>
-
+<div id="blog-suggestions">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+        <h2><%= t "home.blog_disclaimer" %></h2>
+        <p class="pitch"><%= t "home.blog_pitch" %></p>
+      </div>
+    </div>
+    <div class="row clear-margin">
+      <% @posts.take(3).each do |post| %>
+        <div class="col-xs-12 col-sm-4 text-center">
+          <article class="postcard element">
+            <a href="/blog/<%= post.slug %>" class="link-img" style="background-image: url('<%= asset_path "blog/#{post.metadata[:thumbnail]}" %>')"></a>
+            <a href="/blog/<%= post.slug %>"><h3><%= post.metadata[:title] %></h3></a>
+          </article>
+        </div>
+      <% end %>
+      <div class="row text-center">
+        <div class="col-xs-12">
+          <h2><a href="/blog" class="arrow-link"><%= t "home.link_to_blog" %> <i class="fa fa-angle-double-right"></i></a></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- TODO:
 <!-- <div id="meetus" class="center">

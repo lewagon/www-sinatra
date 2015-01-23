@@ -15,7 +15,7 @@ Après avoir lancé [Sparkup](http://www.sparkup.fr/) puis suivi le programme fu
 
 ###Peux-tu te présenter à nos lecteurs ?
 
-Profil business par excellence, j’ai cofondé [Sparkup](http://www.sparkup.fr/) lors de ma dernière année d’étude en école de commerce. Sparkup est une sorte de pot commun dédié aux entrepreneurs afin de les aider à mobiliser des fonds auprès de leur réseau. A l’époque, je passais énormément de temps à rédiger des cahiers des charges et "user stories" pour l’agence web qui développait notre produit. Malgré de très bonnes relations avec l'agence chaque itération prenait beaucoup trop de temps. Nous étions loin des méthodes [lean](http://www.lewagon.org/blog/debuter-big-data-lean-enterprise). C’est à ce moment là que j’ai décidé de suivre la [formation fullstack du Wagon](http://www.lewagon.org/programme) et de m’orienter vers le dev produit.
+Avec un profil initialement très business, j’ai cofondé [Sparkup](http://www.sparkup.fr/) lors de ma dernière année d’étude en école de commerce. Sparkup est un pot commun dédié aux entrepreneurs afin de les aider à mobiliser des fonds auprès de leur réseau. A l’époque, je passais énormément de temps à rédiger des cahiers des charges et "user stories" pour l’agence web qui développait notre produit. Malgré de très bonnes relations avec l'agence chaque itération prenait beaucoup trop de temps. C’est à ce moment là que j’ai décidé de suivre la formation fullstack du Wagon et de m’orienter vers le dev produit. Cela nous a permis à mon associé et moi d'accélérer l'adoption des méthodes lean chez Sparkup.
 
 J’ai donc quitté Sparkup en septembre dernier avec l’ambition de trouver un poste de product manager dans une startup positionnée sur la conception d’outils pour développeurs. C’est un marché en pleine croissance avec de très belles sociétés comme Heroku, Docker ou Stripe… à qui j’ai envoyé une candidature spontanée. Visiblement ma double compétence business / tech leur a plu et me voilà embarqué dans l’aventure.
 
@@ -23,19 +23,19 @@ Je suis actuellement en formation intensive dans les bureaux de San Francisco av
 
 ###Tu es actuellement au coeur de l'écosysteme californien, un petit feedback là-dessus ?
 
-Passer chez Stripe est quelque chose de très rafraîchissant. Généralement les startups ont tendance à vendre un prototype toujours en deçà de leur proposition de valeur initiale... Mais là, c'est tout l'inverse. Pour la première fois je travaille avec un produit déjà très bon et même meilleur que la concurrence.
+Travailler chez Stripe est quelque chose de très rafraîchissant. Généralement les startups ont tendance à survendre un produit en réalité en deçà de leur pitch... Mais là, c'est tout l'inverse. Je travaille avec un produit déjà excellent et nettement au dessus de la concurrence.
 
-C’est tout simplement passionnant d’évoluer dans une entreprise avec une culture produit aussi forte et une croissance de cette ampleur. Nous sommes environ 160 avec près de 100 dévelopeurs. Les effectifs en interne doublent chaque année avec un nombre d’utilisateurs et de transactions qui croît de manière exponentielle.
+C’est tout simplement passionnant d’évoluer dans une entreprise avec une culture produit aussi forte et une croissance de cette ampleur. Les effectifs de la boite croissent à toute vitesse et le nombre d’utilisateurs et le volume de transactions augmentent de manière exponentielle.
 
-L’état d’esprit à SF est quelque chose de fabuleux, un changement culturel énorme entraîné par l’omniprésence des startups tech. Tout le monde a un avis sur les bons produits, une culture incroyable dans le domaine et des relations dans toutes les boîtes !
+L’état d’esprit à SF est quelque chose de fabuleux, un changement culturel énorme entraîné par l’omniprésence de la tech et l’optimisme des gens sur place. La plupart ont d'ailleurs un avis sur les bons produits, une connaissance du domaine et des relations dans toutes les boîtes !
 
 ###En quoi ton passage au Wagon t’a t-il préparé dans tes missions quotidiennes ?
 
 Après la formation, j’ai passé un mois complet à coder chez Sparkup tout en gardant ma casquette de product manager. Les compétences acquises au Wagon m’ont ouvert la possibilité d’être beaucoup plus à même de challenger des développeurs avec qui nous travaillions. Cela nous a aussi permis d’introduire énormément de bonnes pratiques dans les process de dev de notre boîte.
 
-Aujourd’hui je ne suis plus développeur mais comme Stripe est une API, les devs représentent notre clientèle principale. Une clientèle très pointue qu’il serait impossible de conseiller sans avoir appris à coder. Sans mentionner le fait que l'API de Stripe est de plus en plus populaire, du coup de nombreux développeurs juniors cherchent à l’intégrer ainsi que des startups françaises, tous avec des questions sur des features très particulières.
+Aujourd’hui je ne suis plus développeur mais comme Stripe est une API, les devs représentent notre clientèle principale. Une clientèle pointue qu’il est difficile de conseiller sans des notions de code. Sans mentionner le fait que l'API de Stripe est de plus en plus populaire, du coup de plus en plus de développeurs et startups françaises cherchent à l’intégrer, tous avec des questions sur des features très particulières.
 
-Si je dois résumer, je dirais que la formation au Wagon m'a notamment permis de rapidement identifier une API simple, bien ficelée et élégante tout en me donnant la capacité de jeter un coup d’oeil dans son intégration et d’isoler ce qui marche et ne marche pas.
+Si je devais résumer, je dirais que la formation au Wagon m'a notamment permis de comprendre ce qu'est une API simple, bien ficelée et élégante tout en me donnant la capacité de jeter un coup d’oeil dans une intégration et de comprendre rapidement ce qui marche et ne marche pas.
 
 ###Un petit mot sur le Wagon ?
 

@@ -131,6 +131,9 @@ fr:
       <strong>JavaScript</strong> et <strong>AJAX</strong>.
     coding_best_practices: "Les <em>best practices</em> de developpement web (<strong>collaboration sur Github</strong>, <em>versionning</em> de code, <strong>déploiement continu sur Heroku</strong>, gestion des photos sur <strong>Amazon S3</strong>, envoi de mail avec SMTP externe comme <strong>Mandrill</strong>, etc.)"
     media: Ils parlent du Wagon
+    blog_disclaimer: À lire sur le blog
+    blog_pitch: "Toutes les semaines retrouvez des tutos, vidéos de meetup et autres ressources exclusives sur notre blog !"
+    link_to_blog: Voir tous les articles
   blog:
     read_article: Lire l'article
     written: "Écrit par <a href='%{href}'>%{author}</a> le %{date}"

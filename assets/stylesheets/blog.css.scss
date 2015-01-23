@@ -112,7 +112,7 @@ body.blog { background-color: #fff; }
   }
 
   .suggestions {
-    padding: 40px;
+    padding: 40px 0;
 
     &:before {
       left: 50%;
@@ -123,7 +123,7 @@ body.blog { background-color: #fff; }
       position: absolute;
       pointer-events: none;
       border-color: rgba(136, 183, 213, 0);
-      border-top-color: #f2f2f2;
+      border-top-color: #181d22;
       border-width: 30px;
       margin-left: -30px;
       margin-top: -40px;
@@ -152,7 +152,7 @@ body.blog { background-color: #fff; }
       h3 {
       font-size: 20px;
       color: #333;
-      padding-bottom: 10px;
+      padding: 0 20px 10px 20px;
       }
 
       a {
@@ -160,6 +160,8 @@ body.blog { background-color: #fff; }
       }
     }
   }
+
+
 
   .all-posts {
     margin-top: 20px;

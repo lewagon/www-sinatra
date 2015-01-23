@@ -90,6 +90,7 @@ class App < Sinatra::Base
       I18n.locale = locale
       @city = CITIES[:paris]
       find_meetup
+      @posts = Blog.new.all
       erb :index
     end
   end
