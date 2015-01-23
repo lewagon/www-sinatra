@@ -52,6 +52,7 @@ paris-mars-2015:
   city: paris
   start_date: 2015-03-09
   end_date: 2015-05-08
+  last_seats: true
   trello:
     inbox_list_id: 54367e024309d39b50e17738
 
