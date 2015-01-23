@@ -125,6 +125,9 @@ en:
       <strong>continuous deployment on Heroku</strong>, pictures management on <strong>Amazon S3</strong>,
       automatic mailing with external SMTP like <strong>Mandrill</strong>, etc)
     media: They talk about us
+    blog_disclaimer: Now live on our blog
+    blog_pitch: Enjoy a whole new set of exclusive content every week!
+    link_to_blog: See all posts
   blog:
     read_article: Read the article
     written: "Written by <a href='%{href}'>%{author}</a> on %{date}"
