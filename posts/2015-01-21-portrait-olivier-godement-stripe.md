@@ -35,7 +35,7 @@ Après la formation, j’ai passé un mois complet à coder chez Sparkup tout en
 
 Aujourd’hui je ne suis plus développeur mais comme Stripe est une API, les devs représentent notre clientèle principale. Une clientèle pointue qu’il est difficile de conseiller sans des notions de code. Sans mentionner le fait que l'API de Stripe est de plus en plus populaire, du coup de plus en plus de développeurs et startups françaises cherchent à l’intégrer, tous avec des questions sur des features très particulières.
 
-Si je devais résumer, je dirais que la formation au Wagon m'a notamment permis comprendre ce qu'est une API simple, bien ficelée et élégante tout en me donnant la capacité de jeter un coup d’oeil dans une intégration et de comprendre rapidement ce qui marche et ne marche pas.
+Si je devais résumer, je dirais que la formation au Wagon m'a notamment permis de comprendre ce qu'est une API simple, bien ficelée et élégante tout en me donnant la capacité de jeter un coup d’oeil dans une intégration et de comprendre rapidement ce qui marche et ne marche pas.
 
 ###Un petit mot sur le Wagon ?
 
