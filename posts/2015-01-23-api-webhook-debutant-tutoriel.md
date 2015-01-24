@@ -23,7 +23,7 @@ Les APIs sont des interfaces créées par des développeurs. Elles sont utilisé
 
 ###Mais comment ça marche ?
 
-En temps normal, lorsqu'un utilisateur rentre une donnée dans la bar de recherche de son navigateur, il lance une requête `html` à laquelle un serveur répondra par une vue `html`. C'est exactement le même fonctionnement pour les APIs. Le serveur de l’application interroge l’API d'un service via une requête `html` qui lui retourne le plus souvent des données sous la forme d'un `JSON` (type de fichier spécifique dans lequel les données sont représentées sous forme de tableau) qui seront stockées dans une base de données afin d'être retournées sur la vue `html` du site.
+En temps normal, lorsqu'un utilisateur rentre une donnée dans la barre de recherche de son navigateur, il lance une requête `http` à laquelle un serveur répondra par une vue `html`. C'est exactement le même fonctionnement pour les APIs. Le serveur de l’application interroge l’API d'un service via une requête `http` qui lui retourne le plus souvent des données sous la forme d'un `JSON` (type de fichier spécifique dans lequel les données sont représentées sous forme de tableau) qui seront stockées dans une base de données afin d'être retournées sur la vue `html` du site.
 
 *Exemple :* Lorsque vous interrogez l'API de Google Maps afin d'obtenir la localisation précise du 25 rue du petit Musc vous effectuez une requête via : [https://maps.googleapis.com/maps/api/geocode/json?address=25 rue du petit musc](https://maps.googleapis.com/maps/api/geocode/json?address=25 rue du petit musc).
 
@@ -31,15 +31,15 @@ En temps normal, lorsqu'un utilisateur rentre une donnée dans la bar de recherc
 
 Le plus souvent les pages web sont statiques (ex : cet article). Cependant, dans le cas ou le contenu consultatble est susceptible d'être mis à jour (ex: timeline Twitter), il semble peu efficace d’envoyer des requêtes à répétition afin d'obtenir son refresh. Une communication ascendante et descendante entre l'API et votre service est alors indispensable. C'est ici que la notion de WebHook intervient :
 
-- L'API push des données dès qu’elle sont disponibles
-- Le service B expose des méthodes pour écouter les requêtes pushées par l'API et les traiter
+- Le service externe contacte votre application lorsque du nouveau contenu est disponible (Hollywood principle, *don't call us, we'll call you*)
+- Votre application expose des méthodes pour écouter les requêtes pushées par l'API du service externe et les traiter
 
 ###Il y a t-il des restrictions ?
 
 Deux restrictions princpales sont à prendre en compte :
 
-- Il vous est possible de consommer l’API mais **jamais de modifier** la manière dont elle interagi
-- Les APIs ont leur propre système d’authentification et vous impose généralement d’inclure dans votre code les *credentials* (clé et mot de passe) afin de limiter le nombre d’appels ou de facturer leur service
+- Il vous est possible de consommer l’API mais **jamais de modifier** la manière dont elle interagit
+- Les APIs ont leur propre système d’authentification et vous imposent généralement d’inclure dans votre code les *credentials* (clé et mot de passe) afin de limiter le nombre d’appels ou de facturer leur service
 
 ###Les slides de la présentation
 
