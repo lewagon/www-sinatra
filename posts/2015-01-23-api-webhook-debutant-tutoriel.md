@@ -6,7 +6,7 @@ labels:
   - meetup
   - video
 thumbnail: thumbail-api-webhook-tutorial.jpg
-description: "Les APIs sont légions sur le web et offrent simplement et rapidement la possibilté de démultiplier la force de vos applications. De la définition de l'acronyme en passant par la notion webhook et quelques exemples d'utilisations, Sebastien Saunier CTO du Wagon, vous invite à découvrir les bases de ce nouvel enjeux stratégique pour votre business."
+description: "Les APIs sont légions sur le web et offrent simplement et rapidement la possibilté de démultiplier la force de vos applications. De la définition de l'acronyme en passant par la notion de webhook et quelques exemples d'utilisations, Sebastien Saunier, CTO du Wagon, vous invite à découvrir les bases de ce nouvel enjeux stratégique pour votre business."
 ---
 
 Les APIs sont légions sur le web et offrent simplement et rapidement la possibilté de démultiplier la force de vos applications. De la définition de l'acronyme en passant par la notion de webhook et quelques exemples d'utilisations, [Sebastien Saunier](https://twitter.com/ssaunier) CTO du Wagon, vous invite à découvrir les bases de ce nouvel enjeux stratégique pour votre business.
@@ -15,9 +15,9 @@ Les APIs sont légions sur le web et offrent simplement et rapidement la possibi
 
 ###Qu'est-ce qu'une API ? (*Application Programming Interface*)
 
-Les APIs sont des interfaces créées par des développeurs. Elles sont utilisées par des programmes (ordinateurs, robots, code...) afin de se connecter, d'intéréagir puis d'excuter des tâches avec des applications web tiers. Pour les plus curieux d'entre vous [Programmableweb](http://www.programmableweb.com) référence toutes les APIs par ordre de popularité.
+Les APIs sont des interfaces créées par des développeurs. Elles sont utilisées par des programmes (ordinateurs, robots, code...) afin de se connecter, d'interagir puis d'exécuter des tâches avec des applications web tiers. Pour les plus curieux d'entre vous [Programmableweb](http://www.programmableweb.com) référence toutes les APIs par ordre de popularité.
 
-*Exemples :* AirBnB utilise l'API Google Map pour placer des markeurs customisés sur une carte afin de localiser les appartements ouverts à la location. L'API de YouTube permet d'intégrer des vidéos hébergées sur sa plateforme sur n'importe quel site au même titre que celle ci-dessus.
+*Exemples :* AirBnB utilise l'API Google Map pour placer des markeurs customisés sur une carte afin de localiser les appartements ouverts à la location. L'API de YouTube permet d'intégrer des vidéos hébergées sur sa plateforme sur n'importe quel site, comme la vidéo ci-dessus par exemple.
 
 **Important**: Une API **expose** des services. Un programme **consomme** une API.
 
@@ -29,12 +29,12 @@ En temps normal, lorsqu'un utilisateur rentre une donnée dans la barre de reche
 
 ###Et le WebHook dans tout ça ?
 
-Le plus souvent les pages web sont statiques (ex : cet article). Cependant, dans le cas ou le contenu consultatble est susceptible d'être mis à jour (ex: timeline Twitter), il semble peu efficace d’envoyer des requêtes à répétition afin d'obtenir son refresh. Une communication ascendante et descendante entre l'API et votre service est alors indispensable. C'est ici que la notion de WebHook intervient :
+Le plus souvent les pages web sont statiques (ex : cet article). Cependant, dans le cas ou le contenu consultable est susceptible d'être mis à jour (ex: timeline Twitter), il semble peu efficace d’envoyer des requêtes à répétition afin d'obtenir son refresh. Une communication ascendante et descendante entre l'API et votre service est alors indispensable. C'est ici que la notion de WebHook intervient :
 
 - Le service externe contacte votre application lorsque du nouveau contenu est disponible (Hollywood principle, *don't call us, we'll call you*)
 - Votre application expose des méthodes pour écouter les requêtes pushées par l'API du service externe et les traiter
 
-###Il y a t-il des restrictions ?
+###Est ce qu'il y a des restrictions ?
 
 Deux restrictions princpales sont à prendre en compte :
 
@@ -47,7 +47,7 @@ Deux restrictions princpales sont à prendre en compte :
 
 ### Liens utiles
 
-- [Zappier](https://zapier.com/)
+- [Zapier](https://zapier.com/)
 - [Programmableweb](http://www.programmableweb.com )
 
 ###Reminder
