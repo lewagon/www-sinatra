@@ -6,10 +6,10 @@ labels:
   - meetup
   - video
 thumbnail: thumbail-api-webhook-tutorial.jpg
-description: "Les APIs sont légions sur le web et offrent simplement et rapidement la possibilté de démultiplier la force de vos applications. De la définition de l'acronyme en passant par la notion de webhook et quelques exemples d'utilisations, Sebastien Saunier, CTO du Wagon, vous invite à découvrir les bases de ce nouvel enjeux stratégique pour votre business."
+description: "Les APIs sont légions sur le web et offrent simplement et rapidement la possibilté de démultiplier la force de vos applications. De la définition de l'acronyme en passant par la notion de webhook et quelques exemples d'utilisations, Sebastien Saunier, CTO du Wagon, vous invite à découvrir les bases de ce nouvel enjeu stratégique pour votre business."
 ---
 
-Les APIs sont légions sur le web et offrent simplement et rapidement la possibilté de démultiplier la force de vos applications. De la définition de l'acronyme en passant par la notion de webhook et quelques exemples d'utilisations, [Sebastien Saunier](https://twitter.com/ssaunier) CTO du Wagon, vous invite à découvrir les bases de ce nouvel enjeux stratégique pour votre business.
+Les APIs sont légions sur le web et offrent simplement et rapidement la possibilté de démultiplier la force de vos applications. De la définition de l'acronyme en passant par la notion de webhook et quelques exemples d'utilisations, [Sebastien Saunier](https://twitter.com/ssaunier) CTO du Wagon, vous invite à découvrir les bases de ce nouvel enjeu stratégique pour votre business.
 
 <div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/0FQ6w4CO5Nw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
