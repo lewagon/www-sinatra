@@ -19,7 +19,7 @@ Les APIs sont des interfaces créées par des développeurs. Elles sont utilisé
 
 *Exemples :* AirBnB utilise l'API Google Map pour placer des marqueurs customisés sur une carte afin de localiser les appartements ouverts à la location. L'API de YouTube permet d'intégrer des vidéos hébergées sur sa plateforme sur n'importe quel site, comme la vidéo ci-dessus par exemple.
 
-**Important**: Une API **expose** des services. Un programme **consomme** une API.
+**IMPORTANT:** Une API **expose** des services. Un programme **consomme** une API.
 
 ###Mais comment ça marche ?
 
