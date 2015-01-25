@@ -15,7 +15,7 @@ Les APIs sont légions sur le web et offrent simplement et rapidement la possibi
 
 ###Qu'est-ce qu'une API ? (*Application Programming Interface*)
 
-Les APIs sont des interfaces créées par des développeurs. Elles sont utilisées par des programmes (ordinateurs, robots, code...) afin de se connecter, d'interagir puis d'exécuter des tâches avec des applications web tiers. Pour les plus curieux d'entre vous [Programmableweb](http://www.programmableweb.com) référence toutes les APIs par ordre de popularité.
+Les APIs sont des interfaces créées par des développeurs. Elles sont utilisées par des programmes (ordinateurs, robots, code...) afin de se connecter, d'interagir puis d'exécuter des tâches avec des applications web tierces. Pour les plus curieux d'entre vous [Programmableweb](http://www.programmableweb.com) référence toutes les APIs par ordre de popularité.
 
 *Exemples :* AirBnB utilise l'API Google Map pour placer des marqueurs customisés sur une carte afin de localiser les appartements ouverts à la location. L'API de YouTube permet d'intégrer des vidéos hébergées sur sa plateforme sur n'importe quel site, comme la vidéo ci-dessus par exemple.
 
