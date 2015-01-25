@@ -17,7 +17,7 @@ Les APIs sont légions sur le web et offrent simplement et rapidement la possibi
 
 Les APIs sont des interfaces créées par des développeurs. Elles sont utilisées par des programmes (ordinateurs, robots, code...) afin de se connecter, d'interagir puis d'exécuter des tâches avec des applications web tiers. Pour les plus curieux d'entre vous [Programmableweb](http://www.programmableweb.com) référence toutes les APIs par ordre de popularité.
 
-*Exemples :* AirBnB utilise l'API Google Map pour placer des markeurs customisés sur une carte afin de localiser les appartements ouverts à la location. L'API de YouTube permet d'intégrer des vidéos hébergées sur sa plateforme sur n'importe quel site, comme la vidéo ci-dessus par exemple.
+*Exemples :* AirBnB utilise l'API Google Map pour placer des marqueurs customisés sur une carte afin de localiser les appartements ouverts à la location. L'API de YouTube permet d'intégrer des vidéos hébergées sur sa plateforme sur n'importe quel site, comme la vidéo ci-dessus par exemple.
 
 **Important**: Une API **expose** des services. Un programme **consomme** une API.
 
@@ -36,7 +36,7 @@ Le plus souvent les pages web sont statiques (ex : cet article). Cependant, dans
 
 ###Est ce qu'il y a des restrictions ?
 
-Deux restrictions princpales sont à prendre en compte :
+Deux restrictions principales sont à prendre en compte :
 
 - Il vous est possible de consommer l’API mais **jamais de modifier** la manière dont elle interagit
 - Les APIs ont leur propre système d’authentification et vous imposent généralement d’inclure dans votre code les *credentials* (clé et mot de passe) afin de limiter le nombre d’appels ou de facturer leur service
