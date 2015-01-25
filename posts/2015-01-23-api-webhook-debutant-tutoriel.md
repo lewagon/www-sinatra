@@ -6,10 +6,10 @@ labels:
   - meetup
   - video
 thumbnail: thumbail-api-webhook-tutorial.jpg
-description: "Les APIs sont légions sur le web et offrent simplement et rapidement la possibilté de démultiplier la force de vos applications. De la définition de l'acronyme en passant par la notion de webhook et quelques exemples d'utilisations, Sebastien Saunier, CTO du Wagon, vous invite à découvrir les bases de ce nouvel enjeu stratégique pour votre business."
+description: "Les APIs sont légions sur le web et offrent simplement et rapidement la possibilté de démultiplier la force de vos applications. De la définition de l'acronyme en passant par la notion de webhook et quelques exemples d'utilisations, Sebastien Saunier, CTO du Wagon, vous invite à découvrir les bases de ce nouvel enjeu stratégique pour votre projet."
 ---
 
-Les APIs sont légions sur le web et offrent simplement et rapidement la possibilté de démultiplier la force de vos applications. De la définition de l'acronyme en passant par la notion de webhook et quelques exemples d'utilisations, [Sebastien Saunier](https://twitter.com/ssaunier) CTO du Wagon, vous invite à découvrir les bases de ce nouvel enjeu stratégique pour votre business.
+Les APIs sont légions sur le web et offrent simplement et rapidement la possibilté de démultiplier la force de vos applications. De la définition de l'acronyme en passant par la notion de webhook et quelques exemples d'utilisations, [Sebastien Saunier](https://twitter.com/ssaunier) CTO du Wagon, vous invite à découvrir les bases de ce nouvel enjeu stratégique pour votre projet.
 
 <div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/0FQ6w4CO5Nw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
@@ -29,10 +29,10 @@ En temps normal, lorsqu'un utilisateur rentre une donnée dans la barre de reche
 
 ###Et le WebHook dans tout ça ?
 
-Le plus souvent les pages web sont statiques (ex : cet article). Cependant, dans le cas ou le contenu consultable est susceptible d'être mis à jour (ex: timeline Twitter), il semble peu efficace d’envoyer des requêtes à répétition afin d'obtenir son refresh. Une communication ascendante et descendante entre l'API et votre service est alors indispensable. C'est ici que la notion de WebHook intervient :
+Le plus souvent les pages web sont statiques (ex : cet article). Cependant, dans le cas où le contenu consultable est susceptible d'être mis à jour (ex: timeline Twitter), il semble peu efficace d’envoyer des requêtes à répétition afin d'obtenir son refresh. Une communication ascendante et descendante entre l'API et votre service est alors indispensable. C'est ici que la notion de WebHook intervient :
 
 - Le service externe contacte votre application lorsque du nouveau contenu est disponible (Hollywood principle, *don't call us, we'll call you*)
-- Votre application expose des méthodes pour écouter les requêtes pushées par l'API du service externe et les traiter
+- Votre application expose des méthodes pour écouter les requêtes pushées par l'API du service externe et les traiter.
 
 ###Est ce qu'il y a des restrictions ?
 
