@@ -12,7 +12,7 @@ description: "Dans cette introduction au prototypage, Benjamin Ewenczyk vous pro
 
 Dans cette introduction au prototypage, [Benjamin Ewenczyk](https://twitter.com/BSE_tw) vous propose de commencer à poser les briques de votre service (*Minimun Valuable Product*) en seulement quelques heures afin de délivrer une première expérience à vos utilisateurs.
 
-<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/6PjTA3zxF-c?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/6PjTA3zxF-c?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ### Une startup n’est pas une entreprise classique
 

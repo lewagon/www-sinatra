@@ -13,7 +13,7 @@ description: Gilles Manzato vous expose les bases de JavaScript avant de vous pr
 
 [Gilles Manzato](https://twitter.com/gillesm) vous expose les bases de JavaScript avant de vous présenter la librairie jQuery et le principe des requêtes AJAX dans un tutorial vidéo d'une heure. Des variables au callback, vous apprendrez quelques notions rapidement utilisables pour vos projets personnels du moment.
 
-<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/G8OsHFT99os?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/G8OsHFT99os?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ### Un peu d'histoire
 

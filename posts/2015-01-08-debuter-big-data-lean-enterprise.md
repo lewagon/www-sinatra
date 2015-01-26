@@ -11,7 +11,7 @@ description: Johann Romefort nous a fait le plaisir d'animer un Meetup dans nos 
 
 Après avoir co-fondé Seesmic, [Johann Romefort](https://twitter.com/romefort) travaille actuellement à la création d'un app store dédié aux applications côté serveurs : [Rainbow](http://getrainbow.com/). Il nous a fait le plaisir d'animer un Meetup dans nos locaux afin de présenter les principes du Lean Enterprise et sa relation étroite avec le big data.
 
-<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/OEFOwU0v-P4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/OEFOwU0v-P4?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 
 ### Les concepts et points abordés en 45 minutes

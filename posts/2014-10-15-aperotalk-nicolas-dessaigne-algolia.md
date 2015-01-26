@@ -9,7 +9,7 @@ thumbnail: nicolas-dessaigne-algolia.jpg
 description: "La semaine dernière nous avons eu le plaisir de recevoir Nicolas Dessaigne, co-fondateur et CEO Algolia, afin d'échanger sur son parcours ainsi que sur la création et le développement d’Algolia."
 ---
 
-<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/5ZpwR3VuT50?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/5ZpwR3VuT50?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 *La semaine dernière nous avons eu le plaisir de recevoir [Nicolas Dessaigne](https://www.twitter.com/dessaigne), co-fondateur et CEO [Algolia](https://www.algolia.com/), afin d'échanger sur son parcours ainsi que sur la création et le développement d’Algolia.*
 

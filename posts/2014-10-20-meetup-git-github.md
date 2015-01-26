@@ -13,7 +13,7 @@ description: "Les curieux que vous êtes avez sûrement entendu parler de Github
 
 Les curieux que vous êtes avez sûrement entendu parler de [Github](https://github.com/), un réseau social un peu différent de Facebook où ça parle de code. Github est basé sur [git](http://git-scm.com/), un utilitaire développé par le créateur de Linux, et qui joue un rôle central dans tout projet de développement : celui de système de gestion des versions. **Maîtriser git, c'est adopter une bonne pratique de développement qui changera à jamais votre vision de l'Informatique**.
 
-<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/V6Zo68uQPqE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/V6Zo68uQPqE?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ### Déployez votre premier site via git
 
