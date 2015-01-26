@@ -11,7 +11,7 @@ description: "Contrôleur de gestion dans une autre vie au sein de grands groupe
 
 Contrôleur de gestion dans une autre vie au sein de grands groupes entre Montpellier et Moscou et fervente utilisatrice de solutions de Business Intelligence, Rachel Delacour est partie du constat suivant : les outils de *business inteligence* sont souvent réservés à des sociétés de taille importante et très couteuses à mettre en place. Pour changer cela, elle a co-fondé [Bime Analytics](http://www.bimeanalytics.com/).
 
-<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/aF_TzzW1wEg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/aF_TzzW1wEg?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ### Synopsis
 
