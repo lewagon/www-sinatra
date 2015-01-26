@@ -52,11 +52,12 @@ brussels:
   description:
     en: |
       Our courses, in Brussels, are given in <strong>English</strong>,
+      at <a href='http://www.co-station.com/'>Co.Station</a>,
       in the heart of the city, only ​2 minutes' ​walk ​from Central Station.
     fr: |
       Nos cours, à Bruxelles, sont donnés en <strong>anglais</strong>,
-      au coeur de la ville,
-      à deux minutes à pied de la Gare Centrale.
+      dans les locaux de <a href='http://www.co-station.com/'>Co.Station</a>,
+      au coeur de la ville, à deux minutes à pied de la Gare Centrale.
   images:
     banner: bg/brussels.jpg
     bottom: bg/local-costation.jpg
@@ -73,7 +74,8 @@ brussels:
     # - christophe
   programs:
     bootcamp: true
-  partners:
+  partners: # From data/partners.yml
+    - co_station
     - pullreview
   subventions: # From data/subventions.yml
     - impulse

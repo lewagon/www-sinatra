@@ -125,16 +125,15 @@ martin:
   description:
     fr: |
       Après quelques années à former des développeurs,
-      **Martin** a été tour à tour software engineer, customer contact,
-      chef d'équipe, et coach agile. Il a créé [PullReview](https://www.pullreview.com),
+      **Martin** a été tour à tour software engineer, team leader et coach agile.
+      Il a co-fondé [PullReview](https://www.pullreview.com),
       une solution SaaS pour faire des *code reviews* automatiques de code Ruby.
       Il co-anime également Rails Girls Brussels et est un speaker habituel
       du [Paris.rb](http://www.meetup.com/parisrb/).
     en: |
       After some years spent in teaching future programmers,
-      **Martin** did work as a programmer,
-      customer contact, team leader, architect and agile coach.
-      He is now working on [PullReview](https://www.pullreview.com)
+      **Martin** did work as a programmer, team leader, architect and agile coach.
+      He co-founded [PullReview](https://www.pullreview.com), a toolchain
       aiming to help Ruby developers to improve their coding practices.
       He is also co-organizing the Brussels chapter of Rails Girls and
       a frequent speaker at [Paris.rb](http://www.meetup.com/parisrb/).
