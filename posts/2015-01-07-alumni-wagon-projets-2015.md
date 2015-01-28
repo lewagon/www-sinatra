@@ -30,7 +30,7 @@ De l'immanquable aux pépites cachées hors des sentiers battus, [Explorizers](h
 
 Esprit curieux au background RP très prononcé, [Fleur Broca](https://twitter.com/fleurbroca) est partie du constat qu'il est complexe d'intéresser les journalistes car bien souvent les marques n'ont pas les bonnes histoires à raconter.
 
-Veritable muse pour entrepreneur, **Loudstory** souhaite aider ces derniers à acquérir une méthode pour trouver et raconter de belles histoires au travers d'un large éventail d’exercices basés sur les 3 piliers du storytelling : l'empathie avec son audience, définir sa mission et ce qui la rend unique, trouver le ton le plus juste possible afin de partager l'ensemble.
+Véritable muse pour entrepreneur, **Loudstory** souhaite aider ces derniers à acquérir une méthode pour trouver et raconter de belles histoires au travers d'un large éventail d’exercices basés sur les 3 piliers du storytelling : l'empathie avec son audience, définir sa mission et ce qui la rend unique, trouver le ton le plus juste possible afin de partager l'ensemble.
 
 - [www.loudstory.herokuapp.com](http://loudstory.herokuapp.com/)
 - [www.facebook.com/loudstory](http://www.facebook.com/loudstory)
@@ -43,7 +43,7 @@ Veritable muse pour entrepreneur, **Loudstory** souhaite aider ces derniers à a
 
 A l’origine du projet, Caroline Carrière s’est vue rejoindre par Annabel Menard et [Candice Gasperini](https://twitter.com/candicesg). 3 personnalités et parcours différents pour ces 3 drôles de dames. Femmes actives et mères à plein temps, elles sont parties du constat qu’au milieu de la frénésie du quotidien il devient de plus en plus complexe de profiter de ses enfants. Alors si chaque minute compte, où commencer à gagner du temps ?
 
-Tous les parents se croisent au moins deux fois par jour sur le parvis de l’école. Pourquoi ne pas le transformer en lieu d’échanges ultra-rapides ? Ma share école à donc pour ambition  de constituer un réseau de parents dont les enfants vont dans la même école élémentaire afin de leur donner accès à des outils basés sur l'économie collaborative pour faciliter l'organisation du quotidien et favoriser l'échange de biens et de services à moindre coûts.
+Tous les parents se croisent au moins deux fois par jour sur le parvis de l’école. Pourquoi ne pas le transformer en lieu d’échanges ultra-rapides ? Ma share école a donc pour ambition  de constituer un réseau de parents dont les enfants vont dans la même école élémentaire afin de leur donner accès à des outils basés sur l'économie collaborative pour faciliter l'organisation du quotidien et favoriser l'échange de biens et de services à moindre coût.
 
 - [www.mashareecole.com](http://www.mashareecole.com/)
 
@@ -53,7 +53,7 @@ Tous les parents se croisent au moins deux fois par jour sur le parvis de l’é
 
 [Adrien Montcoudiol](https://twitter.com/adrienm) et Max Moock sont tous les deux en année de césure. Passionnés par le milieu startup et les problématiques de Growth, les deux individus ont observé que les adeptes de Tinder demandent régulièrement à leurs proches de valider leurs photos de profil.
 
-Voyant un moyen sympathique d’entremêler le fun et l’A/B testing, ils se sont mis en tête de créer un service pour optimiser nos profils Tinder pour accroître son nombre de matches.
+Voyant un moyen sympathique d’entremêler le fun et l’A/B testing, ils se sont mis en tête de créer un service pour optimiser nos profils Tinder afin d'accroître son nombre de "matches".
 
 Le principe est simple :  après avoir choisi deux photos que vous souhaitez comparer, vous spécifiez votre “cible” avant de vous-même devenir juge d’une poignée de clichés d’autres utilisateurs du service. Une fois ces étapes validées, votre photo avec le meilleur taux d'appréciation vous sera délivrée. A noter que plus vous noterez de gens et reviendrez sur le service et plus vous obtiendrez vos réponses rapidement. A vous de jouer !
 
@@ -64,9 +64,9 @@ Le principe est simple :  après avoir choisi deux photos que vous souhaitez com
 
 ![L'info en temps réel sur toutes les files d'attente](blog_image_path wequeue.jpg)
 
-Personne n'aime attendre. En partant du constat que, quoi qu'il arrive, les files d'attente existeront toujours et qu'elles seront toujours l'objet d'une frustration majeure de la part des "usagers" [Emilie Coudrat](https://twitter.com/emilie_coudrat) à décidé de créer WeQueue.
+Personne n'aime attendre. En partant du constat que, quoi qu'il arrive, les files d'attente existeront toujours et qu'elles seront toujours l'objet d'une frustration majeure de la part des "usagers" [Emilie Coudrat](https://twitter.com/emilie_coudrat) a décidé de créer WeQueue.
 
-Cette plateforme mobile permet au Queuers (utilisateurs) d’informer les membres de la communauté du temps moyen de toutes les files d’attente des expositions à ne pas louper, des administrations, des ventes privées… A vous de faire le choix ensuite de vous y risquer ou non !
+Cette plateforme mobile permet au Queuers (utilisateurs) d’informer les membres de la communauté du temps moyen de toutes les files d’attente des expositions à ne pas louper, des administrations, des ventes privées… A vous de faire le choix et de vous y risquer ou non !
 
 Petit plus, l’application proposera la mise en relation de Queuers/Skippers vous permettant contre quelques euros de demander à quelqu’un d’attendre pour vous et ainsi d’anticiper au mieux votre arrivée sur des événements majeurs. Il n’y a jamais de problème, que des solutions.
 
@@ -101,11 +101,11 @@ A vous de recréer la timeline de votre vie, et pourquoi pas de voir surgir quel
 
 ![Pour les jeunes conducteurs qui veulent se simplifier la vie](blog_image_path carcar.jpg)
 
-Avec la double envie d’augmenter la transparence entre les prestations proposées par les auto-écoles et de simplifier la réservation d’heures de conduite. [Mohammed Tabib et Martin Chenu se sont lancés dans la création de Carcar.
+Avec la double envie d’augmenter la transparence entre les prestations proposées par les auto-écoles et de simplifier la réservation d’heures de conduite, Mohammed Tabib et Martin Chenu se sont lancés dans la création de Carcar.
 
-Leur idée commune est de mettre à niveau les Auto-Ecoles avec les nouveaux usages des éléves en proposant un desk permettant de réserver une heure de conduite en moins de 2 minutes depuis son ordinateur ou son mobile sans avoir à passer un coup de téléphone.
+Leur idée commune est de mettre à niveau les auto-écoles avec les nouveaux usages des élèves en proposant un desk permettant de réserver une heure de conduite en moins de 2 minutes depuis son ordinateur ou son mobile sans avoir à passer un coup de téléphone.
 
-Véritable outil intermédiaire entre l’auto-école classique et l’auto-école en ligne (avec les déboirs juridiques qu’on lui connaît), Carcar prend le parti d’aider les auto-écoles traditionnelles à faire face à la concurrence en ligne qui s’annonce, avec comme vision à long terme de mettre des outils flexibles et pratiques à la disposition des moniteurs indépendants pour augmenter la fréquence des heures de conduite disponibles dans les zones urbaines.
+Véritable outil intermédiaire entre l’auto-école classique et l’auto-école en ligne (avec les déboires juridiques qu’on lui connaît), Carcar prend le parti d’aider les auto-écoles traditionnelles à faire face à la concurrence en ligne qui s’annonce, avec comme vision à long terme de mettre des outils flexibles et pratiques à la disposition des moniteurs indépendants pour augmenter la fréquence des heures de conduite disponibles dans les zones urbaines.
 
 - [www.carcar.herokuapp.com](http://carcar.herokuapp.com/)
 
@@ -114,9 +114,9 @@ Véritable outil intermédiaire entre l’auto-école classique et l’auto-éco
 
 ![La solution SaaS pour augmenter votre acquisition](blog_image_path deuxio.jpg)
 
-[Brice Maurin](https://twitter.com/deuxio) évolue dans le milieu du web depuis 2004. Après voir lancé une première startup basée sur la recommandation d’événements culturels il s’est ensuite dirigié vers le conseil en acquisition. Partant du principe qu’un pourcentage important de son travail est tout à fait automatisable, il travaille à l’heure actuelle sur le développement d’un service SaaS composé d’outils de veille, d’optimisation SEO et d’aide au recrutement.
+[Brice Maurin](https://twitter.com/deuxio) évolue dans le milieu du web depuis 2004. Après voir lancé une première startup basée sur la recommandation d’événements culturels il s’est ensuite dirigé vers le conseil en acquisition. Partant du principe qu’un pourcentage important de son travail est tout à fait automatisable, il travaille sur le développement d’un service SaaS composé d’outils de veille, d’optimisation SEO et d’aide au recrutement.
 
-C’est d’ailleurs sur ce dernier point qu’il a commencé à avancer en mettant au point un service basé sur la curation de profils Twitter, qui automatiquement, ira chercher des informations complémentaires sur les web (lien Facebook, Linkedin, site personnel si non spécifié etc.) La première version de ce service devrait arriver d’ici peu. En attendant, n’hésitez pas à jeter un oeil sur son blog, une multitudes de bonnes pratiques pour accroître votre acquisition vous y attendent.
+C’est d’ailleurs sur ce dernier point qu’il a commencé à avancer en mettant au point un service basé sur la curation de profils Twitter, qui automatiquement, ira chercher des informations complémentaires sur le web (lien Facebook, Linkedin, site personnel si non spécifié etc.) La première version de ce service devrait arriver d’ici peu. En attendant, n’hésitez pas à jeter un oeil sur son blog, une multitude de bonnes pratiques pour accroître votre acquisition vous y attendent.
 
 - [www.deux.io/](http://deux.io/)
 
