@@ -85,15 +85,15 @@ cecile:
   image_name: cecile.png
   description:
     fr: |
-      Avec 5 ans d'expérience en e-commerce, **Cécile**
+      Avec 6 ans d'expérience en e-commerce, **Cécile**
       aime partager sa passion pour Ruby on Rails. Lilloise de coeur
       et hyper-active, elle co-anime les rencontres Rails Mentors,
       Rails Girls et Ruby Burgers.
     en: |
-      After 5 years working on e-commerce apps, **Cecile**
-      now likes sharing her passion for ruby and Rails. Coming from Lille,
-      she is an active member of the local ruby & Rails community (co-organizing Rails Girls & Ruby
-      burgers events)
+      After 6 years working on e-commerce apps, **Cecile**
+      now likes sharing her passion for Ruby and Rails. Coming from Lille,
+      she is an active member of the local Ruby & Rails community (co-organizing Rails Girls & Ruby
+      Burgers events).
   links:
     - url: https://github.com/cveneziani
       icon: github-alt
