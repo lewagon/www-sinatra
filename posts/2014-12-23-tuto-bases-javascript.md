@@ -8,31 +8,31 @@ labels:
   - video
 pushed: true
 thumbnail: thumbnail-meetup-javascript.jpg
-description: Gilles Manzato vous expose les bases de JavaScript avant de vous présenter la librairie jQuery et le principe des requêtes AJAX dans un tutorial vidéo d'une heure. Des variables au callback, vous apprendrez quelques notions rapidement utilisables pour vos projets personnels du moment.
+description: Gilles Manzato vous expose les bases de JavaScript avant de vous présenter la librairie jQuery et le principe des requêtes AJAX dans un tutoriel vidéo d'une heure. Des variables au callback, vous apprendrez quelques notions rapidement utilisables pour vos projets personnels du moment.
 ---
 
-[Gilles Manzato](https://twitter.com/gillesm) vous expose les bases de JavaScript avant de vous présenter la librairie jQuery et le principe des requêtes AJAX dans un tutorial vidéo d'une heure. Des variables au callback, vous apprendrez quelques notions rapidement utilisables pour vos projets personnels du moment.
+[Gilles Manzato](https://twitter.com/gillesm) vous expose les bases de JavaScript avant de vous présenter la librairie jQuery et le principe des requêtes AJAX dans un tutoriel vidéo d'une heure. Des variables au callback, vous apprendrez quelques notions rapidement utilisables pour vos projets personnels du moment.
 
 <div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/G8OsHFT99os?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ### Un peu d'histoire
 
-Le JavaScript, à ne pas confondre avec Java, est un langugage web créé en 1985 utilisé à la fois pour créer des pages web interactives (il s'interface avec le HTML et le CSS) mais également du côté serveur. Il y a encore 10 ans le JavaScript était encore peu utilisé mais les récentes évolutions des navigateurs web ont boosté les performances de ce language avec un gain de performance de l'ordre de 1 à 1000 depuis IE6 a Chrome. L'arrivée du framework jQuery, dont nous parlerons plus tard, a également favorisé son expansion.
+Le JavaScript, à ne pas confondre avec Java, est un langugage web créé en 1985 utilisé à la fois pour créer des pages web interactives (il s'interface avec le HTML et le CSS), mais également du côté serveur. Il y a encore 10 ans le JavaScript était encore peu utilisé, mais les récentes évolutions des navigateurs web ont boosté les performances de ce langage avec un gain de performance de l'ordre de 1 à 1000 depuis IE6 a Chrome. L'arrivée du framework jQuery, dont nous parlerons plus tard, a également favorisé son expansion.
 
 ### Le Setup
 
-Pour suivre ce tutorial vous aurez besoin du [navigateur Chrome](http://www.google.com/chrome/) installé afin d'utiliser la [console](https://developer.chrome.com/devtools/docs/console). Ouvrez également [jsFiddle](http://jsfiddle.net/) dans un onglet pour tester votre code rapidement.
+Pour suivre ce tutoriel vous aurez besoin du [navigateur Chrome](http://www.google.com/chrome/) installé afin d'utiliser la [console](https://developer.chrome.com/devtools/docs/console). Ouvrez également [jsFiddle](http://jsfiddle.net/) dans un onglet pour tester votre code rapidement.
 
 Pour ouvrir la *console*, utilisez les raccourcis suivants :
 
 - Sur Windows : Ctrl + Maj + J
 - Sur Mac : ⌘ + ⌥ + I
 
-**Important :** Pour des raisons de sécurité la console JS est isolée et liée à la durée de vie de la page. Au cours des excercices ne rafraîchissez pas la page sous peine de tout devoir recommencer !
+**Important :** Pour des raisons de sécurité la console JS est isolée et liée à la durée de vie de la page. Au cours des exercices, ne rafraîchissez pas la page sous peine de tout devoir recommencer !
 
 ### Les bases
 
-Ce résumé n'a pas pour objectif de retranscrire de manière exhaustive toutes les notions évoquées dans la vidéo ci-dessus mais simplement de faciliter la mémorisation et/ou l'accès aux lignes de code utilisées pour les différents exercices.
+Ce résumé n'a pas pour objectif de retranscrire de manière exhaustive toutes les notions évoquées dans la vidéo ci-dessus, mais simplement de faciliter la mémorisation et/ou l'accès aux lignes de code utilisées pour les différents exercices.
 
 **LES TYPES DE DONNÉES**
 
@@ -58,7 +58,7 @@ Il existe 3 grands types de données :
 Pour stocker des informations dans une variable : ```var age = 8;```
 Notez que ```age``` peut être remplacé par n'importe quelle chaîne de caractère selon votre convenance.
 
-Pour récupérer votre variable il suffit ensuite de la nommer dans la console afin de récupérer la donnée stockée.
+Pour récupérer votre variable, il suffit ensuite de la nommer dans la console afin de récupérer la donnée stockée.
 Ainsi ```age``` vous retournera ```8```.
 
 Si vous souhaitez changer la donnée associée à ```age```, il suffit d’écrire ```age = 15;``` sans repréciser le ```var```.
@@ -67,7 +67,7 @@ Si vous souhaitez changer la donnée associée à ```age```, il suffit d’écri
 
 **IF, ELSE**
 
-Les conditions permettent simplement de retourner un résultat A ou B en fonction de la condition énoncée. Dans l'exemple ci-dessous notre variable ```nombre``` est égale à ```10``` et sera donc supérieur à 5. Le code nous retournera donc ```plus grand que 5```. Notez que *if* n’est pas obligatoirement suivi d'un *else* et qu'il est possible de s’en servir seul afin de vérifier une condition qui nous revera donc un boolean *true* ou *false*.
+Les conditions permettent simplement de retourner un résultat A ou B en fonction de la condition énoncée. Dans l'exemple ci-dessous notre variable ```nombre``` est égale à ```10``` et sera donc supérieur à 5. Le code nous retournera donc ```plus grand que 5```. Notez que *if* n’est pas obligatoirement suivi d'un *else* et qu'il est possible de s’en servir seul afin de vérifier une condition qui nous renvera donc un boolean *true* ou *false*.
 
 ```js
 var age = 10;
@@ -79,11 +79,11 @@ else {
 }
 ```
 
-*Astuce :* ```console.log``` permet d’afficher le résultats de vos actions directement dans la console.
+*Astuce :* ```console.log``` permet d’afficher le résultat de vos actions directement dans la console.
 
 **LES FONCTIONS**
 
-Une fonction est un morceau de code stocké dans une variable que l’on va pouvoir réutiliser plus tard afin afin de lui demander d’exécuter une action bien précise sur un *argument*.
+Une fonction est un morceau de code stocké dans une variable que l’on va pouvoir réutiliser plus tard afin de lui demander d’exécuter une action bien précise sur un *argument*.
 
 ```js
 var greets = function(name){
@@ -91,12 +91,12 @@ var greets = function(name){
 }
 ```
 
-Ensuite, en passant l’argument ```Gilles``` à ```greet``` en suivant cette synthaxe ```greets(“Gilles”)``` la console vous retournera la string concaténée ```"Bonjour Gilles"```.
+Ensuite, en passant l’argument ```Gilles``` à ```greet``` en suivant cette syntaxe ```greets(“Gilles”)``` la console vous retournera la string concaténée ```"Bonjour Gilles"```.
 
 
 ### Le jQuery
 
-[jQuery](http://jquery.com/) est une bibliothèque JavaScript créée pour faciliter l'écriture de scripts afin d'animer les pages web. Le JavaScript utilise le DOM (la représentation du navigateur de l'arbre HTML) pour communiquer avec la page mais celui-ci n'est malheureusement pas standardisé entre les navigateurs. jQuery synthétise tous ces élements et propose une multitudes de fonctions qui s’appuient sur les sélecteurs CSS.
+[jQuery](http://jquery.com/) est une bibliothèque JavaScript créée pour faciliter l'écriture de scripts afin d'animer les pages web. Le JavaScript utilise le DOM (la représentation du navigateur de l'arbre HTML) pour communiquer avec la page, mais celui-ci n'est malheureusement pas standardisé entre les navigateurs. jQuery synthétise tous ces éléments et propose une multitude de fonctions qui s’appuient sur les sélecteurs CSS.
 
 **Important :** Le ```$``` permet d’accéder directement à l’objet jQuery.
 
@@ -127,11 +127,11 @@ $(".active").on("click", function(){
 
 ### Les requêtes AJAX
 
-L'AJAX vous donne la possibilité de faire des requêtes asynchrones vers des données externes (via une url pointant vers des données ouvertes d'une API) ou internes du site sans jamais recharger la page. La plus part du temps, les données arriveront sous forme de JSON : un objet JavaScript facile à accéder sans aucun impact sur les performances.
+L'AJAX vous donne la possibilité de faire des requêtes asynchrones vers des données externes (via une url pointant vers des données ouvertes d'une API) ou internes du site sans jamais recharger la page. La plupart du temps, les données arriveront sous forme de JSON : un objet JavaScript facile à accéder sans aucun impact sur les performances.
 
-**RECUPERER DES DONNÉES JSON**
+**RÉCUPÉRER DES DONNÉES JSON**
 
-Pour l'exemple suivant nous effectuerons une requête auprès de l'API de Facebook afin de récupérer les données publiques de son célèbre fondateur : ```http://graph.facebook.com/4```
+Pour l'exemple suivant, nous effectuerons une requête auprès de l'API de Facebook afin de récupérer les données publiques de son célèbre fondateur : ```http://graph.facebook.com/4```
 
 ```html
 {
@@ -148,15 +148,15 @@ Pour l'exemple suivant nous effectuerons une requête auprès de l'API de Facebo
 }
 ```
 
-Via cette url, les informations ci-dessus vont être lues et parssées par notre code jQuery. Lorsque la requête est effectuée la fonction [.success(function(data){ ...})](http://api.jquery.com/ajaxSuccess/) se lance afin de lancer la concaténation du prénom et du nom de famille (en prenant soin de les séparer par un espace) et de la faire apparaître en ```HTML``` dans notre balise ```<p>```.
+Via cette url, les informations ci-dessus vont être lues et parsées par notre code jQuery. Lorsque la requête est effectuée la fonction [.success(function(data){ ...})](http://api.jquery.com/ajaxSuccess/) se lance afin de lancer la concaténation du prénom et du nom de famille (en prenant soin de les séparer par un espace) et de la faire apparaître en ```HTML``` dans notre balise ```<p>```.
 
 <iframe width="100%" height="150" src="http://jsfiddle.net/mecedric/u9bbhnjy/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-**RECUPERER DES DONNÉES JSON DE PLUSIEURS IDs**
+**RÉCUPÉRER DES DONNÉES JSON DE PLUSIEURS IDs**
 
-Il s'agit ici de suivre exactement le même procédé que celui énoncé précédemment en prenant le soin d'y inclure deux petites nuances. L'url retournée par l'API de Facebook sera composé de plusieurs IDs : http://graph.facebook.com/**?ids=4,5,6**
+Il s'agit ici de suivre exactement le même procédé que celui énoncé précédemment en prenant le soin d'y inclure deux petites nuances. L'url retournée par l'API de Facebook sera composée de plusieurs IDs : http://graph.facebook.com/**?ids=4,5,6**
 
-Afin de parcourir l'ensemble des IDs retournées par l'API, il va falloir lancer la fonction [.each](http://api.jquery.com/each/) afin d'appliquer une fonction à chacun des éléments présent dans l'index du fichier JSON retourné : ```$.each(data, function(index, item){ ... }```
+Afin de parcourir l'ensemble des IDs retournées par l'API, il va falloir lancer la fonction [.each](http://api.jquery.com/each/) afin d'appliquer une fonction à chacun des éléments présents dans l'index du fichier JSON retourné : ```$.each(data, function(index, item){ ... }```
 
 Au sein de cette dernière fonction, la fonction [.append()](http://api.jquery.com/append/) va permettre d'ajouter du contenu à chacune des itérations entraînées par **.each**.
 
@@ -164,7 +164,7 @@ Au sein de cette dernière fonction, la fonction [.append()](http://api.jquery.c
 
 **VALIDATION DE FORMULAIRE**
 
-Après avoir créé les bases d'un formulaire comprenant un input destiné à stocker une adresse mail et un bouton de validation, nous allons coder une fonction pour confirmer le remplissage d'un champs.
+Après avoir créé les bases d'un formulaire comprenant un input destiné à stocker une adresse mail et un bouton de validation, nous allons coder une fonction pour confirmer le remplissage d'un champ.
 
 Grâce à un simple If, Else, nous allons écouter notre input pour savoir si celui-ci est vide ```if($(".email").val() == "") { ... }``` ou plein ```else { ... }``` afin de faire apparaître un text ```vide``` ou ```valide```.
 
@@ -182,4 +182,3 @@ Grâce à un simple If, Else, nous allons écouter notre input pour savoir si ce
 ###Reminder
 
 Ne ratez plus un seul de nos événements Tech et rejoignez [la communauté Meetup du Wagon](http://www.meetup.com/Le-Wagon-Paris-Coding-Station/)
-

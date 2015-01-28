@@ -22,14 +22,14 @@ Follow [@lewagonparis](https://twitter.com/lewagonparis) et tweet ton projet d�
 
 ![Concours de tweet pour remporter une place au Kit iOS Developer du Wagon](blog_image_path superman-wagon.jpg)
 
-###Le Kit iOS Developer en détails
+###Le Kit iOS Developer en détail
 
 Ce que vous apprendrez tout au long de ces 5 jours :
 
-- Développement natif en Swift, le nouveau langage que tout le monde souhaite connaitre pour créér des applis natives iOS
+- Développement natif en Swift, le nouveau langage que tout le monde souhaite connaitre pour créer des applis natives iOS
 - Ergonomie d'une application mobile : maîtrisez les contraintes liées au développement mobile, organisez le contenu et les interactions utilisateurs pour que votre application soit simple à utiliser en toute circonstance
-- Backend mobile et persistence des données : grâce à Parse.com, mettez en place rapidement un backend pour votre appli mobile. Stockez les données de votre application en local pour parer aux pertes de connexion dues à l'utilisation mobile
-- Fonctionnalités mobiles : engagez vos utilisateurs grace aux push notifications, rendez votre appli indispensable grâce à la géolocalisation...
+- Backend mobile et persistance des données : grâce à Parse.com, mettez en place rapidement un back-end pour votre appli mobile. Stockez les données de votre application en local pour parer aux pertes de connexion dues à l'utilisation mobile
+- Fonctionnalités mobiles : engagez vos utilisateurs grâce aux push notifications, rendez votre appli indispensable grâce à la géolocalisation...
 
 [Retrouvez toutes les informations complémentaires sur la page dédiée.](http://www.lewagon.org/kit/ios-developer)
 
