@@ -17,9 +17,9 @@ Ils étaient 20 à prendre place au sein de la quatrième promotion du Wagon. Au
 
 Julien Debray et Florian Joulie se sont rencontrés pendant leurs 5 années de conseil à Paris. L’un a toujours souhaité entreprendre, l’autre a déjà rempli son premier passeport et s’évertue à compléter le second.
 
-Bien voyager nécessite de nombreuses heures de préparation passées à fouiner dans l’indexe du moindre guide, explorer les multitudes de forums et scruter les nombreux sites d’agences de voyage. Process long et fastidieux si il en est, les deux amis ont décidé de créer un outil pour vous suggérer tout un panel d'activités sur la destination de votre choix afin d’être certain de ne rien manquer une fois sur place.
+Bien voyager nécessite de nombreuses heures de préparation passées à fouiner dans l’indexe du moindre guide, explorer les multitudes de forums et scruter les nombreux sites d’agences de voyages. Process long et fastidieux si il en est, les deux amis ont décidé de créer un outil pour vous suggérer tout un panel d'activités sur la destination de votre choix afin d’être certain de ne rien manquer une fois sur place.
 
-De l'immanquable aux pépites cachées hors des sentiers battus, [Explorizers](http://www.explorizers.com/) vous laisse créer très simplement votre itinéraire de voyage, étape par étape, et vous suggère à la volée les activités aux alentours. Afin d’assurer la pertinence et la qualité du service, la curation des points d’intérêt se fait par la communauté (du grand baroudeur à l'explorateur novice)  qui est invitée à ajouter ses propres marqueurs et à les partager.
+De l'immanquable aux pépites cachées hors des sentiers battus [Explorizers](http://www.explorizers.com/) vous laisse créer très simplement votre itinéraire de voyage, étape par étape, et vous suggère à la volée les activités aux alentours. Afin d’assurer la pertinence et la qualité du service, la curation des points d’intérêt se fait par la communauté (du grand baroudeur à l'explorateur novice)  qui est invitée à ajouter ses propres marqueurs et à les partager.
 
 - [www.explorizers.com](http://www.explorizers.com/)
 
@@ -28,7 +28,7 @@ De l'immanquable aux pépites cachées hors des sentiers battus, [Explorizers](h
 
 ![Maîtrisez l'art du storytelling avec Loudstory](blog_image_path loudstory.jpg)
 
-Esprit curieux au background RP très prononcé, [Fleur Broca](https://twitter.com/fleurbroca) est partie du constat qu'il est complexe d'intéresser les journalistes car bien souvent les marques n'ont pas les bonnes histoires à raconter.
+Esprit curieux au background RP très prononcé [Fleur Broca](https://twitter.com/fleurbroca) est partie du constat qu'il est complexe d'intéresser les journalistes, car bien souvent les marques n'ont pas les bonnes histoires à raconter.
 
 Véritable muse pour entrepreneur, **Loudstory** souhaite aider ces derniers à acquérir une méthode pour trouver et raconter de belles histoires au travers d'un large éventail d’exercices basés sur les 3 piliers du storytelling : l'empathie avec son audience, définir sa mission et ce qui la rend unique, trouver le ton le plus juste possible afin de partager l'ensemble.
 
@@ -41,9 +41,9 @@ Véritable muse pour entrepreneur, **Loudstory** souhaite aider ces derniers à 
 
 ![Nos enfants sont dans la même école, entrons en contact !](blog_image_path mashareecole.jpg)
 
-A l’origine du projet, Caroline Carrière s’est vue rejoindre par Annabel Menard et [Candice Gasperini](https://twitter.com/candicesg). 3 personnalités et parcours différents pour ces 3 drôles de dames. Femmes actives et mères à plein temps, elles sont parties du constat qu’au milieu de la frénésie du quotidien il devient de plus en plus complexe de profiter de ses enfants. Alors si chaque minute compte, où commencer à gagner du temps ?
+À l’origine du projet, Caroline Carrière s’est vue rejoindre par Annabel Menard et [Candice Gasperini](https://twitter.com/candicesg). 3 personnalités et parcours différents pour ces 3 drôles de dames. Femmes actives et mères à plein temps, elles sont parties du constat qu’au milieu de la frénésie du quotidien il devient de plus en plus complexe de profiter de ses enfants. Alors si chaque minute compte, où commencer à gagner du temps ?
 
-Tous les parents se croisent au moins deux fois par jour sur le parvis de l’école. Pourquoi ne pas le transformer en lieu d’échanges ultra-rapides ? Ma share école a donc pour ambition  de constituer un réseau de parents dont les enfants vont dans la même école élémentaire afin de leur donner accès à des outils basés sur l'économie collaborative pour faciliter l'organisation du quotidien et favoriser l'échange de biens et de services à moindre coût.
+Tous les parents se croisent au moins deux fois par jour sur le parvis de l’école. Pourquoi ne pas le transformer en lieu d’échanges ultrarapides ? Ma share école a donc pour ambition  de constituer un réseau de parents dont les enfants vont dans la même école élémentaire afin de leur donner accès à des outils basés sur l'économie collaborative pour faciliter l'organisation du quotidien et favoriser l'échange de biens et de services à moindre coût.
 
 - [www.mashareecole.com](http://www.mashareecole.com/)
 
@@ -55,7 +55,7 @@ Tous les parents se croisent au moins deux fois par jour sur le parvis de l’é
 
 Voyant un moyen sympathique d’entremêler le fun et l’A/B testing, ils se sont mis en tête de créer un service pour optimiser nos profils Tinder afin d'accroître son nombre de "matches".
 
-Le principe est simple :  après avoir choisi deux photos que vous souhaitez comparer, vous spécifiez votre “cible” avant de vous-même devenir juge d’une poignée de clichés d’autres utilisateurs du service. Une fois ces étapes validées, votre photo avec le meilleur taux d'appréciation vous sera délivrée. A noter que plus vous noterez de gens et reviendrez sur le service et plus vous obtiendrez vos réponses rapidement. A vous de jouer !
+Le principe est simple :  après avoir choisi deux photos que vous souhaitez comparer, vous spécifiez votre “cible” avant de vous-même devenir juge d’une poignée de clichés d’autres utilisateurs du service. Une fois ces étapes validées, votre photo avec le meilleur taux d'appréciation vous sera délivrée. À noter que plus vous noterez de gens et reviendrez sur le service et plus vous obtiendrez vos réponses rapidement. À vous de jouer !
 
 - [www.tindergenius.com](http://www.tindergenius.com/)
 
@@ -66,7 +66,7 @@ Le principe est simple :  après avoir choisi deux photos que vous souhaitez com
 
 Personne n'aime attendre. En partant du constat que, quoi qu'il arrive, les files d'attente existeront toujours et qu'elles seront toujours l'objet d'une frustration majeure de la part des "usagers" [Emilie Coudrat](https://twitter.com/emilie_coudrat) a décidé de créer WeQueue.
 
-Cette plateforme mobile permet au Queuers (utilisateurs) d’informer les membres de la communauté du temps moyen de toutes les files d’attente des expositions à ne pas louper, des administrations, des ventes privées… A vous de faire le choix et de vous y risquer ou non !
+Cette plateforme mobile permet au Queuers (utilisateurs) d’informer les membres de la communauté du temps moyen de toutes les files d’attente des expositions à ne pas louper, des administrations, des ventes privées… À vous de faire le choix et de vous y risquer ou non !
 
 Petit plus, l’application proposera la mise en relation de Queuers/Skippers vous permettant contre quelques euros de demander à quelqu’un d’attendre pour vous et ainsi d’anticiper au mieux votre arrivée sur des événements majeurs. Il n’y a jamais de problème, que des solutions.
 
@@ -79,7 +79,7 @@ Petit plus, l’application proposera la mise en relation de Queuers/Skippers vo
 
 Sébastien Le Moan a 15 ans d'expérience dans l'hostellerie de luxe. De Monaco à Londres il a eu tout le loisir de manager le room service d’un hôtel de standing avant de créer son entreprise de livraison de petits déjeuners haut de gamme. Avec l’envie de retourner à sa passion première, la cuisine, il s’est lancé dans la conception de Popn’Food, une plateforme de curation de recettes au design soigné.
 
-Un brin déçu par les résultats et suggestions apportés par les services les plus populaires sur le web, Popn'food propose une interface épurée, ou la curation de recettes est effectuée par thème tout en faisant la part belle à l'excellent travail d'une foule de blogueurs culinaires talentueux mais pas forcément très bien référencés.
+Un brin déçu par les résultats et suggestions apportés par les services les plus populaires sur le web, Popn'food propose une interface épurée, ou la curation de recettes est effectuée par thème tout en faisant la part belle à l'excellent travail d'une foule de blogueurs culinaires talentueux, mais pas forcément très bien référencés.
 
 L’objectif ? Permettre à l’utilisateur d’être avant tout guidé par ses yeux plus que ses envies.
 
@@ -90,9 +90,9 @@ L’objectif ? Permettre à l’utilisateur d’être avant tout guidé par ses 
 
 ![Memories back, with your friends](blog_image_path remember.jpg)
 
-Après avoir passé quelques années à exercer ses talents dans l’univers de la communication digitale, Etienne Mangino a eu un jour l’envie de se plonger dans ses souvenirs d’étudiant. Conscient d’avoir oublié une bonne partie des événements prêtant à sourire de son quotidien d’alors il a décidé de créer Remember, une plateforme dédiée à l’aggrégation de souvenirs photographiques (de premier ordre ou non) autour d’un feed simple et épuré, enrichi par l’utilisateur et ses amis proches.
+Après avoir passé quelques années à exercer ses talents dans l’univers de la communication digitale, Etienne Mangino a eu un jour l’envie de se plonger dans ses souvenirs d’étudiant. Conscient d’avoir oublié une bonne partie des événements prêtant à sourire de son quotidien d’alors il a décidé de créer Remember, une plateforme dédiée à l’agrégation de souvenirs photographiques (de premier ordre ou non) autour d’un feed simple et épuré, enrichi par l’utilisateur et ses amis proches.
 
-A vous de recréer la timeline de votre vie, et pourquoi pas de voir surgir quelques casseroles et autres moments savamment effacés de votre mémoire lorsqu’un ami bienveillant prendra le soin de vous tagger sur un cliché que vous croyiez bien enfoui quelque part !
+À vous de recréer la timeline de votre vie, et pourquoi pas de voir surgir quelques casseroles et autres moments savamment effacés de votre mémoire lorsqu’un ami bienveillant prendra le soin de vous tagger sur un cliché que vous croyiez bien enfoui quelque part !
 
 - [www.remember-production.herokuapp.com](http://remember-production.herokuapp.com/users/sign_in)
 

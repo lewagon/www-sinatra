@@ -9,7 +9,7 @@ thumbnail: thumbail-api-webhook-tutorial.jpg
 description: "Les APIs sont légions sur le web et offrent simplement et rapidement la possibilité de démultiplier la force de vos applications. De la définition de l'acronyme en passant par la notion de webhook et quelques exemples d'utilisations, Sebastien Saunier, CTO du Wagon, vous invite à découvrir les bases de ce nouvel enjeu stratégique pour votre projet."
 ---
 
-Les APIs sont légions sur le web et offrent simplement et rapidement la possibilité de démultiplier la force de vos applications. De la définition de l'acronyme en passant par la notion de webhook et quelques exemples d'utilisations, [Sebastien Saunier](https://twitter.com/ssaunier), CTO du Wagon, vous invite à découvrir les bases de ce nouvel enjeu stratégique pour votre projet.
+Les APIs sont légion sur le web et offrent simplement et rapidement la possibilité de démultiplier la force de vos applications. De la définition de l'acronyme en passant par la notion de webhook et quelques exemples d'utilisations [Sebastien Saunier](https://twitter.com/ssaunier), CTO du Wagon, vous invite à découvrir les bases de ce nouvel enjeu stratégique pour votre projet.
 
 <div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/0FQ6w4CO5Nw?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
@@ -34,7 +34,7 @@ Le plus souvent les pages web sont statiques (ex : cet article). Cependant, dans
 - Le service externe contacte votre application lorsque du nouveau contenu est disponible (Hollywood principle, *don't call us, we'll call you*)
 - Votre application expose des méthodes pour écouter les requêtes pushées par l'API du service externe et les traiter.
 
-###Est ce qu'il y a des restrictions ?
+###Est-ce qu'il y a des restrictions ?
 
 Deux restrictions principales sont à prendre en compte :
 

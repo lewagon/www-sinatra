@@ -22,7 +22,7 @@ What was great about Dev Bootcamp is that they not only taught the fundamentals 
 
 #### What did you do after the DBC?
 
-I moved to Paris the better part of a year ago. For most of that time, I was working for a startup as a rails developer but more recently started focusing full-time on <a href="http://www.tastersclub.com/" target="_blank">Taster's Club</a>, a whiskey "learning/drinking club" that I've been running out of the US for the last year. Coming soon to France...
+I moved to Paris the better part of a year ago. For most of that time, I was working for a startup as a rails developer but more recently started focusing full-time on [Taster's Club](http://www.tastersclub.com), a whiskey "learning/drinking club" that I've been running out of the US for the last year. Coming soon to France...
 
 #### What do you do know? Do you use what you learn at DBC on a daily basis?
 

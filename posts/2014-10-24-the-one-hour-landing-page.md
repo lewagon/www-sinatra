@@ -15,12 +15,12 @@ description: "Et si vous profitiez de votre weekend pour coder votre première p
 
 <div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/SXBX5UFHW64?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
-Ce workshop à pour objectif de vous offrir un tour d'horizon de quelques-unes des technologies *front-end* couramment utilisées. De Sublime Text à vos premiers sélecteurs CSS en passant par le markup HTML, nous vous proposons de réaliser rapidement votre sites web responsives en utilisant les mêmes outils que les pros (Bootstrap, Fontawesome, Google Fonts, Colorzilla, etc.)
+Ce workshop à pour objectif de vous offrir un tour d'horizon de quelques-unes des technologies *front-end* couramment utilisées. De Sublime Text à vos premiers sélecteurs CSS en passant par le markup HTML, nous vous proposons de réaliser rapidement votre site web responsives en utilisant les mêmes outils que les pros (Bootstrap, Fontawesome, Google Fonts, Colorzilla, etc.)
 
 ###Au programme
 
 - Découvrez le HTML & le CSS
-- Apprenez les meilleurs pratiques du développement front-end
+- Apprenez les meilleures pratiques du développement front-end
 - Appréhendez les librairies de design en expérimentant avec les polices, les couleurs, les icônes, les arrière-plans...
 
 ###Liens utiles

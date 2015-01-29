@@ -24,7 +24,7 @@ Le champ dans lequel l'utilisateur tape son adresse retourne une liste d'adresse
 
 ### API Key Google Map
 
-Dernière étape du setup, récupérer une clé API de Google Map afin d'obtenir un pool de 25.000 requêtes API gratuites par jour. Pour cela, rendez-vous sur [Google API Console](https://code.google.com/apis/console) et activez Google Maps JavaScript API v3.
+Dernière étape du setup, récupérez une clé API de Google Map afin d'obtenir un pool de 25.000 requêtes API gratuites par jour. Pour cela, rendez-vous sur [Google API Console](https://code.google.com/apis/console) et activez Google Maps JavaScript API v3.
 
 ![Tutorial, Google Place API](blog_image_path tuto-google-place-autocomplete-api.jpg)
 
@@ -82,7 +82,7 @@ function initializeAutocomplete(id) {
 <input id="user_input_autocomplete_address" placeholder="Start typing your address...">
 ```
 
-La méthode ```initializeAutocomplete``` prend l'id de l'input sur lequel se greffer (soit dans notre cas ```user_input_autocomplete_address```), crée un autocomplete, et écoute l'événement ```place_changed```. Lorsque cet évènement a lieu (c'est-à dire lorsque l'utilisateur choisit une adresse), alors la fonction de callback ```onPlaceChanged``` est appelée. C'est dans cette dernière que nous allons récupérer les informations détaillées de l'adresse choisie
+La méthode ```initializeAutocomplete``` prend l'id de l'input sur lequel se greffer (soit dans notre cas ```user_input_autocomplete_address```), crée un autocomplete, et écoute l'événement ```place_changed```. Lorsque cet évènement a lieu (c'est à dire lorsque l'utilisateur choisit une adresse), alors la fonction de callback ```onPlaceChanged``` est appelée. C'est dans cette dernière que nous allons récupérer les informations détaillées de l'adresse choisie
 
 ### La récupération des données
 
@@ -129,7 +129,7 @@ function onPlaceChanged() {
 ```
 
 Dans la vie réelle, il suffira de passer ces `input` en `type="hidden"` pour qu'ils soient soumis à
-l'envoi du formulaire. Vous récupérerez ainsi l'adresse pré-découpée correctement.
+l'envoi du formulaire. Vous récupérerez ainsi l'adresse prédécoupée correctement.
 
 ### Exécuter le code
 
@@ -168,5 +168,3 @@ N'hésitez pas à laisser vos propres trucs et astuces dans les commentaires de 
 - [lewagon/google-place-autocomplete sur GitHub](https://github.com/lewagon/google-place-autocomplete)
 - [Démo](http://lewagon.github.io/google-place-autocomplete/)
 - [Google Autocomplete documentation](https://developers.google.com/maps/documentation/javascript/places-autocomplete)
-
-

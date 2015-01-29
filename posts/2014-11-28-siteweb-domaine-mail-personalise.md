@@ -21,7 +21,7 @@ Vous voyez que le DNS joue le rôle d'annuaire, en convertissant un nom de domai
 
 ### Une nouvelle url ? Mais je possède déjà une url GitHub non ?
 
-Effectivement, une adresse IP est déjà ratachée à votre url GitHub Pages. Elle prend la forme `http://VOTRE_NOM_GITHUB.github.io/votreprojet`. Une fois votre nouveau nom de domaine associé à l'adresse IP de votre site celui-ci agira comme un *alias* sur l'url fournie par GitHub Pages. Ainsi lorsque qu'un nagivateur soumettra la requête ```www.votreprojet.com```, le serveur DNS lui indiquera l'IP de ```VOTRE_NOM_GITHUB.github.io```.
+Effectivement, une adresse IP est déjà rattachée à votre url GitHub Pages. Elle prend la forme `http://VOTRE_NOM_GITHUB.github.io/votreprojet`. Une fois votre nouveau nom de domaine associé à l'adresse IP de votre site celui-ci agira comme un *alias* sur l'url fournie par GitHub Pages. Ainsi lorsque qu'un nagivateur soumettra la requête ```www.votreprojet.com```, le serveur DNS lui indiquera l'IP de ```VOTRE_NOM_GITHUB.github.io```.
 
 ### L'achat de votre nom de domaine
 
@@ -39,9 +39,9 @@ Cliquez sur **commander** et suivez le parcours d'achat :
 
 ![DNS et offre Gold](blog_image_path tuto-nom-domaine-3.jpg)
 
-**Étape 4 :** Si ce n'est pas déjà fait, créez-vous un compte OVH. Pour des raisons juridiques il est impératif de déclarer son identité lors de l'achat d'un nom de domaine.
+**Étape 4 :** Si ce n'est pas déjà fait, créez-vous un compte OVH. Pour des raisons juridiques, il est impératif de déclarer son identité lors de l'achat d'un nom de domaine.
 
-**Étape 5 :** Lors du choix des serveurs DNS conservez les serveurs OVH par défault.
+**Étape 5 :** Lors du choix des serveurs DNS conservez les serveurs OVH par défaut.
 
 ![Conservez les DNS d'origines](blog_image_path tuto-nom-domaine-4.jpg)
 
@@ -53,7 +53,7 @@ Une fois le paiement terminé, attendez quelques minutes avant de recevoir votre
 
 ### Configurez votre nouveau nom de domaine du côté OVH
 
-En premier lieu, rendez-vous sur le [Manager OVH](https://www.ovh.com/manager/web/login/). Connectez-vous grace à votre identifiant et mot de passe.
+En premier lieu, rendez-vous sur le [Manager OVH](https://www.ovh.com/manager/web/login/). Connectez-vous avec votre identifiant et mot de passe.
 
 Cliquez ensuite sur votre nouveau **nom de domaine** dans la colonne de gauche, puis sur l'onglet **DNS Zone**.
 
@@ -77,11 +77,11 @@ Dans le formulaire suivant :
 
 Dans un second temps, ouvrez Sublime Text ou n'importe quel autre éditeur de texte de votre choix et créez un fichier ```CNAME``` à la racine de votre projet écrivez le domaine (`www.votreprojet.com`).
 
-Sauvegardez puis retournez sur l'application GitHub for Mac. Le fichier `CNAME` devrait être visible dans la zone dédiée aux changements éffectués localement. Commitez puis synchronisez. Afin de vérifier que le fichier a bien été envoyé, n'hésitez pas à jeter un oeil sur votre *repository* en ligne. La mise à jour s'éffectue généralement dans un délais de une seconde à dix minutes.
+Sauvegardez puis retournez sur l'application GitHub for Mac. Le fichier `CNAME` devrait être visible dans la zone dédiée aux changements effectués localement. Commitez puis synchronisez. Afin de vérifier que le fichier a bien été envoyé, n'hésitez pas à jeter un oeil sur votre *repository* en ligne. La mise à jour s'effectue généralement dans un délai de une seconde à dix minutes.
 
 ![Configuration du CNAME](blog_image_path tuto-configuration-cname.jpg)
 
-Vous n'avez plus qu'à attendre une bonne heure que tous ces changements soient pris en compte. Rafraîchissez ensuite la page de votre navigateur pointant vers votre nouvelle url afin de vérifier que tout fonctionne. Félicitations, votre site est hébergé et bénéficie désormais de son propore nom de domaine !
+Vous n'avez plus qu'à attendre une bonne heure que tous ces changements soient pris en compte. Rafraîchissez ensuite la page de votre navigateur pointant vers votre nouvelle url afin de vérifier que tout fonctionne. Félicitations, votre site est hébergé et bénéficie désormais de son propre nom de domaine !
 
 ### Votre adresse contact@nomdedomaine.fr
 
@@ -91,7 +91,7 @@ De la même manière que pour configurer vos DNS, retournez sur le [Manager OVH]
 
 ![Configuration d'un mail perso - étape 1](blog_image_path tuto-mail-configuration.jpg)
 
-Ajoutez une redirection et remplissez le formulaire en précisant dans le premier champs l'adresse que vous souhaitez créer (ex : contact@votrenomdedomaine.fr) puis dans le deuxième champs, l'adresse vers laquelle vous souhaitez voir les messages redirigés (ex : votremailperso@gmail.com). Pour information, vous pouvez créer autant de redirections que vous le souhaitez (très utile si vous êtes plusieurs à travailler sur un projet).
+Ajoutez une redirection et remplissez le formulaire en précisant dans le premier champ l'adresse que vous souhaitez créer (ex : contact@votrenomdedomaine.fr) puis dans le deuxième champ, l'adresse vers laquelle vous souhaitez voir les messages redirigés (ex : votremailperso@gmail.com). Pour information, vous pouvez créer autant de redirections que vous le souhaitez (très utile si vous êtes plusieurs à travailler sur un projet).
 
 ![Configuration d'un mail perso - étape 2](blog_image_path tuto-mail-configuration-2.jpg)
 
@@ -104,5 +104,4 @@ Dans un prochain tuto, nous verrons comment intégrer très simplement un formul
 - [OVH](https://www.ovh.com/fr/index.xml)
 - [OVH Manager](https://www.ovh.com/manager/web/login/)
 
-NB : Le Wagon n'est en aucun cas affilié à OVH et une alternative telle que [Gandi](http://www.gandi.net/) est toute aussi efficace !
-
+NB : Le Wagon n'est en aucun cas affilié à OVH et une alternative telle que [Gandi](http://www.gandi.net/) est tout aussi efficace !
