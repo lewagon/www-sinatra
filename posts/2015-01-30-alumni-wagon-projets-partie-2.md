@@ -22,7 +22,7 @@ En agrégeant les données de l'ensemble des tables nutritionnelles des produits
 Pour tester : [www.avocadoo.com](http://avocadoo.com/)
 
 
-###[BACKPACKCLUB](http://www.backpackclub.co/) - Travel an hard life, live free
+###[BACKPACKCLUB](http://signup.backpackclub.co/) - Travel an hard life, live free
 
 ![Travel an hard life, live free](blog_image_path backpackclub-wagon-alumuni-project.jpg)
 
@@ -30,7 +30,7 @@ Adepte des voyages en “backpack”, [Thomas Duclert](https://twitter.com/Sanba
 
 Son idée ? Bootstraper un réseau social global où chaque membre peut proposer une solution de logement (chambre, canapé, ferme, terrain pour camper, etc.) et envoyer/recevoir des demandes. Son ambition première est de remettre aux goûts du jour le bon esprit de rencontre, de partage à l'origine du mouvement, et également de faire de **Backpack Club** l'application web de référence au service des backpackers.
 
-Site Web : [www.bakpak.it](http://www.backpackclub.co/)
+Site Web : [www.signup.backpackclub.co](http://signup.backpackclub.co/)
 
 
 ###[ÉLECTROSCOPE](http://electroscope.herokuapp.com/) - Consommez mieux, économisez, préservez l'environement
