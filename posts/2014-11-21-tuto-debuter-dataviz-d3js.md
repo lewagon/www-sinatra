@@ -15,7 +15,7 @@ Dataviz, ou l'art de représenter des grandes quantités de données de manière
 
 <div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/ZEtyr9C01cg?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
-Intervenant : [Martin Daniel](https://twitter.com/martindaniel4), fondateur de [Txto](https://www.txto.io) & Data Scientist
+Intervenant : [Martin Daniel](https://twitter.com/martindaniel4), fondateur de [Tx.to](http://www.tx.to/) & Data Scientist
 
 ### Un peu d'histoire
 
