@@ -148,6 +148,9 @@ fr:
         zero: Get in line!
         one: Postuler
         other: Postuler
+      apply_modal:
+        pre_inscription: Pré-inscription
+        it_is_limited: Le programme est <strong>limité à 10 inscrits</strong>.
       apply_button:
         zero: Prévenez-mois quand ça ouvre !
         one: Postuler
@@ -254,5 +257,9 @@ fr:
       et de collaboration sur Github, déploiement continu et
       scaling d'une application web sur heroku, gestion des
       photos sur Amazon S3, etc.)
+  kit:
+    what_you_will_learn: Ce que vous apprendrez
+    become: Devenez
+    by_day: Par journee
   press:
     title: Presse

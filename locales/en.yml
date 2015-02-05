@@ -138,6 +138,17 @@ en:
     description: Apply to Le Wagon and build amazing products with ruby on Rails in 9 weeks.
     lead: "Le Wagon is a <strong>challenging</strong> program that requires <strong>full-time</strong> investment during <strong>9 weeks</strong>. You should be <strong>fluent in English</strong>, programmer's reference language. Fill the form below to apply."
     booster_form:
+      title:
+        zero: Get in line!
+        one: Apply
+        other: Apply
+      apply_modal:
+        pre_inscription: Application
+        it_is_limited: This program is <strong>limited to 10 students</strong>.
+      apply_button:
+        zero: Contact me when it's live !
+        one: Apply
+        other: Apply
       motivation: What do you expect from this kit?
       choose_camp:
         one: "You'll attend the following session :"
@@ -234,5 +245,9 @@ en:
       (code versioning and collaboration techniques on Github,
       continuous deployment and scaling on heroku, management of pictures with
       Amazon S3, automatic mailing with external SMTP like Mandrill, and a lot more..)
+  kit:
+    what_you_will_learn: What you will learn
+    become: Become
+    by_day: By day
   press:
     title: Press

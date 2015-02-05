@@ -153,14 +153,16 @@ class App < Sinatra::Base
     end
   end
 
-  BOOSTERS.each do |slug, booster|
-    get "/kit/#{slug}" do
-      @booster_slug = slug
-      @booster = booster
-      @booster_camps = BOOSTER_CAMPS.select { |_, camp| camp[:booster] == slug.to_s }
-      @city = CITIES[booster[:city].to_sym]
-      I18n.locale = :fr
-      erb :booster
+  LOCALES.each do |locale|
+    BOOSTERS.each do |slug, booster|
+      get "/#{locale == DEFAULT_LOCALE ? "" : "#{locale}/"}kit/#{slug}" do
+        @booster_slug = slug
+        @booster = booster
+        @booster_camps = BOOSTER_CAMPS.select { |_, camp| camp[:booster] == slug.to_s }
+        @city = CITIES[booster[:city].to_sym]
+        I18n.locale = locale
+        erb :booster
+      end
     end
   end
 
