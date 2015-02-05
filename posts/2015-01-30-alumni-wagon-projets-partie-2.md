@@ -22,9 +22,9 @@ En agrégeant les données de l'ensemble des tables nutritionnelles des produits
 Pour tester : [www.avocadoo.com](http://avocadoo.com/)
 
 
-###[BACKPACKCLUB](http://signup.backpackclub.co/) - Travel an hard life, live free
+###[BACKPACKCLUB](http://signup.backpackclub.co/) - Travel hard, live free
 
-![Travel an hard life, live free](blog_image_path backpackclub-wagon-alumuni-project.jpg)
+![Travel hard, live free](blog_image_path backpackclub-wagon-alumuni-project.jpg)
 
 Adepte des voyages en “backpack”, [Thomas Duclert](https://twitter.com/Sanbaad) vadrouille en France et sur les autres continents depuis tout gamin. L’été dernier, voulant partir faire du “Wwoofing” -volontariat dans des fermes bio- il s'est rapidement rendu compte des freins générés par les structures existantes : sites internet désuets, service de mise en relation payant (un comble pour faire du volontariat). À côté de ça, les adeptes de l’hospitality-exchange sont éparpillés sur de multiples plateformes web telles que Couchsurfing ou Helpex...
 
