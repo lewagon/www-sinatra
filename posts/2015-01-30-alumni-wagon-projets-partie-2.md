@@ -6,10 +6,10 @@ labels:
   - alumni
 pushed: true
 thumbnail: wagon-11-projets-alumni-2.jpg
-description: "Place aux 11 projets de la 5em promotion sortie du programme Fullstack. Voyage, hardware, Mooc... Tous sont venus avec des idées plein la tête. Cette vision d'ensemble vous réserve quelques surprises. À vos bookmarks !"
+description: "Place aux 11 projets de la 5ème promotion du programme Fullstack. Ils sont venus avec des idées et repartis avec des projets en dur. Cette vision d'ensemble vous réserve quelques surprises. À vos bookmarks !"
 ---
 
-Suite [à l'article précédent](http://www.lewagon.org/blog/alumni-wagon-projets-2015), place aux 11 projets de la 5e promotion sortie du programme Fullstack. Voyage, Mooc, best deals, bien-être... Tous sont venus avec des idées plein la tête. Cette vision d'ensemble vous réserve quelques surprises. À vos bookmarks !
+Suite [à l'article précédent](http://www.lewagon.org/blog/alumni-wagon-projets-2015), place aux 11 projets de la 5ème promotion du programme Fullstack. Voyages, Mooc, "best deals", bien-être... Tous sont venus avec des idées plein la tête. Cette vision d'ensemble vous réserve quelques surprises. À vos bookmarks !
 
 ###[AVOCADOO](http://avocadoo.com/) - Ever got lost in nutrition ?
 
@@ -28,7 +28,7 @@ Pour tester : [www.avocadoo.com](http://avocadoo.com/)
 
 Adepte des voyages en “backpack”, [Thomas Duclert](https://twitter.com/Sanbaad) vadrouille en France et sur les autres continents depuis tout gamin. L’été dernier, voulant partir faire du “Wwoofing” -volontariat dans des fermes bio- il s'est rapidement rendu compte des freins générés par les structures existantes : sites internet désuets, service de mise en relation payant (un comble pour faire du volontariat). À côté de ça, les adeptes de l’hospitality-exchange sont éparpillés sur de multiples plateformes web telles que Couchsurfing ou Helpex...
 
-Son idée ? Bootstraper un réseau social global où chaque membre peut proposer une solution de logement (chambre, canapé, ferme, terrain pour camper, etc.) et envoyer/recevoir des demandes. Son ambition première est de remettre aux goûts du jour le bon esprit de rencontre, de partage à l'origine du mouvement, et également de faire de **Backpack Club** l'application web de référence au service des backpackers.
+Son idée ? *Bootstrapper* un réseau social où chaque membre peut proposer une solution de logement (chambre, canapé, ferme, terrain pour camper, etc.) et envoyer/recevoir des demandes. Son ambition première est de remettre aux goûts du jour le bon esprit de rencontre et de partage à l'origine du mouvement, ainsi que de faire de **Backpack Club** l'application web de référence au service des backpackers.
 
 Site Web : [www.signup.backpackclub.co](http://signup.backpackclub.co/)
 
@@ -37,7 +37,7 @@ Site Web : [www.signup.backpackclub.co](http://signup.backpackclub.co/)
 
 ![Consommez mieux, économisez, préservez l'environnement](blog_image_path electroscope-wagon-alumuni-project.jpg)
 
-Durant leur passage au Wagon, [Arnaud Laurenty](http://fr.linkedin.com/pub/arnaud-laurenty/8/560/ba2) et [Raphael Escoyez](https://twitter.com/Raph_LRa) ont travaillé sur le projet Électroscope qui s'inclus dans l'ouverture à la concurrence du marché de l'énergie à horizon 2017.
+Durant leur passage au Wagon, [Arnaud Laurenty](http://fr.linkedin.com/pub/arnaud-laurenty/8/560/ba2) et [Raphael Escoyez](https://twitter.com/Raph_LRa) ont travaillé sur le projet Électroscope en visant l'ouverture à la concurrence du marché de l'énergie à horizon 2017.
 
 L'idée est de proposer une interface web connectée à votre compteur électrique afin d'établir un diagnostic complet en temps réel de votre consommation d'électricité sous forme de dashboard. Consommation globale ou appareil par appareil, vous aurez accès à l'ensemble de vos données sous forme de graphiques et/ou de statistiques. L'objectif à terme sera de proposer des bilans énergétiques plus performants afin d'accompagner les professionnels et particuliers dans l'optimisation de leur consommation électrique et de les encourager, preuve à l'appui, d'investir dans des équipements moins gourmands.
 
@@ -48,18 +48,18 @@ Site Web : [www.electroscope.herokuapp.com](http://electroscope.herokuapp.com/)
 
 ![Apprenez le français en vous amusant !](blog_image_path hellofrench-wagon-alumuni-project.jpg)
 
-Expert en SEO, entrepreneur dans l'âme et adepte du Théatre c'est lors d'une représentation à Melbourne que Mathieu s'est intéressé aux méthodes d'apprentissage des langues. En se demandant simplement pourquoi plus de 1000 Australiens achèteraient des places de théâtre s’ils ne nourrissaient pas un intérêt particulier pour la langue de Molière et la culture française, il a imaginé **HelloFrench** ; un MOOC ludique et spécialisé pour l'apprentissage du français au travers d'exemples vidéos et audios traitant de notre culture par une mise en contexte de chaque thème ou terme abordé.
+Expert en SEO, entrepreneur dans l'âme et amateur de Théatre c'est lors d'une représentation à Melbourne que Mathieu s'est intéressé aux méthodes d'apprentissage des langues. En se demandant simplement pourquoi plus de 1000 Australiens achèteraient des places de théâtre s’ils ne nourrissaient pas un intérêt particulier pour la langue de Molière et la culture française, il a imaginé **HelloFrench**, un MOOC ludique et spécialisé pour l'apprentissage du français au travers d'exemples vidéos et audios traitant de notre culture par une mise en contexte de chaque thème ou terme abordé.
 
 Site Web : [www.hellofrench.herokuapp.com](http://hellofrench.herokuapp.com/)
 
 
 ###[LUNCHPAD](#) - Organisez vos repas entre amis
 
-![Organnisez vos repas entre amis](blog_image_path lunchpad-wagon-alumuni-project.jpg)
+![Organisez vos repas entre amis](blog_image_path lunchpad-wagon-alumuni-project.jpg)
 
-À l'origine du projet : Vincent Bonhomme, [Anne-Hélène Bricet](@AHBricet) et Nathan Chalot. Ce trio hétéroclite planche sur une application dédiée à l'organisation de déjeuners entre amis avec pour objectif d'en simplifier l'organisation. Plutôt que d'envoyer de nombreux textos et autres messages via Facebook, ils ont pris le parti de centraliser les tâches en facilitant la création de groupe de discussion entre amis afin d'alléger et de simplifier les échanges dans un quotidien bien chargé.
+À l'origine du projet : Vincent Bonhomme, [Anne-Hélène Bricet](@AHBricet) et Nathan Chalot. Ce trio hétéroclite planche sur une application dédiée à l'organisation de déjeuners entre amis avec pour objectif d'en simplifier l'organisation. Plutôt que d'envoyer de nombreux textos et autres messages via Facebook, ils ont pris le parti de centraliser les tâches en facilitant la création de groupes de discussion entre amis afin d'alléger et de simplifier les échanges dans un quotidien bien chargé.
 
-Dans les faits, l'organisateur invite et attribut les tâches ou ingrédient à ramener et tout le monde peut en discuter et faire évoluer le dîner/déjeuner ! À venir ? Une cagnotte partagée, des reviews, un album photo des dîners passés, et un système d'upvote.
+Dans les faits, l'organisateur invite et assigne les tâches ou ingrédients à ramener et tout le monde peut en discuter et faire évoluer le dîner/déjeuner ! À venir ? Une cagnotte partagée, des reviews, un album photo des dîners passés, et un système d'upvote.
 
 Site Web : [www.lunchpad.com](http://lunchpad.com/)
 
@@ -70,7 +70,7 @@ Site Web : [www.lunchpad.com](http://lunchpad.com/)
 
 Thibault Hazard et Charles Pernet sont tous les deux grands fans d'e-sport et souhaitent mettre en place un outil de reporting pour les fans et/ou les journalistes spécialisés. Leur volonté est simplement des les aider à produire un récapitulatif et des analyses des datas des différents championnats adressés aux personnes qui n'ont pas forcément le temps ou l'opportunité de suivre les épreuves en streaming.
 
-Pour le moment concentré sur Starcraft II, l'idée est de fabriquer un outil qui va permettre de créer des visuels analytiques de la partie via un mapping chronologique des événements (batailles, prise de points stratégiques, événements économiques, choix déterminants). À terme les deux compères imaginent également se lancer sur la MOBA et pourquoi pas synchroniser l'outil directement avec les Lives... Gamers, vous voilà prévenus !
+Pour le moment concentrée sur Starcraft II, l'idée est de fabriquer un outil qui va permettre de créer des visuels analytiques de la partie via un mapping chronologique des événements (batailles, prises de points stratégiques, événements économiques, choix déterminants). À terme les deux compères imaginent également se lancer sur la MOBA et pourquoi pas synchroniser l'outil directement avec les Lives... Gamers, vous voilà prévenus !
 
 Site Web : [www.viewergaming.herokuapp.com](http://viewergaming.herokuapp.com/)
 
@@ -79,7 +79,7 @@ Site Web : [www.viewergaming.herokuapp.com](http://viewergaming.herokuapp.com/)
 
 ![Visualisez vos stats comme une star du basket US](blog_image_path strack-wagon-alumuni-project.jpg)
 
-Fervent adepte du Basket [Alexandre Gantin](https://twitter.com/@aalkg) constate d'un côté qu'une très faible quantité de data seulement est utilisée pour suivre l'évolution d'un joueur ou d'une équipe et de l'autre, que la mise à jour manuelle des scores pour les organisateurs d'événement est un véritable *pain point* à supprimer.
+Fervent adepte de Basketball [Alexandre Gantin](https://twitter.com/@aalkg) constate d'un côté qu'une très faible quantité de data seulement est utilisée pour suivre l'évolution d'un joueur ou d'une équipe et de l'autre, que la mise à jour manuelle des scores pour les organisateurs d'événement est un véritable *pain point* à supprimer.
 
 Il s'est donc lancé sur le projet **Strack**. Une application mobile (disponible prochainement) dont l'objectif est tout simplement d'assurer une tenu des scores simple et intuitive pour les organisateurs de compétition (prenant en compte les différents formats d'affrontements) et de proposer une série d'outils statistiques et de gestion d'équipe afin de mieux apprécier les rencontres.
 
@@ -90,7 +90,7 @@ Site Web : [www.strack.herokuapp.com](http://strack.herokuapp.com/)
 
 ![Discover the clothes you'll love](blog_image_path notable-wagon-alumuni-project.jpg)
 
-[Louis-Jean Degastines](https://twitter.com/) et [Henri Flouquet](https://twitter.com/hflouquet) ont décidé d'explorer le monde des applications mobiles. À la manière d'un Tinder-like, **Notable** vous propose de découvrir de nouvelles tenues à "liker" ou "disliker". Vos coups de coeur sont ajoutés à une wishlist d'où vous pourrez les acheter. Le réflexe idéal pour tous ceux disposant de peu de temps pour faire leur shopping et/ou qui ont tendance à aller toujours dans les mêmes boutiques...
+[Louis-Jean de Gastines](https://twitter.com/) et [Henri Flouquet](https://twitter.com/hflouquet) ont décidé d'explorer le monde des applications mobiles. À la manière d'un Tinder-like, **Notable** vous propose de découvrir de nouvelles tenues à "liker" ou "disliker". Vos coups de coeur sont ajoutés à une wishlist d'où vous pourrez les acheter. Le réflexe idéal pour tous ceux disposant de peu de temps pour faire leur shopping et/ou qui ont tendance à aller toujours dans les mêmes boutiques...
 
 Cerise sur le gâteau, leur algorithme affinera ses recommandations au fur et à mesure de vos actions afin de toujours vous proposer les pièces les mieux adaptées à vos goûts.
 
@@ -110,7 +110,7 @@ Site Web : [www.washed.fr](http://washed.fr)
 
 ###[WEPOKER](http://wepoker.herokuapp.com/) - Trouvez une partie de poker près de chez vous !
 
-![Trouver une partie de poker près de chez vous !](blog_image_path wepoker-wagon-alumuni-project.jpg)
+![Trouvez une partie de poker près de chez vous !](blog_image_path wepoker-wagon-alumuni-project.jpg)
 
 Vous l'aurez deviné, Arnaud Cormier est un fan de poker. D'expérience, il sait qu'il est souvent complexe de réunir un nombre suffisant d'amis le week-end pour se lancer dans une partie. Sans parler de l'ambiance dans les associations et du prix d'entrée dans un tournoi qui est toujours prohibitif...
 
