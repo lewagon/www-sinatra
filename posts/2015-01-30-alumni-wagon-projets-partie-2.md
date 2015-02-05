@@ -68,7 +68,7 @@ Site Web : [www.lunchpadapp.herokuapp.com](https://lunchpadapp.herokuapp.com)
 
 ![Enhance your match reporting](blog_image_path matchanalyzer-wagon-alumuni-project.jpg)
 
-Thibault Hazard et Charles Pernet sont tous les deux grands fans d'e-sport et souhaitent mettre en place un outil de reporting pour les fans et/ou les journalistes spécialisés. Leur volonté est simplement des les aider à produire un récapitulatif et des analyses des datas des différents championnats adressés aux personnes qui n'ont pas forcément le temps ou l'opportunité de suivre les épreuves en streaming.
+Thibault Hazard et Charles Pernet sont tous les deux grands fans d'e-sport et souhaitent mettre en place un outil de reporting pour les fans et/ou les journalistes spécialisés. Leur volonté est simplement des les aider à produire un récapitulatif et des analyses des datas des différents championnats adressées aux personnes qui n'ont pas forcément le temps ou l'opportunité de suivre les épreuves en streaming.
 
 Pour le moment concentrée sur Starcraft II, l'idée est de fabriquer un outil qui va permettre de créer des visuels analytiques de la partie via un mapping chronologique des événements (batailles, prises de points stratégiques, événements économiques, choix déterminants). À terme les deux compères imaginent également se lancer sur la MOBA et pourquoi pas synchroniser l'outil directement avec les Lives... Gamers, vous voilà prévenus !
 
@@ -81,7 +81,7 @@ Site Web : [www.viewergaming.herokuapp.com](http://viewergaming.herokuapp.com/)
 
 Fervent adepte de Basketball [Alexandre Gantin](https://twitter.com/@aalkg) constate d'un côté qu'une très faible quantité de data seulement est utilisée pour suivre l'évolution d'un joueur ou d'une équipe et de l'autre, que la mise à jour manuelle des scores pour les organisateurs d'événement est un véritable *pain point* à supprimer.
 
-Il s'est donc lancé sur le projet **Strack**. Une application mobile (disponible prochainement) dont l'objectif est tout simplement d'assurer une tenu des scores simple et intuitive pour les organisateurs de compétition (prenant en compte les différents formats d'affrontements) et de proposer une série d'outils statistiques et de gestion d'équipe afin de mieux apprécier les rencontres.
+Il s'est donc lancé sur le projet **Strack**. Une application mobile (disponible prochainement) dont l'objectif est tout simplement d'assurer une tenue des scores simple et intuitive pour les organisateurs de compétition (prenant en compte les différents formats d'affrontements) et de proposer une série d'outils statistiques et de gestion d'équipe afin de mieux apprécier les rencontres.
 
 Site Web : [www.strack.herokuapp.com](http://strack.herokuapp.com/)
 
@@ -90,7 +90,7 @@ Site Web : [www.strack.herokuapp.com](http://strack.herokuapp.com/)
 
 ![Discover the clothes you'll love](blog_image_path notable-wagon-alumuni-project.jpg)
 
-[Louis-Jean de Gastines](https://twitter.com/) et [Henri Flouquet](https://twitter.com/hflouquet) ont décidé d'explorer le monde des applications mobiles. À la manière d'un Tinder-like, **Notable** vous propose de découvrir de nouvelles tenues à "liker" ou "disliker". Vos coups de coeur sont ajoutés à une wishlist d'où vous pourrez les acheter. Le réflexe idéal pour tous ceux disposant de peu de temps pour faire leur shopping et/ou qui ont tendance à aller toujours dans les mêmes boutiques...
+[Louis-Jean de Gastines](https://twitter.com/) et [Henri Flouquet](https://twitter.com/hflouquet) ont décidé d'explorer le monde des applications mobiles. À la manière d'un Tinder, **Notable** vous propose de découvrir de nouvelles tenues à "liker" ou "disliker". Vos coups de coeur sont ajoutés à une wishlist d'où vous pourrez les acheter. Le réflexe idéal pour tous ceux disposant de peu de temps pour faire leur shopping et/ou qui ont tendance à aller toujours dans les mêmes boutiques...
 
 Cerise sur le gâteau, leur algorithme affinera ses recommandations au fur et à mesure de vos actions afin de toujours vous proposer les pièces les mieux adaptées à vos goûts.
 
@@ -103,7 +103,7 @@ Application disponible sur l'App Store et le Play Store prochainement.
 
 Officiellement en bêta test depuis quelques semaines, l'application de Florian Boret et [Maxime Herne](https://twitter.com/maximeherne) propose de s'occuper du linge sale des personnes ne possédant pas de lave-linge. Le service est très simple : une fois inscrit et géolocalisé, il vous suffit de préciser la température de lavage, la date et l'heure à laquelle vous souhaitez qu'un *washer* (quelqu'un de votre quartier) passe récupérer votre linge. Cette personne s'occupera ensuite de le laver et ramènera vos vêtements propres et secs le lendemain.
 
-Basée sur le principe de l'économie collaborative, **Washed** propose un prix unique et se concentre pour l'instant sur quelques arrondissements parisiens. L'ouverture sur l'ensemble de la capital est prévue d'ici peu de temps. Terminé la laverie !
+Basée sur le principe de l'économie collaborative, **Washed** propose un prix unique et se concentre pour l'instant sur quelques arrondissements parisiens. L'ouverture sur l'ensemble de la capitale est prévue d'ici peu de temps. Terminé la laverie !
 
 Site Web : [www.washed.fr](http://washed.fr)
 
