@@ -6,10 +6,10 @@ labels:
   - tuto
   - misc
 thumbnail: 25-gems-starts-rubyonrails-project.jpg
-description: De votre environnement de développement à la mise en production, voici une sélection non exhaustive d'une vingtaine de gems aux fonctionnalités aussi diverses que variées, toutefois indispensables au lancement de votre projet. L'objectif ? Gagner un temps précieux dans votre temps de développement en vous évitant de coder à la main des features déjà existantes.
+description: De votre environnement de développement à la mise en production, voici une sélection non exhaustive d'une vingtaine de gems aux fonctionnalités aussi diverses que variées mais indispensables au lancement de votre projet. L'objectif ? Gagner un temps précieux dans votre temps de développement en vous évitant de coder à la main des features déjà existantes.
 ---
 
-De votre environnement de développement à la mise en production, voici une sélection non exhaustive d'une vingtaine de gems aux fonctionnalités aussi diverses que variées, mais toutefois indispensables au lancement de votre projet. L'objectif ? Gagner un temps précieux dans votre temps de développement en vous évitant de coder à la main des features déjà existantes.
+De votre environnement de développement à la mise en production, voici une sélection non exhaustive d'une vingtaine de gems aux fonctionnalités aussi diverses que variées, mais indispensables au lancement de votre projet. L'objectif ? Gagner un temps précieux dans votre temps de développement en vous évitant de coder à la main des features déjà existantes.
 
 **Important :** Nous vous invitons ensuite à consulter la documentation de chacune des gems présentées afin de savoir comment les utiliser au sein de votre projet.
 
