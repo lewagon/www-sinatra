@@ -207,7 +207,8 @@ ios-developer:
   name: iOS developer
   price: 1490
   launched: true
-  pitch: Développez votre première application iOS en <strong>une semaine</strong>
+  pitch:
+    fr: Développez votre première application iOS en <strong>une semaine</strong>
   page_title: Le Wagon - 1 week camp in iOS
   page_description: Learn all the fundamentals of iOS development in an intensive one-week program.
   staff:
@@ -238,23 +239,27 @@ ios-developer:
   description:
     skills:
       - name: Développement natif
-        details: |
-          <p>Apprenez <a href="http://www.apple.com/swift/">Swift</a>, le nouveau langage qui vous
-          permettra de créér des applis natives iOS ultra-performantes.</p>
+        details:
+          fr: |
+            <p>Apprenez <a href="http://www.apple.com/swift/">Swift</a>, le nouveau langage qui vous
+            permettra de créér des applis natives iOS ultra-performantes.</p>
       - name: Ergonomie d'une application mobile
-        details: |
-          <p>Maitrisez les contraintes liées au développement mobile, organisez le contenu
-          et les interactions utilisateurs pour que votre application soit simple
-          à utiliser en toute circonstance.</p>
+        details:
+          fr: |
+            <p>Maitrisez les contraintes liées au développement mobile, organisez le contenu
+            et les interactions utilisateurs pour que votre application soit simple
+            à utiliser en toute circonstance.</p>
       - name: Backend mobile et persistence des données
-        details: |
-          <p>Grâce à Parse.com, mettez en place rapidement un backend pour votre
-          appli mobile. Stockez les données de votre appli en local pour parer aux pertes de
-          connexion dues à l'utilisation mobile.</p>
+        details:
+          fr: |
+            <p>Grâce à Parse.com, mettez en place rapidement un backend pour votre
+            appli mobile. Stockez les données de votre appli en local pour parer aux pertes de
+            connexion dues à l'utilisation mobile.</p>
       - name: Fonctionnalités mobiles
-        details: |
-          <p>Engagez vos utilisateurs grace aux push notifications, rendez votre appli
-          indispensable grâce à la géolocalisation.</p>
+        details:
+          fr: |
+            <p>Engagez vos utilisateurs grace aux push notifications, rendez votre appli
+            indispensable grâce à la géolocalisation.</p>
     schedule:
       - name: Lundi
         program:
