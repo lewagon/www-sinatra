@@ -112,7 +112,7 @@ Pundit permet de gérer simplement et de manière centralisée les autorisations
 
 Ces trois gems aux fonctionnements légèrement différents se proposent de gérer l'upload et le traitement de vos images. D'un côté [Paperclip](https://github.com/thoughtbot/paperclip) et [Carrierwave](https://github.com/carrierwaveuploader/carrierwave) vont s'occuper de redimensionner puis de stocker l'original du fichier ainsi que toutes les redimensions nécessaires à votre template de cette même image.
 
-De l'autre, [Dragonfly](https://github.com/markevans/dragonfly). Cette gem stock la version originale dans un premier temps et la redimensionne à la volée pour chaque action de l'utilisateur. Cela nécessite l'installation d'un cache pour resservir les images afin de limiter au maximum un travail serveur trop important.
+De l'autre côté, [Dragonfly](https://github.com/markevans/dragonfly). Cette gem stock la version originale dans un premier temps et la redimensionne à la volée pour chaque action de l'utilisateur. Cela nécessite l'installation d'un cache pour resservir les images afin de limiter au maximum un travail serveur trop important.
 
 ####*Gibbon* - [<i class="fa fa-github fa-1x"></i>](https://github.com/amro/gibbon)
 
