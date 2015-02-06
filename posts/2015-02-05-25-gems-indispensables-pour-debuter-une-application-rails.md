@@ -46,7 +46,7 @@ Puma est un serveur HTTP plus rapide que Webrick (proposé de base sur vos appli
 
 ####*Quiet Assets* - [<i class="fa fa-github fa-1x"></i>](https://github.com/evrone/quiet_assets)
 
-Quiet Assets vous permet de soulager le log votre console de développement en supprimant les requêtes `HTTP` liées à l'*assets pipeline* de Rails. Dites au revoir aux multiples `"GET /assets/blog/thumbnail-api-webhook-tutorial-be5d3373ac225d0d5d0f0060aa7b3eeb.jpg HTTP/1.1" 304 - 0.0154` et soulagez vos rétines.
+Quiet Assets vous permet de soulager le log de votre console de développement en supprimant les requêtes `HTTP` liées à l'*assets pipeline* de Rails. Dites au revoir aux multiples `"GET /assets/blog/thumbnail-api-webhook-tutorial-be5d3373ac225d0d5d0f0060aa7b3eeb.jpg HTTP/1.1" 304 - 0.0154` et soulagez vos rétines.
 
 
 ####*Faker* - [<i class="fa fa-github fa-1x"></i>](https://github.com/stympy/faker)
@@ -74,6 +74,7 @@ Rails 12factor réécrit quelques paramètres de Rails afin de faciliter la scal
 
 
 ###Quelques fonctionnalités utiles
+
 
 ####*Bootstrap Sass* - [<i class="fa fa-github fa-1x"></i>](https://github.com/twbs/bootstrap-sass#a-ruby-on-rails)
 
