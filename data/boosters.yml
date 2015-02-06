@@ -2,7 +2,9 @@ front-end-developer:
   name: Front-End developer
   price: 1290
   launched: true
-  pitch: Apprenez à designer et coder votre site en <strong>une semaine</strong>
+  pitch:
+    fr: Apprenez à designer et coder votre site en <strong>une semaine</strong>
+    en: Learn to design and code your website in <strong>one week</strong>
   page_title: Le Wagon - 1 week camp in web-design
   page_description: Learn all the fundamentals of web-design in an intensive one-week program. HTML, CSS, Bootstrap, Sketch.. Grab all the tips & tools to be proficient in web-design.
   staff:
@@ -22,67 +24,97 @@ front-end-developer:
     ribbon: plus que 6 places
   description:
     skills:
-      - name: UI
-        details: |
-          <p>Forgez votre culture en <a href="https://goodui.org/" target="_blank">UI</a> (User-Interface) et en ergonomie web
-          pour donner sens à votre contenu en intégrant les bons
-          <a href="http://patterntap.com" target="_blank"><i>patterns</i></a>
-          (<i>modal</i>, <i>drop-down</i>, <i>tabs</i>, <i>panels</i> de pricing..).
-          </p><br><p>Pour chaque usage, apprenez à chercher le meilleur <i>pattern</i> d'UI. Éprouvé, reconnu, permettant de déclencher le <i>call-to-action</i></p>
-      - name: DESIGN
-        details: |
-          <p>Définissez votre charte de polices et de couleurs avec
-          <strong><a href="https://color.adobe.com/fr/">kuler</a></strong>,
-          <strong><a href="https://www.google.com/fonts">google fonts</a></strong>,
-          <strong><a href="http://fontface.ninja/" target="_blank">fontface ninja</a></strong>
-          et bien d'autres outils. Apprenez à dénichez des polices plus avancées. Designez vous-même vos logos et vos badges avec <a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a>.</p>
-          Découvrez comment faire de la veille sur <a href="http://oozled.com/" target="_blank">les dernières ressources</a> de design pour utiliser toujours les meilleures librairies.
       - name: FRONT DEVELOPMENT
-        details: |
-          <p>Maîtrisez HTML / CSS / SASS pour savoir passer du <i>print</i>
-          au <i>web</i>.</p><br>
-          <p>Appropriez-vous <strong><a href="http://getbootstrap.com" target="_blank">Bootstrap</a></strong>,
-          librairie CSS de prototypage par excellence et apprenez à personnaliser
-          les styles de Bootstrap avec les meilleures pratiques (i.e. en passant par des variables <a href="http://sass-lang.com/">SASS</a>), pour ajouter votre patte à votre site.</p>
-          <p>Ayez les bases en javascript et jQuery pour savoir intégrer des animations efficaces à votre site et dynamiser les inputs de vos formulaires HTML (effet de <a href="http://prinzhorn.github.io/skrollr/examples/classic.html" target="_blank">parallaxe</a>, <a href="http://getbootstrap.com/javascript/#modals-examples" target="_blank">modal</a>, <a href="http://brianreavis.github.io/selectize.js/">auto-complete de formulaire</a>, arrière-plan dynamique, etc..)</p>
-      - name: PROTOTYPING SKILLS
-        details: |
-          <p>Intégrez des APIs et services web pour rendre
-          votre site actionnable. Suivez son audience et branchez
-          des "mini-backends" à votre site (newlsetter, système de commentaire ou de chat, formulaire
-          de contact, Google Analytics, Google Maps, et bien d'autres
-          services plus utiles les uns que les autres..)</p>
+        details:
+          fr: |
+            <p>Maîtrisez HTML / CSS / SASS pour savoir passer du <i>print</i>
+            au <i>web</i>.</p><br>
+            <p>Appropriez-vous <strong><a href="http://getbootstrap.com" target="_blank">Bootstrap</a></strong>,
+            librairie CSS de prototypage par excellence et apprenez à personnaliser
+            les styles de Bootstrap avec les meilleures pratiques (i.e. en passant par des variables <a href="http://sass-lang.com/">SASS</a>), pour ajouter votre patte à votre site.</p>
+            <p>Ayez les bases en javascript et jQuery pour savoir intégrer des animations efficaces à votre site et dynamiser les inputs de vos formulaires HTML (effet de <a href="http://prinzhorn.github.io/skrollr/examples/classic.html" target="_blank">parallaxe</a>, <a href="http://getbootstrap.com/javascript/#modals-examples" target="_blank">modal</a>, <a href="http://brianreavis.github.io/selectize.js/">auto-complete de formulaire</a>, arrière-plan dynamique, etc..)</p>
+          en: |
+            <p>Learn HTML, CSS and <a href="http://sass-lang.com/" target="_blank">SASS</a> to code maintainable and consistent design.</p>
+            <p>Master <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>,
+            the fast-prototyping CSS library, and
+            learn how to customize Bootstrap with the good practices using SASS variables to add your own footprint.</p>
+            <p>Learn the basics of javascript and jQuery to integrate cool animations (scroll animations, <a href="http://prinzhorn.github.io/skrollr/examples/classic.html" target="_blank">parallax</a>, <a href="http://getbootstrap.com/javascript/#modals-examples" target="_blank">modal</a>, <a href="http://brianreavis.github.io/selectize.js/">auto-complete</a>, dynamic backgrounds, etc..)</p>
+      - name: UI
+        details:
+          fr: |
+            <p>Forgez votre culture en <a href="https://goodui.org/" target="_blank">UI</a> (User-Interface) et en ergonomie web
+            pour donner sens à votre contenu en intégrant les bons
+            <a href="http://patterntap.com" target="_blank"><i>patterns</i></a>
+            (<i>modal</i>, <i>drop-down</i>, <i>tabs</i>, <i>panels</i> de pricing..).
+            </p><br><p>Pour chaque usage, apprenez à chercher le meilleur <i>pattern</i> d'UI. Éprouvé, reconnu, permettant de déclencher le <i>call-to-action</i></p>
+          en: |
+            <p>Build your culture in <a href="https://goodui.org/" target="_blank">UI</a> (User-Interface) and web-design.</p>
+            <p>Learn how to choose the good UI <a href="http://patterntap.com" target="_blank"><i>pattern</i></a>
+            (<i>button</i>, <i>form</i>, <i>modal</i>, <i>drop-down</i>, <i>nav</i>, <i>panel</i>..) on practical examples.</p>
+      - name: DESIGN
+        details:
+          fr: |
+            <p>Définissez votre charte de polices et de couleurs avec
+            <strong><a href="https://color.adobe.com/fr/">kuler</a></strong>,
+            <strong><a href="https://www.google.com/fonts">google fonts</a></strong>,
+            <strong><a href="http://fontface.ninja/" target="_blank">fontface ninja</a></strong>
+            et bien d'autres outils. Apprenez à dénichez des polices plus avancées. Designez vous-même vos logos et vos badges avec <a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a>.</p>
+            Découvrez comment faire de la veille sur <a href="http://oozled.com/" target="_blank">les dernières ressources</a> de design pour utiliser toujours les meilleures librairies.
+          en: |
+            <p>Define your fonts and color scheme with
+            <strong><a href="https://color.adobe.com/fr/">kuler</a></strong>,
+            <strong><a href="https://www.google.com/fonts">google fonts</a></strong>,
+            <strong><a href="http://fontface.ninja/" target="_blank">fontface ninja</a></strong>
+            and other useful tools. Learn how to find more sophisticated fonts. Design your own logo and icons with <a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a>.</p>
+            Learn about the best <a href="http://oozled.com/" target="_blank">curation resources and libraries</a> in webdesign to always stay tuned.
+      - name: STARTUP SKILLS
+        details:
+          fr: |
+            <p>Intégrez des APIs et services web pour rendre
+            votre site actionnable. Suivez son audience et branchez
+            des "mini-backends" à votre site (newlsetter, système de commentaire ou de chat, formulaire
+            de contact, Google Analytics, Google Maps, et bien d'autres
+            services plus utiles les uns que les autres..)</p>
+          en: |
+            <p>Connect to APIs to make your website <strong>actionable</strong> (newsletter, comments, chat, contact form, maps, social networks..)</p>
+            <p>Follow your audience with Google Analytics.</p>
+            <p>Learn some basic growth hacking tricks.</p>
     schedule:
-      - name: Lundi
+      - name: Monday
         program:
-          - Base d'UI et d'ergonomie web
-          - Maquetter son site & designer ses logos et badges avec Sketch
-          - Choix des polices et des palettes chromatiques
-      - name: Mardi
+          - Front-developer setup
+          - "HTML & CSS basics - build your profile dashboard"
+          - Deployment with Github Pages
+          - Web-design tools for fonts and colors
+      - name: Tuesday
         program:
-          - Travailler avec Sublime & Chrome
-          - Fondamentaux de HTML, CSS & javascript
-          - Animations avec jQuery
-      - name: Mercredi
+          - Bootstrap CSS components
+          - Understand the responsive grid
+          - Build your graphical elements with Sketch
+      - name: Wednesday
         program:
-          - La grille et les composants Bootstrap
-          - Batir une maquette avec Bootstrap
-          - Choisir le bon pattern d'UI
-      - name: Jeudi
+          - Advanced front-end with templating and SASS
+          - Bootstrap over-ride techniques with SASS
+          - Killer methodology for organizing your stylesheets
+      - name: Thursday
         program:
-          - Customiser Bootstrap avec SASS
-          - Peaufiner ses effets CSS et jQuery
-          - Designer ses logos et badges avec Sketch
-      - name: Vendredi
+          - Handle websites with rich content using partials and local data
+          - Build a multi-page website like <a href="http://lewagon.github.io/stylus" target="_blank">Styl.us</a>
+      - name: Friday
         program:
-          - Suivre ses métriques avec Google analytics
-          - Focus sur les formulaires HTML
-          - Brancher des APIs à son site (Mailchimp, Formkeep, Gmaps..)
+          - "Add CSS and jQuery animations (scroll, fade-in..)"
+          - "Connect to startup APIs (Mailchimp, Formkeep, Gmaps..)"
+          - Follow your audience on Google Analytics
+          - Customize your domain name
 data-scientist-junior:
   name: Data Scientist junior
   price: 1290
   launched: true
-  pitch: Connectez, manipulez et explorez vos propres données en seulement <strong>une semaine</strong>.
+  pitch:
+    fr: |
+      Connectez, manipulez et explorez vos propres données en seulement <strong>une semaine</strong>.
+    en: |
+      Load, explore, visualize your own data-set in <strong>one week</strong>
   page_title: Le Wagon - 1 week camp in data-science
   page_description: Learn all the fundamentals of data-science in an intensive one-week program..
   staff:
@@ -91,15 +123,15 @@ data-scientist-junior:
   trello:
     lead_list_id: 543fc881b20374bdafcaf939
     additional_questions:
-      - text: Quel est votre niveau en Python ?
+      - text: What's your level in Python?
         choices:
-          - Débutant
-          - intermédiaire (codecademy en Python)
-          - Avancé
-      - text: Avez-vous déjà suivi une formation data ?
+          - Beginner
+          - Intermediate (codecademy Python tutorial)
+          - Advanced
+      - text: Have you ever had any data training?
         choices:
-          - Oui
-          - Non
+          - Yes
+          - No
   card:
     badge_name: "DATA <br> SCIENTIST"
     focus_one: Récolter ses données (<strong>API, scraping</strong>)
@@ -112,53 +144,71 @@ data-scientist-junior:
   description:
     skills:
       - name: LOAD
-        details: |
-          <p>Découvrez
-          <strong><a href="http://pandas.pydata.org/">Pandas</a></strong>.
-          Chargez votre premier set de données, comprenez ce qu'est un dataframe, connectez vous à des APIs populaires et des plateformes Open Data, ou
-          <i>scrapez</i> des données depuis des pages HTML.</p>
+        details:
+          fr: |
+            <p>Découvrez
+            <strong><a href="http://pandas.pydata.org/">Pandas</a></strong>.
+            Chargez votre premier set de données, comprenez ce qu'est un dataframe, connectez vous à des APIs populaires et des plateformes Open Data, ou
+            <i>scrapez</i> des données depuis des pages HTML.</p>
+          en: |
+            <p>Discover
+            <strong><a href="http://pandas.pydata.org/">Pandas</a></strong> a powerful Python library used by top data scientists all around the world.
+            Load your first data set, understand what is a dataframe, connect to popular APIs Open Data platforms, or
+            <i>scrape</i> data directly from HTML pages.</p>
       - name: REFINE
-        details: |
-          <p>Réalisez vos premières requêtes SQL, devenez un maitre dans la sélection et la transformation des dataframes.</p>
+        details:
+          fr: |
+            <p>Réalisez vos premières requêtes SQL, devenez un maitre dans la sélection et la transformation des dataframes.</p>
+          en: |
+            <p>Build your first SQL queries, become an expert in slicing and transforming dataframes.</p>
       - name: VISUALIZE
-        details: |
-          <p>Domptez la librairie <strong><a href="http://ggplot.yhathq.com/" target="_blank">Ggplot</a></strong>
-          pour réaliser de superbes graphes et explorer rapidement un dataset.
-          Créez des dataviz interactives avec <a href="http://d3js.org/" target="_blank">d3.js</a></p>
+        details:
+          fr: |
+            <p>Domptez la librairie <strong><a href="http://ggplot.yhathq.com/" target="_blank">Ggplot</a></strong>
+            pour réaliser de superbes graphes et explorer rapidement un dataset.
+            Créez des dataviz interactives avec <a href="http://d3js.org/" target="_blank">d3.js</a></p>
+          en: |
+            <p>Learn how to use <strong><a href="http://ggplot.yhathq.com/" target="_blank">Ggplot library</a></strong>
+            to build awesome graphics and explore dataset.
+            Build web datavisualisations with <a href="http://d3js.org/" target="_blank">d3.js</a></p>
       - name: EXPLORE
-        details: |
-          <p>Tirez des enseignements "business" de vos analyses.</p>
+        details:
+          fr: |
+            <p>Découvrez ce qu'il se cache dans vos données. Répondez à vos questions business les plus ardues <strong> vous même </strong>.</p>
+          en: |
+            <p>Discover what's hidden in your own data. Answer <strong>yourself</strong> your toughest business questions.</p>
     schedule:
       - name: Monday
         program:
-          - Introduction aux outils et aux enjeux de la Data Science
-          - Installation du setup
-          - Premiers pas avec Python et Pandas
+          - Data-science landscape and tools
+          - Data-scientist setup
+          - Beginning with Python and Pandas
       - name: Tuesday
         program:
-          - Introduction aux dataframes
-          - Loader, sélectionner et voir ses données
-          - Se connecter aux principales APIs et plateformes Open Data
+          - Understand dataframes
+          - Load, select, visualize your data
+          - Connect to popular APIs and Open-Data platforms
       - name: Wednesday
         program:
-          - Introduction à SQL
-          - Sélectionner, grouper, transformer
-          - Premiers opérateurs et calcul avec Pandas
+          - Discover SQL
+          - Select, group, transform
+          - First operators and computations with Pandas
       - name: Thursday
         program:
-          - Créez de superbes graphes avec ggplot
-          - 10 conseils pour explorer un dataset en un clin d'oeil
-          - Exportez vos données
+          - Build awesome graphics with ggplot
+          - Learn how to explore a dataset at a glance
+          - Export your data
       - name: Friday
         program:
-          - Cas 1 - Déterminer l'âge de votre base de données à partir des simples prénoms de vos utilisateurs
-          - Cas 2 - Prédire le revenu que vous allez faire le prochain mois
-          - Cas 3 - Déterminer les associations de produits les plus fortes à partir d'un historique d'achat
+          - Use case 1 - Determine the age of your database users using only their firstname.
+          - Use case 2 - Predict your company's next month revenue
+          - Use case 3 - Determine cross-selling products based on user purchase history
 ios-developer:
   name: iOS developer
   price: 1490
   launched: true
-  pitch: Développez votre première application iOS en <strong>une semaine</strong>
+  pitch:
+    fr: Développez votre première application iOS en <strong>une semaine</strong>
   page_title: Le Wagon - 1 week camp in iOS
   page_description: Learn all the fundamentals of iOS development in an intensive one-week program.
   staff:
@@ -189,23 +239,27 @@ ios-developer:
   description:
     skills:
       - name: Développement natif
-        details: |
-          <p>Apprenez <a href="http://www.apple.com/swift/">Swift</a>, le nouveau langage qui vous
-          permettra de créér des applis natives iOS ultra-performantes.</p>
+        details:
+          fr: |
+            <p>Apprenez <a href="http://www.apple.com/swift/">Swift</a>, le nouveau langage qui vous
+            permettra de créér des applis natives iOS ultra-performantes.</p>
       - name: Ergonomie d'une application mobile
-        details: |
-          <p>Maitrisez les contraintes liées au développement mobile, organisez le contenu
-          et les interactions utilisateurs pour que votre application soit simple
-          à utiliser en toute circonstance.</p>
+        details:
+          fr: |
+            <p>Maitrisez les contraintes liées au développement mobile, organisez le contenu
+            et les interactions utilisateurs pour que votre application soit simple
+            à utiliser en toute circonstance.</p>
       - name: Backend mobile et persistence des données
-        details: |
-          <p>Grâce à Parse.com, mettez en place rapidement un backend pour votre
-          appli mobile. Stockez les données de votre appli en local pour parer aux pertes de
-          connexion dues à l'utilisation mobile.</p>
+        details:
+          fr: |
+            <p>Grâce à Parse.com, mettez en place rapidement un backend pour votre
+            appli mobile. Stockez les données de votre appli en local pour parer aux pertes de
+            connexion dues à l'utilisation mobile.</p>
       - name: Fonctionnalités mobiles
-        details: |
-          <p>Engagez vos utilisateurs grace aux push notifications, rendez votre appli
-          indispensable grâce à la géolocalisation.</p>
+        details:
+          fr: |
+            <p>Engagez vos utilisateurs grace aux push notifications, rendez votre appli
+            indispensable grâce à la géolocalisation.</p>
     schedule:
       - name: Lundi
         program:

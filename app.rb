@@ -153,14 +153,16 @@ class App < Sinatra::Base
     end
   end
 
-  BOOSTERS.each do |slug, booster|
-    get "/kit/#{slug}" do
-      @booster_slug = slug
-      @booster = booster
-      @booster_camps = BOOSTER_CAMPS.select { |_, camp| camp[:booster] == slug.to_s }
-      @city = CITIES[booster[:city].to_sym]
-      I18n.locale = :fr
-      erb :booster
+  LOCALES.each do |locale|
+    BOOSTERS.each do |slug, booster|
+      get "/#{locale == DEFAULT_LOCALE ? "" : "#{locale}/"}kit/#{slug}" do
+        @booster_slug = slug
+        @booster = booster
+        @booster_camps = BOOSTER_CAMPS.select { |_, camp| camp[:booster] == slug.to_s }
+        @city = CITIES[booster[:city].to_sym]
+        I18n.locale = locale
+        erb :booster
+      end
     end
   end
 
@@ -280,6 +282,8 @@ class App < Sinatra::Base
       locale = (options[:locale] || I18n.locale).to_sym
       if city = CITIES[slug.to_sym]
         city[:locale].to_sym == locale ? "/#{slug}" : "/#{locale}/#{slug}"
+      elsif booster = BOOSTERS[slug.to_sym]
+        locale == DEFAULT_LOCALE ? "/kit/#{slug}" : "/#{locale}/kit/#{slug}"
       else
         page = PAGES[slug.to_sym]
         if page[:locale_path]
@@ -308,11 +312,19 @@ class App < Sinatra::Base
           return send :"#{slug}_path", locale: locale
         end
       end
+      BOOSTERS.each do |slug, booster|
+        puts slug
+        puts request.path
+        if /(\/[a-z]+)?\/#{slug}/ =~ request.path
+          puts "MATCH"
+          return send :"#{slug}_path", locale: locale
+        end
+      end
       locale == DEFAULT_LOCALE ? "/" : "/#{locale}"
     end
 
     # Dynamically rails-style helpers like faq_path, etc.
-    (PAGES.merge CITIES).each do |slug, _|
+    (PAGES.merge(CITIES).merge(BOOSTERS)).each do |slug, _|
       method = :"#{slug}_path"
       unless self.respond_to? method
         define_method(method) do |*args|

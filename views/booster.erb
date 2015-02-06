@@ -11,7 +11,7 @@
       <div class="col-xs-12 center">
         <h1><%= @booster[:name].upcase %></h1>
         <p>
-          <%= @booster[:pitch] %>
+          <%=  @booster[:pitch][I18n.locale] %>
         </p>
       </div>
     </div>
@@ -25,7 +25,7 @@
 
     <div class="row">
       <div class="col-xs-12 text-center">
-        <h2>Ce que vous apprendrez</h2>
+        <h2><%= t "kit.what_you_will_learn" %></h2>
       </div>
     </div>
 
@@ -37,7 +37,7 @@
           <div class="col-xs-12 col-sm-6">
             <div class="skill">
               <h3 class="text-center"><span class="number"><%= @booster[:description][:skills].index(skill) + 1 %></span> <%= skill[:name] %></h3>
-              <%= skill[:details] %>
+              <%= skill[:details][I18n.locale] %>
             </div>
           </div>
         <% end %>
@@ -48,7 +48,7 @@
     <div class="row">
       <div class="col-xs-12 text-center">
         <a data-target="<%= "##{@booster_slug}-modal" %>" data-toggle="modal" class="btn red-btn btn-primary">
-          Devenez <%= @booster[:name] %>
+          <%= t("kit.become").capitalize %> <%= @booster[:name] %>
         </a>
         <%= erb :booster_modal, locals: { booster_slug: @booster_slug, booster: @booster } %>
       </div>
@@ -105,7 +105,6 @@
   </div>
 </div>
 
-
 <div class="local">
   <div class="container">
     <div class="row">
@@ -148,7 +147,7 @@
       <div class="row">
         <div class="col-xs-12 text-center">
           <div class="vertical-spacer"></div>
-          <h2>PAR JOURNÉE</h2>
+          <h2><%= (t "kit.by_day").upcase %></h2>
         </div>
       </div>
 
