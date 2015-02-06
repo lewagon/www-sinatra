@@ -55,7 +55,7 @@ Quiet Assets vous permet de soulager le log votre console de développement en s
 
 Un indispensable pour peupler votre base de fausses données (nom, email, adresses...) lors du développement de votre application sans avoir à tout créer à la main !
 
-#### Letter Opener - [<i class="fa fa-github fa-1x"></i>](https://github.com/ryanb/letter_opener)
+#### *Letter Opener*  - [<i class="fa fa-github fa-1x"></i>](https://github.com/ryanb/letter_opener)
 
 Letter Opener vous permet de prévisualiser vos emails directement dans votre navigateur sans avoir à inclure un système d'envoi d'emails au sein de votre environnement de développement.
 
@@ -72,7 +72,7 @@ end
 
 ####*Rails 12factor* - [<i class="fa fa-github fa-1x"></i>](https://github.com/heroku/rails_12factor)
 
-Rails 12factor réécrit quelques paramètres de Rails afin de faciliter la scalibilité et la mise à jour régulière de votre application selon les conventions de [12factor](http://12factor.net). Cette gem s'occupe principalement de donner un accès aux logs et également au dossier `app/assets` d'être servie en production afin de donner un accès à vos fichiers css, js et images.
+Rails 12factor réécrit quelques paramètres de Rails afin de faciliter la scalabilité et la mise à jour régulière de votre application selon les conventions de [12factor](http://12factor.net). Cette gem s'occupe principalement de donner un accès aux logs et également au dossier `app/assets` d'être servi en production afin de donner un accès à vos fichiers css, js et images.
 
 
 ###Quelques fonctionnalités utiles
@@ -101,17 +101,17 @@ Simple Form vous simplifie la création de vos formulaires grâce à une syntaxe
 
 ####*Devise & Omniauth* - [<i class="fa fa-github fa-1x"></i>](https://github.com/plataformatec/devise)
 
-Devise vous offre une solution d'authentification complète (Modèle, Vue et Controller) fiable et sécurisée. Outre le fait d'offrir à plusieurs utilisateurs la possibilité d'être connectés en même temps, cette gem peut également être agrémenté du module [Omniauth](https://github.com/intridea/omniauth) afin de permettre à vos utilisateurs de se connecter à votre service via Facebook ou Twitter Connect.
+Devise vous offre une solution d'authentification complète (Modèle, Vue et Controller) fiable et sécurisée. Outre le fait d'offrir à plusieurs utilisateurs la possibilité d'être connectés en même temps, cette gem peut également être agrémentée du module [Omniauth](https://github.com/intridea/omniauth) afin de permettre à vos utilisateurs de se connecter à votre service via Facebook ou Twitter Connect.
 
 
 ####*Pundit* - [<i class="fa fa-github fa-1x"></i>](https://github.com/elabs/pundit)
 
-Pundit permet de gérer simplement et de manière centralisée les autorisations des utilisateurs de votre application dans `app/policies`. À vous de dupliquer à l'intérieur de ce fichier toutes vos classes controller accompagnées du suffixe `Policy`. Définisez ensuite les droits de vos `current_user` sur chaque méthode de class afin de les laisser ou faire telle ou telle action du controller  associé.
+Pundit permet de gérer simplement et de manière centralisée les autorisations des utilisateurs de votre application dans `app/policies`. À vous de dupliquer à l'intérieur de ce fichier toutes vos classes controller accompagnées du suffixe `Policy`. Définissez ensuite les droits de vos `current_user` sur chaque méthode de classe afin de les laisser ou faire telle ou telle action du controller associé.
 
 
 ####*Paperclip, Carrierwave & Dragonfly* - [<i class="fa fa-github fa-1x"></i>](https://github.com/thoughtbot/paperclip)
 
-Ces trois gems aux fonctionnements quelque peu différents se proposent de gérer l'upload et le traitement de vos images. D'un côté [Paperclip](https://github.com/thoughtbot/paperclip) et [Carrierwave](https://github.com/carrierwaveuploader/carrierwave) vont s'occuper de redimensionner puis de stocker l'original du fichier ainsi que toutes les redimensions nécessaires à votre template de cette même image.
+Ces trois gems aux fonctionnements légèrement différents se proposent de gérer l'upload et le traitement de vos images. D'un côté [Paperclip](https://github.com/thoughtbot/paperclip) et [Carrierwave](https://github.com/carrierwaveuploader/carrierwave) vont s'occuper de redimensionner puis de stocker l'original du fichier ainsi que toutes les redimensions nécessaires à votre template de cette même image.
 
 De l'autre, [Dragonfly](https://github.com/markevans/dragonfly). Cette gem stock la version originale dans un premier temps et la redimensionne à la volée pour chaque action de l'utilisateur. Cela nécessite l'installation d'un cache pour resservir les images afin de limiter au maximum un travail serveur trop important.
 
@@ -136,12 +136,12 @@ High Voltage vous permet de très simplement gérer vos pages statiques. Après 
 
 ####*Figaro* - [<i class="fa fa-github fa-1x"></i>](https://github.com/laserlemon/figaro)
 
-Figaro vous permet de renforcer la sécurité de votre application en masquant les tokens, mots de passe et autre credentials d'APIs afin d'empêcher Git de les stocker (et ainsi à tout à chacun d'y avoir accès). Il vous est tout de même possible d'y avoir accès via la variable d'environnement `ENV`.
+Figaro vous permet de renforcer la sécurité de votre application en masquant les tokens, mots de passe et autre credentials d'APIs afin d'empêcher Git de les stocker (et ainsi à tout un chacun d'y avoir accès). Il vous est tout de même possible d'y avoir accès via la variable d'environnement `ENV`.
 
 
 ####*Rails-i18n* - [<i class="fa fa-github fa-1x"></i>](https://github.com/svenfuchs/i18n)
 
-Traduisez et localisez votre site rapidement grâce à rais-i18n. Rédigez toutes vos traductions dans des fichiers `yml` placés dans `config > locals` et appelez-les au sein de vos vues en fonction de la langue sélectionnée par vos utilisateurs.
+Traduisez et localisez votre site rapidement grâce à rails-i18n. Rédigez toutes vos traductions dans des fichiers `yml` placés dans `config > locals` et appelez-les au sein de vos vues en fonction de la langue sélectionnée par vos utilisateurs.
 
 
 ####*Cocoon* - [<i class="fa fa-github fa-1x"></i>]()
@@ -151,7 +151,7 @@ Cocoon permet une gestion plus simple des formulaires nestés en permettant de c
 
 ####*Active Admin* - [<i class="fa fa-github fa-1x"></i>](https://github.com/activeadmin/activeadmin)
 
-Tous les administrateurs de votre service ne sont pas forcément des développeurs, et donc ne pourront pas se contenter d’un `heroku run bundle exec rails c`. Active Admin permet de créer une interface d'administration intégralement et facilement customizable avec l'ensemble des fonctionnalités de votre application.
+Tous les administrateurs de votre service ne sont pas forcément des développeurs, et donc ne pourront pas se contenter d’un `heroku run bundle exec rails c`. Active Admin permet de créer une interface d'administration intégralement et facilement customisable avec l'ensemble des fonctionnalités de votre application.
 
 
 ####*Sidekiq* - [<i class="fa fa-github fa-1x"></i>](https://github.com/mperham/sidekiq)
