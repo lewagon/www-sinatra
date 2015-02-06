@@ -3,10 +3,8 @@ layout: post
 title: "25 gems indispensables pour débuter une application rails"
 author: cedric
 labels:
-  - meetup
   - tuto
-  - video
-pushed: true
+  - misc
 thumbnail: 25-gems-starts-rubyonrails-project.jpg
 description: De votre environnement de développement à la mise en production, voici une sélection non exhaustive d'une vingtaine de gems aux fonctionnalités aussi diverses que variées, toutefois indispensables au lancement de votre projet. L'objectif ? Gagner un temps précieux dans votre temps de développement en vous évitant de coder à la main des features déjà existantes.
 ---
