@@ -83,7 +83,7 @@ De manière très concrète, après avoir installé cette gem et importé les st
 
 ####*Simple Form* - [<i class="fa fa-github fa-1x"></i>](https://github.com/plataformatec/simple_form)
 
-Simple Form vous simplifie la création de vos formulaires grâce à une syntaxe très légère et vous donne la possibilité d'invoquer et de customiser les éléments label, hints, errors et input selon votre bon vouloir.
+Simple Form simplifie la création de vos formulaires grâce à une syntaxe très légère et vous donne la possibilité d'invoquer et de customiser les éléments label, hints, errors et input selon votre bon vouloir.
 
 ```erb
 <%= simple_form_for @user do |f| %>
