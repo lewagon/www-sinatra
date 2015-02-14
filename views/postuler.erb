@@ -80,7 +80,24 @@
         <div class="form-group">
           <label><%= t "apply.form.choose_camp" %></label>
           <% ACTIVE_CAMPS.each do |slug, camp| %>
-            <% if camp[:full] %>
+            <% if camp.fetch(:trello, {})[:inbox_list_id].blank? %>
+              <div class="radio disabled">
+                 <label>
+                  <input type="radio" name="camp" disabled>
+
+                  <strong><%= camp[:city].capitalize %></strong>,
+                  <small>
+                    <% format = :short #camp[:start_date].year == Time.now.year ? :short : :long %>
+                    <%= t "apply.form.choose_camp_radio_label_html",
+                          start_date: l(camp[:start_date], format: format),
+                          end_date: l(camp[:end_date], format: format) %></small>
+
+                  <small style="margin-left: 2px">
+                    <span class="label label-info"><%= t "apply.form.registrations_not_open_yet" %></span>
+                  </small>
+                </label>
+              </div>
+            <% elsif camp[:full] %>
               <div class="radio disabled">
                 <label>
                   <input type="radio" name="camp" disabled>

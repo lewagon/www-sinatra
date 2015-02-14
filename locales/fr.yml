@@ -174,7 +174,8 @@ fr:
       booked: Complet
       apply_button: POSTULER
       price_html: "Prix : <strong>%{price}</strong> € TTC. Nous vous recontacterons rapidement par email !"
-      soon: "prévu pour bientôt"
+      soon: "départ prévu pour bientôt"
+      registrations_not_open_yet: Pas encore ouvert
   thanks:
     title: Merci !
     content_html: 'Nous vous recontacterons rapidement par mail pour prévoir un rendez-vous. En attendant, <a href="http://twitter.com/Lewagonparis">suivez-nous sur Twitter !</a>'
