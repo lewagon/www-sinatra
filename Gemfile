@@ -23,6 +23,7 @@ gem 'pygmentize'
 gem 'redcarpet'
 gem 'gibbon'
 gem 'ruby-trello', github: 'jeremytregunna/ruby-trello'
+gem 'rest-client'
 
 # Serve fonts to other domains (Wufoo)
 gem 'rack-cors', :require => 'rack/cors'

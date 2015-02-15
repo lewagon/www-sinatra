@@ -15,6 +15,7 @@ require_relative 'lib/cache'
 
 require_relative "use_cases/push_student_application_to_trello"
 require_relative "use_cases/subscribe_to_newsletter"
+require_relative "use_cases/push_student_to_crm"
 
 class App < Sinatra::Base
   sprockets = Sprockets::Environment.new
@@ -228,7 +229,8 @@ class App < Sinatra::Base
     else
       camp = CAMPS[params[:camp].to_sym]
       params[:city] = camp[:city]  # For the newsletter
-      UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id]).run(params)
+      card = UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id]).run(params)
+      UseCases::PushStudentToCrm.new(card).run(params)
       subscribe_candidate_to_newsletter
       redirect thanks_path + "?camp=#{params[:camp]}"
     end
