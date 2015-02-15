@@ -35,7 +35,7 @@ namespace :trello do
     configure_trello
 
     Trello::Board.all.select { |b| b.organization_id == WAGON_TRELLO_ORG_ID } .each do |board|
-      puts "# #{board.name}"
+      puts "# #{board.name} (#{board.id})"
       board.lists.each do |list|
         puts "  #{list.id} - #{list.name}"
       end
