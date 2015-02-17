@@ -315,10 +315,7 @@ class App < Sinatra::Base
         end
       end
       BOOSTERS.each do |slug, booster|
-        puts slug
-        puts request.path
         if /(\/[a-z]+)?\/#{slug}/ =~ request.path
-          puts "MATCH"
           return send :"#{slug}_path", locale: locale
         end
       end
