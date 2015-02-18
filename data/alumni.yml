@@ -21,6 +21,29 @@
     - url: https://twitter.com/roadstr_cars
       icon: twitter
 
+- name: Julien Debray et Florian Joulié
+  image_name: explorizers.png
+  url: http://www.explorizers.com/en
+  project:
+    name: Explorizers
+    url: http://www.explorizers.com/
+    image_name: explorizers-landing.png
+    teaser:
+      fr: Explorizers est une application conçue pour le voyage inspiré par ses amis Facebook.
+      en: Explorizers is designed for travel inspired by his Facebook friends.
+    description:
+      fr: Développement du site Explorizers avec la carte de voyage et les interactions sociales.
+      en: Development of Explorizers web-app with the travel map and social interactions based on facebook.
+  links:
+    - url: https://github.com/florian-j
+      icon: github-alt
+    - url: https://github.com/juliendebray
+      icon: github-alt
+    - url: http://www.explorizers.com/
+      icon: link
+    - url: https://twitter.com/Explorizers_
+      icon: twitter
+
 - name: Thomas Chrétien et Olivier Brunet
   image_name: trackguru-team.jpg
   url: https://github.com/tchret
@@ -229,4 +252,3 @@
       icon: facebook
     - url: http://wearethediggers.herokuapp.com
       icon: link
-
