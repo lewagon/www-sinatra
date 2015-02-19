@@ -39,5 +39,5 @@ Pour les développeurs, Lydia propose une première API dédiée aux lecteurs de
 
 - [www.lydia-app.com](https://lydia-app.com/)
 - [Télécharger l'App sur iOS](https://itunes.apple.com/fr/app/lydia-paiement-mobile-securise/id575913704?mt=8)
-- [Télécharger l'App sur Androïde](https://play.google.com/store/apps/details?id=com.lydia&hl=en)
+- [Télécharger l'App sur Androïd](https://play.google.com/store/apps/details?id=com.lydia&hl=en)
 - [F.A.Q](https://lydia-app.com/about/help)
