@@ -126,12 +126,13 @@ data-scientist-junior:
       - text: What's your level in Python?
         choices:
           - Beginner
-          - Intermediate (codecademy Python tutorial)
+          - Intermediate (Codecademy Python tutorial)
           - Advanced
       - text: Have you ever had any data training?
         choices:
-          - Yes
-          - No
+          - "Yes"
+          - "No"
+      - text: Promo Code
   card:
     badge_name: "DATA <br> SCIENTIST"
     focus_one: Récolter ses données (<strong>API, scraping</strong>)
