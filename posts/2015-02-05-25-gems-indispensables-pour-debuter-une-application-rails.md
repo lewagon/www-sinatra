@@ -23,10 +23,10 @@ Les gems suivantes sont à inclure au sein de votre `Gemfile` dans le groupe `:d
 ```
 group :development do
   gem "better_errors"
-  gem "binding-of-caller"
+  gem "binding_of_caller"
   gem "quiet_assets"
   gem "pry-byebug"
-  gem "Faker"
+  gem "faker"
   gem "letter_opener"
 end
 ```
