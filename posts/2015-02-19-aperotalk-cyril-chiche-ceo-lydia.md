@@ -28,11 +28,11 @@ Lydia souhaite simplement mettre au point le premier système de paiement univer
 
 Conscient que la technologie doit être au service du besoin et non l'inverse, l'intégralité de l'application est pensée pour simplifier la vie de l'utilisateur. Il suffit à l'utilisateur d'enregistrer sa carte bancaire (cette donnée est stockée chez un prestataire habilité) et de régler ensuite sa transaction via l'utilisation d'une connexion Bluetooth ou d'un QR Code.
 
-Changer une habitude est un sujet très complexe. Qui le devient encore plus lorsque l’on parle d’argent. La réflexion des deux associés s'est donc structurée autour de deux questions : dans quel lieu est-ce le moins complexe d'utiliser un nouveau moyen de paiement ? Quel élément déclencheur donnera envie aux Français d'utiliser ce système ?
+Changer une habitude est un sujet très complexe, qui le devient encore plus lorsque l’on parle d’argent. La réflexion des deux associés s'est donc structurée autour de deux questions : dans quel lieu est-ce le moins complexe d'utiliser un nouveau moyen de paiement ? Quel élément déclencheur donnera envie aux Français d'utiliser ce système ?
 
-Afin d'étudier ces problématiques et créer une habitude d’usage, de la récurrence et des occasions légitimes d'utiliser l'application au quotidien, Lydia à lancé un premier projet pilote au sein d'une cafeteria sur un campus. Le résultat ? Le nombre de transactions à augmenté de plus de 30%. L'impact positif sur les jeunes fût tel que la stratégie de déploiement est désormais concentrée sur le milieu universitaire. À l'heure actuelle, l'application est présente sur plus de 85 campus et utilisée par plus de 65.000 utilisateurs. 85% sont des étudiants avec une fréquence d’usage entre 4 à 5 fois par jour.
+Afin d'étudier ces problématiques et créer une habitude d’usage, de la récurrence et des occasions légitimes d'utiliser l'application au quotidien, Lydia à lancé un premier projet pilote au sein d'une cafeteria sur un campus. Le résultat ? Le nombre de transactions a augmenté de plus de 30%. L'impact positif sur les jeunes fût tel que la stratégie de déploiement est désormais concentrée sur le milieu universitaire. À l'heure actuelle, l'application est présente sur plus de 85 campus et utilisée par plus de 65.000 personnes; 85% sont des étudiants avec une fréquence d’usage située entre 4 à 5 fois par jour.
 
-Côté B2B, Lydia se place au coeur des problématiques retail en fluidifiant le paiement et en réduisant le temps d’attente. Pour les développeurs, Lydia propose deux APIs. L'une est dédiée aux lecteurs de caisse et une l'autre aux services web.
+Côté B2B, Lydia se place au coeur des problématiques retail en fluidifiant le paiement et en réduisant le temps d’attente. Pour les développeurs, Lydia propose deux APIs: l'une est dédiée aux lecteurs de caisse et l'autre aux services web.
 
 
 ###Les liens utiles
