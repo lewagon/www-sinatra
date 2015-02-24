@@ -32,7 +32,7 @@ Changer une habitude est un sujet très complexe. Qui le devient encore plus lor
 
 Afin d'étudier ces problématiques et créer une habitude d’usage, de la récurrence et des occasions légitimes d'utiliser l'application au quotidien, Lydia à lancé un premier projet pilote au sein d'une cafeteria sur un campus. Le résultat ? Le nombre de transactions à augmenté de plus de 30%. L'impact positif sur les jeunes fût tel que la stratégie de déploiement est désormais concentrée sur le milieu universitaire. À l'heure actuelle, l'application est présente sur plus de 85 campus et utilisée par plus de 65.000 utilisateurs. 85% sont des étudiants avec une fréquence d’usage entre 4 à 5 fois par jour.
 
-Côté B2B, Lydia se place au coeur des problématiques retail en fluidifiant le paiement et en réduisant le temps d’attente. Pour les développeurs, Lydia propose deux APIs. L'une est dédiée aux lecteurs de caisse et une l'autre aux services web. Intégration en moins de 2 heures garantie ! Vous laisserez-vous tenter ?
+Côté B2B, Lydia se place au coeur des problématiques retail en fluidifiant le paiement et en réduisant le temps d’attente. Pour les développeurs, Lydia propose deux APIs. L'une est dédiée aux lecteurs de caisse et une l'autre aux services web.
 
 
 ###Les liens utiles
