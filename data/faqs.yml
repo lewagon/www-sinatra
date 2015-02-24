@@ -44,7 +44,7 @@ en:
   - question: "When do classes take place?"
     answer: "Monday to Friday, 9am to 7pm, which makes 360 hours during 9 weeks."
   - question: "What is the application process ?"
-    answer: 'After applying we\'ll invite you to an interview to discuss your needs and answer to your questions. After this interview and before any onboarding you\'ll have to complete the <a href="www.codecademy.com/tracks/ruby?locale_code=en" target="_blank">Ruby track on CodeCademy</a>'
+    answer: "After applying we'll invite you to an interview to discuss your needs and answer to your questions. After this interview and before any onboarding you'll have to complete the <a href='www.codecademy.com/tracks/ruby?locale_code=en' target='_blank'>Ruby track on CodeCademy</a>"
   - question: "Should I bring my laptop?"
     answer: "Yes, each student must have a laptop. You’ll need Mac OS X or Linux, but if you only have Windows, no worries you’ll learn how to install Linux the first day."
   - question: "How much does the program cost?"
