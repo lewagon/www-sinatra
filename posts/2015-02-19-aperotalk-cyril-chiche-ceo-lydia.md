@@ -6,10 +6,10 @@ labels:
   - video
   - aperotalk
 thumbnail: thumbnail-aperotalk-lydia.jpg
-description: "2800 ans après la frappe de la première monnaie, Cyril Chiche, revient sur la création de son application de paiement universel : Lydia."
+description: "2800 ans après la frappe de la première monnaie, Cyril Chiche revient sur la création de son application de paiement universel: Lydia."
 ---
 
-28 siècles après la frappe de la première monnaie [Cyril Chiche](http://fr.linkedin.com/pub/cyril-chiche/3/497/550/en), revient sur la création de son application de paiement mobile universel : [Lydia](https://lydia-app.com/).
+28 siècles après la frappe de la première monnaie [Cyril Chiche](http://fr.linkedin.com/pub/cyril-chiche/3/497/550/en), revient sur la création de son application de paiement mobile universel: [Lydia](https://lydia-app.com/).
 
 <div class="video-wrapper"><iframe width="750" height="422" src="https://www.youtube.com/embed/5VycLeeX4Yg?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
@@ -17,7 +17,7 @@ description: "2800 ans après la frappe de la première monnaie, Cyril Chiche, r
 
 Cofondateur de Lydia, Cyril Chiche et Antoine Porte lancent leur startup en septembre 2011 avec l'ambition d'inventer un nouveau système de paiement universel. Après 6 mois consacrés à l'étude des contraintes budgétaires, techniques et financières liées au projet, ils en arrivent à la conclusion que tout est possible. 2 ans de travaux plus tard et l'obtention de l'agrément de la Banque de France en poche, la première version de Lydia arrive dans l'App Store.
 
-Leur constat est simple, alors que les Lydiens ont inventé la monnaie au 7e siècle avant J.C afin de limiter les risques liés aux contre-parties du troc, certains échanges commerciaux n’aboutissent toujours pas de nos jours faute d'un moyen de paiement adapté. En effet, Amazone ne prend pas les espèces. Pas plus que votre boulanger n'accepte votre carte de crédit quand l'envie vous vient de déguster une tartelette.
+Leur constat est simple, alors que les Lydiens ont inventé la monnaie au 7e siècle avant J.C afin de limiter les risques liés aux contreparties du troc, certains échanges commerciaux n’aboutissent toujours pas de nos jours faute d'un moyen de paiement adapté. En effet, Amazon ne prend pas les espèces. Pas plus que votre boulanger n'accepte votre carte de crédit quand l'envie vous vient de déguster une tartelette.
 
 Lydia souhaite simplement mettre au point le premier système de paiement universel, simple et sécurisé.
 
