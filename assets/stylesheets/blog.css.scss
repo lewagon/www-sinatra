@@ -177,8 +177,8 @@ body.blog { background-color: #fff; }
 
   .video-wrapper {
     position: relative;
-    padding-bottom: 52.25%; /* 16:9 */
-    padding-top: 25px;
+    padding-bottom: 54%; /* 16:9 */
+    padding-top: 23px;
     height: 0;
     margin-bottom: 40px;
   }
@@ -277,5 +277,10 @@ body.blog { background-color: #fff; }
     border-top-color: #f2f2f2;
     border-width: 30px;
     margin-left: -30px;
+  }
+
+  .col-video {
+    height: 100%;
+    background-color: #333;
   }
 }
