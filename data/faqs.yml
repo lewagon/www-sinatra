@@ -4,7 +4,7 @@ fr:
   - question: "Je suis un vrai débutant, est ce que le programme est fait pour moi ?"
     answer: "Nous demandons à nos élèves d'avoir 3 qualités essentielles: de la motivation (beaucoup de motivation), de la curiosité et un bon sens relationnel. Si vous êtes débutant nous vous demanderons de valider un certain nombre de tutoriels avant le début de la formation. Vous ne pourrez pas embarquer si vous ne l'avez pas fait."
   - question: "Le travail de préparation me prendra combien de temps ?"
-    answer: 'Vous devez absolument avoir validé la <a href="www.codecademy.com/tracks/ruby?locale_code=en" target="_blank">track Ruby sur CodeCademy</a>'
+    answer: 'Vous devez absolument avoir validé la <a href="http://www.codecademy.com/tracks/ruby?locale_code=en" target="_blank">track Ruby sur CodeCademy</a>'
   - question: "Qu'est ce que je serai capable de faire au bout des 9 semaines ?"
     answer: "Vous aurez acquis la compétence de développeur web Ruby on Rails. Cela veut dire que vous serez capable de prototyper rapidement vos idées en créant de manière autonome un site web. Vous saurez comment permettre à vous utilisateurs de s'inscrire sur votre site (Sign up, ou Sign up avec Facebook/Twitter), ajouter une <em>back-office</em> d'administration, accepter du paiement, envoyer des emails automatiquement, etc. Vous saurez comment <em>mettre en production</em> rapidement et vous aurez appris les bonnes pratiques de développement utilisées par les meilleures startups actuelles. Vous aurez alors le choix : continuer votre projet entreprenarial, ou bien candidatez comme <em>junior developer</em> dans une startup web !"
   - question: "Est ce que vous nous apprenez à faire des applis mobiles ?"
@@ -14,7 +14,7 @@ fr:
   - question: "Quand se déroule précisément la formation ?"
     answer: "Du lundi au vendredi, de 9h à 19h, soit 360 heures de cours sur les 9 semaines."
   - question: "Comment se déroule la sélection pour le bootcamp ?"
-    answer: 'Après avoir postulé sur le site nous vous proposerons un rendez-vous pour discuter de vos attentes et répondre à vos questions. A la suite de cet entretien vous devrez valider la <a href="www.codecademy.com/tracks/ruby?locale_code=en" target="_blank">track Ruby sur CodeCademy</a>'
+    answer: 'Après avoir postulé sur le site nous vous proposerons un rendez-vous pour discuter de vos attentes et répondre à vos questions. A la suite de cet entretien vous devrez valider la <a href="http://www.codecademy.com/tracks/ruby?locale_code=en" target="_blank">track Ruby sur CodeCademy</a>'
   - question: "Est-ce que je dois venir avec mon ordi ?"
     answer: "Oui, tous les élèves doivent avoir un ordinateur portable. Nous utiliserons Mac OS X ou Linux, si vous n'avez que Windows, ne vous inquiétez pas, le premier jour est consacré à installer Linux sur vos machines (en complément de windows)."
   - question: "Combien coûte la formation ?"
@@ -28,7 +28,7 @@ en:
   - question: "I’m really a beginner, is it the right program for me?"
     answer: "We expect 3 things from our students: be motivated (very motivated), be curious, be social. If you’re a complete beginner, we’ll ask you to validate a few tutorials before you get in."
   - question: "How long does preparatory work take?"
-    answer: 'You must complete <a href="www.codecademy.com/tracks/ruby?locale_code=en" target="_blank">the Ruby track on CodeCademy</a>'
+    answer: 'You must complete <a href="http://www.codecademy.com/tracks/ruby?locale_code=en" target="_blank">the Ruby track on CodeCademy</a>'
   - question: "What will I be able to build at the end of 9 weeks?"
     answer: "You’ll have a Ruby on Rails junior developer level. This means you’ll be able to quickly prototype your ideas by creating a web application on your own. For instance, you will know how to include authentification to your site (simple signin/signup, or Facebook/Twitter connect), add an admin back-office, include payment features, automate emails sending, and much more. You’ll also know how to quickly deploy in production and you will have learnt the programming best practices used by top-level startups. You’ll then be facing a choice: continue your entrepreneurial project or become a junior developer in a startup or a bigger tech company."
   - question: "Will I learn to create mobile apps?"
@@ -44,7 +44,7 @@ en:
   - question: "When do classes take place?"
     answer: "Monday to Friday, 9am to 7pm, which makes 360 hours during 9 weeks."
   - question: "What is the application process ?"
-    answer: "After applying we'll invite you to an interview to discuss your needs and answer to your questions. After this interview and before any onboarding you'll have to complete the <a href='www.codecademy.com/tracks/ruby?locale_code=en' target='_blank'>Ruby track on CodeCademy</a>"
+    answer: "After applying we'll invite you to an interview to discuss your needs and answer to your questions. After this interview and before any onboarding you'll have to complete the <a href='http://www.codecademy.com/tracks/ruby?locale_code=en' target='_blank'>Ruby track on CodeCademy</a>"
   - question: "Should I bring my laptop?"
     answer: "Yes, each student must have a laptop. You’ll need Mac OS X or Linux, but if you only have Windows, no worries you’ll learn how to install Linux the first day."
   - question: "How much does the program cost?"
