@@ -11,9 +11,9 @@ thumbnail: thumbnail-implementation-google-analytics.jpg
 description: "Aujourd’hui, les analytics sont au coeur de toutes les discussions et de toutes les stratégies. Avec Google Analytics, vous avez accès à un outil de mesure gratuit, fiable et performant. Dans cette vidéo, Bertrand Girard, Conversion Specialist, vous donne toutes les clés et best practices pour son implémentation sur votre site."
 ---
 
-*Aujourd’hui, les analytics sont au coeur de toutes les discussions et de toutes les stratégies. Avec [Google Analytics](http://www.google.com/analytics/), vous avez accès à un outil de mesure gratuit, fiable et performant. Dans cette vidéo, [Bertrand Girard](https://twitter.com/bertrandgirard), Conversion Specialist, vous donne toutes les clés et best practices pour l'implémenter sur votre site.*
-
 <div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/0aaKXA6zxnY?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+
+Aujourd’hui, les analytics sont au coeur de toutes les discussions et de toutes les stratégies. Avec [Google Analytics](http://www.google.com/analytics/), vous avez accès à un outil de mesure gratuit, fiable et performant. Dans cette vidéo, [Bertrand Girard](https://twitter.com/bertrandgirard), Conversion Specialist, vous donne toutes les clés et best practices pour l'implémenter sur votre site.
 
 ###Les objectifs:
 

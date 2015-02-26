@@ -9,9 +9,9 @@ thumbnail: thumbnail-aperotalk-rachel-delacour-bime-analytics.jpg
 description: "Contrôleur de gestion dans une autre vie au sein de grands groupes entre Montpellier et Moscou et fervente utilisatrice de solutions de Business Intelligence, Rachel Delacour est partie du constat suivant : les outils de business intelligence sont souvent réservés à des sociétés de taille importante et très couteuses à mettre en place. Pour changer cela, elle a cofondé BIME Analytics."
 ---
 
-Contrôleur de gestion dans une autre vie au sein de grands groupes entre Montpellier et Moscou et fervente utilisatrice de solutions de Business Intelligence, Rachel Delacour est partie du constat suivant : les outils de *business intelligence* sont souvent réservés à des sociétés de taille importante et très couteux à mettre en place. Pour changer cela, elle a cofondé [Bime Analytics](http://www.bimeanalytics.com/).
-
 <div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/aF_TzzW1wEg?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+
+Contrôleur de gestion dans une autre vie au sein de grands groupes entre Montpellier et Moscou et fervente utilisatrice de solutions de Business Intelligence, Rachel Delacour est partie du constat suivant : les outils de *business intelligence* sont souvent réservés à des sociétés de taille importante et très couteux à mettre en place. Pour changer cela, elle a cofondé [Bime Analytics](http://www.bimeanalytics.com/).
 
 ### Synopsis
 

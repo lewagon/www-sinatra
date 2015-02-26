@@ -130,7 +130,7 @@ en:
     link_to_blog: See all posts
   blog:
     read_article: Read the article
-    written: "Written by <a href='%{href}'>%{author}</a> on %{date}"
+    written: "Published by <a href='%{href}'>%{author}</a> on %{date}"
     moreposts: More from slate
   apply:
     title: Apply to Le Wagon for 9 weeks of Ruby on Rails

@@ -10,7 +10,7 @@ thumbnail: thumbnail-kudoz-application-recherche-emploi.jpg
 description: "Olivier Xu est le cofondateur de Kudoz, l’application de recherche d'emploi au swipe aguicheur destinée aux cadres en quête de nouveaux horizons professionnels. Nous vous avions déjà présenté Kudoz en vidéo, nous vous proposons aujourd’hui de faire le point sur le parcours entrepreneurial de ce pionnier du Wagon."
 ---
 
-*[Olivier Xu](http://fr.linkedin.com/in/olivierxu) est le cofondateur de [Kudoz](http://www.getkudoz.com/), l’application de recherche d'emploi au swipe aguicheur destinée aux cadres en quête de nouveaux horizons professionnels. Nous vous avions déjà présenté Kudoz [en vidéo](http://youtu.be/reIOVSgaFT0), nous vous proposons aujourd’hui de faire le point sur le parcours entrepreneurial de ce pionnier du Wagon.*
+[Olivier Xu](http://fr.linkedin.com/in/olivierxu) est le cofondateur de [Kudoz](http://www.getkudoz.com/), l’application de recherche d'emploi au swipe aguicheur destinée aux cadres en quête de nouveaux horizons professionnels. Nous vous avions déjà présenté Kudoz [en vidéo](http://youtu.be/reIOVSgaFT0), nous vous proposons aujourd’hui de faire le point sur le parcours entrepreneurial de ce pionnier du Wagon.
 
 ![Kudoz, outil de veille pour cadre à la recherche d'un nouveau job](blog_image_path kudoz-homepage.jpg)
 
