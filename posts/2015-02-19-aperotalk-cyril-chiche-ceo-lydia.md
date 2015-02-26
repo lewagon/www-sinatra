@@ -9,9 +9,9 @@ thumbnail: thumbnail-aperotalk-lydia.jpg
 description: "2800 ans après la frappe de la première monnaie, Cyril Chiche revient sur la création de son application de paiement universel: Lydia."
 ---
 
-28 siècles après la frappe de la première monnaie [Cyril Chiche](http://fr.linkedin.com/pub/cyril-chiche/3/497/550/en), revient sur la création de son application de paiement mobile universel: [Lydia](https://lydia-app.com/).
-
 <div class="video-wrapper"><iframe width="750" height="422" src="https://www.youtube.com/embed/5VycLeeX4Yg?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+
+28 siècles après la frappe de la première monnaie [Cyril Chiche](http://fr.linkedin.com/pub/cyril-chiche/3/497/550/en), revient sur la création de son application de paiement mobile universel: [Lydia](https://lydia-app.com/).
 
 ###L'idée
 

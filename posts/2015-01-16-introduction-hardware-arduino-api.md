@@ -9,9 +9,9 @@ thumbnail: thumbnail-introduction-hardware-arduino.jpg
 description: La tête dans les nuages et les mains dans le cambouis. Telle est la devise d'Aurélien Fache, passionné par l'internet des objets et véritable inconditionnel des APIs. Dans cette vidéo de 35 minutes il vous présente quelques-unes de ses réalisations sur arduino, revient sur la notion d'API et réalise un rapide panorama des autres solutions de prototypage hardware. À vos ateliers !
 ---
 
-La tête dans les nuages et les mains dans le cambouis. Telle est la devise d'[Aurélien Fache](https://twitter.com/mathemagie), passionné par l'internet des objets et véritable inconditionnel des APIs. Dans cette vidéo de 35 minutes il vous présente quelques-unes de ses réalisations sur arduino, revient sur la notion d'API et réalise un rapide panorama des autres solutions de prototypage hardware. À vos ateliers !
-
 <div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/eKgF0c9O-8g?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+
+La tête dans les nuages et les mains dans le cambouis. Telle est la devise d'[Aurélien Fache](https://twitter.com/mathemagie), passionné par l'internet des objets et véritable inconditionnel des APIs. Dans cette vidéo de 35 minutes il vous présente quelques-unes de ses réalisations sur arduino, revient sur la notion d'API et réalise un rapide panorama des autres solutions de prototypage hardware. À vos ateliers !
 
 ###Qui est-il ?
 

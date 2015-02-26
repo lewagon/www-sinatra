@@ -11,7 +11,7 @@ description: "La semaine dernière nous avons eu le plaisir de recevoir Nicolas 
 
 <div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/5ZpwR3VuT50?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
-*La semaine dernière, nous avons eu le plaisir de recevoir [Nicolas Dessaigne](https://www.twitter.com/dessaigne), cofondateur et CEO [Algolia](https://www.algolia.com/), afin d'échanger sur son parcours ainsi que sur la création et le développement d’Algolia.*
+La semaine dernière, nous avons eu le plaisir de recevoir [Nicolas Dessaigne](https://www.twitter.com/dessaigne), cofondateur et CEO [Algolia](https://www.algolia.com/), afin d'échanger sur son parcours ainsi que sur la création et le développement d’Algolia.
 
 ### Algolia, présentation du service
 

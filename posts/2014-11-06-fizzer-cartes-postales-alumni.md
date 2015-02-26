@@ -9,7 +9,7 @@ labels:
 description: Oubliez ces moments laborieux passés devant un tourniquet bancal. Envoyez désormais vos cartes postales personnalisées depuis votre smartphone avec Fizzer, l'application de deux alumni du Wagon qui se charge de les imprimer puis de les acheminer par la poste auprès de vos proches.
 ---
 
-*Oubliez ces moments laborieux passés devant un tourniquet bancal. Envoyez désormais vos cartes postales personnalisées depuis votre smartphone avec [Fizzer](https://www.fizzer.io/), l'application de deux alumni du Wagon qui se charge de les imprimer puis de les acheminer par la poste auprès de vos proches.*
+Oubliez ces moments laborieux passés devant un tourniquet bancal. Envoyez désormais vos cartes postales personnalisées depuis votre smartphone avec [Fizzer](https://www.fizzer.io/), l'application de deux alumni du Wagon qui se charge de les imprimer puis de les acheminer par la poste auprès de vos proches.
 
 ![Fizzer, partager vos meilleurs moments avec une carte postale](blog_image_path fizzer-carte-postale.jpg)
 

@@ -23,15 +23,27 @@
 
 <div class="vertical-spacer"></div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <article class="blog-post">
-        <%= @post.content %>
-      </article>
+<% if @post.metadata[:labels].include?('video') %>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <article class="blog-post video-post">
+            <%= @post.content %>
+        </article>
+      </div>
     </div>
   </div>
-</div>
+<% else %>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <article class="blog-post">
+          <%= @post.content %>
+        </article>
+      </div>
+    </div>
+  </div>
+<% end %>
 
 <%= erb :share %>
 

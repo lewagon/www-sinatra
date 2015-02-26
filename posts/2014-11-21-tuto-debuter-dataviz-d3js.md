@@ -11,9 +11,9 @@ thumbnail: thumbnail-initiation-dataviz-d3js.jpg
 description: Dataviz, ou l'art de représenter des grandes quantités de données de manière innovante et interactive. Donner du sens à la donnée, voilà le but de cette nouvelle discipline ! Découvrez d3.js une librairie JavaScript pour visualiser des données au sein d'interfaces web.
 ---
 
-Dataviz, ou l'art de représenter des grandes quantités de données de manière innovante et interactive. Donner du sens à la donnée, voilà le but de cette nouvelle discipline ! Découvrez [d3.js](http://d3js.org/) une librairie JavaScript pour visualiser des données au sein d'interfaces web.
-
 <div class="video-wrapper"><iframe width="750" height="422" src="//www.youtube.com/embed/ZEtyr9C01cg?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+
+Dataviz, ou l'art de représenter des grandes quantités de données de manière innovante et interactive. Donner du sens à la donnée, voilà le but de cette nouvelle discipline ! Découvrez [d3.js](http://d3js.org/) une librairie JavaScript pour visualiser des données au sein d'interfaces web.
 
 Intervenant : [Martin Daniel](https://twitter.com/martindaniel4), fondateur de [Tx.to](http://www.tx.to/) & Data Scientist
 

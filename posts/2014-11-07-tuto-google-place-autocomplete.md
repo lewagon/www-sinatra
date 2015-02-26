@@ -10,7 +10,7 @@ pushed: true
 description: Apprenez rapidement à installer Google Place Autocomplete dans vos formulaires comportant une adresse. Ces quelques lignes de code faciliteront grandement l'expérience de vos utilisateurs sur votre site. À vous de jouer !
 ---
 
-*Apprenez rapidement à installer Google Place Autocomplete dans vos formulaires comportant un champ adresse. Ces quelques lignes de code faciliteront grandement l'expérience de vos utilisateurs sur votre site. À vous de jouer !*
+Apprenez rapidement à installer Google Place Autocomplete dans vos formulaires comportant un champ adresse. Ces quelques lignes de code faciliteront grandement l'expérience de vos utilisateurs sur votre site. À vous de jouer !
 
 ![Tutorial, Google Place Autocomplete](blog_image_path tuto-google-place-autocomplete.gif)
 
