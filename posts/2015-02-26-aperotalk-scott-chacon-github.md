@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AperoTalk avec Scott Charcon, CIO Github"
+title: "AperoTalk avec Scott Chacon, CIO Github"
 author: cedric
 labels:
   - video
