@@ -20,7 +20,7 @@ front-end-developer:
     focus_three: Integration d'<strong>APIs</strong> (Wufoo, Mailchimp, Gmaps, Trello..)
     level: débutant
     class: yellow1
-    focus: true
+    focus: false
     ribbon: plus que 6 places
   description:
     skills:
