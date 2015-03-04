@@ -87,7 +87,7 @@ en:
     to_become_developper: To become a software engineer
     hundred_percent: 100%
     concrete_projects_built: Student projects completed
-    coders_trained_at_lewagon: Developers already trained at Le Wagon
+    coders_trained_at_lewagon: Batchs of entrepreneurs/coders
     program_in_details_uppercase: THE FULLSTACK PROGRAM
     see_the_projects: See all student projects
     boosters_pitch: |
@@ -226,7 +226,7 @@ en:
       Pair-programming challenges with automatic scoring & correction through our
       automated platform
     twelve_o_clock: |
-      Lunch with lightning talks on Tech topics (hardware, dataviz, etc)
+      Lunch Break
     two_o_clock: |
       Challenges follow-through and re-explanation of the core concepts
     seven_o_clock: |
