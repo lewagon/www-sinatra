@@ -1,0 +1,57 @@
+<% content_for(:title) do %>
+  Live - Demo Day #1
+<% end %>
+<% content_for(:description) do %>
+  20 étudiants, 9 projets, 2 semaines de développement
+<% end %>
+
+<div class="live-container">
+  <div id="blog-banner" class="sub-banner text-center">
+    <div class="filter">
+      <div class="row">
+        <div class="col-xs-12 center">
+          <h1>Live - Demo Day #1</h1>
+          <h2>21 étudiants, 9 projets, 2 semaines de développement</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="vertical-spacer"></div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="video-wrapper">
+          <iframe width="750" height="422" src="https://www.youtube.com/embed/J2e7bwY9P_Y" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="side-cta">
+          <h2>Apprenez à coder</h2/>
+          <p>& développez votre première application web en 9 semaines</p>
+          <i class="fa fa-angle-double-down fa-4x animated infinite pulse"></i>
+          <a href="/programme" target="_blank" class="btn-cta">Découvrir le programme Full-Stack</a>
+          <div class="share-buttons">
+            <h3>Share the love</h3>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="Lewagonparis">Tweet</a>
+            <div class="fb-like" data-href="http://www.lewagon.org<%= request.path_info %>" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <%= erb :disqus %>
+      </div>
+    </div>
+  </div>
+
+  <div class="vertical-spacer"></div>
+
+  <%= erb :share %>
+
+</div>
