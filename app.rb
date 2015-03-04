@@ -173,6 +173,12 @@ class App < Sinatra::Base
     end
   end
 
+  get '/live' do
+    I18n.locale = :fr
+    @body_class = "live"
+    erb :live
+  end
+
   get '/premiere' do
     redirect '/programme', 301
   end
