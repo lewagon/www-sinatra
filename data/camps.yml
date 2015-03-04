@@ -48,14 +48,14 @@ test:
 #   trello:
 #     inbox_list_id: 543d16ea477565861722db44
 
-paris-mars-2015:
-  city: paris
-  start_date: 2015-03-09
-  end_date: 2015-05-08
-  last_seats: true
-  full: true
-  trello:
-    inbox_list_id: 54367e024309d39b50e17738
+# paris-mars-2015:
+#   city: paris
+#   start_date: 2015-03-09
+#   end_date: 2015-05-08
+#   last_seats: true
+#   full: true
+#   trello:
+#     inbox_list_id: 54367e024309d39b50e17738
 
 brussels-may-2015:
   city: brussels
@@ -68,6 +68,7 @@ paris-mai-2015:
   city: paris
   start_date: 2015-05-11
   end_date: 2015-07-10
+  last_seats: true
   trello:
     inbox_list_id: 54367fcfe0dfe26d509ec183
 
