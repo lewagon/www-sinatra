@@ -157,7 +157,6 @@ beirut:
     longitude: 35.5131
   next_session_fragment: beirut-january-2015
   staff:
-    - costa
     - antoine
   partners:
     - altcity
