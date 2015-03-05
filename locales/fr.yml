@@ -92,7 +92,7 @@ fr:
     to_become_developper: Pour devenir développeur
     hundred_percent: 100%
     concrete_projects_built: Des projets d'élèves concrétisés
-    coders_trained_at_lewagon: Codeurs formés au Wagon
+    coders_trained_at_lewagon: Promotions d'entrepreneurs/codeurs
     program_in_details_uppercase: Programme fullstack en détails
     see_the_projects: Voir les projets
     boosters_pitch: |
@@ -235,7 +235,7 @@ fr:
     typical_day_upcase: JOURNÉE-TYPE
     nine_o_clock: introduction théorique & live-code des professeurs projeté sur grand écran.
     ten_o_clock: challenges en binôme ou par groupe sur la plateforme autocorrigée du Wagon, encadrés par les professeurs.
-    twelve_o_clock: déjeuner (avec <i>lightning talk</i> sur des sujets tech, e.g. hardware, dataviz, etc.).
+    twelve_o_clock: Déjeuner.
     two_o_clock: poursuite des challenges avec ré-explication des notions-clefs.
     seven_o_clock: |
       Selon la journée, séance de soutien, mentoring sur

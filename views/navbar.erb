@@ -16,22 +16,27 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
+        <!--
         <li class="dropdown with-underline">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= t "menu.program" %> <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li class="list-divider">9-WEEK CAMP</li>
             <li>
-              <a href="<%= program_path %>">Full-Stack Bootcamp</a>
+              <a href="<%# program_path %>">Full-Stack Bootcamp</a>
             </li>
             <li class="list-divider">1-WEEK KITS</li>
-            <% BOOSTERS.each do |slug, booster| %>
-              <% if booster[:launched] %>
+            <%# BOOSTERS.each do |slug, booster| %>
+              <%# if booster[:launched] %>
               <li>
-                <a href="<%= I18n.locale == DEFAULT_LOCALE ? "" : "/#{I18n.locale}" %>/kit/<%= slug %>"><%= booster[:name] %></a>
+                <a href="<%# I18n.locale == DEFAULT_LOCALE ? "" : "/#{I18n.locale}" %>/kit/<%# slug %>"><%# booster[:name] %></a>
               </li>
-              <% end %>
-            <% end %>
+              <%# end %>
+            <%# end %>
           </ul>
+        </li>
+        -->
+        <li>
+          <a href="<%= program_path %>"><%= t "menu.program" %></a>
         </li>
         <li class="dropdown with-underline">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= t "menu.cities" %> <span class="caret"></span></a>

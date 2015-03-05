@@ -51,7 +51,7 @@
       <p><%= t "home.concrete_projects_built" %></p>
     </div>
     <div class="col-sm-4">
-      <h2>1200</h2>
+      <h2>8</h2>
       <p><%= t "home.coders_trained_at_lewagon" %></p>
     </div>
   </div>
@@ -108,6 +108,7 @@
 
 <div class="vertical-spacer"></div>
 
+<!--
 <div id="boosters">
   <div class="container">
     <div class="row">
@@ -119,14 +120,15 @@
     </div>
 
     <div class="row">
-      <% BOOSTERS.each do |slug, booster| %>
-          <%= erb :booster_card, locals: { slug: slug, booster: booster, number: BOOSTERS.count } %>
-      <% end %>
+      <%# BOOSTERS.each do |slug, booster| %>
+          <%# erb :booster_card, locals: { slug: slug, booster: booster, number: BOOSTERS.count } %>
+      <%# end %>
     </div>
   </div>
 </div>
 
 <div class="vertical-spacer"></div>
+-->
 
 <div class="container">
   <div class="row" id="cursus">
