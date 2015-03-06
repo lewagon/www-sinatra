@@ -79,7 +79,7 @@
             </li>
           </ul>
         </li>
-        <% if request.path_info != '/live' %>
+        <% if CONFIG[:live] && request.path_info != '/live' %>
           <li>
             <a href="/live" class="pulse infinite animated btn btn-primary nav-btn nav-btn-live">Live</a>
           </li>
