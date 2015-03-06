@@ -79,8 +79,13 @@
             </li>
           </ul>
         </li>
+        <% if CONFIG[:live] && request.path_info != '/live' %>
+          <li>
+            <a href="/live" class="pulse infinite animated btn btn-primary nav-btn nav-btn-live">Live</a>
+          </li>
+        <% end %>
         <li>
-          <a href="<%= apply_path %>" class="btn btn-primary" id="nav-btn"><%= t "menu.apply" %></a>
+          <a href="<%= apply_path %>" class="btn btn-primary nav-btn"><%= t "menu.apply" %></a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
