@@ -83,14 +83,19 @@ paris-juillet-2015:
   city: paris
   start_date: 2015-07-13
   end_date: 2015-09-12
-
+  # trello:
+  #   inbox_list_id: 54fee28828ffa1e52b092d3f
 
 paris-septembre-2015:
   city: paris
   start_date: 2015-09-21
   end_date: 2015-11-20
+  # trello:
+  #   inbox_list_id: 54fee379820e199751400ace
 
 paris-octobre-2015:
   city: paris
   start_date: 2015-10-19
   end_date: 2015-12-18
+  # trello:
+  #   inbox_list_id: 54fee3a05c54d91a1704e9e4
