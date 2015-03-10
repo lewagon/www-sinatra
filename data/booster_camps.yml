@@ -14,10 +14,10 @@
 #   trello:
 #     inbox_list_id: 549485d45e9fae27d5bb03de
 
-data-scientist-junior-paris-fevrier-2015:
-  booster: data-scientist-junior
-  city: paris
-  start_date: 2015-03-02
-  end_date: 2015-03-06
-  trello:
-    inbox_list_id: 5480743b13c912e996ccaf4b
+# data-scientist-junior-paris-fevrier-2015:
+#   booster: data-scientist-junior
+#   city: paris
+#   start_date: 2015-03-02
+#   end_date: 2015-03-06
+#   trello:
+#     inbox_list_id: 5480743b13c912e996ccaf4b
