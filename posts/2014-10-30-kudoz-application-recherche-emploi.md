@@ -7,10 +7,10 @@ labels:
   - alumni
   - startup
 thumbnail: thumbnail-kudoz-application-recherche-emploi.jpg
-description: "Olivier Xu est le co-fondateur de Kudoz, l’application de recherche d'emploi au swipe aguicheur, destinée aux cadres en quête de nouveaux horizons professionnels. Nous vous avions déjà présenté Kudoz en vidéo, nous vous proposons aujourd’hui de faire le point sur le parcours entrepreneurial de ce pionnier du Wagon."
+description: "Olivier Xu est le cofondateur de Kudoz, l’application de recherche d'emploi au swipe aguicheur destinée aux cadres en quête de nouveaux horizons professionnels. Nous vous avions déjà présenté Kudoz en vidéo, nous vous proposons aujourd’hui de faire le point sur le parcours entrepreneurial de ce pionnier du Wagon."
 ---
 
-*[Olivier Xu](http://fr.linkedin.com/in/olivierxu) est le co-fondateur de [Kudoz](http://www.getkudoz.com/), l’application de recherche d'emploi au swipe aguicheur destinée aux cadres en quête de nouveaux horizons professionnels. Nous vous avions déjà présenté Kudoz [en vidéo](http://youtu.be/reIOVSgaFT0), nous vous proposons aujourd’hui de faire le point sur le parcours entrepreneurial de ce pionnier du Wagon.*
+[Olivier Xu](http://fr.linkedin.com/in/olivierxu) est le cofondateur de [Kudoz](http://www.getkudoz.com/), l’application de recherche d'emploi au swipe aguicheur destinée aux cadres en quête de nouveaux horizons professionnels. Nous vous avions déjà présenté Kudoz [en vidéo](http://youtu.be/reIOVSgaFT0), nous vous proposons aujourd’hui de faire le point sur le parcours entrepreneurial de ce pionnier du Wagon.
 
 ![Kudoz, outil de veille pour cadre à la recherche d'un nouveau job](blog_image_path kudoz-homepage.jpg)
 
@@ -37,38 +37,38 @@ Conscient de la pénurie de développeurs sur le marché, mon associé et moi-m�
 
 Aujourd’hui, notre équipe compte 3 développeurs et mon rôle a complètement changé. Le tiers de mon temps est consacré à l'élaboration de notre stratégie commerciale et marketing ainsi qu'à un travail de représentation auprès des investisseurs et de présence à des événements publics.
 
-Les deux tiers restant, je les consacre à la coordination des développeurs afin de m’assurer que nous suivons le plus précisément possible notre roadmap produit. Pour résumer, je dirais que mon défi principal aujourd’hui est de maîtriser l’art d’allier les enjeux business aux enjeux techniques, souvent contradictoires.
+Les deux tiers restants, je les consacre à la coordination des développeurs afin de m’assurer que nous suivons le plus précisément possible notre roadmap produit. Pour résumer, je dirais que mon défi principal aujourd’hui est de maîtriser l’art d’allier les enjeux business aux enjeux techniques, souvent contradictoires.
 
 
 ###Tu penses à une situation en particulier ?
 
 Effectivement. Dans notre business model de base, les recruteurs ne payaient rien jusqu’à ce qu’ils trouvent des profils intéressants. Le paiement s’effectuait ensuite au coup par coup pour débloquer les coordonnées des candidats. Rapidement, nous nous sommes rendu compte que le principe était mal adapté aux entreprises qui préfèrent payer un prix fixe au moment du dépôt de l’offre.
 
-Ce changement de business model a eu de grosses répercussions sur la structure de notre site dédié aux recruteurs. Les développeurs ont eu l’impression que le premier business model n'avait pas bénéficié d'une période de test suffisante et que la décision de tout retravailler était précipitée car très coûteuse en développement.
+Ce changement de business model a eu de grosses répercussions sur la structure de notre site dédié aux recruteurs. Les développeurs ont eu l’impression que le premier business model n'avait pas bénéficié d'une période de test suffisante et que la décision de tout retravailler était précipitée, car très coûteuse en développement.
 
-C’est à ce moment qu’un bon lead dev fait la différence. Lorsque cette personne est capable de déterminer les priorités et de changer la roadmap du projet pour s’adapter à la demande de ses utilisateurs tout en tenant compte des retours de son équipe. La résistance et le push-back des développeurs s’avèrent souvent très judicieux. Il est indispensable de trouver un équilibre entre tous ces facteurs et d'assumer ses prises de décision.
+C’est à ce moment qu’un bon lead dev fait la différence. Lorsque cette personne est capable de déterminer les priorités et de changer la roadmap du projet pour s’adapter à la demande de ses utilisateurs tout en tenant compte des retours de son équipe. La résistance des développeurs s’avère souvent très judicieuse. Il est indispensable de trouver un équilibre entre tous ces facteurs et d'assumer ses prises de décision.
 
 ![Kudoz, outil de veille pour cadre à la recherche d'un nouveau job](blog_image_path kudoz-application-recherche-emploi.jpg)
 
 
 ###Peux-tu nous en dire plus sur vos enjeux commerciaux et marketing ?
 
-Dans l’écosystème startup, beaucoup de gens parlent de leur produit et très peu de leur stratégie commerciale. A mon sens, c’est une erreur. Tu auras beau avoir le meilleur produit du monde, si tu ne le commercialises pas bien, tu risques fortement de te planter.
+Dans l’écosystème startup, beaucoup de gens parlent de leur produit et très peu de leur stratégie commerciale. À mon sens, c’est une erreur. Tu auras beau avoir le meilleur produit du monde, si tu ne le commercialises pas bien, tu risques fortement de te planter.
 
-Imprégnés de la culture *Rocket Internet*, nous essayons d’être relativement agressifs car il nous faut attirer à la fois des recruteurs et des utilisateurs. Dans tout business bicéphale comme celui-ci, la première question à se poser est de savoir par qui commencer.
+Imprégnés de la culture *Rocket Internet*, nous essayons d’être relativement agressifs, car il nous faut attirer à la fois des recruteurs et des utilisateurs. Dans tout business bicéphale comme celui-ci, la première question à se poser est de savoir par qui commencer.
 
 Dans un premier temps, nous avons scrapé une poignée d’offres d’emploi afin de simuler le contenu sur notre service. Lorsqu’un utilisateur a déposé sa candidature, nous avons pris la liberté de contacter directement les recruteurs en précisant que ce premier contact était gratuit et que bien évidemment, ils étaient invités à penser à nous pour la publication de leurs prochaines offres.
 
-A l’image de notre volonté d’acquérir les compétences techniques nécessaires pour attirer des développeurs, ce discours est beaucoup plus crédible et efficace pour engager les discussions avec de futurs clients.
+À l’image de notre volonté d’acquérir les compétences techniques nécessaires pour attirer des développeurs, ce discours est beaucoup plus crédible et efficace pour engager les discussions avec de futurs clients.
 
 Côté marketing et acquisition, nous partons du principe que le gratuit n’existe pas. Cela dit, lorsque tu avances avec ta propre startup et que tes fonds ne sont pas illimités, tu te dois de faire disparaître ce paradigme. Il faut être malin pour contrer ton premier problème : le manque d’argent.
 
-A l’heure actuelle nous travaillons à l’établissement de partenariats avec quelques marques et écoles qui font sens avec Kudoz avant de débuter une campagne d’acquisition payante. En résumé, il ne faut pas s’arrêter aux contraintes et toujours essayer de les contourner !
+À l’heure actuelle, nous travaillons à l’établissement de partenariats avec quelques marques et écoles qui font sens avec Kudoz avant de débuter une campagne d’acquisition payante. En résumé, il ne faut pas s’arrêter aux contraintes et toujours essayer de les contourner !
 
 
 ###Un dernier mot ?
 
-Kudoz est encore en pleine construction. J’invite tous les lecteurs à nous envoyer leurs *feedbacks* par mail. Cela nous aide beaucoup et nous amène sans cesse de nouvelles idées. A titre d’exemple, suite à la demande de nombreux utilisateurs, nous lançons cette semaine la lettre de motivation en 140 caractères afin de se mettre en avant via un simple #Kweet !
+Kudoz est encore en pleine construction. J’invite tous les lecteurs à nous envoyer leurs *feedbacks* par mail. Cela nous aide beaucoup et nous amène sans cesse de nouvelles idées. À titre d’exemple, suite à la demande de nombreux utilisateurs, nous lançons cette semaine la lettre de motivation en 140 caractères afin de nous mettre en avant via un simple #Kweet !
 
 
 ###Liens utiles
@@ -77,4 +77,3 @@ Kudoz est encore en pleine construction. J’invite tous les lecteurs à nous en
 - Sur le web : [www.getkudoz.com](http://www.getkudoz.com/)
 - Facebook : [www.facebook.com/getkudoz](https://www.facebook.com/getkudoz)
 - Twitter : [www.twitter.com/getkudoz](https://twitter.com/GetKudoz)
-

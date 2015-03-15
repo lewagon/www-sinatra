@@ -37,12 +37,16 @@
 
 .blog-share {
   position: relative;
-  background-color: #f2f2f2;
+  background-color: #181d22;
   margin-bottom: 0;
   padding: 30px 0;
 
   p {
+    font-family: "PillGothic", monospace;
+    font-size: 25px;
+    color: #fff;
     margin: 1em 0;
+    text-transform: uppercase;
   }
 
   .row { margin: 0 }

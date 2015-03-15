@@ -15,6 +15,7 @@ require_relative 'lib/cache'
 
 require_relative "use_cases/push_student_application_to_trello"
 require_relative "use_cases/subscribe_to_newsletter"
+require_relative "use_cases/push_student_to_crm"
 
 class App < Sinatra::Base
   sprockets = Sprockets::Environment.new
@@ -78,7 +79,8 @@ class App < Sinatra::Base
     program: { view: :programme, locale_path: { en: '/program', fr: '/programme' }},
     alumni: { view: :alumni, path: '/alumni' },
     press: { view: :presse, locale_path: { en: '/press', fr: '/presse' }},
-    faq: { view: :faq, path: '/faq' }
+    faq: { view: :faq, path: '/faq' },
+    jobs: { view: :jobs, path: '/jobs' }
   }
 
   DEFAULT_LOCALE = :fr
@@ -89,6 +91,7 @@ class App < Sinatra::Base
       I18n.locale = locale
       @city = CITIES[:paris]
       find_meetup
+      @posts = Blog.new.all
       erb :index
     end
   end
@@ -151,14 +154,16 @@ class App < Sinatra::Base
     end
   end
 
-  BOOSTERS.each do |slug, booster|
-    get "/kit/#{slug}" do
-      @booster_slug = slug
-      @booster = booster
-      @booster_camps = BOOSTER_CAMPS.select { |_, camp| camp[:booster] == slug.to_s }
-      @city = CITIES[booster[:city].to_sym]
-      I18n.locale = :fr
-      erb :booster
+  LOCALES.each do |locale|
+    BOOSTERS.each do |slug, booster|
+      get "/#{locale == DEFAULT_LOCALE ? "" : "#{locale}/"}kit/#{slug}" do
+        @booster_slug = slug
+        @booster = booster
+        @booster_camps = BOOSTER_CAMPS.select { |_, camp| camp[:booster] == slug.to_s }
+        @city = CITIES[booster[:city].to_sym]
+        I18n.locale = locale
+        erb :booster
+      end
     end
   end
 
@@ -166,6 +171,12 @@ class App < Sinatra::Base
     unless LOCALES.include?(I18n.locale)  # Detected by Rack::Locale
       I18n.locale = DEFAULT_LOCALE
     end
+  end
+
+  get '/live' do
+    I18n.locale = :fr
+    @body_class = "live"
+    erb :live
   end
 
   get '/premiere' do
@@ -176,6 +187,10 @@ class App < Sinatra::Base
     I18n.locale = :fr
     fetch_posts
     erb :blog
+  end
+
+  get '/blog/' do
+    redirect '/blog'
   end
 
   # TODO - change the routing once blog is translated..
@@ -190,8 +205,10 @@ class App < Sinatra::Base
   end
 
   get '/blog/*' do |slug|
+    I18n.locale = :fr
     @body_class = "blog"
     @post = Blog.new.post(slug)
+    @pushed_posts = Blog.new.pushed_posts
     halt 404 unless @post
     erb :post
   end
@@ -210,19 +227,25 @@ class App < Sinatra::Base
   end
 
   post '/apply' do
+    return redirect '/' unless params[:country].blank?  # Anti-spam
+
     if params[:camp].blank? || params[:email].blank?
       @error = true
       erb :postuler
     else
       camp = CAMPS[params[:camp].to_sym]
       params[:city] = camp[:city]  # For the newsletter
-      UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id]).run(params)
+      card = UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id]).run(params)
+      UseCases::PushStudentToCrm.new(card).run(params)
       subscribe_candidate_to_newsletter
       redirect thanks_path + "?camp=#{params[:camp]}"
     end
   end
 
   post '/booster_apply' do
+    return redirect '/' unless params[:country].blank?  # Anti-spam
+
+    I18n.locale = :fr
     if params[:additional_questions]
       questions = params[:additional_questions].values.map { |e| "- #{e[:question]} : #{e[:answer]}" }.join("\n")
       params[:motivation] = [ questions, params[:motivation] ].join("\n\n")
@@ -246,7 +269,7 @@ class App < Sinatra::Base
   end
 
   not_found do
-    redirect "/"
+    erb :not_found
   end
 
   helpers do
@@ -267,6 +290,8 @@ class App < Sinatra::Base
       locale = (options[:locale] || I18n.locale).to_sym
       if city = CITIES[slug.to_sym]
         city[:locale].to_sym == locale ? "/#{slug}" : "/#{locale}/#{slug}"
+      elsif booster = BOOSTERS[slug.to_sym]
+        locale == DEFAULT_LOCALE ? "/kit/#{slug}" : "/#{locale}/kit/#{slug}"
       else
         page = PAGES[slug.to_sym]
         if page[:locale_path]
@@ -295,11 +320,16 @@ class App < Sinatra::Base
           return send :"#{slug}_path", locale: locale
         end
       end
+      BOOSTERS.each do |slug, booster|
+        if /(\/[a-z]+)?\/#{slug}/ =~ request.path
+          return send :"#{slug}_path", locale: locale
+        end
+      end
       locale == DEFAULT_LOCALE ? "/" : "/#{locale}"
     end
 
     # Dynamically rails-style helpers like faq_path, etc.
-    (PAGES.merge CITIES).each do |slug, _|
+    (PAGES.merge(CITIES).merge(BOOSTERS)).each do |slug, _|
       method = :"#{slug}_path"
       unless self.respond_to? method
         define_method(method) do |*args|
@@ -310,9 +340,9 @@ class App < Sinatra::Base
 
     def image_url_with_fallback(image_url)
       if image_url.strip.empty?
-        "http://www.lewagon.org#{image_path 'social/facebook_card.jpg'}"
+        image_path 'social/facebook_card.jpg'
       else
-        "http://www.lewagon.org#{image_url.strip}"
+        image_url.strip
       end
     end
   end

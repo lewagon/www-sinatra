@@ -29,7 +29,7 @@
     margin-top: 6px;
   }
 
-  #nav-btn {
+  .btn.nav-btn {
     background-color: #ea4a3c;
     color: #fff;
     border-radius: 2px;
@@ -40,7 +40,8 @@
     transition: background-color 300ms ease-out;
   }
 
-  #nav-btn:hover{
+  .btn.nav-btn:hover{
+    color: white;
     background-color: #FF530D;
   }
   .dropdown-menu{
@@ -78,10 +79,16 @@
     .with-underline:hover {
       border-bottom-color: white !important;
     }
-    #nav-btn {
+    .nav-btn {
       margin: 0 12px;
       padding: 20px;
     }
+  }
+
+  .btn.nav-btn.nav-btn-live {
+    margin-right: 8px;
+    background-color: white;
+    color: #ea4a3c;
   }
 }
 

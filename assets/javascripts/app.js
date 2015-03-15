@@ -2,7 +2,7 @@
 //= require bootstrap
 //= require postuler
 //= require ga
-//= require infinite-scroll
+/// require infinite-scroll
 //= require "isotope.pkgd.min.js"
 
 $(function() {
@@ -45,5 +45,8 @@ $(function() {
     $(".all-posts").isotope({ filter: filterValue });
   });
 
+  if (window.location.hash) {
+    $("html").animate({ scrollTop: $(window.location.hash).offset().top }, 1000);
+  }
 })
 

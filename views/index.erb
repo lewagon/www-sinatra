@@ -14,7 +14,7 @@
         <a href="http://fast.wistia.net/embed/iframe/9vb45twa62?videoWidth=710&amp;videoHeight=432&amp;controlsVisibleOnLoad=true&amp;autoPlay=true&amp;popover=true" class="wistia-popover[width=710,height=432,playerColor=#636155]">
           <div id="play-button"></div>
         </a>
-        <script charset="ISO-8859-1" src="http://fast.wistia.net/static/popover-v1.js"></script>
+        <script charset="ISO-8859-1" src="http://fast.wistia.net/static/popover-v1.js" async></script>
       </div>
 
       <div id="nl-box">
@@ -51,7 +51,7 @@
       <p><%= t "home.concrete_projects_built" %></p>
     </div>
     <div class="col-sm-4">
-      <h2>1200</h2>
+      <h2>8</h2>
       <p><%= t "home.coders_trained_at_lewagon" %></p>
     </div>
   </div>
@@ -81,7 +81,7 @@
           </span>
         </h2>
         <% MEDIAS.each_with_index do | media, index| %>
-        <div class="col-md-2 col-xs-4">
+        <div class="col-sm-2 col-xs-6">
           <a href="<%= media[:url]%>"><img class="logo" src="<%= image_path "medias/#{media[:logo]}" %>" alt="<%= media[:name] %>"></a>
         </div>
         <% end %>
@@ -104,8 +104,11 @@
   </div>
 </div>
 
+<a name="technical-kits"></a>
+
 <div class="vertical-spacer"></div>
 
+<!--
 <div id="boosters">
   <div class="container">
     <div class="row">
@@ -117,14 +120,15 @@
     </div>
 
     <div class="row">
-      <% BOOSTERS.each do |slug, booster| %>
-          <%= erb :booster_card, locals: { slug: slug, booster: booster, number: BOOSTERS.count} %>
-      <% end %>
+      <%# BOOSTERS.each do |slug, booster| %>
+          <%# erb :booster_card, locals: { slug: slug, booster: booster, number: BOOSTERS.count } %>
+      <%# end %>
     </div>
   </div>
 </div>
 
 <div class="vertical-spacer"></div>
+-->
 
 <div class="container">
   <div class="row" id="cursus">
@@ -196,8 +200,31 @@
 
 <div class="vertical-spacer"></div>
 
-<div class="vertical-spacer"></div>
-
+<div id="blog-suggestions">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+        <h2><%= t "home.blog_disclaimer" %></h2>
+        <p class="pitch"><%= t "home.blog_pitch" %></p>
+      </div>
+    </div>
+    <div class="row clear-margin">
+      <% @posts.take(3).each do |post| %>
+        <div class="col-xs-12 col-sm-4 text-center">
+          <article class="postcard element">
+            <a href="/blog/<%= post.slug %>" class="link-img" style="background-image: url('<%= asset_path "blog/#{post.metadata[:thumbnail]}" %>')"></a>
+            <a href="/blog/<%= post.slug %>"><h3><%= post.metadata[:title] %></h3></a>
+          </article>
+        </div>
+      <% end %>
+      <div class="row text-center">
+        <div class="col-xs-12">
+          <h2><a href="/blog" class="arrow-link"><%= t "home.link_to_blog" %> <i class="fa fa-angle-double-right"></i></a></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- TODO:
 <!-- <div id="meetus" class="center">

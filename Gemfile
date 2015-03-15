@@ -16,13 +16,14 @@ group :assets do
   gem 'bootstrap-sass', '~> 3.2.0'
   gem 'rails-assets-jquery'
   gem 'rails-assets-font-awesome'
-  gem 'rails-assets-infinite-scroll'
+  # gem 'rails-assets-infinite-scroll'
 end
 
 gem 'pygmentize'
 gem 'redcarpet'
 gem 'gibbon'
 gem 'ruby-trello', github: 'jeremytregunna/ruby-trello'
+gem 'rest-client'
 
 # Serve fonts to other domains (Wufoo)
 gem 'rack-cors', :require => 'rack/cors'
@@ -30,6 +31,8 @@ gem 'rack-cors', :require => 'rack/cors'
 gem 'bugsnag'
 gem 'actionpack'
 gem 'meetup_client'
+
+gem 'rspec'
 
 group :development do
   gem 'better_errors'

@@ -38,6 +38,7 @@
 
     <link rel="icon" href="/favicon.png" type="image/png" />
   </head>
+
   <body class="<%= @body_class %>">
       <!-- Facebook SDK -->
       <script>
@@ -76,6 +77,7 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-39720822-1', 'lewagon.org');
+    ga('require', 'linkid', 'linkid.js');
     ga('send', 'pageview');
     </script>
     <!-- End Google Analytics -->
@@ -105,5 +107,6 @@
     <%= yield_content :js %>
 
     <%= erb :olark unless App.development? %>
+    <%= erb :facebook_custom_audience_tracking unless App.development? %>
   </body>
 </html>

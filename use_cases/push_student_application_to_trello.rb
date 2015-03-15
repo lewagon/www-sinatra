@@ -18,9 +18,9 @@ module UseCases
       card.desc = <<-EOF
 #{params[:first_name]} #{params[:last_name]} | #{params[:age]} | #{params[:email]} | #{params[:phone]}
 
-## Codecademy
+## [Codecademy]()
 
-## Contrat
+## [Contrat]()
 
 ## Facture
 
@@ -44,6 +44,8 @@ module UseCases
       checklist_json = JSON.parse(card.create_new_checklist("Paiement"))
       checklist = ::Trello::Checklist.find(checklist_json["id"])
       checklist.add_item("Solde")
+
+      card
     end
   end
 end

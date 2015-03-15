@@ -47,6 +47,7 @@ fr:
     footer: "Nous n'avons pas répondu à votre question ? Une seule adresse :"
   city:
     title: Le Wagon - Bootcamp de Ruby on Rails à
+    teachers: Profs
     partners: Partenaires
     partner_join_html: |
       <br /><strong>Vous avez envie de rejoindre cette liste?</strong><br />Pour nous soutenir,
@@ -75,7 +76,7 @@ fr:
     third: |
       Le Wagon a accéléré ma transition vers le métier qui me passionne vraiment.
       Sorti d'une école de commerce, je suis maintenant développeur junior
-      chez weroom dans un cadre super stimulant où je continue
+      chez Finexkap dans un cadre super stimulant où je continue
       a apprendre tous les jours.
     fourth: |
       Le wagon à été pour moi le moyen de concrétiser mon projet,
@@ -88,10 +89,10 @@ fr:
       Allez voir par vous-même les projets codés par nos anciens élèves !
     banner: APPRENEZ À CODER
     two_months: 2 MOIS
-    to_become_developper: Pour devenir un vrai développeur
+    to_become_developper: Pour devenir développeur
     hundred_percent: 100%
     concrete_projects_built: Des projets d'élèves concrétisés
-    coders_trained_at_lewagon: Codeurs formés au Wagon
+    coders_trained_at_lewagon: Promotions d'entrepreneurs/codeurs
     program_in_details_uppercase: Programme fullstack en détails
     see_the_projects: Voir les projets
     boosters_pitch: |
@@ -130,9 +131,13 @@ fr:
       <strong>JavaScript</strong> et <strong>AJAX</strong>.
     coding_best_practices: "Les <em>best practices</em> de developpement web (<strong>collaboration sur Github</strong>, <em>versionning</em> de code, <strong>déploiement continu sur Heroku</strong>, gestion des photos sur <strong>Amazon S3</strong>, envoi de mail avec SMTP externe comme <strong>Mandrill</strong>, etc.)"
     media: Ils parlent du Wagon
+    blog_disclaimer: À lire sur le blog
+    blog_pitch: "Toutes les semaines retrouvez des tutos, vidéos de meetup et autres ressources exclusives sur notre blog !"
+    link_to_blog: Voir tous les articles
   blog:
     read_article: Lire l'article
-    written: "Écrit par <a href='%{href}'>%{author}</a> le %{date}"
+    written: "Publié par <a href='%{href}'>%{author}</a> le %{date}"
+    moreposts: Continuez la visite !
   apply:
     title: Candidature - S'inscrire au Wagon pour 9 semaines de Ruby on Rails
     banner: Postulez au Wagon
@@ -143,11 +148,14 @@ fr:
         zero: Get in line!
         one: Postuler
         other: Postuler
+      apply_modal:
+        pre_inscription: Pré-inscription
+        it_is_limited: Le programme est <strong>limité à 10 inscrits</strong>.
       apply_button:
         zero: Prévenez-mois quand ça ouvre !
         one: Postuler
         other: Postuler
-      motivation: Qu'attendez-vous de ce Kit?
+      motivation: Qu'attendez-vous de ce Kit ?
       choose_camp:
         one: "Vous participerez à la session suivante :"
         other: À quelle session souhaitez-vous participer ?
@@ -167,6 +175,9 @@ fr:
       apply_button: POSTULER
       price_begin: "Prix : "
       price_end:  "TTC. Nous vous recontacterons rapidement par email !"
+      price_html: "Prix : <strong>%{price}</strong> € TTC. Nous vous recontacterons rapidement par email !"
+      soon: "départ prévu pour bientôt"
+      registrations_not_open_yet: Pas encore ouvert
   thanks:
     title: Merci !
     content_html: 'Nous vous recontacterons rapidement par mail pour prévoir un rendez-vous. En attendant, <a href="http://twitter.com/Lewagonparis">suivez-nous sur Twitter !</a>'
@@ -209,7 +220,7 @@ fr:
       vos idées en produits, vous aurez codé plusieurs applis
       web et aurez un portfolio de votre travail sur Github.</p>
       <p>Vous ferez surtout partie d'une communauté hyperactive :
-      80 alumni, 8 professeurs, 12 mentors, 7 startups d'anciens
+      160 alumni, 8 professeurs, 15 mentors, 9 startups d'anciens
       déjà créées, des apero-talks tous les jeudi-soirs avec des intervenants
       de haut-niveau, <strong>un suivi technique des projets
       post-formation</strong>.</p><p>Développeur, entrepreneurs,
@@ -221,15 +232,12 @@ fr:
       web (Taster's club, Sylights, Txto), ayant une "expérience
       terrain" du code, et sachant sur quelles notions il faut
       mettre l'accent.</p>
-      <p>Chaque participant est également encadré par un mentor,
-      un développeur professionnel qui vous suit sur vos projets
-      personnel, et avec qui vous bâtissez une relation privilégiée.</p>
       <p>Ah ! et on fait aussi du yoga le jeudi avec Claire.
       Pour se vider la tête :)</p>
     typical_day_upcase: JOURNÉE-TYPE
     nine_o_clock: introduction théorique & live-code des professeurs projeté sur grand écran.
     ten_o_clock: challenges en binôme ou par groupe sur la plateforme autocorrigée du Wagon, encadrés par les professeurs.
-    twelve_o_clock: déjeuner (avec <i>lightning talk</i> sur des sujets tech, e.g. hardware, dataviz, etc.).
+    twelve_o_clock: Déjeuner.
     two_o_clock: poursuite des challenges avec ré-explication des notions-clefs.
     seven_o_clock: |
       Selon la journée, séance de soutien, mentoring sur
@@ -249,5 +257,9 @@ fr:
       et de collaboration sur Github, déploiement continu et
       scaling d'une application web sur heroku, gestion des
       photos sur Amazon S3, etc.)
+  kit:
+    what_you_will_learn: Ce que vous apprendrez
+    become: Devenez
+    by_day: Par journee
   press:
     title: Presse

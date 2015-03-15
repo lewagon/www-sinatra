@@ -9,20 +9,20 @@
     <div class="col-sm-6">
       <div class="form-group">
         <label for="first_name"><%= t "apply.form.first_name" %></label>
-        <input class="form-control" type="text" name="first_name" id="first_name" placeholder="John" value="<%= params[:first_name] %>" required>
+        <input class="form-control" type="text" name="first_name" id="first_name" placeholder="Alan" value="<%= params[:first_name] %>" required>
       </div>
     </div>
     <div class="col-sm-6">
       <div class="form-group">
         <label for="last_name"><%= t "apply.form.last_name" %></label>
-        <input class="form-control" type="text" name="last_name" id="last_name" placeholder="Doe" value="<%= params[:last_name] %>" required>
+        <input class="form-control" type="text" name="last_name" id="last_name" placeholder="Turing" value="<%= params[:last_name] %>" required>
       </div>
     </div>
   </div>
 
   <div class="form-group">
     <label for="email"><%= t "apply.form.email" %></label>
-    <input class="form-control" type="email" name="email" id="email" placeholder="john@doe.org" value="<%= params[:email] %>" required>
+    <input class="form-control" type="email" name="email" id="email" placeholder="alan@turing.org" value="<%= params[:email] %>" required>
   </div>
 
   <div class="row">
@@ -79,8 +79,10 @@
             <option><%= choice %></option>
           <% end %>
           </select>
+        <% elsif question[:multiline] %>
+          <textarea class="form-control" name="additional_questions[<%= index %>][answer]" id="additional_question_<%= index %>" rows="4" <%= question[:required] ? 'required' : nil %>></textarea>
         <% else %>
-          <textarea class="form-control" name="additional_questions[<%= index %>][answer]" id="additional_question_<%= index %>" rows="4" required></textarea>
+          <input type="text" class="form-control" name="additional_questions[<%= index %>][answer]" id="additional_question_<%= index %>" <%= question[:required] ? 'required' : nil %>>
         <% end %>
       </div>
     <% end %>
@@ -103,6 +105,8 @@
     </span>
   </div>
 
+  <!-- Anti-spam -->
+  <input name="country" id="country">
   <button class="btn btn-primary red-btn" style="width: 100%">
     <%= t "apply.booster_form.apply_button", count: @booster_camps ? @booster_camps.size : 0 %>
   </button>

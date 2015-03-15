@@ -72,6 +72,93 @@
   }
 }
 
+#blog-suggestions{
+  padding: 50px 0;
+  background-color: white;
+
+  h2 { text-transform: uppercase; }
+
+  .clear-margin {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .postcard {
+    position: relative;
+    margin: 20px 0;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 0px 10px #f4f4f4;
+    border-radius: 5px;
+
+    webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+    &:hover {
+      background-color: #333;
+      h3 { color: #fff; }
+    }
+
+    .content {
+      padding: 15px;
+    }
+
+    h3 {
+      font-size: 20px;
+      color: #333;
+      padding: 0 20px 10px 20px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    p { margin: 0.5em 0; }
+
+    .link-img {
+      overflow: hidden;
+      background-size: cover;
+      height: 200px;
+      border-radius: 5px 5px 0 0;
+      display: block;
+    }
+
+    @media(max-width: $screen-sm-max) {
+      .link-img {
+        height: 150px;
+      }
+    }
+
+    .link-post {
+      position: relative;
+      display: block;
+      width: 200px;
+      left: 0;
+      right: 0;
+      margin: 40px auto 20px auto;
+      line-height: 40px;
+      border-radius: 10px;
+
+      height:40px;
+      bottom: 41px;
+      background-color: #4599df;
+      border-radius: 2px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+      transition: 0.3s ease;
+
+      &:hover{
+        text-decoration: none;
+        background-color: #57a9ed;
+      }
+    }
+  }
+}
+
+
 #meetus{
   min-height: 400px;
   background-image: asset-url("team.jpg");
@@ -159,6 +246,9 @@
 @media screen and (max-width: $screen-md-min) {
   .panel-booster {
     margin: 20px 50px;
+  }
+  .ribbon {
+    display: none;
   }
 }
 

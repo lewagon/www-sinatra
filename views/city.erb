@@ -86,15 +86,15 @@
 
 <div class="teachers text-center">
   <div class="container">
-    <h2>STAFF</h2>
+    <h2><%= t "city.teachers" %></h2>
     <br/><br/>
 
     <div class="row">
 
-      <% @city[:staff].each_slice(3) do |slice| %>
+      <% @city[:staff].each_slice(2) do |slice| %>
 
         <% slice.map { |slug| STAFF[slug.to_sym] }.each do |teacher| %>
-          <div class="<%= @city[:staff].length == 2 ? 'col-sm-6' : 'col-md-4 col-sm-6' %>">
+          <div class="col-sm-6">
             <div class="row teacher">
               <div class="col-xs-4">
                 <img src="<%= image_path "teachers/#{teacher[:image_name]}" %>" class="img-rounded">

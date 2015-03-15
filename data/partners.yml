@@ -43,6 +43,11 @@ girlsintechparis:
   image_name: girlsintechparis.png
   url: http://gitparis.com
 
+co_station:
+  name: Co.Station
+  image_name: costation.png
+  url: http://www.co-station.com
+
 pullreview:
   name: Pull Review
   image_name: pullreview.png

@@ -47,6 +47,7 @@ en:
     footer: "We haven't answered your questions yet? Contact us:"
   city:
     title: Le Wagon - Coding Bootcamp in
+    teachers: Teachers
     partners: Partners
     partner_join_html: |
       <strong>You want to be part of this list?</strong>
@@ -73,7 +74,7 @@ en:
     third: |
     third: |
       Le Wagon helped me make a transition from business school student to software engineer.
-      I am now developer at Weroom, working with amazing folks, and I keep learning every day.
+      I am now developer at Finexkap, working with amazing folks, and I keep learning every day.
     fourth: |
       Le Wagon gave me the tools & knowledge to make my project come true,
       find an associate and start working on web issues. It’s now a huge advantage
@@ -86,7 +87,7 @@ en:
     to_become_developper: To become a software engineer
     hundred_percent: 100%
     concrete_projects_built: Student projects completed
-    coders_trained_at_lewagon: Developers already trained at Le Wagon
+    coders_trained_at_lewagon: Batchs of entrepreneurs/coders
     program_in_details_uppercase: THE FULLSTACK PROGRAM
     see_the_projects: See all student projects
     boosters_pitch: |
@@ -124,15 +125,30 @@ en:
       <strong>continuous deployment on Heroku</strong>, pictures management on <strong>Amazon S3</strong>,
       automatic mailing with external SMTP like <strong>Mandrill</strong>, etc)
     media: They talk about us
+    blog_disclaimer: Now live on our blog
+    blog_pitch: Enjoy a whole new set of exclusive content every week!
+    link_to_blog: See all posts
   blog:
     read_article: Read the article
-    written: "Written by <a href='%{href}'>%{author}</a> on %{date}"
+    written: "Published by <a href='%{href}'>%{author}</a> on %{date}"
+    moreposts: More from slate
   apply:
     title: Apply to Le Wagon for 9 weeks of Ruby on Rails
     banner: Apply to Le Wagon
     description: Apply to Le Wagon and build amazing products with ruby on Rails in 9 weeks.
     lead: "Le Wagon is a <strong>challenging</strong> program that requires <strong>full-time</strong> investment during <strong>9 weeks</strong>. You should be <strong>fluent in English</strong>, programmer's reference language. Fill the form below to apply."
     booster_form:
+      title:
+        zero: Get in line!
+        one: Apply
+        other: Apply
+      apply_modal:
+        pre_inscription: Application
+        it_is_limited: This program is <strong>limited to 10 students</strong>.
+      apply_button:
+        zero: Contact me when it's live !
+        one: Apply
+        other: Apply
       motivation: What do you expect from this kit?
       choose_camp:
         one: "You'll attend the following session :"
@@ -153,6 +169,8 @@ en:
       booked: Full
       price_begin: "Price : "
       price_end:  ". We'll reach out quickly to you by email."
+      soon: coming soon
+      registrations_not_open_yet: Not open yet
   thanks:
     title: Thanks!
     content_html: "We'll contact you shortly by email to plan an interview. In the meantime, <a href='http://twitter.com/Lewagonbrussels'>follow us on Twitter</a>"
@@ -189,8 +207,8 @@ en:
     le_wagon_community: |
       <p>At the end of the program, you’ll know how to <strong>transform
       ideas into products</strong>, and you will already have <strong>several projects in your Github portfolio</strong>.</p>
-      <p>You will also be part of a very active community: 100 former students,
-      8 teachers, 15 coachs, 7 start-ups made in Le Wagon,
+      <p>You will also be part of a very active community: 160 former students,
+      8 teachers, 15 coachs, 9 start-ups made in Le Wagon,
       world-class workshops every Thursday with inspiring entrepreneurs and CEOs,
       personal coaching session on your personal projects after the end of the program.</p>
       <p>Be prepared to join a community of passionate professionals, ready to help and to bring you new opportunities.</p>
@@ -209,7 +227,7 @@ en:
       Pair-programming challenges with automatic scoring & correction through our
       automated platform
     twelve_o_clock: |
-      Lunch with lightning talks on Tech topics (hardware, dataviz, etc)
+      Lunch Break
     two_o_clock: |
       Challenges follow-through and re-explanation of the core concepts
     seven_o_clock: |
@@ -229,5 +247,9 @@ en:
       (code versioning and collaboration techniques on Github,
       continuous deployment and scaling on heroku, management of pictures with
       Amazon S3, automatic mailing with external SMTP like Mandrill, and a lot more..)
+  kit:
+    what_you_will_learn: What you will learn
+    become: Become
+    by_day: By day
   press:
     title: Press

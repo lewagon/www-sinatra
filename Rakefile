@@ -3,6 +3,9 @@ unless ENV['RACK_ENV'] == 'production'
   Dotenv.load
 end
 
+require 'rspec/core/rake_task'
+RSpec::Core::RakeTask.new(:spec)
+
 require "trello"
 
 WAGON_TRELLO_ORG_ID = '53621ecf40984f5615bf702a'
@@ -32,7 +35,7 @@ namespace :trello do
     configure_trello
 
     Trello::Board.all.select { |b| b.organization_id == WAGON_TRELLO_ORG_ID } .each do |board|
-      puts "# #{board.name}"
+      puts "# #{board.name} (#{board.id})"
       board.lists.each do |list|
         puts "  #{list.id} - #{list.name}"
       end

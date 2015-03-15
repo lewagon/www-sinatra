@@ -23,24 +23,53 @@
 
 <div class="vertical-spacer"></div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <article class="blog-post">
-        <%= @post.content %>
-      </article>
+<% if @post.metadata[:labels].include?('video') %>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <article class="blog-post video-post">
+            <%= @post.content %>
+        </article>
+      </div>
     </div>
   </div>
-</div>
+<% else %>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <article class="blog-post">
+          <%= @post.content %>
+        </article>
+      </div>
+    </div>
+  </div>
+<% end %>
 
 <%= erb :share %>
 
-
-<div class="blog-comment">
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <%= erb :disqus %>
+<div class="suggestions">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2><%= t "blog.moreposts" %></h2>
+        <% @pushed_posts.sample(3).each do |post| %>
+          <div class="col-xs-12 col-sm-4">
+            <article class="postcard element">
+              <a href="/blog/<%= post.slug %>" class="link-img" style="background-image: url('<%= asset_path "blog/#{post.metadata[:thumbnail]}" %>')"></a>
+              <a href="/blog/<%= post.slug %>"><h3><%= post.metadata[:title] %></h3></a>
+            </article>
+          </div>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>
+
+<!-- <div class="blog-comment">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <%# erb :disqus %>
+    </div>
+  </div>
+</div> -->
 

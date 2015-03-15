@@ -23,7 +23,7 @@ seb:
   image_name: seb.png
   description:
     fr: |
-      Baroudeur du code, **Sébastien** sévit maintenant en tant
+      Baroudeur du code et **CTO** du Wagon, **Sébastien** sévit en tant
       que [coach technique](http://sebastien.saunier.me) pour startup. Il aura à coeur de transmettre
       la rigueur et les bonnes pratiques aux élèves du Wagon!
     en: |
@@ -67,9 +67,9 @@ boris:
   description:
     fr: |
       **Boris** a fui sa salle de marché pour se
-      lancer dans le code corps et âme. Il comprend parfaitement
-      les besoins des débutant et a codé avec Sébastien le
-      [site](http://lewagon.org) et les plate-formes
+      lancer dans le code corps et âme. Maintenant **CEO** du Wagon, il comprend parfaitement
+      les besoins des débutants et a codé avec Sébastien le
+      [site](http://www.lewagon.org) et les plate-formes
       pédagogiques du Wagon.
     en: |
       **Boris** got bored from financial markets
@@ -85,15 +85,15 @@ cecile:
   image_name: cecile.png
   description:
     fr: |
-      Avec 5 ans d'expérience en e-commerce, **Cécile**
+      Avec 6 ans d'expérience en e-commerce, **Cécile**
       aime partager sa passion pour Ruby on Rails. Lilloise de coeur
       et hyper-active, elle co-anime les rencontres Rails Mentors,
       Rails Girls et Ruby Burgers.
     en: |
-      After 5 years working on e-commerce apps, **Cecile**
-      now likes sharing her passion for ruby and Rails. Coming from Lille,
-      she is an active member of the local ruby & Rails community (co-organizing Rails Girls & Ruby
-      burgers events)
+      After 6 years working on e-commerce apps, **Cecile**
+      now likes sharing her passion for Ruby and Rails. Coming from Lille,
+      she is an active member of the local Ruby & Rails community (co-organizing Rails Girls & Ruby
+      Burgers events).
   links:
     - url: https://github.com/cveneziani
       icon: github-alt
@@ -125,16 +125,15 @@ martin:
   description:
     fr: |
       Après quelques années à former des développeurs,
-      **Martin** a été tour à tour software engineer, customer contact,
-      chef d'équipe, et coach agile. Il a créé [PullReview](https://www.pullreview.com),
+      **Martin** a été tour à tour software engineer, team leader et coach agile.
+      Il a co-fondé [PullReview](https://www.pullreview.com),
       une solution SaaS pour faire des *code reviews* automatiques de code Ruby.
       Il co-anime également Rails Girls Brussels et est un speaker habituel
       du [Paris.rb](http://www.meetup.com/parisrb/).
     en: |
       After some years spent in teaching future programmers,
-      **Martin** did work as a programmer,
-      customer contact, team leader, architect and agile coach.
-      He is now working on [PullReview](https://www.pullreview.com)
+      **Martin** did work as a programmer, team leader, architect and agile coach.
+      He co-founded [PullReview](https://www.pullreview.com), a toolchain
       aiming to help Ruby developers to improve their coding practices.
       He is also co-organizing the Brussels chapter of Rails Girls and
       a frequent speaker at [Paris.rb](http://www.meetup.com/parisrb/).
@@ -263,8 +262,8 @@ jeanchristophe:
     fr: |
        Après 3 ans dédiés à la formation en tant que directeur pédagogique d’une école d’ingénieurs informatiques,
        <strong>Jean-Christophe</strong> a concentré ses efforts sur le développement de sa propre startup :
-       <strong>Bigint</strong>. Spécialisée dans la création d'applications internet riches et les projets IT
-       d'envergure, elle mène en parallèle des travaux de R&D.
+       <strong>Bigint</strong>. Spécialisé dans la création d'applications internet riches et les projets IT
+       d'envergure, il mène en parallèle des travaux de R&D.
     en: |
       After 3 years as the pedagogic head of a software engineering school, <strong>Jean-Christophe</strong> has focused
       on his own startup: <strong>Bigint</strong>. Specialised in rich internet application and high stake IT projects,
@@ -295,21 +294,6 @@ archibald:
     - url: https://twitter.com/ArchibaldPicq
       icon: twitter
     - url: http://bigint.fr/
-      icon: link
-costa:
-  image_name: costa.jpg
-  description:
-    fr: |
-      Constantine est un développeur full-stack expérimenté. Il a découvert ce qu'était vraiment la big data au Sanger Institute, un centre de recherche en génétique à Cambridge, UK (de 2008 à 2010).
-      Il a ensuite été lead développeur de Papers app et Livfe de 2010 à 2012. Constantine est maintenant co-founder et CTO de <a href="http://referd.net/" target="_blank">Referd</a>, une solution business de "private referrals".
-    en: |
-      Constantine is an experienced full-stack developer. He first tasted what big data was like at Sanger Institute, a genome research institute in Cambridge, UK from '08 - '10. He then lead development on the cloud solution for Papers app, Livfe, from '10 to '12. Constantine is now co-founder and CTO at Referd, the business tool for private referrals.
-  links:
-    - url: http://bit.ly/cn-linkedin
-      icon: linkedin
-    - url: http://bit.ly/cn-twitter
-      icon: twitter
-    - url: http://referd.net/team#cnicolaou
       icon: link
 antoine:
   image_name: antoine.jpg
@@ -342,3 +326,44 @@ martindaniel:
       icon: link
     - url: https://github.com/martindaniel4
       icon: github
+jeanelie:
+  image_name: jeanelie.jpg
+  description:
+    fr: |
+      Jean-Élie aime concevoir et coder de belles applis iOS et Android qui vont changer la vie des gens.
+      Il est passionné par les projets qui mêlent créativité et challenges techniques. Les deux dernières années,
+      il a codé de belles applis natives iPhone, iPad et Android qui ont <i>scalé</i> pour des startups à forte croissance.
+      Il est actuellement <i>lead mobile software engineer</i> chez <a href="https://www.drivy.com/" target="_blank">Drivy</a>
+      Il aura à coeur de vous apprendre à batir la future <i>killer-app</i>.
+    en: |
+      Jean-Élie loves designing and building beautiful iOS and Android apps that can impact people's lives.
+      He's passionate about projects that combine creativity and technical challenges. For the past 2 years,
+      he has managed and developed several large scaled native iPhone, iPad and Android apps
+      for global companies in France. He's currently lead mobile software engineer at <a href="https://www.drivy.com/" target="_blank">Drivy</a>
+      He'll teach you how to build the next big thing !
+  links:
+    - url: https://github.com/jeanelie
+      icon: github-alt
+    - url: https://fr.linkedin.com/in/jeclic
+      icon: linkedin
+    - url: https://twitter.com/jeclic
+      icon: twitter
+thomas_chretien:
+  image_name: thomas.png
+  description:
+    fr: |
+      Du simple layout aux petites animations CSS,
+      **Thomas** est un féru de design et de dev front-end, une passion qu'il a découvert au batch #5
+      du  Wagon l'été dernier en développant et designant <a href="http://trackguru.co" target='_blank'>TrackGuru</a> en tant qu'élève !
+    en: |
+      A design geek, Thomas has developed a passion for front end coding after being a student at Le Wagon’s #5 batch last summer.
+      He developed and designed the TrackGuru web app as his entrepreneurial project at the boot camp.
+  links:
+    - url: https://github.com/tchret
+      icon: github-alt
+    - url: http://fr.linkedin.com/in/tchret
+      icon: linkedin
+    - url: https://twitter.com/tchret
+      icon: twitter
+    - url: http://www.trackguru.co
+      icon: link
