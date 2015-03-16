@@ -12,7 +12,7 @@ fr:
   # - question: "Est ce que vous êtes éligibles au DIF ?"
   #   answer: "Oui. Le Wagon est organisme de formation agréé."
   - question: "Quand se déroule précisément la formation ?"
-    answer: "Du lundi au vendredi, de 9h à 19h, soit 400 heures de cours sur les 9 semaines."
+    answer: "Du lundi au vendredi, de 9h à 19h, soit 360 heures de cours sur les 9 semaines."
   - question: "Comment se déroule la sélection pour le bootcamp ?"
     answer: "Après avoir postulé sur le site nous vous proposerons un rendez-vous pour discuter de vos attentes et répondre à vos questions. A la suite de cet entretien vous devrez valider la <a href='http://www.codecademy.com/tracks/ruby?locale_code=en' target='_blank'>track Ruby sur CodeCademy</a>. Ensuite, nous vous enverrons votre contrat, ainsi qu'une facture. Ce n'est qu'au paiement d'un acompte d'un tiers du montant de la formation que votre embarquement est définitif."
   - question: "Est-ce que je dois venir avec mon ordi ?"
@@ -41,7 +41,7 @@ en:
       You’ll also learn to create APIs that will be used by your mobile apps.
       It will then be very easy for any mobile developper to code your iOS or Android interface starting from the API you’ve built.
   - question: "When do classes take place?"
-    answer: "Monday to Friday, 9am to 7pm, which makes 400 hours during 9 weeks."
+    answer: "Monday to Friday, 9am to 7pm, which makes 360 hours during 9 weeks."
   - question: "What is the application process ?"
     answer: "After applying we'll invite you to an interview to discuss your needs and answer to your questions. After this interview and before any onboarding you'll have to complete the <a href='http://www.codecademy.com/tracks/ruby?locale_code=en' target='_blank'>Ruby track on CodeCademy</a>"
   - question: "Should I bring my laptop?"
