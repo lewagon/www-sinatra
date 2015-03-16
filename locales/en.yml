@@ -167,7 +167,8 @@ en:
       apply_button: APPLY
       last_seats: Last seats!
       booked: Full
-      price_html: "Price: <strong>%{price}</strong>€. We'll reach out quickly to you by email."
+      price_begin: "Price : "
+      price_end:  " Incl. Tax. Payment in three installments, free of charge"
       soon: coming soon
       registrations_not_open_yet: Not open yet
   thanks:

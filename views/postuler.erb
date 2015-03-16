@@ -117,7 +117,7 @@
             <% else %>
               <div class="radio">
                 <label>
-                  <input type="radio" name="camp" value="<%= slug %>" required>
+                  <input type="radio" name="camp" value="<%= slug %>" data-currency="<%= camp[:currency] %>" data-price="<%= camp[:price] %>" required>
                   <strong><%= camp[:city].capitalize %></strong>,
                   <small>
                     <% if camp[:start_date] %>
@@ -146,7 +146,6 @@
 
         <div class="form-group">
           <span class="help-block">
-            <%= t "apply.form.price_html", price: 3900 %>
           </span>
         </div>
 
@@ -165,3 +164,26 @@
 </div>
 
 <div class="vertical-spacer"></div>
+
+<% content_for :js do %>
+  <script>
+    $(document).ready(function() {
+      var showPrice = function(e) {
+
+        var price = $(e.target).data("price");
+        var ccy = $(e.target).data("currency");
+        if (price) {
+          var priceHTML = "<%= t "apply.form.price_begin" %>" + "<strong>" + price + "</strong> " + ccy + " <%= t "apply.form.price_end" %>";
+
+          $(".help-block").html(priceHTML);
+          $(".help-block").show();
+        } else {
+          $(".help-block").hide();
+        }
+      }
+      $('input[type=radio][name=camp]').change(showPrice);
+      showPrice({ target: $('input[type=radio][name=camp]:not(":disabled")').get(0) });
+    });
+  </script>
+<% end %>
+
