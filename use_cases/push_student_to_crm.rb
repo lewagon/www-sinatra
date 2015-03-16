@@ -1,7 +1,9 @@
 module UseCases
   class PushStudentToCrm
-    def initialize(trello_card)
+    def initialize(trello_card, price, currency)
       @trello_card = trello_card
+      @price = price
+      @currency = currency
     end
 
     def run(params)
@@ -16,7 +18,9 @@ module UseCases
           last_name: params[:last_name],
           age: params[:age],
           phone_number: params[:phone],
-          motivation: params[:motivation]
+          motivation: params[:motivation],
+          price_cents: @price * 100,
+          price_currency: @currency
         }
       }
 

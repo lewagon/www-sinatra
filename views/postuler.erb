@@ -168,15 +168,21 @@
 <% content_for :js do %>
   <script>
     $(document).ready(function() {
-      $('input[type=radio][name=camp]').change(function() {
+      var showPrice = function(e) {
 
-        var price = $(this).data("price");
-        var ccy = $(this).data("currency");
-        var priceHTML = "<%= t "apply.form.price_begin" %>" + "<strong>" + price + "</strong> " + ccy + "<%= t "apply.form.price_end" %>";
+        var price = $(e.target).data("price");
+        var ccy = $(e.target).data("currency");
+        if (price) {
+          var priceHTML = "<%= t "apply.form.price_begin" %>" + "<strong>" + price + "</strong> " + ccy + " <%= t "apply.form.price_end" %>";
 
-        $(".help-block").html(priceHTML);
-        $(".help-block").show();
-      });
+          $(".help-block").html(priceHTML);
+          $(".help-block").show();
+        } else {
+          $(".help-block").hide();
+        }
+      }
+      $('input[type=radio][name=camp]').change(showPrice);
+      showPrice({ target: $('input[type=radio][name=camp]:not(":disabled")').get(0) });
     });
   </script>
 <% end %>

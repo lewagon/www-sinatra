@@ -2,6 +2,9 @@ test:
   city: paris
   start_date: 2000-01-01
   end_date: 2000-03-01
+  price: 4500
+  currency: €
+  currency_iso: EUR
   trello:
     inbox_list_id: 54024112c975d17cd1180489
 
@@ -61,8 +64,9 @@ brussels-may-2015:
   city: brussels
   start_date: 2015-05-04
   end_date: 2015-07-03
-  price: 3900
+  price: 4500
   currency: €
+  currency_iso: EUR
   trello:
     inbox_list_id: 54b9118670053758d247480e
 
@@ -87,6 +91,7 @@ paris-juillet-2015:
   end_date: 2015-09-12
   price: 4500
   currency: €
+  currency_iso: EUR
   trello:
     inbox_list_id: 54fee28828ffa1e52b092d3f
 
@@ -96,6 +101,7 @@ paris-septembre-2015:
   end_date: 2015-11-20
   price: 4500
   currency: €
+  currency_iso: EUR
   trello:
     inbox_list_id: 54fee379820e199751400ace
 
