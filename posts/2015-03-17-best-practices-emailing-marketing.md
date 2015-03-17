@@ -11,4 +11,4 @@ description: "Shubham Sharma, developer evangelist chez Mailjet, partage avec vo
 
 <div class="video-wrapper"><iframe width="750" height="422" src="https://www.youtube.com/embed/jEBDJQP8qyU?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
-[Shubham Sharma](https://twitter.com/shub_s), *developer evangelist* chez [Mailjet](http://hello.mailjet.com/), partage avec vous les best practices de l'e-mailing marketing et transactionnel afin d'optimiser la délivrabilité de vos campagnes.
+[Shubham Sharma](https://twitter.com/shub_s), *developer evangelist* chez [Mailjet](http://mailjet.com/), partage avec vous les best practices de l'e-mailing marketing et transactionnel afin d'optimiser la délivrabilité de vos campagnes.
