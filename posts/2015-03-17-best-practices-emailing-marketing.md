@@ -6,7 +6,7 @@ labels:
   - video
   - meetup
 thumbnail: workshop-emailing-marketing-transactionnel.jpg
-description: "Shubham Sharma, developer evangelist chez Mailjet, partage avec vous les codes et règles de l'e-mailing marketing et transactionnel afin d'optimiser la délivrabilité de vos campagnes."
+description: "Shubham Sharma, developer evangelist chez Mailjet, partage avec vous les best practices de l'e-mailing marketing et transactionnel afin d'optimiser la délivrabilité de vos campagnes."
 ---
 
 <div class="video-wrapper"><iframe width="750" height="422" src="https://www.youtube.com/embed/jEBDJQP8qyU?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
