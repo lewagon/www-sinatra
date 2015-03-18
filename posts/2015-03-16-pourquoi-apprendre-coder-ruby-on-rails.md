@@ -12,7 +12,7 @@ description: Pourquoi apprendre Ruby on Rails ? Question récurrente posée par 
 
 Pourquoi apprendre [Ruby on Rails](http://rubyonrails.org/) ? Question récurrente posée par de nombreux entrepreneurs désireux d’apprendre à coder, nous vous proposons une liste de 7 points clés expliquant ce parti pris.
 
-**Important :** Notez que Ruby on Rails est un bon choix pour débuter la programmation, mais pas un choix exclusif. Python/Django sont également de solides options. Toutefois l'orientation vers Ruby on Rails s'est décidée principalement pour ses vertues pédagogiques.
+**Important :** Notez que Ruby on Rails est un bon choix pour débuter la programmation, mais pas un choix exclusif. Python/Django sont également de solides options. La décision du Wagon de s'orienter vers Ruby on Rails s'est prise principalement au regard de ses vertus pédagogiques.
 
 ![Pourquoi apprendre à coder en Ruby ?](blog_image_path thumbnail-pourquoi-apprendre-ruby-on-rails.jpg)
 
