@@ -7,23 +7,22 @@ labels:
   - Startup
   - Misc
 pushed: true
-description: Pourquoi apprendre Ruby on Rails ? Question récurrente posée par de nombreux entrepreneurs  désireux d’apprendre à coder, nous vous proposons une liste de 7 points clés explicitant ce parti pris.
+description: Pourquoi apprendre Ruby on Rails ? Question récurrente posée par de nombreux entrepreneurs  désireux d’apprendre à coder, nous vous proposons une liste de 7 points clés expliquant ce parti pris.
 ---
 
-Pourquoi apprendre [Ruby on Rails](http://rubyonrails.org/) ? Question récurrente posée par de nombreux entrepreneurs désireux d’apprendre à coder, nous vous proposons une liste de 7 points clés explicitant ce parti pris.
+Pourquoi apprendre [Ruby on Rails](http://rubyonrails.org/) ? Question récurrente posée par de nombreux entrepreneurs désireux d’apprendre à coder, nous vous proposons une liste de 7 points clés expliquant ce parti pris.
+
+**Important :** Notez que Ruby on Rails est un bon choix pour débuter la programmation, mais pas un choix exclusif. Python/Django sont également de solides options. Toutefois l'orientation vers Ruby on Rails s'est décidée principalement pour ses vertues pédagogiques.
 
 ![Pourquoi apprendre à coder en Ruby ?](blog_image_path thumbnail-pourquoi-apprendre-ruby-on-rails.jpg)
 
-
 ###Ruby, un langage accessible
 
-Une des premières choses agréables avec Ruby on Rails repose sur le langage [Ruby](http://www.ruby-lang.org) en lui-même. La syntaxe est simple, proche de la langue anglaise. Son aspect dynamiquement typé le rend peu verbeux et très souple. Il ouvre la voie à la *meta-programmation* de manière unique. Intellectuellement, c’est un plaisir de structurer sa pensée et d'écrire du code dans ce langage.
-
+Une des premières choses agréables avec Ruby on Rails repose sur le langage [Ruby](http://www.ruby-lang.org) en lui-même. La syntaxe est simple, peu verbeuse, proche de la langue anglaise et très souple. Intellectuellement, c’est un plaisir de structurer sa pensée et d'écrire du code dans ce langage.
 
 ###Un tool set minimal
 
 Une fois le [setup](https://github.com/lewagon/setup) et la [config](https://github.com/lewagon/dotfiles) de votre machine réalisés, le *tool set* associé à Ruby on Rails est le plus simple qui soit : un éditeur de texte, un terminal et un navigateur. Aucun temps et écran de chargement lorsque vous codez. Votre ordi respire. Vous aussi.
-
 
 ###Une flexibilité extraordinaire
 
@@ -37,12 +36,13 @@ Rails repose sur le principe de *[Convention over Configuration](http://en.wikip
 
 Cet aspect peut décontenancer les développeurs venant d'un langage plus verbeux, qui vont souvent se demander où se trouve le code. Il faut se faire à cette abstraction. Une fois les conventions internalisées, la vitesse de développement d'une nouvelle fonctionnalité est alors extraordinaire.
 
-
 ###La force de sa communauté
 
 Rails est une *[Gem](https://rubygems.org/gems/rails)*, c'est-à-dire un module open source, développée et maintenue depuis plus de 10 ans par des [milliers de développeurs](https://github.com/rails/rails/graphs/contributors). Il existe  en supplément des [milliers de *gems*](https://rubygems.org/), d'ailleurs nous vous en avions présenté [25 récemment](http://www.lewagon.org/blog/25-gems-indispensables-pour-debuter-une-application-rails). Ainsi, lorsqu'une nouvelle fonctionnalité est à développer, dans 90% des cas le travail peut être réalisé rapidement en se basant sur un module existant.
 
-La communauté Ruby a une culture d'ouverture et de partage depuis ses débuts. Le code est sur GitHub, s'il manque quelque chose dans une gem, aucun souci, il suffit de *forker* et d'ajouter soi-même la fonctionnalité pour son propre produit. Libre à vous d’ensuite faire une *pull request* au projet initial pour partager ce développement avec la communauté (give back). Cet esprit est formidable, sur le plan éthique / moral, mais aussi économique, car les développeurs ruby ne réinventent pas la roue et intègrent au mieux ces *briques* existantes afin de se concentrer sur **les besoins business** des utilisateurs / clients.
+Le code de chaque gem se trouve sur GitHub, s'il manque quelque chose, aucun souci, il suffit de *forker* et d'ajouter soi-même la fonctionnalité pour son propre produit. Libre à vous d’ensuite faire une *pull request* au projet initial pour partager ce développement avec la communauté (give back). Cet esprit est formidable, sur le plan éthique / moral, mais aussi économique, car les développeurs ruby ne réinventent pas la roue et intègrent au mieux ces *briques* existantes afin de se concentrer sur **les besoins business** des utilisateurs / clients.
+
+Depuis toujours, la communauté Ruby repose sur une culture d'ouverture et de partage. En supplément des multiples communautés sur le web, vous trouverez de nombreux relais physiques partout dans le monde, à l'image de l'excellent groupe [Paris.rb](http://www.meetup.com/parisrb/).
 
 ###Une skill reconnue dans le milieu Startup…
 
@@ -60,7 +60,7 @@ Par la suite, si un job vous demande de coder dans un autre langage, après une 
 - **SQL** : c'est le langage de requête utilisé pour parler avec une base de données comme PostgreSQL. Une application web présente des données à l'utilisateur, et permet de les modifier (par exemple, Facebook affiche des posts dans un feed, et vous permet d'en créer de nouveaux), et c'est le rôle de la base de données de stocker tout cela.
 - **Ruby** : le langage exécuté côté serveur (on parle de backend, par opposition au frontend composé de HTML/CSS/JavaScript), pour pouvoir utiliser Rails.
 
-L’ensemble de ces concepts sont abordés et intégrés lors du [programme full-stack du Wagon](http://www.lewagon.org/programme) et c’est incroyable de voir les étudiants emmagasiner en 9 semaines ce que j'ai mis des années à acquérir. Les profils entrepreneurs des élèves du Wagon amènent une grande diversité dans les projets, et challengent en permanence les compétences techniques du staff. Rafraîchissant !
+L’ensemble de ces concepts sont abordés et intégrés lors du [programme full-stack du Wagon](http://www.lewagon.org/programme) et c’est incroyable de voir les étudiants emmagasiner en 9 semaines ce que d'autres mettent des années à acquérir. Les profils entrepreneurs des élèves du Wagon amènent une grande diversité dans les projets, et challengent en permanence les compétences techniques du staff. Rafraîchissant !
 Sans parler des [résultats bluffants](http://www.lewagon.org/blog/alumni-wagon-projets-partie-2) !
 
 *Let's build our world!*
