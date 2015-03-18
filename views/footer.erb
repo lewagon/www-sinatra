@@ -14,7 +14,7 @@
       <div class="col-sm-3">
         <h4><%= t "menu.cities" %></h4>
         <ul class="list-unstyled">
-          <% CITIES.each do |slug, city| %>
+          <% CITIES.select { |_, city| city[:active] }.each do |slug, city| %>
             <li>
               <a href="/<%= slug %>"><%= city[:name] %></a>
             </li>
