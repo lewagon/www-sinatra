@@ -18,7 +18,7 @@ Pourquoi apprendre [Ruby on Rails](http://rubyonrails.org/) ? Question récurren
 
 ###Ruby, un langage accessible
 
-Une des premières choses agréables avec Ruby on Rails repose sur le langage [Ruby](http://www.ruby-lang.org) en lui-même. La syntaxe est simple, peu verbeuse, proche de la langue anglaise et très souple. Intellectuellement, c’est un plaisir de structurer sa pensée et d'écrire du code dans ce langage.
+Une des premières choses agréables avec Ruby on Rails repose sur le langage [Ruby](http://www.ruby-lang.org) en lui-même. La syntaxe est simple, peu verbeuse, proche de la langue anglaise et très souple. Pour les développeurs chevronés, Ruby ouvre la voie à la *meta-programmation* (le fait d'écrire du code pour que votre service génère d'autres morceaux de code automatiquement) de manière unique. Intellectuellement, c’est un plaisir de structurer sa pensée et d'écrire du code dans ce langage.
 
 ###Un tool set minimal
 
