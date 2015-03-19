@@ -9,8 +9,6 @@ fr:
     answer: "Vous aurez acquis la compétence de développeur web Ruby on Rails. Cela veut dire que vous serez capable de prototyper rapidement vos idées en créant de manière autonome un site web. Vous saurez comment permettre à vous utilisateurs de s'inscrire sur votre site (Sign up, ou Sign up avec Facebook/Twitter), ajouter une <em>back-office</em> d'administration, accepter du paiement, envoyer des emails automatiquement, etc. Vous saurez comment <em>mettre en production</em> rapidement et vous aurez appris les bonnes pratiques de développement utilisées par les meilleures startups actuelles. Vous aurez alors le choix : continuer votre projet entreprenarial, ou bien candidatez comme <em>junior developer</em> dans une startup web !"
   - question: "Est ce que vous nous apprenez à faire des applis mobiles ?"
     answer: "Oui et non. Soyons clair, vous n'apprendrez pas le développement iOS, Android ou Windows Phone. Nous pensons que cette compétence est difficile à acquérir en 9 semaines. Nous préférons vous apprendre les bases de la programmation et la programmation web car le web est <strong>la</strong> plateforme ouverte qu'il faut maîtriser. En effet, grâce au <em>Responsive Web Design</em> que nous aborderons, vous pouvez réaliser une application web qui s'affiche correctement sur mobile ou tablette. Vous apprendrez aussi à créer une <strong>API</strong> qui servira à votre future application mobile. En effet, une fois un site et une API développés par vos soins en place, un développeur freelance mobile pourra beaucoup plus facilement et rapidement créer l'app iOS ou Android !"
-  # - question: "Est ce que vous êtes éligibles au DIF ?"
-  #   answer: "Oui. Le Wagon est organisme de formation agréé."
   - question: "Quand se déroule précisément la formation ?"
     answer: "Du lundi au vendredi, de 9h à 19h, soit 360 heures de cours sur les 9 semaines."
   - question: "Comment se déroule la sélection pour le bootcamp ?"
@@ -19,7 +17,7 @@ fr:
     answer: "Oui, tous les élèves doivent avoir un ordinateur portable. Nous utiliserons Mac OS X ou Linux, si vous n'avez que Windows, ne vous inquiétez pas, le premier jour est consacré à installer Linux sur vos machines (en complément de windows)."
   - question: "Combien coûte la formation ?"
     answer: >
-      <strong>4500 euros TTC</strong>, payé en trois fois (un tiers en acompte, un tiers en quatrième semaine de formation, un tiers en huitième semaine de formation). Suite à une réforme récente nous avons dû suspendre toutes les demandes de financement tiers. Nous travaillons à nous aligner sur les critères d’éligibilité à ces dispositifs mais à l’heure actuelle, il n’est malheureusement pas possible de faire appel à un organisme externe de financement.<br />
+      <strong>4500 euros TTC</strong>, payé en trois fois (un tiers en acompte, un tiers en quatrième semaine de formation, un tiers en huitième semaine de formation).<br />
 
 en:
   - question: "What's the application process to Le Wagon?"
