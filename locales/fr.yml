@@ -174,7 +174,7 @@ fr:
       booked: Complet
       apply_button: POSTULER
       price_begin: "Prix : "
-      price_end:  "TTC. Paiement en 3 fois. Suite à une réforme récente nous avons dû suspendre toutes les demandes de financement tiers. Nous travaillons à nous aligner sur les critères d’éligibilité à ces dispositifs mais à l’heure actuelle, il n’est malheureusement pas possible de faire appel à un organisme externe de financement."
+      price_end:  "TTC."
       soon: "départ prévu pour bientôt"
       registrations_not_open_yet: Pas encore ouvert
   thanks:
