@@ -174,7 +174,7 @@ fr:
       booked: Complet
       apply_button: POSTULER
       price_begin: "Prix : "
-      price_end:  "TTC."
+      price_end: "TTC. Paiement en 3 fois sans frais."
       soon: "départ prévu pour bientôt"
       registrations_not_open_yet: Pas encore ouvert
   thanks:
