@@ -32,9 +32,9 @@ Quel que soit le domaine dans lequel vous souhaitez vous investir, votre besoin 
 
 ###Un apprentissage et une collaboration simplifiés
 
-Rails repose sur le principe de *[Convention over Configuration](http://en.wikipedia.org/wiki/Convention_over_configuration)*. L'architecture des dossiers de votre code est normalisée, et rendue obligatoire par le framework. Il existe donc le *rails way*. Ce dernier permet à un développeur Rails de prendre en main en seulement quelques heures n'importe quelle application, même s'il n'en a pas codé une ligne, et ainsi d’en faciliter la collaboration et l’apprentissage.
+Rails repose sur le principe de *[Convention over Configuration](http://en.wikipedia.org/wiki/Convention_over_configuration)*. L'architecture des dossiers de votre code est normalisée, et rendue obligatoire par le framework. Il existe donc le *rails way*. Ce dernier permet à un développeur Rails de prendre en main en seulement quelques heures n'importe quelle application Rails, même s'il n'en a pas codé une ligne, et ainsi d’en faciliter la collaboration et l’apprentissage.
 
-Cet aspect peut décontenancer les développeurs venant d'un langage plus verbeux, qui vont souvent se demander où se trouve le code. Il faut se faire à cette abstraction. Une fois les conventions internalisées, la vitesse de développement d'une nouvelle fonctionnalité est alors extraordinaire.
+Cet aspect peut décontenancer les développeurs venant d'un langage plus verbeux, qui vont souvent se demander où se trouve le code. Il faut se faire à cette abstraction. Une fois les conventions comprises et assimilées, la vitesse de développement d'une nouvelle fonctionnalité est alors extraordinaire.
 
 ###La force de sa communauté
 
@@ -52,7 +52,7 @@ Si il est vrai que dans le monde *corporate* des langages comme Java et C# reste
 
 Turing nous a montré que tous les langages sont équivalents en terme d'expressivité, ce qui veut dire qu'une fois que vous savez programmer dans un langage, vous savez programmer dans tous les langages. Le plus dur reste d'acquérir le *mindset* de programmeur.
 
-Par la suite, si un job vous demande de coder dans un autre langage, après une semaine intensive à fond dessus vous ferez rapidement l'analogie syntaxique entre votre langage préféré et ce nouveau. Dans les faits il vous faudra au minimum maîtriser une stack plus complète :
+Par la suite, si un job vous demande de coder dans un autre langage, après une semaine intensive à fond dessus vous ferez rapidement l'analogie syntaxique entre votre langage préféré et le nouveau. Dans les faits il vous faudra au minimum maîtriser une stack plus complète :
 
 - **HTML & CSS** : ce ne sont pas des langages de programmation, mais de représentation de la donnée. C'est ce que le navigateur sait lire pour pouvoir afficher une page web (contenu et style)
 - **JavaScript** : c'est le langage de programmation que connaît le navigateur, qui permet de rendre les pages dynamiques. Par exemple, sur Gmail, les nouveaux emails apparaissent automatiquement sans rafraîchir la page, et c'est grâce à JavaScript (et AJAX plus précisément)
