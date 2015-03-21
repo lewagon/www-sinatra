@@ -170,6 +170,9 @@ fr:
       choose_camp: À quelle session souhaitez-vous participer ?
       choose_camp_radio_label_html: embarquement le <strong>%{start_date}</strong>, terminus le %{end_date}
       motivation: Pourquoi voulez-vous faire Le Wagon ?
+      lectures_in:
+        en: cours en <strong>anglais</strong>
+        fr: cours en <strong>français</strong>
       last_seats: Dernières places
       booked: Complet
       apply_button: POSTULER

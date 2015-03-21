@@ -5,6 +5,7 @@ test:
   price: 4500
   currency: €
   currency_iso: EUR
+  language: fr
   trello:
     inbox_list_id: 54024112c975d17cd1180489
 
@@ -67,6 +68,7 @@ brussels-may-2015:
   price: 4500
   currency: €
   currency_iso: EUR
+  language: en
   trello:
     inbox_list_id: 54b9118670053758d247480e
 
@@ -75,6 +77,7 @@ paris-mai-2015:
   start_date: 2015-05-11
   end_date: 2015-07-10
   full: true
+  language: fr
   trello:
     inbox_list_id: 54367fcfe0dfe26d509ec183
 
@@ -92,6 +95,7 @@ paris-juillet-2015:
   price: 4500
   currency: €
   currency_iso: EUR
+  language: fr
   trello:
     inbox_list_id: 54fee28828ffa1e52b092d3f
 
@@ -102,6 +106,7 @@ paris-septembre-2015:
   price: 4500
   currency: €
   currency_iso: EUR
+  language: fr
   trello:
     inbox_list_id: 54fee379820e199751400ace
 
@@ -109,5 +114,6 @@ paris-octobre-2015:
   city: paris
   start_date: 2015-10-19
   end_date: 2015-12-18
+  language: fr
   # trello:
   #   inbox_list_id: 54fee3a05c54d91a1704e9e4
