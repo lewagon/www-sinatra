@@ -34,7 +34,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
       <form action="/apply" method="post" role="form">
         <% if @error %>
         <div class="alert alert-danger" role="alert">
@@ -90,7 +90,8 @@
                     <% format = :short #camp[:start_date].year == Time.now.year ? :short : :long %>
                     <%= t "apply.form.choose_camp_radio_label_html",
                           start_date: l(camp[:start_date], format: format),
-                          end_date: l(camp[:end_date], format: format) %></small>
+                          end_date: l(camp[:end_date], format: format) %>,
+                  <%= t ".apply.form.lectures_in.#{camp[:language]}" %></small>
 
                   <small style="margin-left: 2px">
                     <span class="label label-info"><%= t "apply.form.registrations_not_open_yet" %></span>
@@ -107,7 +108,8 @@
                       <% format = :short #camp[:start_date].year == Time.now.year ? :short : :long %>
                       <%= t "apply.form.choose_camp_radio_label_html",
                             start_date: l(camp[:start_date], format: format),
-                            end_date: l(camp[:end_date], format: format) %></small>
+                            end_date: l(camp[:end_date], format: format) %>
+                    </small>
                   </strike>
                   <small style="margin-left: 2px">
                     <span class="label label-danger"><%= t "apply.form.booked" %></span>
@@ -117,14 +119,15 @@
             <% else %>
               <div class="radio">
                 <label>
-                  <input type="radio" name="camp" value="<%= slug %>" required>
+                  <input type="radio" name="camp" value="<%= slug %>" data-currency="<%= camp[:currency] %>" data-price="<%= camp[:price] %>" required>
                   <strong><%= camp[:city].capitalize %></strong>,
                   <small>
                     <% if camp[:start_date] %>
                       <% format = :short #camp[:start_date].year == Time.now.year ? :short : :long %>
                       <%= t "apply.form.choose_camp_radio_label_html",
                             start_date: l(camp[:start_date], format: format),
-                            end_date: l(camp[:end_date], format: format) %>
+                            end_date: l(camp[:end_date], format: format) %>,
+                      <%= t ".apply.form.lectures_in.#{camp[:language]}" %>
                       <% if camp[:last_seats] %>
                         <span class="label label-warning"><%= t "apply.form.last_seats" %></span>
                       <% end %>
@@ -146,7 +149,6 @@
 
         <div class="form-group">
           <span class="help-block">
-            <%= t "apply.form.price_html", price: 3900 %>
           </span>
         </div>
 
@@ -165,3 +167,26 @@
 </div>
 
 <div class="vertical-spacer"></div>
+
+<% content_for :js do %>
+  <script>
+    $(document).ready(function() {
+      var showPrice = function(e) {
+
+        var price = $(e.target).data("price");
+        var ccy = $(e.target).data("currency");
+        if (price) {
+          var priceHTML = "<%= t "apply.form.price_begin" %>" + "<strong>" + price + "</strong> " + ccy + " <%= t "apply.form.price_end" %>";
+
+          $(".help-block").html(priceHTML);
+          $(".help-block").show();
+        } else {
+          $(".help-block").hide();
+        }
+      }
+      $('input[type=radio][name=camp]').change(showPrice);
+      showPrice({ target: $('input[type=radio][name=camp]:not(":disabled")').get(0) });
+    });
+  </script>
+<% end %>
+

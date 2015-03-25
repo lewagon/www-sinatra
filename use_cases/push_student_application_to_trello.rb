@@ -2,8 +2,10 @@ require "trello"
 
 module UseCases
   class PushStudentApplicationToTrello
-    def initialize(trello_inbox_list_id)
+    def initialize(trello_inbox_list_id, price, currency)
       @trello_inbox_list_id = trello_inbox_list_id
+      @price = price
+      @currency = currency
 
       Trello.configure do |config|
         config.developer_public_key = ENV['TRELLO_API_KEY']
@@ -23,6 +25,8 @@ module UseCases
 ## [Contrat]()
 
 ## Facture
+
+Prix: #{@price} #{@currency} TTC
 
 []()
 

@@ -235,8 +235,13 @@ class App < Sinatra::Base
     else
       camp = CAMPS[params[:camp].to_sym]
       params[:city] = camp[:city]  # For the newsletter
-      card = UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id]).run(params)
-      UseCases::PushStudentToCrm.new(card).run(params)
+      card = UseCases::PushStudentApplicationToTrello.new(camp[:trello][:inbox_list_id], camp[:price], camp[:currency]).run(params)
+      begin
+        UseCases::PushStudentToCrm.new(card, camp[:price], camp[:currency_iso]).run(params)
+      rescue Exception => e
+        puts e
+        # CRM may not be configured for trello board.
+      end
       subscribe_candidate_to_newsletter
       redirect thanks_path + "?camp=#{params[:camp]}"
     end

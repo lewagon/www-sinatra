@@ -164,10 +164,14 @@ en:
       choose_camp: Which bootcamp do you want to attend?
       choose_camp_radio_label_html: boarding on <strong>%{start_date}</strong>, terminus on %{end_date}
       motivation: Why do you want to join Le Wagon?
+      lectures_in:
+        en: lectures in <strong>English</strong>
+        fr: lectures in <strong>French</strong>
       apply_button: APPLY
       last_seats: Last seats!
       booked: Full
-      price_html: "Price: <strong>%{price}</strong>€. We'll reach out quickly to you by email."
+      price_begin: "Price : "
+      price_end:  " Incl. Tax. Payment in three installments, free of charge."
       soon: coming soon
       registrations_not_open_yet: Not open yet
   thanks:
