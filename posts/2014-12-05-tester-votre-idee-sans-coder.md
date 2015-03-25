@@ -3,10 +3,11 @@ layout: post
 title: "Le prototypage : de l'idée à votre premier MVP."
 author: cedric
 labels:
-  - video
   - meetup
+  - tuto
+  - video
 pushed: true
-thumbnail: thumbnail-meetup-mvp-prototypage.jpg
+thumbnail: thumbnail-workshop-mvp.jpg
 description: "Dans cette introduction au prototypage, Benjamin Ewenczyk vous propose de commencer à poser les briques de votre service en seulement quelques heures afin de délivrer une première expérience à vos utilisateurs."
 ---
 

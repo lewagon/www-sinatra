@@ -4,8 +4,9 @@ title: "Introduction hardware et arduino avec HappyTrucs"
 author: cedric
 labels:
   - meetup
+  - tuto
   - video
-thumbnail: thumbnail-introduction-hardware-arduino.jpg
+thumbnail: thumbnail-workshop-arduino.jpg
 description: La tête dans les nuages et les mains dans le cambouis. Telle est la devise d'Aurélien Fache, passionné par l'internet des objets et véritable inconditionnel des APIs. Dans cette vidéo de 35 minutes il vous présente quelques-unes de ses réalisations sur arduino, revient sur la notion d'API et réalise un rapide panorama des autres solutions de prototypage hardware. À vos ateliers !
 ---
 

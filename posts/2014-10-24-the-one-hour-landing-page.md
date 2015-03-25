@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ce weekend on vous met au code !"
+title: "Ce weekend on vous met au code"
 author: boris
 labels:
   - tuto
