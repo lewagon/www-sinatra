@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#AperoTalk avec Cyril Chiche, CEO Lydia"
+title: "AperoTalk avec Cyril Chiche, CEO Lydia"
 author: cedric
 labels:
   - video
