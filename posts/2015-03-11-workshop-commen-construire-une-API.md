@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "#WorkShop Comment bien construire l'API de son service ?"
+title: "Comment bien construire l'API de son service ?"
 author: cedric
 labels:
-  - video
   - meetup
+  - tuto
+  - video
+pushed: true
 thumbnail: thumbnail-workshop-comment-bien-construire-une-api.jpg
 description: "Les exemples d'APIs à utiliser pour créer votre startup ne manquent pas. Mais peut-être est-il venu le temps pour vous de créer votre propre API afin de faciliter l'intégration de votre produit ?"
 ---

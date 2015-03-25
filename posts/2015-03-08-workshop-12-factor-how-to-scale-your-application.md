@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "#WorkShop 12 factor - Comment scaler vos applications ?"
+title: "12 factor - Comment scaler vos applications ?"
 author: cedric
 labels:
-  - video
   - meetup
+  - tuto
+  - video
 thumbnail: thumbnail-workshop-12-factor.jpg
 description: "Yann Klis, co-fondateur et CEO Scalingo revient sur les 12 bonnes pratiques pour créer des applications qui pourront facilement tenir des montées en charge et en faciliter la maintenance."
 ---

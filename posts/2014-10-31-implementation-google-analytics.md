@@ -7,7 +7,7 @@ labels:
   - video
   - tuto
 pushed: true
-thumbnail: thumbnail-implementation-google-analytics.jpg
+thumbnail: thumbnail-workshop-googleanalytics.jpg
 description: "Aujourd’hui, les analytics sont au coeur de toutes les discussions et de toutes les stratégies. Avec Google Analytics, vous avez accès à un outil de mesure gratuit, fiable et performant. Dans cette vidéo, Bertrand Girard, Conversion Specialist, vous donne toutes les clés et best practices pour son implémentation sur votre site."
 ---
 
