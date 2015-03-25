@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#ApéroTalk avec Quentin Nickmans, Cofondateur eFounders "
+title: "ApéroTalk avec Quentin Nickmans, Cofondateur eFounders "
 author: cedric
 labels:
   - video

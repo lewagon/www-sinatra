@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#AperoTalk avec Adrien Aumont, CEO de KissKissBankBank"
+title: "AperoTalk avec Adrien Aumont, CEO de KissKissBankBank"
 author: cedric
 labels:
   - video

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Retour sur la masterclass AperoTalk avec Nicolas Dessaigne, CEO Algolia
+title: AperoTalk avec Nicolas Dessaigne, CEO Algolia
 author: cedric
 labels:
   - aperotalk
