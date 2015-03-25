@@ -169,7 +169,7 @@ fr:
       age: Age
       choose_camp: À quelle session souhaitez-vous participer ?
       choose_camp_radio_label_html: embarquement le <strong>%{start_date}</strong>, terminus le %{end_date}
-      motivation: Pourquoi voulez-vous faire Le Wagon ?
+      motivation: "Pourquoi voulez-vous faire Le Wagon, quel est votre projet professionnel ?"
       lectures_in:
         en: cours en <strong>anglais</strong>
         fr: cours en <strong>français</strong>
