@@ -7,10 +7,10 @@ labels:
   - startup
 pushed: true
 thumbnail: thumbnail-projet-parol.jpg
-description: "Parol est une plateforme de visualisation et de collaboration permettant de suivre et de participer à l’élaboration des lois en temps réel. Interview de son fondateur, Valentin Chaput, alumini de la 6e promotion."
+description: "Parol est une plateforme de visualisation et de collaboration permettant de suivre et de participer à l’élaboration des lois en temps réel. Interview de son fondateur, Valentin Chaput, alumni de la 6e promotion."
 ---
 
-[Parol](http://parol-production.herokuapp.com/) est une plateforme de visualisation et de collaboration permettant de suivre et de participer à l’élaboration des lois en temps réel. Interview de son fondateur, [Valentin Chaput](https://twitter.com/valentinchaput), alumini de la 6e promotion.
+[Parol](http://parol-production.herokuapp.com/) est une plateforme de visualisation et de collaboration permettant de suivre et de participer à l’élaboration des lois en temps réel. Interview de son fondateur, [Valentin Chaput](https://twitter.com/valentinchaput), alumni de la 6e promotion.
 
 ![Parol, le Github de l'Assemblée Nationale](blog_image_path thumbnail-projet-parol.jpg)
 
@@ -18,11 +18,11 @@ description: "Parol est une plateforme de visualisation et de collaboration perm
 
 J’avais tout simplement envie de découvrir l’intérieur de la “boîte noire” ! J’ai utilisé de nombreux outils pour bloguer depuis la Chine pendant mes études à Sciences Po, pour interviewer des jeunes à travers l’Europe dans le cadre d’un documentaire, ou pour gérer des campagnes militantes sur les réseaux sociaux.
 
-Mais je dépendais toujours de plateformes tierces et le fait de ne pas savoir coder à tué dans l’oeuf plusieurs idées. Notre génération déborde d’idées pour repenser le monde, les relations humaines, le travail, la culture et les loisirs… et dans bien des cas, le code est le vecteur de cette émancipation.
+Mais je dépendais toujours de plateformes tierces et le fait de ne pas savoir coder a tué dans l’oeuf plusieurs idées. Notre génération déborde d’idées pour repenser le monde, les relations humaines, le travail, la culture et les loisirs… et dans bien des cas, le code est le vecteur de cette émancipation.
 
 Par ailleurs, les enjeux politiques d’Internet me fascinent depuis longtemps. J’ai travaillé pendant plusieurs années dans des collectivités territoriales et auprès d’élus. Je suis arrivé à la conclusion qu’on ne peut plus faire de politique aujourd’hui sans s’intéresser au numérique. À travers nos usages, nous sommes en train de redéfinir en profondeur notre manière d’organiser la société.
 
-Si le monde a énormément changé au cours des deux dernières décennies c’est essentiellement grâce à la révolution numérique et assez peu du fait de grandes décisions politiques. Dans le même temps, ces profonds changements ont aussi une face inquiétante. Nous mesurons jours après jours que plus rien ne protège nos libertés individuelles de la collecte et de l’exploitation de nos données privées par les *GAFA* ou par la *NSA*. Nous anticipons déjà la transformation de centaines de métiers manuels et intellectuels par la robotique et l’intelligence artificielle. Le suivi de nos données médicales permettra certes de mieux nous soigner, mais pourrait rapidement remettre en cause l’universalité de nos systèmes de protection sociale. Bref, le numérique est politique et la politique doit, elle aussi, être numérique. Pour être véritablement acteurs des choix essentiels qui nous attendent, nous devrions tous apprendre à coder !
+Si le monde a énormément changé au cours des deux dernières décennies c’est essentiellement grâce à la révolution numérique et assez peu du fait de grandes décisions politiques. Dans le même temps, ces profonds changements ont aussi une face inquiétante. Nous mesurons jour après jour que plus rien ne protège nos libertés individuelles de la collecte et de l’exploitation de nos données privées par les *GAFA* ou par la *NSA*. Nous anticipons déjà la transformation de centaines de métiers manuels et intellectuels par la robotique et l’intelligence artificielle. Le suivi de nos données médicales permettra certes de mieux nous soigner, mais pourrait rapidement remettre en cause l’universalité de nos systèmes de protection sociale. Bref, le numérique est politique et la politique doit, elle aussi, être numérique. Pour être véritablement acteurs des choix essentiels qui nous attendent, nous devrions tous apprendre à coder !
 
 ### Peux-tu nous en dire plus sur Parol et la manière dont l’idée t’est venue ?
 
@@ -38,7 +38,7 @@ Les lois et les codes sont bien entendu déjà disponibles sur les sites de l’
 
 [Parol](http://parol-production.herokuapp.com/) rassemble sur une même page les articles de codes en vigueur, les articles de lois en discussion et les amendements parlementaires pour suivre et commenter les débats en temps réel et en toute transparence.
 
-Grâce au soutien des professeurs et l’inspiration transmise par [Scott Chacon](https://twitter.com/chacon), l’un des cofondateurs de Github [invité lors d’un ApéroTalk du Wagon](https://www.youtube.com/watch?v=TOV6BQO4M6g), notre équipe constituée d’[Amélie Beurrier](https://twitter.com/peanutbeubeurre), [Jean Hamant](https://twitter.com/jeanhamant), [Sophia Kecir Camper](https://twitter.com/_sophiakc/) et moi-même, nous avons pu développer un premier prototype en quinze jours. Le concept est simple, mais l’ingénierie derrière une plateforme telle que Github est vraiment complexe. Elle ouvre toutefois des perspectives très intéressantes. En sauvegardant toutes les versions de chaque texte sur [Parol](http://parol-production.herokuapp.com/), nous rendons possibles de futures recherches sur les évolutions du droit, par exemple en filtrant par période, par majorité ou par thématique. En s’ouvrant au travail collaboratif sur un même texte rendu parfaitement compréhensible, notre projet permet surtout de redonner la parole aux citoyens.
+Grâce au soutien des professeurs et à l’inspiration transmise par [Scott Chacon](https://twitter.com/chacon), l’un des cofondateurs de Github [invité lors d’un ApéroTalk du Wagon](https://www.youtube.com/watch?v=TOV6BQO4M6g), nous avons pu développer un premier prototype en quinze jours avec [Amélie Beurrier](https://twitter.com/peanutbeubeurre), [Jean Hamant](https://twitter.com/jeanhamant) et [Sophia Kecir Camper](https://twitter.com/_sophiakc/). Le concept est simple, mais l’ingénierie derrière une plateforme telle que Github est vraiment complexe. Elle ouvre toutefois des perspectives très intéressantes. En sauvegardant toutes les versions de chaque texte sur [Parol](http://parol-production.herokuapp.com/), nous rendons possibles de futures recherches sur les évolutions du droit, par exemple en filtrant par période, par majorité ou par thématique. En s’ouvrant au travail collaboratif sur un même texte rendu parfaitement compréhensible, notre projet permet surtout de redonner la parole aux citoyens.
 
 ![Processus de rédaction d'une loi](blog_image_path parol-comment-rediger-une-loi.jpg)
 
@@ -48,7 +48,7 @@ L’aventure [Parol](http://parol-production.herokuapp.com/) ne débute réellem
 
 En parallèle, comme les autres élèves de la promo, j’ai vraiment envie de rester proche de la formidable équipe qui nous a appris à coder ! Car au final, l’exercice le plus dur de la formation, c’est de descendre du Wagon au terme des neuf semaines…
 
-### Pouvons-nous en déduire que la formation au wagon a répondu à tes attentes ?
+### Pouvons-nous en déduire que la formation au Wagon a répondu à tes attentes ?
 
 Totalement ! Le Wagon, c’est avant tout un état d’esprit que j’ai adoré. Nous sommes une vingtaine par promo et chaque exercice se fait en binôme ou par équipe. La logique d’entraide, au cœur du métier de développeur, vient très naturellement. Dès les premiers jours, la bonne ambiance nous transforme en joyeuse colonie d’apprentis sorciers utilisant un langage hybride composé de “slack”, de “pull request”, de “rake db migrate” et autres codes de codeurs. Les profs et leurs assistants sont d’excellents pédagogues et la méthode combinant cours théoriques et exercices d’application est parfaitement huilée.
 
