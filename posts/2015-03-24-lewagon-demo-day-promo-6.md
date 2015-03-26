@@ -14,6 +14,12 @@ description: "Développés en seulement 15 jours à l'issu de 7 semaines d'appre
 
 Développés en seulement 15 jours à l'issu de 7 semaines d'apprentissage, les 20 futurs entrepreneurs, développeurs et code lovers de la 6e promotion du Wagon ont présenté leurs produits en grande pompe sur la scène de The Family.
 
-Sommaire :
+### Sommaire :
 
-## Parole
+### Dans le détail :
+
+#### Krawd -
+
+####
+
+#### Parol -
