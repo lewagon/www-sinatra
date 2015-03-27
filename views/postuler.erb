@@ -119,7 +119,7 @@
             <% else %>
               <div class="radio">
                 <label>
-                  <input type="radio" name="camp" value="<%= slug %>" data-currency="<%= camp[:currency] %>" data-price="<%= camp[:price] %>" data-discount-price="<%= camp[:discount_price] %>" required>
+                  <input type="radio" name="camp" value="<%= slug %>" data-currency="<%= camp[:currency] %>" data-price="<%= camp[:price] %>" data-price-was="<%= camp[:price_was] %>" required>
                   <strong><%= camp[:city].capitalize %></strong>,
                   <small>
                     <% if camp[:start_date] %>
@@ -176,8 +176,8 @@
         var price = $(e.target).data("price");
         var ccy = $(e.target).data("currency");
         if (price) {
-          if ($(e.target).data("discount-price")) {
-            var priceHTML = "<%= t "apply.form.price_begin" %>" + "<strike>" + price + "</strike> " + ccy + " " + "<strong>" + $(e.target).data("discount-price") + "</strong> " + ccy + " <%= t "apply.form.price_end" %>";
+          if ($(e.target).data("price-was")) {
+            var priceHTML = "<%= t "apply.form.price_begin" %>" + "<strike>" + $(e.target).data("price-was") + "</strike> " + ccy + " " + "<strong>" + price + "</strong> " + ccy + " <%= t "apply.form.price_end" %>";
           } else {
             var priceHTML = "<%= t "apply.form.price_begin" %>" + "<strong>" + price + "</strong> " + ccy + " <%= t "apply.form.price_end" %>";
           }

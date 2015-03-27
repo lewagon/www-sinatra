@@ -65,8 +65,8 @@ brussels-may-2015:
   city: brussels
   start_date: 2015-05-04
   end_date: 2015-07-03
-  price: 4500
-  discount_price: 3900
+  price: 3900
+  price_was: 4500
   currency: €
   currency_iso: EUR
   language: en
