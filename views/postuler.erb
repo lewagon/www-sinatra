@@ -119,7 +119,7 @@
             <% else %>
               <div class="radio">
                 <label>
-                  <input type="radio" name="camp" value="<%= slug %>" data-currency="<%= camp[:currency] %>" data-price="<%= camp[:price] %>" required>
+                  <input type="radio" name="camp" value="<%= slug %>" data-currency="<%= camp[:currency] %>" data-price="<%= camp[:price] %>" data-discount-price="<%= camp[:discount_price] %>" required>
                   <strong><%= camp[:city].capitalize %></strong>,
                   <small>
                     <% if camp[:start_date] %>
@@ -176,7 +176,11 @@
         var price = $(e.target).data("price");
         var ccy = $(e.target).data("currency");
         if (price) {
-          var priceHTML = "<%= t "apply.form.price_begin" %>" + "<strong>" + price + "</strong> " + ccy + " <%= t "apply.form.price_end" %>";
+          if ($(e.target).data("discount-price")) {
+            var priceHTML = "<%= t "apply.form.price_begin" %>" + "<strike>" + price + "</strike> " + ccy + " " + "<strong>" + $(e.target).data("discount-price") + "</strong> " + ccy + " <%= t "apply.form.price_end" %>";
+          } else {
+            var priceHTML = "<%= t "apply.form.price_begin" %>" + "<strong>" + price + "</strong> " + ccy + " <%= t "apply.form.price_end" %>";
+          }
 
           $(".help-block").html(priceHTML);
           $(".help-block").show();
@@ -185,6 +189,7 @@
         }
       }
       $('input[type=radio][name=camp]').change(showPrice);
+      $('input[type=radio][name=camp]:not(":disabled")').eq(0).click();
       showPrice({ target: $('input[type=radio][name=camp]:not(":disabled")').get(0) });
     });
   </script>

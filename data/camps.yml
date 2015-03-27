@@ -1,13 +1,13 @@
-test:
-  city: paris
-  start_date: 2000-01-01
-  end_date: 2000-03-01
-  price: 4500
-  currency: €
-  currency_iso: EUR
-  language: fr
-  trello:
-    inbox_list_id: 54024112c975d17cd1180489
+# test:
+#   city: paris
+#   start_date: 2000-01-01
+#   end_date: 2000-03-01
+#   price: 4500
+#   currency: €
+#   currency_iso: EUR
+#   language: fr
+#   trello:
+#     inbox_list_id: 54024112c975d17cd1180489
 
 # paris-octobre-2014:
 #   city: paris
@@ -66,9 +66,11 @@ brussels-may-2015:
   start_date: 2015-05-04
   end_date: 2015-07-03
   price: 4500
+  discount_price: 3900
   currency: €
   currency_iso: EUR
   language: en
+  last_seats: true
   trello:
     inbox_list_id: 54b9118670053758d247480e
 
