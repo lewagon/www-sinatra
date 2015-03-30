@@ -49,14 +49,14 @@ Via une interface de géolocalisation et d'un service de messagerie pour échang
 
 À l'origine, Hubert Brosseau est le fondateur de thepixeler, une market place pour vendre, acheter et collectionner de l’art numérique. Tous les artistes produisant leurs oeuvres sur desktops, tablettes et smartphones sont invités à les exposer afin de les vendre sous forme de tirages en édition limitée.
 
-Conscient du cheminement tortueux nécessaire à l'inscription de nouveaux artistes, lui et Kevin Robert ont créé une application de back-office afin de simplifier ce processus. Directement connectés à l’API de Shopify, les artistes sont désormais autonomes et peuvent mettre à jour leur profil, leur signature, la taxonomie autour de leurs oeuvres et très simplement uploader leurs créations avant d'accéder au dashboard de leurs ventes. Cerise sur le gâteau, le service est également interfacé sur l'API de l'imprimeur.
+Conscient du cheminement tortueux nécessaire à l'inscription de nouveaux artistes, lui et [Kevin Robert](https://twitter.com/kduwagon) ont créé une application de back-office afin de simplifier ce processus. Directement connectés à l’API de Shopify, les artistes sont désormais autonomes et peuvent mettre à jour leur profil, leur signature, la taxonomie autour de leurs oeuvres et très simplement uploader leurs créations avant d'accéder au dashboard de leurs ventes. Cerise sur le gâteau, le service est également interfacé sur l'API de l'imprimeur.
 
 
 ### [MYPICERIE](http://mypicerie.herokuapp.com) - Trouvez une épicerie dans Paris
 
 ![Mypicerie, trouvez une épicerie dans Paris](blog_image_path demoday-mypicerie.jpg)
 
-Partant du principe qu’il est toujours difficile de trouver une épicerie ouverte dans Paris au moment ou vous en avez besoin, Yanne Mechaly a développé Mypicerie. Son application vous permet de dénicher les épiceries ouvertes les plus proches de votre position actuelle, de les contacter et/ou de lancer directement votre GPS depuis l’application pour vous y rendre.
+Partant du principe qu’il est toujours difficile de trouver une épicerie ouverte dans Paris au moment ou vous en avez besoin, Yann Mechaly a développé Mypicerie. Son application vous permet de dénicher les épiceries ouvertes les plus proches de votre position actuelle, de les contacter et/ou de lancer directement votre GPS depuis l’application pour vous y rendre.
 
 
 ### [TENNIS MATCH](http://www.tennis-match.fr) - Inscrivez-vous à vos tournois de tennis en un clic
