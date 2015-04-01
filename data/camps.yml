@@ -82,7 +82,7 @@ paris-mai-2015:
   price: 3900
   price_was: 4500
   currency: €
-  # full: true
+  full: true
   language: fr
   trello:
     inbox_list_id: 54367fcfe0dfe26d509ec183
