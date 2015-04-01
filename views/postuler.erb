@@ -177,7 +177,7 @@
         var ccy = $(e.target).data("currency");
         if (price) {
           if ($(e.target).data("price-was")) {
-            var priceHTML = "<%= t "apply.form.price_begin" %>" + "<strike>" + $(e.target).data("price-was") + "</strike> " + ccy + " " + "<strong>" + price + "</strong> " + ccy + " <%= t "apply.form.price_end" %>";
+            var priceHTML = "<%= t "apply.form.price_begin" %>" + "<strike>" + $(e.target).data("price-was") + ccy + "</strike> <strong>" + price + "</strong> " + ccy + " <%= t "apply.form.price_end" %>";
           } else {
             var priceHTML = "<%= t "apply.form.price_begin" %>" + "<strong>" + price + "</strong> " + ccy + " <%= t "apply.form.price_end" %>";
           }
