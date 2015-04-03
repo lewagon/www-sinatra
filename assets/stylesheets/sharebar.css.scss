@@ -13,7 +13,7 @@
 
   .shootout {
     position: absolute;
-    top: 4px;
+    top: 13px;
     right: 135px;
     margin-right: 10px;
     text-transform: uppercase;
@@ -22,7 +22,6 @@
   }
 
   @media(max-width: 680px) {
-    .shootout,
     .youtube {
       display: none;
     }
