@@ -50,3 +50,33 @@ $(function() {
   }
 })
 
+// ********************************************************
+// Show/Hide Navbar & Sharebar on Scroll Top/Down
+// ********************************************************
+if ($('#sharebar-scroll').length > 0) {
+  $(function(){
+    var prevScroll = 0,
+        curDir = 'down',
+        prevDir = 'up';
+
+    $(window).scroll(function(){
+      if($(this).scrollTop() >= prevScroll){
+        curDir = 'down';
+        if(curDir != prevDir){
+          $('#sharebar-scroll').stop();
+          $('#sharebar-scroll').animate({ bottom: '0px' }, 300)
+          prevDir = curDir;
+        }
+      } else {
+        curDir = 'up';
+        if(curDir != prevDir){
+          $('#sharebar-scroll').stop();
+          $('#sharebar-scroll').animate({ bottom: '-50px' }, 300)
+          prevDir = curDir;
+        }
+      }
+      prevScroll = $(this).scrollTop();
+    });
+  })
+}
+
