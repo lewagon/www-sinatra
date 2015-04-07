@@ -185,6 +185,7 @@ class App < Sinatra::Base
 
   get '/blog' do
     I18n.locale = :fr
+    @hide_olark = true
     fetch_posts
     erb :blog
   end
@@ -196,6 +197,7 @@ class App < Sinatra::Base
   # TODO - change the routing once blog is translated..
   get '/en/blog' do
     fetch_posts
+    @hide_olark = true
     erb :blog
   end
 
@@ -210,6 +212,7 @@ class App < Sinatra::Base
     @post = Blog.new.post(slug)
     @pushed_posts = Blog.new.pushed_posts
     halt 404 unless @post
+    @hide_olark = true
     erb :post
   end
 
