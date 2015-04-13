@@ -21,6 +21,69 @@
     - url: https://twitter.com/roadstr_cars
       icon: twitter
 
+- name: Caroline Carrière
+  image_name: caroline.jpg
+  url: https://fr.linkedin.com/pub/caroline-carriere/40/36/b1b
+  project:
+    name: Ma Share École
+    url: https://www.mashareecole.com/
+    image_name: mashareecole-landing.jpg
+    teaser:
+      fr: Marketplace et plateforme de mise en relation des parents dont les enfants vont dans la même école.
+      en: Marketplace and social network for parents whose children are going to the same school.
+    description:
+      fr: "Beta de l'application Rails et intégration graphique, interface de connexion avec code parent sécurisé."
+      en: Development of Ruby on Rails web-app Ma Share École and setup of a secure connexion code for the parents.
+  links:
+    - url: https://fr.linkedin.com/pub/caroline-carriere/40/36/b1b
+      icon: linkedin
+    - url: https://www.facebook.com/pages/MA-SHARE-ÉCOLE/1422248518078090
+      icon: facebook
+    - url: https://www.mashareecole.com/
+      icon: link
+
+- name: Valentin Chaput
+  image_name: valentin.jpg
+  url: https://github.com/valentinchaput
+  project:
+    name: Parol
+    url: http://parol-production.herokuapp.com/
+    image_name: parol-landing.jpg
+    teaser:
+      fr: Le Github de l'Assemblée nationale
+      en: Github for the french law
+    description:
+      fr: "Développement d'un scraper de Légifrance, connexion à l'API GitHub pour le stockage des lois / amendements et prototypage de l'interface de visualisation."
+      en: "GitHub for the French law. Légifrance scraping, GitHub API integration and UI prototyping of the rails applicaiton."
+  links:
+    - url: https://github.com/valentinchaput
+      icon: github-alt
+    - url: https://twitter.com/valentinchaput
+      icon: twitter
+    - url: http://parol-production.herokuapp.com/
+      icon: link
+
+- name: Arthur Hagiage
+  image_name: arthur.jpg
+  url: https://github.com/Arthurhge
+  project:
+    name: Krawd
+    url: http://www.krawd.com/
+    image_name: krawd-landing.jpg
+    teaser:
+      fr: Marketplace sur laquelle les créatifs proposent des visuels aux marques pour lesquelles ils se sentent inspirés.
+      en: Daily social brand content made by the crowd
+    description:
+      fr: Beta de l'application Rails et intégration graphique.
+      en: Development of Ruby on Rails web-app Krawd.
+  links:
+    - url: https://github.com/Arthurhge
+      icon: github-alt
+    - url: https://www.facebook.com/pages/Krawd/1543950642508926?fref=ts
+      icon: facebook
+    - url: http://www.krawd.com/
+      icon: link
+
 - name: Julien Debray et Florian Joulié
   image_name: explorizers.png
   url: http://www.explorizers.com/en
@@ -230,69 +293,6 @@
     - url: https://github.com/laurenc
       icon: github-alt
     - url: http://www.bouquetapp.com
-      icon: link
-
-- name: Caroline Carrière
-  image_name: caroline.jpg
-  url: https://fr.linkedin.com/pub/caroline-carriere/40/36/b1b
-  project:
-    name: Ma Share École
-    url: https://www.mashareecole.com/
-    image_name: mashareecole-landing.jpg
-    teaser:
-      fr: Marketplace et plateforme de mise en relation des parents dont les enfants vont dans la même école.
-      en: Marketplace and social network for parents whose children are going to the same school.
-    description:
-      fr: "Beta de l'application Rails et intégration graphique, interface de connexion avec code parent sécurisé."
-      en: Development of Ruby on Rails web-app Ma Share École and setup of a secure connexion access for the parents.
-  links:
-    - url: https://fr.linkedin.com/pub/caroline-carriere/40/36/b1b
-      icon: linkedin
-    - url: https://www.facebook.com/pages/MA-SHARE-ÉCOLE/1422248518078090
-      icon: facebook
-    - url: https://www.mashareecole.com/
-      icon: link
-
-- name: Valentin Chaput
-  image_name: valentin.jpg
-  url: https://github.com/valentinchaput
-  project:
-    name: Parol
-    url: http://parol-production.herokuapp.com/
-    image_name: parol-landing.jpg
-    teaser:
-      fr: Le Github de l'Assemblée nationale
-      en: Github for the french law
-    description:
-      fr: "Développement d'un scraper de Légifrance, connexion à l'API GitHub pour le stockage des lois / amendements et prototypage de l'interface de visualisation."
-      en: "Scraping of Légifrance, connexion to the Github API and UX/UI development of the web-app."
-  links:
-    - url: https://github.com/valentinchaput
-      icon: github-alt
-    - url: https://twitter.com/valentinchaput
-      icon: twitter
-    - url: http://parol-production.herokuapp.com/
-      icon: link
-
-- name: Arthur Hagiage
-  image_name: arthur.jpg
-  url: https://github.com/Arthurhge
-  project:
-    name: Krawd
-    url: http://www.krawd.com/
-    image_name: krawd-landing.jpg
-    teaser:
-      fr: Marketplace sur laquelle les créatifs proposent des visuels aux marques pour lesquelles ils se sentent inspirés.
-      en: Daily social brand content made by the crowd
-    description:
-      fr: Beta de l'application Rails et intégration graphique.
-      en: Development of Ruby on Rails web-app Krawd.
-  links:
-    - url: https://github.com/Arthurhge
-      icon: github-alt
-    - url: https://www.facebook.com/pages/Krawd/1543950642508926?fref=ts
-      icon: facebook
-    - url: http://www.krawd.com/
       icon: link
 
 
