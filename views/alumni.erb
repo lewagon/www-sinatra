@@ -49,11 +49,11 @@
                 </div>
                 <div class="col-xs-8">
                   <p class="text-justify">
-                    <%= alumnus[:project][:teaser][I18n.locale] %>
+                    <%= markdown alumnus[:project][:teaser][I18n.locale] %>
                   </p>
                   <p>
                     <strong><%= t "alumni.final_project"%> :</strong>
-                    <%= alumnus[:project][:description][I18n.locale] %>
+                    <%= markdown alumnus[:project][:description][I18n.locale] %>
                   </p>
                   <br/>
                   <% if alumnus[:links] %>

@@ -6,7 +6,7 @@
     url: http://www.roadstr.fr
     image_name: roadstr-landing.jpg
     teaser:
-      fr: Roadstr est la plateforme de location de voitures vintages entre particuliers. Partez en week-end au volant d'une ancienne !
+      fr: "[Roadstr est la plateforme de location de voitures vintages entre particuliers. Partez en week-end au volant d'une ancienne !](http://www.lewagon.org/blog/roadstr-thomas-ceccaldi)"
       en: Roadstr is the AirBnB of vintage cars.
     description:
       fr: Beta de l'application Rails de Roadstr, avec gestion de paiement type marketplace basé sur MangoPay
@@ -20,6 +20,69 @@
       icon: link
     - url: https://twitter.com/roadstr_cars
       icon: twitter
+
+- name: Caroline Carrière
+  image_name: caroline.jpg
+  url: https://fr.linkedin.com/pub/caroline-carriere/40/36/b1b
+  project:
+    name: Ma Share École
+    url: https://www.mashareecole.com/
+    image_name: mashareecole-landing.jpg
+    teaser:
+      fr: "[Marketplace et plateforme de mise en relation des parents dont les enfants vont dans la même école.](http://www.lewagon.org/blog/ma-share-ecole-vu-a-la-tele-les-maternelles)"
+      en: Marketplace and social network for parents whose children are going to the same school.
+    description:
+      fr: Beta de l'application Rails et intégration graphique, interface de connexion avec code parent sécurisé.
+      en: Development of Ruby on Rails web-app Ma Share École and setup of a secure connexion code for the parents.
+  links:
+    - url: https://fr.linkedin.com/pub/caroline-carriere/40/36/b1b
+      icon: linkedin
+    - url: https://www.facebook.com/pages/MA-SHARE-ÉCOLE/1422248518078090
+      icon: facebook
+    - url: https://www.mashareecole.com/
+      icon: link
+
+- name: Valentin Chaput
+  image_name: valentin.jpg
+  url: https://github.com/valentinchaput
+  project:
+    name: Parol
+    url: http://parol-production.herokuapp.com/
+    image_name: parol-landing.jpg
+    teaser:
+      fr: "[Le Github de l'Assemblée nationale](http://www.lewagon.org/blog/parol-outil-collaboratif-texte-loi)"
+      en: Github for the french law
+    description:
+      fr: Développement d'un scraper de Légifrance, connexion à l'API GitHub pour le stockage des lois / amendements et prototypage de l'interface de visualisation.
+      en: GitHub for the French law. Légifrance scraping, GitHub API integration and UI prototyping of the rails applicaiton.
+  links:
+    - url: https://github.com/valentinchaput
+      icon: github-alt
+    - url: https://twitter.com/valentinchaput
+      icon: twitter
+    - url: http://parol-production.herokuapp.com/
+      icon: link
+
+- name: Arthur Hagiage
+  image_name: arthur.jpg
+  url: https://github.com/Arthurhge
+  project:
+    name: Krawd
+    url: http://www.krawd.com/
+    image_name: krawd-landing.jpg
+    teaser:
+      fr: Marketplace sur laquelle les créatifs proposent des visuels aux marques pour lesquelles ils se sentent inspirés.
+      en: Daily social brand content made by the crowd
+    description:
+      fr: Beta de l'application Rails et intégration graphique.
+      en: Development of Ruby on Rails web-app Krawd.
+  links:
+    - url: https://github.com/Arthurhge
+      icon: github-alt
+    - url: https://www.facebook.com/pages/Krawd/1543950642508926?fref=ts
+      icon: facebook
+    - url: http://www.krawd.com/
+      icon: link
 
 - name: Julien Debray et Florian Joulié
   image_name: explorizers.png
@@ -52,10 +115,10 @@
     url: http://www.trackguru.co/
     image_name: trackguru-landing.png
     teaser:
-      fr: TrackGuru est une plateforme web permettant aux passionnés de techno et de house de partager et découvrir les meilleurs sons du moment
+      fr: "[TrackGuru est une plateforme web permettant aux passionnés de techno et de house de partager et découvrir les meilleurs sons du moment](http://www.lewagon.org/blog/interview-thomas-chretien-trackguru)"
       en: Share and discover the best techno and house tracks on TrackGuru, the social platform for music enthusiasts.
     description:
-      fr: Design et développement de l'appli web TrackGuru, avec un search basé sur Soundcloud et Youtube, un système d'upvotes et de notifications.
+      fr: "Design et développement de l'appli web TrackGuru, avec un search basé sur Soundcloud et Youtube, un système d'upvotes et de notifications."
       en: Development of trackguru web-app with Soundcloud and Youtube track search, upvote and notification features.
   links:
     - url: https://github.com/tchret
@@ -77,7 +140,7 @@
     url: http://www.getkudoz.com
     image_name: kudoz-landing.jpg
     teaser:
-      fr: "L'application iOS pour laisser les offres d'emploi venir à vous. Un tinder de l'emploi."
+      fr: "[L'application iOS pour laisser les offres d'emploi venir à vous. Un tinder de l'emploi.](http://www.lewagon.org/blog/kudoz-application-recherche-emploi)"
       en: "The iOS app to let job offers come to you. Tinder for job search."
     description:
       fr: "Développement de l'API back-end, de l'algorithme de filtrage lié à linkedin, et de l'interface-web côté RH."
@@ -98,7 +161,7 @@
     url: http://www.fizzer.fr/
     image_name: fizzer-landing.jpg
     teaser:
-      fr: "Un site web responsive pour envoyer vos cartes postales personnalisées en prenant des photos depuis votre mobile."
+      fr: "[Un site web responsive pour envoyer vos cartes postales personnalisées en prenant des photos depuis votre mobile.](http://www.lewagon.org/blog/fizzer-cartes-postales-alumni)"
       en: "Responsive web-app to send printed postcards right from your smartphone."
     description:
       fr: "Développement de l'appli web responsive fizzer."
@@ -221,7 +284,7 @@
     url: http://www.bouquetapp.com
     image_name: bouquet-landing.jpg
     teaser:
-      fr: Une appli iOS pour livrer de beaux bouquets en moins de 4h à Paris.
+      fr: "[Une appli iOS pour livrer de beaux bouquets en moins de 4h à Paris.](http://www.lewagon.org/blog/bouquet-application-livraison-fleur)"
       en: An iOS app for sending a bouquet in less than 4 hours in Paris.
     description:
       fr: Développement de l'API back-end et de l'appli "admin" pour gérer les commandes et les livraisons, ainsi que de la page de lancement.
@@ -232,23 +295,4 @@
     - url: http://www.bouquetapp.com
       icon: link
 
-- name: Emmanuel Louisy-Gabriel
-  image_name: manu.png
-  url: https://github.com/ManyBaby
-  project:
-    name: We are the Diggers
-    url: http://wearethediggers.herokuapp.com
-    image_name: wearethediggers-landing.jpg
-    teaser:
-      fr: Une appli web pour identifier des soldats inconnus australiens ayant combattu en France en 14 - 18. A partir d'une collection unique !
-      en: Help us identify unknown Australian soldiers who fought in France during WWI. From of a unique collection of pictures!
-    description:
-      fr: Développement de l'application web et d'un robot de scraping pour récupérer des données militaires à partir des sites officiels australiens (noms, grades, identifiants des régiments & bataillons..)
-      en: Development of the web-application and of the scraping engine to collect military data from official Australian sites (names, grades, regiment ID, etc)
-  links:
-    - url: https://github.com/ManyBaby
-      icon: github-alt
-    - url: https://www.facebook.com/wearethediggers?fref=ts
-      icon: facebook
-    - url: http://wearethediggers.herokuapp.com
-      icon: link
+
