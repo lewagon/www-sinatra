@@ -6,7 +6,7 @@
     url: http://www.roadstr.fr
     image_name: roadstr-landing.jpg
     teaser:
-      fr: Roadstr est la plateforme de location de voitures vintages entre particuliers. Partez en week-end au volant d'une ancienne !
+      fr: "[Roadstr est la plateforme de location de voitures vintages entre particuliers. Partez en week-end au volant d'une ancienne !](http://www.lewagon.org/blog/roadstr-thomas-ceccaldi)"
       en: Roadstr is the AirBnB of vintage cars.
     description:
       fr: Beta de l'application Rails de Roadstr, avec gestion de paiement type marketplace basé sur MangoPay
@@ -29,10 +29,10 @@
     url: https://www.mashareecole.com/
     image_name: mashareecole-landing.jpg
     teaser:
-      fr: Marketplace et plateforme de mise en relation des parents dont les enfants vont dans la même école.
+      fr: "[Marketplace et plateforme de mise en relation des parents dont les enfants vont dans la même école.](http://www.lewagon.org/blog/ma-share-ecole-vu-a-la-tele-les-maternelles)"
       en: Marketplace and social network for parents whose children are going to the same school.
     description:
-      fr: "Beta de l'application Rails et intégration graphique, interface de connexion avec code parent sécurisé."
+      fr: Beta de l'application Rails et intégration graphique, interface de connexion avec code parent sécurisé.
       en: Development of Ruby on Rails web-app Ma Share École and setup of a secure connexion code for the parents.
   links:
     - url: https://fr.linkedin.com/pub/caroline-carriere/40/36/b1b
@@ -50,11 +50,11 @@
     url: http://parol-production.herokuapp.com/
     image_name: parol-landing.jpg
     teaser:
-      fr: Le Github de l'Assemblée nationale
+      fr: "[Le Github de l'Assemblée nationale](http://www.lewagon.org/blog/parol-outil-collaboratif-texte-loi)"
       en: Github for the french law
     description:
-      fr: "Développement d'un scraper de Légifrance, connexion à l'API GitHub pour le stockage des lois / amendements et prototypage de l'interface de visualisation."
-      en: "GitHub for the French law. Légifrance scraping, GitHub API integration and UI prototyping of the rails applicaiton."
+      fr: Développement d'un scraper de Légifrance, connexion à l'API GitHub pour le stockage des lois / amendements et prototypage de l'interface de visualisation.
+      en: GitHub for the French law. Légifrance scraping, GitHub API integration and UI prototyping of the rails applicaiton.
   links:
     - url: https://github.com/valentinchaput
       icon: github-alt
@@ -115,10 +115,10 @@
     url: http://www.trackguru.co/
     image_name: trackguru-landing.png
     teaser:
-      fr: TrackGuru est une plateforme web permettant aux passionnés de techno et de house de partager et découvrir les meilleurs sons du moment
+      fr: "[TrackGuru est une plateforme web permettant aux passionnés de techno et de house de partager et découvrir les meilleurs sons du moment](http://www.lewagon.org/blog/interview-thomas-chretien-trackguru)"
       en: Share and discover the best techno and house tracks on TrackGuru, the social platform for music enthusiasts.
     description:
-      fr: Design et développement de l'appli web TrackGuru, avec un search basé sur Soundcloud et Youtube, un système d'upvotes et de notifications.
+      fr: "Design et développement de l'appli web TrackGuru, avec un search basé sur Soundcloud et Youtube, un système d'upvotes et de notifications."
       en: Development of trackguru web-app with Soundcloud and Youtube track search, upvote and notification features.
   links:
     - url: https://github.com/tchret
@@ -140,7 +140,7 @@
     url: http://www.getkudoz.com
     image_name: kudoz-landing.jpg
     teaser:
-      fr: "L'application iOS pour laisser les offres d'emploi venir à vous. Un tinder de l'emploi."
+      fr: "[L'application iOS pour laisser les offres d'emploi venir à vous. Un tinder de l'emploi.](http://www.lewagon.org/blog/kudoz-application-recherche-emploi)"
       en: "The iOS app to let job offers come to you. Tinder for job search."
     description:
       fr: "Développement de l'API back-end, de l'algorithme de filtrage lié à linkedin, et de l'interface-web côté RH."
@@ -161,7 +161,7 @@
     url: http://www.fizzer.fr/
     image_name: fizzer-landing.jpg
     teaser:
-      fr: "Un site web responsive pour envoyer vos cartes postales personnalisées en prenant des photos depuis votre mobile."
+      fr: "[Un site web responsive pour envoyer vos cartes postales personnalisées en prenant des photos depuis votre mobile.](http://www.lewagon.org/blog/fizzer-cartes-postales-alumni)"
       en: "Responsive web-app to send printed postcards right from your smartphone."
     description:
       fr: "Développement de l'appli web responsive fizzer."
@@ -284,7 +284,7 @@
     url: http://www.bouquetapp.com
     image_name: bouquet-landing.jpg
     teaser:
-      fr: Une appli iOS pour livrer de beaux bouquets en moins de 4h à Paris.
+      fr: "[Une appli iOS pour livrer de beaux bouquets en moins de 4h à Paris.](http://www.lewagon.org/blog/bouquet-application-livraison-fleur)"
       en: An iOS app for sending a bouquet in less than 4 hours in Paris.
     description:
       fr: Développement de l'API back-end et de l'appli "admin" pour gérer les commandes et les livraisons, ainsi que de la page de lancement.
