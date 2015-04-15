@@ -150,21 +150,16 @@ anne:
   image_name: anne.jpg
   description:
     en: |
-      ​After almost 10 years as a knowledge and information
-      manager, **Anne** went back to university to
-      follow a degree in information and communication technologies.
-      She now develops web apps as a freelancer and is an active member
-      of [Rails Girls Brussels](http://railsgirls.com/brussels).
-      She loves helping others to overcome the sometimes frustrating
-      learning process and seeing the bright light in their eyes when the
-      magic of coding gets unveiled!
+      ​After almost 10 years as a knowledge and information manager,
+      **Anne** went back to university to follow a degree
+      in information and communication technologies.
+      She now drives the activities of Le Wagon Brussels and is an ardent
+      ambassador of [Rails Girls Brussels](http://railsgirls.com/brussels).
     fr: |
       Knowledge & information manager pendant près de 10 ans, **Anne**
       est retournée à l'université pour suivre un master en TIC.
-      Elle développe désormais des sites & applis web en tant que freelance et
-      co-organise les sessions [Rails Girls Brussels](http://railsgirls.com/brussels).
-      Elle aime aider les nouveaux venus à surmonter leur première appréhension
-      et voir l'étincelle briller dans leurs yeux quand la magie du code se dévoile!
+      Elle conduit aujourd'hui la destinée du Wagon Brussels et est une ardente
+      ambassadrice des sessions [Rails Girls Brussels](http://railsgirls.com/brussels).
   links:
     - url: https://github.com/OObatwomanOO
       icon: github-alt

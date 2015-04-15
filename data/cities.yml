@@ -68,10 +68,12 @@ brussels:
     longitude: 4.3603740
   next_session_fragment: brussels-october-2014
   staff:
-    - martin
     - anne
-    # - thibaut
-    # - christophe
+    - martin
+    # - xavier
+    # - lien
+    # - teddy
+    # - simon
   programs:
     bootcamp: true
   partners: # From data/partners.yml
