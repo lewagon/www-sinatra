@@ -154,18 +154,18 @@ class App < Sinatra::Base
     end
   end
 
-  LOCALES.each do |locale|
-    BOOSTERS.each do |slug, booster|
-      get "/#{locale == DEFAULT_LOCALE ? "" : "#{locale}/"}kit/#{slug}" do
-        @booster_slug = slug
-        @booster = booster
-        @booster_camps = BOOSTER_CAMPS.select { |_, camp| camp[:booster] == slug.to_s }
-        @city = CITIES[booster[:city].to_sym]
-        I18n.locale = locale
-        erb :booster
-      end
-    end
-  end
+  # LOCALES.each do |locale|
+  #   BOOSTERS.each do |slug, booster|
+  #     get "/#{locale == DEFAULT_LOCALE ? "" : "#{locale}/"}kit/#{slug}" do
+  #       @booster_slug = slug
+  #       @booster = booster
+  #       @booster_camps = BOOSTER_CAMPS.select { |_, camp| camp[:booster] == slug.to_s }
+  #       @city = CITIES[booster[:city].to_sym]
+  #       I18n.locale = locale
+  #       erb :booster
+  #     end
+  #   end
+  # end
 
   before do
     unless LOCALES.include?(I18n.locale)  # Detected by Rack::Locale
