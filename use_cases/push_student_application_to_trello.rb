@@ -28,8 +28,6 @@ module UseCases
 
 Prix: #{@price} #{@currency} TTC
 
-[]()
-
 ## Motivation
 
 #{params[:motivation]}
