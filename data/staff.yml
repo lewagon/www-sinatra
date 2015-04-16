@@ -146,6 +146,26 @@ martin:
       icon: linkedin
     - url: http://about.me/vanakenm
       icon: link
+xavier:
+  image_name: xavier.jpg
+  description:
+    fr: |
+      Passioné de programmation, **Xavier** développe des applications en Ruby
+      depuis plus de 10 ans. Il dispose également d'une experience de coach au sein
+      d'équipes de développement.
+    en: |
+      Passionate about the craft of programming, **Xavier** has been writing
+      code since childhood. He has been developping apps in Ruby for the last
+      decade and also has extensive experience coaching teams of developers and
+      performing code reviews.
+
+  links:
+    - url: https://github.com/xavier
+      icon: github-alt
+    - url: https://twitter.com/xavierdefrang
+      icon: twitter
+    - url: https://linkedin.com/in/xavierdefrang
+      icon: linkedin
 anne:
   image_name: anne.jpg
   description:
