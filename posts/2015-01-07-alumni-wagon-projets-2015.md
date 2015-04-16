@@ -73,17 +73,17 @@ Petit plus, l’application proposera la mise en relation de Queuers/Skippers vo
 - [www.wequeue.com](http://www.wequeue.com/)
 
 
-###[POPN'FOOD](http://www.popnfood.com/) - Cooking start with inspiration
+###[YUMMY COOK](http://www.yummycook.fr/) - Cuisiner commence par un peu d'inspiration
 
-![Cooking start with inspiration](blog_image_path popnfood.jpg)
+![Cuisiner commence par un peu d'inspiration](blog_image_path yummycook.jpg)
 
-Sébastien Le Moan a 15 ans d'expérience dans l'hostellerie de luxe. De Monaco à Londres il a eu tout le loisir de manager le room service d’un hôtel de standing avant de créer son entreprise de livraison de petits déjeuners haut de gamme. Avec l’envie de retourner à sa passion première, la cuisine, il s’est lancé dans la conception de Popn’Food, une plateforme de curation de recettes au design soigné.
+Sébastien Le Moan a 15 ans d'expérience dans l'hostellerie de luxe. De Monaco à Londres il a eu tout le loisir de manager le room service d’un hôtel de standing avant de créer son entreprise de livraison de petits déjeuners haut de gamme. Avec l’envie de retourner à sa passion première, la cuisine, il s’est lancé dans la conception de Yummy Cook, une plateforme de curation de recettes au design soigné.
 
-Un brin déçu par les résultats et suggestions apportés par les services les plus populaires sur le web, Popn'food propose une interface épurée, ou la curation de recettes est effectuée par thème tout en faisant la part belle à l'excellent travail d'une foule de blogueurs culinaires talentueux, mais pas forcément très bien référencés.
+Un brin déçu par les résultats et suggestions apportés par les services les plus populaires sur le web, Yummy Cook propose une interface épurée, ou la curation de recettes est effectuée par thème tout en faisant la part belle à l'excellent travail d'une foule de blogueurs culinaires talentueux, mais pas forcément très bien référencés.
 
 L’objectif ? Permettre à l’utilisateur d’être avant tout guidé par ses yeux plus que ses envies.
 
-- [www.popnfood.com](http://www.popnfood.com/)
+- [www.yummycook.com](http://www.yummycook.fr/)
 
 
 ###[REMEMBER](http://remember-production.herokuapp.com/users/sign_in) - Memories back, with your friends
