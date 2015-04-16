@@ -69,11 +69,13 @@ brussels:
   next_session_fragment: brussels-october-2014
   staff:
     - anne
-    - martin
-    # - xavier
+    - xavier
+    # - simon
     # - lien
     # - teddy
-    # - simon
+    - martin
+    # - thibaut
+    # - christophe
   programs:
     bootcamp: true
   partners: # From data/partners.yml

@@ -146,6 +146,26 @@ martin:
       icon: linkedin
     - url: http://about.me/vanakenm
       icon: link
+xavier:
+  image_name: xavier.jpg
+  description:
+    fr: |
+      Passioné de programmation, **Xavier** développe des applications en Ruby
+      depuis plus de 10 ans. Il dispose également d'une experience de coach au sein
+      d'équipes de développement.
+    en: |
+      Passionate about the craft of programming, **Xavier** has been writing
+      code since childhood. He has been developping apps in Ruby for the last
+      decade and also has extensive experience coaching teams of developers and
+      performing code reviews.
+
+  links:
+    - url: https://github.com/xavier
+      icon: github-alt
+    - url: https://twitter.com/xavierdefrang
+      icon: twitter
+    - url: https://linkedin.com/in/xavierdefrang
+      icon: linkedin
 anne:
   image_name: anne.jpg
   description:
@@ -155,11 +175,16 @@ anne:
       in information and communication technologies.
       She launched (and now drives) Le Wagon Brussels. And she is also an ardent
       ambassador of [Rails Girls Brussels](http://railsgirls.com/brussels).
+      She loves helping others to overcome the sometimes frustrating
+      learning process and seeing the bright light in their eyes when the
+      magic of coding gets unveiled!
     fr: |
       Knowledge & information manager pendant près de 10 ans, **Anne**
       est retournée à l'université pour suivre un master en TIC.
       Elle a lancé (et conduit aujourd'hui) Le Wagon Brussels. Et elle est aussi
       une ardente ambassadrice des [Rails Girls Brussels](http://railsgirls.com/brussels).
+      Elle aime par dessus tout aider les nouveaux venus à surmonter leur première appréhension
+      et voir l'étincelle briller dans leurs yeux quand la magie du code se dévoile!
   links:
     - url: https://github.com/OObatwomanOO
       icon: github-alt
