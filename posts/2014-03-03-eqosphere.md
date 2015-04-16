@@ -22,7 +22,7 @@ D’abord Sciences Po. Spécialisé dans les liens entre technologies, communica
 - 2e input : Si le produit vient d’avoir une valeur événementielle, parfaitement légitime, comment donner au produit une seconde valeur hors de sa destination initiale ?
 - 3e input : « Home », de Artus-Bertrand, comment optimiser l’allocation des ressources existantes sur notre planète ?
 
-L’idée initiale remonte à une expérience que j’ai vécue quand j’étais étudiant : un de mes jobs consistait à servir les cocktails d’inauguration des expos du Pavillon de l’Arsenal à Paris et il restait souvent de la nourriture en fin de cocktail. Je prenais alors mon scooter pour la distribuer à des personnes sans abri dans Paris. Mais c’était loin d’être simple et à l’époque les associations n’étaient pas connectées et ne pouvaient pas recevoir tout cela.
+L’idée initiale remonte à une expérience que j’ai vécue quand j’étais étudiant : un de mes jobs consistait à servir les cocktails d’inauguration des expos du Pavillon de l’Arsenal sur Paris et il restait souvent de la nourriture en fin de cocktail. Je prenais alors mon scooter pour la distribuer à des personnes sans abri dans Paris. Mais c’était loin d’être simple et à l’époque les associations n’étaient pas connectées et ne pouvaient pas recevoir tout cela.
 
 
 En juillet 2009, après avoir proposé de mettre en œuvre l’embryon d’Eqosphere aux ministères des Affaires Sociales et de l’Agriculture,  je décide finalement de monter l’entreprise dont je rêve depuis toujours. Tout s’assemble dans ma tête : l’expérience de départ, l’éthique sur l’alimentaire et la solidarité, le développement durable, la communication et les TIC… et c’est ainsi qu’est né le projet Eqosphere, en octobre 2009.
