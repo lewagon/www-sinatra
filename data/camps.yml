@@ -105,6 +105,12 @@ paris-juillet-2015:
   trello:
     inbox_list_id: 54fee28828ffa1e52b092d3f
 
+brussels-august-2015:
+  city: brussels
+  start_date: 2015-08-17
+  end_date: 2015-10-16
+  language: en
+
 paris-septembre-2015:
   city: paris
   start_date: 2015-09-21
