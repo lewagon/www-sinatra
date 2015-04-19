@@ -166,6 +166,30 @@ xavier:
       icon: twitter
     - url: https://linkedin.com/in/xavierdefrang
       icon: linkedin
+simonschoeters:
+  image_name: simonschoeters.jpg
+  description:
+    fr: |
+      **Simon** a démissionné de son emploi d'analyste informatique après avoir lu le livre
+      Pickaxe ; il a essayé Rails pour la première fois en codant son propre blog. A sa
+      grande surprise, cela a suffi pour qu'il trouve un emploi de programmateur Ruby et
+      il n'a plus jamais regardé en arrière depuis. Il travaille actuellement en freelance,
+      car il considère qu'il s'agit de la meilleure façon de continuer à progresser
+      professionnellement.
+    en: |
+      **Simon** quit his job as an IT analyst after having read the Pickaxe book
+      and took his first try at Rails by coding his own blog. To his surprise this
+      was enough to find a job as a Ruby programmer and he hasn't looked back ever
+      since. He is currently freelancing as he feels it's the best way to keep growing
+      professionally.
+
+  links:
+    - url: https://github.com/cimm
+      icon: github-alt
+    - url: https://twitter.com/cimm
+      icon: twitter
+    - url: https://be.linkedin.com/in/schoeters
+      icon: linkedin
 anne:
   image_name: anne.jpg
   description:
