@@ -107,6 +107,50 @@
     - url: https://twitter.com/Explorizers_
       icon: twitter
 
+- name: "Fabien Loup & Jacques de Liedekerke"
+  image_name: sharkrank-team.jpg
+  url: http://sharkrank.co/
+  project:
+    name: Sharkrank
+    url: http://sharkrank.co/
+    image_name: sharkrank-landing.jpg
+    teaser:
+      fr: "Sharkrank vous propose de noter, évaluer et consulter la réputation des investisseurs partout autour du monde."
+      en: Sharkrank is a crowdsourced rating and review system of the reputation and interactions of investors worldwide.
+    description:
+      fr: Développement de l'application Rails et intégration graphique.
+      en: Development of Ruby on Rails web-app Sharkrank.
+  links:
+    - url: https://github.com/neocanada
+      icon: github-alt
+    - url: https://github.com/neocanada
+      icon: github-alt
+    - url: http://sharkrank.co/
+      icon: link
+
+- name: Sebastien Le Moan
+  image_name: sebastien-lemoan.jpg
+  url: https://github.com/neocanada
+  project:
+    name: Yummy Cook
+    url: http://www.yummycook.fr/
+    image_name: yummycook-landing.jpg
+    teaser:
+      fr: YummyCook vous aide à trouver et découvrir de nombreuses recettes proposées par les gourmets du monde entier !
+      en: YummyCook provides a large choice of recipes and invite you to discover what's hot among the gourmets on the web!
+    description:
+      fr: Développement de l'application Rails et intégration graphique.
+      en: Development of Ruby on Rails web-app Yummy Cook.
+  links:
+    - url: https://github.com/neocanada
+      icon: github-alt
+    - url: http://www.yummycook.fr/
+      icon: link
+    - url: https://www.facebook.com/YummyCook.co
+      icon: facebook
+    - url: https://twitter.com/yummycook_co
+      icon: twitter
+
 - name: Thomas Chrétien et Olivier Brunet
   image_name: trackguru-team.jpg
   url: https://github.com/tchret
