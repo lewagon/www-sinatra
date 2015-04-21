@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default <%= NAVBAR_FIXED ? "navbar-fixed-top" : nil %>" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -65,9 +65,9 @@
         <li class="with-underline">
           <a href="<%= alumni_path %>"><%= t "menu.projects" %></a>
         </li>
-        <li class="with-underline">
+        <!-- <li class="with-underline">
           <a href="<%= jobs_path %>">Jobs</a>
-        </li>
+        </li> -->
         <li class="with-underline">
           <a href="<%= faq_path %>">FAQ</a>
         </li>

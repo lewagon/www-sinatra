@@ -17,6 +17,8 @@ require_relative "use_cases/push_student_application_to_trello"
 require_relative "use_cases/subscribe_to_newsletter"
 require_relative "use_cases/push_student_to_crm"
 
+NAVBAR_FIXED = false
+
 class App < Sinatra::Base
   sprockets = Sprockets::Environment.new
   AutoprefixerRails.install(sprockets)
