@@ -39,7 +39,7 @@
     <link rel="icon" href="/favicon.png" type="image/png" />
   </head>
 
-  <body class="<%= @body_class %>">
+  <body class="<%= @body_class %>" style="<%= NAVBAR_FIXED ? "padding-top: 70px;" : nil %>">
       <!-- Facebook SDK -->
       <script>
       window.fbAsyncInit = function() {
@@ -60,6 +60,8 @@
     </script>
 
     <!-- Website Content -->
+    <%= erb :top_banner %>
+
     <%= erb :navbar %>
 
     <%= yield %>

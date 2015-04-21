@@ -23,6 +23,8 @@
 
 <div class="vertical-spacer"></div>
 
+<%= erb :banner %>
+
 <% if @post.metadata[:labels].include?('video') %>
   <div class="container-fluid">
     <div class="row">
@@ -52,7 +54,7 @@
     <div class="row">
       <div class="col-md-12 text-center">
         <h2><%= t "blog.moreposts" %></h2>
-        <% @pushed_posts.sample(3).each do |post| %>
+        <% @pushed_posts.sample(2).each do |post| %>
           <div class="col-xs-12 col-sm-4">
             <article class="postcard element">
               <a href="/blog/<%= post.slug %>" class="link-img" style="background-image: url('<%= asset_path "blog/#{post.metadata[:thumbnail]}" %>')"></a>
@@ -60,6 +62,12 @@
             </article>
           </div>
         <% end %>
+        <div class="col-xs-12 col-sm-4">
+          <article class="postcard element">
+            <a href="https://ondemand.lewagon.org/?utm_medium=referral&utm_source=www.lewagon.org&utm_campaign=footer_card_blog_wagon" class="link-img" style="background-image: url('<%= asset_path "blog/ondemand_html_css.jpg" %>')"></a>
+            <a href="https://ondemand.lewagon.org/?utm_medium=referral&utm_source=www.lewagon.org&utm_campaign=footer_card_blog_wagon"><h3>Nouveau ! Le Wagon On Demand</h3></a>
+          </article>
+        </div>
       </div>
     </div>
   </div>

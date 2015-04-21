@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default <%= NAVBAR_FIXED ? "navbar-fixed-top" : nil %>" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -16,28 +16,37 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <!--
         <li class="dropdown with-underline">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= t "menu.program" %> <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li class="list-divider">9-WEEK CAMP</li>
+            <li class="list-divider">ON SITE</li>
             <li>
-              <a href="<%# program_path %>">Full-Stack Bootcamp</a>
+              <a href="<%= program_path %>"><%= t "menu.nine_week_bootcamp" %></a>
             </li>
-            <li class="list-divider">1-WEEK KITS</li>
+
+            <li class="list-divider">ONLINE</li>
+            <li>
+              <a href="https://ondemand.lewagon.org/?utm_medium=referral&utm_source=www.lewagon.org&utm_campaign=navbar_wagon" target="_blank">
+                Le Wagon On Demand
+                <% if I18n.locale == :en %>
+                  (French)
+                <% end %>
+              </a>
+            </li>
+
+            <!-- <li class="list-divider">1-WEEK KITS</li>
             <%# BOOSTERS.each do |slug, booster| %>
               <%# if booster[:launched] %>
               <li>
                 <a href="<%# I18n.locale == DEFAULT_LOCALE ? "" : "/#{I18n.locale}" %>/kit/<%# slug %>"><%# booster[:name] %></a>
               </li>
               <%# end %>
-            <%# end %>
+            <%# end %> -->
           </ul>
         </li>
-        -->
-        <li>
+        <!-- <li>
           <a href="<%= program_path %>"><%= t "menu.program" %></a>
-        </li>
+        </li> -->
         <li class="dropdown with-underline">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= t "menu.cities" %> <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -56,9 +65,9 @@
         <li class="with-underline">
           <a href="<%= alumni_path %>"><%= t "menu.projects" %></a>
         </li>
-        <li class="with-underline">
+        <!-- <li class="with-underline">
           <a href="<%= jobs_path %>">Jobs</a>
-        </li>
+        </li> -->
         <li class="with-underline">
           <a href="<%= faq_path %>">FAQ</a>
         </li>
