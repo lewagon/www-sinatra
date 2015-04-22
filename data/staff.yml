@@ -214,6 +214,21 @@ anne:
       icon: github-alt
     - url: https://twitter.com/DianeLanterman
       icon: twitter
+lien:
+  image_name: lien.png
+  description:
+    en: |
+      ** Lien ** worked as a team lead at ** Engagor ** before quitting her job to become a freelancer. 
+      She's at her happiest when she can participate at hackathons, startup weekends and she even was a
+      buspreneur on the startup bus. 
+      She writes about startups founded by Belgians at [LienStartups](http://lienstartups.be)
+  links:
+    - url: https://github.com/lienvdsteen
+      icon: github-alt
+    - url: https://twitter.com/lienvdsteen
+      icon: twitter
+    - url: http://lienstartups.be/
+      icon: link
 augustin:
   image_name: augustin.jpg
   description:
