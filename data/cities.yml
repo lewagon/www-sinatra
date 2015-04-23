@@ -36,10 +36,10 @@ paris:
     - gab
   programs:
     bootcamp: true
-    kits:
-      - front-end-developer
-      - data-scientist-junior
-      - ios-developer
+    # kits:
+    #   - front-end-developer
+    #   - data-scientist-junior
+    #   - ios-developer
   meetup_id: 16766372
   facebook: https://www.facebook.com/lewagonformation
   twitter: https://twitter.com/Lewagonparis
@@ -69,11 +69,10 @@ brussels:
   next_session_fragment: brussels-october-2014
   staff:
     - anne
-    - martin
     - xavier
-    # - lien
-    # - teddy
-    # - simon
+    - simonschoeters
+    - lien
+    - martin
     # - thibaut
     # - christophe
   programs:

@@ -94,7 +94,7 @@
       <% @city[:staff].each_slice(2) do |slice| %>
 
         <% slice.map { |slug| STAFF[slug.to_sym] }.each do |teacher| %>
-          <div class="col-sm-6">
+          <div class="col-sm-6 <%= slice.count == 1 ? 'col-sm-offset-3' : nil %>">
             <div class="row teacher">
               <div class="col-xs-4">
                 <img src="<%= image_path "teachers/#{teacher[:image_name]}" %>" class="img-rounded">

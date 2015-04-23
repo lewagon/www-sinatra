@@ -37,6 +37,7 @@ fr:
   and_its: et ses
   apprentices: apprentis
   menu:
+    nine_week_bootcamp: Bootcamp FullStack - 9 semaines
     bring_it: Monte un bootcamp dans ta ville !
     program: Programme
     cities: Villes
@@ -77,11 +78,11 @@ fr:
       Le Wagon a accéléré ma transition vers le métier qui me passionne vraiment.
       Sorti d'une école de commerce, je suis maintenant développeur junior
       chez Finexkap dans un cadre super stimulant où je continue
-      a apprendre tous les jours.
+      à apprendre tous les jours.
     fourth: |
-      Le wagon à été pour moi le moyen de concrétiser mon projet,
+      Le Wagon a été pour moi le moyen de concrétiser mon projet,
       trouver un associé et mettre enfin les mains dans les problématiques web !
-      C'est vraiment un réél plus pour mon <em>nouveau</em> travail de tous les jours.
+      C'est vraiment un réel plus pour mon <em>nouveau</em> travail de tous les jours.
   home:
     title: Le Wagon - Apprendre à coder - Bootcamp en Ruby on Rails, HTML, CSS et JavaScript
     description: |
@@ -92,7 +93,7 @@ fr:
     to_become_developper: Pour devenir développeur
     hundred_percent: 100%
     concrete_projects_built: Des projets d'élèves concrétisés
-    coders_trained_at_lewagon: Promotions d'entrepreneurs/codeurs
+    coders_trained_at_lewagon: Entrepreneurs formés au code
     program_in_details_uppercase: Programme fullstack en détails
     see_the_projects: Voir les projets
     boosters_pitch: |
@@ -113,10 +114,10 @@ fr:
     what_we_do: |
       A travers des formations complémentaires en programmation web,
       allant du cours d'initiation au programme immersif de 2 mois,
-      le wagon veut permettre à ces jeunes talents de devenir des acteurs de l'innovation.
+      le Wagon veut permettre à ces jeunes talents de devenir des acteurs de l'innovation.
     we_teach_upcase: NOUS ENSEIGNONS
     ruby_hacking: |
-      L'algorithmique dans le langage ruby & les techniques de growth hacking
+      L'algorithmique dans le langage Ruby & les techniques de growth hacking
       (<strong>scraping</strong>, interrogation d'<strong>APIs</strong>). Nous appliquons
       de manière pragmatique le code aux problèmes des entrepreneurs.
     oop_and_rails: |
@@ -129,7 +130,7 @@ fr:
       librairies <strong>open-source</strong> (<i>fileupload</i>, géolocalisation,
       authentification, paiement, Oauth, etc.) et la programmation côté navigateur avec
       <strong>JavaScript</strong> et <strong>AJAX</strong>.
-    coding_best_practices: "Les <em>best practices</em> de developpement web (<strong>collaboration sur Github</strong>, <em>versionning</em> de code, <strong>déploiement continu sur Heroku</strong>, gestion des photos sur <strong>Amazon S3</strong>, envoi de mail avec SMTP externe comme <strong>Mandrill</strong>, etc.)"
+    coding_best_practices: "Les <em>best practices</em> de développement web (<strong>collaboration sur Github</strong>, <em>versionning</em> de code, <strong>déploiement continu sur Heroku</strong>, gestion des photos sur <strong>Amazon S3</strong>, envoi de mails avec SMTP externe comme <strong>Mandrill</strong>, etc.)"
     media: Ils parlent du Wagon
     blog_disclaimer: À lire sur le blog
     blog_pitch: "Toutes les semaines retrouvez des tutos, vidéos de meetup et autres ressources exclusives sur notre blog !"
