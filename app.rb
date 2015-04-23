@@ -359,6 +359,7 @@ class App < Sinatra::Base
 
   alias_method :md, :markdown
   def markdown(content)
+    return "" if content.blank?
     @markdown ||= (
       renderer = Redcarpet::Render::HTML.new
       Redcarpet::Markdown.new(renderer, extensions = {})
