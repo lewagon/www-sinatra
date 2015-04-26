@@ -107,7 +107,8 @@
     <script src="<%= javascript_path "app" %>"></script>
     <%= yield_content :js %>
 
-    <%= erb :olark unless App.development? || @hide_olark %>
+    <%# erb :olark unless App.development? || @hide_olark %>
+    <%= erb :intercom unless @hide_olark %>
     <%= erb :facebook_custom_audience_tracking unless App.development? %>
   </body>
 </html>
