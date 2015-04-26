@@ -82,3 +82,8 @@ altcity:
   name: AltCity
   image_name: altcity.jpg
   url: http://www.altcity.me/
+
+doumit:
+  name: Doumit
+  image_name: doumit.jpg
+  url: http://www.doum.it/

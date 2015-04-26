@@ -170,3 +170,34 @@ beirut:
   facebook: https://www.facebook.com/lewagonbeirut
   twitter: https://twitter.com/LeWagonBeirut
 
+lille:
+  active: true
+  name: Lille
+  locale: fr
+  address: "Lille"
+  description:
+    en: |
+      We'll soon release the venue. Stay tuned!
+    fr: |
+      Nous vous dévoilerons bientôt le lieu du bootcamp.
+  images:
+    banner: bg/lille.jpg
+    bottom: bg/local-lille.jpg
+  filter_color: "rgba(139, 29, 28, 0.3)"
+  geo:
+    zoom: 15
+    latitude: 50.6310503
+    longitude: 3.0605936
+  next_session_fragment: lille-septembre-2015
+  staff:
+    - cecile
+    - thomas_gautier
+  partners:
+    - doumit
+  programs:
+    bootcamp: true
+  subventions: # From data/subventions.yml
+  meetup_id: #17182842
+  facebook: #https://www.facebook.com/lewagonlille
+  twitter: #https://twitter.com/LeWagonLille
+
