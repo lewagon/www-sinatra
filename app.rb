@@ -278,6 +278,11 @@ class App < Sinatra::Base
     end
   end
 
+  # For Youtube
+  get '/ondemand/*' do
+    redirect "https://ondemand.lewagon.org/#{request.fullpath.gsub("/ondemand/", "")}"
+  end
+
   not_found do
     erb :not_found
   end
