@@ -119,8 +119,8 @@ lille-septembre-2015:
   currency: €
   currency_iso: EUR
   language: fr
-  # trello:
-  #   inbox_list_id:
+  trello:
+    inbox_list_id: 553e763664eeccbcfacd48c5
 
 paris-septembre-2015:
   city: paris
