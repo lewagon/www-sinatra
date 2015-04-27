@@ -436,3 +436,18 @@ thomas_chretien:
       icon: twitter
     - url: http://www.trackguru.co
       icon: link
+
+thomas_gautier:
+  image_name: thomas_gautier.jpg
+  description:
+    fr: |
+      Véritable touche à tout, **Thomas** est à la fois développeur, devops et entrepreneur. Il a co-fondé <a href="http://www.doum.it/" target='_blank'>Doumit</a>, agence web agile lilloise. Il a à coeur de transmettre sa passion pour Ruby on Rails.
+    en: |
+      Both developer and devops, **Thomas** is a real swiss army knife. He co-founded <a href="http://www.doum.it/" target='_blank'>Doumit</a>, an agile web agency in Lille. He likes to spread his love for Ruby on Rails.
+  links:
+    - url: https://github.com/tgautier
+      icon: github-alt
+    - url: https://twitter.com/aryko
+      icon: twitter
+    - url: http://www.doum.it/
+      icon: link
