@@ -111,6 +111,17 @@ brussels-august-2015:
   end_date: 2015-10-16
   language: en
 
+lille-septembre-2015:
+  city: lille
+  start_date: 2015-09-07
+  end_date: 2015-11-06
+  price: 4500
+  currency: €
+  currency_iso: EUR
+  language: fr
+  # trello:
+  #   inbox_list_id:
+
 paris-septembre-2015:
   city: paris
   start_date: 2015-09-21
@@ -129,14 +140,3 @@ paris-octobre-2015:
   language: fr
   # trello:
   #   inbox_list_id: 54fee3a05c54d91a1704e9e4
-
-lille-septembre-2015:
-  city: lille
-  start_date: 2015-09-07
-  end_date: 2015-11-06
-  price: 4500
-  currency: €
-  currency_iso: EUR
-  language: fr
-  # trello:
-  #   inbox_list_id:
