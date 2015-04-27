@@ -124,19 +124,21 @@ martin:
   image_name: martin.jpg
   description:
     fr: |
-      Après quelques années à former des développeurs,
-      **Martin** a été tour à tour software engineer, team leader et coach agile.
-      Il a co-fondé [PullReview](https://www.pullreview.com),
-      une solution SaaS pour faire des *code reviews* automatiques de code Ruby.
-      Il co-anime également Rails Girls Brussels et est un speaker habituel
-      du [Paris.rb](http://www.meetup.com/parisrb/).
+      Après plusieurs années à former des développeurs,
+      **Martin** est devenu Software Engineer, Team Leader et Coach Agile.
+      Co-fondateur de [PullReview](https://www.pullreview.com),
+      une solution SaaS pour faire des reviews automatiques de code Ruby, il
+      a ensuite endossé le rôle de Lead Technical Coach au Wagon Brussels.
+      Il a co-animé plusieurs sessions de Rails Girls Brussels et donné des
+      conférences à [Paris.rb](http://www.meetup.com/parisrb/).
     en: |
       After some years spent in teaching future programmers,
-      **Martin** did work as a programmer, team leader, architect and agile coach.
-      He co-founded [PullReview](https://www.pullreview.com), a toolchain
-      aiming to help Ruby developers to improve their coding practices.
-      He is also co-organizing the Brussels chapter of Rails Girls and
-      a frequent speaker at [Paris.rb](http://www.meetup.com/parisrb/).
+      **Martin** worked as a Software Engineer, Team Leader and Agile Coach.
+      Co-founder of [PullReview](https://www.pullreview.com), a toolchain
+      aiming to help Ruby developers to improve their coding practices, he then
+      took up the role of Lead Technical Coach at Le Wagon Brussels.
+      He has been a frequent speaker at the Brussels chapter of Rails Girls and
+      at [Paris.rb](http://www.meetup.com/parisrb/).
   links:
     - url: https://github.com/vanakenm
       icon: github-alt
@@ -150,14 +152,15 @@ xavier:
   image_name: xavier.jpg
   description:
     fr: |
-      Passioné de programmation, **Xavier** développe des applications en Ruby
-      depuis plus de 10 ans. Il dispose également d'une experience de coach au sein
-      d'équipes de développement.
+      Passionné de programmation depuis son plus jeune âge, **Xavier** développe
+      des applications en Ruby depuis plus de 10 ans. Il dispose également d'une
+      solide expérience de Coach au sein d'équipes de développement. Et est un
+      redoutable Code Reviewer!
     en: |
       Passionate about the craft of programming, **Xavier** has been writing
-      code since childhood. He has been developping apps in Ruby for the last
-      decade and also has extensive experience coaching teams of developers and
-      performing code reviews.
+      code since childhood. He has been developing apps in Ruby for the last
+      decade and has also extensive experience in Coaching teams of developers
+      and (out)performing Code Reviews!
 
   links:
     - url: https://github.com/xavier
@@ -170,18 +173,20 @@ simonschoeters:
   image_name: simonschoeters.png
   description:
     fr: |
-      **Simon** a démissionné de son emploi d'analyste informatique après avoir lu le livre
-      Pickaxe ; il a essayé Rails pour la première fois en codant son propre blog. A sa
-      grande surprise, cela a suffi pour qu'il trouve un emploi de programmateur Ruby et
-      il n'a plus jamais regardé en arrière depuis. Il travaille actuellement en freelance,
-      car il considère qu'il s'agit de la meilleure façon de continuer à progresser
-      professionnellement.
+      **Simon** a démissionné de son emploi d'IT Analyst après avoir lu le livre
+      [The Pickaxe](https://pragprog.com/book/ruby/programming-ruby)
+      et essayé Rails pour la première fois en codant son propre blog. A sa
+      grande surprise, cela a suffi pour qu'il trouve un job comme Développeur
+      Ruby et il n'a plus jamais regardé en arrière depuis. Il travaille
+      actuellement comme freelance, car il considère qu'il s'agit de la meilleure
+      façon pour un développeur de continuer à progresser professionnellement.
     en: |
-      **Simon** quit his job as an IT analyst after having read the Pickaxe book
+      **Simon** quit his job as an IT Analyst after having read
+      [The Pickaxe book](https://pragprog.com/book/ruby/programming-ruby)
       and took his first try at Rails by coding his own blog. To his surprise this
-      was enough to find a job as a Ruby programmer and he hasn't looked back ever
+      was enough to find a job as a Ruby Programmer and he hasn't looked back ever
       since. He is currently freelancing as he feels it's the best way to keep growing
-      professionally.
+      professionally as a developer.
 
   links:
     - url: https://github.com/cimm
@@ -194,7 +199,7 @@ anne:
   image_name: anne.jpg
   description:
     en: |
-      ​For 10 years a knowledge and info manager,
+      ​For 10 years a Knowledge and Info Manager,
       **Anne** went back to university to follow a degree in ICT.
       In 2014, she launched (and since then, drives) Le Wagon Brussels.
       An ambassador of [Rails Girls Brussels](http://railsgirls.com/brussels),
@@ -202,12 +207,12 @@ anne:
       learning process and seeing the bright light in their eyes when the
       magic of coding gets unveiled!
     fr: |
-      Knowledge & info manager pendant 10 ans, **Anne**
+      Knowledge & Info Manager pendant 10 ans, **Anne**
       est retournée à l'université pour suivre un master en ICT.
       En 2014, elle lance (et depuis, conduit) Le Wagon Brussels.
-      Ambassadrice active des [Rails Girls Brussels](http://railsgirls.com/brussels),
-      elle aime aider les nouveaux venus à surmonter leurs craintes et frustrations
-      et voir l'étincelle briller dans leurs yeux quand la magie du code se dévoile!
+      Ambassadrice des [Rails Girls Brussels](http://railsgirls.com/brussels),
+      elle aime aider les nouveaux venus à surmonter leurs appréhensions et voir
+      l'étincelle briller dans leurs yeux quand la magie du code se dévoile!
   links:
     - url: https://github.com/OObatwomanOO
       icon: github-alt
@@ -217,14 +222,16 @@ lien:
   image_name: lien.jpg
   description:
     en: |
-      **Lien** worked as a team lead at Engagor before quitting her job to become a freelancer.
-      She's at her happiest when she can participate at hackathons, startup weekends and she even was a
-      buspreneur on the startup bus.
-      She writes about startups founded by Belgians at [LienStartups](http://lienstartups.be)
+      **Lien** worked as a Team Lead Developer at Engagor before quitting her job to become
+      a freelancer. She's at her happiest when she can participate at hackathons,
+      [Startup Weekends](http://startupweekend.org/) and she even was a buspreneur
+      on the [StartupBus](http://startupbus.com/)!
+      She writes about startups founded by Belgians at [LienStartups](http://lienstartups.be).
     fr: |
-      **Lien** a travaillé comme *lead dev* chez Engagor avant de se lancer en Freelance.
-      Elle adore participer aux hackathons, startup weekends et a même participé à un [Startup Bus](https://startupbus.com/) !
-      Elle blogue à propos des startups fondées par des belges sur [LienStartups](http://lienstartups.be)
+      **Lien** a travaillé comme Team Lead Developer chez Engagor avant de se lancer comme freelance.
+      Elle adore participer à des hackathons, [Startup Weekends](http://startupweekend.org/)
+      et a même pris place à bord d'un [StartupBus](http://startupbus.com/)!
+      Elle blogue à propos des startups lancées par des Belges sur [LienStartups](http://lienstartups.be).
   links:
     - url: https://github.com/lienvdsteen
       icon: github-alt
