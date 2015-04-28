@@ -239,6 +239,25 @@ lien:
       icon: twitter
     - url: http://lienstartups.be/
       icon: link
+teddy:
+  image_name: teddy.jpg
+  description:
+    en: |
+      A computing enthusiast, mad about interactive gaming, **Teddy**
+      is a freelance Front-End Developer and teaches JavaScript at
+      [ESIAJ](http://www.infographie-sup.be/) school. He spends his evenings
+      experimenting with JavaScript, HTML5 and CSS3.
+    fr: |
+      Passionné par le code, l’informatique et les jeux interactifs, **Teddy**
+      est Développeur Front-End freelance et enseigne le JavaScript à l’[ESIAJ](http://www.infographie-sup.be/).
+      Il passe beaucoup de temps à bidouiller du code en soirée (JavaScript, HTML5, CSS3).
+  links:
+    - url: https://github.com/teddy-k
+      icon: github-alt
+    - url: https://twitter.com/teddytdk
+      icon: twitter
+    - url: http://www.teddyk.be/
+      icon: link
 augustin:
   image_name: augustin.jpg
   description:
