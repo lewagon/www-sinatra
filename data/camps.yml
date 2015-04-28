@@ -102,6 +102,7 @@ paris-juillet-2015:
   currency: €
   currency_iso: EUR
   language: fr
+  last_seats: true
   trello:
     inbox_list_id: 54fee28828ffa1e52b092d3f
 
@@ -110,6 +111,11 @@ brussels-august-2015:
   start_date: 2015-08-17
   end_date: 2015-10-16
   language: en
+  price: 4500
+  currency: €
+  currency_iso: EUR
+  trello:
+    inbox_list_id: 553f8ebad4e7252ac3fbe144
 
 lille-septembre-2015:
   city: lille
