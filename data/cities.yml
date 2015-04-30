@@ -51,13 +51,15 @@ brussels:
   address: "Place Sainte-Gudule 5, 1000 Brussels"
   description:
     en: |
-      Our courses, in Brussels, are given in <strong>English</strong>,
-      at <a href='http://www.co-station.com/'>Co.Station</a>,
-      in the heart of the city, only ​2 minutes' ​walk ​from Central Station.
+      Our courses are taught in <strong>English</strong>,
+      at <a href='http://www.co-station.com/'>Co.Station</a>, an accelerator
+      located in the heart of Brussels, a ​2 minutes' ​walk ​from the city's
+      Central Station.
     fr: |
       Nos cours, à Bruxelles, sont donnés en <strong>anglais</strong>,
       dans les locaux de <a href='http://www.co-station.com/'>Co.Station</a>,
-      au coeur de la ville, à deux minutes à pied de la Gare Centrale.
+      un accélérateur de startups, situé au coeur de la ville,
+      à deux minutes à pied de la Gare Centrale.
   images:
     banner: bg/brussels.jpg
     bottom: bg/local-costation.jpg

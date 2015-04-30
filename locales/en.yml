@@ -52,12 +52,12 @@ en:
     partners: Partners
     partner_join_html: |
       <strong>You want to be part of this list?</strong>
-      Meet & recruit our students, train your employees to coding best-practices,
-      sponsor Le Wagon and help people learn to code? Contact us!
+      Meet & recruit our students, train your employees to best-practices in coding,
+      sponsor Le Wagon or help people learn to code? Contact us!
     get_onboard: Get on board for 9 weeks in %{city}
   newsletter:
     teaser: "<p>Get our latest <strong>videos</strong> & technical <strong>blogposts</strong> right in your inbox!</p>"
-    city_teaser_html: 'Stay informed of our coming <strong>events</strong> in %{city}, get our <strong>videos</strong> & technical <strong>blogposts</strong> right in your inbox!'
+    city_teaser_html: 'Stay informed about our upcoming <strong>events</strong> in %{city}, get our <strong>videos</strong> & technical <strong>blogposts</strong> right in your inbox!'
     email_placeholder: your e-mail
     follow_us_button: Follow us
     thank_you: Thanks, see you soon!

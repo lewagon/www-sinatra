@@ -132,11 +132,11 @@ martin:
       Il a co-animé plusieurs sessions de Rails Girls Brussels et donné des
       conférences à [Paris.rb](http://www.meetup.com/parisrb/).
     en: |
-      After some years spent in teaching future programmers,
+      After some years spent teaching future programmers,
       **Martin** worked as a Software Engineer, Team Leader and Agile Coach.
       Co-founder of [PullReview](https://www.pullreview.com), a toolchain
-      aiming to help Ruby developers to improve their coding practices, he then
-      took up the role of Lead Technical Coach at Le Wagon Brussels.
+      which helps Ruby developers to improve their coding practices, he took up
+      the role of Lead Technical Coach at Le Wagon Brussels.
       He has been a frequent speaker at the Brussels chapter of Rails Girls and
       at [Paris.rb](http://www.meetup.com/parisrb/).
   links:
@@ -153,15 +153,15 @@ xavier:
   description:
     fr: |
       Passionné de programmation depuis son plus jeune âge, **Xavier** développe
-      des applications en Ruby depuis plus de 10 ans. Il dispose également d'une
-      solide expérience de Coach au sein d'équipes de développement. Et est un
-      redoutable Code Reviewer!
+      des applications en Ruby depuis plus de 10 ans. Ainsi que des applications
+      mobiles pour iOS et Android. Il dispose également d'une solide expérience
+      de Coach au sein d'équipes de développement. Et est un redoutable Code Reviewer!
     en: |
       Passionate about the craft of programming, **Xavier** has been writing
-      code since childhood. He has been developing apps in Ruby for the last
-      decade and has also extensive experience in Coaching teams of developers
-      and (out)performing Code Reviews!
-
+      code since childhood. He has been developing apps in Ruby for the past
+      decade and has also been involved in the development of mobile applications
+      for both iOS and Android. He has extensive experience in coaching teams of
+      developers and (out)performing code reviews!
   links:
     - url: https://github.com/xavier
       icon: github-alt
@@ -169,6 +169,8 @@ xavier:
       icon: twitter
     - url: https://linkedin.com/in/xavierdefrang
       icon: linkedin
+    - url: http://defrang.com/
+      icon: link
 simonschoeters:
   image_name: simonschoeters.png
   description:
@@ -199,18 +201,18 @@ anne:
   image_name: anne.jpg
   description:
     en: |
-      ​For 10 years a Knowledge and Info Manager,
+      ​After working for 10 years as a Knowledge and Information Manager,
       **Anne** went back to university to follow a degree in ICT.
-      In 2014, she launched (and since then, drives) Le Wagon Brussels.
-      An ambassador of [Rails Girls Brussels](http://railsgirls.com/brussels),
+      At the end of 2014, she launched (and since then, drives) Le Wagon Brussels.
+      An ambassador of [Rails Girls](http://railsgirls.com/brussels),
       she loves helping others to overcome the sometimes frustrating
       learning process and seeing the bright light in their eyes when the
       magic of coding gets unveiled!
     fr: |
-      Knowledge & Info Manager pendant 10 ans, **Anne**
+      Knowledge & Information Manager pendant 10 ans, **Anne**
       est retournée à l'université pour suivre un master en ICT.
-      En 2014, elle lance (et depuis, conduit) Le Wagon Brussels.
-      Ambassadrice des [Rails Girls Brussels](http://railsgirls.com/brussels),
+      Fin 2014, elle lance (et depuis, conduit) Le Wagon Brussels.
+      Ambassadrice des [Rails Girls](http://railsgirls.com/brussels),
       elle aime aider les nouveaux venus à surmonter leurs appréhensions et voir
       l'étincelle briller dans leurs yeux quand la magie du code se dévoile!
   links:
@@ -223,7 +225,7 @@ lien:
   description:
     en: |
       **Lien** worked as a Team Lead Developer at Engagor before quitting her job to become
-      a freelancer. She's at her happiest when she can participate at hackathons,
+      a freelancer. She's at her happiest when she can participate in hackathons,
       [Startup Weekends](http://startupweekend.org/) and she even was a buspreneur
       on the [StartupBus](http://startupbus.com/)!
       She writes about startups founded by Belgians at [LienStartups](http://lienstartups.be).
@@ -245,7 +247,7 @@ teddy:
     en: |
       A computing enthusiast, mad about interactive gaming, **Teddy**
       is a freelance Front-End Developer and teaches JavaScript at
-      [ESIAJ](http://www.infographie-sup.be/) school. He spends his evenings
+      [ESIAJ](http://www.infographie-sup.be/). He spends his evenings
       experimenting with JavaScript, HTML5 and CSS3.
     fr: |
       Passionné par le code, l’informatique et les jeux interactifs, **Teddy**
