@@ -146,26 +146,24 @@ beirut:
   address: "Beirut, Lebanon"
   description:
     en: |
-      AltCity is a place designed from the bottom up to help facilitate, mobilize, encourage,
-      and support high impact entrepreneurship and innovation in Lebanon and the region. Le Wagon's students will
-      benefit from this great ecosystem during the 2-month camp.
+      The Beirut Innovation Center is a coworking space ideally located outside
+      of the city, in a green environment, far from the traffic jam.
     fr: |
-      AltCity is a place designed from the bottom up to help facilitate, mobilize, encourage,
-      and support high impact entrepreneurship and innovation in Lebanon and the region. Le Wagon's students will
-      benefit from this great ecosystem during the 2-month camp.
+      Le Beirut Innovation Center est un espace de co-working idéalement situé
+      en périphérie de Beyrout, dans un cadre verdoyant, loin des embouteillages.
   images:
     banner: bg/beirut.jpg
     bottom: bg/local-beirut-bis.jpg
   filter_color: "rgba(253, 113, 32, 0.4)"
   geo:
     zoom: 15
-    latitude: 33.8869
-    longitude: 35.5131
+    latitude: 33.869543
+    longitude: 35.580607
   next_session_fragment: beirut-january-2015
   staff:
-    - antoine
+    - malik
   partners:
-    - altcity
+    - beirut-innovation-center
   programs:
     bootcamp: true
   subventions: # From data/subventions.yml

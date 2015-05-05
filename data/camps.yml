@@ -90,8 +90,12 @@ paris-mai-2015:
 
 beirut-lead-2015:
   city: beirut
-  # start_date: 2015-02-16
-  # end_date: 2015-04-07
+  # start_date: 2015-07-06
+  # end_date: 2015-09-04
+  price: 4500
+  currency: $
+  currency_iso: USD
+  language: en
   trello:
     inbox_list_id: 5483111b016614fe47750d4f
 
