@@ -78,10 +78,10 @@ poudriere:
   image_name: poudriere.png
   url: http://www.poudriere.org/
 
-altcity:
-  name: AltCity
-  image_name: altcity.jpg
-  url: http://www.altcity.me/
+beirut-innovation-center:
+  name: Beirut Innovation Center
+  image_name: beirut-innovation-center.png
+  url: http://beirutic.com/
 
 doumit:
   name: Doumit

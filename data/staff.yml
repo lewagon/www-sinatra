@@ -385,16 +385,22 @@ archibald:
       icon: twitter
     - url: http://bigint.fr/
       icon: link
-antoine:
-  image_name: antoine.jpg
+
+malik:
+  image_name: malik.jpg
   description:
     fr: |
-      Antoine, ancien étudiant du Wagon Paris, passionné d’entrepreuneuriat et de business développement, a décidé de développer le wagon à Beirut pour la région du Moyen-Orient afin d’y aider l’écosystème des startups.
+      Né et élevé en Belgique, diplômé en Marketing et Graphic Design,
+      Malik est un serial entrepreneur libanais qui développe aujourd'hui les activités
+      du Wagon à Beyrouth.
     en: |
-      Antoine, a former student of Le Wagon Paris, enthusiastic about entrepreneurial and business development. He has decided to develop the Wagon in the Middle East region, starting from Beirut, to help the startup ecosystem.
+      Born and raised in Belgium, graduated in Marketing and Graphic Design,
+      Malik is a Lebanese serial entrepreneur who now develops Le Wagon Beirut's activities.
   links:
-    - url: http://fr.linkedin.com/pub/antoine-akel/a2/59a/34a/en
+    - url: https://lb.linkedin.com/in/elkhourymalik/en
       icon: linkedin
+    - url: https://twitter.com/elkhourymalik
+      icon: twitter
 
 martindaniel:
   image_name: martin_daniel.jpg
