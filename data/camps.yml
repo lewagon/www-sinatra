@@ -71,7 +71,7 @@ brussels-may-2015:
   currency_iso: EUR
   language: en
   last_seats: true
-  full: true
+  # full: true
   trello:
     inbox_list_id: 54b9118670053758d247480e
 
