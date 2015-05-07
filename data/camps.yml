@@ -144,6 +144,17 @@ paris-septembre-2015:
   trello:
     inbox_list_id: 54fee379820e199751400ace
 
+bordeaux-septembre-2015:
+  city: bordeaux
+  start_date: 2015-09-28
+  end_date: 2015-11-17
+  price: 4500
+  currency: €
+  currency_iso: EUR
+  language: fr
+  trello:
+    inbox_list_id: 554b60bd13d9df5e9b98a9e8
+
 paris-octobre-2015:
   city: paris
   start_date: 2015-10-19
