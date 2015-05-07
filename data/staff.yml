@@ -478,3 +478,35 @@ thomas_gautier:
       icon: twitter
     - url: http://www.doum.it/
       icon: link
+
+bertrand:
+  image_name: bertrand.jpg
+  description:
+    fr: |
+      Pendant plusieurs années dans l’innovation et l’entrepreneuriat, **Bertrand** s'est confronté à la nécessité de plonger dans le milieu du code et du développement web. Il voulait gagner en efficacité et pouvoir entreprendre de façon plus autonome et efficace. Il a depuis le désir de transmettre ses connaissances et faire de vous des champions du code.
+    en: |
+      After several years of working as an entrepreneur in innovation, **Bertrand** recognized that in order to work more effectively and autonomously, he needed to master coding and website development. Now, he wants to share this knowledge and make you coding champions !
+  links:
+    - url: https://github.com/bertrandbussac
+      icon: github-alt
+    - url: https://twitter.com/bertrandbussac
+      icon: twitter
+
+sylvain:
+  image_name: sylvain.png
+  description:
+    fr: |
+      Développeur web depuis 10 ans et enseignant à Ingésup, **Sylvain** est ancré dans plusieurs communautés de développeurs à Bordeaux.<br>
+      Freelance depuis 2008, il a travaillé avec plusieurs startup Bordelaises et Parisiennes et a participé à plusieurs Startup Weekend.
+    en: |
+      Web developer for 10 years and teaching at Ingésup **Sylvain** belongs to various developer communities in Bordeaux.<br>
+      Freelance since 2008, he has worked with several startups from Bordeaux and Paris and has participated to many Startup Weekend.
+  links:
+    - url: https://github.com/volpeo
+      icon: github-alt
+    - url: http://fr.linkedin.com/in/sylvainpeigney
+      icon: linkedin
+    - url: https://twitter.com/volpeo
+      icon: twitter
+    - url: http://www.volpeo.fr
+      icon: link
