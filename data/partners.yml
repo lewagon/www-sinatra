@@ -87,3 +87,13 @@ doumit:
   name: Doumit
   image_name: doumit.jpg
   url: http://www.doum.it/
+
+altcity:
+  name: AltCity
+  image_name: altcity.jpg
+  url: http://www.altcity.me/
+
+ajstage:
+  name: AJ Stage
+  image_name: ajstage.png
+  url: http://www.ajstage.com/
