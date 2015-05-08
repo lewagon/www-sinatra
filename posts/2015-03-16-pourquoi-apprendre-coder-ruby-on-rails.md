@@ -50,7 +50,16 @@ Si il est vrai que dans le monde *corporate* des langages comme Java et C# reste
 
 ###…qui fait sens au sein d’une stack plus large
 
-Turing nous a montré que tous les langages sont équivalents en terme d'expressivité, ce qui veut dire qu'une fois que vous savez programmer dans un langage, vous savez programmer dans tous les langages. Le plus dur reste d'acquérir le *mindset* de programmeur.
+Pourquoi existe-t-il autant de langages de programmation différents ?
+Ne serait-il pas plus simple d'en avoir qu'un seul à apprendre ? Il y a
+beaucoup de raisons, nottament historiques, qui peuvent expliquer cette
+multitude de langage. Il y a des langages qui vont être
+plus adaptés pour faire du web, d'autres pour faire du mobile ou encore
+d'autres pour envoyer un homme sur Mars. Ce qui est intéressant de noter,
+c'est que les briques élémentaires de tous ces langages sont très proches,
+voire identiques. Une fois qu'on maîtrise un langage de programmation,
+il est beaucoup plus aisé d'en apprendre un second.
+Le plus dur reste d'acquérir le *mindset* de programmeur.
 
 Par la suite, si un job vous demande de coder dans un autre langage, après une semaine intensive à fond dessus vous ferez rapidement l'analogie syntaxique entre votre langage préféré et le nouveau. Dans les faits il vous faudra au minimum maîtriser une stack plus complète :
 
