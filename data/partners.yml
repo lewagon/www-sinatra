@@ -53,6 +53,11 @@ pullreview:
   image_name: pullreview.png
   url: https://www.pullreview.com
 
+central_design:
+  name: Central Design
+  image_name: central_design.png
+  url: http://centraldesign.be/
+
 meshwork:
   name: MeshWork
   image_name: meshwork.png
