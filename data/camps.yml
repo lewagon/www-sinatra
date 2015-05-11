@@ -61,32 +61,32 @@
 #   trello:
 #     inbox_list_id: 54367e024309d39b50e17738
 
-brussels-may-2015:
-  city: brussels
-  start_date: 2015-05-04
-  end_date: 2015-07-03
-  price: 3900
-  price_was: 4500
-  currency: €
-  currency_iso: EUR
-  language: en
-  last_seats: true
-  # full: true
-  trello:
-    inbox_list_id: 54b9118670053758d247480e
+# brussels-may-2015:
+#   city: brussels
+#   start_date: 2015-05-04
+#   end_date: 2015-07-03
+#   price: 3900
+#   price_was: 4500
+#   currency: €
+#   currency_iso: EUR
+#   language: en
+#   last_seats: true
+#   full: true
+#   trello:
+#     inbox_list_id: 54b9118670053758d247480e
 
-paris-mai-2015:
-  city: paris
-  start_date: 2015-05-11
-  end_date: 2015-07-10
-  last_seats: true
-  price: 3900
-  price_was: 4500
-  currency: €
-  full: true
-  language: fr
-  trello:
-    inbox_list_id: 54367fcfe0dfe26d509ec183
+# paris-mai-2015:
+#   city: paris
+#   start_date: 2015-05-11
+#   end_date: 2015-07-10
+#   last_seats: true
+#   price: 3900
+#   price_was: 4500
+#   currency: €
+#   full: true
+#   language: fr
+#   trello:
+#     inbox_list_id: 54367fcfe0dfe26d509ec183
 
 beirut-lead-2015:
   city: beirut
