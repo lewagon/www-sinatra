@@ -43,20 +43,26 @@ namespace :trello do
     end
   end
 
-  task :emails do
+  task :no_go_emails do
     configure_trello
 
+    no_go_emails = emails(/\ANO GO/)
+    go_emails = emails(/\AGO/)
+    puts no_go_emails - go_emails
+  end
+
+  def emails(list_regex)
+    emails = []
     Trello::Board.all.select { |b| b.organization_id == WAGON_TRELLO_ORG_ID } .each do |board|
       board.lists.each do |list|
-        if list.name.match(/\AGO/)
-          puts "# #{board.name}"
+        if list.name.match(list_regex)
           list.cards.each do |card|
-            puts card.name
+            emails << card.name
           end
-          puts ""
         end
       end
     end
+    emails.uniq
   end
 end
 
