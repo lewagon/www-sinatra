@@ -45,18 +45,18 @@ girlsintechparis:
 
 co_station:
   name: Co.Station
-  image_name: costation.png
+  image_name: co_station.png
   url: http://www.co-station.com
-
-pullreview:
-  name: Pull Review
-  image_name: pullreview.png
-  url: https://www.pullreview.com
 
 central_design:
   name: Central Design
-  image_name: central_design.png
+  image_name: central_design.svg
   url: http://centraldesign.be/
+
+pullreview:
+  name: Pull Review
+  image_name: pull_review.png
+  url: https://www.pullreview.com
 
 meshwork:
   name: MeshWork

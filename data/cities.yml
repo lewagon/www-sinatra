@@ -82,8 +82,8 @@ brussels:
     bootcamp: true
   partners: # From data/partners.yml
     - co_station
-    - pullreview
     - central_design
+    - pullreview
   subventions: # From data/subventions.yml
     - impulse
   meetup_id: 16630202
