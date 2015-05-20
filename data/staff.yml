@@ -510,3 +510,21 @@ sylvain:
       icon: twitter
     - url: http://www.volpeo.fr
       icon: link
+
+david:
+  image_name: david.png
+  description:
+    fr: |
+      Développeur front-end, designer et évangéliste open source, **David** a
+      co-fondé ChtiJS et participe aux Welsh Design.
+      Toujours avec un carnet à la main, il réalise d'incroyables sketch-notes.
+    en: |
+      Both front-end dev, designer and open source evangelist, **David** co-founded ChtiJS and participates in Welsh Design.
+      Always with a notebook he's performing great sketch-notes.
+  links:
+    - url: https://github.com/flexbox
+      icon: github-alt
+    - url: https://twitter.com/_flexbox
+      icon: twitter
+    - url: http://davidl.fr/
+      icon: link

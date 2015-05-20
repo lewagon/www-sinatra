@@ -90,7 +90,7 @@ beirut-innovation-center:
 
 doumit:
   name: Doumit
-  image_name: doumit.jpg
+  image_name: doumit.png
   url: http://www.doum.it/
 
 altcity:
@@ -102,3 +102,8 @@ ajstage:
   name: AJ Stage
   image_name: ajstage.png
   url: http://www.ajstage.com/
+
+euratechnologies:
+  name: Euratechnologies
+  image_name: euratechnologies.jpg
+  url: http://www.euratechnologies.com/

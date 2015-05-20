@@ -176,32 +176,36 @@ lille:
   active: true
   name: Lille
   locale: fr
-  address: "Lille"
+  address: "165 avenue de Bretagne, 59000 Lille"
   description:
     en: |
-      We'll soon release the venue. Stay tuned!
+      Students will evolve in <strong>Euratechnologies</strong> ecosystem, the biggest accelerator of France.
+      On top of that, this is a unique chance for the best projects to be selected for acceleration.
     fr: |
-      Nous vous dévoilerons bientôt le lieu du bootcamp.
+      C'est au sein d'<strong>Euratechnologies</strong>, le plus gros incubateur de France, que les élèves du Wagon évolueront.
+      A la clef, une chance pour les meilleurs projets d'élève d'être sélectionnés pour une incubation.
   images:
     banner: bg/lille.jpg
     bottom: bg/local-lille.jpg
   filter_color: "rgba(139, 29, 28, 0.3)"
   geo:
     zoom: 15
-    latitude: 50.6310503
-    longitude: 3.0605936
+    latitude: 50.6333542
+    longitude: 3.0203766
   next_session_fragment: lille-septembre-2015
   staff:
     - cecile
     - thomas_gautier
+    - david
   partners:
     - doumit
+    - euratechnologies
   programs:
     bootcamp: true
   subventions: # From data/subventions.yml
   meetup_id: #17182842
   facebook: #https://www.facebook.com/lewagonlille
-  twitter: #https://twitter.com/LeWagonLille
+  twitter: https://twitter.com/lewagonlille
 
 
 bordeaux:
