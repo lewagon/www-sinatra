@@ -169,6 +169,14 @@ class App < Sinatra::Base
   #   end
   # end
 
+  get '/kit/data-scientist-junior' do
+    redirect 'http://ondemand.lewagon.org/tracks/devenez-data-scientist/go', 301
+  end
+
+  get '/kit/front-end-developer' do
+    redirect 'https://ondemand.lewagon.org/tracks/devenez-developpeur-front-end/go', 301
+  end
+
   before do
     unless LOCALES.include?(I18n.locale)  # Detected by Rack::Locale
       I18n.locale = DEFAULT_LOCALE
