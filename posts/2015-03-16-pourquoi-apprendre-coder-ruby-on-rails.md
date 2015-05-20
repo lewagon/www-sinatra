@@ -52,8 +52,8 @@ Si il est vrai que dans le monde *corporate* des langages comme Java et C# reste
 
 Pourquoi existe-t-il autant de langages de programmation différents ?
 Ne serait-il pas plus simple d'en avoir qu'un seul à apprendre ? Il y a
-beaucoup de raisons, nottament historiques, qui peuvent expliquer cette
-multitude de langage. Il y a des langages qui vont être
+beaucoup de raisons, notamment historiques, qui peuvent expliquer cette
+multitude de langages. Il y a des langages qui vont être
 plus adaptés pour faire du web, d'autres pour faire du mobile ou encore
 d'autres pour envoyer un homme sur Mars. Ce qui est intéressant de noter,
 c'est que les briques élémentaires de tous ces langages sont très proches,
