@@ -7,12 +7,12 @@ labels:
   - alumni
   - startup
 thumbnail: thumbnail-demoday-promo8.jpg
-description: "Les 24 alumni de la 8e promotion vous prouvent qu’il est possible de coder une application web en 10 jours après seulement 7 semaines de cours. Et avec l'art et la manière s'il vous plaît."
+description: "Les 24 alumni de la 8e promotion vous prouvent qu’il est possible de coder une application web en 10 jours. Et avec l'art et la manière s'il vous plaît."
 ---
 
 <div class="video-wrapper"><iframe width="750" height="422" src="https://www.youtube.com/embed/Oh3TRLT6rAw?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
-Les 24 alumni de la 8e promotion vous prouvent qu’il est possible de coder une application web en 10 jours après seulement [7 semaines de cours](http://www.lewagon.org/programme). Et avec l'art et la manière s'il vous plaît.
+Les 24 alumni de la 8e promotion vous prouvent qu’il est possible de coder une application web en 10 jours après [7 semaines de cours](http://www.lewagon.org/programme). Et avec l'art et la manière s'il vous plaît.
 
 ### [DELICE AVENUE](https://deliceavenue.herokuapp.com/) - Trouve les meilleures pâtisseries maison près de chez toi
 
