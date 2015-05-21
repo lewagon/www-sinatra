@@ -42,11 +42,11 @@ En partant du postulat que notre façon de consommer nuit à notre planète, not
 Soucieux de couper court au management pyramidal du 20e siècle et partant du principe qu'un groupe d'individus est capable de s’autogérer, [Willem Browne](https://twitter.com/willooz), [Marina Starkova](https://twitter.com/crabshelter) et [Nicolas Feer](https://twitter.com/stratosfeer) se sont lancés dans l'aventure [MoonShot](http://www.gomoonshot.com/). Véritable solution SaaS de gestion des objectifs, cette plateforme permet à l'ensemble des collaborateurs d'un projet ou d'une structure de créer, suivre et mettre à jour des objectifs, sans oublier de saluer le travail de ses collègues via une multitudes de badges disponibles.
 
 
-### [REFUNDERS](http://www.refunders.io/) - La bourse du crowndfunding
+### [REFUNDERS](http://www.refunders.io/) - La bourse du crowdfunding
 
-![Refunders, la bourse du crowndfunding](blog_image_path demoday-refunders.jpg)
+![Refunders, la bourse du crowdfunding](blog_image_path demoday-refunders.jpg)
 
-Mickael Giami et [Alex Cordani](https://twitter.com/visitesenvues) sont partis du constat que les marchés financiers perdent en popularité. De plus en plus de gens se tournent vers le crowdfunding de participation en actions (part du capital d'une entreprise) avec l'ambition d'investir dans des produits concrets et innovants. [ReFunders](http://www.refunders.io/) permets simplement à ces 'nouveaux' investisseurs de revendre leurs participations sur une marketplace de niche.
+Mickael Giami et [Alex Cordani](https://twitter.com/visitesenvues) sont partis du constat que les marchés financiers perdent en popularité. De plus en plus de gens se tournent vers le crowdfunding de participation en actions (parts du capital d'une entreprise) avec l'ambition d'investir dans des produits concrets et innovants. [ReFunders](http://www.refunders.io/) permet simplement à ces 'nouveaux' investisseurs de revendre leurs participations sur une marketplace de niche.
 
 
 ### [SNEAKR](http://www.sneakr.fr/) - Sneaker digger
