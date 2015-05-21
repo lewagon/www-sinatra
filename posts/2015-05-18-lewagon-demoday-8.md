@@ -25,14 +25,14 @@ Instagram et Pinterest regorgent de photos de pâtisseries réalisées par des a
 
 ![QstomR, tous clients les uns des autres](blog_image_path demoday-qstomr.jpg)
 
-Nicolas Biencourt et Mathieu Lhoste ont créé [QstomR](http://www.qstomr.com/), une nouvelle plateforme de services entre particuliers. Leur service propose aux utilisateurs la possibilité de présenter et déléguer des tâches du quotidien (jardinage, entretien...) auprès des autres membres inscrits sur le service contre monnaie sonnante et trébuchante.
+Nicolas Biencourt et Mathieu Lhoste ont créé [QstomR](http://www.qstomr.com/), une nouvelle plateforme de services entre particuliers. Leur service propose aux utilisateurs de présenter et déléguer des tâches du quotidien (jardinage, entretien...) auprès des autres membres inscrits sur le service contre monnaie sonnante et trébuchante.
 
 
 ### [CFORGOOD](http://cforgood.herokuapp.com/users/sign_in) - Les bons plans de la consommation responsable
 
 ![CforGood, les bons plans de la consommation responsable](blog_image_path demoday-cforgood.jpg)
 
-Parti du postulat que notre mode de consommation nuit à notre planète, notre économie et notre santé, [Allan Floury](https://twitter.com/allanfloury) et Nasreddine Boukehil ont développé la version mobile first de [CforGood](http://cforgood.herokuapp.com/users/sign_in). Pour tendre à rendre nos actes d'achats un tant soit peu plus raisonnés, cette application propose aux membres de sa communauté de recevoir et de consulter les bons plans des commerces de proximité engagés dans la consommation positive. Première étape d'une ambition plus conséquente, nous vous invitons à suivre ce projet de près !
+En partant du postulat que notre façon de consommer nuit à notre planète, notre économie et notre santé, [Allan Floury](https://twitter.com/allanfloury) et Nasreddine Boukehil ont développé la version mobile first de [CforGood](http://cforgood.herokuapp.com/users/sign_in). Pour tendre à rendre nos actes d'achats un tant soit peu plus raisonnés, cette application propose aux membres de sa communauté de recevoir et de consulter les bons plans des commerces de proximité engagés dans la consommation positive. Première étape d'une ambition plus conséquente, nous vous invitons à suivre ce projet de près !
 
 
 ### [MOONSHOT](http://www.gomoonshot.com/) - Liberté, égalité, productivité
@@ -46,21 +46,21 @@ Soucieux de couper court au management pyramidal du 20e siècle et partant du pr
 
 ![Refunders, la bourse du crowndfunding](blog_image_path demoday-refunders.jpg)
 
-Mickael Giami et [Alex Cordani](https://twitter.com/visitesenvues) sont partis du constat que les marchés financiers perdent en popularité. De plus en plus de gens se tournent vers le crowndfunding de participation en actions (part du capital d'une entreprise) avec l'ambition d'investir dans des produits concrets et innovants. [ReFunders](http://www.refunders.io/) permets simplement à ces 'nouveaux' investisseurs de revendre leurs participations sur une marketplace de niche.
+Mickael Giami et [Alex Cordani](https://twitter.com/visitesenvues) sont partis du constat que les marchés financiers perdent en popularité. De plus en plus de gens se tournent vers le crowdfunding de participation en actions (part du capital d'une entreprise) avec l'ambition d'investir dans des produits concrets et innovants. [ReFunders](http://www.refunders.io/) permets simplement à ces 'nouveaux' investisseurs de revendre leurs participations sur une marketplace de niche.
 
 
 ### [SNEAKR](http://www.sneakr.fr/) - Sneaker digger
 
 ![Sneakr, sneaker digger](blog_image_path demoday-sneakr.jpg)
 
-Adeptes des sneakers à outrance Romain Pignoux et [Katalina Nadasi](https://twitter.com/LadyGravos) se sont lassés (sans mauvais jeux de mots) de passer des heures et des heures à fouiller le web à la recherche de la perle rare. Inspirés, ils ont fondé [SneakR](http://www.sneakr.fr/). Mêlant astucieusement recommandation et analyse des tendances du moment au scrapping de site e-commerce, SneakR vous permettra sans aucun doute de trouver une paire de SB Eric Koston MID Premium à pas cher.
+Adeptes des sneakers à outrance, Romain Pignoux et [Katalina Nadasi](https://twitter.com/LadyGravos) se sont lassés (sans mauvais jeux de mots) de passer des heures et des heures à fouiller le web à la recherche de la perle rare. Inspirés, ils ont fondé [SneakR](http://www.sneakr.fr/). Mêlant astucieusement recommandation et analyse des tendances du moment au scrapping de site e-commerce, SneakR vous permettra sans aucun doute de trouver une paire de SB Eric Koston MID Premium pas chère.
 
 
 ### [NEEDL](http://www.needl.fr/users/sign_in) - Partagez vos meilleurs restaurants entre amis
 
 ![Needl, Partagez vos meilleurs restaurants entre amis](blog_image_path demoday-needl.jpg)
 
-[Valentin Ménard](https://twitter.com/heymoicvalou) et [Charlotte Cady](https://twitter.com/charlottecady) ne sont plus inquiet lorsqu’ils doivent dénicher une bonne adresse. Avec [Needl](http://www.needl.fr/users/sign_in), les deux compères se reposent sur les conseils d'une poignée d'amis triés sur le volet et invités sur l'application. Tout à chacun est ensuite libre de poster ses recommandations de manière intuitive avant de consulter les pépites de son entourage.
+[Valentin Ménard](https://twitter.com/heymoicvalou) et [Charlotte Cady](https://twitter.com/charlottecady) ne sont plus inquiets lorsqu’ils doivent dénicher une bonne adresse. Avec [Needl](http://www.needl.fr/users/sign_in), les deux compères se reposent sur les conseils d'une poignée d'amis triés sur le volet et invités sur l'application. Tout un chacun est ensuite libre de poster ses recommandations de manière intuitive avant de consulter les pépites de son entourage.
 
 
 ### [BENCHR](http://benchrapp.herokuapp.com/) - Benchmarking made easy
@@ -74,7 +74,7 @@ Pour comparer des dizaines de caractéristiques de produits,  Gatien Hannicote e
 
 ![Media Pronos, Suivez, pariez, gagnez !](blog_image_path demoday-mediapronos.jpg)
 
-95% des parieurs sont perdants. [David Bellaiche](https://twitter.com/davidbellaiche) ne l'entend pas de cette oreille et lance [Media Pronos](http://kickoff.mediapronos.com/) en 2013. Le principe ? Rassembler une communauté de parieurs et les inciter à partager leurs pronostiques afin que d'autres utilisateurs du service puissent s’y abonner. Au menu : statistiques détaillés, bons filons, suivi des gains, prix à gagner pour les meilleurs pronostiqueurs. Le tout pour 10€ par mois. En compagnie de Jordan Warmoes et [Bertrand Bussac](https://twitter.com/bertrandbussac), David aura profité de son passage au Wagon pour avancer sur le V2 de son service.
+95% des parieurs sont perdants. [David Bellaiche](https://twitter.com/davidbellaiche) ne l'entend pas de cette oreille et lance [Media Pronos](http://kickoff.mediapronos.com/) en 2013. Le principe ? Rassembler une communauté de parieurs et les inciter à partager leurs pronostics afin que d'autres utilisateurs du service puissent s’y abonner. Au menu : statistiques détaillées, bons filons, suivi des gains, prix à gagner pour les meilleurs pronostiqueurs. Le tout pour 10€ par mois. En compagnie de Jordan Warmoes et [Bertrand Bussac](https://twitter.com/bertrandbussac), David aura profité de son passage au Wagon pour avancer sur la V2 de son service.
 
 
 ### [CAPTAIN DRIVE](http://captain-drive-production.herokuapp.com/) - Révision et réparation automobile à domicile
