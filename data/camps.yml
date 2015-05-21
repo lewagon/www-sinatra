@@ -146,8 +146,8 @@ paris-septembre-2015:
 
 bordeaux-septembre-2015:
   city: bordeaux
-  start_date: 2015-09-28
-  end_date: 2015-11-27
+  start_date: 2015-10-05
+  end_date: 2015-12-04
   price: 4500
   currency: €
   currency_iso: EUR
