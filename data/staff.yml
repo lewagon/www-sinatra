@@ -1,3 +1,349 @@
+#############################################
+########## Staff.order('name asc') ##########
+#############################################
+
+# christophe:
+#   image_name: christophe.jpg
+#   description: "<strong>Christophe</strong> works with Martin on <a href='https://www.pullreview.com'>PullReview</a>."
+#   links:
+#   - url: https://github.com/toch
+#     icon: github-alt
+#   - url: https://twitter.com/_toch
+#     icon: twitter
+#   - url: https://be.linkedin.com/in/christophephilemotte
+#     icon: linkedin
+#   - url: http://about.me/toch
+#     icon: link
+
+# thibaut:
+#   image_name: thibaut.jpg
+#   description:"TODO"
+#   links:
+#   - url: https://be.linkedin.com/in/thibautclaes/en
+#     icon: linkedin
+#   - url: https://twitter.com/thibclaes
+#     icon: twitter
+
+alex:
+  image_name: alex.png
+  description:
+    en: |
+      **Alex** believes in the magic of **code**. After having created several projects,
+      he now wishes to share his knowledge to help people having tools to build their dreams.
+    fr: |
+      **Alex** croit en la magie du **code**. Après avoir mis en place plusieurs projets,
+      il souhaite désormais partager ses connaissances pour permettre à tous d'avoir les outils pour
+      réaliser leurs rêves.
+  links:
+    - url: https://github.com/agerlic
+      icon: github-alt
+    - url: http://linkedin.com/in/agerlic
+      icon: linkedin
+    - url: https://twitter.com/agerlic
+      icon: twitter
+    - url: https://medium.com/@agerlic
+      icon: link
+anne:
+  image_name: anne.jpg
+  description:
+    en: |
+      ​After working for 10 years as a Knowledge and Information Manager,
+      **Anne** went back to university to follow a degree in ICT.
+      At the end of 2014, she launched (and since then, drives) Le Wagon Brussels.
+      An ambassador of [Rails Girls](http://railsgirls.com/brussels),
+      she loves helping others to overcome the sometimes frustrating
+      learning process and seeing the bright light in their eyes when the
+      magic of coding gets unveiled!
+    fr: |
+      Knowledge & Information Manager pendant 10 ans, **Anne**
+      est retournée à l'université pour suivre un master en ICT.
+      Fin 2014, elle lance (et depuis, conduit) Le Wagon Brussels.
+      Ambassadrice des [Rails Girls](http://railsgirls.com/brussels),
+      elle aime aider les nouveaux venus à surmonter leurs appréhensions et voir
+      l'étincelle briller dans leurs yeux quand la magie du code se dévoile!
+  links:
+    - url: https://github.com/OObatwomanOO
+      icon: github-alt
+    - url: https://twitter.com/DianeLanterman
+      icon: twitter
+archibald:
+  image_name: archibald.jpg
+  description:
+    fr: |
+       Depuis toujours, l'informatique et les nouvelles technologies sont l'essence de la motivation
+       d’<strong>Archibald</strong>. Fort de plus de 10 ans d'expérience dans le web et ses technologies dérivées,
+       il a co-fondé Bigint avec Jean-Christophe. Curieux par nature, il s’intéresse aussi de près à la robotique
+       et l'électronique.
+    en: |
+      Computer science and new technologies have always been the core of <strong>Archibald</strong>'s motivation. With
+      more than 10 years of experience in web and related technologies he has cofounded Bigint with Jean-Christophe.
+      Curious by its very nature, he is also interested in robotics and electronics.
+  links:
+    - url: https://www.linkedin.com/profile/view?id=53734034
+      icon: linkedin
+    - url: https://twitter.com/ArchibaldPicq
+      icon: twitter
+    - url: http://bigint.fr/
+      icon: link
+augustin:
+  image_name: augustin.jpg
+  description:
+    en: |
+      ​After 2 years of consulting, **Augustin** updated his coding skills by himself to move to
+      entrepreneurship. He is now working as the CTO of <a href="https://copass.org" target="_blank">Copass</a>.
+      He believes in the motto *"Be a programmer or be programmed"* and actively supports Open Source.
+    fr: |
+      Après 2 années à faire du conseil, **Augustin** a repris l'éditeur de texte pour rejoindre
+      le monde fascinant de l'entrepreneuriat. Il travaille désormais en tant que CTO de
+      <a href="https://copass.org" target="_blank">Copass</a>.
+      Sa devise est *"Soit un programmeur ou soit programmé"* et il soutient activement la philosophie Open Source.
+  links:
+    - url: http://augustin-riedinger.fr
+      icon: link
+    - url: https://github.com/aug-riedinger
+      icon: github-alt
+    - url: https://twitter.com/Aug_Riedinger
+      icon: twitter
+    - url: http://fr.linkedin.com/in/augustinriedinger
+      icon: linkedin
+bertrand:
+  image_name: bertrand.jpg
+  description:
+    fr: |
+      Pendant plusieurs années dans l’innovation et l’entrepreneuriat, **Bertrand** s'est confronté à la nécessité de plonger dans le milieu du code et du développement web. Il voulait gagner en efficacité et pouvoir entreprendre de façon plus autonome et efficace. Il a depuis le désir de transmettre ses connaissances et faire de vous des champions du code.
+    en: |
+      After several years of working as an entrepreneur in innovation, **Bertrand** recognized that in order to work more effectively and autonomously, he needed to master coding and website development. Now, he wants to share this knowledge and make you coding champions !
+  links:
+    - url: https://github.com/bertrandbussac
+      icon: github-alt
+    - url: https://twitter.com/bertrandbussac
+      icon: twitter
+boris:
+  image_name: boris.png
+  description:
+    fr: |
+      **Boris** a fui sa salle de marché pour se
+      lancer dans le code corps et âme. Maintenant **CEO** du Wagon, il comprend parfaitement
+      les besoins des débutants et a codé avec Sébastien le
+      [site](http://www.lewagon.org) et les plate-formes
+      pédagogiques du Wagon.
+    en: |
+      **Boris** got bored from financial markets
+      and took the plunge in web-development. He perfectly understands
+      what beginners need. He founded Le Wagon, and built its [site](http://lewagon.org)
+      and pedagogical platforms.
+  links:
+    - url: https://github.com/Papillard/
+      icon: github-alt
+    - url: http://fr.linkedin.com/pub/boris-paillard/70/226/867
+      icon: linkedin
+cecile:
+  image_name: cecile.png
+  description:
+    fr: |
+      Avec 6 ans d'expérience en e-commerce, **Cécile**
+      aime partager sa passion pour Ruby on Rails. Lilloise de coeur
+      et hyper-active, elle co-anime les rencontres Rails Mentors,
+      Rails Girls et Ruby Burgers.
+    en: |
+      After 6 years working on e-commerce apps, **Cecile**
+      now likes sharing her passion for Ruby and Rails. Coming from Lille,
+      she is an active member of the local Ruby & Rails community (co-organizing Rails Girls & Ruby
+      Burgers events).
+  links:
+    - url: https://github.com/cveneziani
+      icon: github-alt
+    - url: https://twitter.com/cecilitse
+      icon: twitter
+    - url: http://cecilitse.org
+      icon: link
+david:
+  image_name: david.png
+  description:
+    fr: |
+      Développeur front-end, designer et évangéliste open source, **David** a
+      co-fondé ChtiJS et participe aux Welsh Design.
+      Toujours avec un carnet à la main, il réalise d'incroyables sketch-notes.
+    en: |
+      Both front-end dev, designer and open source evangelist, **David** co-founded ChtiJS and participates in Welsh Design.
+      Always with a notebook he's performing great sketch-notes.
+  links:
+    - url: https://github.com/flexbox
+      icon: github-alt
+    - url: https://twitter.com/_flexbox
+      icon: twitter
+    - url: http://davidl.fr/
+      icon: link
+frantz:
+  image_name: frantz.jpg
+  description:
+    fr: |
+       <strong>Fräntz</strong> est passionné par la créativité et l’innovation, surtout quand cela touche au numérique.
+       Entrepreneur et dévelopeur, c’est un expert du web et du développement d'applications mobiles,
+       ainsi que de l'exploration de données (data mining). Il est aussi speaker lors d’événements tech
+       et intervenant dans des grandes écoles. Son projet actuel : <strong>KonnectR</strong>.
+    en: |
+      <strong>Fräntz</strong> defined himself through two words innovation and creativity. Entrepreneur and developer,
+      he is an expert in web and mobile applications development, he also practices data science. He is regularly a
+      speaker at tech events and in graduate schools. His current project: <strong>KonnectR</strong>.
+  links:
+    - url: https://github.com/frantzmiccoli
+      icon: github-alt
+    - url: https://www.linkedin.com/in/frantzmiccoli
+      icon: linkedin
+    - url: https://twitter.com/FrantzMiccoli
+      icon: twitter
+    - url: https://frantzmiccoli.com/
+      icon: link
+    - url: https://konnectr.com/
+      icon: link
+gab:
+  image_name: gab.png
+  description:
+    fr: |
+      **Gabriel** fait du Ruby & Rails depuis 4 ans
+      et aime comprendre ce qui se passe sous le capot !
+      Il a travaillé chez [Tigerlilyapps](http://www.tigerlilyapps.com)
+      et c'est tout simplement un monstre de pédagogie.
+    en: |
+      **Gabriel** has been coding with Ruby & Rails for 4 years. He likes to
+      understand what happens under the hood.
+      He has worked at [Tigerlilyapps](http://www.tigerlilyapps.com).
+      and he is a king in teaching techniques!
+  links:
+    - url: https://github.com/gabriel-dehan
+      icon: github-alt
+    - url: http://fr.linkedin.com/pub/gabriel-dehan/27/361/8a
+      icon: linkedin
+    - url: https://twitter.com/GabrielDehan
+      icon: twitter
+    - url: http://gabriel-dehan.github.io/
+      icon: link
+jeanchristophe:
+  image_name: jean-christophe.jpg
+  description:
+    fr: |
+       Après 3 ans dédiés à la formation en tant que directeur pédagogique d’une école d’ingénieurs informatiques,
+       <strong>Jean-Christophe</strong> a concentré ses efforts sur le développement de sa propre startup :
+       <strong>Bigint</strong>. Spécialisé dans la création d'applications internet riches et les projets IT
+       d'envergure, il mène en parallèle des travaux de R&D.
+    en: |
+      After 3 years as the pedagogic head of a software engineering school, <strong>Jean-Christophe</strong> has focused
+      on his own startup: <strong>Bigint</strong>. Specialised in rich internet application and high stake IT projects,
+      the company has also its own R&D activities.
+  links:
+    - url: http://www.linkedin.com/pub/jc-baudier/39/93a/88a
+      icon: linkedin
+    - url: https://twitter.com/jcbaudier
+      icon: twitter
+    - url: http://bigint.fr/
+      icon: link
+jeanelie:
+  image_name: jeanelie.jpg
+  description:
+    fr: |
+      Jean-Élie aime concevoir et coder de belles applis iOS et Android qui vont changer la vie des gens.
+      Il est passionné par les projets qui mêlent créativité et challenges techniques. Les deux dernières années,
+      il a codé de belles applis natives iPhone, iPad et Android qui ont <i>scalé</i> pour des startups à forte croissance.
+      Il est actuellement <i>lead mobile software engineer</i> chez <a href="https://www.drivy.com/" target="_blank">Drivy</a>
+      Il aura à coeur de vous apprendre à batir la future <i>killer-app</i>.
+    en: |
+      Jean-Élie loves designing and building beautiful iOS and Android apps that can impact people's lives.
+      He's passionate about projects that combine creativity and technical challenges. For the past 2 years,
+      he has managed and developed several large scaled native iPhone, iPad and Android apps
+      for global companies in France. He's currently lead mobile software engineer at <a href="https://www.drivy.com/" target="_blank">Drivy</a>
+      He'll teach you how to build the next big thing !
+  links:
+    - url: https://github.com/jeanelie
+      icon: github-alt
+    - url: https://fr.linkedin.com/in/jeclic
+      icon: linkedin
+    - url: https://twitter.com/jeclic
+      icon: twitter
+lien:
+  image_name: lien.jpg
+  description:
+    en: |
+      **Lien** worked as a Team Lead Developer at Engagor before quitting her job to become
+      a freelancer. She's at her happiest when she can participate in hackathons,
+      [Startup Weekends](http://startupweekend.org/) and she even was a buspreneur
+      on the [StartupBus](http://startupbus.com/)!
+      She writes about startups founded by Belgians at [LienStartups](http://lienstartups.be).
+    fr: |
+      **Lien** a travaillé comme Team Lead Developer chez Engagor avant de se lancer comme freelance.
+      Elle adore participer à des hackathons, [Startup Weekends](http://startupweekend.org/)
+      et a même pris place à bord d'un [StartupBus](http://startupbus.com/)!
+      Elle blogue à propos des startups lancées par des Belges sur [LienStartups](http://lienstartups.be).
+  links:
+    - url: https://github.com/lienvdsteen
+      icon: github-alt
+    - url: https://twitter.com/lienvdsteen
+      icon: twitter
+    - url: http://lienstartups.be/
+      icon: link
+malik:
+  image_name: malik.jpg
+  description:
+    fr: |
+      Né et élevé en Belgique, diplômé en Marketing et Graphic Design,
+      Malik est un serial entrepreneur libanais qui développe aujourd'hui les activités
+      du Wagon à Beyrouth.
+    en: |
+      Born and raised in Belgium, graduated in Marketing and Graphic Design,
+      Malik is a Lebanese serial entrepreneur who now develops Le Wagon Beirut's activities.
+  links:
+    - url: https://lb.linkedin.com/in/elkhourymalik/en
+      icon: linkedin
+    - url: https://twitter.com/elkhourymalik
+      icon: twitter
+martin:
+  image_name: martin.jpg
+  description:
+    fr: |
+      Après plusieurs années à former des développeurs,
+      **Martin** est devenu Software Engineer, Team Leader et Coach Agile.
+      Co-fondateur de [PullReview](https://www.pullreview.com),
+      une solution SaaS pour faire des reviews automatiques de code Ruby, il
+      a ensuite endossé le rôle de Lead Technical Coach au Wagon Brussels.
+      Il a co-animé plusieurs sessions de Rails Girls Brussels et donné des
+      conférences à [Paris.rb](http://www.meetup.com/parisrb/).
+    en: |
+      After some years spent teaching future programmers,
+      **Martin** worked as a Software Engineer, Team Leader and Agile Coach.
+      Co-founder of [PullReview](https://www.pullreview.com), a toolchain
+      which helps Ruby developers to improve their coding practices, he took up
+      the role of Lead Technical Coach at Le Wagon Brussels.
+      He has been a frequent speaker at the Brussels chapter of Rails Girls and
+      at [Paris.rb](http://www.meetup.com/parisrb/).
+  links:
+    - url: https://github.com/vanakenm
+      icon: github-alt
+    - url: https://twitter.com/martinvanaken
+      icon: twitter
+    - url: https://www.linkedin.com/in/martinvanaken
+      icon: linkedin
+    - url: http://about.me/vanakenm
+      icon: link
+martindaniel:
+  image_name: martin_daniel.jpg
+  description:
+    fr: |
+       Après un passage chez Google et 4 ans chez <a href="http://www.fifty-five.com/" target="_blank">fifty-five</a> en tant que <i>Head of Data Science</i>,
+       Martin a décidé de se concentrer sur <a href="https://www.tx.to/" target="_blank">Txto</a> (sa startup de dataviz et d'impression de sms) et
+       de transmettre ses connaissances aux autres.
+    en: |
+      After a first experience at Google, Martin joined <a href="http://www.fifty-five.com/" target="_blank">fifty-five</a>, where he spent 4 years
+      as <i>Head of Data Science</i>. He is now 100% focused on the growth of his startup <a href="https://www.tx.to/" target="_blank">Txto</a>, a mobile-app for text message
+      visualisation and printing. He is an expert in dataviz and has a very pragmatic and business-oriented approach of data-science.
+  links:
+    - url: https://www.linkedin.com/pub/martin-daniel/11/b73/5b2
+      icon: linkedin
+    - url: https://twitter.com/martindaniel4
+      icon: twitter
+    - url: https://www.tx.to/
+      icon: link
+    - url: https://github.com/martindaniel4
+      icon: github
 olivier:
   image_name: olivier.png
   description:
@@ -40,67 +386,6 @@ seb:
       icon: twitter
     - url: http://sebastien.saunier.me
       icon: link
-gab:
-  image_name: gab.png
-  description:
-    fr: |
-      **Gabriel** fait du Ruby & Rails depuis 4 ans
-      et aime comprendre ce qui se passe sous le capot !
-      Il a travaillé chez [Tigerlilyapps](http://www.tigerlilyapps.com)
-      et c'est tout simplement un monstre de pédagogie.
-    en: |
-      **Gabriel** has been coding with Ruby & Rails for 4 years. He likes to
-      understand what happens under the hood.
-      He has worked at [Tigerlilyapps](http://www.tigerlilyapps.com).
-      and he is a king in teaching techniques!
-  links:
-    - url: https://github.com/gabriel-dehan
-      icon: github-alt
-    - url: http://fr.linkedin.com/pub/gabriel-dehan/27/361/8a
-      icon: linkedin
-    - url: https://twitter.com/GabrielDehan
-      icon: twitter
-    - url: http://gabriel-dehan.github.io/
-      icon: link
-boris:
-  image_name: boris.png
-  description:
-    fr: |
-      **Boris** a fui sa salle de marché pour se
-      lancer dans le code corps et âme. Maintenant **CEO** du Wagon, il comprend parfaitement
-      les besoins des débutants et a codé avec Sébastien le
-      [site](http://www.lewagon.org) et les plate-formes
-      pédagogiques du Wagon.
-    en: |
-      **Boris** got bored from financial markets
-      and took the plunge in web-development. He perfectly understands
-      what beginners need. He founded Le Wagon, and built its [site](http://lewagon.org)
-      and pedagogical platforms.
-  links:
-    - url: https://github.com/Papillard/
-      icon: github-alt
-    - url: http://fr.linkedin.com/pub/boris-paillard/70/226/867
-      icon: linkedin
-cecile:
-  image_name: cecile.png
-  description:
-    fr: |
-      Avec 6 ans d'expérience en e-commerce, **Cécile**
-      aime partager sa passion pour Ruby on Rails. Lilloise de coeur
-      et hyper-active, elle co-anime les rencontres Rails Mentors,
-      Rails Girls et Ruby Burgers.
-    en: |
-      After 6 years working on e-commerce apps, **Cecile**
-      now likes sharing her passion for Ruby and Rails. Coming from Lille,
-      she is an active member of the local Ruby & Rails community (co-organizing Rails Girls & Ruby
-      Burgers events).
-  links:
-    - url: https://github.com/cveneziani
-      icon: github-alt
-    - url: https://twitter.com/cecilitse
-      icon: twitter
-    - url: http://cecilitse.org
-      icon: link
 simon:
   image_name: simon.png
   description:
@@ -119,57 +404,6 @@ simon:
     - url: https://twitter.com/happynoff
       icon: twitter
     - url: http://tinci.fr
-      icon: link
-martin:
-  image_name: martin.jpg
-  description:
-    fr: |
-      Après plusieurs années à former des développeurs,
-      **Martin** est devenu Software Engineer, Team Leader et Coach Agile.
-      Co-fondateur de [PullReview](https://www.pullreview.com),
-      une solution SaaS pour faire des reviews automatiques de code Ruby, il
-      a ensuite endossé le rôle de Lead Technical Coach au Wagon Brussels.
-      Il a co-animé plusieurs sessions de Rails Girls Brussels et donné des
-      conférences à [Paris.rb](http://www.meetup.com/parisrb/).
-    en: |
-      After some years spent teaching future programmers,
-      **Martin** worked as a Software Engineer, Team Leader and Agile Coach.
-      Co-founder of [PullReview](https://www.pullreview.com), a toolchain
-      which helps Ruby developers to improve their coding practices, he took up
-      the role of Lead Technical Coach at Le Wagon Brussels.
-      He has been a frequent speaker at the Brussels chapter of Rails Girls and
-      at [Paris.rb](http://www.meetup.com/parisrb/).
-  links:
-    - url: https://github.com/vanakenm
-      icon: github-alt
-    - url: https://twitter.com/martinvanaken
-      icon: twitter
-    - url: https://www.linkedin.com/in/martinvanaken
-      icon: linkedin
-    - url: http://about.me/vanakenm
-      icon: link
-xavier:
-  image_name: xavier.jpg
-  description:
-    fr: |
-      Passionné de programmation depuis son plus jeune âge, **Xavier** développe
-      des applications en Ruby depuis plus de 10 ans. Ainsi que des applications
-      mobiles pour iOS et Android. Il dispose également d'une solide expérience
-      de Coach au sein d'équipes de développement. Et est un redoutable Code Reviewer!
-    en: |
-      Passionate about the craft of programming, **Xavier** has been writing
-      code since childhood. He has been developing apps in Ruby for the past
-      decade and has also been involved in the development of mobile applications
-      for both iOS and Android. He has extensive experience in coaching teams of
-      developers and (out)performing code reviews!
-  links:
-    - url: https://github.com/xavier
-      icon: github-alt
-    - url: https://twitter.com/xavierdefrang
-      icon: twitter
-    - url: https://linkedin.com/in/xavierdefrang
-      icon: linkedin
-    - url: http://defrang.com/
       icon: link
 simonschoeters:
   image_name: simon_schoeters.jpg
@@ -197,49 +431,23 @@ simonschoeters:
       icon: twitter
     - url: https://be.linkedin.com/in/schoeters
       icon: linkedin
-anne:
-  image_name: anne.jpg
+sylvain:
+  image_name: sylvain.png
   description:
-    en: |
-      ​After working for 10 years as a Knowledge and Information Manager,
-      **Anne** went back to university to follow a degree in ICT.
-      At the end of 2014, she launched (and since then, drives) Le Wagon Brussels.
-      An ambassador of [Rails Girls](http://railsgirls.com/brussels),
-      she loves helping others to overcome the sometimes frustrating
-      learning process and seeing the bright light in their eyes when the
-      magic of coding gets unveiled!
     fr: |
-      Knowledge & Information Manager pendant 10 ans, **Anne**
-      est retournée à l'université pour suivre un master en ICT.
-      Fin 2014, elle lance (et depuis, conduit) Le Wagon Brussels.
-      Ambassadrice des [Rails Girls](http://railsgirls.com/brussels),
-      elle aime aider les nouveaux venus à surmonter leurs appréhensions et voir
-      l'étincelle briller dans leurs yeux quand la magie du code se dévoile!
-  links:
-    - url: https://github.com/OObatwomanOO
-      icon: github-alt
-    - url: https://twitter.com/DianeLanterman
-      icon: twitter
-lien:
-  image_name: lien.jpg
-  description:
+      Développeur web depuis 10 ans et enseignant à Ingésup, **Sylvain** est ancré dans plusieurs communautés de développeurs à Bordeaux.<br>
+      Freelance depuis 2008, il a travaillé avec plusieurs startup Bordelaises et Parisiennes et a participé à plusieurs Startup Weekend.
     en: |
-      **Lien** worked as a Team Lead Developer at Engagor before quitting her job to become
-      a freelancer. She's at her happiest when she can participate in hackathons,
-      [Startup Weekends](http://startupweekend.org/) and she even was a buspreneur
-      on the [StartupBus](http://startupbus.com/)!
-      She writes about startups founded by Belgians at [LienStartups](http://lienstartups.be).
-    fr: |
-      **Lien** a travaillé comme Team Lead Developer chez Engagor avant de se lancer comme freelance.
-      Elle adore participer à des hackathons, [Startup Weekends](http://startupweekend.org/)
-      et a même pris place à bord d'un [StartupBus](http://startupbus.com/)!
-      Elle blogue à propos des startups lancées par des Belges sur [LienStartups](http://lienstartups.be).
+      Web developer for 10 years and teaching at Ingésup **Sylvain** belongs to various developer communities in Bordeaux.<br>
+      Freelance since 2008, he has worked with several startups from Bordeaux and Paris and has participated to many Startup Weekend.
   links:
-    - url: https://github.com/lienvdsteen
+    - url: https://github.com/volpeo
       icon: github-alt
-    - url: https://twitter.com/lienvdsteen
+    - url: http://fr.linkedin.com/in/sylvainpeigney
+      icon: linkedin
+    - url: https://twitter.com/volpeo
       icon: twitter
-    - url: http://lienstartups.be/
+    - url: http://www.volpeo.fr
       icon: link
 teddy:
   image_name: teddy.jpg
@@ -260,190 +468,6 @@ teddy:
       icon: twitter
     - url: http://www.teddyk.be/
       icon: link
-augustin:
-  image_name: augustin.jpg
-  description:
-    en: |
-      ​After 2 years of consulting, **Augustin** updated his coding skills by himself to move to
-      entrepreneurship. He is now working as the CTO of <a href="https://copass.org" target="_blank">Copass</a>.
-      He believes in the motto *"Be a programmer or be programmed"* and actively supports Open Source.
-    fr: |
-      Après 2 années à faire du conseil, **Augustin** a repris l'éditeur de texte pour rejoindre
-      le monde fascinant de l'entrepreneuriat. Il travaille désormais en tant que CTO de
-      <a href="https://copass.org" target="_blank">Copass</a>.
-      Sa devise est *"Soit un programmeur ou soit programmé"* et il soutient activement la philosophie Open Source.
-  links:
-    - url: http://augustin-riedinger.fr
-      icon: link
-    - url: https://github.com/aug-riedinger
-      icon: github-alt
-    - url: https://twitter.com/Aug_Riedinger
-      icon: twitter
-    - url: http://fr.linkedin.com/in/augustinriedinger
-      icon: linkedin
-alex:
-  image_name: alex.png
-  description:
-    en: |
-      **Alex** believes in the magic of **code**. After having created several projects,
-      he now wishes to share his knowledge to help people having tools to build their dreams.
-    fr: |
-      **Alex** croit en la magie du **code**. Après avoir mis en place plusieurs projets,
-      il souhaite désormais partager ses connaissances pour permettre à tous d'avoir les outils pour
-      réaliser leurs rêves.
-  links:
-    - url: https://github.com/agerlic
-      icon: github-alt
-    - url: http://linkedin.com/in/agerlic
-      icon: linkedin
-    - url: https://twitter.com/agerlic
-      icon: twitter
-    - url: https://medium.com/@agerlic
-      icon: link
-# thibaut:
-#   image_name: thibaut.jpg
-#   description:"TODO"
-#   links:
-#   - url: https://be.linkedin.com/in/thibautclaes/en
-#     icon: linkedin
-#   - url: https://twitter.com/thibclaes
-#     icon: twitter
-
-# christophe:
-#   image_name: christophe.jpg
-#   description: "<strong>Christophe</strong> works with Martin on <a href='https://www.pullreview.com'>PullReview</a>."
-#   links:
-#   - url: https://github.com/toch
-#     icon: github-alt
-#   - url: https://twitter.com/_toch
-#     icon: twitter
-#   - url: https://be.linkedin.com/in/christophephilemotte
-#     icon: linkedin
-#   - url: http://about.me/toch
-#     icon: link
-
-frantz:
-  image_name: frantz.jpg
-  description:
-    fr: |
-       <strong>Fräntz</strong> est passionné par la créativité et l’innovation, surtout quand cela touche au numérique.
-       Entrepreneur et dévelopeur, c’est un expert du web et du développement d'applications mobiles,
-       ainsi que de l'exploration de données (data mining). Il est aussi speaker lors d’événements tech
-       et intervenant dans des grandes écoles. Son projet actuel : <strong>KonnectR</strong>.
-    en: |
-      <strong>Fräntz</strong> defined himself through two words innovation and creativity. Entrepreneur and developer,
-      he is an expert in web and mobile applications development, he also practices data science. He is regularly a
-      speaker at tech events and in graduate schools. His current project: <strong>KonnectR</strong>.
-  links:
-    - url: https://github.com/frantzmiccoli
-      icon: github-alt
-    - url: https://www.linkedin.com/in/frantzmiccoli
-      icon: linkedin
-    - url: https://twitter.com/FrantzMiccoli
-      icon: twitter
-    - url: https://frantzmiccoli.com/
-      icon: link
-    - url: https://konnectr.com/
-      icon: link
-
-jeanchristophe:
-  image_name: jean-christophe.jpg
-  description:
-    fr: |
-       Après 3 ans dédiés à la formation en tant que directeur pédagogique d’une école d’ingénieurs informatiques,
-       <strong>Jean-Christophe</strong> a concentré ses efforts sur le développement de sa propre startup :
-       <strong>Bigint</strong>. Spécialisé dans la création d'applications internet riches et les projets IT
-       d'envergure, il mène en parallèle des travaux de R&D.
-    en: |
-      After 3 years as the pedagogic head of a software engineering school, <strong>Jean-Christophe</strong> has focused
-      on his own startup: <strong>Bigint</strong>. Specialised in rich internet application and high stake IT projects,
-      the company has also its own R&D activities.
-  links:
-    - url: http://www.linkedin.com/pub/jc-baudier/39/93a/88a
-      icon: linkedin
-    - url: https://twitter.com/jcbaudier
-      icon: twitter
-    - url: http://bigint.fr/
-      icon: link
-
-archibald:
-  image_name: archibald.jpg
-  description:
-    fr: |
-       Depuis toujours, l'informatique et les nouvelles technologies sont l'essence de la motivation
-       d’<strong>Archibald</strong>. Fort de plus de 10 ans d'expérience dans le web et ses technologies dérivées,
-       il a co-fondé Bigint avec Jean-Christophe. Curieux par nature, il s’intéresse aussi de près à la robotique
-       et l'électronique.
-    en: |
-      Computer science and new technologies have always been the core of <strong>Archibald</strong>'s motivation. With
-      more than 10 years of experience in web and related technologies he has cofounded Bigint with Jean-Christophe.
-      Curious by its very nature, he is also interested in robotics and electronics.
-  links:
-    - url: https://www.linkedin.com/profile/view?id=53734034
-      icon: linkedin
-    - url: https://twitter.com/ArchibaldPicq
-      icon: twitter
-    - url: http://bigint.fr/
-      icon: link
-
-malik:
-  image_name: malik.jpg
-  description:
-    fr: |
-      Né et élevé en Belgique, diplômé en Marketing et Graphic Design,
-      Malik est un serial entrepreneur libanais qui développe aujourd'hui les activités
-      du Wagon à Beyrouth.
-    en: |
-      Born and raised in Belgium, graduated in Marketing and Graphic Design,
-      Malik is a Lebanese serial entrepreneur who now develops Le Wagon Beirut's activities.
-  links:
-    - url: https://lb.linkedin.com/in/elkhourymalik/en
-      icon: linkedin
-    - url: https://twitter.com/elkhourymalik
-      icon: twitter
-
-martindaniel:
-  image_name: martin_daniel.jpg
-  description:
-    fr: |
-       Après un passage chez Google et 4 ans chez <a href="http://www.fifty-five.com/" target="_blank">fifty-five</a> en tant que <i>Head of Data Science</i>,
-       Martin a décidé de se concentrer sur <a href="https://www.tx.to/" target="_blank">Txto</a> (sa startup de dataviz et d'impression de sms) et
-       de transmettre ses connaissances aux autres.
-    en: |
-      After a first experience at Google, Martin joined <a href="http://www.fifty-five.com/" target="_blank">fifty-five</a>, where he spent 4 years
-      as <i>Head of Data Science</i>. He is now 100% focused on the growth of his startup <a href="https://www.tx.to/" target="_blank">Txto</a>, a mobile-app for text message
-      visualisation and printing. He is an expert in dataviz and has a very pragmatic and business-oriented approach of data-science.
-  links:
-    - url: https://www.linkedin.com/pub/martin-daniel/11/b73/5b2
-      icon: linkedin
-    - url: https://twitter.com/martindaniel4
-      icon: twitter
-    - url: https://www.tx.to/
-      icon: link
-    - url: https://github.com/martindaniel4
-      icon: github
-jeanelie:
-  image_name: jeanelie.jpg
-  description:
-    fr: |
-      Jean-Élie aime concevoir et coder de belles applis iOS et Android qui vont changer la vie des gens.
-      Il est passionné par les projets qui mêlent créativité et challenges techniques. Les deux dernières années,
-      il a codé de belles applis natives iPhone, iPad et Android qui ont <i>scalé</i> pour des startups à forte croissance.
-      Il est actuellement <i>lead mobile software engineer</i> chez <a href="https://www.drivy.com/" target="_blank">Drivy</a>
-      Il aura à coeur de vous apprendre à batir la future <i>killer-app</i>.
-    en: |
-      Jean-Élie loves designing and building beautiful iOS and Android apps that can impact people's lives.
-      He's passionate about projects that combine creativity and technical challenges. For the past 2 years,
-      he has managed and developed several large scaled native iPhone, iPad and Android apps
-      for global companies in France. He's currently lead mobile software engineer at <a href="https://www.drivy.com/" target="_blank">Drivy</a>
-      He'll teach you how to build the next big thing !
-  links:
-    - url: https://github.com/jeanelie
-      icon: github-alt
-    - url: https://fr.linkedin.com/in/jeclic
-      icon: linkedin
-    - url: https://twitter.com/jeclic
-      icon: twitter
 thomas_chretien:
   image_name: thomas.png
   description:
@@ -463,7 +487,6 @@ thomas_chretien:
       icon: twitter
     - url: http://www.trackguru.co
       icon: link
-
 thomas_gautier:
   image_name: thomas_gautier.jpg
   description:
@@ -478,53 +501,26 @@ thomas_gautier:
       icon: twitter
     - url: http://www.doum.it/
       icon: link
-
-bertrand:
-  image_name: bertrand.jpg
+xavier:
+  image_name: xavier.jpg
   description:
     fr: |
-      Pendant plusieurs années dans l’innovation et l’entrepreneuriat, **Bertrand** s'est confronté à la nécessité de plonger dans le milieu du code et du développement web. Il voulait gagner en efficacité et pouvoir entreprendre de façon plus autonome et efficace. Il a depuis le désir de transmettre ses connaissances et faire de vous des champions du code.
+      Passionné de programmation depuis son plus jeune âge, **Xavier** développe
+      des applications en Ruby depuis plus de 10 ans. Ainsi que des applications
+      mobiles pour iOS et Android. Il dispose également d'une solide expérience
+      de Coach au sein d'équipes de développement. Et est un redoutable Code Reviewer!
     en: |
-      After several years of working as an entrepreneur in innovation, **Bertrand** recognized that in order to work more effectively and autonomously, he needed to master coding and website development. Now, he wants to share this knowledge and make you coding champions !
+      Passionate about the craft of programming, **Xavier** has been writing
+      code since childhood. He has been developing apps in Ruby for the past
+      decade and has also been involved in the development of mobile applications
+      for both iOS and Android. He has extensive experience in coaching teams of
+      developers and (out)performing code reviews!
   links:
-    - url: https://github.com/bertrandbussac
+    - url: https://github.com/xavier
       icon: github-alt
-    - url: https://twitter.com/bertrandbussac
+    - url: https://twitter.com/xavierdefrang
       icon: twitter
-
-sylvain:
-  image_name: sylvain.png
-  description:
-    fr: |
-      Développeur web depuis 10 ans et enseignant à Ingésup, **Sylvain** est ancré dans plusieurs communautés de développeurs à Bordeaux.<br>
-      Freelance depuis 2008, il a travaillé avec plusieurs startup Bordelaises et Parisiennes et a participé à plusieurs Startup Weekend.
-    en: |
-      Web developer for 10 years and teaching at Ingésup **Sylvain** belongs to various developer communities in Bordeaux.<br>
-      Freelance since 2008, he has worked with several startups from Bordeaux and Paris and has participated to many Startup Weekend.
-  links:
-    - url: https://github.com/volpeo
-      icon: github-alt
-    - url: http://fr.linkedin.com/in/sylvainpeigney
+    - url: https://linkedin.com/in/xavierdefrang
       icon: linkedin
-    - url: https://twitter.com/volpeo
-      icon: twitter
-    - url: http://www.volpeo.fr
-      icon: link
-
-david:
-  image_name: david.png
-  description:
-    fr: |
-      Développeur front-end, designer et évangéliste open source, **David** a
-      co-fondé ChtiJS et participe aux Welsh Design.
-      Toujours avec un carnet à la main, il réalise d'incroyables sketch-notes.
-    en: |
-      Both front-end dev, designer and open source evangelist, **David** co-founded ChtiJS and participates in Welsh Design.
-      Always with a notebook he's performing great sketch-notes.
-  links:
-    - url: https://github.com/flexbox
-      icon: github-alt
-    - url: https://twitter.com/_flexbox
-      icon: twitter
-    - url: http://davidl.fr/
+    - url: http://defrang.com/
       icon: link
