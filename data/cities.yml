@@ -165,6 +165,7 @@ beirut:
     - malik
   partners:
     - beirut-innovation-center
+    - naharnet
   programs:
     bootcamp: true
   subventions: # From data/subventions.yml

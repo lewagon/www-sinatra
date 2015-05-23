@@ -82,6 +82,11 @@ meshwork:
   image_name: meshwork.png
   url: http://www.meshwork.fr/
 
+naharnet:
+  name: Naharnet
+  image_name: naharnet-logo.png
+  url: http://www.naharnet.com
+
 poudriere:
   name: La Poudrière
   image_name: poudriere.png
