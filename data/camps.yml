@@ -90,8 +90,8 @@
 
 beirut-lead-2015:
   city: beirut
-  # start_date: 2015-07-06
-  # end_date: 2015-09-04
+  start_date: 2015-09-14
+  end_date: 2015-11-13
   price: 4500
   currency: $
   currency_iso: USD
