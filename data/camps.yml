@@ -88,17 +88,6 @@
 #   trello:
 #     inbox_list_id: 54367fcfe0dfe26d509ec183
 
-beirut-lead-2015:
-  city: beirut
-  start_date: 2015-09-14
-  end_date: 2015-11-13
-  price: 4500
-  currency: $
-  currency_iso: USD
-  language: en
-  trello:
-    inbox_list_id: 5483111b016614fe47750d4f
-
 paris-juillet-2015:
   city: paris
   start_date: 2015-07-13
@@ -132,6 +121,17 @@ lille-septembre-2015:
   language: fr
   trello:
     inbox_list_id: 553e763664eeccbcfacd48c5
+
+beirut-lead-2015:
+  city: beirut
+  start_date: 2015-09-14
+  end_date: 2015-11-13
+  price: 4500
+  currency: $
+  currency_iso: USD
+  language: en
+  trello:
+    inbox_list_id: 5483111b016614fe47750d4f
 
 paris-septembre-2015:
   city: paris
