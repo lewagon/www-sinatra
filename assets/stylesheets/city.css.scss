@@ -19,6 +19,14 @@
   }
 }
 
+@media(max-width: $screen-xs-max) {
+  #city-banner{
+    h1{
+      font-size: 50px;
+    }
+  }
+}
+
 @media(max-width: $screen-md-max) {
   #city-banner {
     background-attachment: scroll;
