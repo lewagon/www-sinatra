@@ -161,8 +161,8 @@ losangeles:
   filter_color: "rgba(70, 20, 140, 0.3)"
   geo:
     zoom: 15
-    latitude: 50.8474460
-    longitude: 4.3603740
+    latitude: 34.065447
+    longitude: -118.373670
   next_session_fragment: losangeles-june-2015
   staff:  # cf data/staff.yml
     - yoann
