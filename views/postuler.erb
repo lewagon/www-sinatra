@@ -85,7 +85,7 @@
                  <label>
                   <input type="radio" name="camp" disabled>
 
-                  <strong><%= camp[:city].capitalize %></strong>,
+                  <strong><%= CITIES[camp[:city].to_sym][:name] %></strong>,
                   <small>
                     <% format = :short #camp[:start_date].year == Time.now.year ? :short : :long %>
                     <%= t "apply.form.choose_camp_radio_label_html",
@@ -103,7 +103,7 @@
                 <label>
                   <input type="radio" name="camp" disabled>
                   <strike>
-                    <strong><%= camp[:city].capitalize %></strong>,
+                    <strong><%= CITIES[camp[:city].to_sym][:name] %></strong>,
                     <small>
                       <% format = :short #camp[:start_date].year == Time.now.year ? :short : :long %>
                       <%= t "apply.form.choose_camp_radio_label_html",
@@ -120,7 +120,7 @@
               <div class="radio">
                 <label>
                   <input type="radio" name="camp" value="<%= slug %>" data-currency="<%= camp[:currency] %>" data-price="<%= camp[:price] %>" data-price-was="<%= camp[:price_was] %>" required>
-                  <strong><%= camp[:city].capitalize %></strong>,
+                  <strong><%= CITIES[camp[:city].to_sym][:name] %></strong>,
                   <small>
                     <% if camp[:start_date] %>
                       <% format = :short #camp[:start_date].year == Time.now.year ? :short : :long %>
