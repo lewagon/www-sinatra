@@ -163,3 +163,14 @@ paris-octobre-2015:
   language: fr
   # trello:
   #   inbox_list_id: 54fee3a05c54d91a1704e9e4
+
+losangeles-june-2015:
+  city: los angeles
+  start_date: 2015-06-22
+  end_date: 2015-08-21
+  price: 9000
+  currency: $
+  currency_iso: USD
+  language: en
+  # trello:
+  #   inbox_list_id: SEB_A_REMPLIR

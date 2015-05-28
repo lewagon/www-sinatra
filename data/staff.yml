@@ -524,3 +524,18 @@ xavier:
       icon: linkedin
     - url: http://defrang.com/
       icon: link
+yoann:
+  image_name: yoann.jpg
+  description:
+    en: |
+      **Yoann** believes in the magic of **code**. After having created several projects,
+      he now wishes to share his knowledge to help people having tools to build their dreams.
+    fr: |
+      **Yoann** croit en la magie du **code**. Après avoir mis en place plusieurs projets,
+      il souhaite désormais partager ses connaissances pour permettre à tous d'avoir les outils pour
+      réaliser leurs rêves.
+  links:
+    - url: http://linkedin.com/in/yoannbohbot
+      icon: linkedin
+    - url: https://twitter.com/yoannbohbot
+      icon: twitter
