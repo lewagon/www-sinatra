@@ -37,6 +37,11 @@ co_station:
   image_name: co_station.png
   url: http://www.co-station.com
 
+dots_cowork:
+  name: dots COWORK
+  image_name: dots-cowork.png
+  url: http://www.dotscowork.com
+
 doumit:
   name: Doumit
   image_name: doumit.png

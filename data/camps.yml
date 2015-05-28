@@ -88,6 +88,18 @@
 #   trello:
 #     inbox_list_id: 54367fcfe0dfe26d509ec183
 
+losangeles-june-2015:
+  city: losangeles
+  start_date: 2015-06-22
+  end_date: 2015-08-21
+  price: 9000
+  currency: $
+  currency_iso: USD
+  language: en
+  trello:
+    inbox_list_id: 5566cb5725f4b4031ac12bb9
+
+
 paris-juillet-2015:
   city: paris
   start_date: 2015-07-13
@@ -163,3 +175,4 @@ paris-octobre-2015:
   language: fr
   # trello:
   #   inbox_list_id: 54fee3a05c54d91a1704e9e4
+
