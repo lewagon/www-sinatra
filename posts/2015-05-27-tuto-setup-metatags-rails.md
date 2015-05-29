@@ -30,53 +30,31 @@ Au fur et à mesure des évolutions de ces derniers, elles ont d'avantage pris u
 
 ## Le setup dans Rails
 
-1 Créer des meta tags pour chacune des pages de votre site
-2 Le markup HTML
-3 Penser aux Meta Tags par défault !
-4 Débugger! Débugger ! Débugger !
+L'idée de ce tutorial est de vous montrer comment obtenir ce résultat sur chacune des vues de votre site. Nous allons donc commencer par configurer des Meta Tags par défault avant de définir des helpers qui vous permettrons de les customiser sur les vues de votre choix. Enfin nous jetterons un oeil sur le markup HTML nécessaire et les outils de débuggage à votre disposition.
 
+### Créez des Meta Tags par défault
 
-## Le markup HTML
+Commencez par créer un fichier `meta.yml` dans `config` en prenant soin de rédiger un titre et une description accrocheur puis d'appeler une image de votre produit/service tout aussi flateur pour la rétine.
 
-  ```
-  <title><%= title %></title>
-  <meta name="description" content="<%= meta_description %>">
+```
+default_title: "Titre générique"
+meta_description: "Description générique."
+meta_image: "image.jpg"
+```
 
-  <!-- Facebook Open Graph data -->
-  <meta property="og:title" content="<%= title %>" />
-  <meta property="og:type" content="event" />
-  <meta property="og:url" content="<%= request.original_url %>" />
-  <meta property="og:image" content="<%= image_url meta_image %>" />
-  <meta property="og:description" content="<%= meta_description %>" />
-  <meta property="og:site_name" content="<%= title %>" />
+Et appelez ensuite ce `.yml` dans `environnement.rb` :
 
-  <!-- Twitter Card data -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content=“@votrecomtetwitter">
-  <meta name="twitter:title" content="<%= title %>">
-  <meta name="twitter:description" content="<%= meta_description %>">
-  <meta name="twitter:creator" content=“@votrecomptetwitter">
-  <meta name="twitter:image:src" content="<%= image_url meta_image %>">
+```
+# Initialize default meta tags.
+APP_CONFIG = YAML.load_file("#{Rails.root}/config/meta.yml")
+```
 
-  <!-- Schema.org markup for Google+ -->
-  <meta itemprop="name" content="<%= title %>">
-  <meta itemprop="description" content="<%= meta_description %>">
-  <meta itemprop="image" content="<%= image_url meta_image %>">
-  ```
+### Helpers : *meta_title*, *meta_description* & *meta_image*
 
-## L'appel des données sous Rails
-
-## Pensez au Meta Tags par défault !
-
-## Débuggez ! Débuggez ! Débuggez !
-
-**Pour vos meta FB & Twitter et le reste du monde de l’univers des réseaux sociaux :**
-
-Définissez dans `application-helper.rb` les méthodes suivantes afin de pouvoir créer des métadonnées spécifiques à vos vues/contenus (articles de blog par exemple)
+Dans `application-helper.rb` définissez les méthodes suivantes afin de pouvoir créer des Meta Tags spécifiques à vos vues/contenus :
 
 ```
 module ApplicationHelper
-
   def title(title = nil)
     if title.present?
       content_for :title, title
@@ -103,16 +81,35 @@ module ApplicationHelper
 end
 ```
 
-Placez ensuite les metas suivantes dans votre `head` (view > layout > application.html.erb)
+### Important : la gestion des URLs de vos images
+
+Par défault, Rails retourne l'url relative de vos assets. Il est donc primordial de lui dire de retourner les urls absolues afin que celles-ci puissent être récupéreés par Facebook et Twitter. Pour ce faire, placez le snippet suivant dans votre `application-controller.rb`:
 
 ```
-<title><%= title %></title>
- <meta name="description" content="<%= meta_description %>">
+def default_url_options
+  if Rails.env.production?
+    { host: ‘votresite.herokuapp.com' }
+  else
+    {}
+  end
+end
+```
 
-  <!-- Schema.org markup for Google+ -->
-  <meta itemprop="name" content="<%= title %>">
-  <meta itemprop="description" content="<%= meta_description %>">
-  <meta itemprop="image" content="<%= image_url meta_image %>">
+### Le markup HTML
+
+Copiez/collez ensuite les metas suivantes dans le `head` de votre application :
+
+  ```
+  <title><%= title %></title>
+  <meta name="description" content="<%= meta_description %>">
+
+  <!-- Facebook Open Graph data -->
+  <meta property="og:title" content="<%= title %>" />
+  <meta property="og:type" content="event" />
+  <meta property="og:url" content="<%= request.original_url %>" />
+  <meta property="og:image" content="<%= image_url meta_image %>" />
+  <meta property="og:description" content="<%= meta_description %>" />
+  <meta property="og:site_name" content="<%= title %>" />
 
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary_large_image">
@@ -122,54 +119,30 @@ Placez ensuite les metas suivantes dans votre `head` (view > layout > applicatio
   <meta name="twitter:creator" content=“@votrecomptetwitter">
   <meta name="twitter:image:src" content="<%= image_url meta_image %>">
 
-  <!-- Open Graph data -->
-  <meta property="og:title" content="<%= title %>" />
-  <meta property="og:type" content="event" />
-  <meta property="og:url" content="<%= request.original_url %>" />
-  <meta property="og:image" content="<%= image_url meta_image %>" />
-  <meta property="og:description" content="<%= meta_description %>" />
-  <meta property="og:site_name" content="<%= title %>" />
-```
+  <!-- Google+ Schema.org markup -->
+  <meta itemprop="name" content="<%= title %>">
+  <meta itemprop="description" content="<%= meta_description %>">
+  <meta itemprop="image" content="<%= image_url meta_image %>">
+  ```
 
-Et pour loader les metas par default n’oubliez pas de créer un `meta.yml` dans config contenant :
+Puis définissez le contenu de vos Meta Tags pour chacunes des vues pour lesquelles vous souhaitez générer un aperçu unique :
 
 ```
-default_title: “Titre générique"
-meta_description: “Description générique."
-meta_image: “image.jpg”
+<% title "Titre de votre site" %>
+<% meta_description "Description de votre site" %>
+<% meta_image "nomimage.jpg" %>
 ```
 
-et de l’appeler dans `environnement.rb`
+### Enfin... Débugger! Débugger ! Débugger !
 
-```
-# Initialize default meta tags.
-APP_CONFIG = YAML.load_file("#{Rails.root}/config/meta.yml”)
-```
-
-Puis définissez le contenu de vos metas dans vos vues :
-
-```
-<% title “Titre de votre site" %>
-<% meta_description “Description de votre site" %>
-<% meta_image “nomimage.jpg" %>
-```
-
-Enfin il est nécessaire de dire à Rails de retourner l’url absolue des images. Calez ce snippet dans votre `application-controller.rb`:
-
-```
-def default_url_options
-    if Rails.env.production?
-      { host: ‘votresite.herokuapp.com' }
-    else
-      {}
-    end
-  end
-```
 
 Rendez-vous ensuite sur...
 
-- https://developers.facebook.com/tools/debug/
-- https://cards-dev.twitter.com/validator
--
+- [Facebook Debug Tool](https://developers.facebook.com/tools/debug/)
+- [Twitter Card Validator](https://cards-dev.twitter.com/validator)
+- [Pinterest Rich Pins Validator](https://developers.pinterest.com/rich_pins/validator/)
 
 … pour débuger tout ça !
+
+La meta `og:type` risque bien souvant de vous poser problème, n'hésitez pas à consulter [la documentation Facebook](https://developers.facebook.com/docs/reference/opengraph) pour vous éclairer sur la chose !
+
