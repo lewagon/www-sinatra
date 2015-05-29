@@ -6,10 +6,10 @@ labels:
   - tuto
 pushed: true
 thumbnail: thumbnail-tuto-meta-tags.jpg
-description: Éléments indispensables pour obtenir un aperçu qualitatif de vos contenus sur les réseaux sociaux, nous vous proposons ce tuto pour suivre pas à pas le setup des Meta Tags dans une application Rails.
+description: Éléments indispensables pour obtenir un aperçu qualitatif de vos contenus sur les réseaux sociaux, nous vous proposons ce tutoriel pour suivre pas à pas le setup des Meta Tags dans une application Rails.
 ---
 
-Éléments indispensables pour obtenir un aperçu qualitatif de vos contenus sur les réseaux sociaux, nous vous proposons ce tuto pour suivre pas à pas le setup des Meta Tags dans une application Rails.
+Éléments indispensables pour obtenir un aperçu qualitatif de vos contenus sur les réseaux sociaux, nous vous proposons ce tutoriel pour suivre pas à pas le setup des Meta Tags dans une application Rails.
 
 ![Le setup des Meta Tags dans Rails](blog_image_path thumbnail-tuto-meta-tags.jpg)
 
@@ -19,7 +19,7 @@ Les Meta Tags sont présentes dans le `<head>` de vos pages et peuvent être con
 
 ![Screnshot des Meta Tags du Wagon On-Demand](blog_image_path tuto-metatags-rails.jpg)
 
-Les Meta Tags fournissent les informations affichées dans l'aperçu de vos contenus sur les réseaux sociaux. Les titres, descriptions et images associées sont autant d'éléments à choyer et à considérer avec attention afin de suciter l'intérêt de vos futures visiteurs / clients via vos posts Facebook, Tweet et Pinterest Rich Pins.
+Les Meta Tags fournissent les informations affichées dans l'aperçu de vos contenus sur les réseaux sociaux. Les titres, descriptions et images associées sont autant d'éléments à choyer et à considérer avec attention afin de susciter l'intérêt de vos futurs visiteurs / clients via vos posts Facebook, Tweet et Pinterest Rich Pins.
 
 **Exemple :**
 
@@ -29,9 +29,9 @@ Les Meta Tags fournissent les informations affichées dans l'aperçu de vos cont
 
 ## Le setup dans Rails
 
-L'idée de ce tutorial est de vous montrer comment obtenir ce résultat sur chacune des vues de votre site. Nous allons donc commencer par configurer des Meta Tags par défault avant de définir des helpers qui vous permettrons de les customiser sur les vues de votre choix. Enfin nous jetterons un oeil sur le markup HTML nécessaire et les outils de débuggage à votre disposition.
+L'idée de ce tutoriel est de vous montrer comment obtenir ce résultat sur chacune des vues de votre site. Nous allons donc commencer par configurer des Meta Tags par défaut avant de définir des helpers qui vous permettront de les customiser sur les vues de votre choix. Enfin nous jetterons un oeil sur le markup HTML nécessaire et les outils de débogage à votre disposition.
 
-### Créez des Meta Tags par défault
+### Créez des Meta Tags par défaut
 
 Commencez par créer un fichier `meta.yml` dans `config/initializers` afin de le charger ce fichier yaml dans une constante globale. Prenez soin ensuite de rédiger un titre accrocheur, une description percutante et de choisir une image mettant parfaitement en valeur votre produit ou service.
 
@@ -39,7 +39,7 @@ Commencez par créer un fichier `meta.yml` dans `config/initializers` afin de le
 default_title: "Titre générique"
 meta_description: "Description générique."
 meta_image: "image.jpg" # Une image dans votre dossier app/assets/images/
-twitter_account: "@nomdevotrecompte" #Indispensable pour les Twitter Cards
+twitter_account: "@nomdevotrecompte" #indispensable pour les Twitter Cards
 
 ```
 
@@ -72,7 +72,7 @@ end
 
 ### Important : la gestion des URLs de vos images
 
-Par défault, Rails retourne le chemin **relatif** de vos assets (helpers suffixés en _path). Il est donc primordial de lui dire de retourner les urls absolues afin que celles-ci puissent être récupéreés par Facebook et Twitter. Pour ce faire, placez le snippet ci-dessous dans votre `application_controller.rb`.
+Par défaut, Rails retourne le chemin **relatif** de vos assets (helpers suffixés en _path). Il est donc primordial de lui dire de retourner les urls absolues afin que celles-ci puissent être récupérées par Facebook et Twitter. Pour ce faire, placez le snippet ci-dessous dans votre `application_controller.rb`.
 
 ```
 def default_url_options
@@ -116,7 +116,7 @@ Copiez/collez ensuite les metas suivantes dans le `head` de votre application :
 <meta itemprop="image" content="<%= image_url meta_image %>">
 ```
 
-Puis définissez le contenu de vos Meta Tags pour chacunes des vues pour lesquelles vous souhaitez générer un aperçu unique :
+Puis définissez le contenu de vos Meta Tags pour chacune des vues pour lesquelles vous souhaitez générer un aperçu unique :
 
 ```erb
 <% title "Titre de votre site" %>
@@ -126,7 +126,7 @@ Puis définissez le contenu de vos Meta Tags pour chacunes des vues pour lesquel
 
 ## Enfin... Débuggez! Débuggez ! Débuggez !
 
-Afin de tester ce setup, [installez `ngrok` pour debugger en local](https://ngrok.com/) avec :
+Afin de tester ce setup, [installez `ngrok` pour débugger en local](https://ngrok.com/) avec :
 
 ```
 $ brew install ngrok
@@ -146,5 +146,4 @@ Rendez-vous ensuite sur...
 
 … pour valider tout ça !
 
-**Important :** Le Meta Tag `og:type` risque bien souvant de vous poser problème, n'hésitez pas à consulter [la documentation Facebook](https://developers.facebook.com/docs/reference/opengraph) pour vous éclairer sur la chose !
-
+**Important :** Le Meta Tag `og:type` risque bien souvent de vous poser problème, n'hésitez pas à consulter [la documentation Facebook](https://developers.facebook.com/docs/reference/opengraph) pour vous éclairer sur la chose !
