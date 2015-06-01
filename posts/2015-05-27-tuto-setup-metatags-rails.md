@@ -77,7 +77,7 @@ end
 
 ### Important : la gestion des URLs de vos images
 
-Par défaut, Rails retourne le chemin **relatif** de vos assets (helpers suffixés en _path). Il est donc primordial de lui dire de retourner les urls absolues afin que celles-ci puissent être récupérées par Facebook et Twitter. Pour ce faire, placez le snippet ci-dessous dans votre `application_controller.rb`.
+Par défaut, Rails retourne le chemin **relatif** de vos assets (helpers suffixés en `_path`). Il est donc primordial de lui dire de retourner les urls absolues afin que celles-ci puissent être récupérées par Facebook et Twitter. Pour ce faire, placez le snippet ci-dessous dans votre `application_controller.rb`.
 
 ```
 def default_url_options
@@ -90,7 +90,10 @@ end
 ```
 
 **Important :**  Par la suite, veillez à bien utiliser les helpers de routes en _url. Exemple :
-```erb <%= image_url meta_image %>```
+
+```erb
+<%= image_url meta_image %>
+```
 
 
 ### Le markup HTML
@@ -143,13 +146,19 @@ Afin de tester ce setup sans déployer votre application, [installez `ngrok` pou
 $ brew install ngrok
 ```
 
-Ngrok créé une URL publique sécurisée sur un serveur basé sur votre ordinateur. Ouvrez un nouvel onglet sur votre terminal puis lancez ensuite un serveur en exécutant la commande suivante :
+Ngrok créé une URL publique sécurisée sur un serveur basé sur votre ordinateur :
 
+```bash
+$ ngrok 3000
 ```
+
+Ouvrez un nouvel onglet sur votre terminal puis lancez ensuite un serveur en exécutant la commande suivante (en remplaçant le numéro sous-domaine par celui que ngrok vous a donné) :
+
+```bash
 $ HOST=23872376.ngrok.com rails s
 ```
 
-Ouvrez votre navigateur, rendez-vous sur `https://yourapp.ngrok.io` puis copiez les URLs des vues que vous souhaitez tester avant de vous rendez sur...
+Ouvrez votre navigateur, rendez-vous sur `https://23872376.ngrok.com` puis copiez les URLs des vues que vous souhaitez tester avant de vous rendez sur...
 
 - [Facebook Debug Tool](https://developers.facebook.com/tools/debug/)
 - [Twitter Card Validator](https://cards-dev.twitter.com/validator)
