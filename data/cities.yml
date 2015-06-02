@@ -262,6 +262,7 @@ bordeaux:
     longitude: -0.582633
   partners:  # From data/partners.yml
     - ajstage
+    - aquant
   subventions: # From data/subventions.yml
   staff:  # cf data/staff.yml
     - bertrand

@@ -12,6 +12,11 @@ altcity:
   image_name: altcity.jpg
   url: http://www.altcity.me/
 
+aquant:
+  name: Aquent
+  image_name: aquent.png
+  url: https://aquent.fr/
+
 beirut-innovation-center:
   name: Beirut Innovation Center
   image_name: beirut-innovation-center.png
