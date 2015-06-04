@@ -251,13 +251,17 @@ losangeles:
       Our courses are taught in <strong>English</strong>,
       at <a href='http://www.dotscowork.com/'>dots COWORK</a>, a coworking
       located in the heart of Beverly Hills, just off of Wilshire and La Cienega.
+      </br></br><b>
+      For more information reach me @ </br>310 256 6524 or yo@dotscode.com</b>
     fr: |
       Nos cours, à Los Angeles, sont donnés en <strong>anglais</strong>,
       dans les locaux de <a href='http://www.dotscowork.com/'>dots COWORK</a>,
       un coworking, situé au coeur de la ville de Beverly Hills,
       à deux minutes à pied de Wilshire et La Cienega.
+      <br><br><b>
+      Pour des renseignements contactez moi @ <br>310 256 6524 ou yo@dotscode.com</b>
   images:
-    banner: bg/los-angeles.jpg
+    banner: bg/los-angeles-2.png
     bottom: bg/local-dots.jpg
   filter_color: "rgba(70, 20, 140, 0.3)"
   geo:
