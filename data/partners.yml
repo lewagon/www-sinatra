@@ -92,7 +92,7 @@ meshwork:
   image_name: meshwork.png
   url: http://www.meshwork.fr/
 
-  ministry_economy:
+ministry_economy:
   name: Ministry of economy and trade Lebanon
   image_name: moet-logo.jpg
   url: http://www.economy.gov.lb/index.php/home/2
