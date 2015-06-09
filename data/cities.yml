@@ -200,6 +200,7 @@ beirut:
   partners:
     - beirut-innovation-center
     - naharnet
+    - ministry_economy
   programs:
     bootcamp: true
   subventions: # From data/subventions.yml
