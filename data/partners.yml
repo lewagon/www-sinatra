@@ -17,6 +17,11 @@ aquant:
   image_name: aquent.png
   url: https://aquent.fr/
 
+aquinum:
+  name: Aquinum
+  image_name: aquinum.png
+  url: http://aquinum.fr/
+
 beirut-innovation-center:
   name: Beirut Innovation Center
   image_name: beirut-innovation-center.png
