@@ -264,6 +264,7 @@ bordeaux:
   partners:  # From data/partners.yml
     - ajstage
     - aquant
+    - aquinum
   subventions: # From data/subventions.yml
   staff:  # cf data/staff.yml
     - bertrand
