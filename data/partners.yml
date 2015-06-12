@@ -27,6 +27,11 @@ beirut-innovation-center:
   image_name: beirut-innovation-center.png
   url: http://beirutic.com/
 
+beirut-digital-district:
+  name: Beirut Digital District
+  image_name: BDD-logo.png
+  url: http://beirutdigitaldistrict.com/
+
 bigint:
   name: Bigint
   image_name: bigint.png
@@ -99,7 +104,7 @@ meshwork:
 
 ministry_economy:
   name: Ministry of economy and trade Lebanon
-  image_name: moet-logo.jpg
+  image_name: moet-logo.png
   url: http://www.economy.gov.lb/index.php/home/2
 
 naharnet:
