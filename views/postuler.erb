@@ -189,8 +189,8 @@
         }
       }
       $('input[type=radio][name=camp]').change(showPrice);
-      $('input[type=radio][name=camp]:not(":disabled")').eq(1).click();
-      showPrice({ target: $('input[type=radio][name=camp]:not(":disabled")').get(1) });
+      $('input[type=radio][name=camp]:not(":disabled")').eq(0).click();
+      showPrice({ target: $('input[type=radio][name=camp]:not(":disabled")').get(0) });
     });
   </script>
 <% end %>
