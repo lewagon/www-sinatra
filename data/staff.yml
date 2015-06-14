@@ -286,16 +286,43 @@ malik:
   description:
     fr: |
       Né et élevé en Belgique, diplômé en Marketing et Graphic Design,
-      Malik est un serial entrepreneur libanais qui développe aujourd'hui les activités
+      **Malik** est un serial entrepreneur libanais qui développe aujourd'hui les activités
       du Wagon à Beyrouth.
     en: |
       Born and raised in Belgium, graduated in Marketing and Graphic Design,
-      Malik is a Lebanese serial entrepreneur who now develops Le Wagon Beirut's activities.
+      **Malik** is a Lebanese serial entrepreneur who now develops Le Wagon Beirut's activities.
   links:
     - url: https://lb.linkedin.com/in/elkhourymalik/en
       icon: linkedin
     - url: https://twitter.com/elkhourymalik
       icon: twitter
+    - url: https://github.com/elkhourymalik
+      icon: github-alt
+    - url: http://elkhourymalik.com
+      icon: link
+marcian:
+  image_name: marcian.jpg
+  description:
+    fr: |
+      Fasciné par les applications apparemment illimitées de l'informatique,
+      **Marcian Diamond** edudies, utilise et se fonde sur les dernières technologies
+      pour résoudre des problèmes complexes. Il écrit des markup depuis
+      la fin des années 90. Après avoir codé des applications web à partir de
+      zéro pendant un certain temps, des larmes ont coulées quand
+      il a commencé à vraiment saisir la beauté et la puissance de la création
+      d'applications avec Ruby on Rails .
+    en: |
+      Fascinated by the seemingly limitless applications of computing,
+      **Marcian Diamond** studies, uses, and builds upon the latest technologies
+      to solve perplexing problems. He's been writing markup since the late 90's.
+      After coding web applications from scratch for some time, tears were brought
+      to his eyes when he began to truly grasp the beauty and power of creating
+      applications with Ruby on Rails.
+  links:
+    - url: http://github.com/marciandmnd
+      icon: github-alt
+    - url: https://www.linkedin.com/pub/marcian-diamond/68/479/619
+      icon: linkedin
 martin:
   image_name: martin.jpg
   description:
