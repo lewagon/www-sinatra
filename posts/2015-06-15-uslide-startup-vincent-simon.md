@@ -24,7 +24,7 @@ Pendant les deux mois de formation, j'ai longuement échangé avec Romain, l'un 
 
 ## Comment s'est déroulé le lancement du projet ?
 
-J'ai commencé à plancher dessus pendant les deux dernières semaines de la formation. Au bout des 15 jours, j'ai obtenu un MVP fonctionnel et prometteur. [Sebastien Ferré](http://www.lewagon.org/blog/portrait-developpeur-sebastien-ferre) m'à accompagné sur la première phase du projet alors que nous étions tous les deux dans nos stages respectifs après le Wagon (lui chez [WeRoom](https://www.weroom.com/en), moi chez [55](http://www.fifty-five.com/).
+J'ai commencé à plancher dessus pendant les deux dernières semaines de la formation. Au bout des 15 jours, j'ai obtenu un MVP fonctionnel et prometteur. [Sebastien Ferré](http://www.lewagon.org/blog/portrait-developpeur-sebastien-ferre) m'à accompagné sur la première phase du projet alors que nous étions tous les deux dans nos stages respectifs après le Wagon (lui chez [Weroom](https://www.weroom.com/en), moi chez [55](http://www.fifty-five.com/).
 
 Les développements avançaient à un rythme soutenu, mais j'ai réalisé qu'il est quasiment impossible de travailler au sein d'une startup et de maintenir un niveau d'engagement suffisant pour développer un 'side project' aussi chronophage. À la fin de mon stage, j'ai pris la décision de me consacrer à plein temps sur l'aventure uSlide.
 
@@ -38,7 +38,7 @@ L'intérêt est de ne jamais perdre du regard les notions de savoir à fortes va
 
 La formation du Wagon nous a parfaitement préparés à tous les challenges que nous avons rencontrés. Les phases de recherches et de découverte de nouvelle technologie se font de manière plus sereine. Lorsque quelque chose te résiste, tu peux toujours t'appuyer sur le réseau d'alumni afin de bénéficier d'un coup de main.
 
-Nous nous sommes lancés sur un gros travail de refonte à partir de décembre 2014. Dans le même temps, nous avons énormément monté en compétence en JavaScript afin de prendre parfaitement en main l'API de YouTube. Cela n'en a peut-être pas l'air, mais le serive est relativement complexe à faire tourner sur un serveur (une histoire de script et de binaires chevelus que je préfère vous éviter). Nous avons donc réalisé la mise en production sur [Docker](https://www.docker.com/) pour créer une machine virtuelle scallable afin de nous éviter d'avoir à reconfigurer un serveur à l'avenir.
+Nous nous sommes lancés sur un gros travail de refonte à partir de décembre 2014. Dans le même temps, nous avons énormément monté en compétence en JavaScript afin de prendre parfaitement en main l'API de YouTube. Cela n'en a peut-être pas l'air, mais le service est relativement complexe à faire tourner sur un serveur (une histoire de script et de binaires chevelus que je préfère vous éviter). Nous avons donc réalisé la mise en production sur [Docker](https://www.docker.com/) pour créer une machine virtuelle scallable afin de nous éviter d'avoir à reconfigurer un serveur à l'avenir.
 
 ![Vincent Simon en action sur uSlide](blog_image_path uslide-workforce.jpg)
 
