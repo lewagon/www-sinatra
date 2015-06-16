@@ -10,7 +10,7 @@ thumbnail: thumbnail-meetup-ux-design.jpg
 description: "De l'élaboration du flow jusqu'au design d'une application en passant par les problématiques liées au responsive, Joël Schillio passe en revu les 5 idées reçues sur l'UX Design."
 ---
 
-<div class="video-wrapper"><iframe width="750" height="422" src="https://www.youtube.com/embed/fZQviXy7i2A?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-wrapper"><iframe width="750" height="422" src="https://www.youtube.com/embed/WcUTwhnsTDs?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ## En quelques mots
 
