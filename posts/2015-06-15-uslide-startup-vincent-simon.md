@@ -44,7 +44,9 @@ Nous nous sommes lancés sur un gros travail de refonte à partir de décembre 2
 
 ## Existe t-il d'autres startups sur ce créneau ?
 
-Non pas que je sache. Même si les outils de montage sont de plus en plus accessibles, généralement ce genre de process est pris en charge par des prestataires vidéo pour incruster des screencast dans un flux vidéo en post production. uSlide offre le même résultat via un service simple, accessible à tous, rapide et peu onéreux.
+Il en existe d'autres, mais nous avons fait le choix de nous focaliser sur la simplicité de synchronisation là où d'autres multiplie les features et qui au final perdent l'utilisateur. Aujourd'hui, même si les outils de montage sont de plus en plus accessibles, ce genre de prestation est généralement assurée par un partenaire spécialisé dans la vidéo afin d'incruster les slides en post production.
+
+uSlide offre le même résultat via un service simple, accessible à tous, rapide et peu onéreux.
 
 ## Quelles sont les prochaines étapes ?
 
