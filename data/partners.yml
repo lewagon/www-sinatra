@@ -32,6 +32,11 @@ beirut-digital-district:
   image_name: BDD-logo.png
   url: http://beirutdigitaldistrict.com/
 
+berytech:
+  name: Berytech
+  image_name: berytech.png
+  url: http://berytech.org
+
 bigint:
   name: Bigint
   image_name: bigint.png
@@ -72,6 +77,11 @@ euratechnologies:
   image_name: euratechnologies.jpg
   url: http://www.euratechnologies.com/
 
+eventing-lb:
+  name: Eventing-LB
+  image_name: eventing-lb.png
+  url: http://www.eventinglb.com
+
 fifty_five:
   name: Fifty Five
   image_name: fifty-five.png
@@ -86,6 +96,11 @@ grandnancy:
   name: Communaunté Urbaine du Grand Nancy
   image_name: grandnancy.png
   url: https://konnectr.co/
+
+ihjoz:
+  name: Ihjoz
+  image_name: ihjoz.png
+  url: https://www.ihjoz.com
 
 konnectr:
   name: KonnectR
