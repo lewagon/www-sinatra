@@ -16,7 +16,7 @@ description: "uSlide vous permet de synchroniser vos vidéos et présentations e
 
 ## Hello Vincent, peux-tu te présenter et nous éclairer sur ton parcours ?
 
-Hello ! Je suis tout d'abord passé par les Arts et Métiers en spécialisation entrepreneuriale avec l'envie de monter un label musical. Conscient de l'importance du réseau dans ce milieu, j'ai préféré me raviser et poursuivre sur un Master en Marketing à l'ESCP. Entre temps, j'ai rencontré [Niels Meyrague](https://medium.com/@nielsmayrargue), un alumni de la première promotion qui m'a parlé du Wagon. J'ai eu un déclic et j'ai postulé.
+Hello ! Je suis tout d'abord passé par les Arts et Métiers en spécialisation entrepreneuriale avec l'envie de monter un label musical. Conscient de l'importance du réseau dans ce milieu, j'ai préféré me raviser et poursuivre sur un Master en Marketing à l'ESCP. Entre temps, j'ai rencontré [Niels Mayrague](https://medium.com/@nielsmayrargue), un alumni de la première promotion qui m'a parlé du Wagon. J'ai eu un déclic et j'ai postulé.
 
 Pendant les deux mois de formation, j'ai longuement échangé avec Romain, l'un des cofondateurs. D'une première idée de produit dédié à la retransmission multividéo en live pendant un concert, le concept du service à évolué pour devenir uSlide.
 
@@ -38,13 +38,13 @@ L'intérêt est de ne jamais perdre du regard les notions de savoir à fortes va
 
 La formation du Wagon nous a parfaitement préparés à tous les challenges que nous avons rencontrés. Les phases de recherches et de découverte de nouvelle technologie se font de manière plus sereine. Lorsque quelque chose te résiste, tu peux toujours t'appuyer sur le réseau d'alumni afin de bénéficier d'un coup de main.
 
-Nous nous sommes lancés sur un gros travail de refonte à partir de décembre 2014. Dans le même temps, nous avons énormément monté en compétence en JavaScript afin de prendre parfaitement en main l'API de YouTube. Cela n'en a peut-être pas l'air, mais le service est relativement complexe à faire tourner sur un serveur (une histoire de script et de binaires chevelus que je préfère vous éviter). Nous avons donc réalisé la mise en production sur [Docker](https://www.docker.com/) pour créer une machine virtuelle scallable afin de nous éviter d'avoir à reconfigurer un serveur à l'avenir.
+Nous nous sommes lancés sur un gros travail de refonte à partir de décembre 2014. Dans le même temps, nous avons énormément monté en compétence en JavaScript afin de prendre parfaitement en main l'API de YouTube. Cela n'en a peut-être pas l'air, mais le service est relativement complexe à faire tourner sur un serveur (une histoire de script et de binaires chevelus que je préfère vous éviter). Nous avons donc réalisé la mise en production sur [Docker](https://www.docker.com/) pour créer une machine virtuelle scalable afin de nous éviter d'avoir à reconfigurer un serveur à l'avenir.
 
 ![Vincent Simon en action sur uSlide](blog_image_path uslide-workforce.jpg)
 
 ## Existe t-il d'autres startups sur ce créneau ?
 
-Il en existe d'autres, mais nous avons fait le choix de nous focaliser sur la simplicité de synchronisation là où d'autres multiplie les features et qui au final perdent l'utilisateur. Aujourd'hui, même si les outils de montage sont de plus en plus accessibles, ce genre de prestation est généralement assurée par un partenaire spécialisé dans la vidéo afin d'incruster les slides en post production.
+Il en existe d'autres, mais nous avons fait le choix de nous focaliser sur la simplicité de synchronisation là où d'autres multiplient les features et au final perdent l'utilisateur. Aujourd'hui, même si les outils de montage sont de plus en plus accessibles, ce genre de prestation est généralement assurée par un partenaire spécialisé dans la vidéo afin d'incruster les slides en post production.
 
 uSlide offre le même résultat via un service simple, accessible à tous, rapide et peu onéreux.
 
