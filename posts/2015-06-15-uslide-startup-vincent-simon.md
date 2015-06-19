@@ -24,7 +24,7 @@ Pendant les deux mois de formation, j'ai longuement échangé avec Romain, l'un 
 
 ## Comment s'est déroulé le lancement du projet ?
 
-J'ai commencé à plancher dessus pendant les deux dernières semaines de la formation. Au bout des 15 jours, j'ai obtenu un MVP fonctionnel et prometteur. [Sebastien Ferré](http://www.lewagon.org/blog/portrait-developpeur-sebastien-ferre) m'à accompagné sur la première phase du projet alors que nous étions tous les deux dans nos stages respectifs après le Wagon (lui chez [Weroom](https://www.weroom.com/en), moi chez [55](http://www.fifty-five.com/).
+J'ai commencé à plancher dessus pendant les deux dernières semaines de la formation. Au bout des 15 jours, j'ai obtenu un MVP fonctionnel et prometteur. [Sebastien Ferré](http://www.lewagon.org/blog/portrait-developpeur-sebastien-ferre) m'a accompagné sur la première phase du projet alors que nous étions tous les deux dans nos stages respectifs après le Wagon (lui chez [Weroom](https://www.weroom.com/en), moi chez [55](http://www.fifty-five.com/)).
 
 Les développements avançaient à un rythme soutenu, mais j'ai réalisé qu'il est quasiment impossible de travailler au sein d'une startup et de maintenir un niveau d'engagement suffisant pour développer un 'side project' aussi chronophage. À la fin de mon stage, j'ai pris la décision de me consacrer à plein temps sur l'aventure uSlide.
 
