@@ -190,7 +190,7 @@ beirut:
       et de soutien de qualité supérieure pour les entreprises.
   images:
     banner: bg/beirut.jpg
-    bottom: bg/local-beirut3.jpg
+    bottom: bg/local-beirut2.jpg
   filter_color: "rgba(253, 113, 32, 0.4)"
   geo:
     zoom: 15
@@ -203,7 +203,10 @@ beirut:
   partners:
     - beirut-digital-district
     - ministry_economy
+    - berytech
     - naharnet
+    - ihjoz
+    - eventing-lb
 
   programs:
     bootcamp: true
