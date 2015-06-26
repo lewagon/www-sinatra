@@ -7,10 +7,10 @@ labels:
   - startup
 pushed: true
 thumbnail: thumbnail-lovelyhood.jpg
-description: "Il aura suffi d'un TED Talk de Rachel Botsman pour décider Edward Schultz, alumni du Wagon, à franchir le pas de l'entrepreneuriat. Avec sa marketplace Lovely Hood, ce dernier souhaite faciliter les échanges de bons procédés entre voisins. Découvrez son projet sans plus attendre !"
+description: "Il aura suffi d'un TED Talk de Rachel Botsman pour décider Edward Schults, alumni du Wagon, à franchir le pas de l'entrepreneuriat. Avec sa marketplace Lovely Hood, ce dernier souhaite faciliter les échanges de bons procédés entre voisins. Découvrez son projet sans plus attendre !"
 ---
 
-Il aura suffi d'un [TED Talk de Rachel Botsman](http://www.ted.com/talks/rachel_botsman_the_case_for_collaborative_consumption?language=en) pour décider Edward Schultz à franchir le pas de l'entrepreneuriat. Si l'économie collaborative et la numérisation des échanges résonnent chaudement dans l'actualité en ce moment même, cet alumni du Wagon est bien décidé à se plonger dans la bataille.
+Il aura suffi d'un [TED Talk de Rachel Botsman](http://www.ted.com/talks/rachel_botsman_the_case_for_collaborative_consumption?language=en) pour décider Edward Schults à franchir le pas de l'entrepreneuriat. Si l'économie collaborative et la numérisation des échanges résonnent chaudement dans l'actualité en ce moment même, cet alumni du Wagon est bien décidé à se plonger dans la bataille.
 
 Avec [Lovely Hood](https://www.lovely-hood.com/), son objectif est double: fluidifier les échanges de biens et services entre particuliers et y incorporer une notion de proximité, afin de créer le lien de confiance entre individus, nécessaire aux microtransactions.
 
@@ -19,16 +19,18 @@ Avec [Lovely Hood](https://www.lovely-hood.com/), son objectif est double: fluid
 
 ### Comment a germé l'idée de Lovely Hood ?
 
-Après mes études en école d'ingénieur et d'un master en finance à La Sorbonne, je me suis consacré à l'audit et la fusion-acquisition. Fin 2013, j'ai eu envie d'autre chose et à force de lectures sur le milieu startup, j'ai fini par attraper le virus de l'entrepreneuriat. Également passionné par le phénomène de l'économie collaborative, j'ai commencé à dresser les contours et à imaginer l'embryon de [Lovely Hood](https://www.lovely-hood.com/).
+Après mes études en école d'ingénieur et d'un master en finance à La Sorbonne, j'ai travaillé en audit puis en conseil en finance. Fin 2013, j'ai eu envie d'autre chose et à force de lectures sur le milieu startup, j'ai fini par attraper le virus de l'entrepreneuriat. Également passionné par le phénomène de l'économie collaborative, j'ai commencé à dresser les contours et à imaginer l'embryon de [Lovely Hood](https://www.lovely-hood.com/).
 
 
 ### Tu as donc enchaîné avec le Wagon ?
 
 Pas exactement, j'ai commencé par chercher un développeur/CTO en mars 2014. Suite au premier rendez-vous, j'ai été surpris et un peu dérangé par le rapport de force qui émanait du développeur. Ce mauvais feeling m'a fait prendre conscience de l'obligation d'apprendre à coder pour mener mon projet à bien.
 
-J'ai commencé par regarder du côté des formations en ligne et c'est à ce moment-là que j’ai entendu parler du Wagon et du programme **Cet été je code**. La qualité était au rendez-vous et du coup j’ai décidé d’embarquer pour [le programme Fullstack](http://www.lewagon.org/programme) en fin d'année dernière.
+J'ai commencé par regarder du côté des formations en ligne et c'est à ce moment-là que j’ai entendu parler du Wagon et du programme *Cet été je code*. La qualité était au rendez-vous et du coup j’ai décidé d’embarquer pour [le programme Fullstack](http://www.lewagon.org/programme) en fin d'année dernière.
 
-![Edward Schultz, fondateur de Lovely Hood](blog_image_path lovelyhood_2.jpg)
+En parallèle de Lovely Hood j'ai lancé deux side-projects : le premier est une application pour [stocker les digicodes de vos amis]( https://digicode.herokuapp.com), le deuxième, réalisé en collaboration avec [Thomas Chrétien](https://twitter.com/tchret), est un site pour consulter rapidement toutes les dernières actualités de la scène tech : [Freshest](http://www.frshst.com/).
+
+![Edward Schults, fondateur de Lovely Hood](blog_image_path lovelyhood_2.jpg)
 
 
 ### Peux-tu définir le service en une phrase ?
