@@ -1,85 +1,80 @@
 ---
 layout: post
-title: "Lovely Hood"
+title: "Lovely Hood, facilitez-vous les échanges de bons procédés entre voisins"
 author: cedric
 labels:
   - alumni
   - startup
 pushed: true
 thumbnail: thumbnail-lovelyhood.jpg
-description: ""
+description: "Il aura suffi d'un TED Talk de Rachel Botsman pour décider Edward Schultz, alumni du Wagon, à franchir le pas de l'entrepreneuriat. Avec sa marketplace Lovely Hood, ce dernier souhaite faciliter les échanges de bons procédés entre voisins. Découvrez son projet sans plus attendre !"
 ---
 
-![uSlide, présentation du concept](blog_image_path uslide-exemple.jpg)
+Il aura suffi d'un [TED Talk de Rachel Botsman](http://www.ted.com/talks/rachel_botsman_the_case_for_collaborative_consumption?language=en) pour décider Edward Schultz à franchir le pas de l'entrepreneuriat. Si l'économie collaborative et la numérisation des échanges résonnent chaudement dans l'actualité en ce moment même, cet alumni du Wagon est bien décidé à se plonger dans la bataille.
 
-École d'ingénieur à centrale Lille jusqu'en 2009.
-Volonté de travailler dans la finance + master de finance à La Sorbonne en parrallèle de sa dernière année d'ingénieur. Ensuite 3 années chez Price en audit. Derière 2 ans de conseil en fusion acquisition. Fin 2013 envie de voir d'autre chose, de réfléchir à d'autres projets.
+Avec [Lovely Hood](https://www.lovely-hood.com/), son objectif est double: fluidifier les échanges de biens et services entre particuliers et y incorporer une notion de proximité, afin de créer le lien de confiance entre individus, nécessaire aux microtransactions.
 
-Interêt pour le web et l'univers des startups. Virus de l'entrepreunariat en lisant des articles
-Phénomène de l'économie collaborative et + [TED Talk de Rachel Botsman](http://www.ted.com/talks/rachel_botsman_the_case_for_collaborative_consumption?language=en)
-
-Envie de lancer Lovely Hood. Concept très flou encore mais envie de lancer quelque chose dans ce domaine. Grande vague de l'économie collaborative => Démission et changement de vie.
-
-Mars 2014.
-
-Commencer par chercher un développeur pour prendre le rôle du CTO.
-Au bout du premier entretien, j'ai eu l'impression que le rapport de force était trop du côté du développeur. Mauvais feeling.
-
-J'étais certain que je pouvais apprendre à coder. Du coup, grosse motivation et je me suis lancé avec des tutos en ligne (juin/juillet 2014). J'ai entendu parler du Wagon à ce moment là et j'ai suis la formation en ligne "Cet été je code". Les vidéos étaient super clair, la qualité était au rendez-vous du coup je me suis embarqué pour le programme FullStack.
-
-Session octobre 2014.
-
-J'avais déjà le concept en tête et j'observais depuis un long moment les plateformes comme AirBnB, Drivy ou encore OuiCar (gros actifs). Et je me suis simplement dit qu'à l'échelle locale du consommateur de tout les jours, il était possible d'appliquer les mêmes mécanismes.
-
-Plus petits actifs sur de plus gros volumes. Reproduire les mêmes schémas sur des produits pas forcément intéressant à posséder (appareil à raclette, perceuse...) ou qui s'entassent pour une utilisation très sporadique.
-
-Problème plus difficile à cause :
-- Du sentiment de propriété => Zone réduite à l'échelle du quartier
-- Du fait de se déplacer => Smartphone
-
-Mais c'est seulement du bon sens que de pousser ce nouveau monde de consommation en zone urbaine. Si on garde l'exemple de Paris en tête ou la densité de population est très forte, à l'échelle d'un quartier on va retrouver énormément de doublon dans les objets qui s'entassent...
-
-Les places de marché de location sont nombreuses et beaucoup baissent les bras. Mais c'est un challenge que j'ai envie de relever. Si tu prends le problème par des bouts différents, penser autrement (dimension de quartier pour augmenter la confiance), créer un petit écosystème protégé.
-
-Annonce accessible uniquement si il est située à moins de 10 minutes à pieds.
-Lever un certain nombre de barrières notaemment au niveau de la confiance.
-
-La surconsommation est derrière nous (pouvoir d'achat, évolution des mentalités sur les nouvelles générations...)
-
-Nouveaux circuits de consommation.
-
-Nouvelle catchline : Facilitons les échanges de bons procédés entre voisins.
-
-Méfiance, confiance... Cela dit, les retours d'expériences sur les plateformes d'échanges de biens ou de services sont le plus souvent énormément possitifs.
-
-Replacer l'humain au centre des échanges.
-
-Au niveau du dev, j'avais déjà en tête les fonctionnalités finales du services.
-
-Les objets en vente, les objets en location.
-Les autres mécanismes sont semblables à ceux bien connus sur AirBnB par exemple.
-Liste des offres, les utilisateurs peuvent les parcourir, les bookers, les mettre dans un wish list et contacter le propriétaire.
-Tout cela était quasiment terminé après les deux semaines finales dédiées au projet. La messagerie était égalment fonctionnelle.
-
-Commentaires, revues, paiment avec Stripe, wall : les utlisateurs peuvent poster du texte/photos/ressources pour communiquer avec ses voisins (réseau social)
-
-Composante Marketplace couplée à une composante Social Network afin de recréer la vie de quartier en 2015.
-
-La place de marché permet de recréer l'offre. Mais le jour où je vais sur Lovely Hood et que je trouve pas ce que je cherche, je peux laisser un message que mes voisins pourront consulter ! L'idée ensuite est de faciliter la transaction entre cette demande, l'offre potientielle et le booking final du service.
-
-Mindset de dev, digger pour trouver tutos et documentation.
-
-Phase de remplissage. J'essaye d'éviter le phénomène de la page blanche en invitant des nouveaux membres à poster des annonces. Cela passe d'avantage par de la prospection physique et j'apprends énormément à ce niveau là également. Je commence à récupérer du feedbacks, à développer un réseau et... À me mettre la pression sur ce nouveau domaine !
-
-Méthode encore nouvelle : communiquer autour de la vision.
-
-J'attends une taille critique pour lancer les cheveaux.
+![Lovely Hood, présentation du concept](blog_image_path lovelyhood_1.jpg)
 
 
+### Comment a germé l'idée de Lovely Hood ?
+
+Après mes études en école d'ingénieur et d'un master en finance à La Sorbonne, je me suis consacré à l'audit et la fusion-acquisition. Fin 2013, j'ai eu envie d'autre chose et à force de lectures sur le milieu startup, j'ai fini par attraper le virus de l'entrepreneuriat. Également passionné par le phénomène de l'économie collaborative, j'ai commencé à dresser les contours et à imaginer l'embryon de [Lovely Hood](https://www.lovely-hood.com/).
 
 
+### Tu as donc enchaîné avec le Wagon ?
+
+Pas exactement, j'ai commencé par chercher un développeur/CTO en mars 2014. Suite au premier rendez-vous, j'ai été surpris et un peu dérangé par le rapport de force qui émanait du développeur. Ce mauvais feeling m'a fait prendre conscience de l'obligation d'apprendre à coder pour mener mon projet à bien.
+
+J'ai commencé par regarder du côté des formations en ligne et c'est à ce moment-là que j’ai entendu parler du Wagon et du programme **Cet été je code**. La qualité était au rendez-vous et du coup j’ai décidé d’embarquer pour [le programme Fullstack](http://www.lewagon.org/programme) en fin d'année dernière.
+
+![Edward Schultz, fondateur de Lovely Hood](blog_image_path lovelyhood_2.jpg)
 
 
+### Peux-tu définir le service en une phrase ?
+
+J'ai longuement observé des plateformes comme AirBnB, Drivy ou encore OuiCar qui mettent en avant le partage de gros actifs (maison, voiture). Je me suis simplement dit qu'il est possible d'appliquer les mêmes mécanismes en misant sur l'échange de plus petits actifs, mais sur de plus gros volumes, en ciblant les objets qu'il n'est pas forcément intéressant de posséder (appareil à raclette, perceuse...) ou nous utilisons rarement.
+
+Donc pour répondre à la question, je dirai :
+
+> Faciliter les échanges de bons procédés entre voisins.
+
+Pour moi ce n'est qu'une affaire de bon sens et particulièrement en zone urbaine. Paris par exemple, quand on songe deux minutes à la densité de population, imaginez à l'échelle d'un quartier le nombre d'objets en doublon qui prennent la poussière et s'entassent...
+
+En terme de fonctionnalités, on retrouve bien entendu une liste des offres, une interface de gestion des réservations, une wish list, des commentaires, des notations, un système de paiement et une messagerie.
+
+![Lovely Hood, profile et liste des offres](blog_image_path lovelyhood_3.jpg)
 
 
+### C'est tout de même un pari audacieux, non ?
+
+Les marketplaces sur ce marché sont nombreuses et beaucoup baissent les bras. Mais c'est un challenge que j'ai envie de relever. Si tu t'attaques au problème sous un angle différent, tu peux isoler certains freins et commencer à imaginer des solutions.
+
+J'ai isolé deux points qui me semblent importants :
+- Le sentiment de propriété et la relation de confiance nécessaire pour confier ses objets
+- La rapidité et la simplicité avec laquelle on peut se procurer le bien ou le service
+
+Pour répondre à ces deux critères, j'ai imaginé Lovely Hood comme un hub de quartier afin de créer un écosystème protégé dans lequel tout est accessible à moins de 10 minutes à pieds. Pour communiquer entre eux, les utilisateurs peuvent utiliser une messagerie directe ou se référer au wall sur lequel seront agrégées toutes les news et annonces de son voisinage.
+
+> L'idée est d'insérer une composante réseau social au sein de la marketplace afin de recréer la vie de quartier en 2015.
+
+La place de marché permet de recréer l'offre, mais le jour où je vais sur Lovely Hood et que je ne trouve pas ce que je cherche, je peux laisser un message que mes voisins pourront consulter !
+
+![Lovely Hood, le social wall](blog_image_path lovelyhood_4.jpg)
+
+
+### Quel est ton prochain challenge désormais ?
+
+Le développement de l'application touche à sa fin mais je continue d'améliorer l'ensemble lorsque des feedbacks d'utilisateurs remontent.
+
+Je suis en plein dans la phase de 'remplissage'. J'essaye au maximum d'éviter le phénomène de la page blanche en invitant des nouveaux membres à poster des annonces. Cela passe par de la prospection physique en appuyant particulièrement sur la vision du projet. C'est un nouveau domaine auquel je me frotte et le moins que l'on puisse dire c'est que j'apprends énormément !
+
+D'ailleurs, je profite de l'occasion pour préciser que je cherche un stagiaire pour venir me donner un coup de main sur cette problématique cet été. N'hésitez pas à me contacter sur *edward@lovely-hood.com*
+
+À très vite sur [Lovely Hood](https://www.lovely-hood.com/) !
+
+
+<div class="embed-fb">
+  <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/laruchequiditoui/posts/1013752228649725" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/laruchequiditoui/posts/1013752228649725"><p>Notre voisinage peut nous faciliter la vie !www.lovely-hood.com est un nouveau site qui permet de se connecter avec son quartier.Quelqu&#039;un veut tester ?</p>Posted by <a href="https://www.facebook.com/laruchequiditoui">La Ruche qui dit Oui</a> on&nbsp;<a href="https://www.facebook.com/laruchequiditoui/posts/1013752228649725">Wednesday, June 24, 2015</a></blockquote></div></div>
+</div>
 
