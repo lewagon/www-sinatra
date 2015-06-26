@@ -43,6 +43,17 @@ namespace :trello do
     end
   end
 
+  task :go_emails do
+    configure_trello
+
+    puts "List id?"
+    print "> "
+    list_id = $stdin.gets.chomp
+    Trello::List.find(list_id).cards.each do |card|
+      puts card.name
+    end
+  end
+
   task :no_go_emails do
     configure_trello
 
