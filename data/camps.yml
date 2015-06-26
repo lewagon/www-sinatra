@@ -89,18 +89,18 @@
 #     inbox_list_id: 54367fcfe0dfe26d509ec183
 
 
-paris-juillet-2015:
-  city: paris
-  start_date: 2015-07-13
-  end_date: 2015-09-12
-  price: 4500
-  currency: €
-  currency_iso: EUR
-  language: fr
-  last_seats: true
-  full: true
-  trello:
-    inbox_list_id: 54fee28828ffa1e52b092d3f
+# paris-juillet-2015:
+#   city: paris
+#   start_date: 2015-07-13
+#   end_date: 2015-09-12
+#   price: 4500
+#   currency: €
+#   currency_iso: EUR
+#   language: fr
+#   last_seats: true
+#   full: true
+#   trello:
+#     inbox_list_id: 54fee28828ffa1e52b092d3f
 
 brussels-august-2015:
   city: brussels
@@ -170,11 +170,16 @@ bordeaux-septembre-2015:
   trello:
     inbox_list_id: 554b60bd13d9df5e9b98a9e8
 
-paris-octobre-2015:
-  city: paris
-  start_date: 2015-10-19
-  end_date: 2015-12-18
-  language: fr
-  # trello:
-  #   inbox_list_id: 54fee3a05c54d91a1704e9e4
+# paris-octobre-2015:
+#   city: paris
+#   start_date: 2015-10-19
+#   end_date: 2015-12-18
+#   language: fr
+#   # trello:
+#   #   inbox_list_id: 54fee3a05c54d91a1704e9e4
 
+paris-january-2016:
+  city: paris
+  start_date: 2016-01-04
+  end_date: 2016-03-04
+  language: fr
