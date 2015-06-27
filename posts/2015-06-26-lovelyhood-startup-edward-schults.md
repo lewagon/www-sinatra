@@ -53,6 +53,7 @@ En terme de fonctionnalités, on retrouve bien entendu une liste des offres, une
 Les marketplaces sur ce marché sont nombreuses et beaucoup baissent les bras. Mais c'est un challenge que j'ai envie de relever. Si tu t'attaques au problème sous un angle différent, tu peux isoler certains freins et commencer à imaginer des solutions.
 
 J'ai isolé deux points qui me semblent importants :
+
 - Le sentiment de propriété et la relation de confiance nécessaire pour confier ses objets
 - La rapidité et la simplicité avec laquelle on peut se procurer le bien ou le service
 
