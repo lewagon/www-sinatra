@@ -183,7 +183,7 @@ fr:
       registrations_not_open_yet: Pas encore ouvert
   thanks:
     title: Merci !
-    content_html: 'Nous vous recontacterons rapidement par mail pour prévoir un rendez-vous. En attendant, <a href="http://twitter.com/Lewagonparis">suivez-nous sur Twitter !</a>'
+    content_html: "Nous vous recontacterons rapidement par mail pour prévoir un rendez-vous. En attendant, vous pouvez d'ores et déjà commencer la <a href='http://www.codecademy.com/tracks/ruby?locale_code=en'>track Ruby</a> sur CodeCademy."
   alumni:
     title: Les projets de nos élèves - Startups et applis web made in Le Wagon
     banner: Les projets de nos élèves

@@ -177,7 +177,7 @@ en:
       registrations_not_open_yet: Not open yet
   thanks:
     title: Thanks!
-    content_html: "We'll contact you shortly by email to plan an interview. In the meantime, <a href='http://twitter.com/Lewagonbrussels'>follow us on Twitter</a>"
+    content_html: "We'll contact you shortly by email to plan an interview. In the meantime, you can already start the <a href='http://www.codecademy.com/tracks/ruby?locale_code=en'>Ruby Track</a> on CodeCademy."
   alumni:
     title: Our student projects - Startups and web apps made in Le Wagon
     banner: Our student projects
