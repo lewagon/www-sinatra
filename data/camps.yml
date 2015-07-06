@@ -156,7 +156,7 @@ paris-septembre-2015:
   currency_iso: EUR
   language: fr
   last_seats: true
-  full: true
+  # full: true
   trello:
     inbox_list_id: 54fee379820e199751400ace
 
