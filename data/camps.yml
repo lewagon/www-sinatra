@@ -156,6 +156,7 @@ paris-septembre-2015:
   currency_iso: EUR
   language: fr
   last_seats: true
+  full: true
   trello:
     inbox_list_id: 54fee379820e199751400ace
 
@@ -183,8 +184,8 @@ paris-january-2016:
   start_date: 2016-01-04
   end_date: 2016-03-04
   language: fr
-  # price: 4500
-  # currency: €
-  # currency_iso: EUR
-  # trello:
-  #   inbox_list_id: 5592467ea401f87431ccbb7a
+  price: 4500
+  currency: €
+  currency_iso: EUR
+  trello:
+    inbox_list_id: 5592467ea401f87431ccbb7a
