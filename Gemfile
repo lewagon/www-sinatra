@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-source 'https://rails-assets.org'
 ruby '2.2.2'
 
 gem 'sinatra'
@@ -10,13 +9,12 @@ gem 'i18n'
 gem 'builder'
 gem 'redis'
 
+gem 'bootstrap-sass', '~> 3.2.0', group: :assets
 gem 'autoprefixer-rails'
 
-group :assets do
-  gem 'bootstrap-sass', '~> 3.2.0'
-  gem 'rails-assets-jquery'
-  gem 'rails-assets-font-awesome'
-  # gem 'rails-assets-infinite-scroll'
+source 'https://rails-assets.org' do
+  gem 'rails-assets-jquery', group: :assets
+  gem 'rails-assets-font-awesome', group: :assets
 end
 
 gem 'pygmentize'

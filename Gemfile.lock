@@ -198,8 +198,8 @@ DEPENDENCIES
   pygmentize
   rack-contrib
   rack-cors
-  rails-assets-font-awesome
-  rails-assets-jquery
+  rails-assets-font-awesome!
+  rails-assets-jquery!
   rails_12factor
   redcarpet
   redis
