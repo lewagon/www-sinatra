@@ -21,7 +21,7 @@ Vous voyez que le DNS joue le rôle d'annuaire, en convertissant un nom de domai
 
 ### Une nouvelle url ? Mais je possède déjà une url GitHub non ?
 
-Effectivement, une adresse IP est déjà rattachée à votre url GitHub Pages. Elle prend la forme `http://VOTRE_NOM_GITHUB.github.io/votreprojet`. Une fois votre nouveau nom de domaine associé à l'adresse IP de votre site celui-ci agira comme un *alias* sur l'url fournie par GitHub Pages. Ainsi lorsque qu'un nagivateur soumettra la requête ```www.votreprojet.com```, le serveur DNS lui indiquera l'IP de ```VOTRE_NOM_GITHUB.github.io```.
+Effectivement, une adresse IP est déjà rattachée à votre url GitHub Pages. Elle prend la forme `http://VOTRE_NOM_GITHUB.github.io/votreprojet`. Une fois votre nouveau nom de domaine associé à l'adresse IP de votre site celui-ci agira comme un *alias* sur l'url fournie par GitHub Pages. Ainsi lorsqu'un nagivateur soumettra la requête ```www.votreprojet.com```, le serveur DNS lui indiquera l'IP de ```VOTRE_NOM_GITHUB.github.io```.
 
 ### L'achat de votre nom de domaine
 
