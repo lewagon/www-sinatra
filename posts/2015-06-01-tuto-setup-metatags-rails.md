@@ -119,10 +119,10 @@ Rendez-vous ensuite dans `app/views/layouts/application.html.erb` et copiez/coll
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content=“<%= twitter_account %>">
+<meta name="twitter:site" content=“<%= DEFAULT_META[:twitter_account] %>">
 <meta name="twitter:title" content="<%= title %>">
 <meta name="twitter:description" content="<%= meta_description %>">
-<meta name="twitter:creator" content=“<%= twitter_account %>">
+<meta name="twitter:creator" content=“<%= DEFAULT_META[:twitter_account] %>">
 <meta name="twitter:image:src" content="<%= image_url meta_image %>">
 
 <!-- Google+ Schema.org markup -->
