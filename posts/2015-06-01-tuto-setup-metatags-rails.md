@@ -34,11 +34,12 @@ L'idée de ce tutoriel est de vous montrer comment obtenir ce résultat sur chac
 
 ### Créez des Meta Tags par défaut
 
-Commencez par créer un nouvel initializer `meta.rb` dans `config/initializers`, avec le contenu suivant :
+Commencez par créer un nouvel fichier `meta.yml` dans `config`, avec le contenu suivant :
 
 **Important :** Prenez soin ensuite de rédiger un titre accrocheur, une description percutante et de choisir une image mettant parfaitement en valeur votre produit ou service.
 
 ```
+# config/meta.yml
 default_title: "Titre générique"
 meta_description: "Description générique."
 meta_image: "image.jpg" # Une image dans votre dossier app/assets/images/
@@ -46,11 +47,15 @@ twitter_account: "@nomdevotrecompte" #indispensable pour les Twitter Cards
 
 ```
 
-Et chargez ensuite ce `.yml` dans `environnement.rb` :
+Et chargez ensuite ce `.yml` dans le fichier `config/environnement.rb` :
 
 ```
+# config/environment.rb
+
+# [...]
+
 # Initialize default meta tags.
-DEFAULT_META = YAML.load_file(Rails.root.join('/config/meta.yml'))
+DEFAULT_META = YAML.load_file(Rails.root.join('config/meta.yml'))
 ```
 
 
