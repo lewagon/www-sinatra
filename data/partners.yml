@@ -140,7 +140,7 @@ pullreview:
 startupbasecamp:
   name: Startup Basecamp
   image_name: startup_basecamp.png
-  url: http://startupbasecamp.org/
+  url: http://www.startupbasecamp.org/basecamphome/le-wagon
 
 thefamily:
   name: The Family
