@@ -66,7 +66,7 @@ Dans `application_helper.rb` définissez les méthodes suivantes afin de pouvoir
 ```
 module ApplicationHelper
   def title
-    content_for?(:title) ? content_for(:title) : DEFAULT_META['title']
+    content_for?(:title) ? content_for(:title) : DEFAULT_META['default_title']
   end
 
   def meta_description
