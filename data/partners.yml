@@ -9,8 +9,8 @@ ajstage:
 
 altcity:
   name: AltCity
-  image_name: altcity.jpg
-  url: http://www.altcity.me/
+  image_name: AltCity-logo.png
+  url: http://www.altcity.me
 
 aquant:
   name: Aquent

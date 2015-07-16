@@ -211,6 +211,7 @@ beirut:
     - arabnet
     - wamda
     - uktechhub
+    - altcity
 
   programs:
     bootcamp: true
