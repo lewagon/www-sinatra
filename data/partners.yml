@@ -22,6 +22,11 @@ aquinum:
   image_name: aquinum.png
   url: http://aquinum.fr/
 
+arabnet:
+  name: ArabNet
+  image_name: arabnet-logo.png
+  url: http://news.arabnet.me
+
 beirut-innovation-center:
   name: Beirut Innovation Center
   image_name: beirut-innovation-center.png
@@ -152,10 +157,20 @@ uber:
   image_name: uber.png
   url: https://www.uber.com
 
+uktechhub:
+  name: UK Lebanon Tech Hub
+  image_name: UKTH-logo.png
+  url: http://www.uklebhub.com/en/Home
+
 urbanlinker:
   name: Urban Linker
   image_name: urbanlinker.png
   url: http://www.urbanlinker.com
+
+wamda:
+  name: Wamda
+  image_name: wamda-logo.png
+  url: http://www.wamda.com
 
 wisembly:
   name: Wisembly

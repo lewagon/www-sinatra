@@ -208,6 +208,9 @@ beirut:
     - naharnet
     - ihjoz
     - eventing-lb
+    - arabnet
+    - wamda
+    - uktechhub
 
   programs:
     bootcamp: true
