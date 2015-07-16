@@ -73,7 +73,7 @@ Suite à des rencontres dues au fruit du hasard, Nathan Obadia, Olivia Brami et 
 
 ![Maki Wars, choose your side](blog_image_path demoday-makiwars.jpg)
 
-C'est une première au Wagon ! [Maxime Braud](https://twitter.com/mxbraud) et [Gregoire Charles](https://twitter.com/gregcha) se sont mis en tête de développer un jeu vidéo lors des deux semaines de projet. Le duo s'est appliqué à développer [Maki Wars](http://www.makiwars.com/). Véritable MMORPG mobile first dans lequel il vous est proposé de prendre position dans la lutte acharnée entre les makis au saumon et les makis à l'avocat. Aprentez le monde, équipez-vous d'objets loufoques et affrontez vos adversaires dans un déluge de sauce soja !
+C'est une première au Wagon ! [Maxime Braud](https://twitter.com/mxbraud) et [Gregoire Charles](https://twitter.com/gregcha) se sont mis en tête de développer un jeu vidéo lors des deux semaines de projet. Le duo s'est appliqué à développer [Maki Wars](http://www.makiwars.com/). Véritable MMORPG mobile first dans lequel il vous est proposé de prendre position dans la lutte acharnée entre les makis au saumon et les makis à l'avocat. Arpentez le monde, équipez-vous d'objets loufoques et affrontez vos adversaires dans un déluge de sauce soja !
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
