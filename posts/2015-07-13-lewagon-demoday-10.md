@@ -79,49 +79,49 @@ C'est une première au Wagon ! [Maxime Braud](https://twitter.com/mxbraud) et [G
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="../assets/blog/demoday_10_1.jpg" alt="Boris Paillard, CEO Le Wagon, maître de cérémonie de ce démo day de la promo #10 à The Family">
+      <img src='blog_image_path demoday_10_1.jpg' alt="Boris Paillard, CEO Le Wagon, maître de cérémonie de ce démo day de la promo #10 à The Family">
     </div>
     <div class="item">
-      <img src="../assets/blog/demoday_10_2.jpg" alt="Christopher Lemoine présente the TheBabyBoom">
+      <img src='blog_image_path demoday_10_2.jpg' alt="Christopher Lemoine présente the TheBabyBoom">
     </div>
     <div class="item">
-      <img src="../assets/blog/demoday_10_3.jpg" alt="Hugo Amsellem et Jean de La Rochebrochard de TheFamily ont fait office de jury afin de dispenser leurs précieux conseils sur les projets !">
+      <img src='blog_image_path demoday_10_3.jpg' alt="Hugo Amsellem et Jean de La Rochebrochard de TheFamily ont fait office de jury afin de dispenser leurs précieux conseils sur les projets !">
     </div>
     <div class="item">
-      <img src="../assets/blog/demoday_10_4.jpg" alt="Le git push heroku master de dernière minute pour Gregoire Charles">
+      <img src='blog_image_path demoday_10_4.jpg' alt="Le git push heroku master de dernière minute pour Gregoire Charles">
     </div>
     <div class="item">
-      <img src="../assets/blog/demoday_10_5.jpg" alt="Katy Webster présente le service GoMobily">
+      <img src='blog_image_path demoday_10_5.jpg' alt="Katy Webster présente le service GoMobily">
     </div>
     <div class="item">
-      <img src="../assets/blog/demoday_10_6.jpg" alt="Big up à Gaetan Duron pour la gestion du live et la post-production de l'événement">
+      <img src='blog_image_path demoday_10_6.jpg' alt="Big up à Gaetan Duron pour la gestion du live et la post-production de l'événement">
     </div>
     <div class="item">
-      <img src="../assets/blog/demoday_10_7.jpg" alt="Thomas Sertorio présente Open Loge">
+      <img src='blog_image_path demoday_10_7.jpg' alt="Thomas Sertorio présente Open Loge">
     </div>
     <div class="item">
-      <img src="../assets/blog/demoday_10_8.jpg" alt="Lilian Bich, développeur et Teacher Assistant, cadreur à ses heures">
+      <img src='blog_image_path demoday_10_8.jpg' alt="Lilian Bich, développeur et Teacher Assistant, cadreur à ses heures">
     </div>
     <div class="item">
-      <img src="../assets/blog/demoday_10_9.jpg" alt="Marion Grandjean présente Beauty Time">
+      <img src='blog_image_path demoday_10_9.jpg' alt="Marion Grandjean présente Beauty Time">
     </div>
     <div class="item">
-      <img src="../assets/blog/demoday_10_10.jpg" alt="Florent Angles présente Pepeat">
+      <img src='blog_image_path demoday_10_10.jpg' alt="Florent Angles présente Pepeat">
     </div>
     <div class="item">
-      <img src="../assets/blog/demoday_10_11.jpg" alt="Boutayna Badou présente Tournesol Microgrids">
+      <img src='blog_image_path demoday_10_11.jpg' alt="Boutayna Badou présente Tournesol Microgrids">
     </div>
     <div class="item">
-      <img src="../assets/blog/demoday_10_12.jpg" alt="David Muhlberger présente Le Salon">
+      <img src='blog_image_path demoday_10_12.jpg' alt="David Muhlberger présente Le Salon">
     </div>
     <div class="item">
-      <img src="../assets/blog/demoday_10_13.jpg" alt="Anne Collet du Wagon Brussels a fait le déplacement !">
+      <img src='blog_image_path demoday_10_13.jpg' alt="Anne Collet du Wagon Brussels a fait le déplacement !">
     </div>
     <div class="item">
-      <img src="../assets/blog/demoday_10_14.jpg" alt="Olivia Brami présente La Réserve">
+      <img src='blog_image_path demoday_10_14.jpg' alt="Olivia Brami présente La Réserve">
     </div>
     <div class="item">
-      <img src="../assets/blog/demoday_10_15.jpg" alt="Maxime Braud présente Maki Wars">
+      <img src='blog_image_path demoday_10_15.jpg' alt="Maxime Braud présente Maki Wars">
     </div>
   </div>
 
