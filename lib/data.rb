@@ -21,6 +21,7 @@ BOOSTER_CAMPS = load(:booster_camps) || {}
 ARTICLES = load(:articles)
 MEDIAS = load(:medias)
 CONFIG = load(:config)
+ONDEMAND = load(:ondemand)
 
 CAMPS.delete(:test) if ENV['RACK_ENV'] == 'production'
 

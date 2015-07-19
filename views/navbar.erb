@@ -25,14 +25,24 @@
             </li>
 
             <li class="list-divider">ONLINE</li>
-            <li>
-              <a href="https://ondemand.lewagon.org/?utm_medium=referral&utm_source=www.lewagon.org&utm_campaign=navbar_wagon" target="_blank">
-                Le Wagon On Demand
-                <% if I18n.locale == :en %>
-                  (French)
-                <% end %>
-              </a>
-            </li>
+            <% if I18n.locale == :en %>
+              <li>
+                <a href="https://ondemand.lewagon.org/?utm_medium=referral&utm_source=www.lewagon.org&utm_campaign=navbar_wagon" target="_blank">
+                  Le Wagon On Demand
+                  <% if I18n.locale == :en %>
+                    (French)
+                  <% end %>
+                </a>
+              </li>
+            <% else %>
+              <% ONDEMAND.each do |track| %>
+                <li>
+                  <a href="https://ondemand.lewagon.org/tracks/<%= track[:slug] %>/go?utm_medium=referral&utm_source=www.lewagon.org&utm_campaign=navbar_wagon" target="_blank">
+                    <%= track[:name] %>
+                  </a>
+                </li>
+              <% end %>
+            <% end %>
 
             <!-- <li class="list-divider">1-WEEK KITS</li>
             <%# BOOSTERS.each do |slug, booster| %>
