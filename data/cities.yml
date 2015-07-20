@@ -251,7 +251,7 @@ lille:
   programs:
     bootcamp: true
   subventions: # From data/subventions.yml
-  meetup_id: #17182842
+  meetup_id: 18616738
   facebook: #https://www.facebook.com/lewagonlille
   twitter: https://twitter.com/lewagonlille
 
