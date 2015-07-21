@@ -219,6 +219,32 @@ gab:
       icon: twitter
     - url: http://gabriel-dehan.github.io/
       icon: link
+jad:
+  image_name: jadJoubran.jpg
+  description:
+    fr: |
+       À l'âge de 19 ans, **Jad Joubran** lance eTobb, une start-up qui relie
+       patients et médecins dans la région MENA. À 22 ans, son expérience
+       consiste a la gestion d'une équipe de 4 développeurs à eTobb,
+       au conseil technique d'une des plus grandes sociétés de réseaux au Liban,
+       a l'écriture d'articles de développement web, et a fournir des séances de
+       mentorat pour les développeurs sur Codementor.
+    en: |
+      At the age of 19, **Jad Joubran** founded eTobb, a startup that connects patients
+      and doctors in the MENA region. At 22, his experience revolves around managing
+      a team of 4 developers at eTobb, Technical Consulting one of the biggest
+      networking companies in Lebanon, publishing web development articles, and
+      providing mentoring sessions to developers on Codementor.
+  links:
+    - url:  https://www.linkedin.com/in/jadjoubran
+      icon: linkedin
+    - url: https://twitter.com/joubranjad
+      icon: twitter
+    - url: https://www.eTobb.com
+      icon: link
+    - url: https://github.com/jadjoubran
+      icon: github-alt
+
 jeanchristophe:
   image_name: jean-christophe.jpg
   description:

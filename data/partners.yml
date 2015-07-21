@@ -127,6 +127,11 @@ ministry_economy:
   image_name: moet-logo.png
   url: http://www.economy.gov.lb/index.php/home/2
 
+MIT:
+  name: MIT Entreprise Forum Pan Arab
+  image_name: MIT-logo.png
+  url: http://www.mitefarab.org
+
 naharnet:
   name: Naharnet
   image_name: naharnet-logo.png
