@@ -566,3 +566,14 @@ yoann:
       icon: linkedin
     # - url: https://twitter.com/yoannbohbot
     #   icon: twitter
+
+louis:
+  image_name: louis.jpg
+  description:
+    en: |
+      TODO
+    fr: |
+      TODO
+  links:
+    - url: https://www.linkedin.com/pub/louis-chavane/23/377/a18
+      icon: linkedin

@@ -166,7 +166,7 @@
   <div class="container">
     <div class="row">
       <h2><%= t("city.partners").upcase %></h2>
-      <% if @city[:partners].size > 1 %>
+      <% if @city[:partners] && @city[:partners].size > 1 %>
         <% @city[:partners].each do |partner| %>
           <% partner = partner.to_sym %>
           <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
@@ -183,7 +183,7 @@
           <p><a href="mailto:contact@lewagon.org">contact@lewagon.org</a></p>
           <p></p>
         </div>
-      <% else %>
+      <% elsif @city[:partners] %>
         <% @city[:partners].each do |partner| %>
           <% partner = partner.to_sym %>
           <div class="col-xs-1 col-sm-2 col-md-2 col-lg-2"></div>
