@@ -16,7 +16,7 @@ description: "Aujourd'hui votre plus grand challenge n’est pas de créer une A
 
 Dans un contexte où toutes les applications sont interconnectées, les APIs constituent aujourd’hui un élément central et incontournable. Cela étant dit, votre plus grand challenge n’est pas de créer une API simple d’utilisation, mais bel et bien de réussir à la faire utiliser par d'autres développeurs.
 
-Dans cette vidéo, [Shubham Sharma](https://twitter.com/shub_s), Developer Evangelist chez [Mailjet](https://eu.mailjet.com/), vous propose d'aborder les éléments de compréhension, les étapes clés et les raisons pour y parvenir.
+Dans cette vidéo, [Shubham Sharma](https://twitter.com/shub_s), Developer Evangelist chez [Mailjet](https://eu.mailjet.com/), vous propose d'aborder les éléments de compréhension, les étapes clés et les moyens pour y parvenir.
 
 ## En savoir plus sur les APIs
 
