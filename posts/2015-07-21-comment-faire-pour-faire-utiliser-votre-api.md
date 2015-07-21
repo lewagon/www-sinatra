@@ -10,7 +10,7 @@ thumbnail: thumbnail-api-experience-developpeur.jpg
 description: "Aujourd'hui votre plus grand challenge n’est pas de créer une API, mais bel et bien de réussir à la faire utiliser par d'autres développeurs. Découvrez toutes les étapes clés pour y parvenir dans cette vidéo."
 ---
 
-<div class="video-wrapper"><iframe width="750" height="422" src="https://www.youtube.com/embed/v=2c32rz8d-gM?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-wrapper"><iframe width="750" height="422" src="https://www.youtube.com/embed/2c32rz8d-gM?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ## En quelques mots
 
