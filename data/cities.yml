@@ -213,6 +213,7 @@ beirut:
     - wamda
     - uktechhub
     - altcity
+    - MIT
 
   programs:
     bootcamp: true
