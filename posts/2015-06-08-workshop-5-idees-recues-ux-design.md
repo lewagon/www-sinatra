@@ -7,14 +7,14 @@ labels:
   - tuto
   - video
 thumbnail: thumbnail-meetup-ux-design.jpg
-description: "De l'élaboration du flow jusqu'au design d'une application en passant par les problématiques liées au responsive, Joël Schillio passe en revu les 5 idées reçues sur l'UX Design."
+description: "De l'élaboration du flow jusqu'au design d'une application en passant par les problématiques liées au responsive, Joël Schillio passe en revue les 5 idées reçues sur l'UX Design."
 ---
 
 <div class="video-wrapper"><iframe width="750" height="422" src="https://www.youtube.com/embed/WcUTwhnsTDs?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ## En quelques mots
 
-[Joël Schillio](https://twitter.com/joelschillio), UX/UI designer, passe en revu les 5 idées reçues sur l'UX Design. De l'élaboration du flow jusqu'au design d'une application en passant par les problématiques liées au responsive, il vous transmet des bases de réflexion solides afin de mener à bien vos projets web. Suite à cette présentation, il vous entraîne dans le maquetage et prototypage d'un flow utilisateur grâce au logiciel [Sketch](http://bohemiancoding.com/sketch/).
+[Joël Schillio](https://twitter.com/joelschillio), UX/UI designer, passe en revue les 5 idées reçues sur l'UX Design. De l'élaboration du flow jusqu'au design d'une application en passant par les problématiques liées au responsive, il vous transmet des bases de réflexion solides afin de mener à bien vos projets web. Suite à cette présentation, il vous entraîne dans le maquetage et prototypage d'un flow utilisateur grâce au logiciel [Sketch](http://bohemiancoding.com/sketch/).
 
 
 ## Le supplément
