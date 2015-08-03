@@ -52,7 +52,7 @@ brussels:
   description:
     en: |
       Our courses are taught in <strong>English</strong>,
-      at <a href='http://www.co-station.com/'>Co.Station</a>, an accelerator
+      at <a href='http://www.co-station.com/'>Co.Station</a>, a startups accelerator
       located in the heart of Brussels, a ​2 minutes' ​walk ​from the city's
       Central Station.
     fr: |
@@ -72,10 +72,12 @@ brussels:
   staff:
     - anne
     - xavier
-    - simonschoeters
+    - simon_schoeters
     - lien
     - teddy
     - martin
+    - loucas
+    - olivier_colot
     # - thibaut
     # - christophe
   programs:

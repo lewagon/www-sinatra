@@ -49,7 +49,7 @@ anne:
     en: |
       ​After working for 10 years as a Knowledge and Information Manager,
       **Anne** went back to university to follow a degree in ICT.
-      At the end of 2014, she launched (and since then, drives) Le Wagon Brussels.
+      Fin 2014, she launched (and since then, drives) Le Wagon Brussels.
       An ambassador of [Rails Girls](http://railsgirls.com/brussels),
       she loves helping others to overcome the sometimes frustrating
       learning process and seeing the bright light in their eyes when the
@@ -59,7 +59,7 @@ anne:
       est retournée à l'université pour suivre un master en ICT.
       Fin 2014, elle lance (et depuis, conduit) Le Wagon Brussels.
       Ambassadrice des [Rails Girls](http://railsgirls.com/brussels),
-      elle aime aider les nouveaux venus à surmonter leurs appréhensions et voir
+      elle aime aider les nouveaux venus à surmonter leurs craintes et voir
       l'étincelle briller dans leurs yeux quand la magie du code se dévoile!
   links:
     - url: https://github.com/OObatwomanOO
@@ -307,6 +307,32 @@ lien:
       icon: twitter
     - url: http://lienstartups.be/
       icon: link
+loucas:
+  image_name: loucas.jpeg
+  description:
+    fr: |
+      UX Designer chez [Central](http://centraldesign.be/boost/), **Loucas**
+      considère son travail avant tout comme un processus de création construit et réfléchi,
+      qu'il enseigne à nos étudiants durant leur Design Sprint day: définir le problème,
+      identifier les utilisateurs et leurs besoins, ébaucher de possibles solutions à l'aide de prototypes,
+      les tester, les ajuster et les tester encore, jusqu'à dépasser les attentes initiales.
+      Outre son intérêt pour le design, Loucas est aussi un grimpeur, un cycliste et un apprenti-boulanger à ses heures.
+    en: |
+      A UX designer at [Central](http://centraldesign.be/boost/),
+      **Loucas** considers his work as a sense-making process in creating better products and experiences,
+      that he teaches to our students during their Design Sprint day: frame the problem,
+      learn about the users and their needs, sketch possible solutions, test them, adjust assumptions and designs,
+      test them again, until they exceed expectations.
+      Apart from his love for Design, Loucas is also a passionate climber, biker and a bread-maker apprentice.
+  links:
+    - url: https://github.com/loucaspapa
+      icon: github-alt
+    - url: https://twitter.com/loucaspapa
+      icon: twitter
+    - url: https://www.linkedin.com/in/loucaspapa
+      icon: linkedin
+    - url: http://loucaspapa.org/
+      icon: link
 malik:
   image_name: malik.jpg
   description:
@@ -418,6 +444,35 @@ olivier:
       icon: twitter
     - url: http://www.sylights.com
       icon: link
+olivier_colot:
+  image_name: olivier_colot.jpg
+  description:
+    fr: |
+      Ingénieur physicien, ancien consultant en stratégie, **Olivier** a fondé
+      des startups web (devenant au passage développeur full-stack Rails/Angular),
+      2 festivals majeurs de musique électronique et une entreprise de marketing (revendue depuis).
+      Aujourd'hui [Lean Startup Coach](http://www.colot.eu/) & [Entrepreneur](https://www.ftrsnd.com/),
+      il aime créer et accompagner des projets innovants mêlant l'humain et la technologie.
+      Il est aussi artiste et producteur de musique électronique/jazz, officiant
+      sous le nom de [Blackcolors](https://www.ftrsnd.com/blackcolors#/tracks).
+    en: |
+      With a background in both Engineering (specialised in Physics) and
+      Business (as a former Strategy Consultant), **Olivier** founded web startups
+      (and happened to become a full-stack Rails/Angular developer), as well as
+      2 major music festivals and a marketing company (sold).
+      Today a [Lean Startup Coach](http://www.colot.eu/) & [Entrepreneur](https://www.ftrsnd.com/),
+      he likes creating and supporting innovative projects linking people and technology.
+      He is also a passionate electronic music/jazz artist,
+      playing as [Blackcolors](https://www.ftrsnd.com/blackcolors#/tracks).
+  links:
+    - url: https://github.com/ocolot
+      icon: github-alt
+    - url: https://twitter.com/ocolot
+      icon: twitter
+    - url: https://www.linkedin.com/in/oliviercolot
+      icon: linkedin
+    - url: http://www.colot.eu/
+      icon: link
 seb:
   image_name: seb.png
   description:
@@ -458,25 +513,24 @@ simon:
       icon: twitter
     - url: http://tinci.fr
       icon: link
-simonschoeters:
+simon_schoeters:
   image_name: simon_schoeters.jpg
   description:
     fr: |
-      **Simon** a démissionné de son emploi d'IT Analyst après avoir lu le livre
-      [The Pickaxe](https://pragprog.com/book/ruby/programming-ruby)
-      et essayé Rails pour la première fois en codant son propre blog. A sa
-      grande surprise, cela a suffi pour qu'il trouve un job comme Développeur
-      Ruby et il n'a plus jamais regardé en arrière depuis. Il travaille
-      actuellement comme freelance, car il considère qu'il s'agit de la meilleure
-      façon pour un développeur de continuer à progresser professionnellement.
+      Après avoir découvert [The Pickaxe](https://pragprog.com/book/ruby/programming-ruby)
+      et testé Rails en codant son propre blog, **Simon** démissionne de
+      son emploi d'IT Analyst et se retrouve engagé comme Développeur Ruby.
+      Il n'a plus regardé en arrière depuis. Aujourd'hui CTO de
+      la plateforme de crowdfunding [MyMicroInvest](https://www.mymicroinvest.com),
+      il travaille encore comme freelance, considérant qu'il s'agit de la meilleure
+      façon pour un développeur de continuer à s'améliorer.
     en: |
       **Simon** quit his job as an IT Analyst after having read
       [The Pickaxe book](https://pragprog.com/book/ruby/programming-ruby)
       and took his first try at Rails by coding his own blog. To his surprise this
       was enough to find a job as a Ruby Programmer and he hasn't looked back ever
-      since. He is currently freelancing as he feels it's the best way to keep growing
-      professionally as a developer.
-
+      since. Currently the CTO of the crowdfunding platform [MyMicroInvest](https://www.mymicroinvest.com),
+      he is still freelancing as he feels it's the best way to keep growing professionally as a developer.
   links:
     - url: https://github.com/cimm
       icon: github-alt
@@ -508,12 +562,16 @@ teddy:
     en: |
       A computing enthusiast, mad about interactive gaming, **Teddy**
       is a freelance Front-End Developer and teaches JavaScript at
-      [ESIAJ](http://www.infographie-sup.be/). He spends his evenings
-      experimenting with JavaScript, HTML5 and CSS3.
+      [ESIAJ](http://www.infographie-sup.be/).
+      Successively trained as a Graphic Designer, a Web Designer and a Animation Expert,
+      he spends his evenings designing logos, interfaces
+      and experimenting with HTML, CSS and JavaScript.
     fr: |
       Passionné par le code, l’informatique et les jeux interactifs, **Teddy**
       est Développeur Front-End freelance et enseigne le JavaScript à l’[ESIAJ](http://www.infographie-sup.be/).
-      Il passe beaucoup de temps à bidouiller du code en soirée (JavaScript, HTML5, CSS3).
+      Formé successivement au Graphic Design, Web Design puis à l'Animation,
+      il passe beaucoup de temps à dessiner des logos, interfaces
+      et bidouiller du code en soirée (HTML, CSS, JavaScript).
   links:
     - url: https://github.com/teddy-k
       icon: github-alt
