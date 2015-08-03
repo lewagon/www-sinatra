@@ -20,9 +20,11 @@ L'OVNI [KRAWD](http://www.krawd.com/) fait son nid alors que le monde s'interrog
 
 ![Les cofounders de KRAWD en chiffres](blog_image_path krawd-cofounders.jpg)
 
-Mais quelque chose coince.
+## Mais quelque chose coince.
 
 Suite aux premiers rendez-vous clients, les deux associés se rendent compte que le gros du marché de la communication (consituté à 90% d'agences de moins de 3 personnes) ne semble pas pleinement embrasser leur concept. D'un autre côté, quelques grosses agences (Léo Brunette et Macel) ont adoré le produit. Ces derniers ont également soulevé deux problématiques liées à leur activité : trouver de nouveaux créatifs à la pointe dans leurs domaines et s'assurer impérativement de leur sérieux pour se permettre de répondre à un appel d'offres émis par un grand compte.
+
+## Et...
 
 Après avoir rencontré quelques créatifs, si l'idée de rentrer par le social média pour apporter de la valeur aux marques à de quoi séduire, les créatifs de haut niveau spécialisés sur l'identité de marque se retrouvent naturellement limités par le positionnement spécifique de KRAWD. Sans parler du fait que la grande majorité des créatifs souhaite trouver un moyen de réduire les délais de paiement imposés par les agences.
 
