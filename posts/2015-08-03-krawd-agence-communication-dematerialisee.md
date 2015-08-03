@@ -22,7 +22,7 @@ L'OVNI [KRAWD](http://www.krawd.com/) fait son nid alors que le monde s'interrog
 
 ## Mais quelque chose coince.
 
-Suite aux premiers rendez-vous clients, les deux associés se rendent compte que le gros du marché de la communication (constitué à 90% d'agences de moins de 3 personnes) ne semble pas pleinement embrasser leur concept. D'un autre côté, quelques grosses agences (Léo Brunette et Marcel) ont adoré le produit. Ces derniers ont également soulevé deux problématiques liées à leur activité : trouver de nouveaux créatifs à la pointe dans leurs domaines et s'assurer impérativement de leur sérieux pour se permettre de répondre à un appel d'offre émis par un grand compte.
+Suite aux premiers rendez-vous clients, les deux associés se rendent compte que le gros du marché de la communication (constitué à 90% d'agences de moins de 3 personnes) ne semble pas pleinement embrasser leur concept. D'un autre côté, quelques grosses agences (Leo Burnett et Marcel) ont adoré le produit. Ces derniers ont également soulevé deux problématiques liées à leur activité : trouver de nouveaux créatifs à la pointe dans leurs domaines et s'assurer impérativement de leur sérieux pour se permettre de répondre à un appel d'offre émis par un grand compte.
 
 ## Et...
 
