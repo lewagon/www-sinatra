@@ -106,6 +106,28 @@ augustin:
       icon: twitter
     - url: http://fr.linkedin.com/in/augustinriedinger
       icon: linkedin
+ayman:
+  image_name: ayman.jpg
+  description:
+    en: |
+      ​**Ayman** works as Wamda's technical lead, passionate about building web
+      products, open source software and open online education. He enjoys
+      writing articles related to programming and web development on his blog
+      The Code Ship. You can connect with Ayman on @aymanfarhat, Github and LinkedIn.
+    fr: |
+      **Ayman** travaille comme responsable technique chez Wamda,
+      passionné par la construction de produits web, les logiciels open source et l'éducation en ligne.
+      Il aime ecrire des articles liés au développement de la programmation et web sur son blog
+      The Ship Code. Vous pouvez vous connecter avec Ayman sur twitter, linkedin ou Github.
+  links:
+    - url: http://thecodeship.com
+      icon: link
+    - url: http://github.com/aymanfarhat
+      icon: github-alt
+    - url: https://twitter.com/aymanfarhat
+      icon: twitter
+    - url: https://www.linkedin.com/profile/view?id=41511166
+      icon: linkedin
 bertrand:
   image_name: bertrand.jpg
   description:
