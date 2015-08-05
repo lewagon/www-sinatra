@@ -25,7 +25,7 @@ Disclaimer: in addition to the 9 startup/project apps showcased in this video, 2
 
 ### [Exon](http://exonapp.com/en/) - Sequence your DNA to prevent health issues
 
-![Exon, sequence your DNA to prevent health issues](blog_image_path Brussels/demoday/Exon.jpg)
+![Exon, sequence your DNA to prevent health issues](blog_image_path Brussels/demoday/exon.jpg)
 
 Project developed by : [David Verbustel](https://www.linkedin.com/in/davidverbustel).
 
@@ -34,34 +34,33 @@ Project developed by : [David Verbustel](https://www.linkedin.com/in/davidverbus
 
 ### [Crimpr](http://crimpr.herokuapp.com/) - Find relevant outdoor climbing info and climbing buddies
 
-![Crimpr - Find relevant outdoor climbing info and climbing buddies](blog_image_path Brussels/demoday/Crimpr.jpg)
+![Crimpr - Find relevant outdoor climbing info and climbing buddies](blog_image_path Brussels/demoday/crimpr.jpg)
 
 Project developed by : [Anna-Isabel Lamers](https://www.linkedin.com/in/isabellamers).
 
 In outdoors climbing, it has always been difficult to access accurate information on climbing spots in a timely manner. [Crimpr](http://crimpr.herokuapp.com/) tackles this issue by offering a quick planning tool in form of a google maps for climbers that provides real-time information on surrounding climbing areas, such as current weather conditions, what direction the climbing area is facing, sunset timing, grading of routes, distance between sectors and more. Crimpr also has a social dimension, allowing users to find climbing buddies directly through the webapp.
 
 
-### [sKanHer](http://www.skanher.se/) - Rate your employer on diversity & equality criteria
+### [skanher](http://www.skanher.se/) - Rate your employer on diversity & equality criteria
 
-![sKanHer, rate your employer on diversity & gender equality criteria](blog_image_path Brussels/demoday/sKanHer.jpg)
+![skanher, rate your employer on diversity & gender equality criteria](blog_image_path Brussels/demoday/skanher.jpg)
 
 Project developed by : [Cédric Lor](https://www.linkedin.com/pub/lor-c%C3%A9dric/75/a79/bbb/en).
 
-To remain competitive, firms need to attract the best profiles. With always more highly educated women on the job market, respect to diversity and gender equality has become critical. [sKanHer](http://www.skanher.se/), the disruptive scanner, allows people to rate firms on these criteria. With sKanHer, firms long committed to these issues get a reputation premium and future employees get critical information while applying for a new job.
+To remain competitive, firms need to attract the best profiles. With always more highly educated women on the job market, respect to diversity and gender equality has become critical. [skanher](http://www.skanher.se/), the disruptive scanner, allows people to rate firms on these criteria. With skanher, firms long committed to these issues get a reputation premium and future employees get critical information while applying for a new job.
 
 
 ### [Chupbox](https://chupbox.herokuapp.com/) - Cook like a chef while staying at home
 
-![Chupbox, cook like a chef while staying at home](blog_image_path Brussels/demoday/Chupbox.jpg)
+![Chupbox, cook like a chef while staying at home](blog_image_path Brussels/demoday/chupbox.jpg)
 
 Project developed by : [Marc Debnicki](https://www.linkedin.com/in/marcdebnicki).
 
-The [Chupbox](https://chupbox.herokuapp.com/) platform enables you to purchase ingredients from a chosen, healthy recipe, without the hassle of going to the grocery store: you choose the recipe on the webapp, you order the cooking kit and you're all set to cook like a chef at home! The Chupbox team will start their test phase early September in Louvain-La-Neuve.
-
+The [Chupbox](https://chupbox.herokuapp.com/) platform enables you to purchase ingredients with their recipes and cook meals from different part of the world (Italian, Thai, Japanese,…) without the hassle of going to different grocery stores. You choose your pack on the web app, you order it and you’re all set to transform your kitchen into your favorite restaurant! The Chupbox team will start their test phase early September in Louvain-La-Neuve.
 
 ### [EOP](http://eop-app.herokuapp.com/) - Connecting municipalities and event organizers
 
-![EOP, connecting municipalities and event organizers](blog_image_path Brussels/demoday/EOP.jpg)
+![EOP, connecting municipalities and event organizers](blog_image_path Brussels/demoday/eop.jpg)
 
 Project developed by : [Jonathan Faucon](https://www.linkedin.com/pub/jonathan-faucon/15/5a1/375).
 
@@ -70,7 +69,7 @@ Project developed by : [Jonathan Faucon](https://www.linkedin.com/pub/jonathan-f
 
 ### [Flatninja](http://flatninja-rails.herokuapp.com/) - The Tinder of flatmate finding
 
-![Flatninja - The Tinder of flatmate finding](blog_image_path Brussels/demoday/Flatninja.jpg)
+![Flatninja - The Tinder of flatmate finding](blog_image_path Brussels/demoday/flatninja.jpg)
 
 Project developed by : [Vadim Popowski](https://www.linkedin.com/in/vadimpopowsky).
 
@@ -79,7 +78,7 @@ Project developed by : [Vadim Popowski](https://www.linkedin.com/in/vadimpopowsk
 
 ### [Macchiato](http://macchiatoinnovation.herokuapp.com/) - A spin-off factory for large companies
 
-![Macchiato, a spin-off factory for large companies](blog_image_path Brussels/demoday/Macchiato.jpg)
+![Macchiato, a spin-off factory for large companies](blog_image_path Brussels/demoday/macchiato.jpg)
 
 Project developed by : [Malik Dauber](https://www.linkedin.com/in/mdauber), [Antoine Magny](https://www.linkedin.com/pub/antoine-magny/26/112/707) & [Fabien Andreacola](https://www.linkedin.com/pub/fabien-andreacola/5a/a08/980/en).
 
@@ -91,7 +90,7 @@ In this ever changing context, companies have two choices: constantly innovate, 
 
 ### [Divotee](http://divotee.herokuapp.com/) - Find the right caddy for your golf game
 
-![Divotee, find the right caddy for your golf game](blog_image_path Brussels/demoday/DivoTee.jpg)
+![Divotee, find the right caddy for your golf game](blog_image_path Brussels/demoday/divotee.jpg)
 
 Project developed by : [Guillaume de Monie](https://www.linkedin.com/pub/guillaume-de-monie/1/825/274), [Linde Vloeberghs](https://www.linkedin.com/in/lindevloeberghs) & [Cole Perkins](https://www.linkedin.com/pub/cole-perkins/5a/636/a85).
 
@@ -100,7 +99,7 @@ Project developed by : [Guillaume de Monie](https://www.linkedin.com/pub/guillau
 
 ### [Branch-ed](http://branch-ed.herokuapp.com/) - Learn something online and stay motivated
 
-![Branch-ed, learn something online and stay motivated](blog_image_path Brussels/demoday/Branch-ed.jpg)
+![Branch-ed, learn something online and stay motivated](blog_image_path Brussels/demoday/branch-ed.jpg)
 
 Project developed by : [Anthony Limère](https://github.com/Antholimere), [Martijn Kerckhaert](https://www.linkedin.com/in/martijnkerckhaert) & [Nicolas Rasmussen](https://www.linkedin.com/pub/nicolas-rasmussen/65/85b/988).
 
