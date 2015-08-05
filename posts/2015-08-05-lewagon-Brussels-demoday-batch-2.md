@@ -7,14 +7,14 @@ labels:
   - alumni
   - startup
 thumbnail: Brussels/demoday/_thumbnail-batch2.png
-description: "On July 3rd, a bunch of freshly “techified” entrepreneurs/wannabe-developers showcased, in front of a large audience, the result of their 9-week intensive training in web application development. Here's an overview of their final projects, built from scratch... in only 10 days!"
+description: "On July 3rd, a bunch of freshly “techified” entrepreneurs/aspiring-developers showcased, in front of a large audience, the result of their 9-week intensive training in web application development. Here's an overview of their final projects, built from scratch... in only 10 days!"
 ---
 
-On July 3rd, a bunch of freshly “techified” entrepreneurs/wannabe-developers showcased, in front of a large audience, the result of their [9-week intensive & immersive training in web application development](http://www.lewagon.org/program).
+On July the 3rd, a bunch of freshly “techified” entrepreneurs/aspiring-developers showcased, in front of a large audience, the result of their [9-week intensive & immersive training in web application development](http://www.lewagon.org/program).
 
 <img src='blog_image_path Brussels/demoday/_batch2.png' alt="Le Wagon Brussels, 2nd batch of Full-Stack Coding Bootcamp students">
 
-The startup projects issued from this 2nd edition of [Le Wagon Brussels](http://www.lewagon.org/brussels)’ bootcamp were very diverse and each MVP (« minimum viable product ») already pretty sleek. Quite a feat, when you think that the participants could not read nor write a single line of code just 9 weeks before and that they only had 10 days at the end of the bootcamp to work on their application prototypes! Here's an overview of what they built from scratch...
+The startup projects issued from this 2nd edition of [Le Wagon Brussels](http://www.lewagon.org/brussels)’ bootcamp were very diverse and each MVP (« minimum viable product ») already pretty sleek. Quite a deal, when you think that the participants could not read nor write a single line of code just 9 weeks before and that they only had 10 days at the end of the bootcamp to work on their application prototypes! Here's an overview of what they built from scratch...
 
 <div class="video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/shMfq1Vl9WA?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
@@ -25,7 +25,7 @@ Disclaimer: in addition to the 9 startup/project apps showcased in this video, 2
 
 ### [Exon](http://exonapp.com/en/) - Sequence your DNA to prevent health issues
 
-![Exon, sequence your DNA to prevent health issues](blog_image_path Brussels/demoday/exon.jpg)
+![Exon, sequence your DNA to prevent health issues](blog_image_path Brussels/demoday/Exon.jpg)
 
 Project developed by : [David Verbustel](https://www.linkedin.com/in/davidverbustel).
 
@@ -34,7 +34,7 @@ Project developed by : [David Verbustel](https://www.linkedin.com/in/davidverbus
 
 ### [Crimpr](http://crimpr.herokuapp.com/) - Find relevant outdoor climbing info and climbing buddies
 
-![Crimpr - Find relevant outdoor climbing info and climbing buddies](blog_image_path Brussels/demoday/crimpr.jpg)
+![Crimpr - Find relevant outdoor climbing info and climbing buddies](blog_image_path Brussels/demoday/Crimpr.jpg)
 
 Project developed by : [Anna-Isabel Lamers](https://www.linkedin.com/in/isabellamers).
 
@@ -43,7 +43,7 @@ In outdoors climbing, it has always been difficult to access accurate informatio
 
 ### [skanher](http://www.skanher.se/) - Rate your employer on diversity & equality criteria
 
-![skanher, rate your employer on diversity & gender equality criteria](blog_image_path Brussels/demoday/skanher.jpg)
+![skanher, rate your employer on diversity & gender equality criteria](blog_image_path Brussels/demoday/sKanHer.jpg)
 
 Project developed by : [Cédric Lor](https://www.linkedin.com/pub/lor-c%C3%A9dric/75/a79/bbb/en).
 
@@ -52,7 +52,7 @@ To remain competitive, firms need to attract the best profiles. With always more
 
 ### [Chupbox](https://chupbox.herokuapp.com/) - Cook like a chef while staying at home
 
-![Chupbox, cook like a chef while staying at home](blog_image_path Brussels/demoday/chupbox.jpg)
+![Chupbox, cook like a chef while staying at home](blog_image_path Brussels/demoday/Chupbox.jpg)
 
 Project developed by : [Marc Debnicki](https://www.linkedin.com/in/marcdebnicki).
 
@@ -60,7 +60,7 @@ The [Chupbox](https://chupbox.herokuapp.com/) platform enables you to purchase i
 
 ### [EOP](http://eop-app.herokuapp.com/) - Connecting municipalities and event organizers
 
-![EOP, connecting municipalities and event organizers](blog_image_path Brussels/demoday/eop.jpg)
+![EOP, connecting municipalities and event organizers](blog_image_path Brussels/demoday/EOP.jpg)
 
 Project developed by : [Jonathan Faucon](https://www.linkedin.com/pub/jonathan-faucon/15/5a1/375).
 
@@ -69,7 +69,7 @@ Project developed by : [Jonathan Faucon](https://www.linkedin.com/pub/jonathan-f
 
 ### [Flatninja](http://flatninja-rails.herokuapp.com/) - The Tinder of flatmate finding
 
-![Flatninja - The Tinder of flatmate finding](blog_image_path Brussels/demoday/flatninja.jpg)
+![Flatninja - The Tinder of flatmate finding](blog_image_path Brussels/demoday/Flatninja.jpg)
 
 Project developed by : [Vadim Popowski](https://www.linkedin.com/in/vadimpopowsky).
 
@@ -78,7 +78,7 @@ Project developed by : [Vadim Popowski](https://www.linkedin.com/in/vadimpopowsk
 
 ### [Macchiato](http://macchiatoinnovation.herokuapp.com/) - A spin-off factory for large companies
 
-![Macchiato, a spin-off factory for large companies](blog_image_path Brussels/demoday/macchiato.jpg)
+![Macchiato, a spin-off factory for large companies](blog_image_path Brussels/demoday/Macchiato.jpg)
 
 Project developed by : [Malik Dauber](https://www.linkedin.com/in/mdauber), [Antoine Magny](https://www.linkedin.com/pub/antoine-magny/26/112/707) & [Fabien Andreacola](https://www.linkedin.com/pub/fabien-andreacola/5a/a08/980/en).
 
@@ -90,7 +90,7 @@ In this ever changing context, companies have two choices: constantly innovate, 
 
 ### [Divotee](http://divotee.herokuapp.com/) - Find the right caddy for your golf game
 
-![Divotee, find the right caddy for your golf game](blog_image_path Brussels/demoday/divotee.jpg)
+![Divotee, find the right caddy for your golf game](blog_image_path Brussels/demoday/DivoTee.jpg)
 
 Project developed by : [Guillaume de Monie](https://www.linkedin.com/pub/guillaume-de-monie/1/825/274), [Linde Vloeberghs](https://www.linkedin.com/in/lindevloeberghs) & [Cole Perkins](https://www.linkedin.com/pub/cole-perkins/5a/636/a85).
 
@@ -99,7 +99,7 @@ Project developed by : [Guillaume de Monie](https://www.linkedin.com/pub/guillau
 
 ### [Branch-ed](http://branch-ed.herokuapp.com/) - Learn something online and stay motivated
 
-![Branch-ed, learn something online and stay motivated](blog_image_path Brussels/demoday/branch-ed.jpg)
+![Branch-ed, learn something online and stay motivated](blog_image_path Brussels/demoday/Branch-ed.jpg)
 
 Project developed by : [Anthony Limère](https://github.com/Antholimere), [Martijn Kerckhaert](https://www.linkedin.com/in/martijnkerckhaert) & [Nicolas Rasmussen](https://www.linkedin.com/pub/nicolas-rasmussen/65/85b/988).
 
