@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Le Wagon Brussels: 2nd batch...</br>and 11 new amazing web apps!"
+title: "Le Wagon Brussels: 2nd batch...<br/>and 11 new amazing web apps!"
 author: anne
 labels:
   - video
