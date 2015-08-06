@@ -14,7 +14,7 @@ On July the 3rd, a bunch of freshly “techified” entrepreneurs/aspiring-devel
 
 <img src='blog_image_path Brussels/demoday/_batch2.png' alt="Le Wagon Brussels, 2nd batch of Full-Stack Coding Bootcamp students">
 
-The startup projects issued from this 2nd edition of [Le Wagon Brussels](http://www.lewagon.org/brussels)’ bootcamp were very diverse and each MVP (« minimum viable product ») already pretty sleek. Quite a deal, when you think that the participants could not read nor write a single line of code just 9 weeks before and that they only had 10 days at the end of the bootcamp to work on their application prototypes! Here's an overview of what they built from scratch...
+The startup projects issued from this 2nd edition of [Le Wagon Brussels](http://www.lewagon.org/brussels)’ bootcamp were very diverse and each MVP (« minimum viable product ») already pretty sleek. Quite a feat, when you think that the participants could not read nor write a single line of code just 9 weeks before and that they only had 10 days at the end of the bootcamp to work on their application prototypes! Here's an overview of what they built from scratch...
 
 <div class="video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/shMfq1Vl9WA?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
