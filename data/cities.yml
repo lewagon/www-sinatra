@@ -298,9 +298,11 @@ marseille:
   address: "Nous communiquerons bientôt sur le lieu de la formation"
   description:
     fr: |
-      TODO
+      Le Wagon ouvre ses portes à Marseille. 
+      Venez apprendre à monter un projet web de A à Z en plein coeur de la French Tech Aix-Marseille. 
     en: |
-      TODO
+      Le Wagon opens its doors at Marseille. 
+      Come and learn how to develop a website from scratch in the hearth of Aix-Marseille French Tech.
   images:
     banner: bg/marseille.jpg
     bottom: bg/local-bordeaux.jpg
@@ -317,7 +319,7 @@ marseille:
     bootcamp: true
   meetup_id: # TODO
   facebook: https://www.facebook.com/lewagonformation
-  twitter: # TODO
+  twitter: 3394003701
   credits:
     - link: https://www.flickr.com/photos/mathieu_distefano/8344859795/
       label: Mathieu Distefano
