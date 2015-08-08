@@ -650,3 +650,18 @@ yoann:
       icon: linkedin
     # - url: https://twitter.com/yoannbohbot
     #   icon: twitter
+
+louis:
+  image_name: louis.jpg
+  description:
+    en: |
+      After 5 years working as a product manager in Paris, 
+      Louis is specialised in big data and mobile tracking. 
+      He will teach you how to develop ambitious projets
+    fr: |
+      Après 5 années dédiées au Product Management à Paris,
+      Louis s’est spécialisé dans le big data et le tracking Mobile. 
+      Il vous apprendra comment monter des projets qui marchent
+  links:
+    - url: https://www.linkedin.com/pub/louis-chavane/23/377/a18
+      icon: linkedin

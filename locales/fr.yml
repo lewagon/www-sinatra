@@ -48,7 +48,7 @@ fr:
     footer: "Nous n'avons pas répondu à votre question ? Une seule adresse :"
   city:
     title: Le Wagon - Bootcamp de Ruby on Rails à
-    teachers: Profs
+    teachers: Staff
     partners: Partenaires
     partner_join_html: |
       <br /><strong>Vous avez envie de rejoindre cette liste?</strong><br />Pour nous soutenir,
