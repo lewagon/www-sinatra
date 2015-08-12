@@ -110,6 +110,7 @@ brussels-august-2015:
   price: 4500
   currency: €
   currency_iso: EUR
+  last_seats: true
   trello:
     inbox_list_id: 553f8ebad4e7252ac3fbe144
 
