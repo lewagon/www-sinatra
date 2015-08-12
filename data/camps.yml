@@ -192,6 +192,14 @@ bordeaux-septembre-2015:
 #   # trello:
 #   #   inbox_list_id: 54fee3a05c54d91a1704e9e4
 
+brussels-october-2015:
+  city: brussels
+  start_date: 2015-10-19
+  end_date: 2015-12-18
+  language: en
+  trello:
+    inbox_list_id: 55cb92b918c7ef1f0e597ee2
+
 paris-january-2016:
   city: paris
   start_date: 2016-01-04
