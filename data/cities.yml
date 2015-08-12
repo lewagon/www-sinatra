@@ -168,6 +168,8 @@ losangeles:
     longitude: -118.373670
   next_session_fragment: losangeles-june-2015
   staff:  # cf data/staff.yml
+    - anna
+    - thomas-hartman
     - yoann
   programs:
     bootcamp: true
@@ -303,10 +305,10 @@ marseille:
   address: "Nous communiquerons bientôt sur le lieu de la formation"
   description:
     fr: |
-      Le Wagon ouvre ses portes à Marseille. 
-      Venez apprendre à monter un projet web de A à Z en plein coeur de la French Tech Aix-Marseille. 
+      Le Wagon ouvre ses portes à Marseille.
+      Venez apprendre à monter un projet web de A à Z en plein coeur de la French Tech Aix-Marseille.
     en: |
-      Le Wagon opens its doors at Marseille. 
+      Le Wagon opens its doors at Marseille.
       Come and learn how to develop a website from scratch in the hearth of Aix-Marseille French Tech.
   images:
     banner: bg/marseille.jpg

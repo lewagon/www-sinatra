@@ -657,14 +657,63 @@ xavier:
       icon: linkedin
     - url: http://defrang.com/
       icon: link
+
+anna:
+  image_name: anna-mendoza.png
+  description:
+    en: |
+      Anna has been obsessed with computers since she got her
+      first Mac Performa 200 back in the day. A classically trained designer,
+      she has worked as both a Front-End & Back-End Developer for the last
+      10 years. A self taught Rubyist and RoR aficionado, she’s lead
+      many workshops for both RailsBridge and LaRuby study groups.
+      She is dedicated about teaching and stewarding her students
+      to their new beginnings while bringing holistic approach to
+      software development. Loves Thai food, getting lost in a new
+      city and product design of the 60’s. Coffee-drinker, of course!
+    fr: |
+      Anna has been obsessed with computers & type since she got her
+      first Mac Performa 200 back in the day. A classically trained designer,
+      she has worked as both a Front End & Back End Developer for the last
+      10 years. A self taught Rubyist and RoR aficionado, she’s lead
+      many workshops for both RailsBridge and LaRuby study groups.
+      She is dedicated about teaching and stewarding her students
+      to their new beginnings while bringing holistic approach to
+      software development. Loves Thai food, getting lost in a new
+      city and product design of the 60’s. Coffee-drinker, of course!
+  links:
+    # - url: https://www.linkedin.com/pub/yoann-bohbot/b9/232/500
+    #   icon: linkedin
+    # - url: https://twitter.com/yoannbohbot
+    #   icon: twitter
+
+thomas-hartman:
+  image_name: thomas-hartman.jpg
+  description:
+    en: |
+      Thomas lives in gmail, bugzilla, and the command line, approximately in that order.
+      He builds software.  Mostly front-end, sometimes back-end.  Sometimes solo, more often lately managing geographically distributed teams for larger scale projects.
+      Picking good problems is perhaps the hardest problem, and this applies equally to academia and industry.
+      Mostly he uses open source tools, and he is interested in using functional programming and strong types systems (like haskell) in industrial settings.
+    fr: |
+      Thomas lives in gmail, bugzilla, and the command line, approximately in that order.
+      He builds software.  Mostly front-end, sometimes back-end.  Sometimes solo, more often lately managing geographically distributed teams for larger scale projects.
+      Picking good problems is perhaps the hardest problem, and this applies equally to academia and industry.
+      Mostly he uses open source tools, and he is interested in using functional programming and strong types systems (like haskell) in industrial settings.
+  links:
+    # - url: https://www.linkedin.com/pub/yoann-bohbot/b9/232/500
+    #   icon: linkedin
+    # - url: https://twitter.com/yoannbohbot
+    #   icon: twitter
+
 yoann:
   image_name: yoann.jpg
   description:
     en: |
-      **Yoann** believes in the magic of **code**. After having created several projects,
-      he now wishes to share his knowledge to help people having tools to build their dreams.
+      Yoann believes in the magic of code. After having created several projects,
+      he now wishes to share his knowledge to help people get technical tools to build their dreams.
     fr: |
-      **Yoann** croit en la magie du **code**. Après avoir mis en place plusieurs projets,
+      Yoann croit en la magie du code. Après avoir mis en place plusieurs projets,
       il souhaite désormais partager ses connaissances pour permettre à tous d'avoir les outils pour
       réaliser leurs rêves.
   links:
@@ -677,12 +726,12 @@ louis:
   image_name: louis.jpg
   description:
     en: |
-      After 5 years working as a product manager in Paris, 
-      Louis is specialised in big data and mobile tracking. 
+      After 5 years working as a product manager in Paris,
+      Louis is specialised in big data and mobile tracking.
       He will teach you how to develop ambitious projets
     fr: |
       Après 5 années dédiées au Product Management à Paris,
-      Louis s’est spécialisé dans le big data et le tracking Mobile. 
+      Louis s’est spécialisé dans le big data et le tracking Mobile.
       Il vous apprendra comment monter des projets qui marchent
   links:
     - url: https://www.linkedin.com/pub/louis-chavane/23/377/a18
