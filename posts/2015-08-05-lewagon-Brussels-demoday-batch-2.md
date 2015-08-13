@@ -88,7 +88,7 @@ In this ever changing context, companies have two choices: constantly innovate, 
 </br>3 - « Company creation » : take the spin off to sustainability
 
 
-### [Divotee](http://divotee.herokuapp.com/) - Find the right caddy for your golf game
+### [Divotee](http://golfdivotee.com/) - Find the right caddy for your golf game
 
 ![Divotee, find the right caddy for your golf game](blog_image_path Brussels/demoday/DivoTee.jpg)
 
