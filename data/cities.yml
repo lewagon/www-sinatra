@@ -288,6 +288,7 @@ bordeaux:
   staff:  # cf data/staff.yml
     - bertrand
     - sylvain
+    - caroline
   programs:
     bootcamp: true
   meetup_id: 18567072
