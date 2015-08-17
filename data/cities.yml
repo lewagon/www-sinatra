@@ -284,6 +284,7 @@ bordeaux:
     - ajstage
     - aquant
     - aquinum
+    - cci_bordeaux
   subventions: # From data/subventions.yml
   staff:  # cf data/staff.yml
     - bertrand
