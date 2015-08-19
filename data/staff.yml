@@ -159,6 +159,24 @@ boris:
       icon: github-alt
     - url: http://fr.linkedin.com/pub/boris-paillard/70/226/867
       icon: linkedin
+
+caroline:
+  image_name: caroline.jpg
+  description:
+    fr: |
+      Consultante depuis 10 ans sous le nom d'[edesign](http://www.edesign.fr), **Caroline** est spécialisée en ergonomie et 
+      design d'interfaces (UX/UI Design). Elle est aussi formatrice dans plusieurs écoles à Bordeaux et membre du 
+      conseil d'administration d'[Aquinum](http://aquinum.fr/), l'association des professionnels du numérique en Aquitaine.
+      Caroline interviendra 2 journées sur le sujet de l'expérience utilisateur.
+    en: |
+      Consultant for 10 years known as edesign, **Caroline** is specialized in user experience and 
+      user interfaces. She's also teacher in several schools in Bordeaux and board member of Aquinum, the 
+      digital professionals association in Aquitaine.
+  links:
+    - url: https://twitter.com/caroline_bdx
+      icon: twitter
+    - url: https://fr.linkedin.com/pub/caroline-bedaux/17/93/b70
+      icon: linkedin
 cecile:
   image_name: cecile.png
   description:
@@ -566,6 +584,7 @@ sylvain:
     fr: |
       Développeur web depuis 10 ans et enseignant à Ingésup, **Sylvain** est ancré dans plusieurs communautés de développeurs à Bordeaux.<br>
       Freelance depuis 2008, il a travaillé avec plusieurs startup Bordelaises et Parisiennes et a participé à plusieurs Startup Weekend.
+      Sylvain est le professeur principal du Wagon Bordeaux.
     en: |
       Web developer for 10 years and teaching at Ingésup **Sylvain** belongs to various developer communities in Bordeaux.<br>
       Freelance since 2008, he has worked with several startups from Bordeaux and Paris and has participated to many Startup Weekend.
