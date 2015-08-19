@@ -52,6 +52,11 @@ capitainetrain:
   image_name: capitainetrain.png
   url: http://www.capitainetrain.com
 
+cci_bordeaux: 
+  name: CCI Bordeaux
+  image_name: cci-logo.png
+  url: http://bordeaux.cci.fr/
+
 central_design:
   name: Central Design
   image_name: central_design.svg
