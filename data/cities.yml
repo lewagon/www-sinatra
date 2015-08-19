@@ -219,6 +219,8 @@ beirut:
     - uktechhub
     - altcity
     - MIT
+    - jgroup
+    - executive
 
   programs:
     bootcamp: true

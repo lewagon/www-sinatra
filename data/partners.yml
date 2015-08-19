@@ -52,7 +52,7 @@ capitainetrain:
   image_name: capitainetrain.png
   url: http://www.capitainetrain.com
 
-cci_bordeaux: 
+cci_bordeaux:
   name: CCI Bordeaux
   image_name: cci-logo.png
   url: http://bordeaux.cci.fr/
@@ -92,6 +92,11 @@ eventing-lb:
   image_name: eventing-lb.png
   url: http://www.eventinglb.com
 
+executive:
+  name: Executive magazine
+  image_name: executive.png
+  url: www.executive-magazine.com
+
 fifty_five:
   name: Fifty Five
   image_name: fifty-five.png
@@ -111,6 +116,11 @@ ihjoz:
   name: Ihjoz
   image_name: ihjoz.png
   url: https://www.ihjoz.com
+
+jgroup:
+  name: JGroup
+  image_name: jgroup.png
+  url: http://www.jgroup-me.com
 
 konnectr:
   name: KonnectR
