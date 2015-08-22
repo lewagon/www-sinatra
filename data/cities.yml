@@ -2,12 +2,13 @@ paris:
   active: true
   name: Paris
   locale: fr
-  address: "25, rue du Petit Musc 75004 Paris"
+  address: "16 villa gaudelet, 75011 Paris"
   description:
-    fr: "En plein coeur de Paris, à 100m de l'île Saint-Louis et de la place de la Bastille, notre coding space occupe 140m2 au second étage de <a href='http://www.thefamily.co/'>The Family</a>, l'occasion pour les élèves du Wagon de plonger dans l'écosystème tech et entrepreneurial."
+    fr: |
+      En plein coeur de Paris, à deux pas de la rue d'Oberkampf, Le Wagon accueille ses élèves et ses apprentis du Meetup
+      dans un espace de 600 mètres carrés.
     en: |
-      In the heart of Paris, 100 meters away from "Ile Saint-Louis" and "Place de la Bastille".
-      You will benefit from a 140m2 hacker space within the <a href='http://www.thefamily.co/'>The Family</a>, one of the coolest French accelerator.
+      In the heart of Paris, close by the Oberkampf street, our 600 sq. m space welcome students and meetup apprentices!
       Be prepared to dive in a world of tech and startups!
   images:
     banner: bg/paris.jpg
@@ -15,9 +16,8 @@ paris:
   filter_color: "rgba(0, 131, 245, 0.6)"
   geo:
     zoom: 15
-    latitude: 48.8529369
-    longitude: 2.3641780
-  next_session_fragment: octobre-2014
+    latitude: 48.864848
+    longitude: 2.379853
   partners:  # From data/partners.yml
     - thefamily
     - lecamping
