@@ -164,13 +164,13 @@ caroline:
   image_name: caroline.jpg
   description:
     fr: |
-      Consultante depuis 10 ans sous le nom d'[edesign](http://www.edesign.fr), **Caroline** est spécialisée en ergonomie et 
-      design d'interfaces (UX/UI Design). Elle est aussi formatrice dans plusieurs écoles à Bordeaux et membre du 
+      Consultante depuis 10 ans sous le nom d'[edesign](http://www.edesign.fr), **Caroline** est spécialisée en ergonomie et
+      design d'interfaces (UX/UI Design). Elle est aussi formatrice dans plusieurs écoles à Bordeaux et membre du
       conseil d'administration d'[Aquinum](http://aquinum.fr/), l'association des professionnels du numérique en Aquitaine.
       Caroline interviendra 2 journées sur le sujet de l'expérience utilisateur.
     en: |
-      Consultant for 10 years known as edesign, **Caroline** is specialized in user experience and 
-      user interfaces. She's also teacher in several schools in Bordeaux and board member of Aquinum, the 
+      Consultant for 10 years known as edesign, **Caroline** is specialized in user experience and
+      user interfaces. She's also teacher in several schools in Bordeaux and board member of Aquinum, the
       digital professionals association in Aquitaine.
   links:
     - url: https://twitter.com/caroline_bdx
@@ -653,6 +653,26 @@ thomas_gautier:
       icon: twitter
     - url: http://www.doum.it/
       icon: link
+vadim:
+  image_name: vadim.jpg
+  description:
+    fr: |
+      **Vadim**, Belge parlant français, néerlandais et anglais, est diplômé en économie.
+      Ancien analyste stratégique de marché transformé en développeur mobile (Android) et Web (Ruby)
+      au cours de la dernière année et demie. Passionné par la simplicité et la beauté
+      du code, oh et ne l'oublions pas le côté commercial de la chose!
+    en: |
+      **Vadim** French, Dutch and English speaking Belgian, graduated in economics. Former Strategic
+      Market Analyst turned into a mobile (android) and web (ruby) developer
+      over the last year and a half. Passionate about the simplicity and the beauty
+      of code, oh and let's not forget the business side of it!
+  links:
+    - url: https://github.com/PPWSK
+      icon: github-alt
+    - url: https://twitter.com/ppwsk
+      icon: twitter
+    - url: https://be.linkedin.com/in/vadimpopowsky
+      icon: linkedin
 xavier:
   image_name: xavier.jpg
   description:
