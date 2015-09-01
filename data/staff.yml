@@ -513,6 +513,22 @@ olivier_colot:
       icon: linkedin
     - url: http://www.colot.eu/
       icon: link
+rami:
+  image_name: rami.jpg
+  description:
+    fr: |
+      Il y’a 3 ans **Rami** a choisi de se reconvertir dans le code. Apres ces études
+      en sciences informatiques il décide de tenter l’aventure Le Wagon et participe
+      à la première promotion belge. Depuis il est à la recherche constante de défis
+      à relever , il a notamment fait ces armes chez Rightsup et Belighted/Scale!!
+    en: |
+      3 years ago **Rami** wanted to change career and dived into coding. After his
+      degree in computer science he decided to join Le Wagon adventure and was
+      part of the first belgian batch. Since then he's been perfecting his skills
+      on projects like getScale.io and Rightsup.
+  links:
+    - url: https://github.com/
+      icon: github-alt
 seb:
   image_name: seb.png
   description:
