@@ -303,7 +303,7 @@ bordeaux:
     - link: https://www.flickr.com/photos/sera69/16762062541/
       label: Serge Vincent
 
-marseille:
+aix-marseille:
   active: true
   name: Aix - Marseille
   locale: fr
