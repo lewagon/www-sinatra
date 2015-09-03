@@ -305,7 +305,7 @@ bordeaux:
 
 marseille:
   active: true
-  name: Marseille
+  name: Aix - Marseille
   locale: fr
   address: "Nous communiquerons bientôt sur le lieu de la formation"
   description:
@@ -329,9 +329,9 @@ marseille:
     - louis
   programs:
     bootcamp: true
-  meetup_id: # TODO
+  meetup_id: 18892825
   facebook: https://www.facebook.com/lewagonformation
-  twitter: 3394003701
+  twitter: 3525061223
   credits:
     - link: https://www.flickr.com/photos/mathieu_distefano/8344859795/
       label: Mathieu Distefano
