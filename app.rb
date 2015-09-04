@@ -177,6 +177,10 @@ class App < Sinatra::Base
     redirect 'https://ondemand.lewagon.org/tracks/devenez-developpeur-front-end/go', 301
   end
 
+  get '/marseille' do
+    redirect '/aix-marseille'
+  end
+
   before do
     unless LOCALES.include?(I18n.locale)  # Detected by Rack::Locale
       I18n.locale = DEFAULT_LOCALE
