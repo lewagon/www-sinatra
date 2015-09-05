@@ -102,17 +102,17 @@
 #   trello:
 #     inbox_list_id: 54fee28828ffa1e52b092d3f
 
-brussels-august-2015:
-  city: brussels
-  start_date: 2015-08-17
-  end_date: 2015-10-16
-  language: en
-  price: 4500
-  currency: €
-  currency_iso: EUR
-  full: true
-  trello:
-    inbox_list_id: 553f8ebad4e7252ac3fbe144
+# brussels-august-2015:
+#   city: brussels
+#   start_date: 2015-08-17
+#   end_date: 2015-10-16
+#   language: en
+#   price: 4500
+#   currency: €
+#   currency_iso: EUR
+#   full: true
+#   trello:
+#     inbox_list_id: 553f8ebad4e7252ac3fbe144
 
 # losangeles-august-2015:
 #   city: losangeles
@@ -133,6 +133,7 @@ lille-septembre-2015:
   price: 4500
   currency: €
   currency_iso: EUR
+  last_seats: true
   language: fr
   trello:
     inbox_list_id: 553e763664eeccbcfacd48c5
@@ -145,6 +146,7 @@ beirut-lead-2015:
   currency: $
   currency_iso: USD
   language: en
+  last_seats: true
   trello:
     inbox_list_id: 5483111b016614fe47750d4f
 
