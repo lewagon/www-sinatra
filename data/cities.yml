@@ -270,7 +270,7 @@ bordeaux:
   active: true
   name: Bordeaux
   locale: fr
-  address: "Rue Abbé de l'Épée, 33000 Bordeaux"
+  address: "CCI Bordeaux, 17 place de la Bourse, 33000 Bordeaux"
   description:
     fr: |
       En plein coeur de Bordeaux et à proximité de tous les transports en commun (bus, tramway), le Wagon vous accueille dans un cadre unique.  Bordeaux Métropole Numérique a gagné le label FrenchTech, le Wagon vous permettra ainsi de découvrir tout cet écosystème numérique bordelais riche en opportunités.
