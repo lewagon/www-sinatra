@@ -202,6 +202,8 @@ losangeles-october-2015:
   currency: $
   currency_iso: USD
   language: en
+  facebook_tracking_ids:
+    - 6029555810828
   trello:
     inbox_list_id: 5566cb5725f4b4031ac12bb9
 
