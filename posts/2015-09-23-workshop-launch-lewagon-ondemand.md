@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "La génèse du Wagon OnDemand"
+title: "La genèse du Wagon OnDemand"
 author: sebastien
 labels:
   - startup
