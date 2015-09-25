@@ -282,8 +282,8 @@ bordeaux:
   filter_color: "rgba(245, 0, 0, 0.28);"
   geo:
     zoom: 15
-    latitude: 44.842285
-    longitude: -0.582633
+    latitude: 44.8418710
+    longitude: -0.5706670
   partners:  # From data/partners.yml
     - ajstage
     - aquant
