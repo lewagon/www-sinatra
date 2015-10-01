@@ -217,6 +217,17 @@ paris-january-2016:
   trello:
     inbox_list_id: 5592467ea401f87431ccbb7a
 
+bordeaux-january-2016:
+  city: bordeaux
+  start_date: 2016-01-04
+  end_date: 2015-03-04
+  price: 4500
+  currency: €
+  currency_iso: EUR
+  language: fr
+  trello:
+    inbox_list_id: 560cfea931029c41d4bcec16
+
 marseille-january-2016:
   city: aix-marseille
   start_date: 2016-01-11
