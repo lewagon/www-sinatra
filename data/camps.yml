@@ -240,3 +240,16 @@ marseille-january-2016:
   currency_iso: EUR
   trello:
     inbox_list_id: 55ae3cd4c4920b0e95b671ee
+
+beirut-february-2016:
+  city: beirut
+  start_date: 2016-02-01
+  end_date: 2016-04-01
+  language: fr
+  price: 4500
+  currency: $
+  currency_iso: USD
+  trello:
+    inbox_list_id: 5613c7159945111c40dfbe20
+
+
