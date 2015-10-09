@@ -150,30 +150,29 @@
 #   trello:
 #     inbox_list_id: 5483111b016614fe47750d4f
 
-# paris-septembre-2015:
-#   city: paris
-#   start_date: 2015-09-21
-#   end_date: 2015-11-20
-#   price: 4500
-#   currency: €
-#   currency_iso: EUR
-#   language: fr
-#   last_seats: true
-#   full: true
-#   trello:
-#     inbox_list_id: 54fee379820e199751400ace
+paris-septembre-2015:
+  city: paris
+  start_date: 2015-09-21
+  end_date: 2015-11-20
+  price: 4500
+  currency: €
+  currency_iso: EUR
+  language: fr
+  last_seats: true
+  full: true
+  trello:
+    inbox_list_id: 54fee379820e199751400ace
 
-# bordeaux-septembre-2015:
-#   city: bordeaux
-#   start_date: 2015-10-05
-#   end_date: 2015-12-04
-#   price: 4500
-#   currency: €
-#   currency_iso: EUR
-#   language: fr
-#   last_seats: true
-#   trello:
-#     inbox_list_id: 554b60bd13d9df5e9b98a9e8
+bordeaux-septembre-2015:
+  city: bordeaux
+  start_date: 2015-10-05
+  end_date: 2015-12-04
+  price: 4500
+  currency: €
+  currency_iso: EUR
+  language: fr
+  trello:
+    inbox_list_id: 554b60bd13d9df5e9b98a9e8
 
 # paris-octobre-2015:
 #   city: paris
@@ -191,7 +190,6 @@ brussels-october-2015:
   currency: €
   currency_iso: EUR
   language: en
-  last_seats: true
   trello:
     inbox_list_id: 55cb92b918c7ef1f0e597ee2
 
@@ -219,17 +217,6 @@ paris-january-2016:
   trello:
     inbox_list_id: 5592467ea401f87431ccbb7a
 
-bordeaux-january-2016:
-  city: bordeaux
-  start_date: 2016-01-04
-  end_date: 2015-03-04
-  price: 4500
-  currency: €
-  currency_iso: EUR
-  language: fr
-  trello:
-    inbox_list_id: 560cfea931029c41d4bcec16
-
 marseille-january-2016:
   city: aix-marseille
   start_date: 2016-01-11
@@ -240,16 +227,3 @@ marseille-january-2016:
   currency_iso: EUR
   trello:
     inbox_list_id: 55ae3cd4c4920b0e95b671ee
-
-beirut-february-2016:
-  city: beirut
-  start_date: 2016-02-01
-  end_date: 2016-04-01
-  language: fr
-  price: 4500
-  currency: $
-  currency_iso: USD
-  trello:
-    inbox_list_id: 5613c7159945111c40dfbe20
-
-

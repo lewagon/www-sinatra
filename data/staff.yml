@@ -746,12 +746,13 @@ thomas-hartman:
   image_name: thomas-hartman.jpg
   description:
     en: |
-      Thomas lives in gmail, bugzilla, and the command line, exactly in that order.
+      Thomas lives in gmail, bugzilla, and the command line, precisely in that order.
       He builds software.  Mostly front-end, sometimes back-end.  Sometimes solo, more often lately managing geographically distributed teams for larger scale projects.
       Picking good problems is perhaps the hardest problem, and this applies equally to academia and industry.
       Mostly he uses open source tools, and he is interested in using functional programming and strong types systems (like haskell) in industrial settings.
+
     fr: |
-      Thomas lives in gmail, bugzilla, and the command line, exactly in that order.
+      Thomas lives in gmail, bugzilla, and the command line, precisely in that order.
       He builds software.  Mostly front-end, sometimes back-end.  Sometimes solo, more often lately managing geographically distributed teams for larger scale projects.
       Picking good problems is perhaps the hardest problem, and this applies equally to academia and industry.
       Mostly he uses open source tools, and he is interested in using functional programming and strong types systems (like haskell) in industrial settings.
