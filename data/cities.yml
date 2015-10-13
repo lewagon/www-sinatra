@@ -143,42 +143,6 @@ nancy:
     - link: https://www.flickr.com/photos/alexprevot/7502834418/
       label: Alexandre Prévot
 
-losangeles:
-  active: true
-  name: Los Angeles
-  locale: en
-  address: "113 N San Vicente Blvd. Beverly Hills, CA 90211"
-  description:
-    en: |
-      Our courses are taught in <strong>English</strong>,
-      at <a href='http://www.dotscowork.com/'>dots COWORK</a>, a coworking
-      located in the heart of Beverly Hills, just off of Wilshire and La Cienega.
-    fr: |
-      Nos cours, à Los Angeles, sont donnés en <strong>anglais</strong>,
-      dans les locaux de <a href='http://www.dotscowork.com/'>dots COWORK</a>,
-      un coworking, situé au coeur de la ville de Beverly Hills,
-      à deux minutes à pied de Wilshire et La Cienega.
-  images:
-    banner: bg/los-angeles.jpg
-    bottom: bg/local-dots.jpg
-  filter_color: "rgba(70, 20, 140, 0.3)"
-  geo:
-    zoom: 15
-    latitude: 34.065447
-    longitude: -118.373670
-  next_session_fragment: losangeles-june-2015
-  staff:  # cf data/staff.yml
-    - anna
-    - thomas-hartman
-    - yoann
-  programs:
-    bootcamp: true
-  partners: # From data/partners.yml
-    - dots_cowork
-  #meetup_id: TBD
-  #facebook: https://www.facebook.com/TBD
-  twitter: https://twitter.com/dotscode
-
 beirut:
   active: true
   name: Beirut

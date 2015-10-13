@@ -114,18 +114,6 @@
 #   trello:
 #     inbox_list_id: 553f8ebad4e7252ac3fbe144
 
-# losangeles-august-2015:
-#   city: losangeles
-#   start_date: 2015-08-31
-#   end_date: 2015-10-30
-#   price: 6000
-#   price_was: 12000
-#   currency: $
-#   currency_iso: USD
-#   language: en
-#   trello:
-#     inbox_list_id: 5566cb5725f4b4031ac12bb9
-
 # lille-septembre-2015:
 #   city: lille
 #   start_date: 2015-09-07
@@ -194,19 +182,6 @@ brussels-october-2015:
   last_seats: true
   trello:
     inbox_list_id: 55cb92b918c7ef1f0e597ee2
-
-losangeles-october-2015:
-  city: losangeles
-  start_date: 2015-10-19
-  end_date: 2015-12-18
-  price: 6000
-  price_was: 12000
-  currency: $
-  currency_iso: USD
-  language: en
-  trello:
-    inbox_list_id: 5566cb5725f4b4031ac12bb9
-
 
 paris-january-2016:
   city: paris
